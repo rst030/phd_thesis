@@ -1,5 +1,28 @@
-\documentclass{article}
+\documentclass{book}
 \usepackage{amsmath,a4wide}
+
+\usepackage{tabularray}
+\usepackage{adjustbox}
+\usepackage[skip=1ex]{caption} % for better control over caption
+\usepackage{amssymb}
+\usepackage{txfonts} % for \muup
+\UseTblrLibrary{booktabs}
+\usepackage{array} % flr denser tables
+%\bibliographystyle{abbrvnat}
+%\biboptions{compress,semicolon}
+
+
+% ------ TEMP --------------
+\usepackage[dvipsnames]{xcolor}
+\newcommand{\ik}[1]{\textcolor{RawSienna}{#1}} % TEMP
+%\newcommand{\jb}[1]{\textcolor{blue}{#1}} % TEMP
+\usepackage[normalem]{ulem}
+
+\usepackage{booktabs}
+\usepackage{lineno}
+\linenumbers
+
+
 
 \begin{document}
 
@@ -9,25 +32,48 @@
 \begin{center}
 \begin{huge}
 Storage and Transport of Charge in\\
-Organic Energy Storage Materials\\
+Redox Conductive Polymers\\
 Probed with\\
 Electron Spin Resonance Spectroscopy\\
 \end{huge}
 \vspace{10\baselineskip}
 \textbf{Ilia Romanovich Kulikov}\\
 \vspace{10\baselineskip}
-Im Fachbereich Physik der Freien Universität Berlin eingereichte\\
+Im Fachbereich Physik der Freien Universit\"{a}t Berlin eingereichte\\
 Dissertation zur Erlangung des Grades eines\\
 Doktors der Naturwissenschaften\\
 \vspace{16\baselineskip}
-Fachbereich Physik\\
-Freie Universität Berlin\\
+Berlin\\
 August 2023\\
-\newpage
+
 
 
 
 \end{center}
+\newpage
+\vspace{36\baselineskip}
+
+\hspace*{\fill} Erster Gutachter: Prof. Dr. Jan Behrends\\
+\hspace*{\fill} Zweiter Gutachter: Prof. Dr. Kirill Bolotin\\
+\hspace*{\fill} Tag der Disputation: \\
+
+\newpage
+\tableofcontents
+\newpage
+
+\include{summary/summary}
+\include{summary/list_of_abbreviations}
+\include{introduction/introduction}
+\include{electrochemistry/electrochemistry}
+\include{epr/epr}
+\include{pulse/pulse}
+\include{lod/lod}
+\include{edmr/edmr}
+\include{model/model}
+\include{outlook/outlook}
+%%%REFERENCES%%%
+\bibliographystyle{rsc} %the RSC's .bst file
+\bibliography{Bibliography} %You need to replace "rsc" on this line with the name of your .bib file
 
 
 \end{document}
