@@ -1,0 +1,14 @@
+\contentsline {chapter}{\numberline {1}Introduction}{5}{}%
+\contentsline {paragraph}{}{6}{}%
+\contentsline {chapter}{\numberline {2}Electrochemical Energy Storage in Redox Conductive Polymers}{9}{}%
+\contentsline {chapter}{\numberline {3}Operando EPR Spectroscopy of Energy Storage Materials}{11}{}%
+\contentsline {section}{\numberline {3.1}Electron Paramagnetic Resonance}{11}{}%
+\contentsline {subsection}{\numberline {3.1.1}Spin Hamiltonian}{11}{}%
+\contentsline {chapter}{\numberline {4}Pulsed Electron Paramagnetic Resonance Spectroscopy of Densely Packed Nitroxide Radicals}{13}{}%
+\contentsline {section}{\numberline {4.1}Coherent Spin Motion under Pulsed Microwave Field}{13}{}%
+\contentsline {section}{\numberline {4.2}Three-Dimensional Electron Gas with Inter-Spin Interactions}{13}{}%
+\contentsline {chapter}{\numberline {5}Longitudinally Detected Electron Paramagnetic Resonance in Systems with Short Relaxation Times}{15}{}%
+\contentsline {chapter}{\numberline {6}Electrically Detected Electron Paramagnetic Resonance on a Cathode of an Organic Radical Battery}{17}{}%
+\contentsline {section}{\numberline {6.1}Distribution of Current Density in On-Substrate Meander-Shaped Electrodes}{17}{}%
+\contentsline {chapter}{\numberline {7}The Deep-Trap Model of a TEMPO-Salen Electrode Film}{21}{}%
+\contentsline {chapter}{\numberline {8}Conclusions and Outlook}{23}{}%

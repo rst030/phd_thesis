@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: my_thisis.aux
+A level-1 auxiliary file: summary/list_of_abbreviations.aux
+A level-1 auxiliary file: introduction/introduction.aux
+A level-1 auxiliary file: electrochemistry/electrochemistry.aux
+A level-1 auxiliary file: operando_epr/operando_epr.aux
+A level-1 auxiliary file: pulse/pulse.aux
+A level-1 auxiliary file: lod/lod.aux
+A level-1 auxiliary file: edmr/edmr.aux
+A level-1 auxiliary file: model/model.aux
+A level-1 auxiliary file: outlook/outlook.aux
+The style file: plain.bst
+Database file #1: Bibliography.bib
+Warning--entry type for "Casado2021" isn't style-file defined
+--line 1085 of file Bibliography.bib
+You've used 50 entries,
+            2118 wiz_defined-function locations,
+            851 strings with 14918 characters,
+and the built_in function-call counts, 19747 in all, are:
+= -- 1815
+> -- 1334
+< -- 0
++ -- 532
+- -- 474
+* -- 1639
+:= -- 3473
+add.period$ -- 149
+call.type$ -- 50
+change.case$ -- 385
+chr.to.int$ -- 0
+cite$ -- 50
+duplicate$ -- 548
+empty$ -- 1265
+format.name$ -- 474
+if$ -- 3937
+int.to.chr$ -- 0
+int.to.str$ -- 50
+missing$ -- 51
+newline$ -- 252
+num.names$ -- 100
+pop$ -- 306
+preamble$ -- 1
+purify$ -- 337
+quote$ -- 0
+skip$ -- 360
+stack$ -- 0
+substring$ -- 1173
+swap$ -- 50
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 196
+warning$ -- 0
+while$ -- 147
+width$ -- 52
+write$ -- 547
+(There was 1 warning)

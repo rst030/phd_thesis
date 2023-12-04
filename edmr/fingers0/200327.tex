@@ -1,0 +1,132 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\usepackage[object=vectorian]{pgfornament}
+\usepackage{lipsum,tikz}
+\usepackage{listing}
+
+\usepackage{subfig}
+\usepackage{hyperref}
+\usepackage{chemformula}
+\usepackage[object=vectorian]{pgfornament} %%  http://altermundus.com/pages/tkz/ornament/index.html
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{hyperref}
+
+\newcommand{\sectionline}[2]{%
+  \nointerlineskip \vspace{.5\baselineskip}\hspace{\fill}
+  {\color{#1}
+    \resizebox{0.5\linewidth}{2ex}
+    {{%
+    {\begin{tikzpicture}
+    \node  (C) at (0,0) {};
+    \node (D) at (9,0) {};
+    \path (C) to [ornament=#2] (D);
+    \end{tikzpicture}}}}}%
+    \hspace{\fill}
+    \par\nointerlineskip \vspace{.5\baselineskip}
+  }
+
+
+\begin{document}
+
+
+\title{%
+  Second Week of Quarantine\\
+  \large The Weekly Progress Report \\
+    }
+
+\author{Ilia Kulikov}
+
+
+\setcounter{chapter}{+1}
+\maketitle
+
+\section{This Week}
+This week I spent some time with the Finger grid problem and did some plotting for the Battery Project.\\
+\par \textbf{Batteries}: More plotting. Following the plotting plan. 55\% of data is plotted. Changed the representation of redox plots. Some of the plots inserted in this report. All plots are as usually in 
+\begin{verbatim}/EPR on Batteries/Figures_and_plots/all_plots/
+\end{verbatim}
+
+\begin{figure} [!ht]
+
+\begin{center}
+       \includegraphics[width=1\textwidth]{../../Figures_and_plots/all_plots/plt_11_s3_dipping.pdf}
+       \end{center}
+\caption{Dipping Sample 3 in Acetonitrile. Initially Acetonitrile shows no signal. When the sample is inserted, one broad line with shoulders is seen. As the sample removed, the Acetonitrile is contaminated with presumably monomer.}
+     \label{fig:dipping}
+\end{figure}
+
+\begin{figure} [!ht]
+
+\begin{center}
+       \includegraphics[width=1\textwidth]{../../Figures_and_plots/all_plots/plt_18_s3_overcharge.pdf}
+       \end{center}
+\caption{Electrochemical cell in extremal conditions: overcharging with higher potential}
+     \label{fig:overcharge}
+\end{figure}
+
+\begin{figure} [!ht]
+\begin{center}
+       \includegraphics[width=1\textwidth]{../../Figures_and_plots/all_plots/plt_23_S4_long_redox.pdf}
+       \end{center}
+\caption{Typical redox plot. Color-mapping the applied potential}
+     \label{fig:long_redox}
+\end{figure}
+
+\par \textbf{Finger Grid Problem}: How to measure electrical conductivity of a film using only two electrodes? Apply voltage $U$ to the electrodes and measure current $I$ that goes through the film. The current distribution depends on the shape of the film.  Now it is a beautiful geometrical problem. A general expression for sample's conductivity can be given by \eqref{eq:equation}, where $I$ stands for the applied current, $\vec{j}\,$is the current density within the film, $S\,$is the area of the contact, $V\,$is the volume of the film, $\vec{E}\,$is the electric field induced by the applied voltage$\,U$, $\Delta=\nabla^2$\\ 
+\begin{equation} \label{eq:equation}
+I = \oint_{S}\left(\vec{j}\cdot\vec{n}\right)dS = \int_{V}\left(\nabla\cdot{\vec{j}}\right)dV = \sigma\int_{V}\left(\nabla\cdot{\vec{E}}\right)dV = \sigma\int_{V}\Delta U dV
+\end{equation}
+\par I used Ohm's law and Gauss-Ostrogradsky to get the relation between the applied voltage $U$, measured current $I$ and conductivity $\sigma$ that is the value of interest. The last integral with a laplacian contains the geometry of the problem. Together with the potentials of the contacts it is a boundary value problem.\\ 
+\par The differential operators in eq. \ref{eq:equation} are written in a general form, they do not include the coordinate system explicitly. Let us assume the operators are written in a certain coordinate system. Make a continuous transformation of that coordinate system that preserves both angles and the shapes of infinitesimally small figures, the conformal mapping \cite{bib:conformal_mapping}. The laplacian operator does not change under such transformation, as the conformal transformation is given by a harmonic function and a laplacian of a harmonic function is zero \cite{bib:conformal}. The eq \ref{eq:equation} will then look the same in two conformally equivalent domains, as for example in a rectangle and in a half-plane. In hope for an easy solution, we can make a conformal transformation of our domain to a half-plane, similar as to L. Van der Pauw did in his sheet resistance paper. We hope to solve \ref{eq:equation} analytically in the half-plane domain. Then we can wrap the solution back to the rectangle with the inverse transform. The inverse coordinate transform will contain the dependency between the couductivity and the shape of the film. So that two-electrode structures can be used for characterizing polymer films of a known thickness. I might be completely wrong in this approach and a numeric solution can be the right approach to this problem. Maybe I should not spend much time on it. However, in \cite{bib:conformal_mapping} it is claimed that the electric resistance does not change under conformal mapping! That was hoped for from \ref{eq:equation} :)
+
+\begin{figure} [!ht]
+\begin{center}
+       \includegraphics[width=1.1\textwidth]{D:/work/Grid Structures/manuscript/pics/derivation.png}
+       \end{center}
+\caption{To the finger grid problem}
+     \label{fig:long_redox}
+\end{figure}
+
+
+
+\section{Next Week}
+$\bullet$ Coutinue with plotting. Reading the Eatons paper on dinitroxides in solution.\\
+$\bullet$ Attempting to solve \ref{eq:equation}.\\
+$\bullet$ Restructuring the Hall paper according to the last discussion (accenting the idea not the data for polymers). Or doing literature research on OFETS?\\
+
+%\sectionline{black}{72}
+
+\par A copy of this report as well as other relevant reports are collected in \begin{verbatim}
+/net/grouphome/ag-bittl/EPR on Batteries/Writing/report
+\end{verbatim} 
+%I hope to be back in the institute by Tuesday.
+
+%\newpage
+\begin{thebibliography}{999}
+\bibitem{bib:conformal_mapping} \href{http://www.bru.hlphys.jku.at/conf_map/index.html} {a visualization of electric current flow under a conformal mapping}. Even Hall effect is considered.
+\bibitem{bib:conformal} \href{https://en.wikipedia.org/wiki/Conformal_map#Physics_and_engineering} {a link to Wikipedia.} Conformal mapping preserves the laplacian.
+
+%\bibitem{bib:PNDI_mobility} A high-mobility electron-transporting polymer for 
+%printed transistors, the Nature paper with FET studies on PNDI
+%\bibitem{bib:n-type-doping} n-doping of organic semiconductors, a general review
+%\bibitem{p3HT_TOF} TOF mobility measurements in pristine films of P3HT: control of hole
+%injection and influence of film thickness
+%\bibitem{p3HT_sigmaaldrich} \href{https://www.ossila.com/products/p3ht?_pos=1&_sid=5cb60a34a&_ss=r&variant=18448157343840}{click}
+%\bibitem{pBTTT_p3HT_fet} Liquid-crystalline semiconducting polymers with high charge-carrier mobility
+%\bibitem{pBTTT_p3HT_structure} Atomic and electronic structure of polymer organic semiconductors: P3HT, PQT, and PBTTT
+%\bibitem{DPP-DTT} \href{https://www.ossila.com/products/dpp-dtt-polymer?variant=30366225367136}{clack}
+%\bibitem{DPP-DTT_synth} A stable solution-processed polymer semiconductor with record high-mobility for printed transistors
+
+\end{thebibliography}
+
+
+
+\end{document}
+
