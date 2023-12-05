@@ -1,14 +1,36 @@
-\contentsline {chapter}{\numberline {1}Introduction}{5}{}%
-\contentsline {paragraph}{}{6}{}%
-\contentsline {chapter}{\numberline {2}Electrochemical Energy Storage in Redox Conductive Polymers}{9}{}%
-\contentsline {chapter}{\numberline {3}Operando EPR Spectroscopy of Energy Storage Materials}{11}{}%
-\contentsline {section}{\numberline {3.1}Electron Paramagnetic Resonance}{11}{}%
-\contentsline {subsection}{\numberline {3.1.1}Spin Hamiltonian}{11}{}%
-\contentsline {chapter}{\numberline {4}Pulsed Electron Paramagnetic Resonance Spectroscopy of Densely Packed Nitroxide Radicals}{13}{}%
-\contentsline {section}{\numberline {4.1}Coherent Spin Motion under Pulsed Microwave Field}{13}{}%
-\contentsline {section}{\numberline {4.2}Three-Dimensional Electron Gas with Inter-Spin Interactions}{13}{}%
-\contentsline {chapter}{\numberline {5}Longitudinally Detected Electron Paramagnetic Resonance in Systems with Short Relaxation Times}{15}{}%
-\contentsline {chapter}{\numberline {6}Electrically Detected Electron Paramagnetic Resonance on a Cathode of an Organic Radical Battery}{17}{}%
-\contentsline {section}{\numberline {6.1}Distribution of Current Density in On-Substrate Meander-Shaped Electrodes}{17}{}%
-\contentsline {chapter}{\numberline {7}The Deep-Trap Model of a TEMPO-Salen Electrode Film}{21}{}%
-\contentsline {chapter}{\numberline {8}Conclusions and Outlook}{23}{}%
+\contentsline {chapter}{\numberline {1}Introduction}{7}{}%
+\contentsline {paragraph}{}{8}{}%
+\contentsline {chapter}{\numberline {2}Electrochemical Energy Storage in Redox Conductive Polymers}{11}{}%
+\contentsline {chapter}{\numberline {3}Operando EPR Spectroscopy of TEMPO-Salen Cathode Films}{13}{}%
+\contentsline {section}{\numberline {3.1}Electron Paramagnetic Resonance}{13}{}%
+\contentsline {subsection}{\numberline {3.1.1}The Spin Hamiltonian}{13}{}%
+\contentsline {subsection}{\numberline {3.1.2}Instrumentation}{14}{}%
+\contentsline {section}{\numberline {3.2}EPR Spectroscopy of a Charging Electrochemical Cell}{14}{}%
+\contentsline {subsection}{\numberline {3.2.1}Fabrication of EPR-compatible Electrochemical Cells}{14}{}%
+\contentsline {subsection}{\numberline {3.2.2}EPR Spectra During a Charge-Discharge Cycle}{14}{}%
+\contentsline {subsection}{\numberline {3.2.3}Spectral Simulations}{14}{}%
+\contentsline {subsection}{\numberline {3.2.4}Quantitative Analysis of Potential-Dependent EPR Spectra}{14}{}%
+\contentsline {subsection}{\numberline {3.2.5}EPR-Detected State Of Charge}{14}{}%
+\contentsline {subsection}{\numberline {3.2.6}Formation of Singlet Spin States in a Reduced Cathode Film}{14}{}%
+\contentsline {subsection}{\numberline {3.2.7}Monitoring of Degradation Processes}{14}{}%
+\contentsline {subsection}{\numberline {3.2.8}Monitoring of Self Discharge}{14}{}%
+\contentsline {subsection}{\numberline {3.2.9}Electrochemical Cells with Solid Electrolyte}{14}{}%
+\contentsline {subsection}{\numberline {3.2.10}Low Temperature Measurements}{14}{}%
+\contentsline {chapter}{\numberline {4}Pulsed Electron Paramagnetic Resonance Spectroscopy of Densely Packed Nitroxide Radicals}{15}{}%
+\contentsline {section}{\numberline {4.1}Coherent Spin Motion under Pulsed Microwave Field}{15}{}%
+\contentsline {subsection}{\numberline {4.1.1}Bloch Equations}{15}{}%
+\contentsline {subsection}{\numberline {4.1.2}Spin Relaxation Times}{15}{}%
+\contentsline {subsection}{\numberline {4.1.3}Instrumentation}{15}{}%
+\contentsline {subsection}{\numberline {4.1.4}Pulse Sequences and Measurement Techniques}{15}{}%
+\contentsline {subsection}{\numberline {4.1.5}Broad-Band Excitation and Instantaneous Diffusion}{15}{}%
+\contentsline {subsection}{\numberline {4.1.6}Pulsed EPR Spectra of a charged pDiTBuS Cathode film}{15}{}%
+\contentsline {subsection}{\numberline {4.1.7}Estimation of Local Spin Concentrations with Instantaneous Diffusion}{15}{}%
+\contentsline {subsection}{\numberline {4.1.8}Spin Relaxation in a charged pDiTBuS Cathode Film}{15}{}%
+\contentsline {subsection}{\numberline {4.1.9}Pade-Laplace Deconvolution of Echo Decay Transients}{15}{}%
+\contentsline {subsection}{\numberline {4.1.10}Pulsed EPR Detection of Domains with Poor Conductivity}{15}{}%
+\contentsline {subsection}{\numberline {4.1.11}Towards Imaging of Spin Concentration in Battery Electrodes}{15}{}%
+\contentsline {chapter}{\numberline {5}Longitudinally Detected Electron Paramagnetic Resonance in Systems with Short Relaxation Times}{17}{}%
+\contentsline {chapter}{\numberline {6}Electrically Detected Electron Paramagnetic Resonance on a Cathode of an Organic Radical Battery}{19}{}%
+\contentsline {section}{\numberline {6.1}Distribution of Current Density in On-Substrate Meander-Shaped Electrodes}{19}{}%
+\contentsline {chapter}{\numberline {7}The Deep-Trap Model of a TEMPO-Salen Electrode Film}{23}{}%
+\contentsline {chapter}{\numberline {8}Conclusions and Outlook}{25}{}%
