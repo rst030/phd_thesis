@@ -20,17 +20,30 @@
 \contentsline {section}{\numberline {4.1}Coherent Spin Motion under Pulsed Microwave Field}{15}{}%
 \contentsline {subsection}{\numberline {4.1.1}Bloch Equations}{15}{}%
 \contentsline {subsection}{\numberline {4.1.2}Spin Relaxation Times}{15}{}%
-\contentsline {subsection}{\numberline {4.1.3}Instrumentation}{15}{}%
-\contentsline {subsection}{\numberline {4.1.4}Pulse Sequences and Measurement Techniques}{15}{}%
-\contentsline {subsection}{\numberline {4.1.5}Broad-Band Excitation and Instantaneous Diffusion}{15}{}%
-\contentsline {subsection}{\numberline {4.1.6}Pulsed EPR Spectra of a charged pDiTBuS Cathode film}{15}{}%
-\contentsline {subsection}{\numberline {4.1.7}Estimation of Local Spin Concentrations with Instantaneous Diffusion}{15}{}%
-\contentsline {subsection}{\numberline {4.1.8}Spin Relaxation in a charged pDiTBuS Cathode Film}{15}{}%
-\contentsline {subsection}{\numberline {4.1.9}Pade-Laplace Deconvolution of Echo Decay Transients}{15}{}%
-\contentsline {subsection}{\numberline {4.1.10}Pulsed EPR Detection of Domains with Poor Conductivity}{15}{}%
-\contentsline {subsection}{\numberline {4.1.11}Towards Imaging of Spin Concentration in Battery Electrodes}{15}{}%
+\contentsline {subsection}{\numberline {4.1.3}Spin Packets}{15}{}%
+\contentsline {section}{\numberline {4.2}Instrumentation}{15}{}%
+\contentsline {subsection}{\numberline {4.2.1}Pulse Sequences and Measurement Techniques}{15}{}%
+\contentsline {subsubsection}{The Refocused Spin Echo}{15}{}%
+\contentsline {subsubsection}{Spin Echo Decay and Phase Memory Time}{16}{}%
+\contentsline {subsubsection}{Inversion Recovery and Spin-Lattice Relaxation Time}{16}{}%
+\contentsline {subsection}{\numberline {4.2.2}Broad-Band Excitation and Instantaneous Diffusion}{16}{}%
+\contentsline {section}{\numberline {4.3}Pulsed EPR Spectroscopy of a charged pDiTBuS Cathode film}{16}{}%
+\contentsline {subsection}{\numberline {4.3.1}Estimation of Local Spin Concentrations with Instantaneous Diffusion}{16}{}%
+\contentsline {subsection}{\numberline {4.3.2}Spin Relaxation in a charged pDiTBuS Cathode Film}{16}{}%
+\contentsline {subsection}{\numberline {4.3.3}Pade-Laplace Deconvolution of Echo Decay Transients}{16}{}%
+\contentsline {subsection}{\numberline {4.3.4}Detection of Domains with Poor Conductivity}{16}{}%
+\contentsline {subsection}{\numberline {4.3.5}Towards Imaging of Spin Concentration in Battery Electrodes}{16}{}%
 \contentsline {chapter}{\numberline {5}Longitudinally Detected Electron Paramagnetic Resonance in Systems with Short Relaxation Times}{17}{}%
-\contentsline {chapter}{\numberline {6}Electrically Detected Electron Paramagnetic Resonance on a Cathode of an Organic Radical Battery}{19}{}%
-\contentsline {section}{\numberline {6.1}Distribution of Current Density in On-Substrate Meander-Shaped Electrodes}{19}{}%
+\contentsline {chapter}{\numberline {6}Electrically Detected Magnetic Resonance on a Cathode of an Organic Radical Battery}{19}{}%
+\contentsline {subsection}{\numberline {6.0.1}Spin Blockade and Spin-Dependent Recombination}{19}{}%
+\contentsline {subsection}{\numberline {6.0.2}Instrumentation}{19}{}%
+\contentsline {subsection}{\numberline {6.0.3}Device Fabrication}{19}{}%
+\contentsline {subsubsection}{1N4007 Si diode}{19}{}%
+\contentsline {subsubsection}{DPP-DTT Organic Ambipolar Field Effect Transistor}{19}{}%
+\contentsline {subsubsection}{pDiTBuS Organic Radical Battery}{20}{}%
+\contentsline {subsection}{\numberline {6.0.4}EDMR signal in a 1N4007 Si Diode}{20}{}%
+\contentsline {subsection}{\numberline {6.0.5}EDMR signal in an Organic Field Effect Transistor}{20}{}%
+\contentsline {subsection}{\numberline {6.0.6}EDMR signal in a TEMPO-Salen Electrochemical Cell}{20}{}%
+\contentsline {subsection}{\numberline {6.0.7}Distribution of Current Density in On-Substrate Meander-Shaped Electrodes}{20}{}%
 \contentsline {chapter}{\numberline {7}The Deep-Trap Model of a TEMPO-Salen Electrode Film}{23}{}%
 \contentsline {chapter}{\numberline {8}Conclusions and Outlook}{25}{}%
