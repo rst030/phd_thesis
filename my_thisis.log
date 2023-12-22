@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.8)  8 DEC 2023 17:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.8)  22 DEC 2023 17:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -473,8 +473,11 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 2
 File: ot1txr.fd 2000/12/15 v3.1
 ) (./my_thisis.aux
 (./summary/list_of_abbreviations.aux) (./introduction/introduction.aux)
-(./electrochemistry/electrochemistry.aux) (./operando_epr/operando_epr.aux)
-(./pulse/pulse.aux) (./lod/lod.aux) (./edmr/edmr.aux) (./model/model.aux)
+(./electrochemistry/electrochemistry.aux) (./operando_epr/operando_epr.aux
+
+LaTeX Warning: Label `fig:Figure_1' multiply defined.
+
+) (./pulse/pulse.aux) (./lod/lod.aux) (./edmr/edmr.aux) (./model/model.aux)
 (./outlook/outlook.aux))
 \openout1 = `my_thisis.aux'.
 
@@ -672,33 +675,63 @@ LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 3.
-[13]) [14]
+[13]
+
+LaTeX Warning: Citation `RADARS' on page 14 undefined on input line 27.
+
+
+LaTeX Warning: Reference `eq:RESONANCE_CONDITION' on page 14 undefined on input
+ line 27.
+
+
+Underfull \vbox (badness 3058) has occurred while \output is active []
+
+ [14]
+<./operando_epr/figures/slowcharge_231117_liquid_250K.pdf, id=90, 752.8125pt x 
+602.25pt>
+File: ./operando_epr/figures/slowcharge_231117_liquid_250K.pdf Graphic file (ty
+pe pdf)
+<use ./operando_epr/figures/slowcharge_231117_liquid_250K.pdf>
+Package pdftex.def Info: ./operando_epr/figures/slowcharge_231117_liquid_250K.p
+df  used on input line 53.
+(pdftex.def)             Requested size: 424.58624pt x 339.67456pt.
+)
+[15 <./operando_epr/figures/slowcharge_231117_liquid_250K.pdf>]
 \openout2 = `pulse/pulse.aux'.
 
- (./pulse/pulse.tex
+
+(./pulse/pulse.tex [16
+
+
+
+
+]
 Chapter 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-[15
-
-
-
-
-])
+[17]
+<./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf, id=121, 1415.2875pt x 677.53125pt
+>
+File: ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf Graphic file (type pdf)
+<use ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf>
+Package pdftex.def Info: ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf  used on i
+nput line 26.
+(pdftex.def)             Requested size: 424.58624pt x 203.2506pt.
+)
 Overfull \hbox (165.00839pt too wide) has occurred while \output is active
-\OT1/txr/m/n/10 16 \OT1/txr/m/sl/10 CHAPTER 4.  PULSED ELECTRON PARAMAGNETIC RE
+\OT1/txr/m/n/10 18 \OT1/txr/m/sl/10 CHAPTER 4.  PULSED ELECTRON PARAMAGNETIC RE
 SONANCE SPECTROSCOPY OF DENSELY PACKED NITROXIDE RADICALS
  []
 
-[16]
+[18 <./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf>]
 \openout2 = `lod/lod.aux'.
 
  (./lod/lod.tex
 Chapter 5.
-) [17
+) [19
 
 
 
@@ -708,11 +741,11 @@ Chapter 5.
 
  (./edmr/edmr.tex
 Overfull \hbox (200.08788pt too wide) has occurred while \output is active
-\OT1/txr/m/n/10 18 \OT1/txr/m/sl/10 CHAPTER 5.  LONGITUDINALLY DETECTED ELECTRO
+\OT1/txr/m/n/10 20 \OT1/txr/m/sl/10 CHAPTER 5.  LONGITUDINALLY DETECTED ELECTRO
 N PARAMAGNETIC RESONANCE IN SYSTEMS WITH SHORT RELAXATION TIMES
  []
 
-[18
+[20
 
 
 
@@ -727,42 +760,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
 Underfull \vbox (badness 1210) has occurred while \output is active []
 
- [19]
+ [21]
 Overfull \hbox (1.58174pt too wide) in paragraph at lines 30--30
 []\OT1/txr/bx/n/12 Distribution of Cur-rent Den-sity in On-Substrate Meander-Sh
 aped Elec-trodes 
  []
 
-<./edmr/fingers1/pics/grid.pdf, id=107, 597.50786pt x 414.04688pt>
+<./edmr/fingers1/pics/grid.pdf, id=155, 597.50786pt x 414.04688pt>
 File: ./edmr/fingers1/pics/grid.pdf Graphic file (type pdf)
 <use ./edmr/fingers1/pics/grid.pdf>
 Package pdftex.def Info: ./edmr/fingers1/pics/grid.pdf  used on input line 35.
 (pdftex.def)             Requested size: 212.29312pt x 147.11086pt.
-<./edmr/fingers1/pics/3_thick_film.png, id=108, 642.4pt x 321.2pt>
+<./edmr/fingers1/pics/3_thick_film.png, id=156, 642.4pt x 321.2pt>
 File: ./edmr/fingers1/pics/3_thick_film.png Graphic file (type png)
 <use ./edmr/fingers1/pics/3_thick_film.png>
 Package pdftex.def Info: ./edmr/fingers1/pics/3_thick_film.png  used on input l
 ine 45.
 (pdftex.def)             Requested size: 212.29312pt x 106.14336pt.
-<./edmr/fingers1/pics/3_thick_film_2.png, id=109, 642.4pt x 321.2pt>
+<./edmr/fingers1/pics/3_thick_film_2.png, id=157, 642.4pt x 321.2pt>
 File: ./edmr/fingers1/pics/3_thick_film_2.png Graphic file (type png)
 <use ./edmr/fingers1/pics/3_thick_film_2.png>
 Package pdftex.def Info: ./edmr/fingers1/pics/3_thick_film_2.png  used on input
  line 53.
 (pdftex.def)             Requested size: 212.29312pt x 106.14336pt.
-<./edmr/fingers1/pics/2_intermediate_film.png, id=110, 642.4pt x 321.2pt>
+<./edmr/fingers1/pics/2_intermediate_film.png, id=158, 642.4pt x 321.2pt>
 File: ./edmr/fingers1/pics/2_intermediate_film.png Graphic file (type png)
 <use ./edmr/fingers1/pics/2_intermediate_film.png>
 Package pdftex.def Info: ./edmr/fingers1/pics/2_intermediate_film.png  used on 
 input line 62.
 (pdftex.def)             Requested size: 212.29312pt x 106.14336pt.
-<./edmr/fingers1/pics/1_thin_film.png, id=111, 642.4pt x 321.2pt>
+<./edmr/fingers1/pics/1_thin_film.png, id=159, 642.4pt x 321.2pt>
 File: ./edmr/fingers1/pics/1_thin_film.png Graphic file (type png)
 <use ./edmr/fingers1/pics/1_thin_film.png>
 Package pdftex.def Info: ./edmr/fingers1/pics/1_thin_film.png  used on input li
 ne 70.
 (pdftex.def)             Requested size: 212.29312pt x 106.14336pt.
-<./edmr/fingers1/pics/3_intermediate_film_2.png, id=112, 642.4pt x 321.2pt>
+<./edmr/fingers1/pics/3_intermediate_film_2.png, id=160, 642.4pt x 321.2pt>
 File: ./edmr/fingers1/pics/3_intermediate_film_2.png Graphic file (type png)
 <use ./edmr/fingers1/pics/3_intermediate_film_2.png>
 Package pdftex.def Info: ./edmr/fingers1/pics/3_intermediate_film_2.png  used o
@@ -770,12 +803,12 @@ n input line 78.
 (pdftex.def)             Requested size: 212.29312pt x 106.14336pt.
 )
 Overfull \hbox (132.7173pt too wide) has occurred while \output is active
-\OT1/txr/m/n/10 20 \OT1/txr/m/sl/10 CHAPTER 6.  ELECTRICALLY DETECTED MAGNETIC 
+\OT1/txr/m/n/10 22 \OT1/txr/m/sl/10 CHAPTER 6.  ELECTRICALLY DETECTED MAGNETIC 
 RESONANCE ON A CATHODE OF AN ORGANIC RADICAL BATTERY
  []
 
-[20 <./edmr/fingers1/pics/grid.pdf> <./edmr/fingers1/pics/3_thick_film.png (PNG
- copy)>] [21 <./edmr/fingers1/pics/3_thick_film_2.png (PNG copy)> <./edmr/finge
+[22 <./edmr/fingers1/pics/grid.pdf> <./edmr/fingers1/pics/3_thick_film.png (PNG
+ copy)>] [23 <./edmr/fingers1/pics/3_thick_film_2.png (PNG copy)> <./edmr/finge
 rs1/pics/2_intermediate_film.png (PNG copy)> <./edmr/fingers1/pics/1_thin_film.
 png (PNG copy)> <./edmr/fingers1/pics/3_intermediate_film_2.png (PNG copy)>]
 \openout2 = `model/model.aux'.
@@ -783,61 +816,67 @@ png (PNG copy)> <./edmr/fingers1/pics/3_intermediate_film_2.png (PNG copy)>]
 
 (./model/model.tex
 Overfull \hbox (132.7173pt too wide) has occurred while \output is active
-\OT1/txr/m/n/10 22 \OT1/txr/m/sl/10 CHAPTER 6.  ELECTRICALLY DETECTED MAGNETIC 
+\OT1/txr/m/n/10 24 \OT1/txr/m/sl/10 CHAPTER 6.  ELECTRICALLY DETECTED MAGNETIC 
 RESONANCE ON A CATHODE OF AN ORGANIC RADICAL BATTERY
  []
 
-[22
+[24
 
 
 
 
 ]
 Chapter 7.
-) [23]
+) [25]
 \openout2 = `outlook/outlook.aux'.
 
- (./outlook/outlook.tex [24
+ (./outlook/outlook.tex [26
 
 
 
 
 ]
 Chapter 8.
-) [25] (./my_thisis.bbl [26
+) [27] (./my_thisis.bbl [28
 
 
 
-] [27] [28] [29]) [30] (./my_thisis.aux
+] [29] [30] [31]) [32] (./my_thisis.aux
 (./summary/list_of_abbreviations.aux) (./introduction/introduction.aux)
 (./electrochemistry/electrochemistry.aux) (./operando_epr/operando_epr.aux)
 (./pulse/pulse.aux) (./lod/lod.aux) (./edmr/edmr.aux) (./model/model.aux)
-(./outlook/outlook.aux)) ) 
+(./outlook/outlook.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 9629 strings out of 478287
- 179743 string characters out of 5849290
- 494816 words of memory out of 5000000
- 27596 multiletter control sequences out of 15000+600000
+ 9647 strings out of 478287
+ 180587 string characters out of 5849290
+ 494867 words of memory out of 5000000
+ 27610 multiletter control sequences out of 15000+600000
  507869 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,14n,117p,2067b,856s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8
-r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
-onts/txmia.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/font
-s/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
-es/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-
-Output written on my_thisis.pdf (30 pages, 443626 bytes).
+ 84i,14n,117p,2283b,856s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
+onts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
+rw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on my_thisis.pdf (32 pages, 4074807 bytes).
 PDF statistics:
- 207 PDF objects out of 1000 (max. 8388607)
- 130 compressed objects within 2 object streams
+ 256 PDF objects out of 1000 (max. 8388607)
+ 160 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
