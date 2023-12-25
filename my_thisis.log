@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.8)  25 DEC 2023 22:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.8)  25 DEC 2023 22:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -854,13 +854,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9647 strings out of 478287
- 180587 string characters out of 5849290
- 494867 words of memory out of 5000000
- 27610 multiletter control sequences out of 15000+600000
- 507869 words of font info for 104 fonts, out of 8000000 for 9000
+ 9651 strings out of 478287
+ 180730 string characters out of 5849290
+ 498465 words of memory out of 5000000
+ 27614 multiletter control sequences out of 15000+600000
+ 507907 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,14n,117p,2283b,856s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 84i,14n,117p,2283b,875s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1
@@ -873,7 +873,7 @@ onts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
 rw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on my_thisis.pdf (32 pages, 4076601 bytes).
+Output written on my_thisis.pdf (32 pages, 4076694 bytes).
 PDF statistics:
  256 PDF objects out of 1000 (max. 8388607)
  160 compressed objects within 2 object streams
