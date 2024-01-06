@@ -14,9 +14,15 @@ The style file: plain.bst
 Database file #1: Bibliography.bib
 Warning--entry type for "Casado2021" isn't style-file defined
 --line 1085 of file Bibliography.bib
+Warning--I didn't find a database entry for "energy_consumption_review"
+Warning--I didn't find a database entry for "energy_sources_review"
+Warning--I didn't find a database entry for "energy_from_sound"
+Warning--I didn't find a database entry for "tokamak_updates"
+Warning--I didn't find a database entry for "supercaps_review"
+Warning--I didn't find a database entry for "RADARS"
 You've used 50 entries,
             2118 wiz_defined-function locations,
-            851 strings with 14918 characters,
+            858 strings with 15024 characters,
 and the built_in function-call counts, 19747 in all, are:
 = -- 1815
 > -- 1334
@@ -55,4 +61,4 @@ warning$ -- 0
 while$ -- 147
 width$ -- 52
 write$ -- 547
-(There was 1 warning)
+(There were 7 warnings)

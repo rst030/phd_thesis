@@ -6,7 +6,7 @@
 \contentsline {subsection}{\numberline {3.1.1}The Spin Hamiltonian}{13}{}%
 \contentsline {subsection}{\numberline {3.1.2}Instrumentation}{14}{}%
 \contentsline {paragraph}{EPR Hardware}{14}{}%
-\contentsline {section}{\numberline {3.2}EPR Spectroscopy of a Charging Electrochemical Cell}{15}{}%
+\contentsline {section}{\numberline {3.2}EPR Spectroscopy of a Charging Electrochemical Cell}{14}{}%
 \contentsline {subsection}{\numberline {3.2.1}Fabrication of EPR-compatible Electrochemical Cells}{15}{}%
 \contentsline {subsection}{\numberline {3.2.2}EPR Spectra During a Charge-Discharge Cycle}{15}{}%
 \contentsline {subsection}{\numberline {3.2.3}Spectral Simulations}{15}{}%
