@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.8)  6 JAN 2024 21:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.8)  9 JAN 2024 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -674,6 +674,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
 ]
 Chapter 2.
+
+LaTeX Warning: Citation `nishide2004_electact' on page 11 undefined on input li
+ne 4.
+
+
+LaTeX Warning: Citation `xie2021_mathoriz' on page 11 undefined on input line 4
+.
+
+
+LaTeX Warning: Citation `Rohland2022' on page 11 undefined on input line 4.
+
+
+LaTeX Warning: Citation `oyaizu2015_polymerjournal' on page 11 undefined on inp
+ut line 6.
+
+
+LaTeX Warning: Citation `bahaceci2013_jpowersources' on page 11 undefined on in
+put line 6.
+
+
+LaTeX Warning: Citation `katsumata2006_mrc' on page 11 undefined on input line 
+6.
+
+
+LaTeX Warning: Citation `xu2014_electact' on page 11 undefined on input line 6.
+
+
+
+LaTeX Warning: Citation `aydin2015_jsoistatelect' on page 11 undefined on input
+ line 6.
+
+
+LaTeX Warning: Citation `schwartz2018_synthmet' on page 11 undefined on input l
+ine 6.
+
 ) [11]
 \openout2 = `operando_epr/operando_epr.aux'.
 
@@ -695,9 +730,6 @@ LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 3.
 [13]
-
-LaTeX Warning: Citation `zavoisky' on page 14 undefined on input line 27.
-
 
 LaTeX Warning: Citation `RADARS' on page 14 undefined on input line 27.
 
@@ -876,13 +908,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9671 strings out of 478287
- 181445 string characters out of 5849290
- 516505 words of memory out of 5000000
- 27634 multiletter control sequences out of 15000+600000
+ 9674 strings out of 478287
+ 181504 string characters out of 5849290
+ 516517 words of memory out of 5000000
+ 27637 multiletter control sequences out of 15000+600000
  508097 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,14n,117p,2299b,1003s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 84i,14n,117p,2231b,1003s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1
@@ -895,7 +927,7 @@ onts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
 rw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on my_thisis.pdf (32 pages, 4079002 bytes).
+Output written on my_thisis.pdf (32 pages, 4080466 bytes).
 PDF statistics:
  256 PDF objects out of 1000 (max. 8388607)
  160 compressed objects within 2 object streams

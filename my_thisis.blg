@@ -13,52 +13,61 @@ A level-1 auxiliary file: outlook/outlook.aux
 The style file: plain.bst
 Database file #1: Bibliography.bib
 Warning--entry type for "Casado2021" isn't style-file defined
---line 1085 of file Bibliography.bib
+--line 1117 of file Bibliography.bib
 Warning--I didn't find a database entry for "energy_consumption_review"
 Warning--I didn't find a database entry for "energy_sources_review"
 Warning--I didn't find a database entry for "energy_from_sound"
 Warning--I didn't find a database entry for "tokamak_updates"
 Warning--I didn't find a database entry for "supercaps_review"
+Warning--I didn't find a database entry for "nishide2004_electact"
+Warning--I didn't find a database entry for "xie2021_mathoriz"
+Warning--I didn't find a database entry for "Rohland2022"
+Warning--I didn't find a database entry for "oyaizu2015_polymerjournal"
+Warning--I didn't find a database entry for "bahaceci2013_jpowersources"
+Warning--I didn't find a database entry for "katsumata2006_mrc"
+Warning--I didn't find a database entry for "xu2014_electact"
+Warning--I didn't find a database entry for "aydin2015_jsoistatelect"
+Warning--I didn't find a database entry for "schwartz2018_synthmet"
 Warning--I didn't find a database entry for "RADARS"
-You've used 50 entries,
+You've used 53 entries,
             2118 wiz_defined-function locations,
-            858 strings with 15024 characters,
-and the built_in function-call counts, 19747 in all, are:
-= -- 1815
-> -- 1334
+            886 strings with 15654 characters,
+and the built_in function-call counts, 20856 in all, are:
+= -- 1922
+> -- 1392
 < -- 0
-+ -- 532
-- -- 474
-* -- 1639
-:= -- 3473
-add.period$ -- 149
-call.type$ -- 50
-change.case$ -- 385
++ -- 555
+- -- 494
+* -- 1727
+:= -- 3663
+add.period$ -- 158
+call.type$ -- 53
+change.case$ -- 404
 chr.to.int$ -- 0
-cite$ -- 50
-duplicate$ -- 548
-empty$ -- 1265
-format.name$ -- 474
-if$ -- 3937
+cite$ -- 53
+duplicate$ -- 581
+empty$ -- 1347
+format.name$ -- 494
+if$ -- 4164
 int.to.chr$ -- 0
-int.to.str$ -- 50
-missing$ -- 51
-newline$ -- 252
-num.names$ -- 100
-pop$ -- 306
+int.to.str$ -- 53
+missing$ -- 54
+newline$ -- 267
+num.names$ -- 106
+pop$ -- 319
 preamble$ -- 1
-purify$ -- 337
+purify$ -- 353
 quote$ -- 0
-skip$ -- 360
+skip$ -- 381
 stack$ -- 0
-substring$ -- 1173
-swap$ -- 50
+substring$ -- 1263
+swap$ -- 53
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 196
+type$ -- 208
 warning$ -- 0
-while$ -- 147
-width$ -- 52
-write$ -- 547
-(There were 7 warnings)
+while$ -- 156
+width$ -- 55
+write$ -- 580
+(There were 16 warnings)

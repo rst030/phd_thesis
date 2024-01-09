@@ -84,6 +84,11 @@ Q~Huang, E~D Walter, L~Cosimbescu, D~Choi, and J~P Lemmon.
   multi-electron redox reaction for organic radical cathodes.
 \newblock {\em Journal of Power Sources}, 306:812--816, 2016.
 
+\bibitem{janoschka2012_advmater}
+T~Janoschka, M~D Hager, and U~S Schubert.
+\newblock Powering up the future: Radical polymers for battery applications.
+\newblock {\em Adv. Mater.}, 24:6397--6409, 2012.
+
 \bibitem{Janoschka2017}
 Tobias Janoschka, Christian Friebe, Martin~D. Hager, Norbert Martin, and
   Ulrich~S. Schubert.
@@ -176,6 +181,11 @@ Alice~J. Merryweather, Quentin Jacquet, Steffen~P. Emge, Christoph
 \newblock Operando monitoring of single-particle kinetic state-of-charge
   heterogeneities and cracking in high-rate li-ion anodes.
 \newblock {\em Nature Materials}, 21:1306--1313, 2022.
+
+\bibitem{muench2016_chemrev}
+S~Muench, A~Wild, C~Friebe, B~Haupler, T~Janoschka, and U~S Schubert.
+\newblock Polymer-based organic batteries.
+\newblock {\em Chemical Reviews}, 116:9438--9484, 2016.
 
 \bibitem{nakahara2002_cpl}
 K~Nakahara, S~Iwasa, M~Satoh, Y~Morioka, J~Iriyama, M~Suguro, and E~Hasegawa.
@@ -285,6 +295,11 @@ Hyun~Deog Yoo, Elena Markevich, Gregory Salitra, Daniel Sharon, and Doron
 \newblock On the challenge of developing advanced technologies for
   electrochemical energy storage and conversion.
 \newblock {\em Materials Today}, 17:110--121, 2014.
+
+\bibitem{zavoisky_1945}
+E~K Zavoisky.
+\newblock Paramagnetic relaxation of liquid solutions for perpendicular fields.
+\newblock {\em Zhur. Eksperiment. i Theoret. Fiz.}, 15:344--350, 1945.
 
 \bibitem{Zens2022}
 Clara Zens, Christian Friebe, Ulrich~S. Schubert, Martin Richter, and Stephan
