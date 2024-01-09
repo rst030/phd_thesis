@@ -1,5 +1,5 @@
 \contentsline {chapter}{\numberline {1}Introduction}{7}{}%
-\contentsline {paragraph}{}{8}{}%
+\contentsline {paragraph}{}{9}{}%
 \contentsline {chapter}{\numberline {2}Electrochemical Energy Storage in Redox Conductive Polymers}{11}{}%
 \contentsline {chapter}{\numberline {3}Operando EPR Spectroscopy of TEMPO-Salen Cathode Films}{13}{}%
 \contentsline {section}{\numberline {3.1}Electron Paramagnetic Resonance}{13}{}%
