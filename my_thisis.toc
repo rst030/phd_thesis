@@ -1,23 +1,27 @@
 \contentsline {chapter}{\numberline {1}Introduction}{7}{}%
-\contentsline {paragraph}{}{9}{}%
-\contentsline {chapter}{\numberline {2}Electrochemical Energy Storage in Redox Conductive Polymers}{11}{}%
-\contentsline {chapter}{\numberline {3}Operando EPR Spectroscopy of TEMPO-Salen Cathode Films}{13}{}%
-\contentsline {section}{\numberline {3.1}Electron Paramagnetic Resonance}{13}{}%
-\contentsline {subsection}{\numberline {3.1.1}The Spin Hamiltonian}{13}{}%
-\contentsline {subsection}{\numberline {3.1.2}Instrumentation}{14}{}%
-\contentsline {paragraph}{EPR Hardware}{14}{}%
-\contentsline {section}{\numberline {3.2}EPR Spectroscopy of a Charging Electrochemical Cell}{14}{}%
-\contentsline {subsection}{\numberline {3.2.1}Fabrication of EPR-compatible Electrochemical Cells}{15}{}%
-\contentsline {subsection}{\numberline {3.2.2}EPR Spectra During a Charge-Discharge Cycle}{15}{}%
-\contentsline {subsection}{\numberline {3.2.3}Spectral Simulations}{15}{}%
-\contentsline {subsection}{\numberline {3.2.4}Quantitative Analysis of Potential-Dependent EPR Spectra}{15}{}%
-\contentsline {subsection}{\numberline {3.2.5}EPR-Detected State Of Charge}{15}{}%
-\contentsline {subsection}{\numberline {3.2.6}Formation of Singlet Spin States in a Reduced Cathode Film}{15}{}%
-\contentsline {subsection}{\numberline {3.2.7}Monitoring of Degradation Processes}{15}{}%
-\contentsline {subsection}{\numberline {3.2.8}Monitoring of Self Discharge}{15}{}%
-\contentsline {subsection}{\numberline {3.2.9}Electrochemical Cells with Solid Electrolyte}{15}{}%
-\contentsline {subsection}{\numberline {3.2.10}Low Temperature Measurements}{15}{}%
-\contentsline {chapter}{\numberline {4}Pulsed Electron Paramagnetic Resonance Spectroscopy of Densely Packed Nitroxide Radicals}{17}{}%
+\contentsline {paragraph}{}{8}{}%
+\contentsline {chapter}{\numberline {2}Electrochemical Energy Storage in Redox Conductive Polymers}{9}{}%
+\contentsline {section}{\numberline {2.1}Redox Conductive Polymers}{9}{}%
+\contentsline {section}{\numberline {2.2}Organic Radical Battery}{9}{}%
+\contentsline {subsubsection}{Organic Electrode Materials}{9}{}%
+\contentsline {section}{\numberline {2.3}TEMPO-Salen Cathode Material}{10}{}%
+\contentsline {chapter}{\numberline {3}Operando EPR Spectroscopy of TEMPO-Salen Cathode Films}{11}{}%
+\contentsline {section}{\numberline {3.1}Electron Paramagnetic Resonance}{11}{}%
+\contentsline {subsection}{\numberline {3.1.1}The Spin Hamiltonian}{11}{}%
+\contentsline {subsection}{\numberline {3.1.2}Instrumentation}{12}{}%
+\contentsline {paragraph}{EPR Hardware}{12}{}%
+\contentsline {section}{\numberline {3.2}EPR Spectroscopy of a Charging Electrochemical Cell}{12}{}%
+\contentsline {subsection}{\numberline {3.2.1}Fabrication of EPR-compatible Electrochemical Cells}{13}{}%
+\contentsline {subsection}{\numberline {3.2.2}cwEPR Spectra During a Charge-Discharge Cycle}{13}{}%
+\contentsline {subsection}{\numberline {3.2.3}Spectral Simulations}{14}{}%
+\contentsline {subsection}{\numberline {3.2.4}Quantitative Analysis of Potential-Dependent EPR Spectra}{14}{}%
+\contentsline {subsection}{\numberline {3.2.5}EPR-Detected State Of Charge}{14}{}%
+\contentsline {subsection}{\numberline {3.2.6}Formation of Singlet Spin States in a Reduced Cathode Film}{14}{}%
+\contentsline {subsection}{\numberline {3.2.7}Monitoring of Degradation Processes}{14}{}%
+\contentsline {subsection}{\numberline {3.2.8}Monitoring of Self Discharge}{14}{}%
+\contentsline {subsection}{\numberline {3.2.9}Electrochemical Cells with Solid Electrolyte}{14}{}%
+\contentsline {subsection}{\numberline {3.2.10}Low Temperature Measurements}{14}{}%
+\contentsline {chapter}{\numberline {4}pEPR Spectroscopy of Densely Packed Nitroxide Radicals}{17}{}%
 \contentsline {section}{\numberline {4.1}Coherent Spin Motion under Pulsed Microwave Field}{17}{}%
 \contentsline {subsection}{\numberline {4.1.1}Bloch Equations}{17}{}%
 \contentsline {subsection}{\numberline {4.1.2}Spin Relaxation Times}{17}{}%
@@ -35,17 +39,18 @@
 \contentsline {subsection}{\numberline {4.3.4}Pade-Laplace Deconvolution of Echo Decay Transients}{18}{}%
 \contentsline {subsection}{\numberline {4.3.5}Detection of Domains with Poor Conductivity}{18}{}%
 \contentsline {subsection}{\numberline {4.3.6}Towards Imaging of Spin Concentration in Battery Electrodes}{18}{}%
-\contentsline {chapter}{\numberline {5}Longitudinally Detected Electron Paramagnetic Resonance in Systems with Short Relaxation Times}{19}{}%
-\contentsline {chapter}{\numberline {6}Electrically Detected Magnetic Resonance on a Cathode of an Organic Radical Battery}{21}{}%
-\contentsline {subsection}{\numberline {6.0.1}Spin Blockade and Spin-Dependent Recombination}{21}{}%
-\contentsline {subsection}{\numberline {6.0.2}Instrumentation}{21}{}%
-\contentsline {subsection}{\numberline {6.0.3}Device Fabrication}{21}{}%
-\contentsline {subsubsection}{1N4007 Si diode}{21}{}%
-\contentsline {subsubsection}{DPP-DTT Organic Ambipolar Field Effect Transistor}{21}{}%
-\contentsline {subsubsection}{pDiTBuS Organic Radical Battery}{22}{}%
-\contentsline {subsection}{\numberline {6.0.4}EDMR signal in a 1N4007 Si Diode}{22}{}%
-\contentsline {subsection}{\numberline {6.0.5}EDMR signal in an Organic Field Effect Transistor}{22}{}%
-\contentsline {subsection}{\numberline {6.0.6}EDMR signal in a TEMPO-Salen Electrochemical Cell}{22}{}%
-\contentsline {subsection}{\numberline {6.0.7}Distribution of Current Density in On-Substrate Meander-Shaped Electrodes}{22}{}%
-\contentsline {chapter}{\numberline {7}The Deep-Trap Model of a TEMPO-Salen Electrode Film}{25}{}%
-\contentsline {chapter}{\numberline {8}Conclusions and Outlook}{27}{}%
+\contentsline {subsection}{\numberline {4.3.7}Unusual Peak Ratios in a Highly Charged Cathode Film}{19}{}%
+\contentsline {chapter}{\numberline {5}Longitudinally Detected Electron Paramagnetic Resonance in Systems with Short Relaxation Times}{21}{}%
+\contentsline {chapter}{\numberline {6}Electrically Detected Magnetic Resonance on a Cathode of an Organic Radical Battery}{23}{}%
+\contentsline {subsection}{\numberline {6.0.1}Spin Blockade and Spin-Dependent Recombination}{23}{}%
+\contentsline {subsection}{\numberline {6.0.2}Instrumentation}{23}{}%
+\contentsline {subsection}{\numberline {6.0.3}Device Fabrication}{23}{}%
+\contentsline {subsubsection}{1N4007 Si diode}{23}{}%
+\contentsline {subsubsection}{DPP-DTT Organic Ambipolar Field Effect Transistor}{23}{}%
+\contentsline {subsubsection}{pDiTBuS Organic Radical Battery}{24}{}%
+\contentsline {subsection}{\numberline {6.0.4}EDMR signal in a 1N4007 Si Diode}{24}{}%
+\contentsline {subsection}{\numberline {6.0.5}EDMR signal in an Organic Field Effect Transistor}{24}{}%
+\contentsline {subsection}{\numberline {6.0.6}EDMR signal in a TEMPO-Salen Electrochemical Cell}{24}{}%
+\contentsline {subsection}{\numberline {6.0.7}Distribution of Current Density in On-Substrate Meander-Shaped Electrodes}{24}{}%
+\contentsline {chapter}{\numberline {7}The Deep-Trap Model of a TEMPO-Salen Electrode Film}{27}{}%
+\contentsline {chapter}{\numberline {8}Conclusions and Outlook}{29}{}%

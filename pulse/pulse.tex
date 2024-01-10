@@ -1,4 +1,4 @@
-\chapter{Pulsed Electron Paramagnetic Resonance Spectroscopy of Densely Packed Nitroxide Radicals}
+\chapter{pEPR Spectroscopy of Densely Packed Nitroxide Radicals}
 
 \section{Coherent Spin Motion under Pulsed Microwave Field}
 When a spin system is excited with a microwave pulse, its evolution is described with the set of equations that is known as the Bloch equations.
@@ -14,8 +14,16 @@ The Hahn Echo sequence consists of two pulses, the $\pi/2$ pulse and the $\pi$ p
 \subsubsection{Inversion Recovery and Spin-Lattice Relaxation Time}
 
 \subsection{Broad-Band Excitation and Instantaneous Diffusion}
+In Section /// it is shown that in a densely packed radical system, as in a TEMPO-Salen cathode film, the phase memory time can be shorter than $T_m\leq100$~ns. That is, the spin echo is decaying by $e\approx3$ at $t=100$~ns. The short phase memory time limits the duration of the pulse sequence at which the echo is detectable. For a $\pi/2-\tau-\pi-\tau-echo$ sequence, with a hardware limitation on $\tau\geq t_d\approx100$~ns, the pulse sequence is longer than $t>200$~ns. By this time, the spin echo decreases by $e^2\approx7$ and may be comparable to noise. The limitations imposed by the finite $T_m$ and $t_d$ force one to use shorter microwave pulses. 
+\par
+A short microwave pulse may have a spectral width comparable to the width of the observed spectrum. According to the Fourier theorem, the spectral width of a pulse is inversely proportional to the pulse length: $\Delta\omega\sim 1/t_p$. A spectrum of a 100~ns long rectangular pulse shown in Figure /// is ///MHz wide (FWHM). 
 
-
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf}
+	\caption{XXX}
+	\label{fig:spectra_of_pulses}
+\end{figure}
 
 
 \section{Pulsed EPR Spectroscopy of a charged pDiTBuS Cathode film}
@@ -32,8 +40,15 @@ The Hahn Echo sequence consists of two pulses, the $\pi/2$ pulse and the $\pi$ p
 \subsection{Estimation of Local Spin Concentrations with Instantaneous Diffusion}
 \subsection{Spin Relaxation in a charged pDiTBuS Cathode Film}
 \subsection{Pade-Laplace Deconvolution of Echo Decay Transients}
+
 \subsection{Detection of Domains with Poor Conductivity}
+\label{domains_distinction_by_relaxation}
+
 \subsection{Towards Imaging of Spin Concentration in Battery Electrodes}
+One can obtain a spatially resolved image of the spin concentrations inside a battery electrode by encoding the position with a gradient of the magnetic field. With the procedure described in Section~\ref{domains_distinction_by_relaxation} and using a pair of electromagnetic coils to superimpose a gradient of $B_0$ one can not only measure the spin concentrations that are present in the electrode, but also to locate the electrochemically inactive domains and to visualize the conductive paths throughout the electrode.
+
+\subsection{Unusual Peak Ratios in a Highly Charged Cathode Film}
+
 
 
 

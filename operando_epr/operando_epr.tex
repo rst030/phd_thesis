@@ -24,21 +24,33 @@ The dipole-dipole interaction between the two neighboring electron spins contrib
 
 \subsection{Instrumentation}
 \paragraph{EPR Hardware}
-First observed in 1944~\cite{zavoisky_1945}, the phenomenon of electron paramagnetic resonance had become a tool for probing local molecular environments in species that contain an unpaired electron. A free electron, that does not interact with its environment and has $g=g_e$, experiences a Zeeman splitting of $\Delta E = g \mu_B B_0$, that corresponds to the energy of a photon with a frequency of $\nu=\Delta E / h$. At $B_0\approx0.3$~T, a microwave photon with $\nu\approx9.5$~GHz can drive the magnetic dipole transition between $\vert{\uparrow\rangle}$ and $\vert{\downarrow\rangle}$, that is called the spin flip. The microwave sources are historically\cite{RADARS} available in a number of discrete bands, one of them is known as $X$ band for the range between 8 and 12 GHz. To ensure that only the magnetic component of the microwave photon is interacting with the sample, a resonating cavity is used, where a standing microwave is formed, so that in the center of the cavity, the magnetic component of the microwave is maximized and the electric component is quenched. The sample is inserted in the center of the cavity and the external magnetic field is sweeped. When the resonance condition is met~\ref{eq:RESONANCE_CONDITION}, the spin flip occurs and the photon is being absorbed by the sample. The resonance absorption of microwaves can be detected by a small decrease in the quality factor $Q$ of the resonating cavity, as the magnetic field is being scanned and the microwave frequency is kept constant. The change in the $Q$ factor during the spin flip leads to temporal decoupling of the resonator, that causes reflections of the microwave that would have entered the resonator off resonance. The intensity of the microwaves is measured with a biased semiconductor diode that has a linearly changing conductivity in the range corresponding to  the incident microwave power. A phase sensitive detection with the shallow modulation of $B_0$ increases the signal-to-noise ratio (SNR), and yields the derivative of the resonance absorption profile. The typically high $Q\gg1$ factor of the resonating cavity further increases the SNR.
+First observed in 1944~\cite{zavoisky_1945,salikhov_2015}, the phenomenon of electron paramagnetic resonance had become a tool for probing local molecular environments in species that contain an unpaired electron. A free electron, that does not interact with its environment and has $g=g_e$, experiences a Zeeman splitting of $\Delta E = g \mu_B B_0$, that corresponds to the energy of a photon with a frequency of $\nu=\Delta E / h$. At $B_0\approx0.3$~T, a microwave photon with $\nu\approx9.5$~GHz can drive the magnetic dipole transition between $\vert{\uparrow\rangle}$ and $\vert{\downarrow\rangle}$, that is called the spin flip. The microwave sources are historically\cite{RADARS} available in a number of discrete bands, one of them is known as $X$ band for the range between 8 and 12 GHz. To ensure that only the magnetic component of the microwave photon is interacting with the sample, a resonating cavity is used, where a standing microwave is formed, so that in the center of the cavity, the magnetic component of the microwave is maximized and the electric component is quenched. The sample is inserted in the center of the cavity and the external magnetic field is sweeped. When the resonance condition is met~\ref{eq:RESONANCE_CONDITION}, the spin flip occurs and the photon is being absorbed by the sample. The resonance absorption of microwaves can be detected by a small decrease in the quality factor $Q$ of the resonating cavity, as the magnetic field is being scanned and the microwave frequency is kept constant. The change in the $Q$ factor during the spin flip leads to temporal decoupling of the resonator, that causes reflections of the microwave that would have entered the resonator off resonance. The intensity of the microwaves is measured with a biased semiconductor diode that has a linearly changing conductivity in the range corresponding to  the incident microwave power. A phase sensitive detection with the shallow modulation of $B_0$ increases the signal-to-noise ratio (SNR), and yields the derivative of the resonance absorption profile. The typically high $Q\gg1$ factor of the resonating cavity further increases the SNR.
 
 
 \section{EPR Spectroscopy of a Charging Electrochemical Cell}
-There is a number of difficulties when it comes to an EPR experiment on a working electrochemical cell. The cell must contain mobile ions between its electrodes. The ions are normally produced as products of dissociating salts. To overcome break the salt into the ions (a cation and an anion), a solvent with large dipole moment is needed. Solvents with large dipole moments, as acetonitrile (CH\textsubscript{3}CN, $\epsilon\approx 37.5$) or water ($\epsilon\approx78.4$), have large dielectric constants which results in a non-resonant absorption of microwaves. Therefore, the cell containing liquid electrolyte absorbs microwaves and lowers the sensitivity of the EPR experiment. Furthermore, due to a finite dimension of cell, not only the magnetic component of the microwave is interacting with the electrolyte, but also the electric one - this results in heating of the electrolyte in a similar fashion as in a microwave oven. The heating of the electrolyte leads to a faster degradation of the cell and does not allow for long systematic measurements.\\
+There is a number of difficulties when it comes to an EPR experiment on a working electrochemical cell. The cell must contain mobile ions between its electrodes. The ions are normally produced as products of dissociating salts. To overcome break the salt into the ions (a cation and an anion), a solvent with large dipole moment is needed. Solvents with large dipole moments, as acetonitrile (CH\textsubscript{3}CN, $\epsilon\approx 37.5$) or water ($\epsilon\approx78.4$), have large dielectric constants which results in a non-resonant absorption of microwaves. A cell containing liquid electrolyte absorbs microwaves and lowers the sensitivity of the EPR experiment. Furthermore, due to a finite dimension of cell, not only the magnetic component of the microwave is interacting with the electrolyte, but also the electric one - this results in heating of the electrolyte in a similar fashion as in a microwave oven. The heating of the electrolyte leads to a faster degradation of the cell and does not allow for long systematic measurements.\\
 Another general issue with the operando EPR and EDMR experiments is that the device under testing (DUT) has to have metal electrodes that deliver current to it. Metals, placed in a microwave cavity, change the distribution of the electromagnetic field in it - that weakens the magnetic component at the device and at the same time strengthens the electric component. It is the magnetic dipole transition that is causing the magnetic resonance, so the weakening of the magnetic component by introducing the metal electrodes further decreases the magnetic resonance response. The increased electric component causes heating to temperatures that can be critical for the DUT operation.
 
 \subsection{Fabrication of EPR-compatible Electrochemical Cells}
 
-\subsection{EPR Spectra During a Charge-Discharge Cycle}
+\subsection{cwEPR Spectra During a Charge-Discharge Cycle}
+There are four characteristic cwEPR signatures of an electrochemical cell containing di-TEMPO-Salen polymer cathode. The well known signature of a freely tumbling TEMPO$^{\bullet}$ exhibits three narrow lines corresponding to the three nuclear sublevels of nitrogen: $m_I=-1,0,+1$.
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./operando_epr/figures/Cartoon_ALL.pdf}
+	\caption{XXX}
+	\label{fig:cartoon_spectra_dts}
+\end{figure}
 
 \subsection{Spectral Simulations}
 
 \subsection{Quantitative Analysis of Potential-Dependent EPR Spectra}
-
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./operando_epr/figures/Main_2D_redox_map_full.pdf}
+	\caption{XXX}
+	\label{fig:operando_carpet}
+\end{figure}
 \subsection{EPR-Detected State Of Charge}
 
 \subsection{Formation of Singlet Spin States in a Reduced Cathode Film}
@@ -46,14 +58,19 @@ Another general issue with the operando EPR and EDMR experiments is that the dev
 \subsection{Monitoring of Degradation Processes}
 
 \subsection{Monitoring of Self Discharge}
+Organic Radical Batteries have a tendency to self-discharge, as the organic electrochemically active layer partially dissolves in polar electrolytes. Particularly for the TEMPO containing ORB, the dissolved, mobile TEMPO fragments serve as redox shuttles that carry the charge between the battery electrodes and cause a self discharge. The amount of unoxidized TEMPO$^\bullet$ shuttles can be measured with cwEPR spectroscopy as the mobile fragments have distinct spectra as compared to the fragments tightly packed in the electrode. Further in this subsection operando spectra of a TEMPO containing electrochemical cells are shown. Quantitative analysis of the released fragments during a charge-discharge cycle allows for a description of the self-discharge process in an ORB. The charge state of a battery is monitored with cwEPR and, additionally, with a potentiometric measurement to identify the self-discharge rate and to connect it with the concentration of diffusing redox shuttles.
 
 \subsection{Electrochemical Cells with Solid Electrolyte}
+
+
+
+
 
 \subsection{Low Temperature Measurements}
 \begin{figure}[h]
 \center
 	\includegraphics[width=1\textwidth]{./operando_epr/figures/slowcharge_231117_liquid_250K.pdf}
 	\caption{XXX}
-	\label{fig:Figure_1}
+	\label{fig:operando_cold_cycle}
 \end{figure}
 
