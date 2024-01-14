@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.8)  10 JAN 2024 11:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.8)  14 JAN 2024 21:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -416,6 +416,55 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \backup@length=\skip53
 \ar@cellbox=\box82
 )
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2022-02-02 v3.0.46 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen282
+\l__siunitx_angle_marker_box=\box83
+\l__siunitx_angle_unit_box=\box84
+\l__siunitx_compound_count_int=\count307
+
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/01/04 v1.11 internationalization of LaTeX2e packages
+ (CN)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+\l__siunitx_number_exponent_fixed_int=\count308
+\l__siunitx_number_min_decimal_int=\count309
+\l__siunitx_number_min_integer_int=\count310
+\l__siunitx_number_round_precision_int=\count311
+\l__siunitx_number_group_minimum_int=\count312
+\l__siunitx_table_tmp_box=\box85
+\l__siunitx_table_tmp_dim=\dimen283
+\l__siunitx_table_column_width_dim=\dimen284
+\l__siunitx_table_integer_box=\box86
+\l__siunitx_table_decimal_box=\box87
+\l__siunitx_table_before_box=\box88
+\l__siunitx_table_after_box=\box89
+\l__siunitx_table_before_dim=\dimen285
+\l__siunitx_table_carry_dim=\dimen286
+\l__siunitx_unit_tmp_int=\count313
+\l__siunitx_unit_position_int=\count314
+\l__siunitx_unit_total_int=\count315
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+))
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
 
@@ -437,37 +486,39 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box83
-\UL@hyphenbox=\box84
+\UL@box=\box90
+\UL@hyphenbox=\box91
 \UL@skip=\skip54
 \UL@hook=\toks24
-\UL@height=\dimen282
-\UL@pe=\count307
-\UL@pixel=\dimen283
-\ULC@box=\box85
+\UL@height=\dimen287
+\UL@pe=\count316
+\UL@pixel=\dimen288
+\ULC@box=\box92
 Package: ulem 2019/11/18
-\ULdepth=\dimen284
+\ULdepth=\dimen289
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count308
+\linenopenalty=\count317
 \output=\toks25
-\linenoprevgraf=\count309
-\linenumbersep=\dimen285
-\linenumberwidth=\dimen286
-\c@linenumber=\count310
-\c@pagewiselinenumber=\count311
-\c@LN@truepage=\count312
-\c@internallinenumber=\count313
-\c@internallinenumbers=\count314
-\quotelinenumbersep=\dimen287
-\bframerule=\dimen288
-\bframesep=\dimen289
-\bframebox=\box86
+\linenoprevgraf=\count318
+\linenumbersep=\dimen290
+\linenumberwidth=\dimen291
+\c@linenumber=\count319
+\c@pagewiselinenumber=\count320
+\c@LN@truepage=\count321
+\c@internallinenumber=\count322
+\c@internallinenumbers=\count323
+\quotelinenumbersep=\dimen292
+\bframerule=\dimen293
+\bframesep=\dimen294
+\bframebox=\box93
 LaTeX Info: Redefining \\ on input line 3056.
 )
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 2
-9.
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 31.
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 3
+1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
@@ -478,60 +529,60 @@ File: ot1txr.fd 2000/12/15 v3.1
 (./outlook/outlook.aux))
 \openout1 = `my_thisis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 29.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 31.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-29.
+31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 31.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-29.
+31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 31.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-29.
+31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 29.
-LaTeX Font Info:    Trying to load font information for U+txexa on input line 2
-9.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 31.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 3
+1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    ... okay on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ninecolors/ninecolors.sty
 Package: ninecolors 2021/05/24 v2021C Select colors with proper color contrast
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count315
-\scratchdimen=\dimen290
-\scratchbox=\box87
-\nofMPsegments=\count316
-\nofMParguments=\count317
+\scratchcounter=\count324
+\scratchdimen=\dimen295
+\scratchbox=\box94
+\nofMPsegments=\count325
+\nofMParguments=\count326
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count318
-\MPscratchDim=\dimen291
-\MPnumerator=\count319
-\makeMPintoPDFobject=\count320
+\MPscratchCnt=\count327
+\MPscratchDim=\dimen296
+\MPnumerator=\count328
+\makeMPintoPDFobject=\count329
 \everyMPtoPDFconversion=\toks27
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -544,26 +595,33 @@ e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for OT1+txss on input line 
-36.
 
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txss.fd
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
+nary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 31.
+LaTeX Font Info:    Trying to load font information for OT1+txss on input line 
+38.
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txss.fd
 File: ot1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 36.
+(Font)              scaled to size 4.74998pt on input line 38.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 42.
- [1
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 44.
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 58--61
+Underfull \hbox (badness 10000) in paragraph at lines 60--63
 
  []
 
 [2]
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24.88> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 63.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 65.
  (./my_thisis.toc
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 4
 .
@@ -731,26 +789,41 @@ LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
 
 ]
 
-LaTeX Warning: Citation `RADARS' on page 12 undefined on input line 27.
+LaTeX Warning: Reference `sec:operando_cwepr' on page 12 undefined on input lin
+e 49.
 
 
-LaTeX Warning: Reference `eq:RESONANCE_CONDITION' on page 12 undefined on input
- line 27.
+LaTeX Warning: Reference `sec:pulsed_epr' on page 12 undefined on input line 49
+.
 
 [12]
-<./operando_epr/figures/Cartoon_ALL.pdf, id=83, 822.28464pt x 512.1496pt>
+<./operando_epr/figures/cwEPR_spectrometer_diagram.pdf, id=83, 623.89397pt x 20
+5.18825pt>
+File: ./operando_epr/figures/cwEPR_spectrometer_diagram.pdf Graphic file (type 
+pdf)
+<use ./operando_epr/figures/cwEPR_spectrometer_diagram.pdf>
+Package pdftex.def Info: ./operando_epr/figures/cwEPR_spectrometer_diagram.pdf 
+ used on input line 59.
+(pdftex.def)             Requested size: 424.58624pt x 139.64198pt.
+
+
+LaTeX Warning: Reference `eq:RESONANCE_CONDITION' on page 13 undefined on input
+ line 72.
+
+[13 <./operando_epr/figures/cwEPR_spectrometer_diagram.pdf>]
+<./operando_epr/figures/Cartoon_ALL.pdf, id=90, 822.28464pt x 512.1496pt>
 File: ./operando_epr/figures/Cartoon_ALL.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/Cartoon_ALL.pdf>
 Package pdftex.def Info: ./operando_epr/figures/Cartoon_ALL.pdf  used on input 
-line 40.
+line 85.
 (pdftex.def)             Requested size: 424.58624pt x 264.44377pt.
-<./operando_epr/figures/Main_2D_redox_map_full.pdf, id=84, 913.4125pt x 602.25p
+<./operando_epr/figures/Main_2D_redox_map_full.pdf, id=91, 913.4125pt x 602.25p
 t>
 File: ./operando_epr/figures/Main_2D_redox_map_full.pdf Graphic file (type pdf)
 
 <use ./operando_epr/figures/Main_2D_redox_map_full.pdf>
 Package pdftex.def Info: ./operando_epr/figures/Main_2D_redox_map_full.pdf  use
-d on input line 50.
+d on input line 95.
 (pdftex.def)             Requested size: 424.58624pt x 279.94226pt.
 
 
@@ -759,73 +832,210 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13 <./operando_epr/figures/Cartoon_ALL.pdf>]
-<./operando_epr/figures/slowcharge_231117_liquid_250K.pdf, id=502, 752.8125pt x
+ [14 <./operando_epr/figures/Cartoon_ALL.pdf>]
+<./operando_epr/figures/slowcharge_231117_liquid_250K.pdf, id=508, 752.8125pt x
  602.25pt>
 File: ./operando_epr/figures/slowcharge_231117_liquid_250K.pdf Graphic file (ty
 pe pdf)
 <use ./operando_epr/figures/slowcharge_231117_liquid_250K.pdf>
 Package pdftex.def Info: ./operando_epr/figures/slowcharge_231117_liquid_250K.p
-df  used on input line 72.
+df  used on input line 117.
 (pdftex.def)             Requested size: 424.58624pt x 339.67456pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [14 <./operando_epr/figures/Main_2D_redox_map_full.pdf>] [15 <./operando_epr/
+) [15 <./operando_epr/figures/Main_2D_redox_map_full.pdf>] [16 <./operando_epr/
 figures/slowcharge_231117_liquid_250K.pdf>]
 \openout2 = `pulse/pulse.aux'.
 
- (./pulse/pulse.tex [16
+ (./pulse/pulse.tex
+Chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+[17
 
 
 
 
 ]
-Chapter 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-
- []
-
-[17]
-<./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf, id=561, 1415.2875pt x 677.53125pt
+<./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf, id=564, 1415.2875pt x 677.53125pt
 >
 File: ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf Graphic file (type pdf)
 <use ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf>
 Package pdftex.def Info: ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf  used on i
-nput line 23.
+nput line 24.
 (pdftex.def)             Requested size: 424.58624pt x 203.2506pt.
 File: ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf Graphic file (type pdf)
 <use ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf>
 Package pdftex.def Info: ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf  used on i
-nput line 34.
+nput line 35.
 (pdftex.def)             Requested size: 424.58624pt x 203.2506pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[18 <./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf>]) [19]
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+[18 <./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+<./pulse/figures/Figure_S7.pdf, id=593, 1204.5pt x 814.04124pt>
+File: ./pulse/figures/Figure_S7.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S7.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S7.pdf  used on input line 114.
+
+(pdftex.def)             Requested size: 424.58624pt x 286.95578pt.
+[20 <./pulse/figures/Figure_S7.pdf>]
+Overfull \hbox (6.22568pt too wide) in paragraph at lines 121--121
+[]\OT1/txr/bx/n/12 Pad[]e-Laplace De-con-vo-lu-tion of the Echo-Decay and Inver
+sion-Recovery Tran-
+ []
+
+[21]
+<./pulse/figures/Figure_S8.png, id=646, 1043.5788pt x 472.6458pt>
+File: ./pulse/figures/Figure_S8.png Graphic file (type png)
+<use ./pulse/figures/Figure_S8.png>
+Package pdftex.def Info: ./pulse/figures/Figure_S8.png  used on input line 129.
+
+(pdftex.def)             Requested size: 424.58624pt x 192.30035pt.
+<./pulse/figures/Figure_S9.pdf, id=647, 903.375pt x 501.875pt>
+File: ./pulse/figures/Figure_S9.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S9.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S9.pdf  used on input line 136.
+
+(pdftex.def)             Requested size: 382.12502pt x 212.29468pt.
+ [22 <./pulse/figures/Figure_S8.png (PNG copy)> <./pulse/figures/Figure_S9.pdf>
+]
+<./pulse/figures/Figure_S10.pdf, id=751, 1212.53pt x 495.8525pt>
+File: ./pulse/figures/Figure_S10.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S10.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S10.pdf  used on input line 146
+.
+(pdftex.def)             Requested size: 424.58624pt x 173.6342pt.
+<./pulse/figures/Figure_S11.pdf, id=752, 903.375pt x 501.875pt>
+File: ./pulse/figures/Figure_S11.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S11.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S11.pdf  used on input line 154
+.
+(pdftex.def)             Requested size: 382.12502pt x 212.29468pt.
+ [23 <./pulse/figures/Figure_S10.pdf> <./pulse/figures/Figure_S11.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pulse/figures/Figure_S11.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+>]
+<./pulse/figures/Figure_S12.png, id=782, 1043.5788pt x 464.4552pt>
+File: ./pulse/figures/Figure_S12.png Graphic file (type png)
+<use ./pulse/figures/Figure_S12.png>
+Package pdftex.def Info: ./pulse/figures/Figure_S12.png  used on input line 165
+.
+(pdftex.def)             Requested size: 424.58624pt x 188.96793pt.
+<./pulse/figures/Figure_S13.pdf, id=783, 903.375pt x 501.875pt>
+File: ./pulse/figures/Figure_S13.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S13.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S13.pdf  used on input line 172
+.
+(pdftex.def)             Requested size: 382.12502pt x 212.29468pt.
+ [24 <./pulse/figures/Figure_S12.png (PNG copy)> <./pulse/figures/Figure_S13.pd
+f>]
+<./pulse/figures/Figure_S14.png, id=792, 1204.5pt x 501.5538pt>
+File: ./pulse/figures/Figure_S14.png Graphic file (type png)
+<use ./pulse/figures/Figure_S14.png>
+Package pdftex.def Info: ./pulse/figures/Figure_S14.png  used on input line 184
+.
+(pdftex.def)             Requested size: 424.58624pt x 176.80156pt.
+<./pulse/figures/Figure_S15.pdf, id=793, 903.375pt x 501.875pt>
+File: ./pulse/figures/Figure_S15.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S15.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S15.pdf  used on input line 192
+.
+(pdftex.def)             Requested size: 382.12502pt x 212.29468pt.
+ [25 <./pulse/figures/Figure_S14.png (PNG copy)> <./pulse/figures/Figure_S15.pd
+f>]
+<./pulse/figures/Figure_S16.pdf, id=803, 1204.5pt x 501.875pt>
+File: ./pulse/figures/Figure_S16.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S16.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S16.pdf  used on input line 203
+.
+(pdftex.def)             Requested size: 424.58624pt x 176.91478pt.
+<./pulse/figures/Figure_S17.pdf, id=804, 903.375pt x 501.875pt>
+File: ./pulse/figures/Figure_S17.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S17.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S17.pdf  used on input line 210
+.
+(pdftex.def)             Requested size: 382.12502pt x 212.29468pt.
+ [26 <./pulse/figures/Figure_S16.pdf> <./pulse/figures/Figure_S17.pdf>]
+<./pulse/figures/Figure_S18.pdf, id=834, 1212.53pt x 495.8525pt>
+File: ./pulse/figures/Figure_S18.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S18.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S18.pdf  used on input line 220
+.
+(pdftex.def)             Requested size: 424.58624pt x 173.6342pt.
+<./pulse/figures/Figure_S19.pdf, id=835, 903.375pt x 501.875pt>
+File: ./pulse/figures/Figure_S19.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S19.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S19.pdf  used on input line 228
+.
+(pdftex.def)             Requested size: 382.12502pt x 212.29468pt.
+) [27 <./pulse/figures/Figure_S18.pdf> <./pulse/figures/Figure_S19.pdf>]
+[28]
 \openout2 = `lod/lod.aux'.
 
  (./lod/lod.tex
-[20
+Chapter 5.
+) [29
 
 
 
 
 ]
-Chapter 5.
-) [21]
 \openout2 = `edmr/edmr.aux'.
 
  (./edmr/edmr.tex
 Overfull \hbox (200.08788pt too wide) has occurred while \output is active
-\OT1/txr/m/n/10 22 \OT1/txr/m/sl/10 CHAPTER 5.  LONGITUDINALLY DETECTED ELECTRO
+\OT1/txr/m/n/10 30 \OT1/txr/m/sl/10 CHAPTER 5.  LONGITUDINALLY DETECTED ELECTRO
 N PARAMAGNETIC RESONANCE IN SYSTEMS WITH SHORT RELAXATION TIMES
  []
 
-[22
+[30
 
 
 
@@ -840,42 +1050,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
 Underfull \vbox (badness 1210) has occurred while \output is active []
 
- [23]
+ [31]
 Overfull \hbox (1.58174pt too wide) in paragraph at lines 30--30
 []\OT1/txr/bx/n/12 Distribution of Cur-rent Den-sity in On-Substrate Meander-Sh
 aped Elec-trodes 
  []
 
-<./edmr/fingers1/pics/grid.pdf, id=602, 597.50786pt x 414.04688pt>
+<./edmr/fingers1/pics/grid.pdf, id=879, 597.50786pt x 414.04688pt>
 File: ./edmr/fingers1/pics/grid.pdf Graphic file (type pdf)
 <use ./edmr/fingers1/pics/grid.pdf>
 Package pdftex.def Info: ./edmr/fingers1/pics/grid.pdf  used on input line 35.
 (pdftex.def)             Requested size: 212.29312pt x 147.11086pt.
-<./edmr/fingers1/pics/3_thick_film.png, id=603, 642.4pt x 321.2pt>
+<./edmr/fingers1/pics/3_thick_film.png, id=880, 642.4pt x 321.2pt>
 File: ./edmr/fingers1/pics/3_thick_film.png Graphic file (type png)
 <use ./edmr/fingers1/pics/3_thick_film.png>
 Package pdftex.def Info: ./edmr/fingers1/pics/3_thick_film.png  used on input l
 ine 45.
 (pdftex.def)             Requested size: 212.29312pt x 106.14336pt.
-<./edmr/fingers1/pics/3_thick_film_2.png, id=604, 642.4pt x 321.2pt>
+<./edmr/fingers1/pics/3_thick_film_2.png, id=881, 642.4pt x 321.2pt>
 File: ./edmr/fingers1/pics/3_thick_film_2.png Graphic file (type png)
 <use ./edmr/fingers1/pics/3_thick_film_2.png>
 Package pdftex.def Info: ./edmr/fingers1/pics/3_thick_film_2.png  used on input
  line 53.
 (pdftex.def)             Requested size: 212.29312pt x 106.14336pt.
-<./edmr/fingers1/pics/2_intermediate_film.png, id=605, 642.4pt x 321.2pt>
+<./edmr/fingers1/pics/2_intermediate_film.png, id=882, 642.4pt x 321.2pt>
 File: ./edmr/fingers1/pics/2_intermediate_film.png Graphic file (type png)
 <use ./edmr/fingers1/pics/2_intermediate_film.png>
 Package pdftex.def Info: ./edmr/fingers1/pics/2_intermediate_film.png  used on 
 input line 62.
 (pdftex.def)             Requested size: 212.29312pt x 106.14336pt.
-<./edmr/fingers1/pics/1_thin_film.png, id=606, 642.4pt x 321.2pt>
+<./edmr/fingers1/pics/1_thin_film.png, id=883, 642.4pt x 321.2pt>
 File: ./edmr/fingers1/pics/1_thin_film.png Graphic file (type png)
 <use ./edmr/fingers1/pics/1_thin_film.png>
 Package pdftex.def Info: ./edmr/fingers1/pics/1_thin_film.png  used on input li
 ne 70.
 (pdftex.def)             Requested size: 212.29312pt x 106.14336pt.
-<./edmr/fingers1/pics/3_intermediate_film_2.png, id=607, 642.4pt x 321.2pt>
+<./edmr/fingers1/pics/3_intermediate_film_2.png, id=884, 642.4pt x 321.2pt>
 File: ./edmr/fingers1/pics/3_intermediate_film_2.png Graphic file (type png)
 <use ./edmr/fingers1/pics/3_intermediate_film_2.png>
 Package pdftex.def Info: ./edmr/fingers1/pics/3_intermediate_film_2.png  used o
@@ -883,12 +1093,12 @@ n input line 78.
 (pdftex.def)             Requested size: 212.29312pt x 106.14336pt.
 )
 Overfull \hbox (132.7173pt too wide) has occurred while \output is active
-\OT1/txr/m/n/10 24 \OT1/txr/m/sl/10 CHAPTER 6.  ELECTRICALLY DETECTED MAGNETIC 
+\OT1/txr/m/n/10 32 \OT1/txr/m/sl/10 CHAPTER 6.  ELECTRICALLY DETECTED MAGNETIC 
 RESONANCE ON A CATHODE OF AN ORGANIC RADICAL BATTERY
  []
 
-[24 <./edmr/fingers1/pics/grid.pdf> <./edmr/fingers1/pics/3_thick_film.png (PNG
- copy)>] [25 <./edmr/fingers1/pics/3_thick_film_2.png (PNG copy)> <./edmr/finge
+[32 <./edmr/fingers1/pics/grid.pdf> <./edmr/fingers1/pics/3_thick_film.png (PNG
+ copy)>] [33 <./edmr/fingers1/pics/3_thick_film_2.png (PNG copy)> <./edmr/finge
 rs1/pics/2_intermediate_film.png (PNG copy)> <./edmr/fingers1/pics/1_thin_film.
 png (PNG copy)> <./edmr/fingers1/pics/3_intermediate_film_2.png (PNG copy)>]
 \openout2 = `model/model.aux'.
@@ -896,32 +1106,32 @@ png (PNG copy)> <./edmr/fingers1/pics/3_intermediate_film_2.png (PNG copy)>]
 
 (./model/model.tex
 Overfull \hbox (132.7173pt too wide) has occurred while \output is active
-\OT1/txr/m/n/10 26 \OT1/txr/m/sl/10 CHAPTER 6.  ELECTRICALLY DETECTED MAGNETIC 
+\OT1/txr/m/n/10 34 \OT1/txr/m/sl/10 CHAPTER 6.  ELECTRICALLY DETECTED MAGNETIC 
 RESONANCE ON A CATHODE OF AN ORGANIC RADICAL BATTERY
  []
 
-[26
+[34
 
 
 
 
 ]
 Chapter 7.
-) [27]
+) [35]
 \openout2 = `outlook/outlook.aux'.
 
- (./outlook/outlook.tex [28
+ (./outlook/outlook.tex [36
 
 
 
 
 ]
 Chapter 8.
-) [29] (./my_thisis.bbl [30
+) [37] (./my_thisis.bbl [38
 
 
 
-] [31] [32] [33]) [34] (./my_thisis.aux
+] [39] [40] [41]) [42] (./my_thisis.aux
 (./summary/list_of_abbreviations.aux) (./introduction/introduction.aux)
 (./electrochemistry/electrochemistry.aux) (./operando_epr/operando_epr.aux)
 (./pulse/pulse.aux) (./lod/lod.aux) (./edmr/edmr.aux) (./model/model.aux)
@@ -931,10 +1141,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 9703 strings out of 478287
- 182621 string characters out of 5849290
- 520926 words of memory out of 5000000
- 27664 multiletter control sequences out of 15000+600000
+ 13453 strings out of 478287
+ 294442 string characters out of 5849290
+ 593970 words of memory out of 5000000
+ 31368 multiletter control sequences out of 15000+600000
  508173 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,14n,117p,2614b,1030s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -950,10 +1160,10 @@ onts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
 rw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on my_thisis.pdf (34 pages, 5063236 bytes).
+Output written on my_thisis.pdf (42 pages, 8548063 bytes).
 PDF statistics:
- 702 PDF objects out of 1000 (max. 8388607)
- 486 compressed objects within 5 object streams
+ 980 PDF objects out of 1000 (max. 8388607)
+ 693 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

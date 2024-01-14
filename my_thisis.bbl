@@ -72,6 +72,12 @@ Ting Guan, Shun Sun, Fengbin Yu, Yunzhi Gao, Peng Fan, Pengjian Zuo, Chunyu Du,
 \newblock The degradation of licoo2/graphite batteries at different rates.
 \newblock {\em Electrochimica Acta}, 279:204--212, 2018.
 
+\bibitem{Hellen_2005}
+Edward~H. Hellen.
+\newblock Padé–laplace analysis of signal averaged voltage decays obtained
+  from a simple circuit.
+\newblock {\em American Journal of Physics}, 73:871--875, 9 2005.
+
 \bibitem{Hirasawa2021}
 Takuma Hirasawa, Mika Yoshida, and Shin'ya Obara.
 \newblock Battery control for leveling the amount of electricity purchase in
@@ -125,6 +131,11 @@ Ilia Kulikov, Naitik~A. Panjwani, Anatoliy~A. Vereshchagin, Domenik Spallek,
 \newblock Spins at work: probing charging and discharging of organic radical
   batteries by electron paramagnetic resonance spectroscopy.
 \newblock {\em Energy and Environmental Science}, 15:3275--3290, 2022.
+
+\bibitem{kuprov_2023}
+Ilya Kuprov.
+\newblock {\em Spin: From Basic Symmetries to Quantum Optimal Control}.
+\newblock Springer International Publishing, 1 2023.
 
 \bibitem{Kushida1980}
 T.~Kushida and J.~C. Murphy.
@@ -220,6 +231,11 @@ Jens~F. Peters, Manuel Baumann, Benedikt Zimmermann, Jessica Braun, and Marcel
 \newblock The environmental impact of li-ion batteries and the role of key
   parameters – a review.
 \newblock {\em Renewable and Sustainable Energy Reviews}, 67:491--506, 2017.
+
+\bibitem{poincare_1905}
+M.~H. Poincaré.
+\newblock Sur la dynamique de l’électron.
+\newblock {\em Rend. Circ. Matem. Palermo}, pages 129--175, 12 1906.
 
 \bibitem{Prazanov2022}
 Anna Pražanová, Vaclav Knap, and Daniel~Ioan Stroe.

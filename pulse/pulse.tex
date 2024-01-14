@@ -1,4 +1,5 @@
 \chapter{pEPR Spectroscopy of Densely Packed Nitroxide Radicals}
+\label{ch:pulsed_epr}
 
 \section{Coherent Spin Motion under Pulsed Microwave Field}
 When a spin system is excited with a microwave pulse, its evolution is described with the set of equations that is known as the Bloch equations.
@@ -39,7 +40,198 @@ A short microwave pulse may have a spectral width comparable to the width of the
 
 \subsection{Estimation of Local Spin Concentrations with Instantaneous Diffusion}
 \subsection{Spin Relaxation in a charged pDiTBuS Cathode Film}
-\subsection{Pade-Laplace Deconvolution of Echo Decay Transients}
+
+\section{Pad{\'e}-Laplace Deconvolution of Polyexponential Decay Signals}
+\label{sec:pade-laplace}
+The echo decay and inversion recovery transients measured in the corresponding experiments may contain multiple exponential decay components. The conventional method of determining the distribution of the decay components in a transient decay is the Laplace inversion, where the signal in the time domain $s(t)$ is converted into its Laplace image $L(p)=\int\limits_{0}^{+\infty}s(t)e^{-pt}\mathrm{d}t$ in the time-constant domain $p=1/t$, where the peaks of $L(p)$ give the decay constants that make up the signal. However, for the noisy signal, the direct calculation of the Laplace transform brings in artifacts that drastically vary with the noise. The signal-to-noise ratio (SNR) of the recorded data makes it difficult to apply the Laplace inversion to determine the number of the decay components, as the Laplace transform is unstable at that SNR. \\ 
+
+
+The Pad{\'e}-Laplace method comes useful for analyzing noisy polyexponential decays as it was demonstrated in Ref.~\cite{Hellen_2005}. The idea of the Pad{\'e}-Laplace method is to analyze the Pad{\'e} approximation of the Taylor expansion of the $L(p)$ in the vicinity of one of the expected decay constants $p_0$, rather than considering the $L(p)$ fully. This way of signal decomposition is stable against the noise for SNR$<$10 (see Figure~\ref{fig:Figure_S7}). The number of exponents detected by the Pad{\'e}-Laplace method as well as their locations in the $p$ space may vary depending on the expansion point $p_0$. We considered $p_0=1/t_{1/2}$ where $t_{1/2}$ is the time at which the signal amplitude halves.\\
+
+We implemented the following algorithm to detect the number of exponents in the decaying transient $s(t)$:\\
+
+First, a point $p_0=1/t_{1/2}$ was chosen, at which $s(t)$ halves.\\
+
+Then, 11 coefficients of the Taylor expansion of the Laplace transform $L(p)$ were calculated in the vicinity of $p \rightarrow p_0$\\
+
+\begin{equation}
+L(p)\vert_{p \rightarrow p_0} = \sum_{n=0}^{11} d_i (p-p_0)^i
+\end{equation}
+with
+\begin{equation}
+d_i = \frac{1}{i!}\left(\frac{d^{(i)}L}{dp^{(i)}}\right)_{p=p0}
+\end{equation}
+where the derivatives $\frac{d^{(i)}L}{dp^{(i)}}$ are computed numerically at the point $p=p_{0}$ from the discrete signal $s(t) = (t_j,f_j),~j=1~...~M$:
+\begin{equation}
+\frac{d^{(i)}L}{dp^{(i)}}= \sum_{j=2}^{M-1}(-t_j)^ie^{(-p_0t_j)}f_j + \frac{1}{2}\left((-t_1)^ie^{(-p_0t_1)}f_1+(-t_M)^ie^{(-p_0t_M)}f_M \right)
+\end{equation}
+
+
+Then the Taylor expansion for $L(p)$ was approximated in the vicinity of $p_0$ with the Pad{\'e} polynomials a(p) and b(p) of orders $n=5$ and $n=6$ respectively:\\
+
+\begin{equation}
+\label{eq:pade}
+L(p)\vert_{p \rightarrow p_0} = d_0+d_1(p-p_0)+\dots+d_{11}(p-p_0)^{11}=\frac{a_0 + a_1(p-p_0) + \dots + a_5(p-p_0)^5}  {1 + b_1(p-p_0)+ \dots+ b_6(p-p_0)^6}
+\end{equation}
+
+The equation \ref{eq:pade} is multiplied by the the denominator and the prefactors at $(p-p_0)^{n}$ for $n=6\dots11$ are compared. This defines a system of linear equations on coefficients $b_i$:\\
+
+
+\begin{equation}\label{eq:matrix}
+  \begin{pmatrix}
+    d_{5} & d_{4} & d_{3} & d_2 & d_1 & d_0\\
+    d_6 & d_5 & d_4 & d_3 & d_2 & d_1\\
+    d_7 & d_6 & d_5 & d_4 & d_3 & d_2\\
+    d_8 & d_7 & d_6 & d_5 & d_4 & d_3\\
+    d_9 & d_8 & d_7 & d_6 & d_5 & d_4\\
+    d_{10} & d_9 & d_8 & d_7 & d_6 & d_5
+  \end{pmatrix}
+       \begin{pmatrix}
+   b_1\\
+   b_2\\
+   b_3\\
+   b_4\\
+   b_5\\
+   b_6
+   \end{pmatrix}
+  =
+    \begin{pmatrix}
+   -d_6\\
+   -d_7\\
+   -d_8\\
+   -d_9\\
+   -d_{10}\\
+   -d_{11}
+   \end{pmatrix}
+\end{equation}
+
+From \ref{eq:matrix}, $b_i$ are found. The coefficients $a_i$ are found from ${d}$ and ${b}$.\\
+
+Finally, the Pad{\'e} approximation $P=\frac{a}{b}$ is constructed and its poles are analyzed. The position of the poles reveal the decay constants. The residues at the poles may give the amplitudes of the decay components, but this was not used in the present study.
+
+\begin{figure}[ht!]
+\center
+	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_S7.pdf}
+	\caption{Pad{\'e}-Laplace deconvolution of the mock data containing two decay constants with various signal-to-noise (SNR) ratios.}
+	\label{fig:Figure_S7}
+\end{figure}
+
+
+\newpage
+\subsection{Pad{\'e}-Laplace Deconvolution of the Echo-Decay and Inversion-Recovery Transients}
+\label{pade_laplace_T2}
+We used the Pad{\'e}-Laplace method to determine the number of the decay constants in the signals and used multiexponential fits to adjust the decay constants and their amplitudes. For the echo decay transients the best fits were monoexponential fits, even though the Pade-Laplace analysis initially showed biexponential behavior for pDiTBuS with major contribution from the fast decay constants in the order of the detector's dead time. All recorded echo decay transients contain oscillations due to the ESEEM effect. The oscillations were excluded from the analysis as shown in the 'fit area' on the plots in Figure~\ref{fig:Figure_S9}, Figure~\ref{fig:Figure_S11} and Figure~\ref{fig:Figure_S13}.
+
+\newpage
+\subsubsection{Echo Decay in 50 mM TEMPOL}
+\begin{figure}[ht!]
+\center
+	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_S8.png}
+	\caption{Pad{\'e}-Laplace deconvolution of the field-swept spin echo decay in a frozen 50~\si{\milli\Molar}  solution of TEMPOL in Dichloromethane:Acetonitrile glass (3:1). One decay component detected with Pade-Laplace (triangles, right panel). Monoexponential fit (squares for faster component, circles for slower component, right panel). Temperature 5K.}
+	\label{fig:Figure_S8}
+\end{figure}
+
+\begin{figure}[ht!]
+\center
+	\includegraphics[width=0.9\textwidth]{./pulse/figures/Figure_S9.pdf}
+	\caption{Fits of the echo decay transient in the frozen 50~\si{\milli\Molar}  TEMPOL solution at the central spectral peak ($m_I=0$, 342~mT). Pad{\'e}-Laplace deconvolution the transient vs. free monoexponential fit vs biexponential fit. Temperature 5K. Data was fit in the 'fit area' region. ESEEM oscillations were excluded from the data for fit and Pade-Laplace analysis.}
+	\label{fig:Figure_S9}
+\end{figure}
+
+
+\newpage
+\subsubsection{Echo Decay in DiTBuS 95\% ESOC}
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_S10.pdf}
+	\caption{Pad{\'e}-Laplace deconvolution of the field-swept spin echo decay in the pDiTBuS film at 95\%~ESOC. Temperature 5K.}
+	\label{fig:Figure_S10}
+\end{figure}
+
+
+\begin{figure}[ht!]
+\center
+	\includegraphics[width=0.9\textwidth]{./pulse/figures/Figure_S11.pdf}
+	\caption{Fits of the echo decay transient in the pDiTBuS film at 95\%~SoC at the central spectral peak ($m_I=0$, 342~mT). Pad{\'e}-Laplace deconvolution the transient vs. free monoexponential fit vs biexponential fit. Temperature 5K. Data was fit in the 'fit area' region. ESEEM oscillations were excluded from the data for fit and Pade-Laplace analysis.}
+	\label{fig:Figure_S11}
+\end{figure}
+
+
+\newpage
+\subsubsection{Echo Decay in DiTBuS 85\% ESOC}
+
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_S12.png}
+	\caption{Pad{\'e}-Laplace deconvolution of the field-swept spin echo decay in a pDiTBuS film at 85\%~ESOC. Temperature 5K.}
+	\label{fig:Figure_S12}
+\end{figure}
+
+\begin{figure}[ht!]
+\center
+	\includegraphics[width=0.9\textwidth]{./pulse/figures/Figure_S13.pdf}
+	\caption{Pad{\'e}-Laplace deconvolution, biexponential and monoexponential fits of the spin echo decay in a pDiTBuS film at 85\%~SoC at the $m_I=0$ spectral position. Temperature 5K. Data was fit in the 'fit area' region. ESEEM oscillations were excluded from the data for fit and Pade-Laplace analysis.}
+	\label{fig:Figure_S13}
+\end{figure}
+
+
+
+\newpage
+\subsubsection{Inversion Recovery in 50 mM TEMPOL}
+\label{esi:pade_laplace_T1}
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_S14.png}
+	\caption{Pad{\'e}-Laplace deconvolution of the field-swept inversion recovery in a frozen 50~\si{\milli\Molar}  solution of TEMPOL in the Dichloromethane:Acetonitrile glass (3:1). Two decay components detected with Pade-Laplace (separated poles in the Pad{\'e}-Laplace approximation, third panel). Biexponential fit (circles for faster component, squares for slower component, right panel). Temperature 5K.}
+	\label{fig:Figure_S14}
+\end{figure}
+
+
+\begin{figure}[ht!]
+\center
+	\includegraphics[width=0.9\textwidth]{./pulse/figures/Figure_S15.pdf}
+	\caption{Fits of the inversion recovery transient in the frozen 50~\si{\milli\Molar}  TEMPOL solution at the central spectral peak ($m_I=0$, 342~mT). Pad{\'e}-Laplace deconvolution the transient and a biexponential fit. Temperature 5K.}
+	\label{fig:Figure_S15}
+\end{figure}
+
+
+
+\newpage
+\subsubsection{Inversion Recovery in DiTBuS 95\% ESOC}
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_S16.pdf}
+	\caption{Pade-Laplace deconvolution of the field-swept inversion recovery in a pDiTBuS film at 95\%~ESOC. Temperature 5K.}
+	\label{fig:Figure_S16}
+\end{figure}
+
+\begin{figure}[ht!]
+\center
+	\includegraphics[width=0.9\textwidth]{./pulse/figures/Figure_S17.pdf}
+	\caption{Fits of the inversion recovery transient in the 95\% ESOC pDiTBuS film at the central spectral peak ($m_I=0$, 342~mT). Pad{\'e}-Laplace deconvolution the transient and a biexponential fit. Temperature 5K.}
+	\label{fig:Figure_S17}
+\end{figure}
+
+
+\newpage
+\subsubsection{Inversion Recovery in DiTBuS 85\% ESOC}
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_S18.pdf}
+	\caption{Pade-Laplace deconvolution of the field-swept inversion recovery in a pDiTBuS film at 85\%~ESOC. Temperature 5K.}
+	\label{fig:Figure_S18}
+\end{figure}
+
+
+\begin{figure}[ht!]
+\center
+	\includegraphics[width=0.9\textwidth]{./pulse/figures/Figure_S19.pdf}
+	\caption{Pade-Laplace deconvolution and biexponential fit of the inversion recovery in a pDiTBuS film at 85\%~ESOC at the $m_I=0$ spectral position. Temperature 5K. Data is inverted and scaled before fitting.}
+	\label{fig:Figure_S19}
+\end{figure}
+
+
+
 
 \subsection{Detection of Domains with Poor Conductivity}
 \label{domains_distinction_by_relaxation}

@@ -13,9 +13,9 @@ A level-1 auxiliary file: outlook/outlook.aux
 The style file: plain.bst
 Database file #1: Bibliography.bib
 Warning--entry type for "salikhov_2015" isn't style-file defined
---line 22 of file Bibliography.bib
+--line 58 of file Bibliography.bib
 Warning--entry type for "Casado2021" isn't style-file defined
---line 1130 of file Bibliography.bib
+--line 1166 of file Bibliography.bib
 Warning--I didn't find a database entry for "energy_consumption_review"
 Warning--I didn't find a database entry for "energy_sources_review"
 Warning--I didn't find a database entry for "energy_from_sound"
@@ -31,47 +31,46 @@ Warning--I didn't find a database entry for "katsumata2006_mrc"
 Warning--I didn't find a database entry for "xu2014_electact"
 Warning--I didn't find a database entry for "aydin2015_jsoistatelect"
 Warning--I didn't find a database entry for "schwartz2018_synthmet"
-Warning--I didn't find a database entry for "RADARS"
 Warning--empty booktitle in nishide_2009
-You've used 55 entries,
+You've used 58 entries,
             2118 wiz_defined-function locations,
-            897 strings with 15918 characters,
-and the built_in function-call counts, 21602 in all, are:
-= -- 1993
-> -- 1423
-< -- 2
-+ -- 567
-- -- 504
-* -- 1769
-:= -- 3770
-add.period$ -- 163
-call.type$ -- 55
-change.case$ -- 415
+            914 strings with 16328 characters,
+and the built_in function-call counts, 22483 in all, are:
+= -- 2082
+> -- 1444
+< -- 3
++ -- 576
+- -- 510
+* -- 1819
+:= -- 3910
+add.period$ -- 172
+call.type$ -- 58
+change.case$ -- 426
 chr.to.int$ -- 0
-cite$ -- 56
-duplicate$ -- 612
-empty$ -- 1411
-format.name$ -- 504
-if$ -- 4334
+cite$ -- 59
+duplicate$ -- 655
+empty$ -- 1491
+format.name$ -- 510
+if$ -- 4530
 int.to.chr$ -- 0
-int.to.str$ -- 55
-missing$ -- 55
-newline$ -- 276
-num.names$ -- 110
-pop$ -- 338
+int.to.str$ -- 58
+missing$ -- 59
+newline$ -- 291
+num.names$ -- 116
+pop$ -- 352
 preamble$ -- 1
-purify$ -- 362
+purify$ -- 371
 quote$ -- 0
-skip$ -- 414
+skip$ -- 446
 stack$ -- 0
-substring$ -- 1309
-swap$ -- 67
-text.length$ -- 2
+substring$ -- 1373
+swap$ -- 79
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 216
+type$ -- 226
 warning$ -- 1
-while$ -- 162
-width$ -- 57
-write$ -- 599
-(There were 19 warnings)
+while$ -- 171
+width$ -- 60
+write$ -- 631
+(There were 18 warnings)
