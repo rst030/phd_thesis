@@ -8,6 +8,14 @@ When a spin system is excited with a microwave pulse, its evolution is described
 \subsection{Spin Packets}
 
 \section{Instrumentation}
+
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./pulse/figures/pEPR_spectrometer_diagram.pdf}
+	\caption{Diagram of a pulsed EPR spectrometer.}
+	\label{fig:pepr_spectrometer_diagram}
+\end{figure}
+
 \subsection{Pulse Sequences and Measurement Techniques}
 \subsubsection{The Refocused Spin Echo}
 The Hahn Echo sequence consists of two pulses, the $\pi/2$ pulse and the $\pi$ pulse, separated in time by $\tau$: $\pi/2 - \tau - \pi - \tau - echo$. Initially, the macroscopic magnetization of the spin system is aligned along $\vec{B_0}$: $\vec{M}_0=M_Z~\vec{e_Z}$. The $\pi/2$ microwave pulse has such length $t_{\pi/2}$ and amplitude $B_1$ that, during the pulse, $\vec{M}$ nutates to the $xy$ plane, where it keeps precessing about $\vec{e_Z}$ after the end of the pulse. The difference in local environments for each individual spins in the spin packet, as well as the interactions between the spins, that make up $\vec{M}$, leads to slightly different precession frequencies $\omega_L^i$ of the spins. After some time $\tau$, the difference in the precession frequencies translates into the differences in phases so that the vector sum of the excited spins averages down to $\vec{0}$ for sufficiently long $\tau$. In other words, the excited spin packet dephases with time. The dephasing due to different local spin environments can be reversible if the deviations of the precession frequencies do not depend on time, as is the case for separated electrons in an inhomogeneous solid. In such case, a $\pi$ pulse can be applied to the spin system to flip every single spin in the dephased spin packet by 180$\deg$ in a plane containing $\vec{e}_Z$, so that the spins keep precessing in the $xy$ plane, but the direction of precession is inverted for them, leading to the effect that is opposite to the initial dephasing. So a $\tau$ after the $\pi$ pulse excites the spin packet, the accumulated phase differences become the smallest and the packet recovers its macroscopic magnetization $\vec{M}$ that oscillates in the $xy$ plane with $\langle\omega_L^i\rangle$ and can be detected. The recovered $\vec{M}$ at $t=\tau$ after the $\pi$ pulse is called the refocused spin echo. The difference in $\omega_L^i$ leads to a further dephasing of the considered spin packet and to the vanishing of $\vec{M}$.\\
@@ -236,11 +244,7 @@ We used the Pad{\'e}-Laplace method to determine the number of the decay constan
 \subsection{Detection of Domains with Poor Conductivity}
 \label{domains_distinction_by_relaxation}
 
-\subsection{Towards Imaging of Spin Concentration in Battery Electrodes}
+\subsection{Towards Electron Resonance Imaging of Spin Concentrations in Battery Electrodes}
 One can obtain a spatially resolved image of the spin concentrations inside a battery electrode by encoding the position with a gradient of the magnetic field. With the procedure described in Section~\ref{domains_distinction_by_relaxation} and using a pair of electromagnetic coils to superimpose a gradient of $B_0$ one can not only measure the spin concentrations that are present in the electrode, but also to locate the electrochemically inactive domains and to visualize the conductive paths throughout the electrode.
-
-\subsection{Unusual Peak Ratios in a Highly Charged Cathode Film}
-
-
 
 

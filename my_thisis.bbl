@@ -29,6 +29,11 @@ Evgenia Dmitrieva, Marco Rosenkranz, Julia~S. Danilova, Evgenia~A. Smirnova,
   ligands: An in situ esr and uv–vis–nir spectroelectrochemical study.
 \newblock {\em Electrochimica Acta}, 283:1742--1752, 2018.
 
+\bibitem{Fan2023_PRL}
+X.~Fan, T.~G. Myers, B.~A.D. Sukra, and G.~Gabrielse.
+\newblock Measurement of the electron magnetic moment.
+\newblock {\em Physical Review Letters}, 130, 2 2023.
+
 \bibitem{Behrends2011}
 M.~Fehr, J.~Behrends, S.~Haas, B.~Rech, K.~Lips, and A.~Schnegg.
 \newblock Electrical detection of electron-spin-echo envelope modulations in
@@ -325,6 +330,11 @@ Hyun~Deog Yoo, Elena Markevich, Gregory Salitra, Daniel Sharon, and Doron
 E~K Zavoisky.
 \newblock Paramagnetic relaxation of liquid solutions for perpendicular fields.
 \newblock {\em Zhur. Eksperiment. i Theoret. Fiz.}, 15:344--350, 1945.
+
+\bibitem{Zavoisky_1945_JP}
+E~K Zavoisky.
+\newblock Spin-magnetic resonance in paramagnetics.
+\newblock {\em Journal of Physics}, 9:245, 1945.
 
 \bibitem{Zens2022}
 Clara Zens, Christian Friebe, Ulrich~S. Schubert, Martin Richter, and Stephan

@@ -4,18 +4,20 @@ The top-level auxiliary file: my_thisis.aux
 A level-1 auxiliary file: summary/list_of_abbreviations.aux
 A level-1 auxiliary file: introduction/introduction.aux
 A level-1 auxiliary file: electrochemistry/electrochemistry.aux
+Case mismatch error between cite keys xie2021 and Xie2021
+---line 36 of file electrochemistry/electrochemistry.aux
+ : \citation{xie2021
+ :                  }
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: operando_epr/operando_epr.aux
 A level-1 auxiliary file: pulse/pulse.aux
-A level-1 auxiliary file: lod/lod.aux
-A level-1 auxiliary file: edmr/edmr.aux
-A level-1 auxiliary file: model/model.aux
 A level-1 auxiliary file: outlook/outlook.aux
 The style file: plain.bst
 Database file #1: Bibliography.bib
 Warning--entry type for "salikhov_2015" isn't style-file defined
---line 58 of file Bibliography.bib
+--line 81 of file Bibliography.bib
 Warning--entry type for "Casado2021" isn't style-file defined
---line 1166 of file Bibliography.bib
+--line 1189 of file Bibliography.bib
 Warning--I didn't find a database entry for "energy_consumption_review"
 Warning--I didn't find a database entry for "energy_sources_review"
 Warning--I didn't find a database entry for "energy_from_sound"
@@ -31,46 +33,58 @@ Warning--I didn't find a database entry for "katsumata2006_mrc"
 Warning--I didn't find a database entry for "xu2014_electact"
 Warning--I didn't find a database entry for "aydin2015_jsoistatelect"
 Warning--I didn't find a database entry for "schwartz2018_synthmet"
+Warning--I didn't find a database entry for "abdiaziz2019_chemcomm"
+Warning--I didn't find a database entry for "kutin2019_catalysis"
+Warning--I didn't find a database entry for "neukermans2020_chemelectrochem"
+Warning--I didn't find a database entry for "bonke2021_natrev"
+Warning--I didn't find a database entry for "priebe2013_angewandte"
+Warning--I didn't find a database entry for "rabeah2015_angewandte"
+Warning--I didn't find a database entry for "zhao2021_jacs"
+Warning--I didn't find a database entry for "kanzaki2018_acsappmat"
+Warning--I didn't find a database entry for "wadhawan2007_encofelectrochem"
+Warning--I didn't find a database entry for "Safari2011"
+Warning--I didn't find a database entry for "Anderson1953"
+Warning--I didn't find a database entry for "Liu2008"
 Warning--empty booktitle in nishide_2009
-You've used 58 entries,
+You've used 60 entries,
             2118 wiz_defined-function locations,
-            914 strings with 16328 characters,
-and the built_in function-call counts, 22483 in all, are:
-= -- 2082
-> -- 1444
+            937 strings with 16779 characters,
+and the built_in function-call counts, 23034 in all, are:
+= -- 2134
+> -- 1474
 < -- 3
-+ -- 576
-- -- 510
-* -- 1819
-:= -- 3910
-add.period$ -- 172
-call.type$ -- 58
-change.case$ -- 426
++ -- 588
+- -- 520
+* -- 1857
+:= -- 4012
+add.period$ -- 178
+call.type$ -- 60
+change.case$ -- 437
 chr.to.int$ -- 0
-cite$ -- 59
-duplicate$ -- 655
-empty$ -- 1491
-format.name$ -- 510
-if$ -- 4530
+cite$ -- 61
+duplicate$ -- 676
+empty$ -- 1530
+format.name$ -- 520
+if$ -- 4639
 int.to.chr$ -- 0
-int.to.str$ -- 58
-missing$ -- 59
-newline$ -- 291
-num.names$ -- 116
-pop$ -- 352
+int.to.str$ -- 60
+missing$ -- 61
+newline$ -- 301
+num.names$ -- 120
+pop$ -- 359
 preamble$ -- 1
-purify$ -- 371
+purify$ -- 380
 quote$ -- 0
-skip$ -- 446
+skip$ -- 461
 stack$ -- 0
-substring$ -- 1373
-swap$ -- 79
+substring$ -- 1392
+swap$ -- 81
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 226
+type$ -- 234
 warning$ -- 1
-while$ -- 171
-width$ -- 60
-write$ -- 631
-(There were 18 warnings)
+while$ -- 176
+width$ -- 62
+write$ -- 653
+(There was 1 error message)

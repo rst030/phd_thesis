@@ -1,5 +1,22 @@
-\documentclass{book}
-\usepackage{amsmath,a4wide}
+\documentclass[10pt,a5]{book}
+%\documentclass[openright,twoside,10pt]{book}
+
+\usepackage{geometry}
+\geometry{%
+  margin=7mm,
+  textwidth  = 120mm ,
+  textheight = 180mm ,
+  a5paper            ,
+  includehead        ,
+  hcentering         ,
+  vcentering
+}
+
+%\marginparwidth = 3cm
+\marginparsep = 0.2cm
+\hoffset = 0mm
+\voffset = 0mm
+\usepackage{amsmath}
 
 \usepackage{tabularray}
 \usepackage{adjustbox}
@@ -24,7 +41,7 @@
 
 \usepackage{booktabs}
 \usepackage{lineno}
-\linenumbers
+%\linenumbers
 
 
 
@@ -35,7 +52,7 @@
 \thispagestyle{empty}
 \begin{center}
 \begin{huge}
-Storage and Transport of Charge in\\
+Storage of Charge in\\
 Redox Conductive Polymers\\
 Probed with\\
 Electron Spin Resonance Spectroscopy\\
@@ -46,7 +63,7 @@ Electron Spin Resonance Spectroscopy\\
 Im Fachbereich Physik der Freien Universit\"{a}t Berlin eingereichte\\
 Dissertation zur Erlangung des Grades eines\\
 Doktors der Naturwissenschaften\\
-\vspace{16\baselineskip}
+\vspace{12\baselineskip}
 Berlin\\
 August 2023\\
 
@@ -71,9 +88,9 @@ August 2023\\
 \include{electrochemistry/electrochemistry}
 \include{operando_epr/operando_epr}
 \include{pulse/pulse}
-\include{lod/lod}
-\include{edmr/edmr}
-\include{model/model}
+%\include{lod/lod}
+%\include{edmr/edmr}
+%\include{model/model}
 \include{outlook/outlook}
 
 

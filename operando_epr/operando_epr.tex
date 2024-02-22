@@ -2,7 +2,7 @@
 \section{Electron Paramagnetic Resonance}
 \subsection{The Spin Hamiltonian}
 \paragraph*{Electron Spin}
-In the Poincaré group of special relativity~\cite{poincare_1905}, when relativistic boosts and rotations are considered, there emerges an additional quantity that is preserved together with the orbital angular momentum, yet it is retained for point objects - spin~\cite{kuprov_2023}. Spin is quantized, it can take values in integer- or half-integer multiples of the Planck's quantum of action $\hbar$ up to a certain magnitude $S$. The electron, as a fundamental particle and a fermion, bears a half-integer spin with a magnitude of $S=1/2$. Spin combines with the charge of the electron to endow the electron with a magnetic moment $\vec{\mu_{spin}} = \gamma\vec{S}$, where $\gamma=\frac{g_e\mu_B}{\hbar}\approx 28.025$~GHz/T is the gyromagnetic ratio of the electron, $\mu_B=\hbar e/m_e$ is the Bohr magneton and $g_e \approx 2.00231930$ is the electron g factor. The magnetic moment of the electron is quantized~\cite{SternGerlach1922}: the eigenvalues of the spin operator for the electron $\vec{\hat{S}}$ take only two half-integer values $\pm\frac{\hbar}{2}$. 
+In the Poincaré group of special relativity~\cite{poincare_1905}, when relativistic boosts and rotations are considered, there emerges an additional quantity that is preserved together with the orbital angular momentum, yet this quantity is retained for point objects - it is called spin~\cite{kuprov_2023}. Spin is quantized~\cite{SternGerlach1922}; it can take values in integer- or half-integer multiples of the Planck's quantum of action $\hbar$ up to a certain magnitude $S$. The electron, as a fundamental particle and a fermion, bears a half-integer spin with a magnitude of $S=1/2$. Spin combines with the charge of the electron to endow the electron with a magnetic moment $\vec{\mu_{spin}} = \gamma\vec{S}$, where $\gamma=\frac{g_e\mu_B}{\hbar}\approx 28.025$~GHz/T is the gyromagnetic ratio of the electron, $\mu_B=\hbar e/m_e$ is the Bohr magneton and $g_e \approx 2.00231930$ is the electron g factor~\cite{Fan2023_PRL}. The magnetic moment of the electron is quantized~\cite{SternGerlach1922}: the eigenvalues of the spin operator for the electron $\vec{\hat{S}}$ take only two half-integer values $\pm\frac{\hbar}{2}$. 
 \par
 When an electron is placed in a static magnetic field $\vec{B_0}=B_0 \vec{e_z}$, its magnetic moment precesses about the field direction with the Larmor frequency $\omega_L = \gamma B_0$. The projection of the electron spin on the direction of the magnetic field can take only discrete values between $-S=-1/2$ and $S=1/2$, so that the eigenvalues of the $z$ component of the spin operator are also discrete: 
 
@@ -51,12 +51,12 @@ The electron Zeeman term $H_{EZ}$ defines the requirements on the hardware and s
 
 \subsection{Instrumentation}
 \paragraph{cwEPR Hardware}
-First observed in 1944~\cite{zavoisky_1945,salikhov_2015}, the phenomenon of electron paramagnetic resonance had become a tool for probing local molecular environments in species that contain unpaired electron spins. A free electron, that does not interact with its environment and has $g=g_e$, experiences a Zeeman splitting of $\Delta E = g \mu_B B_0$, that corresponds to the energy of a photon with a frequency of $\nu=\Delta E / h$. At $B_0\approx0.3$~T, a microwave photon with $\nu\approx9.5$~GHz (IEEE X band, $\nu=8-12$~GHz, $\lambda=2.5-3.8$~cm) can drive the magnetic dipole transition between $\vert{\uparrow\rangle}$ and $\vert{\downarrow\rangle}$ - that is called the spin flip. In a simple cwEPR experiment, the frequency and power of the microwave source is kept constant and the magnetic field is scanned around the values given by the Eq.~\ref{eq:epr_resonance_condition}. and the microwave absorption is observed as a function of the magnetic field. The allowed spin transitions are manifesting themselves as peaks in the microwave absorption coefficient when recorded with respect to the magnetic field. More advanced methods that involve coherent spin dynamics and pulsed microwave fields are discussed in Chapter~\ref{ch:pulsed_epr}.
+First observed in 1944~\cite{Zavoisky_1945_JP,zavoisky_1945,salikhov_2015}, the phenomenon of electron paramagnetic resonance had become a tool for probing local molecular environments in species that contain unpaired electron spins. A free electron, that does not interact with its environment and has $g=g_e$, experiences a Zeeman splitting of $\Delta E = g \mu_B B_0$, that corresponds to the energy of a photon with a frequency of $\nu=\Delta E / h$. At $B_0\approx0.3$~T, a microwave photon with $\nu\approx9.5$~GHz (IEEE X band, $\nu=8-12$~GHz, $\lambda=2.5-3.8$~cm) can drive the magnetic dipole transition between $\vert{\uparrow\rangle}$ and $\vert{\downarrow\rangle}$ - that is called the spin flip. In a simple cwEPR experiment, the frequency and power of the microwave source is kept constant and the magnetic field is scanned around the values given by the Eq.~\ref{eq:epr_resonance_condition}. and the microwave absorption is observed as a function of the magnetic field. The allowed spin transitions are manifesting themselves as peaks in the microwave absorption coefficient when recorded with respect to the magnetic field. More advanced methods that involve coherent spin dynamics and pulsed microwave fields are discussed in Chapter~\ref{ch:pulsed_epr}.
 \par
-A basic cwEPR spectrometer consists of a magnet, a microwave source, a resonator and a detector. Figure~\ref{fig:cwerp_spectrometer} depicts those elements with more details.
+A basic cwEPR spectrometer consists of a magnet, a microwave source, a resonator and a detector. Figure~\ref{fig:cwerp_spectrometer} depicts those elements with more details, including the electrochemical cell that is placed inside the microwave resonator.
 \begin{figure}[h]
 \center
-	\includegraphics[width=1\textwidth]{./operando_epr/figures/cwEPR_spectrometer_diagram.pdf}
+	\includegraphics[width=0.9\textwidth]{./operando_epr/figures/cwEPR_spectrometer_diagram.pdf}
 	\caption{Diagram of a cwEPR spectrometer}
 	\label{fig:cwerp_spectrometer}
 \end{figure}
@@ -64,12 +64,12 @@ A basic cwEPR spectrometer consists of a magnet, a microwave source, a resonator
 
 
 \par
-To ensure that only the magnetic component of the microwave photon is interacting with the sample, a standing microwave is formed in a resonating cavity with a resonance frequency close to that of the microwave source. In the center of the cavity, the magnetic component of the microwave is maximized and the electric component is quenched. When the sample is inserted in the center of the cavity, it is mostly the magnetic component of the microwave that is interacting with it. That allows one to drive a magnetic dipole transition without heating up the sample. A sample of finite dimension, especially if it contains metals, changes the distribution of the microwave field inside the cavity, shifts the resonance frequency of the cavity and changes its quality factor $Q$. The frequency of the microwave source is adjusted so that it fits the new eigenmode of the cavity. 
+To ensure that only the magnetic component of the microwave photon is interacting with the sample, a standing microwave is formed in a resonating cavity with a resonance frequency close to that of the microwave source. In the center of the cavity, the magnetic component of the microwave is maximized and the electric component is quenched. When the sample is inserted in the center of the cavity, it is mostly the magnetic component of the microwave that is interacting with it. That allows one to drive a magnetic dipole transition without heating up the sample by the electric component. A sample of finite dimension, especially if it contains metals, changes the distribution of the microwave field inside the cavity, shifts the resonance frequency of the cavity and changes its quality factor $Q$. The frequency of the microwave source is adjusted so that it fits the new eigenmode of the cavity. 
 
 
+...
 
-
-and the external magnetic field is swept. When the resonance condition is met~\ref{eq:RESONANCE_CONDITION}, the spin flip occurs and the photon is being absorbed by the sample. The resonance absorption of microwaves can be detected by a small decrease in the quality factor $Q$ of the resonating cavity, as the magnetic field is being scanned and the microwave frequency is kept constant. The change in the $Q$ factor during the spin flip leads to temporal decoupling of the resonator, that causes reflections of the microwave that would have entered the resonator off resonance. The intensity of the microwaves is measured with a biased semiconductor diode that has a linearly changing conductivity in the range corresponding to  the incident microwave power. A phase sensitive detection with the shallow modulation of $B_0$ increases the signal-to-noise ratio (SNR), and yields the derivative of the resonance absorption profile. The typically high $Q\gg1$ factor of the resonating cavity further increases the SNR.
+and the external magnetic field is swept. When the resonance condition is met~\ref{eq:RESONANCE_CONDITION}, the spin flip occurs and the photon is being absorbed by the sample. The resonance absorption of microwaves can be detected by a small decrease in the quality factor $Q$ of the resonating cavity as the magnetic field is being scanned while the microwave frequency is kept constant. When the magnetic field reaches the value that satisfies the resonance condition, the incident microwaves are being absorbed by the sample and the resonator's $Q$ factor slightly changes. The change in the Q factor decouples the resonator from the source, that causes uncompensated reflections of the microwave that would have entered the resonator at other magnetic fields, where no magnetic resonance takes place. The intensity of the microwaves is measured with a biased semiconductor diode that has a linearly changing conductivity in the range corresponding to the incident microwave power. A phase sensitive detection with the shallow modulation of $B_0$ increases the signal-to-noise ratio (SNR) and yields the derivative of the resonance absorption profile. The typically high $Q\gg1$ factor of the resonating cavity further increases the SNR.
 
 
 \section{EPR Spectroscopy of a Charging Electrochemical Cell}
@@ -78,14 +78,107 @@ Another general issue with the operando EPR and EDMR experiments is that the dev
 
 \subsection{Fabrication of EPR-compatible Electrochemical Cells}
 
+\section{Versatile electrode setup for ex-situ and in-situ spectroelectrochemical EPR}\label{electrode_setup}
+%
+There is increasing interest in both ex-situ and in-situ spectroelectrochemical (SEC) EPR measurements in research fields ranging from biology to materials science, from redox active systems such as proteins~\cite{abdiaziz2019_chemcomm} and hydrogenase to catalysis,\cite{kutin2019_catalysis, neukermans2020_chemelectrochem, bonke2021_natrev, priebe2013_angewandte, rabeah2015_angewandte} redox-flow batteries~\cite{zhao2021_jacs} and of course ORBs.\cite{huang2016_jpowersources, kanzaki2018_acsappmat} One significant drawback with SEC EPR is the fact that microwave resonators suffer from substantial microwave damping as a result of introducing metal electrodes, polar solvents and ionic salts (i.e., the electrolyte) needed for successful electrochemistry.\cite{wadhawan2007_encofelectrochem} Microwave damping can be significantly reduced by our novel on-substrate electrode design (see Fig.~\ref{fig:flat_tube}) as this limits the amount of metal that is introduced into the resonator, while still allowing us to have electrode surface areas large enough to deposit sufficient material of interest to observe EPR signals.
+
+\begin{figure*}[ht!]
+ \centering
+ \includegraphics[width=0.99\textwidth]{./operando_epr/figures/Flat_tube_setup.pdf}
+ \caption{Schematic diagram of the electrode design and assembly of the electrochemical cell based on a modified X-band EPR quartz tube. a): Molecular structure of p-DiTS, with the redox reaction of its charge-bearing TEMPO groups; highlighted is the backbone, p-NiMeOSalen. b): Photograph of the modified tube with a flattened bottom section, with the on-substrate electrochemical setup assembled inside, and the process of forming the modified tube. c): Electrochemical setup for deposition and cleaning of polymer films. d): Tube-based electrochemical setup. e): Cyclic voltammograms of a growing p-DiTS film during 100 electropolymerization cycles (solid-brown), during the cleaning process (crossed-black) and in the tube-based setup (dotted-blue). Peaks A/A', B/B' correspond to the oxidation and reduction of the TEMPO fragments and of the p-NiSalen backbone, respectively. All CV were recorded at 50~mV\,s\textsuperscript{-1}.}
+ \label{fig:flat_tube}
+\end{figure*}
+
+\par
+The on-substrate electrodes are produced as follows. Cleaned quartz substrates are placed inside a holder and covered with shadow masks. The assembly is transferred into a vacuum chamber equipped with a thermal evaporator (MBraun ProVap 5G PVD System). At a pressure of $7\times10^{-7}$~mbar, 10~nm of Chromium (Cr) adhesion layer is evaporated, followed by 180~nm of Gold (Au). In this way the on-substrate working and counter electrodes are formed (WE and CE respectively). The reference electrode (RE) is not evaporated on substrate for electrochemical stability reasons. Instead, a \SI{250}{\micro\meter} Ag wire is used, either as is or, for additional stability, coated galvanically with a AgCl layer.\cite{Safari2011} See Section \ref{Experimental_Section} in the ESI$\dag$ for details of the sample preparation.
+\par
+The above procedure provides a WE active area of 12.0~mm$^2$ which allows one to deposit an electrochemically active film that is large enough to yield a clear EPR signal. The flat electrode design provides the possibility to increase the WE area for samples with particularly small EPR signals while still maintaining certain film thicknesses. This also allows for studying EPR properties as a function of film thickness. In cases where the electrochemical process is thought to deposit material on both the WE and CE, the distance between the on-substrate electrodes can be adjusted such that only one of the electrodes is positioned in the active volume of the microwave resonator, allowing for selective EPR probing of either of the electrodes.
+\par
+The on-substrate electrodes reduce microwave damping. However, a substantial amount of microwave damping occurs due to the electrolyte, made of polar solvent and ionic salts. Therefore, we further optimize our setup by modifying conventional 5~mm outer diameter (OD) quartz EPR tubes by flattening the bottom 1.3$-$1.6~cm (cf.\ Fig.~\ref{fig:flat_tube}b and Section \ref{fig:S1_modified_tube} in the ESI$\dag$), thereby reducing the active electrolyte volume needed to submerge both the WE and CE on the substrate as well as the RE wire, from $\sim$120~$\mu^{\bullet}$L to $\sim$60$-$70~$\mu^{\bullet}$L.
+\par
+The flattened tube and the thin-film electrode setup have an additional benefit in that the sample is moved away from the maximum of the electric field distribution in the Bruker ER~4122-SHQE resonator (TE\textsubscript{011} mode cavity for cwEPR), thereby further increasing the resonator quality factor (Q-factor, given by $Q = \frac{\nu_{res}}{\Delta \nu}$, $\nu_{res} =$ resonance frequency, $\Delta \nu =$ FWHM of the resonance dip) and hence sensitivity. Further improvements can be made using the flat electrode setup in a TM\textsubscript{110} mode cwEPR cylindrical cavity such as a Bruker ER~4103-TM (developed for studying samples exhibiting high dielectric constants), where the flattened cell can be aligned to further reduce coupling to the microwave electric field. The modified tube is compatible with commercial Bruker ER~4118X-MD5 resonators, most commonly used for advanced pulse EPR measurements at X-band frequencies ($\nu = 9-10$~GHz).
+
+
+\par
+***
+\par
+
+To establish the extent to which the modified tube improves the resonator Q-factor (Q) and therefore sensitivity of the cwEPR experiment, cwEPR spectra and associated Q-factors were recorded for a flat-electrode p-DiTS cell assembled in two different sample tubes. For both cell setups we used enough electrolyte to submerge all three electrodes. This required 100~$\mu^{\bullet}$L for the standard tube and 70~$\mu^{\bullet}$L for the modified tube. The effect of the two tubes on the cwEPR spectrum and on the Q-factor was studied for a range of heights ($H$) measured from the center of the microwave resonator to the middle of the WE.
+
+\begin{figure}[h]
+
+	\includegraphics[width=0.5\textwidth]{./operando_epr/figures/Q_factors_mod_tube.pdf}
+	\caption
+	{Signal-to-noise ratio of the cwEPR spectrum of p-DiTS and the Q-factor of the Bruker ER4122-SHQE microwave resonator measured for an electrochemical cell based on a standard X-band EPR sample tube and for an electrochemical cell based on the modified tube. Data for various heights $H$ from the center of the resonator. Insets: Representative cwEPR spectra at $H=18$~mm, where the signal for the standard tube is the strongest.}
+	%{Changes in the microwave resonator Q-factor when loaded with a p-DiTS sample with electrolyte in a standard and modified tube as a function of $H$.}
+	\label{fig:Q_factors_mod_tube}
+\end{figure}
+
+\par
+We determine Q~$\approx$~7800 for the empty resonator. Inserting the tube-based cells initially at $H=$~24~mm reduces the Q-factor for both cases, but more significantly for the standard tube (Q\textsubscript{standard tube}~$\approx$~4200, Q\textsubscript{modified tube}~$\approx$~5400, see Fig.~\ref{fig:Q_factors_mod_tube}). At $H=$~18~mm the Q-factor drops for both, again more significantly for the standard tube to Q\textsubscript{standard tube}~$\approx$~300 while for the modified tube it is still Q\textsubscript{modified tube}~$\approx$~1200, a factor of 4 difference. This difference between the two tubes shows the benefit of using the modified tube and flat electrode geometries for SEC EPR. When the modified tube is inserted as deep as $H=$~14~mm, the Q\textsubscript{modified tube} is around 400, which still allows for EPR measurements. Coupling the resonator not possible for $H<18$~mm (standard tube) and $H<14$~mm (modified tube).
+
+\par
+The decreasing Q-factor is not the only effect of a high-dielectric sample in an EPR resonator. The interaction between the sample and the electric field distribution of the resonator causes a mixture of absorption and dispersion signals, leading to asymmetric lineshapes in the cwEPR spectra. This makes double integration of the derivative cwEPR signal more complex, thereby making a quantitative analysis more difficult. This effect can be seen in the cwEPR spectra of p-DiTS (Fig.~\ref{fig:Q_factors_mod_tube}) measured in the standard 5~mm tube for $H=$~18~mm where the cwEPR signal is asymmetric. The modified tube yields symmetric lineshapes at the same sample heights. Further details are presented in Section~\ref{Q-factor_SNR} (ESI$\dag$).
+
+\par
+The modified tube also allows for larger cwEPR signal intensities as it can be inserted closer to the resonator center. The signal-to-noise ratio (S/N) for the modified tube is increased by a factor of $\approx$6 as compared to the standard tube, both inserted at $H=$18~mm. At the maximum sample insertion, the S/N is improved by a factor of $\approx$8 for the modified tube.
+\par
+Using the modified tube we see three major benefits. Firstly, it results in much higher Q-factors and therefore sensitivity when comparing Q-factors for the same sample height. Secondly, the modified tube allows for insertion of the tube closer to the resonator center, allowing for a larger S/N and therefore requiring less averaging time for each cwEPR measurement. This is especially useful for samples where holding the potential for long periods causes unwanted effects or degradation. Thirdly, cwEPR measurements with the modified tube give symmetric cwEPR lineshapes (using the conventional procedure for critically coupling the microwave cavity, the standard tube gives an asymmetric lineshape) which allows for more straightforward quantitative analysis (spin counting), especially useful for in-situ cwEPR with varying redox potentials.
+
+
+
+
+
+
+
+
 \subsection{cwEPR Spectra During a Charge-Discharge Cycle}
 There are four characteristic cwEPR signatures of an electrochemical cell containing di-TEMPO-Salen polymer cathode. The well known signature of a freely tumbling TEMPO$^{\bullet}$ exhibits three narrow lines corresponding to the three nuclear sublevels of nitrogen: $m_I=-1,0,+1$.
 \begin{figure}[h]
 \center
 	\includegraphics[width=1\textwidth]{./operando_epr/figures/Cartoon_ALL.pdf}
-	\caption{XXX}
+	\caption{Classification of the nitroxide cwEPR spectra observed for p-DiTS under different conditions and in different environments. a): Densely packed nitroxide film with dipolar broadening and exchange narrowing or broadening giving a single derivative line. b): Typical spectrum of dilute mono-nitroxide in solution, three-lines due to $S=1/2$, $I=1$ $^{14}$N hyperfine interaction (described by isotropic $g$-factor and isotropic hyperfine ($A$) interaction). c): Typical spectrum of tumbling di-nitroxide in solution where dynamic changes in the nitroxide -- nitroxide distance modulate the exchange interaction yielding a five-line structure with alternating line width (measured cwEPR of DiTS monomers in solution at room temperature). d): Immobilized nitroxide spectrum with both $g$ and $A$ anisotropy.}
 	\label{fig:cartoon_spectra_dts}
 \end{figure}
+
+
+EPR spectra of electrochemical cells with p-DiTS as active-electrode material can exhibit a variety of different signals. Before presenting and discussing the experimental results, we will provide an overview about the various characteristic cwEPR lineshapes associated with nitroxides in different environments.
+\par
+
+Fig.~\ref{fig:cartoon_spectra_dts}a shows the spectrum expected for a \emph{densely packed p-DiTS film} with all nitroxides in the EPR-active reduced state. The broad unstructured line results from the strong dipolar and exchange interaction between both nitroxides of each DiTS monomer as well as between the nitroxides of different monomers. The exchange interaction can lead to either line narrowing or broadening depending on the strength of the interaction,\cite{Anderson1953} while the dipolar interaction causes broadening. In consequence, the overall cwEPR line width depends on the spin concentration in the film.
+\par 
+\emph{Dilute mono-TEMPO fragments} dissolved in the electrolyte, each containing only one nitroxide, give rise to a three-line spectrum (cf.\ Fig.~\ref{fig:cartoon_spectra_dts}b) which is well known from nitroxide-based spin labels in solution.\cite{Liu2008} Tumbling of the molecules in the liquid electrolyte results in an averaging of the anisotropic interaction between the electron spin and the nitrogen nuclear spin ($I = 1$) as well as of the $g$ anisotropy, leaving only the isotropic part of the hyperfine coupling and the isotropic $g$ value. 
+\par
+\emph{Dilute DiTS monomers} in the electrolyte generally give a spectrum consisting of five narrow lines (cf.\ Fig.~\ref{fig:cartoon_spectra_dts}c), if each monomer contains two interacting EPR-active nitroxides. The spectrum depends on dynamic effects, specifically the modulation of the exchange interaction between both radicals of each monomer.  Thus, depending on the solvent and temperature, the spectrum can be indistinguishable from the three-line spectrum of mono-TEMPO fragments.
+\par
+The fully charged (oxidized) p-DiTS film can contain electrically isolated domains in which the nitroxides are not connected to the electrode and cannot be oxidized or reduced. These electrically inactive \emph{immobilized DiTS monomers} in the oxidized film display a spectrum as shown in Fig.~\ref{fig:cartoon_spectra_dts}d. In contrast to the densely packed p-DiTS film, the dipolar and exchange interactions between neighboring radicals are much weaker. The anisotropy of the nitroxide's hyperfine tensor adds features to the cwEPR spectrum in d) as compared to a).
+Yet, there is some remaining line broadening that does not allow one to distinguish between immobilized DiTS monomers with either one or two paramagnetic nitroxides.
+\par
+We note that the oxidized NiSalen backbone can contribute to the spectrum as well. Its EPR signature, which is not shown in Fig.~\ref{fig:cartoon_spectra_dts}, is clearly different from the nitroxide/TEMPO-related spectra discussed above.
+%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \subsection{Spectral Simulations}
 
