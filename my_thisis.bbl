@@ -1,5 +1,8 @@
 \begin{thebibliography}{10}
 
+\bibitem{Schwinger1948}
+
+
 \bibitem{Bittl2005}
 Robert Bittl and Stefan Weber.
 \newblock Transient radical pairs studied by time-resolved epr.
@@ -40,6 +43,11 @@ M.~Fehr, J.~Behrends, S.~Haas, B.~Rech, K.~Lips, and A.~Schnegg.
   thin-film silicon solar cells.
 \newblock {\em Physical Review B - Condensed Matter and Materials Physics},
   84:1--5, 11 2011.
+
+\bibitem{Feynman_1949}
+R~P Feynman.
+\newblock Space-time appxoach to quantum electxotiynamics.
+\newblock {\em Physical Review}, 76:769--789, 1949.
 
 \bibitem{friebe2017_topcurrchem}
 C~Friebe and U~S Schubert.
@@ -230,6 +238,12 @@ Naoki Nitta, Feixiang Wu, Jung~Tae Lee, and Gleb Yushin.
 \newblock Li-ion battery materials: Present and future.
 \newblock {\em Materials Today}, 18:252--264, 2015.
 
+\bibitem{dirac1928}
+Dirac P.~A.~M.
+\newblock The quantum theory of the electron.
+\newblock {\em Proceedings of the Royal Society of London. Series A, Containing
+  Papers of a Mathematical and Physical Character}, 117:610--624, 1928.
+
 \bibitem{Peters2017}
 Jens~F. Peters, Manuel Baumann, Benedikt Zimmermann, Jessica Braun, and Marcel
   Weil.
@@ -298,7 +312,7 @@ Anatolii.~A. Vereshchagin, Daniil~A. Lukyanov, Ilia~R. Kulikov, Naitik~A.
   Panjwani, Elena~A. Alekseeva, Jan Behrends, and Oleg~V. Levin.
 \newblock The fast and the capacious: A [ni(salen)]‐tempo redox‐conducting
   polymer for organic batteries.
-\newblock {\em Batteries \& Supercaps}, 4:336--346, 2020.
+\newblock {\em Batteries and Supercaps}, 4:336--346, 2020.
 
 \bibitem{Vereshchagin2022}
 Anatoliy~A. Vereshchagin, Arseniy~Y. Kalnin, Alexey~I. Volkov, Daniil~A.

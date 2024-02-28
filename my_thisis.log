@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.8)  22 FEB 2024 17:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.8)  28 FEB 2024 18:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
-File: bk10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@chapter=\count186
@@ -50,14 +50,6 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layoutvoffset=\dimen146
 \Gm@dimlist=\toks17
 )
-
-Package geometry Warning: Over-specification in `h'-direction.
-    `width' (341.43306pt) is ignored.
-
-
-Package geometry Warning: Over-specification in `v'-direction.
-    `height' (542.21709pt) is ignored.
-
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2021/10/15 v2.17l AMS math features
 \@mathmargin=\skip49
@@ -540,88 +532,82 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 LaTeX Info: Redefining \\ on input line 3056.
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 48.
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 4
-8.
+h' as default language. on input line 50.
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 5
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-)
-
-LaTeX Warning: Unused global option(s):
-    [a5].
-
-(./my_thisis.aux (./summary/list_of_abbreviations.aux)
-(./introduction/introduction.aux) (./electrochemistry/electrochemistry.aux)
-(./operando_epr/operando_epr.aux) (./pulse/pulse.aux) (./outlook/outlook.aux))
+) (./my_thisis.aux
+(./summary/list_of_abbreviations.aux) (./introduction/introduction.aux)
+(./electrochemistry/electrochemistry.aux) (./operando_epr/operando_epr.aux)
+(./pulse/pulse.aux) (./outlook/outlook.aux))
 \openout1 = `my_thisis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 48.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 50.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-48.
+50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 50.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-48.
+50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 50.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-48.
+50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 48.
-LaTeX Font Info:    Trying to load font information for U+txexa on input line 4
-8.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 50.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 5
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    ... okay on input line 50.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: a5paper
+* paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* hratio: 1:1
-* vratio: 1:1
-* modes: includehead twoside 
-* h-part:(L,W,R)=(19.91692pt, 381.26695pt, 19.91692pt)
-* v-part:(T,H,B)=(19.91692pt, 557.67404pt, 19.91692pt)
-* \paperwidth=421.10078pt
-* \paperheight=597.50787pt
-* \textwidth=381.26695pt
-* \textheight=527.60655pt
-* \oddsidemargin=-52.35307pt
-* \evensidemargin=-52.35307pt
-* \topmargin=-52.35307pt
+* modes: twoside 
+* h-part:(L,W,R)=(73.71613pt, 430.00462pt, 110.57425pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=1.44614pt
+* \evensidemargin=38.30426pt
+* \topmargin=-8.74641pt
 * \headheight=12.0pt
-* \headsep=18.06749pt
-* \topskip=10.0pt
-* \footskip=25.29494pt
-* \marginparwidth=125.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=98.0pt
 * \marginparsep=5.69046pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -665,35 +651,28 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 48.
-LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 61.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+or `english'. on input line 50.
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 63.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 77--80
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 79--82
 
  []
 
-[3] [4
-
-]
+[2]
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24.88> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 82.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 84.
  (./my_thisis.toc
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 4
 .
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 4
 .
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 4
@@ -707,20 +686,17 @@ LaTeX Font Info:    Trying to load font information for U+txsyc on input line 4
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
-) [5]
-Overfull \hbox (1.72311pt too wide) in paragraph at lines 44--44
- [][] []\OT1/txr/m/n/10 Pad[]e-Laplace De-con-vo-lu-tion of the Echo-Decay and 
-Inversion-Recovery 
- []
+) [3
 
-)
+])
 \tf@toc=\write3
 \openout3 = `my_thisis.toc'.
 
- [6]
+ [4]
 \openout2 = `summary/list_of_abbreviations.aux'.
 
- (./summary/list_of_abbreviations.tex
+
+(./summary/list_of_abbreviations.tex
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -728,36 +704,42 @@ Inversion-Recovery
 > Step: parse table inner spec.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
+
+
+Package tabularray Warning: Table width is too small, need 15.33917pt more!
+
 > Step: build the whole table.
-) [7
+
+Overfull \hbox (15.33917pt too wide) in paragraph at lines 65--66
+ [][] 
+ []
+
+) [5
 
 ]
 \openout2 = `introduction/introduction.aux'.
 
-
-(./introduction/introduction.tex [8
+ (./introduction/introduction.tex [6
 
 
 
 
 ]
 Chapter 1.
-LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20.74> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 1.
 
-LaTeX Warning: Citation `energy_consumption_review' on page 9 undefined on inpu
+LaTeX Warning: Citation `energy_consumption_review' on page 7 undefined on inpu
 t line 3.
 
 
-LaTeX Warning: Citation `energy_sources_review' on page 9 undefined on input li
+LaTeX Warning: Citation `energy_sources_review' on page 7 undefined on input li
 ne 3.
 
 
-LaTeX Warning: Citation `energy_from_sound' on page 9 undefined on input line 3
+LaTeX Warning: Citation `energy_from_sound' on page 7 undefined on input line 3
 .
 
 
-LaTeX Warning: Citation `tokamak_updates' on page 9 undefined on input line 3.
+LaTeX Warning: Citation `tokamak_updates' on page 7 undefined on input line 3.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -765,263 +747,318 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
  []
 
 
-LaTeX Warning: Citation `supercaps_review' on page 9 undefined on input line 5.
+LaTeX Warning: Citation `supercaps_review' on page 7 undefined on input line 5.
 
 
 
-LaTeX Warning: Citation `echem_book' on page 9 undefined on input line 5.
+LaTeX Warning: Citation `echem_book' on page 7 undefined on input line 5.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-[9] [10]) [11]
+[7]
+Overfull \hbox (21.23137pt too wide) in paragraph at lines 11--12
+ [] \OT1/txr/m/n/12 The flex-i-ble molec-u-lar de-sign to-gether with ques-tion
+s re-gard-ing un-re-solved charge transport-
+ []
+
+[8]) [9]
 \openout2 = `electrochemistry/electrochemistry.aux'.
 
- (./electrochemistry/electrochemistry.tex [12
+ (./electrochemistry/electrochemistry.tex [10
 
 
 
 
 ]
 Chapter 2.
-LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17.28> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
+LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 10.
 
-LaTeX Warning: Citation `nishide2004_electact' on page 13 undefined on input li
+LaTeX Warning: Citation `nishide2004_electact' on page 11 undefined on input li
 ne 17.
 
 
-LaTeX Warning: Citation `xie2021_mathoriz' on page 13 undefined on input line 1
+LaTeX Warning: Citation `xie2021_mathoriz' on page 11 undefined on input line 1
 7.
 
 
-LaTeX Warning: Citation `Rohland2022' on page 13 undefined on input line 17.
+LaTeX Warning: Citation `Rohland2022' on page 11 undefined on input line 17.
 
-[13]
 
-LaTeX Warning: Citation `oyaizu2015_polymerjournal' on page 14 undefined on inp
+Overfull \hbox (15.3154pt too wide) in paragraph at lines 17--18
+\OT1/txr/m/n/12 Batteries based on con-ju-gated poly-mers con-tain-ing sta-ble 
+rad-i-cal moi-eties as high-capacitance
+ []
+
+[11]
+
+LaTeX Warning: Citation `oyaizu2015_polymerjournal' on page 12 undefined on inp
 ut line 26.
 
 
-LaTeX Warning: Citation `bahaceci2013_jpowersources' on page 14 undefined on in
+LaTeX Warning: Citation `bahaceci2013_jpowersources' on page 12 undefined on in
 put line 26.
 
 
-LaTeX Warning: Citation `katsumata2006_mrc' on page 14 undefined on input line 
+LaTeX Warning: Citation `katsumata2006_mrc' on page 12 undefined on input line 
 26.
 
 
-LaTeX Warning: Citation `xu2014_electact' on page 14 undefined on input line 26
+LaTeX Warning: Citation `xu2014_electact' on page 12 undefined on input line 26
 .
 
 
-LaTeX Warning: Citation `aydin2015_jsoistatelect' on page 14 undefined on input
+LaTeX Warning: Citation `aydin2015_jsoistatelect' on page 12 undefined on input
  line 26.
 
 
-LaTeX Warning: Citation `schwartz2018_synthmet' on page 14 undefined on input l
+LaTeX Warning: Citation `schwartz2018_synthmet' on page 12 undefined on input l
 ine 26.
 
-<./introduction/figures/Figure_1.pdf, id=52, 586.62135pt x 422.31458pt>
+
+Overfull \hbox (4.02264pt too wide) in paragraph at lines 33--34
+\OT1/txr/m/n/12 Redox con-duc-tive con-ju-gated poly-mers con-tain-ing TEMPO (2
+,2,6,6-tetramethylpiperidine-
+ []
+
+
+Overfull \hbox (81.16704pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 12 \OT1/txr/m/sl/12 CHAPTER 2.  ELECTROCHEMICAL ENERGY STORAGE 
+IN REDOX CONDUCTIVE POLYMERS
+ []
+
+[12]
+<./introduction/figures/Figure_1.pdf, id=48, 586.62135pt x 422.31458pt>
 File: ./introduction/figures/Figure_1.pdf Graphic file (type pdf)
 <use ./introduction/figures/Figure_1.pdf>
 Package pdftex.def Info: ./introduction/figures/Figure_1.pdf  used on input lin
 e 37.
-(pdftex.def)             Requested size: 266.8857pt x 192.14053pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+(pdftex.def)             Requested size: 301.00192pt x 216.6986pt.
 
 
-LaTeX Warning: Citation `xie2021' on page 14 undefined on input line 43.
+LaTeX Warning: Citation `xie2021' on page 13 undefined on input line 43.
 
-)
-Overfull \hbox (44.7095pt too wide) has occurred while \output is active
-\OT1/txr/m/n/10 14 \OT1/txr/m/sl/10 CHAPTER 2.  ELECTROCHEMICAL ENERGY STORAGE 
-IN REDOX CONDUCTIVE POLYMERS
- []
-
-[14] [15 <./introduction/figures/Figure_1.pdf>]
+) [13 <./introduction/figures/Figure_1.pdf>]
 \openout2 = `operando_epr/operando_epr.aux'.
 
-
-(./operando_epr/operando_epr.tex
-Overfull \hbox (44.7095pt too wide) has occurred while \output is active
-\OT1/txr/m/n/10 16 \OT1/txr/m/sl/10 CHAPTER 2.  ELECTROCHEMICAL ENERGY STORAGE 
+ (./operando_epr/operando_epr.tex
+Overfull \hbox (81.16704pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 14 \OT1/txr/m/sl/12 CHAPTER 2.  ELECTROCHEMICAL ENERGY STORAGE 
 IN REDOX CONDUCTIVE POLYMERS
  []
 
-[16
+[14
 
 
 
 
 ]
 Chapter 3.
-[17]
-Overfull \hbox (6.72952pt too wide) has occurred while \output is active
-\OT1/txr/m/n/10 18 \OT1/txr/m/sl/10 CHAPTER 3.  OPERANDO EPR SPECTROSCOPY OF TE
+[15]
+
+LaTeX Warning: Citation `Sakurai' on page 16 undefined on input line 10.
+
+
+Overfull \hbox (35.59105pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 16 \OT1/txr/m/sl/12 CHAPTER 3.  OPERANDO EPR SPECTROSCOPY OF TE
+MPO-SALEN CATHODE FILMS
+ []
+
+[16] [17]
+
+LaTeX Warning: Reference `sec:operando_cwepr' on page 18 undefined on input lin
+e 52.
+
+
+LaTeX Warning: Reference `sec:pulsed_epr' on page 18 undefined on input line 52
+.
+
+
+LaTeX Warning: Reference `eq:epr_resonance_condition' on page 18 undefined on i
+nput line 57.
+
+<./operando_epr/figures/cwEPR_spectrometer_diagram.pdf, id=98, 368.19757pt x 19
+6.74377pt>
+File: ./operando_epr/figures/cwEPR_spectrometer_diagram.pdf Graphic file (type 
+pdf)
+<use ./operando_epr/figures/cwEPR_spectrometer_diagram.pdf>
+Package pdftex.def Info: ./operando_epr/figures/cwEPR_spectrometer_diagram.pdf 
+ used on input line 62.
+(pdftex.def)             Requested size: 387.00153pt x 206.79417pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (35.59105pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 18 \OT1/txr/m/sl/12 CHAPTER 3.  OPERANDO EPR SPECTROSCOPY OF TE
 MPO-SALEN CATHODE FILMS
  []
 
 [18]
 
-LaTeX Warning: Reference `sec:operando_cwepr' on page 19 undefined on input lin
-e 49.
+LaTeX Warning: Reference `eq:RESONANCE_CONDITION' on page 19 undefined on input
+ line 78.
+
+[19 <./operando_epr/figures/cwEPR_spectrometer_diagram.pdf>]
+Overfull \hbox (2.13226pt too wide) in paragraph at lines 81--81
+[]\OT1/txr/bx/n/17.28 EPR Spec-troscopy of a Charg-ing Elec-tro-chem-i-cal Cell
+ 
+ []
 
 
-LaTeX Warning: Reference `sec:pulsed_epr' on page 19 undefined on input line 49
-.
-
-<./operando_epr/figures/cwEPR_spectrometer_diagram.pdf, id=101, 368.19757pt x 1
-96.74377pt>
-File: ./operando_epr/figures/cwEPR_spectrometer_diagram.pdf Graphic file (type 
-pdf)
-<use ./operando_epr/figures/cwEPR_spectrometer_diagram.pdf>
-Package pdftex.def Info: ./operando_epr/figures/cwEPR_spectrometer_diagram.pdf 
- used on input line 59.
-(pdftex.def)             Requested size: 343.13792pt x 183.35706pt.
-[19]
-
-LaTeX Warning: Reference `eq:RESONANCE_CONDITION' on page 20 undefined on input
- line 72.
+LaTeX Warning: Citation `abdiaziz2019_chemcomm' on page 20 undefined on input l
+ine 89.
 
 
-Overfull \hbox (6.72952pt too wide) has occurred while \output is active
-\OT1/txr/m/n/10 20 \OT1/txr/m/sl/10 CHAPTER 3.  OPERANDO EPR SPECTROSCOPY OF TE
+LaTeX Warning: Citation `kutin2019_catalysis' on page 20 undefined on input lin
+e 89.
+
+
+LaTeX Warning: Citation `neukermans2020_chemelectrochem' on page 20 undefined o
+n input line 89.
+
+
+LaTeX Warning: Citation `bonke2021_natrev' on page 20 undefined on input line 8
+9.
+
+
+LaTeX Warning: Citation `priebe2013_angewandte' on page 20 undefined on input l
+ine 89.
+
+
+LaTeX Warning: Citation `rabeah2015_angewandte' on page 20 undefined on input l
+ine 89.
+
+
+LaTeX Warning: Citation `zhao2021_jacs' on page 20 undefined on input line 89.
+
+
+LaTeX Warning: Citation `kanzaki2018_acsappmat' on page 20 undefined on input l
+ine 89.
+
+
+LaTeX Warning: Citation `wadhawan2007_encofelectrochem' on page 20 undefined on
+ input line 89.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (35.59105pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 20 \OT1/txr/m/sl/12 CHAPTER 3.  OPERANDO EPR SPECTROSCOPY OF TE
 MPO-SALEN CATHODE FILMS
  []
 
-[20 <./operando_epr/figures/cwEPR_spectrometer_diagram.pdf>]
-
-LaTeX Warning: Citation `abdiaziz2019_chemcomm' on page 21 undefined on input l
-ine 83.
-
-
-LaTeX Warning: Citation `kutin2019_catalysis' on page 21 undefined on input lin
-e 83.
-
-
-LaTeX Warning: Citation `neukermans2020_chemelectrochem' on page 21 undefined o
-n input line 83.
-
-
-LaTeX Warning: Citation `bonke2021_natrev' on page 21 undefined on input line 8
-3.
-
-
-LaTeX Warning: Citation `priebe2013_angewandte' on page 21 undefined on input l
-ine 83.
-
-
-LaTeX Warning: Citation `rabeah2015_angewandte' on page 21 undefined on input l
-ine 83.
-
-
-LaTeX Warning: Citation `zhao2021_jacs' on page 21 undefined on input line 83.
-
-
-LaTeX Warning: Citation `kanzaki2018_acsappmat' on page 21 undefined on input l
-ine 83.
-
-
-LaTeX Warning: Citation `wadhawan2007_encofelectrochem' on page 21 undefined on
- input line 83.
-
+[20]
 <./operando_epr/figures/Flat_tube_setup.pdf, id=111, 2817.02437pt x 3237.09375p
 t>
 File: ./operando_epr/figures/Flat_tube_setup.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/Flat_tube_setup.pdf>
 Package pdftex.def Info: ./operando_epr/figures/Flat_tube_setup.pdf  used on in
-put line 87.
-(pdftex.def)             Requested size: 377.45638pt x 433.7288pt.
+put line 93.
+(pdftex.def)             Requested size: 425.70692pt x 489.14888pt.
 
-LaTeX Warning: Float too large for page by 30.4278pt on input line 90.
+
+LaTeX Warning: Float too large for page by 97.33897pt on input line 96.
 
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 9
-3.
+9.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
 
-LaTeX Warning: Citation `Safari2011' on page 21 undefined on input line 93.
+LaTeX Warning: Citation `Safari2011' on page 21 undefined on input line 99.
 
 
 LaTeX Warning: Reference `Experimental_Section' on page 21 undefined on input l
-ine 93.
+ine 99.
+
+
+LaTeX Warning: Reference `fig:S1_modified_tube' on page 21 undefined on input l
+ine 103.
+
+
+Overfull \hbox (3.28821pt too wide) in paragraph at lines 103--104
+[]\OT1/txr/m/n/12 The on-substrate elec-trodes re-duce mi-crowave damp-ing. How
+-ever, a sub-stan-tial amount
+ []
+
+
+Overfull \hbox (123.87361pt too wide) has occurred while \output is active
+\OT1/txr/m/sl/12 3.3.  VERSATILE ELECTRODE SETUP FOR EX-SITU AND IN-SITU SPECTR
+OELECTROCHEMICAL EPR \OT1/txr/m/n/12 21
+ []
 
 [21]
-
-LaTeX Warning: Reference `fig:S1_modified_tube' on page 22 undefined on input l
-ine 97.
-
-<./operando_epr/figures/Q_factors_mod_tube.pdf, id=115, 502.87875pt x 601.24625
+<./operando_epr/figures/Q_factors_mod_tube.pdf, id=116, 502.87875pt x 601.24625
 pt>
 File: ./operando_epr/figures/Q_factors_mod_tube.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/Q_factors_mod_tube.pdf>
 Package pdftex.def Info: ./operando_epr/figures/Q_factors_mod_tube.pdf  used on
- input line 110.
-(pdftex.def)             Requested size: 190.63347pt x 227.9163pt.
+ input line 116.
+(pdftex.def)             Requested size: 215.0023pt x 257.05379pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (6.72952pt too wide) has occurred while \output is active
-\OT1/txr/m/n/10 22 \OT1/txr/m/sl/10 CHAPTER 3.  OPERANDO EPR SPECTROSCOPY OF TE
+LaTeX Warning: Reference `Q-factor_SNR' on page 22 undefined on input line 127.
+
+
+
+Overfull \hbox (35.59105pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 22 \OT1/txr/m/sl/12 CHAPTER 3.  OPERANDO EPR SPECTROSCOPY OF TE
 MPO-SALEN CATHODE FILMS
  []
 
 [22]
-
-LaTeX Warning: Reference `Q-factor_SNR' on page 23 undefined on input line 121.
-
-
 <./operando_epr/figures/Cartoon_ALL.pdf, id=120, 822.28464pt x 512.1496pt>
 File: ./operando_epr/figures/Cartoon_ALL.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/Cartoon_ALL.pdf>
 Package pdftex.def Info: ./operando_epr/figures/Cartoon_ALL.pdf  used on input 
-line 139.
-(pdftex.def)             Requested size: 381.26695pt x 237.46721pt.
-
-Overfull \hbox (1.75261pt too wide) in paragraph at lines 136--143
-\OT1/txr/m/n/10 There are four char-ac-ter-is-tic cwEPR sig-na-tures of an elec
--tro-chem-i-cal cell con-tain-ing di-TEMPO-
- []
+line 145.
+(pdftex.def)             Requested size: 430.00462pt x 267.81975pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `Anderson1953' on page 23 undefined on input line 148.
+LaTeX Warning: Citation `Anderson1953' on page 23 undefined on input line 154.
 
 
-LaTeX Warning: Citation `Liu2008' on page 23 undefined on input line 150.
+LaTeX Warning: Citation `Liu2008' on page 23 undefined on input line 156.
 
 
-Overfull \hbox (80.29834pt too wide) has occurred while \output is active
-\OT1/txr/m/sl/10 3.3.  VERSATILE ELECTRODE SETUP FOR EX-SITU AND IN-SITU SPECTR
-OELECTROCHEMICAL EPR \OT1/txr/m/n/10 23
+Overfull \hbox (123.87361pt too wide) has occurred while \output is active
+\OT1/txr/m/sl/12 3.3.  VERSATILE ELECTRODE SETUP FOR EX-SITU AND IN-SITU SPECTR
+OELECTROCHEMICAL EPR \OT1/txr/m/n/12 23
  []
 
 [23]
+Overfull \hbox (11.69066pt too wide) in paragraph at lines 163--165
+\OT1/txr/m/n/12 EPR sig-na-ture, which is not shown in Fig. 3.4[], is clearly d
+if-fer-ent from the nitroxide/TEMPO-
+ []
+
 <./operando_epr/figures/Main_2D_redox_map_full.pdf, id=124, 913.4125pt x 602.25
 pt>
 File: ./operando_epr/figures/Main_2D_redox_map_full.pdf Graphic file (type pdf)
 
 <use ./operando_epr/figures/Main_2D_redox_map_full.pdf>
 Package pdftex.def Info: ./operando_epr/figures/Main_2D_redox_map_full.pdf  use
-d on input line 188.
-(pdftex.def)             Requested size: 381.26695pt x 251.38104pt.
-
+d on input line 194.
+(pdftex.def)             Requested size: 430.00462pt x 283.51701pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (6.72952pt too wide) has occurred while \output is active
-\OT1/txr/m/n/10 24 \OT1/txr/m/sl/10 CHAPTER 3.  OPERANDO EPR SPECTROSCOPY OF TE
+Overfull \hbox (35.59105pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 24 \OT1/txr/m/sl/12 CHAPTER 3.  OPERANDO EPR SPECTROSCOPY OF TE
 MPO-SALEN CATHODE FILMS
  []
 
@@ -1032,45 +1069,45 @@ File: ./operando_epr/figures/slowcharge_231117_liquid_250K.pdf Graphic file (ty
 pe pdf)
 <use ./operando_epr/figures/slowcharge_231117_liquid_250K.pdf>
 Package pdftex.def Info: ./operando_epr/figures/slowcharge_231117_liquid_250K.p
-df  used on input line 210.
-(pdftex.def)             Requested size: 381.26695pt x 305.02063pt.
+df  used on input line 216.
+(pdftex.def)             Requested size: 430.00462pt x 344.01204pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 )
-Overfull \hbox (80.29834pt too wide) has occurred while \output is active
-\OT1/txr/m/sl/10 3.3.  VERSATILE ELECTRODE SETUP FOR EX-SITU AND IN-SITU SPECTR
-OELECTROCHEMICAL EPR \OT1/txr/m/n/10 25
+Overfull \hbox (123.87361pt too wide) has occurred while \output is active
+\OT1/txr/m/sl/12 3.3.  VERSATILE ELECTRODE SETUP FOR EX-SITU AND IN-SITU SPECTR
+OELECTROCHEMICAL EPR \OT1/txr/m/n/12 25
  []
 
 [25]
-Overfull \hbox (6.72952pt too wide) has occurred while \output is active
-\OT1/txr/m/n/10 26 \OT1/txr/m/sl/10 CHAPTER 3.  OPERANDO EPR SPECTROSCOPY OF TE
+Overfull \hbox (35.59105pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 26 \OT1/txr/m/sl/12 CHAPTER 3.  OPERANDO EPR SPECTROSCOPY OF TE
 MPO-SALEN CATHODE FILMS
  []
 
 [26 <./operando_epr/figures/Flat_tube_setup.pdf>]
-Overfull \hbox (80.29834pt too wide) has occurred while \output is active
-\OT1/txr/m/sl/10 3.3.  VERSATILE ELECTRODE SETUP FOR EX-SITU AND IN-SITU SPECTR
-OELECTROCHEMICAL EPR \OT1/txr/m/n/10 27
+Overfull \hbox (123.87361pt too wide) has occurred while \output is active
+\OT1/txr/m/sl/12 3.3.  VERSATILE ELECTRODE SETUP FOR EX-SITU AND IN-SITU SPECTR
+OELECTROCHEMICAL EPR \OT1/txr/m/n/12 27
  []
 
 [27 <./operando_epr/figures/Q_factors_mod_tube.pdf>]
-Overfull \hbox (6.72952pt too wide) has occurred while \output is active
-\OT1/txr/m/n/10 28 \OT1/txr/m/sl/10 CHAPTER 3.  OPERANDO EPR SPECTROSCOPY OF TE
+Overfull \hbox (35.59105pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 28 \OT1/txr/m/sl/12 CHAPTER 3.  OPERANDO EPR SPECTROSCOPY OF TE
 MPO-SALEN CATHODE FILMS
  []
 
 [28 <./operando_epr/figures/Cartoon_ALL.pdf>]
-Overfull \hbox (80.29834pt too wide) has occurred while \output is active
-\OT1/txr/m/sl/10 3.3.  VERSATILE ELECTRODE SETUP FOR EX-SITU AND IN-SITU SPECTR
-OELECTROCHEMICAL EPR \OT1/txr/m/n/10 29
+Overfull \hbox (123.87361pt too wide) has occurred while \output is active
+\OT1/txr/m/sl/12 3.3.  VERSATILE ELECTRODE SETUP FOR EX-SITU AND IN-SITU SPECTR
+OELECTROCHEMICAL EPR \OT1/txr/m/n/12 29
  []
 
 [29 <./operando_epr/figures/Main_2D_redox_map_full.pdf>]
-Overfull \hbox (6.72952pt too wide) has occurred while \output is active
-\OT1/txr/m/n/10 30 \OT1/txr/m/sl/10 CHAPTER 3.  OPERANDO EPR SPECTROSCOPY OF TE
+Overfull \hbox (35.59105pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 30 \OT1/txr/m/sl/12 CHAPTER 3.  OPERANDO EPR SPECTROSCOPY OF TE
 MPO-SALEN CATHODE FILMS
  []
 
@@ -1086,7 +1123,7 @@ File: ./pulse/figures/pEPR_spectrometer_diagram.pdf Graphic file (type pdf)
 <use ./pulse/figures/pEPR_spectrometer_diagram.pdf>
 Package pdftex.def Info: ./pulse/figures/pEPR_spectrometer_diagram.pdf  used on
  input line 14.
-(pdftex.def)             Requested size: 381.26695pt x 203.73207pt.
+(pdftex.def)             Requested size: 430.00462pt x 229.77498pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1100,35 +1137,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
 
 
-] [32 <./pulse/figures/pEPR_spectrometer_diagram.pdf>]
-<./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf, id=6320, 1415.2875pt x 677.53125p
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (26.507pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 32 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
+CKED NITROXIDE RADICALS
+ []
+
+[32 <./pulse/figures/pEPR_spectrometer_diagram.pdf>]
+<./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf, id=6319, 1415.2875pt x 677.53125p
 t>
 File: ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf Graphic file (type pdf)
 <use ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf>
 Package pdftex.def Info: ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf  used on i
 nput line 32.
-(pdftex.def)             Requested size: 381.26695pt x 182.51201pt.
+(pdftex.def)             Requested size: 430.00462pt x 205.8455pt.
+
+Overfull \hbox (6.7449pt too wide) in paragraph at lines 38--38
+[]\OT1/txr/bx/n/17.28 Pulsed EPR Spec-troscopy of a charged pDiT-BuS Cath-
+ []
+
 File: ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf Graphic file (type pdf)
 <use ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf>
 Package pdftex.def Info: ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf  used on i
 nput line 43.
-(pdftex.def)             Requested size: 381.26695pt x 182.51201pt.
+(pdftex.def)             Requested size: 430.00462pt x 205.8455pt.
 
+Underfull \vbox (badness 6592) has occurred while \output is active []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (8.31013pt too wide) in paragraph at lines 52--52
-[]\OT1/txr/bx/n/14.4 Pad[]e-Laplace De-con-vo-lu-tion of Poly-ex-po-nen-tial De
--cay Sig-
- []
-
-
+ [33 <./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
-[33 <./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf>]
+
+Overfull \hbox (26.507pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 34 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
+CKED NITROXIDE RADICALS
+ []
+
+[34]
 Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
@@ -1148,12 +1198,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-[34]
+
 Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
 
+Overfull \hbox (26.8198pt too wide) has occurred while \output is active
+\OT1/txr/m/sl/12 4.4.  PAD[]E-LAPLACE DECONVOLUTION OF POLYEXPONENTIAL DECAY SI
+GNALS \OT1/txr/m/n/12 35
+ []
+
+[35]
 Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
@@ -1163,151 +1219,226 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
-<./pulse/figures/Figure_S7.pdf, id=6347, 1204.5pt x 814.04124pt>
+<./pulse/figures/Figure_S7.pdf, id=6350, 1204.5pt x 814.04124pt>
 File: ./pulse/figures/Figure_S7.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S7.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S7.pdf  used on input line 122.
 
-(pdftex.def)             Requested size: 381.26695pt x 257.6789pt.
-[35]
-Overfull \hbox (18.15298pt too wide) in paragraph at lines 129--129
-[]\OT1/txr/bx/n/12 Pad[]e-Laplace De-con-vo-lu-tion of the Echo-Decay and Inver
-sion-Recovery
+(pdftex.def)             Requested size: 430.00462pt x 290.60764pt.
+
+Overfull \hbox (26.507pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 36 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
+CKED NITROXIDE RADICALS
  []
 
-[36 <./pulse/figures/Figure_S7.pdf>]
-<./pulse/figures/Figure_S8.png, id=6400, 1043.5788pt x 472.6458pt>
+[36]
+Overfull \hbox (26.8198pt too wide) has occurred while \output is active
+\OT1/txr/m/sl/12 4.4.  PAD[]E-LAPLACE DECONVOLUTION OF POLYEXPONENTIAL DECAY SI
+GNALS \OT1/txr/m/n/12 37
+ []
+
+[37 <./pulse/figures/Figure_S7.pdf>]
+<./pulse/figures/Figure_S8.png, id=6404, 1043.5788pt x 472.6458pt>
 File: ./pulse/figures/Figure_S8.png Graphic file (type png)
 <use ./pulse/figures/Figure_S8.png>
 Package pdftex.def Info: ./pulse/figures/Figure_S8.png  used on input line 137.
 
-(pdftex.def)             Requested size: 381.26695pt x 172.67654pt.
-<./pulse/figures/Figure_S9.pdf, id=6401, 903.375pt x 501.875pt>
+(pdftex.def)             Requested size: 430.00462pt x 194.75243pt.
+<./pulse/figures/Figure_S9.pdf, id=6405, 903.375pt x 501.875pt>
 File: ./pulse/figures/Figure_S9.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S9.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S9.pdf  used on input line 144.
 
-(pdftex.def)             Requested size: 343.13792pt x 190.6379pt.
- [37 <./pulse/figures/Figure_S8.png (PNG copy)> <./pulse/figures/Figure_S9.pdf>
-]
-<./pulse/figures/Figure_S10.pdf, id=6506, 1212.53pt x 495.8525pt>
+(pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
+
+Overfull \hbox (26.507pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 38 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
+CKED NITROXIDE RADICALS
+ []
+
+[38 <./pulse/figures/Figure_S8.png (PNG copy)>]
+<./pulse/figures/Figure_S10.pdf, id=6409, 1212.53pt x 495.8525pt>
 File: ./pulse/figures/Figure_S10.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S10.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S10.pdf  used on input line 154
 .
-(pdftex.def)             Requested size: 381.26695pt x 155.91441pt.
-<./pulse/figures/Figure_S11.pdf, id=6507, 903.375pt x 501.875pt>
+(pdftex.def)             Requested size: 430.00462pt x 175.84349pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./pulse/figures/Figure_S11.pdf, id=6410, 903.375pt x 501.875pt>
 File: ./pulse/figures/Figure_S11.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S11.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S11.pdf  used on input line 162
 .
-(pdftex.def)             Requested size: 343.13792pt x 190.6379pt.
- [38 <./pulse/figures/Figure_S10.pdf> <./pulse/figures/Figure_S11.pdf
+(pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
 
-pdfTeX warning: /usr/bin/pdflatex (file ./pulse/figures/Figure_S11.pdf): PDF in
-clusion: multiple pdfs with page group included in a single page
->]
-<./pulse/figures/Figure_S12.png, id=6537, 1043.5788pt x 464.4552pt>
+Overfull \hbox (26.8198pt too wide) has occurred while \output is active
+\OT1/txr/m/sl/12 4.4.  PAD[]E-LAPLACE DECONVOLUTION OF POLYEXPONENTIAL DECAY SI
+GNALS \OT1/txr/m/n/12 39
+ []
+
+[39 <./pulse/figures/Figure_S9.pdf>]
+<./pulse/figures/Figure_S12.png, id=6514, 1043.5788pt x 464.4552pt>
 File: ./pulse/figures/Figure_S12.png Graphic file (type png)
 <use ./pulse/figures/Figure_S12.png>
 Package pdftex.def Info: ./pulse/figures/Figure_S12.png  used on input line 173
 .
-(pdftex.def)             Requested size: 381.26695pt x 169.68419pt.
-<./pulse/figures/Figure_S13.pdf, id=6538, 903.375pt x 501.875pt>
+(pdftex.def)             Requested size: 430.00462pt x 191.37752pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./pulse/figures/Figure_S13.pdf, id=6515, 903.375pt x 501.875pt>
 File: ./pulse/figures/Figure_S13.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S13.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S13.pdf  used on input line 180
 .
-(pdftex.def)             Requested size: 343.13792pt x 190.6379pt.
- [39 <./pulse/figures/Figure_S12.png (PNG copy)> <./pulse/figures/Figure_S13.pd
-f>]
-<./pulse/figures/Figure_S14.png, id=6547, 1204.5pt x 501.5538pt>
+(pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
+
+Overfull \hbox (26.507pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 40 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
+CKED NITROXIDE RADICALS
+ []
+
+[40 <./pulse/figures/Figure_S10.pdf> <./pulse/figures/Figure_S11.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pulse/figures/Figure_S11.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Text page 41 contains only floats.
+
+
+Underfull \vbox (badness 1048) has occurred while \output is active []
+
+
+Overfull \hbox (26.8198pt too wide) has occurred while \output is active
+\OT1/txr/m/sl/12 4.4.  PAD[]E-LAPLACE DECONVOLUTION OF POLYEXPONENTIAL DECAY SI
+GNALS \OT1/txr/m/n/12 41
+ []
+
+[41 <./pulse/figures/Figure_S12.png (PNG copy)> <./pulse/figures/Figure_S13.pdf
+>]
+<./pulse/figures/Figure_S14.png, id=6553, 1204.5pt x 501.5538pt>
 File: ./pulse/figures/Figure_S14.png Graphic file (type png)
 <use ./pulse/figures/Figure_S14.png>
 Package pdftex.def Info: ./pulse/figures/Figure_S14.png  used on input line 192
 .
-(pdftex.def)             Requested size: 381.26695pt x 158.76324pt.
-<./pulse/figures/Figure_S15.pdf, id=6548, 903.375pt x 501.875pt>
+(pdftex.def)             Requested size: 430.00462pt x 179.05157pt.
+<./pulse/figures/Figure_S15.pdf, id=6554, 903.375pt x 501.875pt>
 File: ./pulse/figures/Figure_S15.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S15.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S15.pdf  used on input line 200
 .
-(pdftex.def)             Requested size: 343.13792pt x 190.6379pt.
- [40 <./pulse/figures/Figure_S14.png (PNG copy)> <./pulse/figures/Figure_S15.pd
-f>]
-<./pulse/figures/Figure_S16.pdf, id=6557, 1204.5pt x 501.875pt>
+(pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
+
+Overfull \hbox (26.507pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 42 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
+CKED NITROXIDE RADICALS
+ []
+
+[42 <./pulse/figures/Figure_S14.png (PNG copy)>]
+<./pulse/figures/Figure_S16.pdf, id=6558, 1204.5pt x 501.875pt>
 File: ./pulse/figures/Figure_S16.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S16.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S16.pdf  used on input line 211
 .
-(pdftex.def)             Requested size: 381.26695pt x 158.86491pt.
-<./pulse/figures/Figure_S17.pdf, id=6558, 903.375pt x 501.875pt>
+(pdftex.def)             Requested size: 430.00462pt x 179.16623pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./pulse/figures/Figure_S17.pdf, id=6559, 903.375pt x 501.875pt>
 File: ./pulse/figures/Figure_S17.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S17.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S17.pdf  used on input line 218
 .
-(pdftex.def)             Requested size: 343.13792pt x 190.6379pt.
- [41 <./pulse/figures/Figure_S16.pdf> <./pulse/figures/Figure_S17.pdf>]
-<./pulse/figures/Figure_S18.pdf, id=6588, 1212.53pt x 495.8525pt>
+(pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
+
+Overfull \hbox (26.8198pt too wide) has occurred while \output is active
+\OT1/txr/m/sl/12 4.4.  PAD[]E-LAPLACE DECONVOLUTION OF POLYEXPONENTIAL DECAY SI
+GNALS \OT1/txr/m/n/12 43
+ []
+
+[43 <./pulse/figures/Figure_S15.pdf>]
+<./pulse/figures/Figure_S18.pdf, id=6569, 1212.53pt x 495.8525pt>
 File: ./pulse/figures/Figure_S18.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S18.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S18.pdf  used on input line 228
 .
-(pdftex.def)             Requested size: 381.26695pt x 155.91441pt.
-<./pulse/figures/Figure_S19.pdf, id=6589, 903.375pt x 501.875pt>
+(pdftex.def)             Requested size: 430.00462pt x 175.84349pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./pulse/figures/Figure_S19.pdf, id=6570, 903.375pt x 501.875pt>
 File: ./pulse/figures/Figure_S19.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S19.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S19.pdf  used on input line 236
 .
-(pdftex.def)             Requested size: 343.13792pt x 190.6379pt.
+(pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
 
-Overfull \hbox (2.20502pt too wide) in paragraph at lines 247--247
-[]\OT1/txr/bx/n/12 Towards Elec-tron Res-o-nance Imag-ing of Spin Con-cen-tra-t
-ions in Bat-
+Overfull \vbox (63.82855pt too high) has occurred while \output is active []
+
+
+Overfull \hbox (26.507pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 44 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
+CKED NITROXIDE RADICALS
  []
 
+[44 <./pulse/figures/Figure_S16.pdf> <./pulse/figures/Figure_S17.pdf>])
+Underfull \vbox (badness 1466) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42 <./pulse/figures/Figure_S18.pdf> <./pulse/figures/Figure_S19.pdf>]) [43]
+Overfull \hbox (26.8198pt too wide) has occurred while \output is active
+\OT1/txr/m/sl/12 4.4.  PAD[]E-LAPLACE DECONVOLUTION OF POLYEXPONENTIAL DECAY SI
+GNALS \OT1/txr/m/n/12 45
+ []
+
+[45 <./pulse/figures/Figure_S18.pdf> <./pulse/figures/Figure_S19.pdf>]
+Overfull \hbox (26.507pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 46 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
+CKED NITROXIDE RADICALS
+ []
+
+[46]
 \openout2 = `outlook/outlook.aux'.
 
-
-(./outlook/outlook.tex [44
-
-
-
-
-]
+ (./outlook/outlook.tex
 Chapter 5.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-) [45] (./my_thisis.bbl [46
+) [47
 
 
 
-]
-Underfull \hbox (badness 1590) in paragraph at lines 26--31
-[]\OT1/txr/m/n/10 Evgenia Dmitrieva, Marco Rosenkranz, Ju-lia S. Danilova, Ev-g
-e-nia A. Smirnova,
- []
 
-[47] [48] [49] [50]) [51] (./my_thisis.aux (./summary/list_of_abbreviations.aux
-) (./introduction/introduction.aux) (./electrochemistry/electrochemistry.aux)
+] (./my_thisis.bbl [48
+
+
+
+] [49] [50] [51] [52] [53] [54]) [55]
+(./my_thisis.aux (./summary/list_of_abbreviations.aux)
+(./introduction/introduction.aux) (./electrochemistry/electrochemistry.aux)
 (./operando_epr/operando_epr.aux) (./pulse/pulse.aux) (./outlook/outlook.aux))
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 13808 strings out of 478287
- 298306 string characters out of 5849290
- 606197 words of memory out of 5000000
+ 13807 strings out of 478287
+ 298321 string characters out of 5849290
+ 606107 words of memory out of 5000000
  31754 multiletter control sequences out of 15000+600000
- 507464 words of font info for 105 fonts, out of 8000000 for 9000
+ 505245 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,14n,117p,2614b,1026s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1322,10 +1453,10 @@ onts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8
 a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on my_thisis.pdf (51 pages, 11167453 bytes).
+Output written on my_thisis.pdf (55 pages, 11174961 bytes).
 PDF statistics:
- 6708 PDF objects out of 7423 (max. 8388607)
- 4488 compressed objects within 45 object streams
+ 6721 PDF objects out of 7423 (max. 8388607)
+ 4497 compressed objects within 45 object streams
  0 named destinations out of 1000 (max. 500000)
  111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
