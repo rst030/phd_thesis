@@ -11,20 +11,22 @@
 \contentsline {chapter}{\numberline {3}Operando EPR Spectroscopy of TEMPO-Salen Cathode Films}{15}{}%
 \contentsline {section}{\numberline {3.1}Electron Paramagnetic Resonance}{15}{}%
 \contentsline {subsection}{\numberline {3.1.1}The Spin Hamiltonian}{15}{}%
-\contentsline {subsection}{\numberline {3.1.2}Instrumentation}{18}{}%
-\contentsline {paragraph}{cwEPR Hardware}{18}{}%
-\contentsline {section}{\numberline {3.2}EPR Spectroscopy of a Charging Electrochemical Cell}{20}{}%
-\contentsline {subsection}{\numberline {3.2.1}Fabrication of EPR-compatible Electrochemical Cells}{21}{}%
-\contentsline {section}{\numberline {3.3}Versatile electrode setup for ex-situ and in-situ spectroelectrochemical EPR}{21}{}%
-\contentsline {subsection}{\numberline {3.3.1}cwEPR Spectra During a Charge-Discharge Cycle}{23}{}%
-\contentsline {subsection}{\numberline {3.3.2}Spectral Simulations}{24}{}%
-\contentsline {subsection}{\numberline {3.3.3}Quantitative Analysis of Potential-Dependent EPR Spectra}{24}{}%
-\contentsline {subsection}{\numberline {3.3.4}EPR-Detected State Of Charge}{24}{}%
-\contentsline {subsection}{\numberline {3.3.5}Formation of Singlet Spin States in a Reduced Cathode Film}{24}{}%
-\contentsline {subsection}{\numberline {3.3.6}Monitoring of Degradation Processes}{24}{}%
-\contentsline {subsection}{\numberline {3.3.7}Monitoring of Self Discharge}{24}{}%
-\contentsline {subsection}{\numberline {3.3.8}Electrochemical Cells with Solid Electrolyte}{25}{}%
-\contentsline {subsection}{\numberline {3.3.9}Low Temperature Measurements}{25}{}%
+\contentsline {subsection}{\numberline {3.1.2}cwEPR spectroscopy}{18}{}%
+\contentsline {paragraph}{cwEPR spectroscopy}{18}{}%
+\contentsline {paragraph}{cwEPR spectrometer}{19}{}%
+\contentsline {section}{\numberline {3.2}cwEPR Spectroscopy of TEMPO Containing Molecular Fragments}{21}{}%
+\contentsline {section}{\numberline {3.3}cwEPR Spectroscopy of a Charging Electrochemical Cell}{21}{}%
+\contentsline {subsection}{\numberline {3.3.1}Fabrication of EPR-compatible Electrochemical Cells}{21}{}%
+\contentsline {section}{\numberline {3.4}Versatile electrode setup for ex-situ and in-situ spectroelectrochemical EPR}{21}{}%
+\contentsline {subsection}{\numberline {3.4.1}cwEPR Spectra During a Charge-Discharge Cycle}{24}{}%
+\contentsline {subsection}{\numberline {3.4.2}Spectral Simulations}{25}{}%
+\contentsline {subsection}{\numberline {3.4.3}Quantitative Analysis of Potential-Dependent EPR Spectra}{25}{}%
+\contentsline {subsection}{\numberline {3.4.4}EPR-Detected State Of Charge}{25}{}%
+\contentsline {subsection}{\numberline {3.4.5}Formation of Singlet Spin States in a Reduced Cathode Film}{25}{}%
+\contentsline {subsection}{\numberline {3.4.6}Monitoring of Degradation Processes}{25}{}%
+\contentsline {subsection}{\numberline {3.4.7}Monitoring of Self Discharge}{25}{}%
+\contentsline {subsection}{\numberline {3.4.8}Electrochemical Cells with Solid Electrolyte}{25}{}%
+\contentsline {subsection}{\numberline {3.4.9}Low Temperature Measurements}{25}{}%
 \contentsline {chapter}{\numberline {4}pEPR Spectroscopy of Densely Packed Nitroxide Radicals}{31}{}%
 \contentsline {section}{\numberline {4.1}Coherent Spin Motion under Pulsed Microwave Field}{31}{}%
 \contentsline {subsection}{\numberline {4.1.1}Bloch Equations}{31}{}%
