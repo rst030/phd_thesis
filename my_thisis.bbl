@@ -1,7 +1,16 @@
 \begin{thebibliography}{10}
 
-\bibitem{Schwinger1948}
+\bibitem{aydin2015_jsoistatelect}
+Muhammed Aydin and Burak Esat.
+\newblock A polythiophene derivative bearing two electroactive groups per
+  monomer as a cathode material for rechargeable batteries.
+\newblock {\em Journal of Solid State Electrochemistry}, 19:2275--2281, 8 2015.
 
+\bibitem{bahaceci2013_jpowersources}
+S~Bahceci and B~Esat.
+\newblock A polyacetylene derivative with pendant tempo group as cathode
+  material for rechargeable batteries.
+\newblock {\em Journal of Power Sources}, 242:33--40, 2013.
 
 \bibitem{Bittl2005}
 Robert Bittl and Stefan Weber.
@@ -13,6 +22,16 @@ Robert Bittl and Stefan Weber.
 Nerea Casado and David Mecerreyes.
 \newblock Chapter 1: Introduction to redox polymers: Classification,
   characterization methods and main applications, 2021.
+
+\bibitem{Casado_2021_book}
+Nerea Casado and David Mecerreyes.
+\newblock {\em Redox Polymers for Energy and Nanomedicine}.
+\newblock The Royal Society of Chemistry, 2021.
+
+\bibitem{Cassidy_1949}
+Harold Cassidy.
+\newblock Electron exchange-polymers.
+\newblock {\em J. Am. Chem. Soc.}, 71:402--406, 1949.
 
 \bibitem{Degen2022}
 Florian Degen and Marius Schütte.
@@ -48,6 +67,14 @@ M.~Fehr, J.~Behrends, S.~Haas, B.~Rech, K.~Lips, and A.~Schnegg.
 R~P Feynman.
 \newblock Space-time appxoach to quantum electxotiynamics.
 \newblock {\em Physical Review}, 76:769--789, 1949.
+
+\bibitem{Figgener_2020}
+Jan Figgener, Peter Stenzel, Kai~Philipp Kairies, Jochen Linßen, David
+  Haberschusz, Oliver Wessels, Georg Angenendt, Martin Robinius, Detlef
+  Stolten, and Dirk~Uwe Sauer.
+\newblock The development of stationary battery storage systems in germany –
+  a market review.
+\newblock {\em Journal of Energy Storage}, 29, 6 2020.
 
 \bibitem{friebe2017_topcurrchem}
 C~Friebe and U~S Schubert.
@@ -133,10 +160,21 @@ Josef Kadlec, Radoslav Cipin, Dalibor Cervinka, Pavel Vorel, and Bohumil Klima.
   051 ray.
 \newblock {\em Journal of Solid State Electrochemistry}, 18:2307--2313, 2014.
 
+\bibitem{khodeir2019_softmatter}
+M~Khodeir, B~Ernould, J~Brassinne, S~Ghiassinejad, H~Jia, S~Antoun, C~Friebe,
+  U~S Schubert, Z~Kochovski, Y~Lu, E~Van Ruymbeke, and J~F Gohy.
+\newblock Synthesis and characterisation of redox hydrogels based on stable
+  nitroxide radicals.
+\newblock {\em Soft Matter}, 15:6418--6426, 2019.
+
 \bibitem{Kim2023}
 Jihyeon Kim, Youngsu Kim, Jaekyun Yoo, Giyun Kwon, Youngmin Ko, and Kisuk Kang.
 \newblock Organic batteries for a greener rechargeable world.
 \newblock {\em Nature Reviews Materials}, 8:54--70, 2023.
+
+\bibitem{Koezuka_1987}
+H~Koezuka, A~Tsumura, and T~Ando.
+\newblock Field-effect transistor with polythiophene thin film, 1987.
 
 \bibitem{Kulikov2022}
 Ilia Kulikov, Naitik~A. Panjwani, Anatoliy~A. Vereshchagin, Domenik Spallek,
@@ -159,6 +197,12 @@ T.~Kushida and J.~C. Murphy.
 Fredrik Larsson, Petra Andersson, Per Blomqvist, and Bengt~Erik Mellander.
 \newblock Toxic fluoride gas emissions from lithium-ion battery fires.
 \newblock {\em Scientific Reports}, 7:1--13, 12 2017.
+
+\bibitem{Lee_1993}
+C~H Lee, G~Yu, D~Moses, K~Pakbaz, C~Zhang, N~S Sariciftci, A~J Heeger, and
+  F~Wudl.
+\newblock Sensitization of the photoconductivity of conducting polymers by c60:
+  Photoinduced electron transfer, 1993.
 
 \bibitem{Lee2013}
 Yong~Hee Lee, Joo~Seong Kim, Jonghyeon Noh, Inhwa Lee, Hyeong~Jun Kim, Sunghun
@@ -228,6 +272,12 @@ Arvid Niemöller, Peter Jakes, Svitlana Eurich, Anja Paulus, Hans Kungl,
   material by in operando epr spectroscopy.
 \newblock {\em Journal of Chemical Physics}, 148:1--10, 2018.
 
+\bibitem{nishide2004_electact}
+H~Nishide, S~Iwasa, Y~J Pu, T~Suga, K~Nakahara, and M~Satoh.
+\newblock Organic radical battery: nitroxide polymers as a cathode-active
+  material.
+\newblock {\em Electrochimica Acta}, 50:827--831, 2004.
+
 \bibitem{nishide_2009}
 Hiroyuki Nishide, Kenichiroh Koshika, and Kenichi Oyaizu.
 \newblock Environmentally benign batteries based on organic radical polymers.
@@ -237,6 +287,13 @@ Hiroyuki Nishide, Kenichiroh Koshika, and Kenichi Oyaizu.
 Naoki Nitta, Feixiang Wu, Jung~Tae Lee, and Gleb Yushin.
 \newblock Li-ion battery materials: Present and future.
 \newblock {\em Materials Today}, 18:252--264, 2015.
+
+\bibitem{Owenius2001}
+Rikard Owenius, Maria Engström, Mikael Lindgren, and Martina Huber.
+\newblock Influence of solvent polarity and hydrogen bonding on the epr
+  parameters of a nitroxide spin label studied by 9-ghz and 95-ghz epr
+  spectroscopy and dft calculations.
+\newblock {\em Journal of Physical Chemistry A}, 105:10967--10977, 2001.
 
 \bibitem{dirac1928}
 Dirac P.~A.~M.
@@ -268,6 +325,12 @@ Kevin~J. Rhodes, Roberta Meisner, Melanie Kirkham, Nancy Dudney, and Claus
 \newblock In situ xrd of thin film tin electrodes for lithium ion batteries.
 \newblock {\em Journal of The Electrochemical Society}, 159:A294--A299, 2012.
 
+\bibitem{Rohland_2021}
+Philip Rohland, Erik Schröter, Oliver Nolte, George~R. Newkome, Martin~D.
+  Hager, and Ulrich~S. Schubert.
+\newblock Redox-active polymers: The magic key towards energy storage – a
+  polymer design guideline progress in polymer science, 2 2022.
+
 \bibitem{Salikhov1981}
 K.~M. Salikhov, S.~A. Dzuba, and A.~M. Raitsimring.
 \newblock The theory of electron spin-echo signal decay resulting from
@@ -288,11 +351,27 @@ A~Schweiger and G~Jeschke.
 \newblock {\em Principles of Pulse Electron Paramagnetic Resonance}.
 \newblock Oxford University Press, 2001.
 
+\bibitem{Schwinger1948}
+J~Schwinger.
+\newblock On quantum-electrodynamics and the magnetic moment of the electron.
+\newblock {\em Physical Review}, 73:416--417, 1948.
+
 \bibitem{Shi2019}
 Yongchao Shi and Mingxue Tang.
 \newblock Nmr/epr investigation of rechargeable batteries.
 \newblock {\em Wuli Huaxue Xuebao/ Acta Physico - Chimica Sinica}, 36:1--13,
   2019.
+
+\bibitem{Shirakawa_1977}
+By~Hideki Shirakawa, Edwin~J Louis, Alan~G Macdiarmid, C~H W A N~K Chiang, and
+  Alan~J HEEGERt.
+\newblock Synthesis of electrically conducting organic polymers : Halogen
+  derivatives of polyacetylene, (ch), 1977.
+
+\bibitem{Staudinger_1920}
+H.~Staudinger.
+\newblock Über polymerisation.
+\newblock {\em European Journal of Inorganic Chemistry}, 53:1073--1085, 6 1920.
 
 \bibitem{IWASA2007}
 Hiroyuki Takeo~Nishide and Suga.
@@ -320,6 +399,18 @@ Anatoliy~A. Vereshchagin, Arseniy~Y. Kalnin, Alexey~I. Volkov, Daniil~A.
 \newblock Key features of tempo-containing polymers for energy storage and
   catalytic systems.
 \newblock {\em Energies}, 15:1--50, 2022.
+
+\bibitem{Weil_Bolton}
+John~A. Weil and James~R. Bolton.
+\newblock {\em Electron Paramagnetic Resonance Elementary Theory and Practical
+  Applications}.
+\newblock Wiley, 2nd edition, 2007.
+
+\bibitem{xie2021_mathoriz}
+Y~Xie, K~Zhang, Y~Yamauchi, K~Oyaizu, and Z~F Jia.
+\newblock Nitroxide radical polymers for emerging plastic energy storage and
+  organic electronics: fundamentals, materials, and applications.
+\newblock {\em Materials Horizons}, 8:803--829, 2021.
 
 \bibitem{Xie2021}
 Yuan Xie, Kai Zhang, Yusuke Yamauchi, Kenichi Oyaizu, and Zhongfan Jia.
@@ -369,5 +460,12 @@ Qingsong Zhang, Tiantian Liu, and Qiong Wang.
 \newblock Experimental study on the influence of different heating methods on
   thermal runaway of lithium-ion battery.
 \newblock {\em Journal of Energy Storage}, 42:1--9, 10 2021.
+
+\bibitem{Zhang2018}
+Yiren Zhang, Albert~M. Park, Stephen~R. McMillan, Nicholas~J. Harmon,
+  Michael~E. Flatté, Gregory~D. Fuchs, and Christopher~K. Ober.
+\newblock Charge transport in conjugated polymers with pendent stable radical
+  groups.
+\newblock {\em Chemistry of Materials}, 30:4799--4807, 7 2018.
 
 \end{thebibliography}

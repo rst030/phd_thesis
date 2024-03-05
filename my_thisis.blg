@@ -5,7 +5,7 @@ A level-1 auxiliary file: summary/list_of_abbreviations.aux
 A level-1 auxiliary file: introduction/introduction.aux
 A level-1 auxiliary file: electrochemistry/electrochemistry.aux
 Case mismatch error between cite keys xie2021 and Xie2021
----line 38 of file electrochemistry/electrochemistry.aux
+---line 52 of file electrochemistry/electrochemistry.aux
  : \citation{xie2021
  :                  }
 I'm skipping whatever remains of this command
@@ -14,29 +14,36 @@ A level-1 auxiliary file: pulse/pulse.aux
 A level-1 auxiliary file: outlook/outlook.aux
 The style file: plain.bst
 Database file #1: Bibliography.bib
-I was expecting a `,' or a `}'---line 12 of file Bibliography.bib
- :    abstract = {I I I t I t t \} 
- :                                 05 FRACTION OF RANGE Fia. 2. Feather plot for Ca&, I.O 12,000 counts per minute, and the contribution due to gamma-rays and other unabsorbed contaminants was less than one part in 3000 with the strongest source, thus indicating the absence of any appreciable amount of gamma-radiation. The absorption curve obtained with the strongest source is shown in Fig. 1. The Feather plot, shown in Fig. 2, gives a range of 64+1 mg/cm'. Glendenin' has shown that a reliable range-energy curve for the low energy region can be derived from the data of Marshall and %'ard' for monoenergetic electrons and beta-ray spectrograph data on low energy beta-emitters. Glen-denin's curve is identical with that of Marshall and Nard below 0.5 Mev. Using this range-energy curve, we have found that the Ca~ beta-radiation has a maximum energy of 260+5 kev. %'e have found no evidence of any harder beta-radiation, or of any gamma-radiation at all in the course of this investigation. ' Ackeomledgesents.-This work has been supported with funds from the Office of Naval Research. The authors wish to express their appreciation to Miss Jacqueline Becker for her assistance in making the counts. TTEMPTS to evaluate radiative corrections to electron phenomena have heretofore been beset by divergence difficulties, attributable to self-energy and vacuum polarization effects. Electrodynamics unquestionably requires revision at ultra-relativistic energies, but is presumably accurate at moderate relativistic energies. It would be desirable, therefore, to isolate those aspects of the current theory that essentially involve high energies, and are subject to modification by a more satisfactory theory, from aspects that involve only moderate energies and are thus relatively trustworthy. This goal has been achieved by transforming the Hamiltonian of current hole theory elec-tr&ynamics to exhibit explicitly the logarithmically divergent self-energy oF a free electron, which arises from the virtual emission and absorption of light quanta. fhe electromagnetic self-energy of a free electron can be ascribed to an electromagnetic mass, which must be added to the mechanical mass of the electron. Indeed, the only meaningful statements of the theory involve this combination of masses, which is the experimental mass of a free electron. It might appear, from this point of view, that the divergence of the electromagnetic mass is unobjection-able, since the individual contributions to the experimental mass are unobservable. However, the transformation of the Hamiltonian is based on the assumption of a weak interaction between matter and radiation, which requires that the electromagnetic mass be a small correction ((8/Ac)mo) to the mechanical mass mo. The new Hamiltonian is superior to the original one in essentially three ways: it involves the experimental electron mass, rather than the unobservable mechanical mass; an electron now interacts with the radiation 6eld only in the presence of an external field, that is, only an accelerated electron can emit or absorb a light quantum;~ the interaction energy of an electron with ah external field is now subject to a fixate radiative correction. In connection with the last point, it is important to note that the inclusion of the electromagnetic mass with the mechanical mass does not avoid all divergences; the polarization of' the vacuum produces a logarithmically divergent term proportiona1 to the interaction energy of the electron in an external field. However, it has long been recognized that such a term is equivalent to altering the value of the electron charge by a constant factor, only the final value being properly identified with the experimental charge. Thus the interaction between matter and radiation produces a renormalization of the electron charge and mass, all divergences being contained in the renormalization factors. The simplest example of a radiative correction is that for the energy of an electron in an external magnetic field. The detailed application of the theory shows that the radiative correction to the magnetic interaction energy corresponds to an additional magnetic moment associated with the electron spin, of magnitude bp/p, =($x)H/hc =0.001162, It is indeed gratifying that recently acquired expen'mental data con6rm this prediction. Measurements on the hyperfine splitting of the ground states of atomic hydrogen and deuterium' have yielded values that are definitely larger than those to be expected from the directly measured nuclear moments and an electron moment of one Bohr magneton. These discrepancies can be accounted for by a smaB additional electron spin magnetic moment. ' Recalling that the nuclear moments have been calibrated in terms of the electron moment, we find the additional moment necessary to account for the measured hydrogen and deuterium hyper6ne structures to be bp/p, =0.00126 %0.00019and Spa/p, ~ 0.00131&0. 00025, respectively. These values are not in disagreement with the theoretical prediction. More precise conformation is provided by measurement of the g values for the sSy, sP~, and sPIg~ states of' sodium and gallium. ' To account for these results, it is necessary to ascribe the following additional spin magnetic moment to the electron, 8g/p, =0.00118~0. 00003.},
+Warning--entry type for "Rohland_2021" isn't style-file defined
+--line 18 of file Bibliography.bib
+Repeated entry---line 77 of file Bibliography.bib
+ : @generic{Rohland_2021
+ :                      ,
 I'm skipping whatever remains of this entry
+Warning--entry type for "Lee_1993" isn't style-file defined
+--line 90 of file Bibliography.bib
+Warning--entry type for "Koezuka_1987" isn't style-file defined
+--line 100 of file Bibliography.bib
+Warning--entry type for "Shirakawa_1977" isn't style-file defined
+--line 161 of file Bibliography.bib
 Warning--entry type for "salikhov_2015" isn't style-file defined
---line 111 of file Bibliography.bib
+--line 289 of file Bibliography.bib
 Warning--entry type for "Casado2021" isn't style-file defined
---line 1219 of file Bibliography.bib
+--line 1397 of file Bibliography.bib
 Warning--I didn't find a database entry for "energy_consumption_review"
 Warning--I didn't find a database entry for "energy_sources_review"
 Warning--I didn't find a database entry for "energy_from_sound"
 Warning--I didn't find a database entry for "tokamak_updates"
 Warning--I didn't find a database entry for "supercaps_review"
 Warning--I didn't find a database entry for "echem_book"
-Warning--I didn't find a database entry for "nishide2004_electact"
-Warning--I didn't find a database entry for "xie2021_mathoriz"
+Warning--I didn't find a database entry for "Lauth_1944"
 Warning--I didn't find a database entry for "Rohland2022"
 Warning--I didn't find a database entry for "oyaizu2015_polymerjournal"
-Warning--I didn't find a database entry for "bahaceci2013_jpowersources"
 Warning--I didn't find a database entry for "katsumata2006_mrc"
 Warning--I didn't find a database entry for "xu2014_electact"
-Warning--I didn't find a database entry for "aydin2015_jsoistatelect"
 Warning--I didn't find a database entry for "schwartz2018_synthmet"
+Warning--I didn't find a database entry for "Sakurai"
+Warning--I didn't find a database entry for "Easyspin"
 Warning--I didn't find a database entry for "abdiaziz2019_chemcomm"
 Warning--I didn't find a database entry for "kutin2019_catalysis"
 Warning--I didn't find a database entry for "neukermans2020_chemelectrochem"
@@ -49,51 +56,47 @@ Warning--I didn't find a database entry for "wadhawan2007_encofelectrochem"
 Warning--I didn't find a database entry for "Safari2011"
 Warning--I didn't find a database entry for "Anderson1953"
 Warning--I didn't find a database entry for "Liu2008"
-Warning--to sort, need author or key in Schwinger1948
-Warning--empty author in Schwinger1948
-Warning--empty title in Schwinger1948
-Warning--empty journal in Schwinger1948
-Warning--empty year in Schwinger1948
+Warning--can't use both author and editor fields in Casado_2021_book
 Warning--empty booktitle in nishide_2009
-You've used 63 entries,
+You've used 79 entries,
             2118 wiz_defined-function locations,
-            954 strings with 17099 characters,
-and the built_in function-call counts, 23755 in all, are:
-= -- 2202
-> -- 1489
+            1056 strings with 20428 characters,
+and the built_in function-call counts, 29895 in all, are:
+= -- 2755
+> -- 1921
 < -- 3
-+ -- 596
-- -- 524
-* -- 1910
-:= -- 4123
-add.period$ -- 185
-call.type$ -- 63
-change.case$ -- 447
++ -- 769
+- -- 678
+* -- 2397
+:= -- 5203
+add.period$ -- 231
+call.type$ -- 79
+change.case$ -- 572
 chr.to.int$ -- 0
-cite$ -- 69
-duplicate$ -- 708
-empty$ -- 1600
-format.name$ -- 524
-if$ -- 4789
+cite$ -- 81
+duplicate$ -- 870
+empty$ -- 2001
+format.name$ -- 678
+if$ -- 6015
 int.to.chr$ -- 0
-int.to.str$ -- 63
-missing$ -- 64
-newline$ -- 314
-num.names$ -- 124
-pop$ -- 373
+int.to.str$ -- 79
+missing$ -- 78
+newline$ -- 392
+num.names$ -- 158
+pop$ -- 495
 preamble$ -- 1
-purify$ -- 388
+purify$ -- 497
 quote$ -- 0
-skip$ -- 482
+skip$ -- 601
 stack$ -- 0
-substring$ -- 1450
-swap$ -- 83
+substring$ -- 1773
+swap$ -- 101
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 246
-warning$ -- 6
-while$ -- 182
-width$ -- 65
-write$ -- 679
+type$ -- 306
+warning$ -- 2
+while$ -- 226
+width$ -- 81
+write$ -- 849
 (There were 2 error messages)
