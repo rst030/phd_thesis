@@ -14,22 +14,22 @@ A level-1 auxiliary file: pulse/pulse.aux
 A level-1 auxiliary file: outlook/outlook.aux
 The style file: plain.bst
 Database file #1: Bibliography.bib
+Warning--entry type for "Casado2021" isn't style-file defined
+--line 65 of file Bibliography.bib
+Warning--entry type for "salikhov_2015" isn't style-file defined
+--line 1180 of file Bibliography.bib
+Warning--entry type for "Shirakawa_1977" isn't style-file defined
+--line 1307 of file Bibliography.bib
+Warning--entry type for "Koezuka_1987" isn't style-file defined
+--line 1368 of file Bibliography.bib
+Warning--entry type for "Lee_1993" isn't style-file defined
+--line 1375 of file Bibliography.bib
 Warning--entry type for "Rohland_2021" isn't style-file defined
---line 18 of file Bibliography.bib
-Repeated entry---line 77 of file Bibliography.bib
+--line 1385 of file Bibliography.bib
+Repeated entry---line 1444 of file Bibliography.bib
  : @generic{Rohland_2021
  :                      ,
 I'm skipping whatever remains of this entry
-Warning--entry type for "Lee_1993" isn't style-file defined
---line 90 of file Bibliography.bib
-Warning--entry type for "Koezuka_1987" isn't style-file defined
---line 100 of file Bibliography.bib
-Warning--entry type for "Shirakawa_1977" isn't style-file defined
---line 161 of file Bibliography.bib
-Warning--entry type for "salikhov_2015" isn't style-file defined
---line 289 of file Bibliography.bib
-Warning--entry type for "Casado2021" isn't style-file defined
---line 1397 of file Bibliography.bib
 Warning--I didn't find a database entry for "energy_consumption_review"
 Warning--I didn't find a database entry for "energy_sources_review"
 Warning--I didn't find a database entry for "energy_from_sound"
@@ -58,45 +58,45 @@ Warning--I didn't find a database entry for "Anderson1953"
 Warning--I didn't find a database entry for "Liu2008"
 Warning--can't use both author and editor fields in Casado_2021_book
 Warning--empty booktitle in nishide_2009
-You've used 79 entries,
+You've used 82 entries,
             2118 wiz_defined-function locations,
-            1056 strings with 20428 characters,
-and the built_in function-call counts, 29895 in all, are:
-= -- 2755
-> -- 1921
+            1076 strings with 21149 characters,
+and the built_in function-call counts, 31027 in all, are:
+= -- 2856
+> -- 1999
 < -- 3
-+ -- 769
-- -- 678
-* -- 2397
-:= -- 5203
-add.period$ -- 231
-call.type$ -- 79
-change.case$ -- 572
++ -- 800
+- -- 706
+* -- 2488
+:= -- 5403
+add.period$ -- 240
+call.type$ -- 82
+change.case$ -- 594
 chr.to.int$ -- 0
-cite$ -- 81
-duplicate$ -- 870
-empty$ -- 2001
-format.name$ -- 678
-if$ -- 6015
+cite$ -- 84
+duplicate$ -- 904
+empty$ -- 2075
+format.name$ -- 706
+if$ -- 6240
 int.to.chr$ -- 0
-int.to.str$ -- 79
-missing$ -- 78
-newline$ -- 392
-num.names$ -- 158
-pop$ -- 495
+int.to.str$ -- 82
+missing$ -- 82
+newline$ -- 407
+num.names$ -- 164
+pop$ -- 518
 preamble$ -- 1
-purify$ -- 497
+purify$ -- 517
 quote$ -- 0
-skip$ -- 601
+skip$ -- 622
 stack$ -- 0
-substring$ -- 1773
-swap$ -- 101
+substring$ -- 1830
+swap$ -- 104
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 306
+type$ -- 316
 warning$ -- 2
-while$ -- 226
-width$ -- 81
-write$ -- 849
+while$ -- 234
+width$ -- 84
+write$ -- 881
 (There were 2 error messages)
