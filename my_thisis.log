@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  15 MAR 2024 09:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  15 MAR 2024 11:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1023,10 +1023,6 @@ LaTeX Warning: Reference `Experimental_Section' on page 25 undefined on input l
 ine 159.
 
 
-LaTeX Warning: Reference `fig:S1_modified_tube' on page 25 undefined on input l
-ine 163.
-
-
 Overfull \hbox (3.28821pt too wide) in paragraph at lines 163--164
 []\OT1/txr/m/n/12 The on-substrate elec-trodes re-duce mi-crowave damp-ing. How
 -ever, a sub-stan-tial amount
@@ -1039,20 +1035,25 @@ OELECTROCHEMICAL EPR \OT1/txr/m/n/12 25
  []
 
 [25]
-<./operando_epr/figures/Q_factors_mod_tube.pdf, id=145, 502.87875pt x 601.24625
-pt>
-File: ./operando_epr/figures/Q_factors_mod_tube.pdf Graphic file (type pdf)
-<use ./operando_epr/figures/Q_factors_mod_tube.pdf>
-Package pdftex.def Info: ./operando_epr/figures/Q_factors_mod_tube.pdf  used on
- input line 176.
-(pdftex.def)             Requested size: 215.0023pt x 257.05379pt.
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+ []
+
+<./operando_epr/figures/spins_at_work/Figure_S1.pdf, id=145, 2747.76563pt x 106
+8.99374pt>
+File: ./operando_epr/figures/spins_at_work/Figure_S1.pdf Graphic file (type pdf
+)
+<use ./operando_epr/figures/spins_at_work/Figure_S1.pdf>
+Package pdftex.def Info: ./operando_epr/figures/spins_at_work/Figure_S1.pdf  us
+ed on input line 174.
+(pdftex.def)             Requested size: 430.00462pt x 167.27454pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
-
-LaTeX Warning: Reference `Q-factor_SNR' on page 26 undefined on input line 187.
-
+ []
 
 
 Overfull \hbox (97.11504pt too wide) has occurred while \output is active
@@ -1061,22 +1062,25 @@ MPO-SALEN ELECTROCHEMICAL CELLS
  []
 
 [26]
-<./operando_epr/figures/Cartoon_ALL.pdf, id=149, 822.28464pt x 512.1496pt>
-File: ./operando_epr/figures/Cartoon_ALL.pdf Graphic file (type pdf)
-<use ./operando_epr/figures/Cartoon_ALL.pdf>
-Package pdftex.def Info: ./operando_epr/figures/Cartoon_ALL.pdf  used on input 
-line 205.
-(pdftex.def)             Requested size: 430.00462pt x 267.81975pt.
+<./operando_epr/figures/Q_factors_mod_tube.pdf, id=149, 502.87875pt x 601.24625
+pt>
+File: ./operando_epr/figures/Q_factors_mod_tube.pdf Graphic file (type pdf)
+<use ./operando_epr/figures/Q_factors_mod_tube.pdf>
+Package pdftex.def Info: ./operando_epr/figures/Q_factors_mod_tube.pdf  used on
+ input line 186.
+(pdftex.def)             Requested size: 215.0023pt x 257.05379pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Citation `Anderson1953' on page 27 undefined on input line 214.
-
-
-LaTeX Warning: Citation `Liu2008' on page 27 undefined on input line 216.
-
+<./operando_epr/figures/spins_at_work/Figure_S2.pdf, id=150, 1264.725pt x 676.5
+275pt>
+File: ./operando_epr/figures/spins_at_work/Figure_S2.pdf Graphic file (type pdf
+)
+<use ./operando_epr/figures/spins_at_work/Figure_S2.pdf>
+Package pdftex.def Info: ./operando_epr/figures/spins_at_work/Figure_S2.pdf  us
+ed on input line 209.
+(pdftex.def)             Requested size: 430.00462pt x 230.0163pt.
 
 Overfull \hbox (123.87361pt too wide) has occurred while \output is active
 \OT1/txr/m/sl/12 3.4.  VERSATILE ELECTRODE SETUP FOR EX-SITU AND IN-SITU SPECTR
@@ -1084,21 +1088,23 @@ OELECTROCHEMICAL EPR \OT1/txr/m/n/12 27
  []
 
 [27]
-Overfull \hbox (11.69066pt too wide) in paragraph at lines 223--225
-\OT1/txr/m/n/12 EPR sig-na-ture, which is not shown in Fig. 3.6[], is clearly d
-if-fer-ent from the nitroxide/TEMPO-
- []
 
-<./operando_epr/figures/Main_2D_redox_map_full.pdf, id=153, 913.4125pt x 602.25
-pt>
-File: ./operando_epr/figures/Main_2D_redox_map_full.pdf Graphic file (type pdf)
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<use ./operando_epr/figures/Main_2D_redox_map_full.pdf>
-Package pdftex.def Info: ./operando_epr/figures/Main_2D_redox_map_full.pdf  use
-d on input line 254.
-(pdftex.def)             Requested size: 430.00462pt x 283.51701pt.
+<./operando_epr/figures/Cartoon_ALL.pdf, id=154, 822.28464pt x 512.1496pt>
+File: ./operando_epr/figures/Cartoon_ALL.pdf Graphic file (type pdf)
+<use ./operando_epr/figures/Cartoon_ALL.pdf>
+Package pdftex.def Info: ./operando_epr/figures/Cartoon_ALL.pdf  used on input 
+line 230.
+(pdftex.def)             Requested size: 430.00462pt x 267.81975pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation `Anderson1953' on page 28 undefined on input line 239.
+
+
+LaTeX Warning: Citation `Liu2008' on page 28 undefined on input line 241.
 
 
 Overfull \hbox (97.11504pt too wide) has occurred while \output is active
@@ -1107,61 +1113,142 @@ MPO-SALEN ELECTROCHEMICAL CELLS
  []
 
 [28]
-<./operando_epr/figures/slowcharge_231117_liquid_250K.pdf, id=157, 752.8125pt x
- 602.25pt>
-File: ./operando_epr/figures/slowcharge_231117_liquid_250K.pdf Graphic file (ty
-pe pdf)
-<use ./operando_epr/figures/slowcharge_231117_liquid_250K.pdf>
-Package pdftex.def Info: ./operando_epr/figures/slowcharge_231117_liquid_250K.p
-df  used on input line 276.
-(pdftex.def)             Requested size: 430.00462pt x 344.01204pt.
+Overfull \hbox (11.69066pt too wide) in paragraph at lines 248--250
+\OT1/txr/m/n/12 EPR sig-na-ture, which is not shown in Fig. 3.8[], is clearly d
+if-fer-ent from the nitroxide/TEMPO-
+ []
 
+<./operando_epr/figures/Main_2D_redox_map_full.pdf, id=158, 913.4125pt x 602.25
+pt>
+File: ./operando_epr/figures/Main_2D_redox_map_full.pdf Graphic file (type pdf)
+
+<use ./operando_epr/figures/Main_2D_redox_map_full.pdf>
+Package pdftex.def Info: ./operando_epr/figures/Main_2D_redox_map_full.pdf  use
+d on input line 279.
+(pdftex.def)             Requested size: 430.00462pt x 283.51701pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)
+
 Overfull \hbox (123.87361pt too wide) has occurred while \output is active
 \OT1/txr/m/sl/12 3.4.  VERSATILE ELECTRODE SETUP FOR EX-SITU AND IN-SITU SPECTR
 OELECTROCHEMICAL EPR \OT1/txr/m/n/12 29
  []
 
 [29]
+<./operando_epr/figures/degradation/operando_degradation_dits.pdf, id=162, 700.
+6175pt x 834.11626pt>
+File: ./operando_epr/figures/degradation/operando_degradation_dits.pdf Graphic 
+file (type pdf)
+<use ./operando_epr/figures/degradation/operando_degradation_dits.pdf>
+Package pdftex.def Info: ./operando_epr/figures/degradation/operando_degradatio
+n_dits.pdf  used on input line 292.
+(pdftex.def)             Requested size: 430.00462pt x 511.95389pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./operando_epr/figures/degradation/repeated_cycling_degradation_dits.pdf, id=1
+63, 827.09pt x 823.075pt>
+File: ./operando_epr/figures/degradation/repeated_cycling_degradation_dits.pdf 
+Graphic file (type pdf)
+<use ./operando_epr/figures/degradation/repeated_cycling_degradation_dits.pdf>
+Package pdftex.def Info: ./operando_epr/figures/degradation/repeated_cycling_de
+gradation_dits.pdf  used on input line 299.
+(pdftex.def)             Requested size: 430.00462pt x 427.9261pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./operando_epr/figures/slowcharge_231117_liquid_250K.pdf, id=164, 752.8125pt x
+ 602.25pt>
+File: ./operando_epr/figures/slowcharge_231117_liquid_250K.pdf Graphic file (ty
+pe pdf)
+<use ./operando_epr/figures/slowcharge_231117_liquid_250K.pdf>
+Package pdftex.def Info: ./operando_epr/figures/slowcharge_231117_liquid_250K.p
+df  used on input line 320.
+(pdftex.def)             Requested size: 430.00462pt x 344.01204pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
 Overfull \hbox (97.11504pt too wide) has occurred while \output is active
 \OT1/txr/m/n/12 30 \OT1/txr/m/sl/12 CHAPTER 3.  OPERANDO EPR SPECTROSCOPY OF TE
 MPO-SALEN ELECTROCHEMICAL CELLS
  []
 
-[30 <./operando_epr/figures/Flat_tube_setup.pdf>]
+[30]
 Overfull \hbox (123.87361pt too wide) has occurred while \output is active
 \OT1/txr/m/sl/12 3.4.  VERSATILE ELECTRODE SETUP FOR EX-SITU AND IN-SITU SPECTR
 OELECTROCHEMICAL EPR \OT1/txr/m/n/12 31
  []
 
-[31 <./operando_epr/figures/Q_factors_mod_tube.pdf>]
+[31 <./operando_epr/figures/Flat_tube_setup.pdf>]
 Overfull \hbox (97.11504pt too wide) has occurred while \output is active
 \OT1/txr/m/n/12 32 \OT1/txr/m/sl/12 CHAPTER 3.  OPERANDO EPR SPECTROSCOPY OF TE
 MPO-SALEN ELECTROCHEMICAL CELLS
  []
 
-[32 <./operando_epr/figures/Cartoon_ALL.pdf>]
+[32 <./operando_epr/figures/spins_at_work/Figure_S1.pdf>]
 Overfull \hbox (123.87361pt too wide) has occurred while \output is active
 \OT1/txr/m/sl/12 3.4.  VERSATILE ELECTRODE SETUP FOR EX-SITU AND IN-SITU SPECTR
 OELECTROCHEMICAL EPR \OT1/txr/m/n/12 33
  []
 
-[33 <./operando_epr/figures/Main_2D_redox_map_full.pdf>]
+[33 <./operando_epr/figures/Q_factors_mod_tube.pdf>]
 Overfull \hbox (97.11504pt too wide) has occurred while \output is active
 \OT1/txr/m/n/12 34 \OT1/txr/m/sl/12 CHAPTER 3.  OPERANDO EPR SPECTROSCOPY OF TE
 MPO-SALEN ELECTROCHEMICAL CELLS
  []
 
-[34 <./operando_epr/figures/slowcharge_231117_liquid_250K.pdf>]
+[34 <./operando_epr/figures/spins_at_work/Figure_S2.pdf>]
+Overfull \hbox (123.87361pt too wide) has occurred while \output is active
+\OT1/txr/m/sl/12 3.4.  VERSATILE ELECTRODE SETUP FOR EX-SITU AND IN-SITU SPECTR
+OELECTROCHEMICAL EPR \OT1/txr/m/n/12 35
+ []
+
+[35 <./operando_epr/figures/Cartoon_ALL.pdf>]
+Overfull \hbox (97.11504pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 36 \OT1/txr/m/sl/12 CHAPTER 3.  OPERANDO EPR SPECTROSCOPY OF TE
+MPO-SALEN ELECTROCHEMICAL CELLS
+ []
+
+[36 <./operando_epr/figures/Main_2D_redox_map_full.pdf>]
+Overfull \hbox (123.87361pt too wide) has occurred while \output is active
+\OT1/txr/m/sl/12 3.4.  VERSATILE ELECTRODE SETUP FOR EX-SITU AND IN-SITU SPECTR
+OELECTROCHEMICAL EPR \OT1/txr/m/n/12 37
+ []
+
+[37 <./operando_epr/figures/degradation/operando_degradation_dits.pdf>]
+Overfull \hbox (97.11504pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 38 \OT1/txr/m/sl/12 CHAPTER 3.  OPERANDO EPR SPECTROSCOPY OF TE
+MPO-SALEN ELECTROCHEMICAL CELLS
+ []
+
+[38 <./operando_epr/figures/degradation/repeated_cycling_degradation_dits.pdf>]
+
+Overfull \hbox (123.87361pt too wide) has occurred while \output is active
+\OT1/txr/m/sl/12 3.4.  VERSATILE ELECTRODE SETUP FOR EX-SITU AND IN-SITU SPECTR
+OELECTROCHEMICAL EPR \OT1/txr/m/n/12 39
+ []
+
+[39 <./operando_epr/figures/slowcharge_231117_liquid_250K.pdf>]
 \openout2 = `pulse/pulse.aux'.
 
 
 (./pulse/pulse.tex
+Overfull \hbox (97.11504pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 40 \OT1/txr/m/sl/12 CHAPTER 3.  OPERANDO EPR SPECTROSCOPY OF TE
+MPO-SALEN ELECTROCHEMICAL CELLS
+ []
+
+[40
+
+
+
+
+]
 Chapter 4.
-<./pulse/figures/pEPR_spectrometer_diagram.pdf, id=6339, 368.19757pt x 196.7437
+<./pulse/figures/pEPR_spectrometer_diagram.pdf, id=6772, 368.19757pt x 196.7437
 7pt>
 File: ./pulse/figures/pEPR_spectrometer_diagram.pdf Graphic file (type pdf)
 <use ./pulse/figures/pEPR_spectrometer_diagram.pdf>
@@ -1176,58 +1263,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
-[35
-
-
-
-
-]
+[41]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \hbox (26.507pt too wide) has occurred while \output is active
-\OT1/txr/m/n/12 36 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
+\OT1/txr/m/n/12 42 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
 CKED NITROXIDE RADICALS
  []
 
-[36 <./pulse/figures/pEPR_spectrometer_diagram.pdf>]
-<./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf, id=6348, 1415.2875pt x 677.53125p
+[42 <./pulse/figures/pEPR_spectrometer_diagram.pdf>]
+<./pulse/figures/FGMR/ID/ID_vs_ISO.pdf, id=6781, 903.375pt x 526.96875pt>
+File: ./pulse/figures/FGMR/ID/ID_vs_ISO.pdf Graphic file (type pdf)
+<use ./pulse/figures/FGMR/ID/ID_vs_ISO.pdf>
+Package pdftex.def Info: ./pulse/figures/FGMR/ID/ID_vs_ISO.pdf  used on input l
+ine 34.
+(pdftex.def)             Requested size: 430.00462pt x 250.84344pt.
+
+Overfull \hbox (6.7449pt too wide) in paragraph at lines 40--40
+[]\OT1/txr/bx/n/17.28 Pulsed EPR Spec-troscopy of a charged pDiT-BuS Cath-
+ []
+
+<./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf, id=6782, 1415.2875pt x 677.53125p
 t>
 File: ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf Graphic file (type pdf)
 <use ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf>
 Package pdftex.def Info: ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf  used on i
-nput line 32.
+nput line 45.
 (pdftex.def)             Requested size: 430.00462pt x 205.8455pt.
-
-Overfull \hbox (6.7449pt too wide) in paragraph at lines 38--38
-[]\OT1/txr/bx/n/17.28 Pulsed EPR Spec-troscopy of a charged pDiT-BuS Cath-
- []
-
-File: ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf Graphic file (type pdf)
-<use ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf>
-Package pdftex.def Info: ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf  used on i
-nput line 43.
-(pdftex.def)             Requested size: 430.00462pt x 205.8455pt.
-
-Underfull \vbox (badness 6592) has occurred while \output is active []
-
- [37 <./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+[43 <./pulse/figures/FGMR/ID/ID_vs_ISO.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
 
 Overfull \hbox (26.507pt too wide) has occurred while \output is active
-\OT1/txr/m/n/12 38 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
+\OT1/txr/m/n/12 44 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
 CKED NITROXIDE RADICALS
  []
 
-[38]
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
-
- []
-
-
+[44 <./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
@@ -1243,119 +1318,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--64
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
 
-Overfull \hbox (26.8198pt too wide) has occurred while \output is active
-\OT1/txr/m/sl/12 4.4.  PAD[]E-LAPLACE DECONVOLUTION OF POLYEXPONENTIAL DECAY SI
-GNALS \OT1/txr/m/n/12 39
- []
-
-[39]
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
-
- []
-
-<./pulse/figures/Figure_S7.pdf, id=6379, 1204.5pt x 814.04124pt>
-File: ./pulse/figures/Figure_S7.pdf Graphic file (type pdf)
-<use ./pulse/figures/Figure_S7.pdf>
-Package pdftex.def Info: ./pulse/figures/Figure_S7.pdf  used on input line 122.
-
-(pdftex.def)             Requested size: 430.00462pt x 290.60764pt.
-
-Overfull \hbox (26.507pt too wide) has occurred while \output is active
-\OT1/txr/m/n/12 40 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
-CKED NITROXIDE RADICALS
- []
-
-[40]
-Overfull \hbox (26.8198pt too wide) has occurred while \output is active
-\OT1/txr/m/sl/12 4.4.  PAD[]E-LAPLACE DECONVOLUTION OF POLYEXPONENTIAL DECAY SI
-GNALS \OT1/txr/m/n/12 41
- []
-
-[41 <./pulse/figures/Figure_S7.pdf>]
-<./pulse/figures/Figure_S8.png, id=6432, 1043.5788pt x 472.6458pt>
-File: ./pulse/figures/Figure_S8.png Graphic file (type png)
-<use ./pulse/figures/Figure_S8.png>
-Package pdftex.def Info: ./pulse/figures/Figure_S8.png  used on input line 137.
-
-(pdftex.def)             Requested size: 430.00462pt x 194.75243pt.
-<./pulse/figures/Figure_S9.pdf, id=6433, 903.375pt x 501.875pt>
-File: ./pulse/figures/Figure_S9.pdf Graphic file (type pdf)
-<use ./pulse/figures/Figure_S9.pdf>
-Package pdftex.def Info: ./pulse/figures/Figure_S9.pdf  used on input line 144.
-
-(pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
-
-Overfull \hbox (26.507pt too wide) has occurred while \output is active
-\OT1/txr/m/n/12 42 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
-CKED NITROXIDE RADICALS
- []
-
-[42 <./pulse/figures/Figure_S8.png (PNG copy)>]
-<./pulse/figures/Figure_S10.pdf, id=6437, 1212.53pt x 495.8525pt>
-File: ./pulse/figures/Figure_S10.pdf Graphic file (type pdf)
-<use ./pulse/figures/Figure_S10.pdf>
-Package pdftex.def Info: ./pulse/figures/Figure_S10.pdf  used on input line 154
-.
-(pdftex.def)             Requested size: 430.00462pt x 175.84349pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./pulse/figures/Figure_S11.pdf, id=6438, 903.375pt x 501.875pt>
-File: ./pulse/figures/Figure_S11.pdf Graphic file (type pdf)
-<use ./pulse/figures/Figure_S11.pdf>
-Package pdftex.def Info: ./pulse/figures/Figure_S11.pdf  used on input line 162
-.
-(pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
-
-Overfull \hbox (26.8198pt too wide) has occurred while \output is active
-\OT1/txr/m/sl/12 4.4.  PAD[]E-LAPLACE DECONVOLUTION OF POLYEXPONENTIAL DECAY SI
-GNALS \OT1/txr/m/n/12 43
- []
-
-[43 <./pulse/figures/Figure_S9.pdf>]
-<./pulse/figures/Figure_S12.png, id=6543, 1043.5788pt x 464.4552pt>
-File: ./pulse/figures/Figure_S12.png Graphic file (type png)
-<use ./pulse/figures/Figure_S12.png>
-Package pdftex.def Info: ./pulse/figures/Figure_S12.png  used on input line 173
-.
-(pdftex.def)             Requested size: 430.00462pt x 191.37752pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./pulse/figures/Figure_S13.pdf, id=6544, 903.375pt x 501.875pt>
-File: ./pulse/figures/Figure_S13.pdf Graphic file (type pdf)
-<use ./pulse/figures/Figure_S13.pdf>
-Package pdftex.def Info: ./pulse/figures/Figure_S13.pdf  used on input line 180
-.
-(pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
-
-Overfull \hbox (26.507pt too wide) has occurred while \output is active
-\OT1/txr/m/n/12 44 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
-CKED NITROXIDE RADICALS
- []
-
-[44 <./pulse/figures/Figure_S10.pdf> <./pulse/figures/Figure_S11.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./pulse/figures/Figure_S11.pdf): PDF in
-clusion: multiple pdfs with page group included in a single page
->]
-
-LaTeX Warning: Text page 45 contains only floats.
-
-
-Underfull \vbox (badness 1048) has occurred while \output is active []
 
 
 Overfull \hbox (26.8198pt too wide) has occurred while \output is active
@@ -1363,64 +1333,174 @@ Overfull \hbox (26.8198pt too wide) has occurred while \output is active
 GNALS \OT1/txr/m/n/12 45
  []
 
-[45 <./pulse/figures/Figure_S12.png (PNG copy)> <./pulse/figures/Figure_S13.pdf
->]
-<./pulse/figures/Figure_S14.png, id=6582, 1204.5pt x 501.5538pt>
-File: ./pulse/figures/Figure_S14.png Graphic file (type png)
-<use ./pulse/figures/Figure_S14.png>
-Package pdftex.def Info: ./pulse/figures/Figure_S14.png  used on input line 192
-.
-(pdftex.def)             Requested size: 430.00462pt x 179.05157pt.
-<./pulse/figures/Figure_S15.pdf, id=6583, 903.375pt x 501.875pt>
-File: ./pulse/figures/Figure_S15.pdf Graphic file (type pdf)
-<use ./pulse/figures/Figure_S15.pdf>
-Package pdftex.def Info: ./pulse/figures/Figure_S15.pdf  used on input line 200
-.
-(pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
+[45]
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+<./pulse/figures/Figure_S7.pdf, id=6821, 1204.5pt x 814.04124pt>
+File: ./pulse/figures/Figure_S7.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S7.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S7.pdf  used on input line 124.
+
+(pdftex.def)             Requested size: 430.00462pt x 290.60764pt.
 
 Overfull \hbox (26.507pt too wide) has occurred while \output is active
 \OT1/txr/m/n/12 46 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
 CKED NITROXIDE RADICALS
  []
 
-[46 <./pulse/figures/Figure_S14.png (PNG copy)>]
-<./pulse/figures/Figure_S16.pdf, id=6587, 1204.5pt x 501.875pt>
-File: ./pulse/figures/Figure_S16.pdf Graphic file (type pdf)
-<use ./pulse/figures/Figure_S16.pdf>
-Package pdftex.def Info: ./pulse/figures/Figure_S16.pdf  used on input line 211
-.
-(pdftex.def)             Requested size: 430.00462pt x 179.16623pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./pulse/figures/Figure_S17.pdf, id=6588, 903.375pt x 501.875pt>
-File: ./pulse/figures/Figure_S17.pdf Graphic file (type pdf)
-<use ./pulse/figures/Figure_S17.pdf>
-Package pdftex.def Info: ./pulse/figures/Figure_S17.pdf  used on input line 218
-.
-(pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
-
+[46]
 Overfull \hbox (26.8198pt too wide) has occurred while \output is active
 \OT1/txr/m/sl/12 4.4.  PAD[]E-LAPLACE DECONVOLUTION OF POLYEXPONENTIAL DECAY SI
 GNALS \OT1/txr/m/n/12 47
  []
 
-[47 <./pulse/figures/Figure_S15.pdf>]
-<./pulse/figures/Figure_S18.pdf, id=6598, 1212.53pt x 495.8525pt>
-File: ./pulse/figures/Figure_S18.pdf Graphic file (type pdf)
-<use ./pulse/figures/Figure_S18.pdf>
-Package pdftex.def Info: ./pulse/figures/Figure_S18.pdf  used on input line 228
+[47 <./pulse/figures/Figure_S7.pdf>]
+<./pulse/figures/Figure_S8.png, id=6874, 1043.5788pt x 472.6458pt>
+File: ./pulse/figures/Figure_S8.png Graphic file (type png)
+<use ./pulse/figures/Figure_S8.png>
+Package pdftex.def Info: ./pulse/figures/Figure_S8.png  used on input line 139.
+
+(pdftex.def)             Requested size: 430.00462pt x 194.75243pt.
+<./pulse/figures/Figure_S9.pdf, id=6875, 903.375pt x 501.875pt>
+File: ./pulse/figures/Figure_S9.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S9.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S9.pdf  used on input line 146.
+
+(pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
+
+Overfull \hbox (26.507pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 48 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
+CKED NITROXIDE RADICALS
+ []
+
+[48 <./pulse/figures/Figure_S8.png (PNG copy)>]
+<./pulse/figures/Figure_S10.pdf, id=6879, 1212.53pt x 495.8525pt>
+File: ./pulse/figures/Figure_S10.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S10.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S10.pdf  used on input line 156
 .
 (pdftex.def)             Requested size: 430.00462pt x 175.84349pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./pulse/figures/Figure_S19.pdf, id=6599, 903.375pt x 501.875pt>
+<./pulse/figures/Figure_S11.pdf, id=6880, 903.375pt x 501.875pt>
+File: ./pulse/figures/Figure_S11.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S11.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S11.pdf  used on input line 164
+.
+(pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
+
+Overfull \hbox (26.8198pt too wide) has occurred while \output is active
+\OT1/txr/m/sl/12 4.4.  PAD[]E-LAPLACE DECONVOLUTION OF POLYEXPONENTIAL DECAY SI
+GNALS \OT1/txr/m/n/12 49
+ []
+
+[49 <./pulse/figures/Figure_S9.pdf>]
+<./pulse/figures/Figure_S12.png, id=6985, 1043.5788pt x 464.4552pt>
+File: ./pulse/figures/Figure_S12.png Graphic file (type png)
+<use ./pulse/figures/Figure_S12.png>
+Package pdftex.def Info: ./pulse/figures/Figure_S12.png  used on input line 175
+.
+(pdftex.def)             Requested size: 430.00462pt x 191.37752pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./pulse/figures/Figure_S13.pdf, id=6986, 903.375pt x 501.875pt>
+File: ./pulse/figures/Figure_S13.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S13.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S13.pdf  used on input line 182
+.
+(pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
+
+Overfull \hbox (26.507pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 50 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
+CKED NITROXIDE RADICALS
+ []
+
+[50 <./pulse/figures/Figure_S10.pdf> <./pulse/figures/Figure_S11.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pulse/figures/Figure_S11.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Text page 51 contains only floats.
+
+
+Underfull \vbox (badness 1048) has occurred while \output is active []
+
+
+Overfull \hbox (26.8198pt too wide) has occurred while \output is active
+\OT1/txr/m/sl/12 4.4.  PAD[]E-LAPLACE DECONVOLUTION OF POLYEXPONENTIAL DECAY SI
+GNALS \OT1/txr/m/n/12 51
+ []
+
+[51 <./pulse/figures/Figure_S12.png (PNG copy)> <./pulse/figures/Figure_S13.pdf
+>]
+<./pulse/figures/Figure_S14.png, id=7024, 1204.5pt x 501.5538pt>
+File: ./pulse/figures/Figure_S14.png Graphic file (type png)
+<use ./pulse/figures/Figure_S14.png>
+Package pdftex.def Info: ./pulse/figures/Figure_S14.png  used on input line 194
+.
+(pdftex.def)             Requested size: 430.00462pt x 179.05157pt.
+<./pulse/figures/Figure_S15.pdf, id=7025, 903.375pt x 501.875pt>
+File: ./pulse/figures/Figure_S15.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S15.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S15.pdf  used on input line 202
+.
+(pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
+
+Overfull \hbox (26.507pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 52 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
+CKED NITROXIDE RADICALS
+ []
+
+[52 <./pulse/figures/Figure_S14.png (PNG copy)>]
+<./pulse/figures/Figure_S16.pdf, id=7029, 1204.5pt x 501.875pt>
+File: ./pulse/figures/Figure_S16.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S16.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S16.pdf  used on input line 213
+.
+(pdftex.def)             Requested size: 430.00462pt x 179.16623pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./pulse/figures/Figure_S17.pdf, id=7030, 903.375pt x 501.875pt>
+File: ./pulse/figures/Figure_S17.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S17.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S17.pdf  used on input line 220
+.
+(pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
+
+Overfull \hbox (26.8198pt too wide) has occurred while \output is active
+\OT1/txr/m/sl/12 4.4.  PAD[]E-LAPLACE DECONVOLUTION OF POLYEXPONENTIAL DECAY SI
+GNALS \OT1/txr/m/n/12 53
+ []
+
+[53 <./pulse/figures/Figure_S15.pdf>]
+<./pulse/figures/Figure_S18.pdf, id=7039, 1212.53pt x 495.8525pt>
+File: ./pulse/figures/Figure_S18.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S18.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S18.pdf  used on input line 230
+.
+(pdftex.def)             Requested size: 430.00462pt x 175.84349pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./pulse/figures/Figure_S19.pdf, id=7040, 903.375pt x 501.875pt>
 File: ./pulse/figures/Figure_S19.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S19.pdf>
-Package pdftex.def Info: ./pulse/figures/Figure_S19.pdf  used on input line 236
+Package pdftex.def Info: ./pulse/figures/Figure_S19.pdf  used on input line 238
 .
 (pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
 
@@ -1428,26 +1508,26 @@ Overfull \vbox (63.82855pt too high) has occurred while \output is active []
 
 
 Overfull \hbox (26.507pt too wide) has occurred while \output is active
-\OT1/txr/m/n/12 48 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
+\OT1/txr/m/n/12 54 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
 CKED NITROXIDE RADICALS
  []
 
-[48 <./pulse/figures/Figure_S16.pdf> <./pulse/figures/Figure_S17.pdf>])
+[54 <./pulse/figures/Figure_S16.pdf> <./pulse/figures/Figure_S17.pdf>])
 Underfull \vbox (badness 1466) has occurred while \output is active []
 
 
 Overfull \hbox (26.8198pt too wide) has occurred while \output is active
 \OT1/txr/m/sl/12 4.4.  PAD[]E-LAPLACE DECONVOLUTION OF POLYEXPONENTIAL DECAY SI
-GNALS \OT1/txr/m/n/12 49
+GNALS \OT1/txr/m/n/12 55
  []
 
-[49 <./pulse/figures/Figure_S18.pdf> <./pulse/figures/Figure_S19.pdf>]
+[55 <./pulse/figures/Figure_S18.pdf> <./pulse/figures/Figure_S19.pdf>]
 Overfull \hbox (26.507pt too wide) has occurred while \output is active
-\OT1/txr/m/n/12 50 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
+\OT1/txr/m/n/12 56 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
 CKED NITROXIDE RADICALS
  []
 
-[50]
+[56]
 \openout2 = `outlook/outlook.aux'.
 
  (./outlook/outlook.tex
@@ -1457,12 +1537,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-) [51
+) [57
 
 
 
 
-] (./my_thisis.bbl [52
+] (./my_thisis.bbl [58
 
 
 
@@ -1472,7 +1552,7 @@ Underfull \hbox (badness 3536) in paragraph at lines 38--41
 Poly-mers for En-ergy and
  []
 
-[53] [54] [55] [56] [57] [58] [59]) [60] (./my_thisis.aux
+[59] [60] [61] [62] [63] [64] [65]) [66] (./my_thisis.aux
 (./summary/list_of_abbreviations.aux) (./introduction/introduction.aux)
 (./electrochemistry/electrochemistry.aux) (./operando_epr/operando_epr.aux)
 (./pulse/pulse.aux) (./outlook/outlook.aux))
@@ -1484,10 +1564,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13922 strings out of 478287
- 300998 string characters out of 5849289
- 606342 words of memory out of 5000000
- 31854 multiletter control sequences out of 15000+600000
+ 13964 strings out of 478287
+ 303203 string characters out of 5849289
+ 606404 words of memory out of 5000000
+ 31888 multiletter control sequences out of 15000+600000
  515170 words of font info for 137 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,14n,117p,2614b,1026s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1504,10 +1584,10 @@ f-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts
 times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on my_thisis.pdf (60 pages, 11296233 bytes).
+Output written on my_thisis.pdf (66 pages, 17885439 bytes).
 PDF statistics:
- 6757 PDF objects out of 7423 (max. 8388607)
- 4520 compressed objects within 46 object streams
+ 7199 PDF objects out of 7423 (max. 8388607)
+ 4917 compressed objects within 50 object streams
  0 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

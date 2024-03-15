@@ -165,9 +165,19 @@ The on-substrate electrodes reduce microwave damping. However, a substantial amo
 The flattened tube and the thin-film electrode setup have an additional benefit in that the sample is moved away from the maximum of the electric field distribution in the Bruker ER~4122-SHQE resonator (TE\textsubscript{011} mode cavity for cwEPR), thereby further increasing the resonator quality factor (Q-factor, given by $Q = \frac{\nu_{res}}{\Delta \nu}$, $\nu_{res} =$ resonance frequency, $\Delta \nu =$ FWHM of the resonance dip) and hence sensitivity. Further improvements can be made using the flat electrode setup in a TM\textsubscript{110} mode cwEPR cylindrical cavity such as a Bruker ER~4103-TM (developed for studying samples exhibiting high dielectric constants), where the flattened cell can be aligned to further reduce coupling to the microwave electric field. The modified tube is compatible with commercial Bruker ER~4118X-MD5 resonators, most commonly used for advanced pulse EPR measurements at X-band frequencies ($\nu = 9-10$~GHz).
 
 
-\par
-***
-\par
+\subsection{Fabrication of the modified tube}
+%
+The volume of the cell used in this study had to be minimized, as the high dielectric constant of the electrolyte does not allow for the critical coupling of the resonator. The volume of the electrolyte was minimized by flattening the tip of the quartz (melting point $T_m=1660-1710\,^{\circ}$C) tube accommodating the cell. For that, a tungsten (W, $T_m=3420\,^{\circ}$C) rod of a 3.70$\times$1.35$\,$mm rectangular cross section, narrowing to the bottom of the tube at a wedge angle of $\alpha \approx 5 ^{\circ}$, was inserted into the tube (Fig.~\ref{fig:S1_modified_tube}). The tube was evacuated and filled with He to a pressure of 100~mbar. The tip of the evacuated tube was molten around the thermally expanded rod with a Hydrogen-Oxygen burner ($T_f = 3080\,^{\circ}$C). The modified tube was then connected to atmosphere and the cooled, contracted rod was removed and later reused for modifying other tubes. The tungsten rod was fabricated from an electrode of a flash lamp of a pulsed Nd:YAG laser.\\
+
+\begin{figure*}[h!]
+\centering
+\includegraphics[width=1\textwidth]{./operando_epr/figures/spins_at_work/Figure_S1.pdf}
+\caption{Modifying the tip of the standard 5~mm OD quartz EPR sample tube by melting it around a Tungsten (W) forming rod with a H$_2$/O$_2$ burner in an evacuation setup.}
+\label{fig:S1_modified_tube}
+\end{figure*}
+
+The modification of the tip of the tube provided a decrease in the volume of the electrolyte down to \SI{45}{\micro\liter}, while the cylindrical part of the tube allowed for fitting the substrate connector and the wiring in. That allowed for the room temperature EPR measurements on the electrochemical cell during charging and discharging. Extensive care had to be taken to reproduce the cv curve in the modified tube as the limited volume of the electrolyte was distributed over the large surface area. That caused poor ionic transport in the electrolyte layer.\\
+
 
 To establish the extent to which the modified tube improves the resonator Q-factor (Q) and therefore sensitivity of the cwEPR experiment, cwEPR spectra and associated Q-factors were recorded for a flat-electrode p-DiTS cell assembled in two different sample tubes. For both cell setups we used enough electrolyte to submerge all three electrodes. This required 100~$\mu^{\bullet}$L for the standard tube and 70~$\mu^{\bullet}$L for the modified tube. The effect of the two tubes on the cwEPR spectrum and on the Q-factor was studied for a range of heights ($H$) measured from the center of the microwave resonator to the middle of the WE.
 
@@ -180,11 +190,26 @@ To establish the extent to which the modified tube improves the resonator Q-fact
 	\label{fig:Q_factors_mod_tube}
 \end{figure}
 
-\par
+
+\subsection{Q-factors and cwEPR spectra for p-DiTS in standard and modified tube}\label{Q-factor_SNR}
+
 We determine Q~$\approx$~7800 for the empty resonator. Inserting the tube-based cells initially at $H=$~24~mm reduces the Q-factor for both cases, but more significantly for the standard tube (Q\textsubscript{standard tube}~$\approx$~4200, Q\textsubscript{modified tube}~$\approx$~5400, see Fig.~\ref{fig:Q_factors_mod_tube}). At $H=$~18~mm the Q-factor drops for both, again more significantly for the standard tube to Q\textsubscript{standard tube}~$\approx$~300 while for the modified tube it is still Q\textsubscript{modified tube}~$\approx$~1200, a factor of 4 difference. This difference between the two tubes shows the benefit of using the modified tube and flat electrode geometries for SEC EPR. When the modified tube is inserted as deep as $H=$~14~mm, the Q\textsubscript{modified tube} is around 400, which still allows for EPR measurements. Coupling the resonator not possible for $H<18$~mm (standard tube) and $H<14$~mm (modified tube).
 
 \par
-The decreasing Q-factor is not the only effect of a high-dielectric sample in an EPR resonator. The interaction between the sample and the electric field distribution of the resonator causes a mixture of absorption and dispersion signals, leading to asymmetric lineshapes in the cwEPR spectra. This makes double integration of the derivative cwEPR signal more complex, thereby making a quantitative analysis more difficult. This effect can be seen in the cwEPR spectra of p-DiTS (Fig.~\ref{fig:Q_factors_mod_tube}) measured in the standard 5~mm tube for $H=$~18~mm where the cwEPR signal is asymmetric. The modified tube yields symmetric lineshapes at the same sample heights. Further details are presented in Section~\ref{Q-factor_SNR} (ESI$\dag$).
+The decreasing Q-factor is not the only effect of a high-dielectric sample in an EPR resonator. The interaction between the sample and the electric field distribution of the resonator causes a mixture of absorption and dispersion signals, leading to asymmetric lineshapes in the cwEPR spectra. This makes double integration of the derivative cwEPR signal more complex, thereby making a quantitative analysis more difficult. This effect can be seen in the cwEPR spectra of p-DiTS (Fig.~\ref{fig:Q_factors_mod_tube}) measured in the standard 5~mm tube for $H=$~18~mm where the cwEPR signal is asymmetric. The modified tube yields symmetric lineshapes at the same sample heights. Further details are presented in the following subsection.
+
+\par
+
+The electrochemical cells based on the modified tube allow for higher EPR signals as compared to the normal X-band EPR tube. Fig.~\ref{fig:S2_Qfactor} represents two sets of measurements that describe the enhancement of the EPR signal for the modified tube. When the cell is inserted closer to the resonator's center, the Q factor of the resonator lowers and the EPR signal increases, because the intensity of the magnetic component of the microwave field B$_1$ is higher in the center of the resonator. When the cells were inserted closer to the center of the resonator, the Q factor went from $\approx$~6000 down to $\approx$~400, so that the microwave bridge could not be critically coupled to the resonator and no EPR measurements were possible. Depending on the volume of the electrolyte in the cell, it can be inserted more or less deep into the resonator.
+
+The modified tube could be inserted 7 mm deeper into the microwave resonator (see Fig.~\ref{fig:S2_Qfactor}). The EPR signal in the modified tube is increased as compared to the normal tube at the same height.
+
+\begin{figure*}[h!]
+\centering
+\includegraphics[width=1\textwidth]{./operando_epr/figures/spins_at_work/Figure_S2.pdf}
+\caption{cwEPR signal intensity and Q factors for the standard 5~mm OD quartz EPR sample tube and for the modified tube at different heights from the center of the Bruker ER~4122-SHQE resonator. $\nu=$~9.4~GHz. Simulations of the cwEPR spectra with adjusted microwave phase. Noise analysis.}
+\label{fig:S2_Qfactor}
+\end{figure*}
 
 \par
 The modified tube also allows for larger cwEPR signal intensities as it can be inserted closer to the resonator center. The signal-to-noise ratio (S/N) for the modified tube is increased by a factor of $\approx$6 as compared to the standard tube, both inserted at $H=$18~mm. At the maximum sample insertion, the S/N is improved by a factor of $\approx$8 for the modified tube.
@@ -260,6 +285,25 @@ We note that the oxidized NiSalen backbone can contribute to the spectrum as wel
 \subsection{Formation of Singlet Spin States in a Reduced Cathode Film}
 
 \subsection{Monitoring of Degradation Processes}
+The operando monitoring of EPR spectra in pDiTS cells has revealed that the amount of paramagnetic species reduces upon the cycling. The cwEPR spectra during one charge-discharge cycle of two different pDiTS cells are shown in Figure~\ref{fig:operando_degradation}. Both datasets show a significant amount of the three-line structure in the oxidised (fully charged) state, that corresponds to the the release of dilute nitroxide radicals from the polymer film to the electrolyte. The fact that the released species exhibit a 3-line structure and not a 5-line structure excludes the release of the di-TEMPO (DiTS) monomers and suggests that individual TEMPO$^{\bullet}$ fragments are being detached from the film. Therefore, it was found that it is the molecular degradation of DiTS that is responsible for the loss of cell's capacity and not the decomposition of the polymer film into the monomer fragments. The overall EPR signal intensity decreases for both samples after the charge-discharge cycle. The spectral deconvolution with quantitative analysis of the individual components has revealed that the released fragments do not explain the overall loss of the signal intensity after the cycle.
+
+\begin{figure}[!h]
+\center
+	\includegraphics[width=1\textwidth]{./operando_epr/figures/degradation/operando_degradation_dits.pdf}
+	\caption{Operando cwEPR spectra of two pDiTS electrochemical cells showing release of charge-bearing fragments upon the charge-discharge cycle.}
+	\label{fig:operando_degradation}
+\end{figure}
+
+\begin{figure}[!h]
+\center
+	\includegraphics[width=1\textwidth]{./operando_epr/figures/degradation/repeated_cycling_degradation_dits.pdf}
+	\caption{ZZZ}
+	\label{fig:repeated_cycling_degradation}
+\end{figure}
+
+
+
+
 
 \subsection{Monitoring of Self Discharge}
 Organic Radical Batteries have a tendency to self-discharge, as the organic electrochemically active layer partially dissolves in polar electrolytes. Particularly for the TEMPO containing ORB, the dissolved, mobile TEMPO fragments serve as redox shuttles that carry the charge between the battery electrodes and cause a self discharge. The amount of unoxidized TEMPO$^\bullet$ shuttles can be measured with cwEPR spectroscopy as the mobile fragments have distinct spectra as compared to the fragments tightly packed in the electrode. Further in this subsection operando spectra of a TEMPO containing electrochemical cells are shown. Quantitative analysis of the released fragments during a charge-discharge cycle allows for a description of the self-discharge process in an ORB. The charge state of a battery is monitored with cwEPR and, additionally, with a potentiometric measurement to identify the self-discharge rate and to connect it with the concentration of diffusing redox shuttles.
