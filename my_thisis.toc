@@ -31,7 +31,7 @@
 \contentsline {subsection}{\numberline {3.4.9}Monitoring of Self Discharge}{30}{}%
 \contentsline {subsection}{\numberline {3.4.10}Electrochemical Cells with Solid Electrolyte}{30}{}%
 \contentsline {subsection}{\numberline {3.4.11}Low Temperature Measurements}{30}{}%
-\contentsline {chapter}{\numberline {4}pEPR Spectroscopy of Densely Packed Nitroxide Radicals}{41}{}%
+\contentsline {chapter}{\numberline {4}Pulsed EPR Spectroscopy of TEMPO-containing Battery Cathodes}{41}{}%
 \contentsline {section}{\numberline {4.1}Coherent Spin Motion under Pulsed Microwave Field}{41}{}%
 \contentsline {subsection}{\numberline {4.1.1}Bloch Equations}{41}{}%
 \contentsline {subsection}{\numberline {4.1.2}Spin Relaxation Times}{41}{}%

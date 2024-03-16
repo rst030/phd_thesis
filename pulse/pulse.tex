@@ -1,4 +1,4 @@
-\chapter{pEPR Spectroscopy of Densely Packed Nitroxide Radicals}
+\chapter{Pulsed EPR Spectroscopy of TEMPO-containing Battery Cathodes}
 \label{ch:pulsed_epr}
 
 \section{Coherent Spin Motion under Pulsed Microwave Field}
@@ -244,9 +244,19 @@ We used the Pad{\'e}-Laplace method to determine the number of the decay constan
 
 
 \subsection{Detection of Domains with Poor Conductivity}
-\label{domains_distinction_by_relaxation}
+\label{sec:domains_distinction_by_relaxation}
 
 \subsection{Towards Electron Resonance Imaging of Spin Concentrations in Battery Electrodes}
-One can obtain a spatially resolved image of the spin concentrations inside a battery electrode by encoding the position with a gradient of the magnetic field. With the procedure described in Section~\ref{domains_distinction_by_relaxation} and using a pair of electromagnetic coils to superimpose a gradient of $B_0$ one can not only measure the spin concentrations that are present in the electrode, but also to locate the electrochemically inactive domains and to visualize the conductive paths throughout the electrode.
+The local spin concentrations that are present in an electrode film can be obtained by the time-constant-domain analysis of the echo decay transients, as it was described in \ref{sec:domains_distinction_by_relaxation}. One can extend this characterization technique and obtain a spatially resolved image of the spin concentrations inside the battery electrode by encoding the position at which the sample is excited with a gradient of the magnetic field. A strongly asymmetric ferromagnetic wedge~\cite{SternGerlach1922} can be used to superimpose a gradient of $B_0$ in a chosen direction so one can not only measure the spin concentrations that are present in the electrode, but also to locate the electrochemically inactive domains and to visualize the conductive paths throughout the electrode, analogously to the NMR imaging. The difficulty on the way to apply this visualization technique lies in the large excitation bandwidth of the pulse sequence.
+\par
+Let the cathode film of width $l$ be oriented along the static magnetic field so that $B_0$ lies in the film plane. Let the $B_0$ be fixed at the maximum intensity of the FSE spectrum, say, $B_0 = B_0^{res}=342$~mT. Let $B_0$ be homogeneous within the film length, which is normally the case for the EPR resonator. Let the film contain a distribution of spin concentrations within its length $C_{min}<C(z)<C_{max}$. With the homogeneous $B_0$, the microwave pulse will excite the entire film length and the spin echo signal will contain spin echoes from all length elements of the film, that correspond to all $C(z)$. The inversion recovery transient will contain the time constants from all length elements of the film $T_1(z)$. With the Pad{\'e}-Laplace analysis one recovers the distribution of the concentrations within the film $C_i$, but since the $B_0$ is homogeneous, the information on the position $z_i$ at which the domains are located, is lost. 
+\par
+Let now the $B_0$ to be linearly increasing from $B_0(z=-l/2) = B_0^{res}-\Delta B_0$ at one side of the film to $B_0(z=l/2)=B_0^{res}+ \Delta B_0$ by the other side of the film, so that for a given length element $dl$ the inhomogeneity of $B_0$ is $dB/dl = \frac{B(z=l/2)-B(z=-l/2)}{l}$. In the center of the film (at $z=0$) the $B_0$ is resonant and the spin echo signal will be generated, while from the other positions of the film the magnetic field will be non-resonant and no spin echo signal will be generated. Let the width of the EPR spectrum be $\Delta B_{FWHM}=8$~mT and that to define the probed length element $\Delta l$ with the given $B_0$ gradient. $\frac{\Delta B_{FWHM}}{\Delta l} = \frac{B(z=l/2)-B(z=-l/2)}{l}$, so the spatial resolution is 
 
+\begin{equation}
+\label{eq:ERI_resolution}
+\frac{\Delta l}{l} = \frac{\Delta B_{FWHM}}{B(z=l/2)-B(z=-l/2)}
+\end{equation}
 
+With the spectral width of $\Delta B_{FWHM}\leq8$~mT and the film width of $l\leq3\times10^{-1}$~cm to get 
+256 points per film length one needs a $B_0$ gradient of $dB/dl \geq 256*8/0.3 \geq 6.8$~[T/cm] which is a realistic value for a typical Stern-Gerlach apparatus~\cite{SternGerlach1922,Liang_2020}. 

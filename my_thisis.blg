@@ -4,32 +4,29 @@ The top-level auxiliary file: my_thisis.aux
 A level-1 auxiliary file: summary/list_of_abbreviations.aux
 A level-1 auxiliary file: introduction/introduction.aux
 A level-1 auxiliary file: electrochemistry/electrochemistry.aux
-Case mismatch error between cite keys xie2021 and Xie2021
----line 52 of file electrochemistry/electrochemistry.aux
- : \citation{xie2021
- :                  }
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: operando_epr/operando_epr.aux
 A level-1 auxiliary file: pulse/pulse.aux
 A level-1 auxiliary file: outlook/outlook.aux
 The style file: plain.bst
 Database file #1: Bibliography.bib
-Warning--entry type for "Casado2021" isn't style-file defined
---line 65 of file Bibliography.bib
-Warning--entry type for "salikhov_2015" isn't style-file defined
---line 1180 of file Bibliography.bib
-Warning--entry type for "Shirakawa_1977" isn't style-file defined
---line 1307 of file Bibliography.bib
-Warning--entry type for "Koezuka_1987" isn't style-file defined
---line 1368 of file Bibliography.bib
-Warning--entry type for "Lee_1993" isn't style-file defined
---line 1375 of file Bibliography.bib
+Warning--entry type for "einstein_s_rel" isn't style-file defined
+--line 23 of file Bibliography.bib
 Warning--entry type for "Rohland_2021" isn't style-file defined
---line 1385 of file Bibliography.bib
-Repeated entry---line 1444 of file Bibliography.bib
+--line 68 of file Bibliography.bib
+Repeated entry---line 127 of file Bibliography.bib
  : @generic{Rohland_2021
  :                      ,
 I'm skipping whatever remains of this entry
+Warning--entry type for "Lee_1993" isn't style-file defined
+--line 140 of file Bibliography.bib
+Warning--entry type for "Koezuka_1987" isn't style-file defined
+--line 150 of file Bibliography.bib
+Warning--entry type for "Shirakawa_1977" isn't style-file defined
+--line 211 of file Bibliography.bib
+Warning--entry type for "salikhov_2015" isn't style-file defined
+--line 339 of file Bibliography.bib
+Warning--entry type for "Casado2021" isn't style-file defined
+--line 1447 of file Bibliography.bib
 Warning--I didn't find a database entry for "energy_consumption_review"
 Warning--I didn't find a database entry for "energy_sources_review"
 Warning--I didn't find a database entry for "energy_from_sound"
@@ -58,45 +55,45 @@ Warning--I didn't find a database entry for "Anderson1953"
 Warning--I didn't find a database entry for "Liu2008"
 Warning--can't use both author and editor fields in Casado_2021_book
 Warning--empty booktitle in nishide_2009
-You've used 82 entries,
+You've used 85 entries,
             2118 wiz_defined-function locations,
-            1076 strings with 21149 characters,
-and the built_in function-call counts, 31027 in all, are:
-= -- 2856
-> -- 1999
+            1091 strings with 21530 characters,
+and the built_in function-call counts, 31783 in all, are:
+= -- 2923
+> -- 2042
 < -- 3
-+ -- 800
-- -- 706
-* -- 2488
-:= -- 5403
-add.period$ -- 240
-call.type$ -- 82
-change.case$ -- 594
++ -- 817
+- -- 720
+* -- 2530
+:= -- 5537
+add.period$ -- 248
+call.type$ -- 85
+change.case$ -- 609
 chr.to.int$ -- 0
-cite$ -- 84
-duplicate$ -- 904
-empty$ -- 2075
-format.name$ -- 706
-if$ -- 6240
+cite$ -- 87
+duplicate$ -- 933
+empty$ -- 2136
+format.name$ -- 720
+if$ -- 6395
 int.to.chr$ -- 0
-int.to.str$ -- 82
-missing$ -- 82
-newline$ -- 407
-num.names$ -- 164
-pop$ -- 518
+int.to.str$ -- 85
+missing$ -- 85
+newline$ -- 421
+num.names$ -- 170
+pop$ -- 541
 preamble$ -- 1
-purify$ -- 517
+purify$ -- 530
 quote$ -- 0
-skip$ -- 622
+skip$ -- 645
 stack$ -- 0
-substring$ -- 1830
-swap$ -- 104
+substring$ -- 1845
+swap$ -- 107
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 316
+type$ -- 326
 warning$ -- 2
-while$ -- 234
-width$ -- 84
-write$ -- 881
-(There were 2 error messages)
+while$ -- 240
+width$ -- 87
+write$ -- 910
+(There was 1 error message)

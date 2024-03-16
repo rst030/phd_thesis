@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  15 MAR 2024 11:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  16 MAR 2024 02:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -864,9 +864,6 @@ IN REDOX CONDUCTIVE POLYMERS
 ]
 Chapter 3.
 
-LaTeX Warning: Citation `einstein_s_rel' on page 17 undefined on input line 7.
-
-
 LaTeX Warning: Citation `Sakurai' on page 17 undefined on input line 10.
 
 [17]
@@ -926,10 +923,6 @@ MPO-SALEN ELECTROCHEMICAL CELLS
 
 LaTeX Warning: Reference `fig:TEMPO_dft' on page 23 undefined on input line 115
 .
-
-
-LaTeX Warning: Citation `Carrington_solution_epr' on page 23 undefined on input
- line 118.
 
 
 LaTeX Warning: Reference `fig:cwepr_TEMPOL' on page 23 undefined on input line 
@@ -1267,9 +1260,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (26.507pt too wide) has occurred while \output is active
-\OT1/txr/m/n/12 42 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
-CKED NITROXIDE RADICALS
+Overfull \hbox (75.26305pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 42 \OT1/txr/m/sl/12 CHAPTER 4.  PULSED EPR SPECTROSCOPY OF TEMP
+O-CONTAINING BATTERY CATHODES
  []
 
 [42 <./pulse/figures/pEPR_spectrometer_diagram.pdf>]
@@ -1297,9 +1290,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
  []
 
 
-Overfull \hbox (26.507pt too wide) has occurred while \output is active
-\OT1/txr/m/n/12 44 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
-CKED NITROXIDE RADICALS
+Overfull \hbox (75.26305pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 44 \OT1/txr/m/sl/12 CHAPTER 4.  PULSED EPR SPECTROSCOPY OF TEMP
+O-CONTAINING BATTERY CATHODES
  []
 
 [44 <./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf>]
@@ -1350,9 +1343,9 @@ Package pdftex.def Info: ./pulse/figures/Figure_S7.pdf  used on input line 124.
 
 (pdftex.def)             Requested size: 430.00462pt x 290.60764pt.
 
-Overfull \hbox (26.507pt too wide) has occurred while \output is active
-\OT1/txr/m/n/12 46 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
-CKED NITROXIDE RADICALS
+Overfull \hbox (75.26305pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 46 \OT1/txr/m/sl/12 CHAPTER 4.  PULSED EPR SPECTROSCOPY OF TEMP
+O-CONTAINING BATTERY CATHODES
  []
 
 [46]
@@ -1375,9 +1368,9 @@ Package pdftex.def Info: ./pulse/figures/Figure_S9.pdf  used on input line 146.
 
 (pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
 
-Overfull \hbox (26.507pt too wide) has occurred while \output is active
-\OT1/txr/m/n/12 48 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
-CKED NITROXIDE RADICALS
+Overfull \hbox (75.26305pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 48 \OT1/txr/m/sl/12 CHAPTER 4.  PULSED EPR SPECTROSCOPY OF TEMP
+O-CONTAINING BATTERY CATHODES
  []
 
 [48 <./pulse/figures/Figure_S8.png (PNG copy)>]
@@ -1421,9 +1414,9 @@ Package pdftex.def Info: ./pulse/figures/Figure_S13.pdf  used on input line 182
 .
 (pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
 
-Overfull \hbox (26.507pt too wide) has occurred while \output is active
-\OT1/txr/m/n/12 50 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
-CKED NITROXIDE RADICALS
+Overfull \hbox (75.26305pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 50 \OT1/txr/m/sl/12 CHAPTER 4.  PULSED EPR SPECTROSCOPY OF TEMP
+O-CONTAINING BATTERY CATHODES
  []
 
 [50 <./pulse/figures/Figure_S10.pdf> <./pulse/figures/Figure_S11.pdf
@@ -1458,9 +1451,9 @@ Package pdftex.def Info: ./pulse/figures/Figure_S15.pdf  used on input line 202
 .
 (pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
 
-Overfull \hbox (26.507pt too wide) has occurred while \output is active
-\OT1/txr/m/n/12 52 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
-CKED NITROXIDE RADICALS
+Overfull \hbox (75.26305pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 52 \OT1/txr/m/sl/12 CHAPTER 4.  PULSED EPR SPECTROSCOPY OF TEMP
+O-CONTAINING BATTERY CATHODES
  []
 
 [52 <./pulse/figures/Figure_S14.png (PNG copy)>]
@@ -1507,12 +1500,12 @@ Package pdftex.def Info: ./pulse/figures/Figure_S19.pdf  used on input line 238
 Overfull \vbox (63.82855pt too high) has occurred while \output is active []
 
 
-Overfull \hbox (26.507pt too wide) has occurred while \output is active
-\OT1/txr/m/n/12 54 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
-CKED NITROXIDE RADICALS
+Overfull \hbox (75.26305pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 54 \OT1/txr/m/sl/12 CHAPTER 4.  PULSED EPR SPECTROSCOPY OF TEMP
+O-CONTAINING BATTERY CATHODES
  []
 
-[54 <./pulse/figures/Figure_S16.pdf> <./pulse/figures/Figure_S17.pdf>])
+[54 <./pulse/figures/Figure_S16.pdf> <./pulse/figures/Figure_S17.pdf>]
 Underfull \vbox (badness 1466) has occurred while \output is active []
 
 
@@ -1521,10 +1514,10 @@ Overfull \hbox (26.8198pt too wide) has occurred while \output is active
 GNALS \OT1/txr/m/n/12 55
  []
 
-[55 <./pulse/figures/Figure_S18.pdf> <./pulse/figures/Figure_S19.pdf>]
-Overfull \hbox (26.507pt too wide) has occurred while \output is active
-\OT1/txr/m/n/12 56 \OT1/txr/m/sl/12 CHAPTER 4.  PEPR SPECTROSCOPY OF DENSELY PA
-CKED NITROXIDE RADICALS
+[55 <./pulse/figures/Figure_S18.pdf> <./pulse/figures/Figure_S19.pdf>])
+Overfull \hbox (75.26305pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 56 \OT1/txr/m/sl/12 CHAPTER 4.  PULSED EPR SPECTROSCOPY OF TEMP
+O-CONTAINING BATTERY CATHODES
  []
 
 [56]
@@ -1547,12 +1540,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
 
 ]
-Underfull \hbox (badness 3536) in paragraph at lines 38--41
+Underfull \hbox (badness 3536) in paragraph at lines 44--47
 []\OT1/txr/m/n/12 Nerea Casado and David Mecer-reyes.  \OT1/txr/m/it/12 Re-dox 
 Poly-mers for En-ergy and
  []
 
-[59] [60] [61] [62] [63] [64] [65]) [66] (./my_thisis.aux
+[59] [60] [61] [62] [63] [64] [65] [66]) [67] (./my_thisis.aux
 (./summary/list_of_abbreviations.aux) (./introduction/introduction.aux)
 (./electrochemistry/electrochemistry.aux) (./operando_epr/operando_epr.aux)
 (./pulse/pulse.aux) (./outlook/outlook.aux))
@@ -1564,10 +1557,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13964 strings out of 478287
- 303203 string characters out of 5849289
- 606404 words of memory out of 5000000
- 31888 multiletter control sequences out of 15000+600000
+ 13967 strings out of 478287
+ 303256 string characters out of 5849289
+ 606427 words of memory out of 5000000
+ 31891 multiletter control sequences out of 15000+600000
  515170 words of font info for 137 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,14n,117p,2614b,1026s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1584,10 +1577,10 @@ f-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts
 times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on my_thisis.pdf (66 pages, 17885439 bytes).
+Output written on my_thisis.pdf (67 pages, 17889354 bytes).
 PDF statistics:
- 7199 PDF objects out of 7423 (max. 8388607)
- 4917 compressed objects within 50 object streams
+ 7203 PDF objects out of 7423 (max. 8388607)
+ 4920 compressed objects within 50 object streams
  0 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
