@@ -120,19 +120,57 @@ Solution spectra of radicals are showing averaged values of $g$ and $A$ because 
 
 \begin{figure}[h]
 \center
-	\includegraphics[width=1\textwidth]{./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_RTvsCRYO.pdf}
+	\includegraphics[width=1\textwidth]{./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT.pdf}
 	\caption{Room temperature cwEPR spectra of a low-concentration solutions mono- and di-TEMPO molecular fragments. Left: TEMPO, Right: Di-Tempo-Salen.}
 	\label{fig:cwEPR_monoTEMPO_diTEMPO}
 \end{figure}
 
 \par
-Solutions of biradicals like Di-Tempo-Salen (Figure~\ref{},x) show more features in cwEPR spectra. The tumbling of the molecule and the restricted motions of each radical within the molecule cause a complex molecular motion that affects the dipolar and exchange couplings between the radicals and causes "spectra with alternating linewidths"~\cite{Eatons_biradicals,carrington}. A solution of Di-TEMPO-Salen shows a five-line cwEPR spectrum with alternating linewidhts (Figure~\ref{fig:cwEPR_monoTEMPO_diTEMPO}, right) with the three most intense lines corresponding to the three hyperfine sublevels of TEMPO$^{\bullet}$. The five-line structure in the cwEPR spectrum indicates the presence of a di-TEMPO biradical in the solution.
+A biradical molecule like Di-Tempo-Salen (Figure~\ref{},x) has two paramagnetic species that are close to each other and therefore exchange electrons. When the exchange coupling between the radicals $J$ is comparable to the hyperfine coupling $A$ of each radical to its 'host' nucleus, the superhyperfine interaction~\cite{} takes place, in which the radical is interacting to the nucleus of the neighboring radical~\cite{Eaton2018}. Solutions of biradical molecules with magnetic nuclei show more features in cwEPR spectra when the electron-electron exchange coupling $J$ between the two radicals within the molecule becomes comparable to the hyperfine coupling between the radical and its 'host' $^{14}$N nucleus. tumbling of the molecule and the restricted motions of each radical within the molecule cause a complex molecular motion that affects the dipolar and exchange couplings between the radicals and causes "spectra with alternating linewidths"~\cite{Eaton2018,carrington}. A solution of Di-TEMPO-Salen shows a five-line cwEPR spectrum with alternating linewidhts (Figure~\ref{fig:cwEPR_monoTEMPO_diTEMPO}, right) with the three most intense lines corresponding to the three hyperfine sublevels of TEMPO$^{\bullet}$. The five-line structure in the cwEPR spectrum indicates the presence of a di-TEMPO biradical in the solution.
+
+
+
+
+\par
+TOLYAN:\\
+If the TEMPO groups are far away from each other, their cw-EPR signal consists of three
+lines that are due to the hyperfine interaction between the electron spin and the spin of the Nitrogen
+nucleus. When the TEMPO groups are brought closer to each other, their electron orbitals start to
+overlap, and the exchange interaction (J) between the electrons grows. That splits the signal into
+more lines as it was shown by [10] and represented in Fig. 7. In the case of strong exchange
+interaction the spectrum consists of five lines with relative ratios 1:2:3:2:1. In the absence of the
+exchange interaction the spectrum contains only three hyperfine lines of equal intensities.
+In DiTS, a sum of a three-line spectrum and a five-line spectrum was observed. This may
+be the evidence that TEMPO-bearing linkers are sufficiently long to allow TEMPO groups to move
+freely in space around the organometallic complex. That can yield to different J values depending
+on the relative orientation of the linkers, similar to [10]. In theory, there are several possible
+positions of TEMPO groups relative to each other that can change the EPR spectrum. Depending
+on the angle between the linkers (from $\pi$ to 0), J may vary from its minimal to maximal value,
+that should yield a three- and five-line structures respectively. Since the process of movement is
+dynamic, we can explain the observed picture as a combination of several positions in space [10].
+The five-line structure suggests different preferred conformations of the TEMPO fragments and
+dynamic interconversion between these states with different exchange coupling J leads to the
+observed spectrum.
 
 \subsection{Spectra of TEMPO$^{\bullet}$/TEMPO$^{+}$ Films}
 A film made of a TEMPO-containing polymer can be brought to a certain oxidation state, depending on how many of the TEMPO groups are in the radical (TEMPO$^{\bullet}$) state and how many are in the oxidized (TEMPO$^{+}$) state. The densely packed TEMPO$^{\bullet}$ fragments in the film cannot be considered as isolated molecules anymore, and the interactions between the radicals become significant. Microcrystals of TEMPOL are densely packed TEMPO$^{\bullet}$ with a concentration of $???$~mM. The cwEPR spectrum of TEMPOL in Figure~\ref{fig:cwEPR_TEMPOL_SOLID} is one broad line centered at $g=2.0055$.
 
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./operando_epr/figures/CRYO/S220104_CW.pdf}
+	\caption{Cryogenic (80~K) cwEPR spectra of a pDiTBuS film grown with 200 deposition cycles. Left: discharged film, -50~mV vs. Ag/AgNO$_3$ RE. Right: Fully charged film, 900~mV vs. Ag/AgNO$_3$ RE.}
+	\label{fig:cwEPR_CRYO_DiTBuS_DCG_vs_CHG}
+\end{figure}
 
 
+\par
+
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./operando_epr/figures/CRYO/S220106_p-DiTS_OX_80K_CW_SIM.pdf}
+	\caption{Simulation of the cryogenic (80~K) cwEPR spectrum of an oxidized pDiTBuS film grown with 200 deposition cycles showing a signature of the isolated nitroxide radical with $g=?$ and $A=?$.}
+	\label{fig:cwEPR_CRYO_DiTBuS_CHG_SIM}
+\end{figure}
 
 
 
@@ -284,6 +322,17 @@ We note that the oxidized NiSalen backbone can contribute to the spectrum as wel
 
 \subsection{Monitoring of Degradation Processes}
 The operando monitoring of EPR spectra in pDiTS cells has revealed that the amount of paramagnetic species reduces upon the cycling. The cwEPR spectra during one charge-discharge cycle of two different pDiTS cells are shown in Figure~\ref{fig:operando_degradation}. Both datasets show a significant amount of the three-line structure in the oxidised (fully charged) state, that corresponds to the the release of dilute nitroxide radicals from the polymer film to the electrolyte. The fact that the released species exhibit a 3-line structure and not a 5-line structure excludes the release of the di-TEMPO (DiTS) monomers and suggests that individual TEMPO$^{\bullet}$ fragments are being detached from the film. Therefore, it was found that it is the molecular degradation of DiTS that is responsible for the loss of cell's capacity and not the decomposition of the polymer film into the monomer fragments. The overall EPR signal intensity decreases for both samples after the charge-discharge cycle. The spectral deconvolution with quantitative analysis of the individual components has revealed that the released fragments do not explain the overall loss of the signal intensity after the cycle.
+
+
+\begin{figure}[!h]
+\center
+	\includegraphics[width=1\textwidth]{./operando_epr/figures/degradation/overnight_dits_201211_full_redox_contour_XY.pdf}
+	\caption{Operando cwEPR spectra of a pDiTS electrochemical cell showing irreversible release of charge-bearing fragments and decomposition of the device upon the extreme charging currents.}
+	\label{fig:operando_degradation_device}
+\end{figure}
+
+
+
 
 \begin{figure}[!h]
 \center
