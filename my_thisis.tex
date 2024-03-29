@@ -1,11 +1,31 @@
-\documentclass{book}
-\usepackage{amsmath,a4wide}
+\documentclass[12pt, twoside]{book}
+%\documentclass[openright,twoside,10pt]{book}
+\pdfpagewidth 6in
+\pdfpageheight 9in
+
+\usepackage{geometry}
+\geometry{%
+  %margin=7mm,
+  %textwidth  = 120mm ,
+  %textheight = 180mm ,
+  %b5paper            ,
+  %includehead        ,
+  %hcentering         ,
+  %vcentering
+}
+
+%\marginparwidth = 3cm
+\marginparsep = 0.2cm
+\hoffset = 0mm
+\voffset = 0mm
+\usepackage{amsmath}
 
 \usepackage{tabularray}
 \usepackage{adjustbox}
 \usepackage[skip=1ex]{caption} % for better control over caption
 \usepackage{amssymb}
 \usepackage{txfonts} % for \muup
+\usepackage{dsfont} % for maths matrices
 \UseTblrLibrary{booktabs}
 \usepackage{array} % flr denser tables
 \usepackage{siunitx}
@@ -13,6 +33,13 @@
 %\bibliographystyle{abbrvnat}
 %\biboptions{compress,semicolon}
 
+
+% -- cockery --
+
+\usepackage{epigraph}
+
+\setlength\epigraphwidth{.8\textwidth}
+\setlength\epigraphrule{0pt}
 
 % ------ TEMP --------------
 \usepackage[dvipsnames]{xcolor}
@@ -24,7 +51,7 @@
 
 \usepackage{booktabs}
 \usepackage{lineno}
-\linenumbers
+%\linenumbers
 
 
 
@@ -35,18 +62,18 @@
 \thispagestyle{empty}
 \begin{center}
 \begin{huge}
-Storage and Transport of Charge in\\
+Storage of Charge in\\
 Redox Conductive Polymers\\
 Probed with\\
 Electron Spin Resonance Spectroscopy\\
 \end{huge}
-\vspace{10\baselineskip}
+\vspace{7\baselineskip}
 \textbf{Ilia Romanovich Kulikov}\\
-\vspace{10\baselineskip}
+\vspace{7\baselineskip}
 Im Fachbereich Physik der Freien Universit\"{a}t Berlin eingereichte\\
 Dissertation zur Erlangung des Grades eines\\
 Doktors der Naturwissenschaften\\
-\vspace{16\baselineskip}
+\vspace{5\baselineskip}
 Berlin\\
 August 2023\\
 
@@ -67,13 +94,17 @@ August 2023\\
 
 %\include{summary/summary}
 \include{summary/list_of_abbreviations}
+%\vspace*{\fill}
+%\epigraph{\itshape All during the ride on the bus I thought to myself how upside-down \\the
+%situation had become.}{---Daniel Keyes, \textit{Flowers for Algernon}}
+
 \include{introduction/introduction}
 \include{electrochemistry/electrochemistry}
 \include{operando_epr/operando_epr}
 \include{pulse/pulse}
-\include{lod/lod}
-\include{edmr/edmr}
-\include{model/model}
+%\include{lod/lod}
+%\include{edmr/edmr}
+%\include{model/model}
 \include{outlook/outlook}
 
 
