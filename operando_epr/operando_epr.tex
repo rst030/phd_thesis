@@ -1,7 +1,7 @@
 \chapter{Operando EPR Spectroscopy of TEMPO-Salen Electrochemical Cells}
 
 \section{Electron Paramagnetic Resonance}
-In this section, the phenomenon of electron paramagnetic resonance is briefly described with minimal details that are required to interpret the spectra of a charging electrochemical cell containing nitroxide radicals attached to a pNiSalen polymer backbone. After the introduction of the spin Hamiltonian, an experimental procedure to observe the corresponding spin transitions with continuous microwaves is described. In the end of this section some technical aspects are mentioned that have become critical for the design of the operando spectroelectrochemical setup that was used to record the spectra of electrochemical cells under operating conditions.
+In this section, the phenomenon of electron paramagnetic resonance is briefly described with details that are required to interpret the spectra of a charging electrochemical cell containing nitroxide radicals attached to a conjugated polymer backbone. After the introduction of the spin Hamiltonian, an experimental procedure to observe the corresponding spin transitions with continuous microwaves is described. The characteristic spectra of nitroxide radicals in various environments are described. That information is used to decompose the complex spectra of a charging cell to identify the state of charge of the cell and the by-products that are being released during the cell operation.
 
 \subsection{The Spin Hamiltonian}
 \paragraph*{Electron Spin}
@@ -89,6 +89,10 @@ First observed in 1944~\cite{Zavoisky_1945_JP,zavoisky_1945,salikhov_2015}, the 
 \par
 When $B_0$ reaches the value that satisfies Eq.~\ref{eq:epr_resonance_condition}, the sample starts absorbing microwaves. The absorbed microwave power recorded as a function of $B_0$ is the cwEPR spectrum (Figure~\ref{fig:cwerp_free_electron}, right, dashed). By construction, cwEPR spectrometers typically record the derivative of the microwave absorption vs. $B_0$ (Figure~\ref{fig:cwerp_free_electron}, right, solid). Advanced spin resonance techniques methods that involve coherent spin dynamics and pulsed microwave fields are discussed in Chapter~\ref{ch:pulsed_epr}.
 
+\paragraph{Line Broadening}
+"EPR spectra do not consist of a discrete set of infinitely sharp lines. Lines are broadened by dynamic effects (relaxation, tumbling, chemical exchange) or static effects (orientational disorder, unresolved hyperfine splittings, distributions in magnetic properties such as g, A, and D values)."
+
+
 \paragraph{cwEPR spectrometer}
 
 A basic cwEPR spectrometer consists of a magnet, a microwave source, a resonator and a microwave detector. Figure~\ref{fig:cwerp_spectrometer} depicts those elements with more details, including the sample - an electrochemical cell that is placed inside the microwave resonator and its SoC controlled with an external potentiostat.
@@ -121,7 +125,7 @@ Solution spectra of radicals are showing averaged values of $g$ and $A$ because 
 \begin{figure}[h]
 \center
 	\includegraphics[width=1\textwidth]{./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT.pdf}
-	\caption{Room temperature cwEPR spectra of a low-concentration solutions mono- and di-TEMPO molecular fragments. Left: TEMPO, Right: Di-Tempo-Salen.}
+	\caption{Room temperature cwEPR spectra of a low-concentration solutions containing mono- and di-TEMPO molecular fragments. Left: TEMPOL, Right: Di-Tempo-Salen.}
 	\label{fig:cwEPR_monoTEMPO_diTEMPO_SOLUTION}
 \end{figure}
 \begin{figure}[h]
@@ -130,6 +134,14 @@ Solution spectra of radicals are showing averaged values of $g$ and $A$ because 
 	\caption{Room temperature cwEPR spectra of pure TEMPO-containing powders. Left: TEMPO, Right: Di-Tempo-Salen.}
 	\label{fig:cwEPR_monoTEMPO_diTEMPO_POWDER}
 \end{figure}
+
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_100mM_vs_p1mM_80K.pdf}
+	\caption{Cryogenic cwEPR spectra of TEMPOL at high and low concentration in a Dichloroethane/Acetonitrile glass. Left: 100~mM, Right: 0.1~mM.}
+	\label{fig:cwEPR_TEMPOL_High_Low_Concentrations}
+\end{figure}
+
 
 
 \par
