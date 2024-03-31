@@ -9,9 +9,9 @@
 \contentsline {subsection}{\numberline {2.4.2}PTMA}{13}{}%
 \contentsline {subsection}{\numberline {2.4.3}NiSalen}{13}{}%
 \contentsline {subsection}{\numberline {2.4.4}pDiTBuS}{13}{}%
-\contentsline {subsection}{\numberline {2.4.5}pDiTS}{14}{}%
-\contentsline {subsection}{\numberline {2.4.6}Density Functional Theory Calculation of Spin Density on DiTS}{14}{}%
-\contentsline {subsection}{\numberline {2.4.7}Charge Transport Model for Redox Conductive Polymers}{14}{}%
+\contentsline {subsection}{\numberline {2.4.5}pDiTS}{15}{}%
+\contentsline {subsection}{\numberline {2.4.6}Density Functional Theory Calculation of Spin Density on DiTS}{15}{}%
+\contentsline {subsection}{\numberline {2.4.7}Charge Transport Model for Redox Conductive Polymers}{15}{}%
 \contentsline {chapter}{\numberline {3}Operando EPR Spectroscopy of TEMPO-Salen Electrochemical Cells}{17}{}%
 \contentsline {section}{\numberline {3.1}Electron Paramagnetic Resonance}{17}{}%
 \contentsline {subsection}{\numberline {3.1.1}The Spin Hamiltonian}{17}{}%
