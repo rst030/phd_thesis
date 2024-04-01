@@ -6,9 +6,9 @@
 \contentsline {section}{\numberline {2.3}Organic Radical Battery}{12}{}%
 \contentsline {section}{\numberline {2.4}Organic Electrode Materials}{12}{}%
 \contentsline {subsection}{\numberline {2.4.1}TEMPO}{12}{}%
-\contentsline {subsection}{\numberline {2.4.2}PTMA}{13}{}%
-\contentsline {subsection}{\numberline {2.4.3}NiSalen}{13}{}%
-\contentsline {subsection}{\numberline {2.4.4}pDiTBuS}{13}{}%
+\contentsline {subsection}{\numberline {2.4.2}PTMA}{14}{}%
+\contentsline {subsection}{\numberline {2.4.3}NiSalen}{14}{}%
+\contentsline {subsection}{\numberline {2.4.4}pDiTBuS}{14}{}%
 \contentsline {subsection}{\numberline {2.4.5}pDiTS}{15}{}%
 \contentsline {subsection}{\numberline {2.4.6}Density Functional Theory Calculation of Spin Density on DiTS}{15}{}%
 \contentsline {subsection}{\numberline {2.4.7}Charge Transport Model for Redox Conductive Polymers}{15}{}%

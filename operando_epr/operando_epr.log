@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  31 MAR 2024 00:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  1 APR 2024 14:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -15367,7 +15367,7 @@ Missing character: There is no [ in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no ] in font nullfont!
 
-Overfull \hbox (971.95627pt too wide) in paragraph at lines 127--132
+Overfull \hbox (1026.8594pt too wide) in paragraph at lines 127--132
 []\OML/cmm/m/it/10 pr=figures=TEMPOL=cwEPR[]EMPOL[]s[]iTS[]T:pdf[][]$ 
  []
 
@@ -37698,7 +37698,7 @@ iquid[]\/cmr/m/n/10 50\OML/cmm/m/it/10 K:pdf[][]$
 Here is how much of TeX's memory you used:
  54 strings out of 478287
  957 string characters out of 5849289
- 318666 words of memory out of 5000000
+ 318683 words of memory out of 5000000
  18346 multiletter control sequences out of 15000+600000
  469913 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191

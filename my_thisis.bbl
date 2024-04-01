@@ -50,6 +50,14 @@ Harold Cassidy.
 \newblock Electron exchange-polymers.
 \newblock {\em J. Am. Chem. Soc.}, 71:402--406, 1949.
 
+\bibitem{Daniel2023_Multimodal}
+Davis~Thomas Daniel, Steffen Oevermann, Souvik Mitra, Katharina Rudolf, Andreas
+  Heuer, Rüdiger~A. Eichel, Martin Winter, Diddo Diddens, Gunther Brunklaus,
+  and Josef Granwehr.
+\newblock Multimodal investigation of electronic transport in ptma and its
+  impact on organic radical battery performance.
+\newblock {\em Scientific Reports}, 13, 12 2023.
+
 \bibitem{Degen2022}
 Florian Degen and Marius Schütte.
 \newblock Life cycle assessment of the energy consumption and ghg emissions of
@@ -67,6 +75,13 @@ Evgenia Dmitrieva, Marco Rosenkranz, Julia~S. Danilova, Evgenia~A. Smirnova,
 \newblock Radical formation in polymeric nickel complexes with n2o2 schiff base
   ligands: An in situ esr and uv–vis–nir spectroelectrochemical study.
 \newblock {\em Electrochimica Acta}, 283:1742--1752, 2018.
+
+\bibitem{Eaton2018}
+Sandra~S Eaton, Lukas~B Woodcock, and Gareth~R Eaton.
+\newblock Continuous wave electron paramagnetic resonance of nitroxide
+  biradicals in fluid solution.
+\newblock {\em Concepts in Magnetic Resonance Part A: Bridging Education and
+  Research}, 47A:1--16, 2018.
 
 \bibitem{einstein_s_rel}
 A.~Einstein.
@@ -402,6 +417,10 @@ By~Hideki Shirakawa, Edwin~J Louis, Alan~G Macdiarmid, C~H W A N~K Chiang, and
   Alan~J HEEGERt.
 \newblock Synthesis of electrically conducting organic polymers : Halogen
   derivatives of polyacetylene, (ch), 1977.
+
+\bibitem{DOM}
+Domenik Spallek.
+\newblock Spin-dependent processes in organic radical batteries, 6 2022.
 
 \bibitem{Staudinger_1920}
 H.~Staudinger.

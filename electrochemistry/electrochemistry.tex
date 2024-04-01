@@ -4,7 +4,10 @@
 
 The capacity of installed battery storage systems is predicted to increase upto 400~GWh by 2030~\cite{Figgener_2020}.
 
-State of charge (SoC).
+State of charge (SoC).\\
+State of health (SoH).\\
+Gravimetric capacity.\\
+
 
 
 
@@ -34,9 +37,17 @@ ORB based on redox polymers containing stable radicals~\cite{nakahara2002_cpl} h
 
 \par
 \subsection{TEMPO}
-TEMPO (2,2,6,6-tetramethylpiperidine-1-oxyl) shown in Figure~\ref{fig:TEMPO} is a small molecule and a stable radical that can undergo a fast and revirsible redox reaction between TEMPO$^\bullet$ and TEMPO$^+$. TEMPO is an inexpensive organic compound~\cite{Vereshchagin2022} produced from acetone with liquid ammonia, hydrazine and peroxide~\cite{Casado_2021_book}. TEMPO radicals are widely used as spin labels in biological systems.
+TEMPO (2,2,6,6-tetramethylpiperidine-1-oxyl) shown in Figure~\ref{fig:molecules}~a) is a small molecule and a stable radical that can undergo a fast and revirsible redox reaction between TEMPO$^\bullet$ and TEMPO$^+$. TEMPO is an inexpensive organic compound~\cite{Vereshchagin2022} produced from acetone with liquid ammonia, hydrazine and peroxide~\cite{Casado_2021_book}. TEMPO radicals are widely used as spin labels in biological systems.
 
 TEMPOL is a TEMPO with an OH group.
+
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./electrochemistry/figures/materials/molecules.pdf}
+	\caption{Chemical structures of the molecular fragments that were used for making a battery cathode containing stable nitroxide radicals.}
+	\label{fig:molecules}
+\end{figure}
+
 
 
 Redox conductive conjugated polymers containing TEMPO redox groups, as pDiTBuS (poly-di-TEMPO-Butyl-Salen) shown in Figure~\ref{fig:Figure_1}, demonstrate particularly promising energy and power densities~\cite{Vereshchagin2020}. The pDiTBuS was designed as a cathode material: it is oxidized when the electrochemical cell containing this material is charged. A film of pDiTBuS comprises a high concentration of redox active stable nitroxyl radicals attached to a conjugated polymer backbone that interconnects them as a molecular wire. Such system can be viewed as a highly disordered molecular hole-transporting semiconductor (the poly-NiSalen backbone) that contains a large amount of hole traps (TEMPO groups) attached to it with butyl linkers. When the film is reduced (discharged), the TEMPO groups are in the radical state and act as unfilled traps. Upon oxidation (charging), the TEMPO fragments lose an unpaired electron and acquire a positive charge, so the traps are being filled with holes. The reversible redox reaction in the pDiTBuS film is demonstrated in a cyclic \ik{voltammogram} shown in Figure~\ref{fig:Figure_S1} (see ESI).
@@ -50,7 +61,12 @@ The flexible molecular design together with questions regarding unresolved charg
 
 \subsection{PTMA}
 
+A simple organic radical polymer containing TEMPO is poly(2,2,6,6-tetramethyl-1-piperidinyloxy-4-yl methacrylate) (PTMA, Figure~\ref{fig:molecules}~c). The polymer backbone of PTMA consists of single C-C bonds and therefore is not conductive, so the transport of charge in a PTMA film has to be mediated by adding conductive mesh such as activated carbon. When mixed with conductive carbon additive, PTMA has become a standard cathode material for ORBs and Li-ORBs, providing a discharge cell voltage of 3.5~V (with a Li anode) and a theoretical discharge capacity of $C_{theo}=111$~mAh/g~\cite{Daniel2023_Multimodal}. PTMA is soluble in acetonitrile (AN), chloroform (CF), tetrahydrofurane and dichlormethane. It is claimed to be insoluble in toluene, ethers, carbonates, and alcohols, however it becomes gel-like with some of these solvents~\cite{DOM}.
+
 \subsection{NiSalen}
+
+
+
 \subsection{pDiTBuS}
 Redox conductive conjugated polymers containing TEMPO (2,2,6,6-tetramethylpiperidine-1-oxyl) redox groups, as pDiTBuS (poly-di-TEMPO-Butyl-Salen) shown in Figure~\ref{fig:Figure_1}, demonstrate particularly promising energy and power densities~\cite{Vereshchagin2020}. The pDiTBuS was designed as a cathode material: it is oxidized when the electrochemical cell containing this material is charged. A film of pDiTBuS comprises a high concentration of redox active stable nitroxyl radicals attached to a conjugated polymer backbone that interconnects them as a molecular wire. Such system may be viewed as a highly disordered molecular hole-transporting semiconductor (the poly-NiSalen backbone) that contains a large amount of hole traps (TEMPO groups) attached to it with butyl linkers. When the film is reduced (discharged), the TEMPO groups are in the radical state and act as unfilled traps. Upon oxidation (charging), the TEMPO fragments lose an unpaired electron and acquire a positive charge, so the traps are being filled with holes.
 
@@ -65,8 +81,8 @@ Redox conductive conjugated polymers containing TEMPO (2,2,6,6-tetramethylpiperi
 \subsection{Density Functional Theory Calculation of Spin Density on DiTS}
 \begin{figure}[h]
 \center
-	\includegraphics[width=0.5\textwidth]{./electrochemistry/figures/DFT_DITS.png}
-	\caption{DFT on DiTS}
+	\includegraphics[width=1\textwidth]{./electrochemistry/figures/DFT_DITS.pdf}
+	\caption{Spin density in a DiTS monomer for various oxidation states calculated by Marcel Gauglitz with density-functional theory using the def2-TZVP functional. a): neutral DiTS with two radicals, b) singly oxidized DiTS (one hole injected), b) doubly oxidized DiTS showing no spin density, c) DiTS$^{3+}$ showing a positive polaron localized on the backbone, d) DiTS$^{4+}$ showing increased spin density on the backbone.}
 	\label{fig:DiTS_DFT}
 \end{figure}
 

@@ -8,25 +8,28 @@ A level-1 auxiliary file: operando_epr/operando_epr.aux
 A level-1 auxiliary file: pulse/pulse.aux
 A level-1 auxiliary file: outlook/outlook.aux
 The style file: plain.bst
+A level-1 auxiliary file: appendix/A-EMRE.aux
 Database file #1: Bibliography.bib
+Warning--entry type for "DOM" isn't style-file defined
+--line 1 of file Bibliography.bib
 Warning--entry type for "einstein_s_rel" isn't style-file defined
---line 23 of file Bibliography.bib
+--line 59 of file Bibliography.bib
 Warning--entry type for "Rohland_2021" isn't style-file defined
---line 68 of file Bibliography.bib
-Repeated entry---line 127 of file Bibliography.bib
+--line 104 of file Bibliography.bib
+Repeated entry---line 163 of file Bibliography.bib
  : @generic{Rohland_2021
  :                      ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "Lee_1993" isn't style-file defined
---line 140 of file Bibliography.bib
+--line 176 of file Bibliography.bib
 Warning--entry type for "Koezuka_1987" isn't style-file defined
---line 150 of file Bibliography.bib
+--line 186 of file Bibliography.bib
 Warning--entry type for "Shirakawa_1977" isn't style-file defined
---line 211 of file Bibliography.bib
+--line 247 of file Bibliography.bib
 Warning--entry type for "salikhov_2015" isn't style-file defined
---line 339 of file Bibliography.bib
+--line 375 of file Bibliography.bib
 Warning--entry type for "Casado2021" isn't style-file defined
---line 1447 of file Bibliography.bib
+--line 1483 of file Bibliography.bib
 Warning--I didn't find a database entry for "energy_consumption_review"
 Warning--I didn't find a database entry for "energy_sources_review"
 Warning--I didn't find a database entry for "energy_from_sound"
@@ -41,7 +44,6 @@ Warning--I didn't find a database entry for "xu2014_electact"
 Warning--I didn't find a database entry for "schwartz2018_synthmet"
 Warning--I didn't find a database entry for "Sakurai"
 Warning--I didn't find a database entry for "Easyspin"
-Warning--I didn't find a database entry for "Eaton2018"
 Warning--I didn't find a database entry for "carrington"
 Warning--I didn't find a database entry for "abdiaziz2019_chemcomm"
 Warning--I didn't find a database entry for "kutin2019_catalysis"
@@ -57,45 +59,45 @@ Warning--I didn't find a database entry for "Anderson1953"
 Warning--I didn't find a database entry for "Liu2008"
 Warning--can't use both author and editor fields in Casado_2021_book
 Warning--empty booktitle in nishide_2009
-You've used 85 entries,
+You've used 88 entries,
             2118 wiz_defined-function locations,
-            1094 strings with 21558 characters,
-and the built_in function-call counts, 31783 in all, are:
-= -- 2923
-> -- 2042
+            1110 strings with 22260 characters,
+and the built_in function-call counts, 32798 in all, are:
+= -- 3011
+> -- 2120
 < -- 3
-+ -- 817
-- -- 720
-* -- 2530
-:= -- 5537
-add.period$ -- 248
-call.type$ -- 85
-change.case$ -- 609
++ -- 848
+- -- 748
+* -- 2610
+:= -- 5720
+add.period$ -- 256
+call.type$ -- 88
+change.case$ -- 632
 chr.to.int$ -- 0
-cite$ -- 87
-duplicate$ -- 933
-empty$ -- 2136
-format.name$ -- 720
-if$ -- 6395
+cite$ -- 90
+duplicate$ -- 961
+empty$ -- 2198
+format.name$ -- 748
+if$ -- 6593
 int.to.chr$ -- 0
-int.to.str$ -- 85
-missing$ -- 85
-newline$ -- 421
-num.names$ -- 170
-pop$ -- 541
+int.to.str$ -- 88
+missing$ -- 87
+newline$ -- 435
+num.names$ -- 176
+pop$ -- 565
 preamble$ -- 1
-purify$ -- 530
+purify$ -- 550
 quote$ -- 0
-skip$ -- 645
+skip$ -- 668
 stack$ -- 0
-substring$ -- 1845
-swap$ -- 107
+substring$ -- 1872
+swap$ -- 110
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 326
+type$ -- 338
 warning$ -- 2
-while$ -- 240
-width$ -- 87
-write$ -- 910
+while$ -- 247
+width$ -- 90
+write$ -- 940
 (There was 1 error message)
