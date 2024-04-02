@@ -52,7 +52,25 @@ A proton has a half-integer spin $S=1/2$ that results in a magnetic moment $\mu_
 The magnetic moments of an electron and a magnetic nucleus, such as nitrogen, couple in the hyperfine interaction: $H_{HF}=\vec{\hat{s}}\textbf{A}\vec{\hat{I}}=H_F+H_{DD}$ with the hyperfine coupling tensor $\textbf{A}$. The isotropic part $H_F=a_{iso}\vec{\hat{s}}\vec{\hat{I}}$, or the Fermi contact interaction, scales with the probability density of the electron at the position of the nucleus $a_{iso}=\frac{2}{3}\frac{\mu_0}{\hbar}g_e\mu_eg_n\mu_n\vert\psi(0)\vert^2$~\cite{Schweiger2001_hfi}. The anisotropic part $H_{DD}=\vec{\hat{s}}\textbf{T}\vec{\hat{I}}$ with the dipolar coupling tensor $\textbf{T}$ takes into account the anisotropic magnetic dipole coupling between the magnetic moments of the electron and the nucleus. $\textbf{T}$ depends on the shape of the electron orbital, its $3\times3$ Cartesian matrix representation depends on the molecular frame of reference and can be diagonalized by rotating the coordinate system. The matrix representation of the hyperfine coupling tensor $\textbf{A}$ can be written in as the sum of its isotropic and anisotropic parts: $\textbf{A}=a_{iso}\mathds{1}_3 + \textbf{T}$~\cite{Weil_Bolton}. In its diagonal matrix representation $\textbf{A}$ reduces to its three principal components $[A_{xx}, A_{yy}, A_{zz}]$. The values of $\textbf{A}$ are typically given in MHz.
 
 \paragraph*{Exchange Interaction}
-In a system of closely placed electrons, such as in a film of densely packed radicals, the electron orbitals may overlap significantly and the radicals may exchange electrons. The energy required to exchange the electrons is called the exchange coupling $H_{exch} = \vec{\hat{s_1}}\textbf{J}\vec{\hat{s_2}}$, that becomes considerably large at inter-spin distances below $r<1.5$~nm or with a large spin delocalisation~\cite{Schweiger2001_exch}. The positive $\textbf{J}$ corresponds to a weak coupling between $s_1$ and $s_2$ which leads to an antiferromagnetic or antiparallel alignment of spins with a total $S=0$, whereas the negative $\textbf{J}$ causes the strong inter-spin coupling which leads to a ferromagnetic alignment with $S=1$.
+In a system of closely placed electrons, such as in a film of densely packed radicals, the electron orbitals may overlap significantly and the radicals may exchange electrons. The energy required to exchange the electrons is called the exchange coupling $H_{exch} = \vec{\hat{s_1}}\textbf{J}\vec{\hat{s_2}}$, that becomes considerably large at inter-spin distances below $r<1.5$~nm or with a large spin delocalisation~\cite{Schweiger2001_exch}. The positive $\textbf{J}$ corresponds to a weak coupling between $s_1$ and $s_2$ which leads to an antiferromagnetic or antiparallel alignment of spins with a total $S=0$, whereas the negative $\textbf{J}$ causes the strong inter-spin coupling which leads to a ferromagnetic alignment with $S=1$~\cite{Schweiger2001_exch}.\\
+
+MOVE this to EPR section!
+The stochastic, gaussian random modulation theory
+of exchange narrowing [ 1-33 predicts that the half-
+width at half maximum intensity of a strongly ex-
+change narrowed electron pararnagnetic resonance
+(EPR) line is given by
+(1)
+\begin{equation}
+\Delta B_0 \approx\frac{10}{3}\left(\frac{H_p^2}{H_e}\right)
+\end{equation}
+
+and the resonance lineshape is lorentzian.
+Hz is the mean square dipolar field and He is an
+effective exchange field which is proportional to the
+mean exchange integrd J
+\cite{Oreilly_1971}
+
 
 %\paragraph*{Magnetic Dipole-Dipole Interaction}
 %The dipole-dipole interaction between the two neighboring electron spins contributes one more term to the spin Hamiltonian: $H_{dd} = \vec{\hat{S_1}}\textbf{D}\vec{\hat{S_2}}$ that depends on the distance between the spins. 
@@ -67,6 +85,8 @@ H = H_{EZ} + H_{HF} + H_{J} + H_{NZ} + H_{NQ}
 \end{equation}
 
 The electron Zeeman term $H_{EZ}$ defines the requirements on the hardware and sets the range of the magnetic fields used in the spectroscopic experiments. The hyperfine interaction term $H_{HF}$ allows for reconstruction of the hyperfine coupling tensor from the recorded spectra which is used as a marker to identify the molecular structure and dynamics of the mobile molecular fragments that are released during the operation of an electrochemical cell. The exchange interaction term $H_{J}$ scales with the concentration of the electrons, so the information about $\textbf{J}$ can be used to characterize the packing of the molecular fragments in the electrode. The nuclear quadrupole interaction term may lead to spectral distortions in a highly charged cathode where electric fields may be sufficiently strong to introduce noticeable nuclear quadrupole couplings to the nitrogen nuclei.
+
+\paragraph{Energy Diagram of the Spin Hamiltonian}
 
 
 \subsection{cwEPR spectroscopy}
