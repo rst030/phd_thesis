@@ -1,11 +1,11 @@
 \contentsline {chapter}{\numberline {1}Introduction}{7}{}%
 \contentsline {paragraph}{}{8}{}%
-\contentsline {chapter}{\numberline {2}Electrochemical Energy Storage in Redox Conductive Polymers}{11}{}%
-\contentsline {section}{\numberline {2.1}Rechargeable Electrochemical Cells}{11}{}%
+\contentsline {chapter}{\numberline {2}Electrochemical Energy Storage in Redox Conductive Polymers}{9}{}%
+\contentsline {section}{\numberline {2.1}Rechargeable Electrochemical Cells}{9}{}%
 \contentsline {section}{\numberline {2.2}Electrochemical Instrumentation}{11}{}%
 \contentsline {subsection}{\numberline {2.2.1}Cyclic Voltammogram}{11}{}%
 \contentsline {subsection}{\numberline {2.2.2}Charge-Discharge Cycling}{11}{}%
-\contentsline {section}{\numberline {2.3}Redox Conductive Polymers}{12}{}%
+\contentsline {section}{\numberline {2.3}Redox Conductive Polymers}{11}{}%
 \contentsline {section}{\numberline {2.4}Organic Radical Battery}{12}{}%
 \contentsline {section}{\numberline {2.5}Electrochemical Characterization Techniques}{13}{}%
 \contentsline {section}{\numberline {2.6}Organic Electrode Materials}{13}{}%

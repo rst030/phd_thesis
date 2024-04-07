@@ -10,34 +10,36 @@ A level-1 auxiliary file: outlook/outlook.aux
 The style file: plain.bst
 A level-1 auxiliary file: appendix/A-EMRE.aux
 Database file #1: Bibliography.bib
+Warning--entry type for "He_2022" isn't style-file defined
+--line 1 of file Bibliography.bib
 Warning--entry type for "DOM" isn't style-file defined
---line 11 of file Bibliography.bib
+--line 24 of file Bibliography.bib
 Warning--entry type for "einstein_s_rel" isn't style-file defined
---line 69 of file Bibliography.bib
+--line 82 of file Bibliography.bib
 Warning--entry type for "Rohland_2021" isn't style-file defined
---line 114 of file Bibliography.bib
-Repeated entry---line 173 of file Bibliography.bib
+--line 127 of file Bibliography.bib
+Repeated entry---line 186 of file Bibliography.bib
  : @generic{Rohland_2021
  :                      ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "Lee_1993" isn't style-file defined
---line 186 of file Bibliography.bib
+--line 199 of file Bibliography.bib
 Warning--entry type for "Koezuka_1987" isn't style-file defined
---line 196 of file Bibliography.bib
+--line 209 of file Bibliography.bib
 Warning--entry type for "Shirakawa_1977" isn't style-file defined
---line 257 of file Bibliography.bib
+--line 270 of file Bibliography.bib
 Warning--entry type for "salikhov_2015" isn't style-file defined
---line 385 of file Bibliography.bib
+--line 398 of file Bibliography.bib
 Warning--entry type for "Casado2021" isn't style-file defined
---line 1493 of file Bibliography.bib
+--line 1506 of file Bibliography.bib
 Warning--I didn't find a database entry for "energy_consumption_review"
 Warning--I didn't find a database entry for "energy_sources_review"
 Warning--I didn't find a database entry for "energy_from_sound"
 Warning--I didn't find a database entry for "tokamak_updates"
-Warning--I didn't find a database entry for "supercaps_review"
 Warning--I didn't find a database entry for "echem_book"
 Warning--I didn't find a database entry for "Lauth_1944"
 Warning--I didn't find a database entry for "Rohland2022"
+Warning--I didn't find a database entry for "emagres"
 Warning--I didn't find a database entry for "oyaizu2015_polymerjournal"
 Warning--I didn't find a database entry for "katsumata2006_mrc"
 Warning--I didn't find a database entry for "xu2014_electact"
@@ -61,45 +63,45 @@ Warning--I didn't find a database entry for "Anderson1953"
 Warning--I didn't find a database entry for "Liu2008"
 Warning--can't use both author and editor fields in Casado_2021_book
 Warning--empty booktitle in nishide_2009
-You've used 89 entries,
+You've used 90 entries,
             2118 wiz_defined-function locations,
-            1120 strings with 22390 characters,
-and the built_in function-call counts, 33080 in all, are:
-= -- 3040
-> -- 2127
+            1125 strings with 22564 characters,
+and the built_in function-call counts, 33317 in all, are:
+= -- 3060
+> -- 2140
 < -- 3
-+ -- 851
-- -- 750
-* -- 2628
-:= -- 5768
-add.period$ -- 259
-call.type$ -- 89
-change.case$ -- 636
++ -- 857
+- -- 754
+* -- 2640
+:= -- 5806
+add.period$ -- 261
+call.type$ -- 90
+change.case$ -- 641
 chr.to.int$ -- 0
-cite$ -- 91
-duplicate$ -- 972
-empty$ -- 2224
-format.name$ -- 750
-if$ -- 6653
+cite$ -- 92
+duplicate$ -- 979
+empty$ -- 2246
+format.name$ -- 754
+if$ -- 6703
 int.to.chr$ -- 0
-int.to.str$ -- 89
+int.to.str$ -- 90
 missing$ -- 88
-newline$ -- 440
-num.names$ -- 178
-pop$ -- 567
+newline$ -- 444
+num.names$ -- 180
+pop$ -- 577
 preamble$ -- 1
-purify$ -- 553
+purify$ -- 557
 quote$ -- 0
-skip$ -- 675
+skip$ -- 684
 stack$ -- 0
-substring$ -- 1898
-swap$ -- 111
+substring$ -- 1904
+swap$ -- 112
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 342
+type$ -- 346
 warning$ -- 2
-while$ -- 250
-width$ -- 91
-write$ -- 951
+while$ -- 252
+width$ -- 92
+write$ -- 959
 (There was 1 error message)
