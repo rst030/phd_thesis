@@ -218,6 +218,12 @@ Jihyeon Kim, Youngsu Kim, Jaekyun Yoo, Giyun Kwon, Youngmin Ko, and Kisuk Kang.
 H~Koezuka, A~Tsumura, and T~Ando.
 \newblock Field-effect transistor with polythiophene thin film, 1987.
 
+\bibitem{Koshika_2009}
+Kenichiroh Koshika, Naoki Sano, Kenichi Oyaizu, and Hiroyuki Nishide.
+\newblock An aqueous, electrolyte-type, rechargeable device utilizing a
+  hydrophilic radical polymer-cathode.
+\newblock {\em Macromolecular Chemistry and Physics}, 210:1989--1995, 11 2009.
+
 \bibitem{Kulikov2022}
 Ilia Kulikov, Naitik~A. Panjwani, Anatoliy~A. Vereshchagin, Domenik Spallek,
   Daniil~A. Lukianov, Elena~V. Alekseeva, Oleg~V. Levin, and Jan Behrends.
@@ -344,6 +350,13 @@ Naoki Nitta, Feixiang Wu, Jung~Tae Lee, and Gleb Yushin.
 \newblock Li-ion battery materials: Present and future.
 \newblock {\em Materials Today}, 18:252--264, 2015.
 
+\bibitem{Novozhilova_2009}
+M.~V. Novozhilova, E.~A. Smirnova, M.~P. Karushev, A.~M. Timonov, V.~V. Malev,
+  and O.~V. Levin.
+\newblock Synthesis and study of catalysts of electrochemical oxygen reduction
+  reaction based on polymer complexes of nickel and cobalt with schiff bases.
+\newblock {\em Russian Journal of Electrochemistry}, 52:1183--1190, 12 2016.
+
 \bibitem{Oreilly_1971}
 D~E O'reilly.
 \newblock Exchange narrowing in electron paramagnettc resonance of ruby.
@@ -391,6 +404,11 @@ Philip Rohland, Erik Schröter, Oliver Nolte, George~R. Newkome, Martin~D.
   Hager, and Ulrich~S. Schubert.
 \newblock Redox-active polymers: The magic key towards energy storage – a
   polymer design guideline progress in polymer science, 2 2022.
+
+\bibitem{Sakurai}
+J.~J. Sakurai and Jim Napolitano.
+\newblock {\em Modern Quantum Mechanics}.
+\newblock Dorling Kindersley Pvt. Ltd., 2 edition, 2014.
 
 \bibitem{Salikhov1981}
 K.~M. Salikhov, S.~A. Dzuba, and A.~M. Raitsimring.
@@ -464,6 +482,14 @@ Anatoliy~A. Vereshchagin, Arseniy~Y. Kalnin, Alexey~I. Volkov, Daniil~A.
 \newblock Key features of tempo-containing polymers for energy storage and
   catalytic systems.
 \newblock {\em Energies}, 15:1--50, 2022.
+
+\bibitem{Vereshchagin_2019}
+Anatoly~A. Vereshchagin, Petr~S. Vlasov, Alexander~S. Konev, Peixia Yang,
+  Galina~A. Grechishnikova, and Oleg~V. Levin.
+\newblock Novel highly conductive cathode material based on stable-radical
+  organic framework and polymerized nickel complex for electrochemical energy
+  storage devices.
+\newblock {\em Electrochimica Acta}, 295:1075--1084, 2 2019.
 
 \bibitem{Weil_Bolton}
 John~A. Weil and James~R. Bolton.

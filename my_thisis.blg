@@ -11,32 +11,31 @@ The style file: plain.bst
 A level-1 auxiliary file: appendix/A-EMRE.aux
 Database file #1: Bibliography.bib
 Warning--entry type for "He_2022" isn't style-file defined
---line 1 of file Bibliography.bib
+--line 53 of file Bibliography.bib
 Warning--entry type for "DOM" isn't style-file defined
---line 24 of file Bibliography.bib
+--line 76 of file Bibliography.bib
 Warning--entry type for "einstein_s_rel" isn't style-file defined
---line 82 of file Bibliography.bib
+--line 134 of file Bibliography.bib
 Warning--entry type for "Rohland_2021" isn't style-file defined
---line 127 of file Bibliography.bib
-Repeated entry---line 186 of file Bibliography.bib
+--line 179 of file Bibliography.bib
+Repeated entry---line 238 of file Bibliography.bib
  : @generic{Rohland_2021
  :                      ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "Lee_1993" isn't style-file defined
---line 199 of file Bibliography.bib
+--line 251 of file Bibliography.bib
 Warning--entry type for "Koezuka_1987" isn't style-file defined
---line 209 of file Bibliography.bib
+--line 261 of file Bibliography.bib
 Warning--entry type for "Shirakawa_1977" isn't style-file defined
---line 270 of file Bibliography.bib
+--line 322 of file Bibliography.bib
 Warning--entry type for "salikhov_2015" isn't style-file defined
---line 398 of file Bibliography.bib
+--line 450 of file Bibliography.bib
 Warning--entry type for "Casado2021" isn't style-file defined
---line 1506 of file Bibliography.bib
+--line 1558 of file Bibliography.bib
 Warning--I didn't find a database entry for "energy_consumption_review"
 Warning--I didn't find a database entry for "energy_sources_review"
 Warning--I didn't find a database entry for "energy_from_sound"
 Warning--I didn't find a database entry for "tokamak_updates"
-Warning--I didn't find a database entry for "echem_book"
 Warning--I didn't find a database entry for "Lauth_1944"
 Warning--I didn't find a database entry for "Rohland2022"
 Warning--I didn't find a database entry for "emagres"
@@ -44,11 +43,13 @@ Warning--I didn't find a database entry for "oyaizu2015_polymerjournal"
 Warning--I didn't find a database entry for "katsumata2006_mrc"
 Warning--I didn't find a database entry for "xu2014_electact"
 Warning--I didn't find a database entry for "schwartz2018_synthmet"
+Warning--I didn't find a database entry for "Timonov"
 Warning--I didn't find a database entry for "ORCA"
 Warning--I didn't find a database entry for "HPC_FUB"
-Warning--I didn't find a database entry for "Sakurai"
 Warning--I didn't find a database entry for "Easyspin"
 Warning--I didn't find a database entry for "carrington"
+Warning--I didn't find a database entry for "Siavash"
+Warning--I didn't find a database entry for "Vereshchagin_2020"
 Warning--I didn't find a database entry for "abdiaziz2019_chemcomm"
 Warning--I didn't find a database entry for "kutin2019_catalysis"
 Warning--I didn't find a database entry for "neukermans2020_chemelectrochem"
@@ -63,45 +64,45 @@ Warning--I didn't find a database entry for "Anderson1953"
 Warning--I didn't find a database entry for "Liu2008"
 Warning--can't use both author and editor fields in Casado_2021_book
 Warning--empty booktitle in nishide_2009
-You've used 90 entries,
+You've used 94 entries,
             2118 wiz_defined-function locations,
-            1125 strings with 22564 characters,
-and the built_in function-call counts, 33317 in all, are:
-= -- 3060
-> -- 2140
+            1155 strings with 23639 characters,
+and the built_in function-call counts, 34902 in all, are:
+= -- 3206
+> -- 2242
 < -- 3
-+ -- 857
-- -- 754
-* -- 2640
-:= -- 5806
-add.period$ -- 261
-call.type$ -- 90
-change.case$ -- 641
++ -- 898
+- -- 790
+* -- 2775
+:= -- 6079
+add.period$ -- 273
+call.type$ -- 94
+change.case$ -- 671
 chr.to.int$ -- 0
-cite$ -- 92
-duplicate$ -- 979
-empty$ -- 2246
-format.name$ -- 754
-if$ -- 6703
+cite$ -- 96
+duplicate$ -- 1024
+empty$ -- 2352
+format.name$ -- 790
+if$ -- 7021
 int.to.chr$ -- 0
-int.to.str$ -- 90
-missing$ -- 88
-newline$ -- 444
-num.names$ -- 180
-pop$ -- 577
+int.to.str$ -- 94
+missing$ -- 93
+newline$ -- 464
+num.names$ -- 188
+pop$ -- 604
 preamble$ -- 1
-purify$ -- 557
+purify$ -- 583
 quote$ -- 0
-skip$ -- 684
+skip$ -- 712
 stack$ -- 0
-substring$ -- 1904
-swap$ -- 112
+substring$ -- 2006
+swap$ -- 116
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 346
+type$ -- 360
 warning$ -- 2
-while$ -- 252
-width$ -- 92
-write$ -- 959
+while$ -- 263
+width$ -- 96
+write$ -- 1003
 (There was 1 error message)

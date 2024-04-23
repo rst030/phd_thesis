@@ -7,10 +7,15 @@ The motion of the magnetization vector $\vec{M}(t,\vec{r})$ precessing in a stat
 \subsection{Bloch Equations}
 \begin{equation}
 \label{eq:Bloch}
-\frac{dM_Z}{dt} = \frac{M_Z}{T_1}
+\frac{dM_x(t)}{dt} = \gamma\left(\vec{M}(t)\times\vec{B}(t)\right)_x - \frac{M_x(t)}{T_2}
 \end{equation}
 \begin{equation}
-\frac{dM_X}{dt} = B_1\frac{M_Z}{T_2}
+\label{eq:Bloch}
+\frac{dM_y(t)}{dt} = \gamma\left(\vec{M}(t)\times\vec{B}(t)\right)_y - \frac{M_y(t)}{T_2}
+\end{equation}
+\begin{equation}
+\label{eq:Bloch}
+\frac{dM_z(t)}{dt} = \gamma\left(\vec{M}(t)\times\vec{B}(t)\right)_z - \frac{M_z(t)-M_0}{T_2}
 \end{equation}
 
 
