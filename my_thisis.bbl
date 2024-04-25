@@ -12,6 +12,12 @@ S~Bahceci and B~Esat.
   material for rechargeable batteries.
 \newblock {\em Journal of Power Sources}, 242:33--40, 2013.
 
+\bibitem{Bard_book}
+Allen~J. Bard, Larry~R. Faulkner, and Henry~S. White.
+\newblock {\em Electrochemical Methods. Funcamentals and Applications},
+  volume~1.
+\newblock Wiley, 2 edition, 2022.
+
 \bibitem{Bittl2005}
 Robert Bittl and Stefan Weber.
 \newblock Transient radical pairs studied by time-resolved epr.
@@ -148,6 +154,13 @@ Ting Guan, Shun Sun, Fengbin Yu, Yunzhi Gao, Peng Fan, Pengjian Zuo, Chunyu Du,
 \newblock The degradation of licoo2/graphite batteries at different rates.
 \newblock {\em Electrochimica Acta}, 279:204--212, 2018.
 
+\bibitem{Halbmair2016}
+Karin Halbmair, Jan Seikowski, Igor Tkach, Claudia Höbartner, Deniz Sezer, and
+  Marina Bennati.
+\newblock High-resolution measurement of long-range distances in rna: Pulse epr
+  spectroscopy with tempo-labeled nucleotides.
+\newblock {\em Chemical Science}, 7:3172--3180, 2016.
+
 \bibitem{He_2022}
 Xiyue He and Xuelai Zhang.
 \newblock A comprehensive review of supercapacitors: Properties, electrodes,
@@ -230,6 +243,13 @@ Ilia Kulikov, Naitik~A. Panjwani, Anatoliy~A. Vereshchagin, Domenik Spallek,
 \newblock Spins at work: probing charging and discharging of organic radical
   batteries by electron paramagnetic resonance spectroscopy.
 \newblock {\em Energy and Environmental Science}, 15:3275--3290, 2022.
+
+\bibitem{Kulikov2023}
+Ilia Kulikov, Anatoliy~A. Vereshchagin, Daniil~A. Lukianov, Oleg~V. Levin, and
+  Jan Behrends.
+\newblock A nitroxide-containing cathode material for organic radical batteries
+  studied with pulsed epr spectroscopy.
+\newblock {\em Journal of Magnetic Resonance Open}, 16-17, 12 2023.
 
 \bibitem{kuprov_2023}
 Ilya Kuprov.
@@ -456,6 +476,12 @@ H.~Staudinger.
 \newblock Über polymerisation.
 \newblock {\em European Journal of Inorganic Chemistry}, 53:1073--1085, 6 1920.
 
+\bibitem{Stoll2006}
+Stefan Stoll and Arthur Schweiger.
+\newblock Easyspin, a comprehensive software package for spectral simulation
+  and analysis in epr.
+\newblock {\em Journal of Magnetic Resonance}, 178:42--55, 1 2006.
+
 \bibitem{IWASA2007}
 Hiroyuki Takeo~Nishide and Suga.
 \newblock Organic radical battery.
@@ -496,6 +522,12 @@ John~A. Weil and James~R. Bolton.
 \newblock {\em Electron Paramagnetic Resonance Elementary Theory and Practical
   Applications}.
 \newblock Wiley, 2nd edition, 2007.
+
+\bibitem{Wu_2023}
+Ting~Ting Wu, Gao~Le Dai, Jin~Jia Xu, Fang Cao, Xiao~Hong Zhang, Yu~Zhao, and
+  Yu~Min Qian.
+\newblock Structural design of organic battery electrode materials: from dft to
+  artificial intelligence, 10 2023.
 
 \bibitem{xie2021_mathoriz}
 Y~Xie, K~Zhang, Y~Yamauchi, K~Oyaizu, and Z~F Jia.

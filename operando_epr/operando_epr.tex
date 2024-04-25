@@ -55,24 +55,6 @@ The magnetic moments of an electron and a magnetic nucleus, such as nitrogen, co
 \paragraph*{Exchange Interaction}
 In a system of closely placed electrons, such as in a film of densely packed radicals, the electron orbitals may overlap significantly and the radicals may exchange electrons. The energy required to exchange the electrons is called the exchange coupling $H_{exch} = \vec{\hat{s_1}}\textbf{J}\vec{\hat{s_2}}$, that becomes considerably large at inter-spin distances below $r<1.5$~nm or with a large spin delocalisation~\cite{Schweiger2001_exch}. The positive $\textbf{J}$ corresponds to a weak coupling between $s_1$ and $s_2$ which leads to an antiferromagnetic or antiparallel alignment of spins with a total $S=0$, whereas the negative $\textbf{J}$ causes the strong inter-spin coupling which leads to a ferromagnetic alignment with $S=1$~\cite{Schweiger2001_exch}.\\
 
-MOVE this to EPR section!
-The stochastic, gaussian random modulation theory
-of exchange narrowing [ 1-33 predicts that the half-
-width at half maximum intensity of a strongly ex-
-change narrowed electron pararnagnetic resonance
-(EPR) line is given by
-(1)
-\begin{equation}
-\Delta B_0 \approx\frac{10}{3}\left(\frac{H_p^2}{H_e}\right)
-\end{equation}
-
-and the resonance lineshape is lorentzian.
-Hz is the mean square dipolar field and He is an
-effective exchange field which is proportional to the
-mean exchange integrd J
-\cite{Oreilly_1971}
-
-
 %\paragraph*{Magnetic Dipole-Dipole Interaction}
 %The dipole-dipole interaction between the two neighboring electron spins contributes one more term to the spin Hamiltonian: $H_{dd} = \vec{\hat{S_1}}\textbf{D}\vec{\hat{S_2}}$ that depends on the distance between the spins. 
 
@@ -92,7 +74,7 @@ The electron Zeeman term $H_{EZ}$ defines the requirements on the hardware and s
 
 \subsection{cwEPR Instrumentation}
 \label{subs:cwEPR_spectroscopy}
-First observed in 1944~\cite{Zavoisky_1945_JP,zavoisky_1945,salikhov_2015}, the phenomenon of electron paramagnetic resonance had quickly become a tool for probing local molecular environments in species that contain unpaired electron spins. A free electron, that does not interact with its environment and has $g=g_e$, experiences a Zeeman splitting of $\Delta E = g \mu_B B_0$, that corresponds to the energy of a photon with a frequency of $\nu=\Delta E / h$. A microwave photon can drive a magnetic dipole transition between the Zeeman-split spin states - this is called electron paramagnetic resonance (EPR). An X band microwave photon (IEEE X band, $\nu=8-12$~GHz, $\lambda=2.5-3.8$~cm, Figure~\ref{fig:cwerp_free_electron},left) can drive the magnetic dipole transition between $\vert{\uparrow\rangle}$ and $\vert{\downarrow\rangle}$ at $B_0\approx0.3$~T. In a continuous-wave electron paramagnetic resonance (cwEPR) experiment, the microwave frequency and power is kept constant while $B_0$ is scanned and the microwave absorption is observed. EPR happens around the $B_0$ values given by the spin resonance condition:
+First observed in 1944~\cite{Zavoisky_1945_JP,zavoisky_1945,salikhov_2015}, the phenomenon of electron paramagnetic resonance had quickly become a tool for probing local molecular environments in species that contain unpaired electron spins. A free electron, that does not interact with its environment and has $g=g_e$, experiences a Zeeman splitting of $\Delta E = g \mu_B B_0$, that corresponds to the energy of a photon with a frequency of $\nu=\Delta E / h$. A microwave photon can drive a magnetic dipole transition between the Zeeman-split spin states - this is called electron paramagnetic resonance (EPR). An X band microwave photon (IEEE X band, $\nu=8-12$~GHz, $\lambda=2.5-3.8$~cm, Figure~\ref{fig:cwerp_free_electron}, left) can drive the magnetic dipole transition between $\vert{\uparrow\rangle}$ and $\vert{\downarrow\rangle}$ at $B_0\approx0.3$~T. In a continuous-wave electron paramagnetic resonance (cwEPR) experiment, the microwave frequency and power is kept constant while $B_0$ is scanned and the microwave absorption is observed. EPR happens around the $B_0$ values given by the spin resonance condition:
 
 \begin{equation}
 \label{eq:epr_resonance_condition}
@@ -102,7 +84,7 @@ First observed in 1944~\cite{Zavoisky_1945_JP,zavoisky_1945,salikhov_2015}, the 
 \begin{figure}[h]
 \center
 	\includegraphics[width=1.0\textwidth]{../scripts/plots/Free_Electron_EPRcombo.pdf}
-	\caption{Left: Zeeman splitting for the energies of the two states of an isolated electron spin in a static magnetic field computed with EasySpin~\cite{Easyspin}. Vertical line is the magnetic dipole transition driven by a $9.4$~GHz microwave photon. Right: Microwave absorption and its derivative as a function of the static magnetic field for an unpaired electron spin with a 5~mT Gaussian broadening to show the realistic shape of the cwEPR spectrum.}
+	\caption{Left: Zeeman splitting for the energies of the two states of an isolated electron spin in a static magnetic field computed with EasySpin~\cite{Stoll2006}. Vertical line is the magnetic dipole transition driven by a $9.4$~GHz microwave photon. Right: Microwave absorption and its derivative as a function of the static magnetic field for an unpaired electron spin with a 5~mT Gaussian broadening to show the realistic shape of the cwEPR spectrum.}
 	\label{fig:cwerp_free_electron}
 \end{figure}
 
@@ -132,7 +114,14 @@ To ensure that only the magnetic component of the microwave is interacting with 
 
 
 \paragraph{Line Broadening}
-"EPR spectra do not consist of a discrete set of infinitely sharp lines. Lines are broadened by dynamic effects (relaxation, tumbling, chemical exchange) or static effects (orientational disorder, unresolved hyperfine splittings, distributions in magnetic properties such as g, A, and D values)."
+The lines in the EPR spectra have finite widths. The lines of the liquid samples are broadened mostly by the dynamic effects (relaxation, tumbling, chemical exchange), while the lines of solid state samples are broadened by static effects (orientational disorder, unresolved hyperfine splittings, distributions in $\textbf{g}$, $\textbf{A}$, and $\textbf{D}$ values)~\cite{Stoll2006}.\\
+
+According to the stochastic, gaussian random modulation theory of exchange narrowing, the width of a strongly exchange narrowed EPR line (HWHM) is given by
+\begin{equation}
+\label{eq:exch_narrowing}
+\Delta B_0 \approx\frac{10}{3}\left(\frac{H_p^2}{H_e}\right)
+\end{equation}
+and the resonance lineshape is lorentzian. $H_p$ is the mean square dipolar field and $H_e$ is an effective exchange field which is proportional to the mean exchange integral $J$~\cite{Oreilly_1971}
 
 
 \section{cwEPR Spectroscopy of TEMPO Containing Molecular Fragments}
@@ -141,7 +130,7 @@ To ensure that only the magnetic component of the microwave is interacting with 
 The stable TEMPO$^\bullet$ radical is widely used in the EPR spectroscopy as a spin probe and particularly in the EPR studies of TEMPO containing ORB materials~\cite{nakahara2002_cpl, nishide2004_electact, bahaceci2013_jpowersources, aydin2015_jsoistatelect, khodeir2019_softmatter, Zhang2018}. The spin density at the TEMPO$^\bullet$ radical is localized within the N-O bond~\cite{Owenius2001} and partially resides on the $I=1$ $^{14}$N nucleus, so to describe the EPR spectrum of an isolated TEMPO$^\bullet$ one has to take into consideration the electron Zeeman term $H_{EZ}$, the nuclear Zeeman term $H_{NZ}$ and the hyperfine coupling term $H_{HF}$. The unpaired electron spin on TEMPO$^\bullet$ has anisotropic g value, because of the asymmetry of its molecular orbital, so the $\textbf{g}$ matrix and the $\textbf{A}$ hyperfine coupling tensor are both anisotropic. $\textbf{g}$ is diagonal in the molecular frame of reference shown in Figure~\ref{fig:TEMPO_dft}. Its principal values are $\left[g_{xx}=2.009,g_{yy}=2.006,g_{zz}=2.002\right]$~\cite{Liu_2008,Bordignon2017}. The principal values of $\textbf{A}$ in the same frame are $\left[A_{xx}=20,A_{yy}=20,A_{zz}=100\right]$~MHz~\cite{Liu_2008,Bordignon2017}.
 
 \subsection{Room Temperature Spectra of TEMPO$^{\bullet}$ Solutions}
-Solution spectra of radicals are showing averaged values of $g$ and $A$ because of the fast molecular tumbling~\cite{Liu_2008,Carrington_solution_epr}. The observed $g$ value for a tumbling TEMPO$^{\bullet}$ is the average of the principal values of the $\textbf{g}$ matrix: $g = 1/3\left(g_{xx}+g_{yy}+g_{zz}\right)$. The anisotropic part of the hyperfine coupling tensor for the tumbling TEMPO$^{\bullet}$ also averages to zero, so only the isotropic hyperfine constant $a_{iso}$ determines the observed hyperfine coupling. CwEPR spectra of a 0.1~mM solution of TEMPOL measured at room temperature are shown in Figure~\ref{fig:cwEPR_monoTEMPO_diTEMPO}. The spectral simulation performed with EasySpin~\cite{Easyspin} yields $g=2.0055$ and $a_{iso}=43.8$~MHz.
+Solution spectra of radicals are showing averaged values of $g$ and $A$ because of the fast molecular tumbling~\cite{Liu_2008,Carrington_solution_epr}. The observed $g$ value for a tumbling TEMPO$^{\bullet}$ is the average of the principal values of the $\textbf{g}$ matrix: $g = 1/3\left(g_{xx}+g_{yy}+g_{zz}\right)$. The anisotropic part of the hyperfine coupling tensor for the tumbling TEMPO$^{\bullet}$ also averages to zero, so only the isotropic hyperfine constant $a_{iso}$ determines the observed hyperfine coupling. CwEPR spectra of a 0.1~mM solution of TEMPOL measured at room temperature are shown in Figure~\ref{fig:cwEPR_monoTEMPO_diTEMPO}. The spectral simulation performed with EasySpin~\cite{Stoll2006} yields $g=2.0055$ and $a_{iso}=43.8$~MHz.
 
 \begin{figure}[h]
 \center
