@@ -10,36 +10,40 @@ A level-1 auxiliary file: outlook/outlook.aux
 The style file: plain.bst
 A level-1 auxiliary file: appendix/A-EMRE.aux
 Database file #1: Bibliography.bib
-Warning--entry type for "Wu_2023" isn't style-file defined
---line 36 of file Bibliography.bib
-Warning--entry type for "He_2022" isn't style-file defined
---line 103 of file Bibliography.bib
-Warning--entry type for "DOM" isn't style-file defined
---line 126 of file Bibliography.bib
-Warning--entry type for "einstein_s_rel" isn't style-file defined
---line 184 of file Bibliography.bib
+Warning--entry type for "Casado2021" isn't style-file defined
+--line 65 of file Bibliography.bib
+Warning--entry type for "salikhov_2015" isn't style-file defined
+--line 1180 of file Bibliography.bib
+Warning--entry type for "Shirakawa_1977" isn't style-file defined
+--line 1307 of file Bibliography.bib
+Warning--entry type for "Koezuka_1987" isn't style-file defined
+--line 1368 of file Bibliography.bib
+Warning--entry type for "Lee_1993" isn't style-file defined
+--line 1375 of file Bibliography.bib
 Warning--entry type for "Rohland_2021" isn't style-file defined
---line 229 of file Bibliography.bib
-Repeated entry---line 288 of file Bibliography.bib
+--line 1385 of file Bibliography.bib
+Repeated entry---line 1444 of file Bibliography.bib
  : @generic{Rohland_2021
  :                      ,
 I'm skipping whatever remains of this entry
-Warning--entry type for "Lee_1993" isn't style-file defined
---line 301 of file Bibliography.bib
-Warning--entry type for "Koezuka_1987" isn't style-file defined
---line 311 of file Bibliography.bib
-Warning--entry type for "Shirakawa_1977" isn't style-file defined
---line 372 of file Bibliography.bib
-Warning--entry type for "salikhov_2015" isn't style-file defined
---line 500 of file Bibliography.bib
-Warning--entry type for "Casado2021" isn't style-file defined
---line 1608 of file Bibliography.bib
+Warning--entry type for "einstein_s_rel" isn't style-file defined
+--line 1496 of file Bibliography.bib
+Warning--entry type for "DOM" isn't style-file defined
+--line 1551 of file Bibliography.bib
+Warning--entry type for "He_2022" isn't style-file defined
+--line 1570 of file Bibliography.bib
+Warning--entry type for "Wu_2023" isn't style-file defined
+--line 1635 of file Bibliography.bib
+Repeated entry---line 1713 of file Bibliography.bib
+ : @article{Ouyang2020
+ :                    ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "Fang_2021" isn't style-file defined
+--line 1726 of file Bibliography.bib
 Warning--I didn't find a database entry for "energy_consumption_review"
 Warning--I didn't find a database entry for "energy_sources_review"
 Warning--I didn't find a database entry for "energy_from_sound"
 Warning--I didn't find a database entry for "tokamak_updates"
-Warning--I didn't find a database entry for "Lauth_1944"
-Warning--I didn't find a database entry for "oyaizu2015_polymerjournal"
 Warning--I didn't find a database entry for "katsumata2006_mrc"
 Warning--I didn't find a database entry for "xu2014_electact"
 Warning--I didn't find a database entry for "schwartz2018_synthmet"
@@ -63,45 +67,45 @@ Warning--I didn't find a database entry for "Anderson1953"
 Warning--I didn't find a database entry for "Liu2008"
 Warning--can't use both author and editor fields in Casado_2021_book
 Warning--empty booktitle in nishide_2009
-You've used 99 entries,
+You've used 103 entries,
             2118 wiz_defined-function locations,
-            1181 strings with 24644 characters,
-and the built_in function-call counts, 36696 in all, are:
-= -- 3365
-> -- 2372
+            1197 strings with 25270 characters,
+and the built_in function-call counts, 38203 in all, are:
+= -- 3501
+> -- 2474
 < -- 4
-+ -- 950
-- -- 836
-* -- 2921
-:= -- 6395
-add.period$ -- 287
-call.type$ -- 99
-change.case$ -- 709
++ -- 991
+- -- 872
+* -- 3047
+:= -- 6657
+add.period$ -- 298
+call.type$ -- 103
+change.case$ -- 739
 chr.to.int$ -- 0
-cite$ -- 101
-duplicate$ -- 1075
-empty$ -- 2465
-format.name$ -- 836
-if$ -- 7376
+cite$ -- 105
+duplicate$ -- 1115
+empty$ -- 2565
+format.name$ -- 872
+if$ -- 7677
 int.to.chr$ -- 0
-int.to.str$ -- 99
-missing$ -- 98
-newline$ -- 488
-num.names$ -- 198
-pop$ -- 643
+int.to.str$ -- 103
+missing$ -- 101
+newline$ -- 507
+num.names$ -- 206
+pop$ -- 672
 preamble$ -- 1
-purify$ -- 616
+purify$ -- 642
 quote$ -- 0
-skip$ -- 750
+skip$ -- 778
 stack$ -- 0
-substring$ -- 2074
-swap$ -- 122
+substring$ -- 2158
+swap$ -- 126
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 378
+type$ -- 394
 warning$ -- 2
-while$ -- 275
-width$ -- 101
-write$ -- 1056
-(There was 1 error message)
+while$ -- 286
+width$ -- 106
+write$ -- 1097
+(There were 2 error messages)

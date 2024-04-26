@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  25 APR 2024 16:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  26 APR 2024 14:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -799,17 +799,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--21
-
- []
-
-
 Overfull \hbox (81.16704pt too wide) has occurred while \output is active
 \OT1/txr/m/n/12 10 \OT1/txr/m/sl/12 CHAPTER 2.  ELECTROCHEMICAL ENERGY STORAGE 
 IN REDOX CONDUCTIVE POLYMERS
  []
 
 [10 <./electrochemistry/figures/echem_cells.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
@@ -822,14 +822,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 28.
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- []
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 38--40
-
- []
+ [11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \hbox (81.16704pt too wide) has occurred while \output is active
@@ -838,17 +834,27 @@ IN REDOX CONDUCTIVE POLYMERS
  []
 
 [12]
-
-LaTeX Warning: Citation `Lauth_1944' on page 13 undefined on input line 91.
-
-
-Underfull \vbox (badness 1264) has occurred while \output is active []
-
- [13]
-Overfull \hbox (15.3154pt too wide) in paragraph at lines 106--107
+Overfull \hbox (15.3154pt too wide) in paragraph at lines 63--64
 \OT1/txr/m/n/12 Batteries based on con-ju-gated poly-mers con-tain-ing sta-ble 
 rad-i-cal moi-eties as high-capacitance
  []
+
+[13]
+<./electrochemistry/figures/materials/molecules.pdf, id=79, 363.88467pt x 161.8
+1473pt>
+File: ./electrochemistry/figures/materials/molecules.pdf Graphic file (type pdf
+)
+<use ./electrochemistry/figures/materials/molecules.pdf>
+Package pdftex.def Info: ./electrochemistry/figures/materials/molecules.pdf  us
+ed on input line 76.
+(pdftex.def)             Requested size: 430.00462pt x 191.22118pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `fig:Figure_S1' on page 14 undefined on input line 83.
+
 
 
 Overfull \hbox (81.16704pt too wide) has occurred while \output is active
@@ -857,40 +863,34 @@ IN REDOX CONDUCTIVE POLYMERS
  []
 
 [14]
-<./electrochemistry/figures/materials/molecules.pdf, id=82, 363.88467pt x 161.8
-1473pt>
-File: ./electrochemistry/figures/materials/molecules.pdf Graphic file (type pdf
-)
-<use ./electrochemistry/figures/materials/molecules.pdf>
-Package pdftex.def Info: ./electrochemistry/figures/materials/molecules.pdf  us
-ed on input line 119.
-(pdftex.def)             Requested size: 430.00462pt x 191.22118pt.
+
+LaTeX Warning: Citation `katsumata2006_mrc' on page 15 undefined on input line 
+86.
 
 
-LaTeX Warning: Reference `fig:Figure_S1' on page 15 undefined on input line 126
+LaTeX Warning: Citation `xu2014_electact' on page 15 undefined on input line 86
 .
 
-[15 <./electrochemistry/figures/materials/molecules.pdf>]
 
-LaTeX Warning: Citation `oyaizu2015_polymerjournal' on page 16 undefined on inp
-ut line 129.
-
-
-LaTeX Warning: Citation `katsumata2006_mrc' on page 16 undefined on input line 
-129.
+LaTeX Warning: Citation `schwartz2018_synthmet' on page 15 undefined on input l
+ine 86.
 
 
-LaTeX Warning: Citation `xu2014_electact' on page 16 undefined on input line 12
-9.
+Underfull \vbox (badness 1168) has occurred while \output is active []
 
-
-LaTeX Warning: Citation `schwartz2018_synthmet' on page 16 undefined on input l
-ine 129.
-
-
-Overfull \hbox (42.00192pt too wide) in paragraph at lines 137--138
+ [15 <./electrochemistry/figures/materials/molecules.pdf>]
+Overfull \hbox (42.00192pt too wide) in paragraph at lines 94--95
 \OT1/txr/m/n/12 A sim-ple or-ganic rad-i-cal poly-mer con-tain-ing TEMPO is pol
 y(2,2,6,6-tetramethyl-1-piperidinyloxy-
+ []
+
+
+LaTeX Warning: Citation `Timonov' on page 16 undefined on input line 97.
+
+
+Overfull \hbox (4.02264pt too wide) in paragraph at lines 101--103
+\OT1/txr/m/n/12 Redox con-duc-tive con-ju-gated poly-mers con-tain-ing TEMPO (2
+,2,6,6-tetramethylpiperidine-
  []
 
 
@@ -900,86 +900,71 @@ IN REDOX CONDUCTIVE POLYMERS
  []
 
 [16]
-
-LaTeX Warning: Citation `Timonov' on page 17 undefined on input line 140.
-
-
-Overfull \hbox (4.02264pt too wide) in paragraph at lines 144--146
-\OT1/txr/m/n/12 Redox con-duc-tive con-ju-gated poly-mers con-tain-ing TEMPO (2
-,2,6,6-tetramethylpiperidine-
- []
-
 <./introduction/figures/Figure_1.pdf, id=100, 586.62135pt x 422.31458pt>
 File: ./introduction/figures/Figure_1.pdf Graphic file (type pdf)
 <use ./introduction/figures/Figure_1.pdf>
 Package pdftex.def Info: ./introduction/figures/Figure_1.pdf  used on input lin
-e 149.
+e 106.
 (pdftex.def)             Requested size: 301.00192pt x 216.6986pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--167
+Underfull \hbox (badness 10000) in paragraph at lines 113--124
 
  []
 
-
-Underfull \vbox (badness 5802) has occurred while \output is active []
-
- [17]
-Overfull \hbox (81.16704pt too wide) has occurred while \output is active
-\OT1/txr/m/n/12 18 \OT1/txr/m/sl/12 CHAPTER 2.  ELECTROCHEMICAL ENERGY STORAGE 
-IN REDOX CONDUCTIVE POLYMERS
- []
-
-[18 <./introduction/figures/Figure_1.pdf>]
-Overfull \hbox (9.92664pt too wide) in paragraph at lines 168--173
+[17 <./introduction/figures/Figure_1.pdf>]
+Overfull \hbox (9.92664pt too wide) in paragraph at lines 125--130
 \OT1/txr/m/n/12 monomer molecules and de-posited poly-mer lay-ers grow rapidly 
 above the A (Fig-ure FAC2A)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--173
+Underfull \hbox (badness 10000) in paragraph at lines 125--130
 
  []
 
 
-Underfull \vbox (badness 6332) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
-<./electrochemistry/figures/DFT_DITS.pdf, id=143, 1741.91328pt x 1369.2972pt>
+
+Overfull \hbox (81.16704pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 18 \OT1/txr/m/sl/12 CHAPTER 2.  ELECTROCHEMICAL ENERGY STORAGE 
+IN REDOX CONDUCTIVE POLYMERS
+ []
+
+[18]
+<./electrochemistry/figures/DFT_DITS.pdf, id=139, 1741.91328pt x 1369.2972pt>
 File: ./electrochemistry/figures/DFT_DITS.pdf Graphic file (type pdf)
 <use ./electrochemistry/figures/DFT_DITS.pdf>
 Package pdftex.def Info: ./electrochemistry/figures/DFT_DITS.pdf  used on input
- line 181.
+ line 138.
 (pdftex.def)             Requested size: 430.00462pt x 338.01935pt.
 
 
-LaTeX Warning: Citation `ORCA' on page 20 undefined on input line 182.
+LaTeX Warning: Citation `ORCA' on page 19 undefined on input line 139.
 
 
-LaTeX Warning: Citation `HPC_FUB' on page 20 undefined on input line 182.
+LaTeX Warning: Citation `HPC_FUB' on page 19 undefined on input line 139.
 
 
-LaTeX Warning: Citation `ORCA' on page 20 undefined on input line 182.
+LaTeX Warning: Citation `ORCA' on page 19 undefined on input line 139.
 
 
-LaTeX Warning: Citation `HPC_FUB' on page 20 undefined on input line 182.
+LaTeX Warning: Citation `HPC_FUB' on page 19 undefined on input line 139.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--190
+Underfull \hbox (badness 10000) in paragraph at lines 145--147
 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 191--103
+Underfull \hbox (badness 10000) in paragraph at lines 148--103
 
  []
 
-
+[19]
 Overfull \hbox (81.16704pt too wide) has occurred while \output is active
 \OT1/txr/m/n/12 20 \OT1/txr/m/sl/12 CHAPTER 2.  ELECTROCHEMICAL ENERGY STORAGE 
 IN REDOX CONDUCTIVE POLYMERS
@@ -1894,12 +1879,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
 
 ]
-Underfull \hbox (badness 3536) in paragraph at lines 50--53
+Underfull \hbox (badness 2653) in paragraph at lines 50--53
 []\OT1/txr/m/n/12 Nerea Casado and David Mecer-reyes.  \OT1/txr/m/it/12 Re-dox 
 Poly-mers for En-ergy and
  []
 
-[75] [76] [77] [78] [79] [80] [81] [82] [83]) [84]
+[75] [76] [77] [78] [79]
+Underfull \hbox (badness 1946) in paragraph at lines 363--368
+[]\OT1/txr/m/n/12 Arvid Niem[]oller, Pe-ter Jakes, Svit-lana Eu-rich, Anja Paul
+us, Hans Kungl,
+ []
+
+[80] [81] [82]
+Underfull \hbox (badness 1163) in paragraph at lines 530--535
+[]\OT1/txr/m/n/12 Anatoliy A. Vereshcha-gin, Ar-seniy Y. Kalnin, Alexey I. Volk
+ov, Daniil A.
+ []
+
+[83]
+Underfull \hbox (badness 1286) in paragraph at lines 612--617
+[]\OT1/txr/m/n/12 Yiren Zhang, Al-bert M. Park, Stephen R. McMil-lan, Nicholas 
+J. Har-mon,
+ []
+
+) [84]
 \openout2 = `appendix/A-EMRE.aux'.
 
  (./appendix/A-EMRE.tex
@@ -1924,10 +1927,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14272 strings out of 478287
- 313664 string characters out of 5849289
- 619862 words of memory out of 5000000
- 32158 multiletter control sequences out of 15000+600000
+ 14275 strings out of 478287
+ 313715 string characters out of 5849289
+ 619883 words of memory out of 5000000
+ 32161 multiletter control sequences out of 15000+600000
  516914 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,14n,117p,2067b,1121s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1945,7 +1948,7 @@ ic/txfonts/txtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on my_thisis.pdf (85 pages, 27893843 bytes).
+Output written on my_thisis.pdf (85 pages, 27892389 bytes).
 PDF statistics:
  7410 PDF objects out of 7423 (max. 8388607)
  5036 compressed objects within 51 object streams

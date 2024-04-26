@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{aydin2015_jsoistatelect}
 Muhammed Aydin and Burak Esat.
@@ -98,6 +98,11 @@ X.~Fan, T.~G. Myers, B.~A.D. Sukra, and G.~Gabrielse.
 \newblock Measurement of the electron magnetic moment.
 \newblock {\em Physical Review Letters}, 130, 2 2023.
 
+\bibitem{Fang_2021}
+Chen Fang, Thanh~Nhan Tran, Yangzhi Zhao, and Gao Liu.
+\newblock Electrolyte decomposition and solid electrolyte interphase revealed
+  by mass spectrometry, 12 2021.
+
 \bibitem{Behrends2011}
 M.~Fehr, J.~Behrends, S.~Haas, B.~Rech, K.~Lips, and A.~Schnegg.
 \newblock Electrical detection of electron-spin-echo envelope modulations in
@@ -124,6 +129,13 @@ C~Friebe and U~S Schubert.
 \newblock {\em Topics in Current Chemistry}, 375:1--35, 2017.
 
 \bibitem{Fu2015}
+Yangyang Fu, Song Lu, Kaiyuan Li, Changchen Liu, Xudong Cheng, and Heping
+  Zhang.
+\newblock An experimental study on burning behaviors of 18650 lithium ion
+  batteries using a cone calorimeter.
+\newblock {\em Journal of Power Sources}, 273:216--222, 1 2015.
+
+\bibitem{Fu_2015}
 Yangyang Fu, Song Lu, Kaiyuan Li, Changchen Liu, Xudong Cheng, and Heping
   Zhang.
 \newblock An experimental study on burning behaviors of 18650 lithium ion
@@ -382,12 +394,24 @@ D~E O'reilly.
 \newblock Exchange narrowing in electron paramagnettc resonance of ruby.
 \newblock {\em Chemical Physics Letters}, 10:239--241, 1971.
 
+\bibitem{Ouyang2020}
+Dongxu Ouyang, Jingwen Weng, Mingyi Chen, Jiahao Liu, and Jian Wang.
+\newblock Experimental analysis on the degradation behavior of overdischarged
+  lithium-ion battery combined with the effect of high-temperature environment.
+\newblock {\em International Journal of Energy Research}, 44:229--241, 2020.
+
 \bibitem{Owenius2001}
 Rikard Owenius, Maria Engström, Mikael Lindgren, and Martina Huber.
 \newblock Influence of solvent polarity and hydrogen bonding on the epr
   parameters of a nitroxide spin label studied by 9-ghz and 95-ghz epr
   spectroscopy and dft calculations.
 \newblock {\em Journal of Physical Chemistry A}, 105:10967--10977, 2001.
+
+\bibitem{oyaizu2015_polymerjournal}
+Kenichi Oyaizu, Hanae Tatsuhira, and Hiroyuki Nishide.
+\newblock Facile charge transport and storage by a tempo-populated redox
+  mediating polymer integrated with polyaniline as electrical conducting path.
+\newblock {\em Polymer Journal}, 47:212--219, 2 2015.
 
 \bibitem{dirac1928}
 Dirac P.~A.~M.
