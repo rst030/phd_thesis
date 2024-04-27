@@ -1,5 +1,12 @@
 \begin{thebibliography}{100}
 
+\bibitem{abdiaziz2019_chemcomm}
+Kaltum Abdiaziz, Enrico Salvadori, Katarzyna~P Sokol, Erwin Reisner, and
+  Maxie~M Roessler.
+\newblock Protein film electrochemical epr spectroscopy as a technique to
+  investigate redox reactions in biomolecules †.
+\newblock {\em Chem. Commun}, 55:8840, 2019.
+
 \bibitem{aydin2015_jsoistatelect}
 Muhammed Aydin and Burak Esat.
 \newblock A polythiophene derivative bearing two electroactive groups per
@@ -17,6 +24,12 @@ Allen~J. Bard, Larry~R. Faulkner, and Henry~S. White.
 \newblock {\em Electrochemical Methods. Funcamentals and Applications},
   volume~1.
 \newblock Wiley, 2 edition, 2022.
+
+\bibitem{Curta}
+Loris Bennett, Bernd Melchers, and Boris Proppe.
+\newblock Curta: A general-purpose high-performance computer at zedat, freie
+  universität berlin.
+\newblock {\em http://dx.doi.org/10.17169/refubium-26754}, 2020.
 
 \bibitem{Bittl2005}
 Robert Bittl and Stefan Weber.
@@ -273,6 +286,13 @@ T.~Kushida and J.~C. Murphy.
 \newblock Volume depencence of the knight shift in lithium.
 \newblock {\em Physical Review B}, 21:4247--4250, 1980.
 
+\bibitem{kutin2019_catalysis}
+Yury Kutin, Nicholas Cox, Wolfgang Lubitz, Alexander Schnegg, and Olaf
+  Rüdiger.
+\newblock In situ epr characterization of a cobalt oxide water oxidation
+  catalyst at neutral ph.
+\newblock {\em Catalysts}, 9, 11 2019.
+
 \bibitem{Larsson2017}
 Fredrik Larsson, Petra Andersson, Per Blomqvist, and Bengt~Erik Mellander.
 \newblock Toxic fluoride gas emissions from lithium-ion battery fires.
@@ -463,11 +483,6 @@ K.~M. Salikhov, S.~A. Dzuba, and A.~M. Raitsimring.
 \bibitem{salikhov_2015}
 K~M Salikhov and N~E Zavoiskaya.
 \newblock Zavoisky and the discovery of epr, 2015.
-
-\bibitem{Schweiger2001_hfi}
-A~Schweiger and G~Jeschke.
-\newblock {\em Principles of Pulse Electron Paramagnetic Resonance}.
-\newblock Oxford University Press, 2001.
 
 \bibitem{Schweiger2001_exch}
 A~Schweiger and G~Jeschke.

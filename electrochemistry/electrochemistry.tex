@@ -6,8 +6,8 @@ Two opposite electric charges separated from each other can store energy in an e
 
 \begin{figure}[h]
 \center
-	\includegraphics[width=0.75\textwidth]{./electrochemistry/figures/echem_cells.pdf}
-	\caption{Rechargeable electrochemical cell with the electrical diagram indicating the charge flow in the electrodes and reorganization of ions in the electrolyte during discharging a) and discharging b). Three-electrode electrochemical half-cell used for electrochemical characterization and charging of the cathode.}
+	\includegraphics[width=0.95\textwidth]{./electrochemistry/figures/echem_cells.pdf}
+	\caption{Rechargeable electrochemical cell with the electrical diagram indicating the charge flow in the electrodes and reorganization of ions in the electrolyte during discharging a) and discharging b). Three-electrode half-cell used for electrochemical characterization and charging of the cathode.}
 	\label{fig:echem_cells}
 \end{figure}
 
@@ -26,7 +26,7 @@ A general RE is the standard hydrogen electrode (Pt/H$_2$/H$^+$), or SHE. The ma
 % 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
 
 \subsection{Characteristics of Rechargeable Batteries}
-Depending on the redox potentials of the used electrodes, the output voltage of an electrochemical cell ($V_{OC}$) ranges between 0 and 5~V~\cite{}. Most applications require higher voltages, so multiple cells are connected in series to form a battery. %For a commercial Li-polymer cell, the safe operating limits are $2.8$~V~$<V_{OC}<4.2$~V.\\
+Depending on the redox potentials of the used electrodes, the output voltage of an electrochemical cell ($V_{OC}$) ranges between 0 and 5~V~\cite{janoschka2012_advmater}. Most applications require higher voltages, so multiple cells are connected in series to form a battery. %For a commercial Li-polymer cell, the safe operating limits are $2.8$~V~$<V_{OC}<4.2$~V.\\
 
 \paragraph{Capacity, C-rate and State Of Charge}
 The capacity of a battery $C$ is measured in mAh. It is the maximal electric charge that can be stored in it. Different electrode materials can store different amounts of charge depending on their chemical structure and macroscopic structure. Due to the unavoidable losses of charge caused by the finite shunting resistance between the battery electrodes, one distinguishes between the charging capacity and the discharging capacity. The capacity of 1~g of an electro-active material is its gravimetric capacity, it is measured in mAhg$^{-1}$. The volumetric capacity is the corresponding value with respect to the volume of the material that is measured in mAhl$^{-1}$. The fraction of charge left in a cell with respect to the full charge that can be stored in that cell in percent is called the state of charge or SoC. The SoC of a fully charged battery is 100\%.\\
@@ -38,10 +38,30 @@ The capacity of a battery may decrease upon repeated charge-discharge cycling, e
 
 \section{Electrochemical Instrumentation}
 \subsection{Cyclic Voltammogram}
+The complete electrochemical behavior of a redox active molecular system can be obtained with a series of transient current responses to potentials, applied step-wise to the electrochemical cell containing the system. However for a basic electrochemical characterization a current response during a linearly swept potential is sufficient~\cite{Bard_book}. During the linear-potential-sweep chronoamperometry, or linear sweep voltammetry, the potential $E$ applied to the electrochemical cell is swept in a linear manner between the values $E_{min}$ and $E_{max}$, upwards and downwards, with a rate $v~($mVs$^{-1})$: $E(t) = E_0\pm vt$. During the sweep, the current is recorded as a function of the applied potential. The resulting plot is the cyclic voltammogram (CV). A CV of a three-electrode electrochemical cell with a pDiTBuS electro-active polymer film on the WE is shown in Figure~\ref{fig:CV_DiTBuS}. When $E$ reaches the oxidation potential of the working electrode, charge transfer happens and the current through the cell increases.
+
+\begin{figure}[h]
+\center
+	\includegraphics[width=0.75\textwidth]{./electrochemistry/figures/CV_pDiTBuS.pdf}
+	\caption{Cyclic voltammogram of a pDiTBuS electro-active film recorded with a 50~mVs$^{-1}$ sweep rate.}
+	\label{fig:CV_DiTBuS}
+\end{figure}
+
+
+
+  
 electrochemical setup. beaker, we ce re. electrolyte. cycling limits and rate. redox peaks. quantitative cv.
 \subsection{Charge-Discharge Cycling}
 \label{sec:echem_charging}
 galvanostatic and potentiostatic cycling. measuring cell capacity.
+
+\begin{figure}[h]
+\center
+	\includegraphics[width=0.75\textwidth]{./electrochemistry/figures/GCD_pDiTBuS.pdf}
+	\caption{Galvanostatic charge-discharge cycling of a pDiTBuS electro-active film recorded with 10~$\muup$A charging and discharging current that corresponds to a C rate of 6.25~C.}
+	\label{fig:GCD}
+\end{figure}
+
 
 \section{Redox Conductive Polymers}
 
@@ -54,7 +74,6 @@ The key for polymer conductivity is the p $\pi$ - conjugated network, a system o
 \par
 
 Organic solar cells~\cite{Lee_1993} and organic field effect transistors~\cite{Koezuka_1987} contain conjugated polymers that have electrical properties of semiconductors, yet can be easily printed in form of thin flexible films without using high temperatures. Combining the conductive polymers with stable radical side groups has formed the class of redox conductive polymers and lead to the concept of an organic radical battery~\cite{Rohland_2021}.
-
 
 
 
@@ -83,15 +102,11 @@ TEMPOL is a TEMPO with an OH group. It forms crystals.
 Redox conductive conjugated polymers containing TEMPO redox groups, as pDiTBuS (poly-di-TEMPO-Butyl-Salen) shown in Figure~\ref{fig:Figure_1}, demonstrate particularly promising energy and power densities~\cite{Vereshchagin2020}. The pDiTBuS was designed as a cathode material: it is oxidized when the electrochemical cell containing this material is charged. A film of pDiTBuS comprises a high concentration of redox active stable nitroxyl radicals attached to a conjugated polymer backbone that interconnects them as a molecular wire. Such system can be viewed as a highly disordered molecular hole-transporting semiconductor (the poly-NiSalen backbone) that contains a large amount of hole traps (TEMPO groups) attached to it with butyl linkers. When the film is reduced (discharged), the TEMPO groups are in the radical state and act as unfilled traps. Upon oxidation (charging), the TEMPO fragments lose an unpaired electron and acquire a positive charge, so the traps are being filled with holes. The reversible redox reaction in the pDiTBuS film is demonstrated in a cyclic \ik{voltammogram} shown in Figure~\ref{fig:Figure_S1} (see ESI).
 
 \par
-While active electrode materials with nitroxide radicals as redox-active groups are ideally suited for organic radical batteries (ORBs) that exhibit high power densities, the broad application of most nitroxide-based materials is limited by their moderate electrical properties. A promising route towards overcoming the conductivity problem is the use of polymers that combine radical-containing moieties and a conductive backbone. This strategy was successfully followed in a number of studies focusing on different polymers.\cite{oyaizu2015_polymerjournal, bahaceci2013_jpowersources, katsumata2006_mrc, xu2014_electact, aydin2015_jsoistatelect, schwartz2018_synthmet}
-
-\par
-
-The flexible molecular design together with questions regarding unresolved charge transport- and performance limiting mechanisms have inspired a variety of characterization techniques to be developed and applied to both energy storage materials and energy storage devices, operando and ex-situ. Together with electrochemical characterization as the standard method for studying the properties of energy storage materials\cite{IWASA2007,Zens2022}, operando optical microscopy~\cite{Merryweather2022}, neutron imaging~\cite{Ma2020} and X-ray diffraction~\cite{Rhodes2012} were applied to monitor irreversible structural deformations during extreme charging of Li cells.
+While active electrode materials with nitroxide radicals as redox-active groups are ideally suited for organic radical batteries (ORBs) that exhibit high power densities, the broad application of most nitroxide-based materials is limited by their moderate electrical properties. A promising route towards overcoming the conductivity problem is the use of polymers that combine radical-containing moieties and a conductive backbone. This strategy was successfully followed in a number of studies focusing on different polymers~\cite{oyaizu2015_polymerjournal, bahaceci2013_jpowersources, katsumata2006_mrc, xu2014_electact, aydin2015_jsoistatelect, schwartz2018_synthmet}.
 
 \subsection{PTMA}
 
-A simple organic radical polymer containing TEMPO is poly(2,2,6,6-tetramethyl-1-piperidinyloxy-4-yl methacrylate) (PTMA, Figure~\ref{fig:molecules}~c). The polymer backbone of PTMA consists of single C-C bonds and therefore is not conductive, so the transport of charge in a PTMA film has to be mediated by adding conductive mesh such as activated carbon. When mixed with conductive carbon additive, PTMA has become a standard cathode material for ORBs and Li-ORBs, providing a discharge cell voltage of 3.5~V (with a Li anode) and a theoretical discharge capacity of $C_{theo}=111$~mAh/g~\cite{Daniel2023_Multimodal}. PTMA is soluble in acetonitrile (AN), chloroform (CF), tetrahydrofurane and dichlormethane. It is claimed to be insoluble in toluene, ethers, carbonates, and alcohols, however it becomes gel-like with some of these solvents~\cite{DOM}.
+A simple organic radical polymer containing TEMPO is poly(2,2,6,6-tetramethyl-1-piperidinyloxy-4-yl methacrylate) (PTMA, Figure~\ref{fig:molecules}~c). The polymer backbone of PTMA consists of single C-C bonds and therefore is not conductive, so the transport of charge in a PTMA film has to be mediated by adding conductive mesh such as activated carbon. When mixed with conductive carbon additive, PTMA has become a standard cathode material for ORBs and Li-ORBs, providing a discharge cell voltage of V$_{OC}=3.5$~V (with a Li anode) and a theoretical discharge capacity of $C_{theo}=111$~mAh/g~\cite{Daniel2023_Multimodal}. PTMA is soluble in acetonitrile (AN), chloroform (CF), tetrahydrofurane and dichlormethane. It is claimed to be insoluble in toluene, ethers, carbonates, and alcohols, however it becomes gel-like with some of these solvents~\cite{DOM}.
 
 \subsection{NiSalen}
 The molecular backbone of a redox conductive polymer has to conduct electric charge. A NiSalen molecule is a Schiff complex of Ni that has a conjugated path through it. The conductivity of NiSalen was measured. Upon oxidation of a polymeric NiSalen, the formation of positive polarons was observed in it with UV-Vis spectroscopy~\cite{Timonov}, that suggests p-NiSalen is a p-type molecular semiconductor. p-NiSalen exhibits electrochemical capacity and can store up to two positive charges per monomer unit.
@@ -111,6 +126,16 @@ pDiTS was designed as a cathode material: it is oxidized when the electrochemica
 
 \subsection{Electro-polymerization of TEMPO-Salens}
 The process of polymerization is connecting multiple monomer units of one sort to a continuous molecular chain. Among various polymerization techniques, redox conductive molecules with pendant charge bearing groups the cyclic electropolymerization turned out to be an efficient technique. \\
+
+
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./electrochemistry/figures/DITBUS_DEPO.pdf}
+	\caption{Deposition of TEMPO-Salen films with cyclic electrochemical polymerization from 1~mM monomer solutions in the 10~mM Et$_4$NBF$_4$ electrolyte at 50~mVs$^{-1}$ and 50 deposition cycles. a): pDiTS, b): pDiTBuS.}
+	\label{fig:DITBUS_DEPO}
+\end{figure}
+
+
 Fast And Capacious:\\
 "Electrochemical polymerization of DiTS was studied by means of the EQCM technique on piezoelectric crystals coated with platinum using a linear voltage sweep. The CV of DiTS (Figure FAC2A) shows the paired peaks A and A' at 0.55 V and 0.47 V respectively, which correspond to charging and discharging of the nitroxyl fragments. An irreversible anodic peak B corresponds to oxidative coupling of the NiSalen fragments
 of DiTS, which results in the polymer p-DiTS~\cite{Vereshchagin_2019,Koshika_2009}. The gradual
@@ -136,7 +161,7 @@ successive iterations of potentiostatic and potentiodynamic syntheses, as well a
 \begin{figure}[h]
 \center
 	\includegraphics[width=1\textwidth]{./electrochemistry/figures/DFT_DITS.pdf}
-	\caption{Spin density in a single DiTS monomer unit for various oxidation states calculated by Marcel Gauglitz with density-functional theory in ORCA~\cite{ORCA} at the high-performance computing cluster of the Free University Berlin~\cite{HPC_FUB} using the def2-TZVP functional basis set. a): neutral DiTS with two radicals, b) singly oxidized DiTS (one hole injected), b) doubly oxidized DiTS showing no spin density, c) DiTS$^{3+}$ showing a positive polaron localized on the NiSalen backbone, d) DiTS$^{4+}$ showing increased spin density on the backbone.}
+	\caption{Spin density in a single DiTS monomer unit for various oxidation states calculated by Marcel Gauglitz with density-functional theory in ORCA~\cite{ORCA}, using the def2-TZVP functional basis set, at the high-performance computing cluster Curta of the Free University of Berlin~\cite{Curta}. a): neutral DiTS with two radicals, b) singly oxidized DiTS (one hole injected), b) doubly oxidized DiTS showing no spin density, c) DiTS$^{3+}$ showing a positive polaron localized on the NiSalen backbone, d) DiTS$^{4+}$ showing increased spin density on the backbone.}
 	\label{fig:DiTS_DFT}
 \end{figure}
 
