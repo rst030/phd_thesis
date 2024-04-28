@@ -3,8 +3,8 @@
 
 <svg
    width="245.08371mm"
-   height="82.845276mm"
-   viewBox="0 0 245.08371 82.845276"
+   height="85.990715mm"
+   viewBox="0 0 245.08371 85.990715"
    version="1.1"
    id="svg1125"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
@@ -33,9 +33,9 @@
      inkscape:snap-global="false"
      inkscape:bbox-nodes="true"
      inkscape:snap-bbox-midpoints="true"
-     inkscape:zoom="0.60048279"
-     inkscape:cx="278.94222"
-     inkscape:cy="204.00252"
+     inkscape:zoom="0.42460545"
+     inkscape:cx="109.51343"
+     inkscape:cy="175.457"
      inkscape:window-width="1882"
      inkscape:window-height="1016"
      inkscape:window-x="0"
@@ -43,23 +43,23 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="g27354">
     <sodipodi:guide
-       position="188.17025,49.931119"
+       position="188.17026,49.931118"
        orientation="0,-1"
        id="guide4450" />
     <sodipodi:guide
-       position="188.17025,16.119809"
+       position="188.17026,16.119807"
        orientation="0,-1"
        id="guide4452" />
     <sodipodi:guide
-       position="93.175064,34.541441"
+       position="93.175067,34.54144"
        orientation="0,-1"
        id="guide4563" />
     <sodipodi:guide
-       position="163.92499,24.898155"
+       position="163.92499,24.898154"
        orientation="1,0"
        id="guide5557" />
     <sodipodi:guide
-       position="183.49298,24.898155"
+       position="183.49299,24.898154"
        orientation="1,0"
        id="guide5559" />
     <sodipodi:guide
@@ -83,31 +83,31 @@
        orientation="1,0"
        id="guide7749" />
     <sodipodi:guide
-       position="177.85473,63.31817"
+       position="177.85474,63.31817"
        orientation="0,-1"
        id="guide8967" />
     <sodipodi:guide
-       position="186.06593,46.152739"
+       position="186.06594,46.152738"
        orientation="0,-1"
        id="guide24827" />
     <sodipodi:guide
-       position="115.58571,49.931783"
+       position="115.58571,49.931782"
        orientation="1,0"
        id="guide55386" />
     <sodipodi:guide
-       position="115.58571,27.719289"
+       position="115.58571,27.719288"
        orientation="0,-1"
        id="guide55388" />
     <sodipodi:guide
-       position="135.16817,49.931783"
+       position="135.16817,49.931782"
        orientation="1,0"
        id="guide55390" />
     <sodipodi:guide
-       position="87.528698,57.755566"
+       position="87.5287,57.755566"
        orientation="0,-1"
        id="guide70688" />
     <sodipodi:guide
-       position="90.013945,99.903919"
+       position="90.013947,99.90392"
        orientation="0,-1"
        id="guide121836" />
   </sodipodi:namedview>
@@ -443,7 +443,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(48.60253,-143.19322)">
+     transform="translate(48.60253,-140.04778)">
     <g
        id="g2150"
        transform="matrix(0.35277778,0,0,0.35277778,-21.47115,80.167863)">
@@ -1511,13 +1511,13 @@
           <text
              xml:space="preserve"
              style="font-style:normal;font-weight:normal;font-size:14.8699px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.371746"
-             x="95.487991"
+             x="98.137505"
              y="410.3985"
              id="text126367-8"><tspan
                sodipodi:role="line"
                id="tspan126365-5"
                style="font-weight:normal;stroke-width:0.371746"
-               x="95.487991"
+               x="98.137505"
                y="410.3985">Discharging</tspan></text>
           <text
              xml:space="preserve"
@@ -1549,13 +1549,13 @@
           <text
              xml:space="preserve"
              style="font-style:normal;font-weight:normal;font-size:14.8699px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.371746"
-             x="241.35939"
+             x="244.89211"
              y="410.3985"
              id="text1878"><tspan
                sodipodi:role="line"
                id="tspan1876"
                style="font-weight:normal;stroke-width:0.371746"
-               x="241.35939"
+               x="244.89211"
                y="410.3985">Charging</tspan></text>
           <text
              xml:space="preserve"
@@ -1655,6 +1655,50 @@
                  y="228.14246"
                  style="stroke-width:0.547353">RE</tspan></text>
           </g>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:12.4761px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.311904"
+             x="91.641602"
+             y="179.21725"
+             id="text22639"><tspan
+               sodipodi:role="line"
+               id="tspan22637"
+               style="font-weight:bold;stroke-width:0.311904"
+               x="91.641602"
+               y="179.21725">a)</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:12.4761px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.311904"
+             x="235.6416"
+             y="179.21725"
+             id="text25707"><tspan
+               sodipodi:role="line"
+               id="tspan25705"
+               style="font-weight:bold;stroke-width:0.311904"
+               x="235.6416"
+               y="179.21725">b)</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:12.4761px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.311904"
+             x="357.1416"
+             y="179.21725"
+             id="text31929"><tspan
+               sodipodi:role="line"
+               id="tspan31927"
+               style="font-weight:bold;stroke-width:0.311904"
+               x="357.1416"
+               y="179.21725">c)</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:12.4761px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.311904"
+             x="492.1416"
+             y="239.21725"
+             id="text33271"><tspan
+               sodipodi:role="line"
+               id="tspan33269"
+               style="font-weight:bold;stroke-width:0.311904"
+               x="492.1416"
+               y="239.21725">d)</tspan></text>
         </g>
       </g>
     </g>

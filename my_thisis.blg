@@ -10,36 +10,38 @@ A level-1 auxiliary file: outlook/outlook.aux
 The style file: plain.bst
 A level-1 auxiliary file: appendix/A-EMRE.aux
 Database file #1: Bibliography.bib
+Warning--entry type for "NIST" isn't style-file defined
+--line 1 of file Bibliography.bib
 Warning--entry type for "Fang_2021" isn't style-file defined
---line 31 of file Bibliography.bib
+--line 41 of file Bibliography.bib
 Warning--entry type for "Wu_2023" isn't style-file defined
---line 120 of file Bibliography.bib
+--line 130 of file Bibliography.bib
 Warning--entry type for "He_2022" isn't style-file defined
---line 187 of file Bibliography.bib
+--line 197 of file Bibliography.bib
 Warning--entry type for "DOM" isn't style-file defined
---line 210 of file Bibliography.bib
+--line 220 of file Bibliography.bib
 Warning--entry type for "einstein_s_rel" isn't style-file defined
---line 268 of file Bibliography.bib
+--line 278 of file Bibliography.bib
 Warning--entry type for "Rohland_2021" isn't style-file defined
---line 313 of file Bibliography.bib
-Repeated entry---line 372 of file Bibliography.bib
+--line 323 of file Bibliography.bib
+Repeated entry---line 382 of file Bibliography.bib
  : @generic{Rohland_2021
  :                      ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "Lee_1993" isn't style-file defined
---line 385 of file Bibliography.bib
-Warning--entry type for "Koezuka_1987" isn't style-file defined
 --line 395 of file Bibliography.bib
+Warning--entry type for "Koezuka_1987" isn't style-file defined
+--line 405 of file Bibliography.bib
 Warning--entry type for "Shirakawa_1977" isn't style-file defined
---line 456 of file Bibliography.bib
+--line 466 of file Bibliography.bib
 Warning--entry type for "salikhov_2015" isn't style-file defined
---line 584 of file Bibliography.bib
-Repeated entry---line 1084 of file Bibliography.bib
+--line 594 of file Bibliography.bib
+Repeated entry---line 1094 of file Bibliography.bib
  : @article{Ouyang2020
  :                    ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "Casado2021" isn't style-file defined
---line 1692 of file Bibliography.bib
+--line 1702 of file Bibliography.bib
 Warning--I didn't find a database entry for "energy_consumption_review"
 Warning--I didn't find a database entry for "energy_sources_review"
 Warning--I didn't find a database entry for "energy_from_sound"
@@ -47,7 +49,6 @@ Warning--I didn't find a database entry for "tokamak_updates"
 Warning--I didn't find a database entry for "katsumata2006_mrc"
 Warning--I didn't find a database entry for "xu2014_electact"
 Warning--I didn't find a database entry for "schwartz2018_synthmet"
-Warning--I didn't find a database entry for "Timonov"
 Warning--I didn't find a database entry for "ORCA"
 Warning--I didn't find a database entry for "carrington"
 Warning--I didn't find a database entry for "Siavash"
@@ -63,45 +64,45 @@ Warning--I didn't find a database entry for "Safari2011"
 Warning--I didn't find a database entry for "Anderson1953"
 Warning--can't use both author and editor fields in Casado_2021_book
 Warning--empty booktitle in nishide_2009
-You've used 105 entries,
+You've used 106 entries,
             2118 wiz_defined-function locations,
-            1205 strings with 25805 characters,
-and the built_in function-call counts, 38943 in all, are:
-= -- 3568
-> -- 2535
+            1208 strings with 25916 characters,
+and the built_in function-call counts, 39180 in all, are:
+= -- 3588
+> -- 2548
 < -- 4
-+ -- 1015
-- -- 894
-* -- 3112
-:= -- 6797
-add.period$ -- 304
-call.type$ -- 105
-change.case$ -- 757
++ -- 1021
+- -- 898
+* -- 3124
+:= -- 6835
+add.period$ -- 306
+call.type$ -- 106
+change.case$ -- 762
 chr.to.int$ -- 0
-cite$ -- 107
-duplicate$ -- 1134
-empty$ -- 2600
-format.name$ -- 894
-if$ -- 7815
+cite$ -- 108
+duplicate$ -- 1141
+empty$ -- 2622
+format.name$ -- 898
+if$ -- 7865
 int.to.chr$ -- 0
-int.to.str$ -- 105
+int.to.str$ -- 106
 missing$ -- 102
-newline$ -- 517
-num.names$ -- 210
-pop$ -- 681
+newline$ -- 521
+num.names$ -- 212
+pop$ -- 691
 preamble$ -- 1
-purify$ -- 657
+purify$ -- 661
 quote$ -- 0
-skip$ -- 793
+skip$ -- 802
 stack$ -- 0
-substring$ -- 2180
-swap$ -- 128
+substring$ -- 2186
+swap$ -- 129
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 404
+type$ -- 408
 warning$ -- 2
-while$ -- 291
-width$ -- 108
-write$ -- 1119
+while$ -- 293
+width$ -- 109
+write$ -- 1127
 (There were 2 error messages)
