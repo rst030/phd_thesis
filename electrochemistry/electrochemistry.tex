@@ -37,12 +37,12 @@ The capacity of a battery may decrease upon repeated charge-discharge cycling, e
 
 \section{Electrochemical Instrumentation}
 \subsection{Cyclic Voltammogram}
-The complete electrochemical behavior of a redox active molecular system can be obtained with a series of transient current responses to potentials, applied step-wise to the electrochemical cell containing the system. However for a basic electrochemical characterization a current response during a linearly swept potential is sufficient~\cite{Bard_book}. During the linear-potential-sweep chronoamperometry, or linear sweep voltammetry, the potential $E$ applied to the electrochemical cell is swept in a linear manner between the values $E_{min}$ and $E_{max}$, upwards and downwards, with a rate $v~($mVs$^{-1})$: $E(t) = E_0\pm vt$. During the sweep, the current is recorded as a function of the applied potential as shown in Figure~\ref{fig:CV_DiTBuS}~a). The resulting plot $i(E)$ is the cyclic voltammogram (CV). The upward potential sweep corresponds to the cathodic, or charging branch of the CV and the downward sweep corresponds to the anodic, or discharge branch. A CV of a three-electrode electrochemical cell with a pDiTBuS electro-active polymer film on the WE is shown in Figure~\ref{fig:CV_DiTBuS}~b). When $E$ reaches the oxidation potential of the working electrode, charge transfer happens and the current through the cell increases. This corresponds to the oxidation peak in the cathodic branch. The width of the peak is determined by the temperature of the cell and the number of electrons $n$ transferred in a single oxidation reaction ($n=2$ for poly-di-TEMPO-Salen, the redox conductive polymer discribed in Section~\ref{sec:ORB_materials}). The negative current peak in the anodic branch of the CV curve corresponds to the reduction of the WE. The difference between the potentials of the oxidation and reduction peaks arises because of the finite electric capacity of the electro-active film and a finite voltage sweep rate. For higher sweep rates the difference in peak potentials is higher, as the scan rate approaches the RC time constant of the cell.
+The complete electrochemical behavior of a redox active molecular system can be obtained with a series of transient current responses to potentials, applied step-wise to the electrochemical cell containing the system. However for a basic electrochemical characterization a current response during a linearly swept potential is sufficient~\cite{Bard_book}. During the linear-potential-sweep chronoamperometry, or linear sweep voltammetry, the potential $E$ applied to the electrochemical cell is swept in a linear manner between the values $E_{min}$ and $E_{max}$, upwards and downwards, with a rate $v~($mVs$^{-1})$: $E(t) = E_0\pm vt$. During the sweep, the current is recorded as a function of the applied potential as shown in Figure~\ref{fig:CV_DiTBuS}~a). The resulting plot $i(E)$ is the cyclic voltammogram (CV). The upward potential sweep corresponds to the anodic, or charging branch of the CV and the downward sweep corresponds to the cathodic, or discharge branch. A CV of a three-electrode electrochemical cell with a pDiTBuS electro-active polymer film on the WE is shown in Figure~\ref{fig:CV_DiTBuS}~b). When $E$ reaches the oxidation potential of the working electrode, charge transfer happens and the current through the cell increases. This corresponds to the oxidation peak in the cathodic branch. The width of the peak is determined by the temperature of the cell and the number of electrons $n$ transferred in a single oxidation reaction ($n=2$ for poly-di-TEMPO-Salen, the redox conductive polymer discribed in Section~\ref{sec:ORB_materials}). The negative current peak in the anodic branch of the CV curve corresponds to the reduction of the WE. The difference between the potentials of the oxidation and reduction peaks arises because of the finite electric capacity of the electro-active film and a finite voltage sweep rate. For higher sweep rates the difference in peak potentials is higher, as the scan rate approaches the RC time constant of the cell.
 
 \begin{figure}[h]
 \center
-	\includegraphics[width=0.75\textwidth]{./electrochemistry/figures/CV_pDiTBuS.pdf}
-	\caption{Cyclic voltammogram of a pDiTBuS electro-active film recorded with a 50~mVs$^{-1}$ sweep rate.}
+	\includegraphics[width=1\textwidth]{./electrochemistry/figures/CV_pDiTBuS.pdf}
+	\caption{a): Electrochemical setup for CV. b): Linear voltage sweep at a 50~mVs$^{1}$ rate. c) Cyclic voltammogram of an electro-active polymer cathode film. Oxidation and reduction of the charge-bearing fragments of the film corresponds to the $A$ and $A^\prime$ redox peaks, respectively. Oxidation and reduction of the conductive polymer backbone of the film corresponds to peaks $B$ and $B^\prime$. The standard oxidation potential of the charge-bearing fragments, $E_{1/2}^A$, lies close to the standard oxidation potential of the backbone, $E_{1/2}^B$}
 	\label{fig:CV_DiTBuS}
 \end{figure}
 
@@ -52,11 +52,21 @@ The area under the anodic branch can be used to calculate the charge that was tr
 \label{sec:echem_charging}
 galvanostatic and potentiostatic cycling. measuring cell capacity.
 
+
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./electrochemistry/figures/GCD_principle_pDiTBuS.pdf}
+	\caption{a): Electrochemical setup for GCD cycling. b): $\pm10~\muup$A DC current applied to record the GCD. c) Chronopotentiometry of an eelctrochemical cell containing electro-active polymer film cathode. Full charging is recognized by the steep increase of the charging curve after passing the Plateau.}
+	\label{fig:GCD}
+\end{figure}
+
+
+
 \begin{figure}[h]
 \center
 	\includegraphics[width=0.75\textwidth]{./electrochemistry/figures/GCD_pDiTBuS.pdf}
 	\caption{Galvanostatic charge-discharge cycling of a pDiTBuS electro-active film recorded with 10~$\muup$A charging and discharging current that corresponds to a C rate of 6.25~C.}
-	\label{fig:GCD}
+	\label{fig:GCD_DiTBuS}
 \end{figure}
 
 
