@@ -50,9 +50,6 @@ The area under the anodic branch can be used to calculate the charge that was tr
 
 \subsection{Charge-Discharge Cycling}
 \label{sec:echem_charging}
-galvanostatic and potentiostatic cycling. measuring cell capacity.
-
-
 \begin{figure}[h]
 \center
 	\includegraphics[width=1\textwidth]{./electrochemistry/figures/GCD_principle_pDiTBuS.pdf}
@@ -60,12 +57,12 @@ galvanostatic and potentiostatic cycling. measuring cell capacity.
 	\label{fig:GCD}
 \end{figure}
 
-
+A constant-current characterization technique called galvanostatic potentiometry~\cite{Bard_book} can be used in combination with the cyclic voltammetry to study the redox behavior of the electrochemical system quantitatively. To The setup for galvanostatic charge-discharge cycling is shown in Figure~\ref{fig:GCD}~a). The cell is excited with a DC current as shown in Figure~\ref{fig:GCD}~b). Upon positive (charging) current the working electrode of the cell is oxidized. The voltage required to provide the charging current gradually increases, resulting a galvanostatic charging curve shown in Figure~\ref{fig:GCD}~b). The shape of the charging curve can be approximated by considering two major effects: the Faradic current and the displacement current. The Faradic current is caused by the oxidation of the redox active species in the WE. It defines the plateau regions in the middle of the charging and discharging curves. The displacement current is the result of the charging of a double layer around the WE and CE. It explains the capacitor-like response of the charging and discharging curves at their ends~\cite{Bard_book}. When all redox active species of the WE are oxidized, the voltage required for providing the charging current steeply increases, that is seen in the end of the charging curves in Figure~\ref{fig:GCD}~c) and ~\ref{fig:GCD_DiTBuS}). Eventually, upon charging, the potential of the cell grows beyond the oxidation peak of the WE, according to the cyclic voltammogram (Figure~\ref{fig:CV_DiTBuS}). Then the charging is stopped and the transferred charge is calculated from the charging time. The same strategy is applied for the discharging curve to determine the discharging capacity of the cell. The reproducibility of the charge-discharge curve indicates the stability of the electrochemical cell. SoH of the cell can be estimated by observing the decrease in the period of the charge-discharge curve.
 
 \begin{figure}[h]
 \center
 	\includegraphics[width=0.75\textwidth]{./electrochemistry/figures/GCD_pDiTBuS.pdf}
-	\caption{Galvanostatic charge-discharge cycling of a pDiTBuS electro-active film recorded with 10~$\muup$A charging and discharging current that corresponds to a C rate of 6.25~C.}
+	\caption{Galvanostatic charge-discharge cycling of a pDiTBuS electro-active film with a discharge capacity $C_{DCG}=1.6\pm0.1~\muup$Ah recorded with 10~$\muup$A charging and discharging current that corresponds to charging and discharging at a C rate of $6.3\pm0.4$~C.}
 	\label{fig:GCD_DiTBuS}
 \end{figure}
 
@@ -82,7 +79,11 @@ The key for polymer conductivity is the p $\pi$ - conjugated network, a system o
 
 Organic solar cells~\cite{Lee_1993} and organic field effect transistors~\cite{Koezuka_1987} contain conjugated polymers that have electrical properties of semiconductors, yet can be easily printed in form of thin flexible films without using high temperatures. Combining the conductive polymers with stable radical side groups has formed the class of redox conductive polymers and lead to the concept of an organic radical battery~\cite{Rohland_2021}.
 
+\subsection{Charge Transport Model for Redox Conductive Polymers}  
+The transfer of charge between the metallic substrate of the electrode and the surface-bound molecules of the electrode can be described in terms of the electrode workfunction, applied potential, electrolyte dynamics and the LUMO level of the electrode molecule~\cite{Bard_book}. 
+On the contrary, the transfer of charge between the molecules inside the volume of the electrode is a complex process that involves hopping and time-dependent delocalization of the charge carriers in the percolated network of the porous electrode material under a changing electrostatic field that is dependent on the state of charge of the electrode, as well as on the diffusion of the electrolyte ions. The molecular systems for electrochemical charge storage are inherently disordered materials and the electric performance of a film containing those molecules is strongly dependent on the deposition method, as well as on the molecular structure~\cite{Xie2021}. The particular charge transport models have been developed that are applicable to certain classes of polymers \ik{(look at that chapter in the polymer book + last talk at FU and show what was done)}, but so far there has not been a unified physical model that would describe the charge transport phenomena in redox-conductive polymer films.\\
 
+The charge transfer within the redox-conductive polymer electrode governs the speed, reversibility, released by-products and physical conditions of the redox reaction in an organic electrochemical cell, that are the key factors that define the charging rate, cycling stability, self-discharge rate and the area of application of ORBs. This type of redox reaction had been of great interest for the field of energy storage, particularly, electrochemistry, where numerous characterization techniques have been developed to optimize the architecture of electrochemical power sources. In the following chapters a spectroelectrochemical analysis of organic redox-conductive polymers containing nitroxyl radicals is presented using the toolbox of the electron spin resonance spectroscopy.\\
 
 \section{Organic Radical Battery}
 
@@ -113,7 +114,7 @@ Redox conductive conjugated polymers containing TEMPO redox groups, as pDiTBuS (
 While active electrode materials with nitroxide radicals as redox-active groups are ideally suited for organic radical batteries (ORBs) that exhibit high power densities, the broad application of most nitroxide-based materials is limited by their moderate electrical properties. A promising route towards overcoming the conductivity problem is the use of polymers that combine radical-containing moieties and a conductive backbone. This strategy was successfully followed in a number of studies focusing on different polymers~\cite{oyaizu2015_polymerjournal, bahaceci2013_jpowersources, katsumata2006_mrc, xu2014_electact, aydin2015_jsoistatelect, schwartz2018_synthmet}. The standard redox potential of the NiSalen molecular backbone ($E_{1/2}^B$ in the middle of the peaks B and B$^\prime$ in Figure~\ref{fig:CV_DiTBuS}) lay close to the standard redox potential of the attached nitroxide charge-bearing fragments ($E_{1/2}^A$ in the middle of the peaks A and A$^\prime$ in Figure~\ref{fig:CV_DiTBuS}) - that ensures an efficient charge transport between the charge-bearing fragments and the conductive backbone and allows for very high charge and discharge rates up to 3000~C~\cite{Vereshchagin2020,Kulikov2022}.
 
 \subsection{PTMA}
-A simple organic radical polymer containing TEMPO is poly(2,2,6,6 - tetramethyl - 1 - piperidinyloxy -4 - yl methacrylate) (PTMA, Figure~\ref{fig:molecules}~c). The polymer backbone of PTMA consists of single C-C bonds and therefore is not conductive, so the transport of charge in a PTMA film has to be mediated by adding conductive mesh such as activated carbon. When mixed with conductive carbon additive, PTMA has become a standard cathode material for ORBs and Li-ORBs, providing a discharge cell voltage of V$_{OC}=3.5$~V (with a Li anode) and a theoretical discharge capacity of $C_{theo}=111$~mAh/g~\cite{Daniel2023_Multimodal}. PTMA is soluble in acetonitrile (AN), chloroform (CF), tetrahydrofurane and dichlormethane. It is claimed to be insoluble in toluene, ethers, carbonates, and alcohols, however it becomes gel-like with some of these solvents~\cite{DOM}.
+A simple organic radical polymer containing TEMPO is poly-TEMPO-methacrylate) (PTMA, Figure~\ref{fig:molecules}~c). The polymer backbone of PTMA consists of single C-C bonds and therefore is not conductive, so the transport of charge in a PTMA film has to be mediated by adding conductive mesh such as activated carbon. When mixed with conductive carbon additive, PTMA has become a standard cathode material for ORBs and Li-ORBs, providing a discharge cell voltage of V$_{OC}=3.5$~V (with a Li anode) and a theoretical discharge capacity of $C_{theo}=111$~mAh/g~\cite{Daniel2023_Multimodal}. PTMA is soluble in acetonitrile (AN), chloroform (CF), tetrahydrofurane and dichlormethane. It is claimed to be insoluble in toluene, ethers, carbonates, and alcohols, however it becomes gel-like with some of these solvents~\cite{DOM}.
 
 \subsection{NiSalen}
 The molecular backbone of a redox conductive polymer has to conduct electric charge. A NiSalen molecule is a Schiff complex of Ni that has a conjugated path through it. The conductivity of NiSalen was measured. Upon oxidation of a polymeric NiSalen, the formation of positive polarons was observed in it with UV-Vis spectroscopy~\cite{Dmitrieva2018}, that suggests p-NiSalen is a p-type molecular semiconductor. p-NiSalen exhibits electrochemical capacity and can store up to two positive charges per monomer unit.
@@ -125,22 +126,30 @@ pDiTS was designed as a cathode material: it is oxidized when the electrochemica
 
 \begin{figure}[h]
 \center
-	\includegraphics[width=0.85\textwidth]{./introduction/figures/Figure_1.pdf}
+	\includegraphics[width=0.7\textwidth]{./introduction/figures/Figure_1.pdf}
 	\caption{Galvanostatic charge-discharge curve for a pDiTBuS cathode film at 10~$\muup$A (6.25~C), chemical structure of pDiTBuS (a), normalized cwEPR spectral signatures for reduced (b) and oxidized (c) states. Scheme of the ex-situ EPR measurement on the pDiTBuS half cell (d).}
 	\label{fig:Figure_1}
 \end{figure}
 
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./electrochemistry/figures/DFT_DITS.pdf}
+	\caption{Spin density in a single DiTS monomer unit for various oxidation states calculated by Marcel Gauglitz with density-functional theory in ORCA~\cite{ORCA}, using the def2-TZVP functional basis set for the geometry optimization and the calculations of the spin density. The calculations were carried out at the high-performance computing cluster Curta of the Free University of Berlin~\cite{Curta}. a): neutral DiTS with two TEMPO radicals, b) singly oxidized DiTS (one hole injected), b) doubly oxidized DiTS showing no spin density, c) DiTS$^{3+}$ showing a positive polaron localized on the NiSalen backbone, d) DiTS$^{4+}$ showing increased spin density on the backbone.}
+	\label{fig:DiTS_DFT}
+\end{figure}
+
 
 \subsection{Electro-polymerization of TEMPO-Salens}
-The process of polymerization is connecting multiple monomer units of one sort to a continuous molecular chain. Among various polymerization techniques, redox conductive molecules with pendant charge bearing groups the cyclic electropolymerization turned out to be an efficient technique. \\
-
-
-\begin{figure}[h]
+\begin{figure}[!h]
 \center
 	\includegraphics[width=1\textwidth]{./electrochemistry/figures/DITBUS_DEPO.pdf}
 	\caption{Deposition of TEMPO-Salen films with cyclic electrochemical polymerization from 1~mM monomer solutions in the 10~mM Et$_4$NBF$_4$ electrolyte at 50~mVs$^{-1}$ and 50 deposition cycles. a): pDiTS, b): pDiTBuS.}
 	\label{fig:DITBUS_DEPO}
 \end{figure}
+
+The process of polymerization is connecting multiple monomer units of one sort to a continuous molecular chain. Among various polymerization techniques, redox conductive molecules with pendant charge bearing groups the cyclic electropolymerization turned out to be an efficient technique. \\
+
+
 
 
 Fast And Capacious:\\
@@ -165,16 +174,36 @@ A/A' peaks. On the contrary, at 50 mV/s only one third of the polymer is formed 
 possibility of polymerization at both potential regions was confirmed by the experiment consisting of a series of
 successive iterations of potentiostatic and potentiodynamic syntheses, as well as open-circuit rest periods (See SI and Figure FACS6 for further discussion)"
 
-\begin{figure}[h]
+\subsection{Ag/AgCl reference electrode}\label{Ref_electrode}
+The Ag/AgCl reference (RE) electrode was formed by coating a layer of AgCl onto a 250~$\muup$m Ag wire galvanically from a 1~\textsc{m} aqueous solution of KCl. For that, the Ag wire and a Pt wire were connected as a cathode and an anode respectively to 10$\,$mL of the KCL solution and a DC potential of 500$\,$mV was applied for 7500$\,$s which resulted in a dark AgCl layer deposited onto the Ag cathode. In the beginning of the galvanic deposition, the current through the KCl solution was changing in a jumpy manner, that indicated the growth of the AgCl layer. The galvanic process was stopped after the current was stable for at least 300$\,$s.\\
+JOSHKAS PLOT HERE\\
+
+
+\section{Ex Situ Electrochemistry}
+\label{sample_fab_2}
+The pDiTBuS film was brought to the desired oxidation state by galvanostatic discharging with a current of 10~$\muup$A in a three-electrode electrochemical cell in a 5~ml beaker with the electrodes and the electrolyte described above.
+Each potential of the film was reached by first fully charging the cell to 700~mV and then discharging it to the desired potential (labeled points in Figure~\ref{fig:Figure_S3}). When the desired potential was \ik{reached}, the output relay of the potentiostat was opened so that no current went through the cell after charging. The substrate with the WE and the pDiTBuS film was removed from the charging cell, placed in a 5~mm OD quartz EPR tube, evacuated down to $<5\times10^{-3}$~mbar, filled with He up to a pressure of 500-600 mbar, then flame sealed with a H$_2$/O$_2$ burner.
+
+\begin{figure}[!ht]
 \center
-	\includegraphics[width=1\textwidth]{./electrochemistry/figures/DFT_DITS.pdf}
-	\caption{Spin density in a single DiTS monomer unit for various oxidation states calculated by Marcel Gauglitz with density-functional theory in ORCA~\cite{ORCA}, using the def2-TZVP functional basis set for the geometry optimization and the calculations of the spin density. The calculations were carried out at the high-performance computing cluster Curta of the Free University of Berlin~\cite{Curta}. a): neutral DiTS with two TEMPO radicals, b) singly oxidized DiTS (one hole injected), b) doubly oxidized DiTS showing no spin density, c) DiTS$^{3+}$ showing a positive polaron localized on the NiSalen backbone, d) DiTS$^{4+}$ showing increased spin density on the backbone.}
-	\label{fig:DiTS_DFT}
+	\includegraphics[width=0.85\textwidth]{./pulse/figures/Figure_S3}
+	\caption{Initial galvanostatic discharge curve for the pDiTBuS film with the redox potentials described in the main text. Since the film has lost 12\% of its capacity during the temperature cycling, the SoC determined from the potentials mapped to the initial curve are lower than the SoC determined from the individual discharge curves (given in brackets). The SoC values corresponding to the initial (individual) discharge curve are a): SoC~98~(98)\%, b): SoC~\ik{94~(96)}\%, c): SoC~57(65)\%, d): SoC~0(0)\%. (Dis-)charging current: 10~$\muup$A, charging rate: 6.25~C. After this initial discharging, the pDiTBuS film has undergone 10 charge-discharge cycles and 4 temperature cycles.}
+	\label{fig:Figure_S3}
 \end{figure}
 
+\begin{figure}[!ht]
+\center
+	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_S27}
+	\caption{\ik{Calculation of the number of withdrawn electrons from a pDiTBuS film for the four states of charge. At negative times the pDiTBuS film is charged, corresponding to the withdrawal of electrons from the film. At positive times the film is discharged. The number of transferred electrons during discharging is determined from the four overlaid galvanostatic discharge curves (a-d).}}
+	\label{fig:Figure_S27}
+\end{figure}
 
-\subsection{Charge Transport Model for Redox Conductive Polymers}  
-The transfer of charge between the metallic substrate of the electrode and the surface-bound molecules of the electrode can be described in terms of the electrode workfunction, applied potential, electrolyte dynamics and the LUMO level of the electrode molecule~\cite{Bard_book}. 
-On the contrary, the transfer of charge between the molecules inside the volume of the electrode is a complex process that involves hopping and time-dependent delocalization of the charge carriers in the percolated network of the porous electrode material under a changing electrostatic field that is dependent on the state of charge of the electrode, as well as on the diffusion of the electrolyte ions. The molecular systems for electrochemical charge storage are inherently disordered materials and the electric performance of a film containing those molecules is strongly dependent on the deposition method, as well as on the molecular structure~\cite{Xie2021}. The particular charge transport models have been developed that are applicable to certain classes of polymers \ik{(look at that chapter in the polymer book + last talk at FU and show what was done)}, but so far there has not been a unified physical model that would describe the charge transport phenomena in redox-conductive polymer films.\\
-
-The charge transfer within the redox-conductive polymer electrode governs the speed, reversibility, released by-products and physical conditions of the redox reaction in an organic electrochemical cell, that are the key factors that define the charging rate, cycling stability, self-discharge rate and the area of application of ORBs. This type of redox reaction had been of great interest for the field of energy storage, particularly, electrochemistry, where numerous characterization techniques have been developed to optimize the architecture of electrochemical power sources. In the following chapters a spectroelectrochemical analysis of organic redox-conductive polymers containing nitroxyl radicals is presented using the toolbox of the electron spin resonance spectroscopy.\\
+\ik{
+After reaching the fully charged state with 10~$\muup$A (by $t=0$ in Figure~\ref{fig:Figure_S27}), a 10~$\muup$A discharge current was applied to reach the four states of charge considered in this study (a-d in Figure~\ref{fig:Figure_S27} and in Figure~\ref{fig:Figure_S3}). Initially, the full charging capacity of the film was 1.48~$\muup$Ah~$=5.11$~\ik{m}C (3.29e+16 electrons withdrawn upon the full charging). The charging capacity has decreased by 0.06~$\muup$Ah ($4\%$) after the four temperature cycles between 300~K and 5~K during the cryogenic EPR measurements.\\
+}
+\newpage
+\ik{
+From the quantitative analysis of the GCD for each SoC, we calculate the number of elementary charges that are transferred to the film (withdrawn from the film) upon charging (discharging). The GCD and the calculated values of the transferred charge are shown in Figure~\ref{fig:Figure_S27}. During the full discharge from +700~mV down to -200~mV the pDiTBuS film has gained a total charge of 1.355~$\muup$Ah=4.88~\ik{m}C (d), corresponding to 3.01e+16 electrons that had been transferred to the film.)
+}
+\ik{ 
+The considered SoC correspond to discharging by $0.020\pm0.005~\muup$Ah (Figure~\ref{fig:Figure_S27}~a, $(5\pm1)\times10^{14}$ electrons injected), $0.060\pm0.005~\muup$Ah (Figure~\ref{fig:Figure_S27}~b, $(1.4\pm0.1)\times10^{15}$ electrons injected), $0.480\pm0.005~\muup$Ah (Figure~\ref{fig:Figure_S27}~c, $(1.07\pm0.01)\times10^{16}$ electrons injected) and $1.360\pm0.005~\muup$Ah (Figure~\ref{fig:Figure_S27}~d, $(3.05\pm0.01)\times10^{16}$~electrons injected). The SoC values determined from the respective potentials are different when mapped to the initial discharge curve in Fig.~\ref{fig:Figure_S3} and when considering the individual discharge curves in Fig.~\ref{fig:Figure_S27}, as the film was gradually losing its capacity during the temperature cycling, so the discharge curves were reaching the considered potentials at shorter times, leading to a lower Coulomb counting, lower discharge capacity and therefore a lower SoC.}
