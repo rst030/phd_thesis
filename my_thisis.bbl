@@ -240,6 +240,12 @@ Josef Kadlec, Radoslav Cipin, Dalibor Cervinka, Pavel Vorel, and Bohumil Klima.
   051 ray.
 \newblock {\em Journal of Solid State Electrochemistry}, 18:2307--2313, 2014.
 
+\bibitem{katsumata2006_mrc}
+T~Katsumata, M~Satoh, J~Wada, M~Shiotsuki, F~Sanda, and T~Masuda.
+\newblock Polyacetylene and polynorbornene derivatives carrying tempo.
+  synthesis and properties as organic radical battery materials.
+\newblock {\em Macromolecular Rapid Communications}, 27:1206--1211, 2006.
+
 \bibitem{khodeir2019_softmatter}
 M~Khodeir, B~Ernould, J~Brassinne, S~Ghiassinejad, H~Jia, S~Antoun, C~Friebe,
   U~S Schubert, Z~Kochovski, Y~Lu, E~Van Ruymbeke, and J~F Gohy.
@@ -488,6 +494,12 @@ K.~M. Salikhov, S.~A. Dzuba, and A.~M. Raitsimring.
 K~M Salikhov and N~E Zavoiskaya.
 \newblock Zavoisky and the discovery of epr, 2015.
 
+\bibitem{schwartz2018_synthmet}
+Pierre~Olivier Schwartz, Marijana Pejic, Mario Wachtler, and Peter Bäuerle.
+\newblock Synthesis and characterization of electroactive pedot-tempo polymers
+  as potential cathode materials in rechargeable batteries.
+\newblock {\em Synthetic Metals}, 243:51--57, 9 2018.
+
 \bibitem{Schweiger2001_exch}
 A~Schweiger and G~Jeschke.
 \newblock {\em Principles of Pulse Electron Paramagnetic Resonance}.
@@ -512,7 +524,8 @@ By~Hideki Shirakawa, Edwin~J Louis, Alan~G Macdiarmid, C~H W A N~K Chiang, and
 
 \bibitem{DOM}
 Domenik Spallek.
-\newblock Spin-dependent processes in organic radical batteries, 6 2022.
+\newblock Spin-dependent processes in organic radical batteries, master thesis,
+  6 2022.
 
 \bibitem{Staudinger_1920}
 H.~Staudinger.
@@ -589,6 +602,12 @@ Chengjian Xu, Qiang Dai, Linda Gaines, Mingming Hu, Arnold Tukker, and Bernhard
   Steubing.
 \newblock Future material demand for automotive lithium-based batteries.
 \newblock {\em Communications Materials}, 1:1--10, 2020.
+
+\bibitem{xu2014_electact}
+Lihuan Xu, Fang Yang, Chang Su, Lvlv Ji, and Cheng Zhang.
+\newblock Synthesis and properties of novel tempo-contained polypyrrole
+  derivatives as the cathode material of organic radical battery.
+\newblock {\em Electrochimica Acta}, 130:148--155, 6 2014.
 
 \bibitem{Yoo2014}
 Hyun~Deog Yoo, Elena Markevich, Gregory Salitra, Daniel Sharon, and Doron

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  30 APR 2024 01:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  30 APR 2024 18:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -910,38 +910,14 @@ File: ./electrochemistry/figures/materials/molecules.pdf Graphic file (type pdf
 Package pdftex.def Info: ./electrochemistry/figures/materials/molecules.pdf  us
 ed on input line 103.
 (pdftex.def)             Requested size: 430.00462pt x 191.22118pt.
-
-
-LaTeX Warning: Reference `fig:Figure_S1' on page 19 undefined on input line 110
-.
-
-[19 <./electrochemistry/figures/materials/molecules.pdf>]
-
-LaTeX Warning: Citation `katsumata2006_mrc' on page 20 undefined on input line 
-113.
-
-
-LaTeX Warning: Citation `xu2014_electact' on page 20 undefined on input line 11
-3.
-
-
-LaTeX Warning: Citation `schwartz2018_synthmet' on page 20 undefined on input l
-ine 113.
-
-
-Overfull \hbox (42.00192pt too wide) in paragraph at lines 117--118
-\OT1/txr/m/n/12 A sim-ple or-ganic rad-i-cal poly-mer con-tain-ing TEMPO is pol
-y(2,2,6,6-tetramethyl-1-piperidinyloxy-
- []
-
-
+ [19 <./electrochemistry/figures/materials/molecules.pdf>]
 Overfull \hbox (81.16704pt too wide) has occurred while \output is active
 \OT1/txr/m/n/12 20 \OT1/txr/m/sl/12 CHAPTER 2.  ELECTROCHEMICAL ENERGY STORAGE 
 IN REDOX CONDUCTIVE POLYMERS
  []
 
 [20]
-Overfull \hbox (4.02264pt too wide) in paragraph at lines 124--126
+Overfull \hbox (4.02264pt too wide) in paragraph at lines 123--125
 \OT1/txr/m/n/12 Redox con-duc-tive con-ju-gated poly-mers con-tain-ing TEMPO (2
 ,2,6,6-tetramethylpiperidine-
  []
@@ -950,13 +926,13 @@ Overfull \hbox (4.02264pt too wide) in paragraph at lines 124--126
 File: ./introduction/figures/Figure_1.pdf Graphic file (type pdf)
 <use ./introduction/figures/Figure_1.pdf>
 Package pdftex.def Info: ./introduction/figures/Figure_1.pdf  used on input lin
-e 129.
-(pdftex.def)             Requested size: 301.00192pt x 216.6986pt.
+e 128.
+(pdftex.def)             Requested size: 365.50655pt x 263.14046pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
@@ -964,18 +940,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--137
 File: ./electrochemistry/figures/DITBUS_DEPO.pdf Graphic file (type pdf)
 <use ./electrochemistry/figures/DITBUS_DEPO.pdf>
 Package pdftex.def Info: ./electrochemistry/figures/DITBUS_DEPO.pdf  used on in
-put line 141.
+put line 140.
 (pdftex.def)             Requested size: 430.00462pt x 180.10847pt.
+[21]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--157
+Underfull \hbox (badness 10000) in paragraph at lines 146--156
 
  []
 
-[21]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Underfull \vbox (badness 3343) has occurred while \output is active []
 
 
 Overfull \hbox (81.16704pt too wide) has occurred while \output is active
@@ -984,13 +961,13 @@ IN REDOX CONDUCTIVE POLYMERS
  []
 
 [22 <./introduction/figures/Figure_1.pdf>]
-Overfull \hbox (9.92664pt too wide) in paragraph at lines 158--163
+Overfull \hbox (9.92664pt too wide) in paragraph at lines 157--162
 \OT1/txr/m/n/12 monomer molecules and de-posited poly-mer lay-ers grow rapidly 
 above the A (Fig-ure FAC2A)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--163
+Underfull \hbox (badness 10000) in paragraph at lines 157--162
 
  []
 
@@ -999,25 +976,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--163
 File: ./electrochemistry/figures/DFT_DITS.pdf Graphic file (type pdf)
 <use ./electrochemistry/figures/DFT_DITS.pdf>
 Package pdftex.def Info: ./electrochemistry/figures/DFT_DITS.pdf  used on input
- line 171.
+ line 170.
 (pdftex.def)             Requested size: 430.00462pt x 338.01935pt.
 
 
-LaTeX Warning: Citation `ORCA' on page 24 undefined on input line 172.
+LaTeX Warning: Citation `ORCA' on page 24 undefined on input line 171.
 
 
-LaTeX Warning: Citation `ORCA' on page 24 undefined on input line 172.
+LaTeX Warning: Citation `ORCA' on page 24 undefined on input line 171.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--180
-
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 181--103
+Underfull \hbox (badness 10000) in paragraph at lines 177--179
 
  []
 
@@ -1027,7 +999,12 @@ Overfull \hbox (81.16704pt too wide) has occurred while \output is active
 IN REDOX CONDUCTIVE POLYMERS
  []
 
-[24] [25]
+[24])
+Underfull \hbox (badness 10000) in paragraph at lines 180--103
+
+ []
+
+[25]
 Overfull \hbox (81.16704pt too wide) has occurred while \output is active
 \OT1/txr/m/n/12 26 \OT1/txr/m/sl/12 CHAPTER 2.  ELECTROCHEMICAL ENERGY STORAGE 
 IN REDOX CONDUCTIVE POLYMERS
@@ -1164,13 +1141,6 @@ mM_80K.pdf  used on input line 158.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `carrington' on page 35 undefined on input line 166.
-
-
-LaTeX Warning: Reference `fig:cwEPR_monoTEMPO_diTEMPO' on page 35 undefined on 
-input line 166.
-
-
 Overfull \hbox (0.4075pt too wide) in paragraph at lines 166--167
 []\OT1/txr/m/n/12 A bi-rad-i-cal molecule like Di-Tempo-Salen ( 2.5[] e) and f)
 ) has two para-m-ag-netic species
@@ -1261,7 +1231,13 @@ Package pdftex.def Info: ./operando_epr/figures/CRYO/Figure_S7_new.pdf  used on
  input line 223.
 (pdftex.def)             Requested size: 430.00462pt x 550.19725pt.
 
-LaTeX Warning: Float too large for page by 13.38734pt on input line 226.
+LaTeX Warning: Citation `Stoll_2006' on page 37 undefined on input line 224.
+
+
+LaTeX Warning: Citation `Stoll_2006' on page 37 undefined on input line 224.
+
+
+LaTeX Warning: Float too large for page by 129.38734pt on input line 226.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1695,12 +1671,47 @@ Overfull \hbox (6.7449pt too wide) in paragraph at lines 57--57
 []\OT1/txr/bx/n/17.28 Pulsed EPR Spec-troscopy of a charged pDiT-BuS Cath-
  []
 
-<./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf, id=7080, 1415.2875pt x 677.53125p
+<./pulse/figures/SAW_Figure_8.pdf, id=7080, 713.66624pt x 390.45876pt>
+File: ./pulse/figures/SAW_Figure_8.pdf Graphic file (type pdf)
+<use ./pulse/figures/SAW_Figure_8.pdf>
+Package pdftex.def Info: ./pulse/figures/SAW_Figure_8.pdf  used on input line 6
+2.
+(pdftex.def)             Requested size: 430.00462pt x 235.2601pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./pulse/figures/Figure_3.pdf, id=7081, 647.41875pt x 324.21124pt>
+File: ./pulse/figures/Figure_3.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_3.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_3.pdf  used on input line 69.
+(pdftex.def)             Requested size: 430.00462pt x 215.33557pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./pulse/figures/Figure_6_maintext_col_MOD.pdf, id=7082, 647.41875pt x 324.2112
+4pt>
+File: ./pulse/figures/Figure_6_maintext_col_MOD.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_6_maintext_col_MOD.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_6_maintext_col_MOD.pdf  used on
+ input line 76.
+(pdftex.def)             Requested size: 430.00462pt x 215.33557pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./pulse/figures/Figure_4.pdf, id=7083, 435.6275pt x 445.665pt>
+File: ./pulse/figures/Figure_4.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_4.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_4.pdf  used on input line 84.
+(pdftex.def)             Requested size: 193.50076pt x 197.95648pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf, id=7084, 1415.2875pt x 677.53125p
 t>
 File: ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf Graphic file (type pdf)
 <use ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf>
 Package pdftex.def Info: ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf  used on i
-nput line 62.
+nput line 94.
 (pdftex.def)             Requested size: 430.00462pt x 205.8455pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1710,7 +1721,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
@@ -1721,17 +1732,12 @@ O-CONTAINING BATTERY CATHODES
  []
 
 [66 <./pulse/figures/FGMR/ID/ID_vs_ISO.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
@@ -1741,102 +1747,73 @@ Overfull \hbox (26.8198pt too wide) has occurred while \output is active
 GNALS \OT1/txr/m/n/12 67
  []
 
-[67 <./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+[67 <./pulse/figures/SAW_Figure_8.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
-
- []
-
-<./pulse/figures/Figure_S7.pdf, id=7119, 1204.5pt x 814.04124pt>
-File: ./pulse/figures/Figure_S7.pdf Graphic file (type pdf)
-<use ./pulse/figures/Figure_S7.pdf>
-Package pdftex.def Info: ./pulse/figures/Figure_S7.pdf  used on input line 141.
-
-(pdftex.def)             Requested size: 430.00462pt x 290.60764pt.
 
 Overfull \hbox (75.26305pt too wide) has occurred while \output is active
 \OT1/txr/m/n/12 68 \OT1/txr/m/sl/12 CHAPTER 4.  PULSED EPR SPECTROSCOPY OF TEMP
 O-CONTAINING BATTERY CATHODES
  []
 
-[68]
+[68 <./pulse/figures/Figure_3.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+<./pulse/figures/Figure_S7.pdf, id=7131, 1204.5pt x 814.04124pt>
+File: ./pulse/figures/Figure_S7.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S7.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S7.pdf  used on input line 173.
+
+(pdftex.def)             Requested size: 430.00462pt x 290.60764pt.
+
 Overfull \hbox (26.8198pt too wide) has occurred while \output is active
 \OT1/txr/m/sl/12 4.4.  PAD[]E-LAPLACE DECONVOLUTION OF POLYEXPONENTIAL DECAY SI
 GNALS \OT1/txr/m/n/12 69
  []
 
-[69 <./pulse/figures/Figure_S7.pdf>]
-<./pulse/figures/Figure_S8.png, id=7172, 1043.5788pt x 472.6458pt>
-File: ./pulse/figures/Figure_S8.png Graphic file (type png)
-<use ./pulse/figures/Figure_S8.png>
-Package pdftex.def Info: ./pulse/figures/Figure_S8.png  used on input line 156.
-
-(pdftex.def)             Requested size: 430.00462pt x 194.75243pt.
-<./pulse/figures/Figure_S9.pdf, id=7173, 903.375pt x 501.875pt>
-File: ./pulse/figures/Figure_S9.pdf Graphic file (type pdf)
-<use ./pulse/figures/Figure_S9.pdf>
-Package pdftex.def Info: ./pulse/figures/Figure_S9.pdf  used on input line 163.
-
-(pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
-
+[69 <./pulse/figures/Figure_6_maintext_col_MOD.pdf>]
 Overfull \hbox (75.26305pt too wide) has occurred while \output is active
 \OT1/txr/m/n/12 70 \OT1/txr/m/sl/12 CHAPTER 4.  PULSED EPR SPECTROSCOPY OF TEMP
 O-CONTAINING BATTERY CATHODES
  []
 
-[70 <./pulse/figures/Figure_S8.png (PNG copy)>]
-<./pulse/figures/Figure_S10.pdf, id=7177, 1212.53pt x 495.8525pt>
-File: ./pulse/figures/Figure_S10.pdf Graphic file (type pdf)
-<use ./pulse/figures/Figure_S10.pdf>
-Package pdftex.def Info: ./pulse/figures/Figure_S10.pdf  used on input line 173
-.
-(pdftex.def)             Requested size: 430.00462pt x 175.84349pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./pulse/figures/Figure_S11.pdf, id=7178, 903.375pt x 501.875pt>
-File: ./pulse/figures/Figure_S11.pdf Graphic file (type pdf)
-<use ./pulse/figures/Figure_S11.pdf>
-Package pdftex.def Info: ./pulse/figures/Figure_S11.pdf  used on input line 181
-.
-(pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
-
+[70 <./pulse/figures/Figure_4.pdf>]
 Overfull \hbox (26.8198pt too wide) has occurred while \output is active
 \OT1/txr/m/sl/12 4.4.  PAD[]E-LAPLACE DECONVOLUTION OF POLYEXPONENTIAL DECAY SI
 GNALS \OT1/txr/m/n/12 71
  []
 
-[71 <./pulse/figures/Figure_S9.pdf>]
-<./pulse/figures/Figure_S12.png, id=7282, 1043.5788pt x 464.4552pt>
-File: ./pulse/figures/Figure_S12.png Graphic file (type png)
-<use ./pulse/figures/Figure_S12.png>
-Package pdftex.def Info: ./pulse/figures/Figure_S12.png  used on input line 192
-.
-(pdftex.def)             Requested size: 430.00462pt x 191.37752pt.
+[71 <./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf>]
+<./pulse/figures/Figure_S8.png, id=7170, 1043.5788pt x 472.6458pt>
+File: ./pulse/figures/Figure_S8.png Graphic file (type png)
+<use ./pulse/figures/Figure_S8.png>
+Package pdftex.def Info: ./pulse/figures/Figure_S8.png  used on input line 188.
 
+(pdftex.def)             Requested size: 430.00462pt x 194.75243pt.
+<./pulse/figures/Figure_S9.pdf, id=7171, 903.375pt x 501.875pt>
+File: ./pulse/figures/Figure_S9.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S9.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S9.pdf  used on input line 195.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./pulse/figures/Figure_S13.pdf, id=7283, 903.375pt x 501.875pt>
-File: ./pulse/figures/Figure_S13.pdf Graphic file (type pdf)
-<use ./pulse/figures/Figure_S13.pdf>
-Package pdftex.def Info: ./pulse/figures/Figure_S13.pdf  used on input line 199
-.
 (pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
 
 Overfull \hbox (75.26305pt too wide) has occurred while \output is active
@@ -1844,35 +1821,44 @@ Overfull \hbox (75.26305pt too wide) has occurred while \output is active
 O-CONTAINING BATTERY CATHODES
  []
 
-[72 <./pulse/figures/Figure_S10.pdf> <./pulse/figures/Figure_S11.pdf
+[72 <./pulse/figures/Figure_S7.pdf>]
+<./pulse/figures/Figure_S10.pdf, id=7221, 1212.53pt x 495.8525pt>
+File: ./pulse/figures/Figure_S10.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S10.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S10.pdf  used on input line 205
+.
+(pdftex.def)             Requested size: 430.00462pt x 175.84349pt.
 
-pdfTeX warning: /usr/bin/pdflatex (file ./pulse/figures/Figure_S11.pdf): PDF in
-clusion: multiple pdfs with page group included in a single page
->]
 
-LaTeX Warning: Text page 73 contains only floats.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \vbox (badness 1048) has occurred while \output is active []
-
+<./pulse/figures/Figure_S11.pdf, id=7222, 903.375pt x 501.875pt>
+File: ./pulse/figures/Figure_S11.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S11.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S11.pdf  used on input line 213
+.
+(pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
 
 Overfull \hbox (26.8198pt too wide) has occurred while \output is active
 \OT1/txr/m/sl/12 4.4.  PAD[]E-LAPLACE DECONVOLUTION OF POLYEXPONENTIAL DECAY SI
 GNALS \OT1/txr/m/n/12 73
  []
 
-[73 <./pulse/figures/Figure_S12.png (PNG copy)> <./pulse/figures/Figure_S13.pdf
->]
-<./pulse/figures/Figure_S14.png, id=7322, 1204.5pt x 501.5538pt>
-File: ./pulse/figures/Figure_S14.png Graphic file (type png)
-<use ./pulse/figures/Figure_S14.png>
-Package pdftex.def Info: ./pulse/figures/Figure_S14.png  used on input line 211
+[73 <./pulse/figures/Figure_S8.png (PNG copy)>]
+<./pulse/figures/Figure_S12.png, id=7227, 1043.5788pt x 464.4552pt>
+File: ./pulse/figures/Figure_S12.png Graphic file (type png)
+<use ./pulse/figures/Figure_S12.png>
+Package pdftex.def Info: ./pulse/figures/Figure_S12.png  used on input line 224
 .
-(pdftex.def)             Requested size: 430.00462pt x 179.05157pt.
-<./pulse/figures/Figure_S15.pdf, id=7323, 903.375pt x 501.875pt>
-File: ./pulse/figures/Figure_S15.pdf Graphic file (type pdf)
-<use ./pulse/figures/Figure_S15.pdf>
-Package pdftex.def Info: ./pulse/figures/Figure_S15.pdf  used on input line 219
+(pdftex.def)             Requested size: 430.00462pt x 191.37752pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./pulse/figures/Figure_S13.pdf, id=7228, 903.375pt x 501.875pt>
+File: ./pulse/figures/Figure_S13.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S13.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S13.pdf  used on input line 231
 .
 (pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
 
@@ -1881,21 +1867,21 @@ Overfull \hbox (75.26305pt too wide) has occurred while \output is active
 O-CONTAINING BATTERY CATHODES
  []
 
-[74 <./pulse/figures/Figure_S14.png (PNG copy)>]
-<./pulse/figures/Figure_S16.pdf, id=7327, 1204.5pt x 501.875pt>
-File: ./pulse/figures/Figure_S16.pdf Graphic file (type pdf)
-<use ./pulse/figures/Figure_S16.pdf>
-Package pdftex.def Info: ./pulse/figures/Figure_S16.pdf  used on input line 230
+[74 <./pulse/figures/Figure_S9.pdf>]
+<./pulse/figures/Figure_S14.png, id=7332, 1204.5pt x 501.5538pt>
+File: ./pulse/figures/Figure_S14.png Graphic file (type png)
+<use ./pulse/figures/Figure_S14.png>
+Package pdftex.def Info: ./pulse/figures/Figure_S14.png  used on input line 243
 .
-(pdftex.def)             Requested size: 430.00462pt x 179.16623pt.
+(pdftex.def)             Requested size: 430.00462pt x 179.05157pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./pulse/figures/Figure_S17.pdf, id=7328, 903.375pt x 501.875pt>
-File: ./pulse/figures/Figure_S17.pdf Graphic file (type pdf)
-<use ./pulse/figures/Figure_S17.pdf>
-Package pdftex.def Info: ./pulse/figures/Figure_S17.pdf  used on input line 237
+<./pulse/figures/Figure_S15.pdf, id=7333, 903.375pt x 501.875pt>
+File: ./pulse/figures/Figure_S15.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S15.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S15.pdf  used on input line 251
 .
 (pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
 
@@ -1904,25 +1890,16 @@ Overfull \hbox (26.8198pt too wide) has occurred while \output is active
 GNALS \OT1/txr/m/n/12 75
  []
 
-[75 <./pulse/figures/Figure_S15.pdf>]
-<./pulse/figures/Figure_S18.pdf, id=7337, 1212.53pt x 495.8525pt>
-File: ./pulse/figures/Figure_S18.pdf Graphic file (type pdf)
-<use ./pulse/figures/Figure_S18.pdf>
-Package pdftex.def Info: ./pulse/figures/Figure_S18.pdf  used on input line 247
-.
-(pdftex.def)             Requested size: 430.00462pt x 175.84349pt.
+[75 <./pulse/figures/Figure_S10.pdf> <./pulse/figures/Figure_S11.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pulse/figures/Figure_S11.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Text page 76 contains only floats.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./pulse/figures/Figure_S19.pdf, id=7338, 903.375pt x 501.875pt>
-File: ./pulse/figures/Figure_S19.pdf Graphic file (type pdf)
-<use ./pulse/figures/Figure_S19.pdf>
-Package pdftex.def Info: ./pulse/figures/Figure_S19.pdf  used on input line 255
-.
-(pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
-
-Overfull \vbox (63.82855pt too high) has occurred while \output is active []
+Underfull \vbox (badness 1048) has occurred while \output is active []
 
 
 Overfull \hbox (75.26305pt too wide) has occurred while \output is active
@@ -1930,8 +1907,10 @@ Overfull \hbox (75.26305pt too wide) has occurred while \output is active
 O-CONTAINING BATTERY CATHODES
  []
 
-[76 <./pulse/figures/Figure_S16.pdf> <./pulse/figures/Figure_S17.pdf>]
-Underfull \vbox (badness 1466) has occurred while \output is active []
+[76 <./pulse/figures/Figure_S12.png (PNG copy)> <./pulse/figures/Figure_S13.pdf
+>]
+
+LaTeX Warning: Text page 77 contains only floats.
 
 
 Overfull \hbox (26.8198pt too wide) has occurred while \output is active
@@ -1939,28 +1918,79 @@ Overfull \hbox (26.8198pt too wide) has occurred while \output is active
 GNALS \OT1/txr/m/n/12 77
  []
 
-[77 <./pulse/figures/Figure_S18.pdf> <./pulse/figures/Figure_S19.pdf>])
+[77 <./pulse/figures/Figure_S14.png (PNG copy)> <./pulse/figures/Figure_S15.pdf
+>]
+<./pulse/figures/Figure_S16.pdf, id=7380, 1204.5pt x 501.875pt>
+File: ./pulse/figures/Figure_S16.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S16.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S16.pdf  used on input line 262
+.
+(pdftex.def)             Requested size: 430.00462pt x 179.16623pt.
+<./pulse/figures/Figure_S17.pdf, id=7381, 903.375pt x 501.875pt>
+File: ./pulse/figures/Figure_S17.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S17.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S17.pdf  used on input line 269
+.
+(pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
+
 Overfull \hbox (75.26305pt too wide) has occurred while \output is active
 \OT1/txr/m/n/12 78 \OT1/txr/m/sl/12 CHAPTER 4.  PULSED EPR SPECTROSCOPY OF TEMP
 O-CONTAINING BATTERY CATHODES
  []
 
-[78]
+[78 <./pulse/figures/Figure_S16.pdf> <./pulse/figures/Figure_S17.pdf>]
+<./pulse/figures/Figure_S18.pdf, id=7411, 1212.53pt x 495.8525pt>
+File: ./pulse/figures/Figure_S18.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S18.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S18.pdf  used on input line 279
+.
+(pdftex.def)             Requested size: 430.00462pt x 175.84349pt.
+<./pulse/figures/Figure_S19.pdf, id=7412, 903.375pt x 501.875pt>
+File: ./pulse/figures/Figure_S19.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S19.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S19.pdf  used on input line 287
+.
+(pdftex.def)             Requested size: 387.00153pt x 215.0056pt.
+
+Overfull \hbox (26.8198pt too wide) has occurred while \output is active
+\OT1/txr/m/sl/12 4.4.  PAD[]E-LAPLACE DECONVOLUTION OF POLYEXPONENTIAL DECAY SI
+GNALS \OT1/txr/m/n/12 79
+ []
+
+[79 <./pulse/figures/Figure_S18.pdf> <./pulse/figures/Figure_S19.pdf>])
+Overfull \hbox (75.26305pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 80 \OT1/txr/m/sl/12 CHAPTER 4.  PULSED EPR SPECTROSCOPY OF TEMP
+O-CONTAINING BATTERY CATHODES
+ []
+
+[80]
+Overfull \hbox (26.8198pt too wide) has occurred while \output is active
+\OT1/txr/m/sl/12 4.4.  PAD[]E-LAPLACE DECONVOLUTION OF POLYEXPONENTIAL DECAY SI
+GNALS \OT1/txr/m/n/12 81
+ []
+
+[81]
 \openout2 = `outlook/outlook.aux'.
 
  (./outlook/outlook.tex
+Overfull \hbox (75.26305pt too wide) has occurred while \output is active
+\OT1/txr/m/n/12 82 \OT1/txr/m/sl/12 CHAPTER 4.  PULSED EPR SPECTROSCOPY OF TEMP
+O-CONTAINING BATTERY CATHODES
+ []
+
+[82
+
+
+
+
+]
 Chapter 5.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-) [79
-
-
-
-
-] (./my_thisis.bbl [80
+) [83] (./my_thisis.bbl [84
 
 
 
@@ -1982,28 +2012,28 @@ Underfull \hbox (badness 2653) in paragraph at lines 63--66
 Poly-mers for En-ergy and
  []
 
-[81] [82] [83] [84] [85] [86]
-Underfull \hbox (badness 1946) in paragraph at lines 387--392
+[85] [86] [87] [88] [89] [90]
+Underfull \hbox (badness 1946) in paragraph at lines 393--398
 []\OT1/txr/m/n/12 Arvid Niem[]oller, Pe-ter Jakes, Svit-lana Eu-rich, Anja Paul
 us, Hans Kungl,
  []
 
-[87] [88]
-Underfull \hbox (badness 1163) in paragraph at lines 549--554
+[91] [92] [93]
+Underfull \hbox (badness 1163) in paragraph at lines 562--567
 []\OT1/txr/m/n/12 Anatoliy A. Vereshcha-gin, Ar-seniy Y. Kalnin, Alexey I. Volk
 ov, Daniil A.
  []
 
-[89] [90]
-Underfull \hbox (badness 1286) in paragraph at lines 631--636
+[94]
+Underfull \hbox (badness 1286) in paragraph at lines 650--655
 []\OT1/txr/m/n/12 Yiren Zhang, Al-bert M. Park, Stephen R. McMil-lan, Nicholas 
 J. Har-mon,
  []
 
-) [91]
+) [95]
 \openout2 = `appendix/A-EMRE.aux'.
 
- (./appendix/A-EMRE.tex [92
+ (./appendix/A-EMRE.tex [96
 
 
 ]
@@ -2012,7 +2042,7 @@ LaTeX Font Info:    Trying to load font information for OT1+txtt on input line
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
-)) [93]
+)) [97]
 (./my_thisis.aux (./summary/list_of_abbreviations.aux)
 (./introduction/introduction.aux) (./electrochemistry/electrochemistry.aux)
 (./operando_epr/operando_epr.aux) (./pulse/pulse.aux) (./outlook/outlook.aux)
@@ -2025,10 +2055,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14328 strings out of 478287
- 316067 string characters out of 5849289
- 619991 words of memory out of 5000000
- 32207 multiletter control sequences out of 15000+600000
+ 14362 strings out of 478287
+ 317306 string characters out of 5849289
+ 620054 words of memory out of 5000000
+ 32237 multiletter control sequences out of 15000+600000
  516914 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,14n,117p,2067b,1121s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2046,10 +2076,10 @@ ic/txfonts/txtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on my_thisis.pdf (93 pages, 28547767 bytes).
+Output written on my_thisis.pdf (97 pages, 28855107 bytes).
 PDF statistics:
- 7519 PDF objects out of 8907 (max. 8388607)
- 5109 compressed objects within 52 object streams
+ 7570 PDF objects out of 8907 (max. 8388607)
+ 5145 compressed objects within 52 object streams
  0 named destinations out of 1000 (max. 500000)
- 241 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 261 words of extra memory for PDF output out of 10000 (max. 10000000)
 

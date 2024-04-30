@@ -12,7 +12,7 @@
 \contentsline {section}{\numberline {2.5}Organic Electrode Materials}{19}{}%
 \contentsline {subsection}{\numberline {2.5.1}TEMPO}{19}{}%
 \contentsline {subsection}{\numberline {2.5.2}PTMA}{20}{}%
-\contentsline {subsection}{\numberline {2.5.3}NiSalen}{20}{}%
+\contentsline {subsection}{\numberline {2.5.3}NiSalen}{21}{}%
 \contentsline {subsection}{\numberline {2.5.4}Poly-Di-TEMPO-Salens}{21}{}%
 \contentsline {subsection}{\numberline {2.5.5}Electro-polymerization of TEMPO-Salens}{21}{}%
 \contentsline {subsection}{\numberline {2.5.6}Charge Transport Model for Redox Conductive Polymers}{24}{}%
@@ -58,13 +58,13 @@
 \contentsline {subsection}{\numberline {4.3.2}Estimation of Local Spin Concentrations with Instantaneous Diffusion}{66}{}%
 \contentsline {subsection}{\numberline {4.3.3}Spin Relaxation in a charged pDiTBuS Cathode Film}{66}{}%
 \contentsline {section}{\numberline {4.4}Pad{\'e}-Laplace Deconvolution of Polyexponential Decay Signals}{66}{}%
-\contentsline {subsection}{\numberline {4.4.1}Pad{\'e}-Laplace Deconvolution of the Echo-Decay and Inversion-Recovery Transients}{69}{}%
-\contentsline {subsubsection}{Echo Decay in 50 mM TEMPOL}{70}{}%
-\contentsline {subsubsection}{Echo Decay in DiTBuS 95\% ESOC}{71}{}%
-\contentsline {subsubsection}{Echo Decay in DiTBuS 85\% ESOC}{72}{}%
-\contentsline {subsubsection}{Inversion Recovery in 50 mM TEMPOL}{74}{}%
-\contentsline {subsubsection}{Inversion Recovery in DiTBuS 95\% ESOC}{75}{}%
-\contentsline {subsubsection}{Inversion Recovery in DiTBuS 85\% ESOC}{76}{}%
-\contentsline {subsection}{\numberline {4.4.2}Detection of Domains with Poor Conductivity}{76}{}%
-\contentsline {subsection}{\numberline {4.4.3}Towards Electron Resonance Imaging of Spin Concentrations in Battery Electrodes}{76}{}%
-\contentsline {chapter}{\numberline {5}Conclusions and Outlook}{79}{}%
+\contentsline {subsection}{\numberline {4.4.1}Pad{\'e}-Laplace Deconvolution of the Echo-Decay and Inversion-Recovery Transients}{71}{}%
+\contentsline {subsubsection}{Echo Decay in 50 mM TEMPOL}{72}{}%
+\contentsline {subsubsection}{Echo Decay in DiTBuS 95\% ESOC}{73}{}%
+\contentsline {subsubsection}{Echo Decay in DiTBuS 85\% ESOC}{74}{}%
+\contentsline {subsubsection}{Inversion Recovery in 50 mM TEMPOL}{75}{}%
+\contentsline {subsubsection}{Inversion Recovery in DiTBuS 95\% ESOC}{78}{}%
+\contentsline {subsubsection}{Inversion Recovery in DiTBuS 85\% ESOC}{79}{}%
+\contentsline {subsection}{\numberline {4.4.2}Detection of Domains with Poor Conductivity}{80}{}%
+\contentsline {subsection}{\numberline {4.4.3}Towards Electron Resonance Imaging of Spin Concentrations in Battery Electrodes}{80}{}%
+\contentsline {chapter}{\numberline {5}Conclusions and Outlook}{83}{}%
