@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  30 APR 2024 22:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  1 MAY 2024 15:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -554,8 +554,11 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 6
 File: ot1txr.fd 2000/12/15 v3.1
 ) (./my_thisis.aux
 (./summary/list_of_abbreviations.aux) (./introduction/introduction.aux)
-(./electrochemistry/electrochemistry.aux) (./operando_epr/operando_epr.aux)
-(./pulse/pulse.aux
+(./electrochemistry/electrochemistry.aux
+
+LaTeX Warning: Label `fig:Figure_1' multiply defined.
+
+) (./operando_epr/operando_epr.aux) (./pulse/pulse.aux
 
 LaTeX Warning: Label `eq:Bloch' multiply defined.
 
@@ -971,54 +974,51 @@ File: ./introduction/figures/Figure_1.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./introduction/figures/Figure_1.pdf  used on input lin
 e 129.
 (pdftex.def)             Requested size: 301.00192pt x 216.6986pt.
-<./electrochemistry/figures/DFT_DITS.pdf, id=132, 1741.91328pt x 1369.2972pt>
+<./electrochemistry/figures/materials/DiTS_SEM.png, id=132, 466.8642pt x 320.15
+61pt>
+File: ./electrochemistry/figures/materials/DiTS_SEM.png Graphic file (type png)
+
+<use ./electrochemistry/figures/materials/DiTS_SEM.png>
+Package pdftex.def Info: ./electrochemistry/figures/materials/DiTS_SEM.png  use
+d on input line 138.
+(pdftex.def)             Requested size: 301.00192pt x 206.41849pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./electrochemistry/figures/DFT_DITS.pdf, id=134, 1741.91328pt x 1369.2972pt>
 File: ./electrochemistry/figures/DFT_DITS.pdf Graphic file (type pdf)
 <use ./electrochemistry/figures/DFT_DITS.pdf>
 Package pdftex.def Info: ./electrochemistry/figures/DFT_DITS.pdf  used on input
- line 136.
+ line 145.
 (pdftex.def)             Requested size: 430.00462pt x 338.01935pt.
 
+LaTeX Warning: Citation `ORCA' on page 23 undefined on input line 146.
 
-LaTeX Warning: Citation `ORCA' on page 23 undefined on input line 137.
 
-
-LaTeX Warning: Citation `ORCA' on page 23 undefined on input line 137.
+LaTeX Warning: Citation `ORCA' on page 23 undefined on input line 146.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./electrochemistry/figures/DITBUS_DEPO.pdf, id=133, 1150.2975pt x 481.8pt>
+<./electrochemistry/figures/DITBUS_DEPO.pdf, id=135, 1150.2975pt x 481.8pt>
 File: ./electrochemistry/figures/DITBUS_DEPO.pdf Graphic file (type pdf)
 <use ./electrochemistry/figures/DITBUS_DEPO.pdf>
 Package pdftex.def Info: ./electrochemistry/figures/DITBUS_DEPO.pdf  used on in
-put line 145.
+put line 154.
 (pdftex.def)             Requested size: 430.00462pt x 180.10847pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--165
+Underfull \hbox (badness 10000) in paragraph at lines 164--174
 
  []
 
 [23 <./introduction/figures/Figure_1.pdf>]
-Overfull \hbox (9.92664pt too wide) in paragraph at lines 166--171
-\OT1/txr/m/n/12 monomer molecules and de-posited poly-mer lay-ers grow rapidly 
-above the A (Fig-ure FAC2A)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--171
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 7379) has occurred while \output is active []
 
 
 Overfull \hbox (81.16704pt too wide) has occurred while \output is active
@@ -1026,22 +1026,36 @@ Overfull \hbox (81.16704pt too wide) has occurred while \output is active
 IN REDOX CONDUCTIVE POLYMERS
  []
 
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 178--180
+[24 <./electrochemistry/figures/materials/DiTS_SEM.png>]
+Overfull \hbox (9.92664pt too wide) in paragraph at lines 175--180
+\OT1/txr/m/n/12 monomer molecules and de-posited poly-mer lay-ers grow rapidly 
+above the A (Fig-ure FAC2A)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--180
 
  []
 
-[25]
-<./pulse/figures/Figure_S3.pdf, id=178, 602.25pt x 481.8pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--189
+
+ []
+
+
+Underfull \vbox (badness 6332) has occurred while \output is active []
+
+ [25]
+<./pulse/figures/Figure_S3.pdf, id=179, 602.25pt x 481.8pt>
 File: ./pulse/figures/Figure_S3.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S3.pdf>
-Package pdftex.def Info: ./pulse/figures/Figure_S3.pdf  used on input line 189.
+Package pdftex.def Info: ./pulse/figures/Figure_S3.pdf  used on input line 198.
 
 (pdftex.def)             Requested size: 365.50655pt x 292.41252pt.
-<./pulse/figures/Figure_S27.pdf, id=179, 890.32625pt x 431.6125pt>
+<./pulse/figures/Figure_S27.pdf, id=180, 890.32625pt x 431.6125pt>
 File: ./pulse/figures/Figure_S27.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S27.pdf>
-Package pdftex.def Info: ./pulse/figures/Figure_S27.pdf  used on input line 196
+Package pdftex.def Info: ./pulse/figures/Figure_S27.pdf  used on input line 205
 .
 (pdftex.def)             Requested size: 430.00462pt x 208.45589pt.
 
@@ -1092,23 +1106,39 @@ MPO-SALEN ELECTROCHEMICAL CELLS
  []
 
 [34]
+
+LaTeX Warning: Citation `Schweiger2001_exch' on page 35 undefined on input line
+ 53.
+
 LaTeX Font Info:    Trying to load font information for U+dsrom on input line 5
 3.
- (/usr/share/texlive/texmf-dist/tex/latex/doublestroke/Udsrom.fd
+(/usr/share/texlive/texmf-dist/tex/latex/doublestroke/Udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
 )
+
+LaTeX Warning: Citation `Schweiger2001_exch' on page 35 undefined on input line
+ 56.
+
+
+LaTeX Warning: Citation `Schweiger2001_exch' on page 35 undefined on input line
+ 56.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
 [35]
-<./operando_epr/figures/energy_diagram.pdf, id=233, 822.28464pt x 512.1496pt>
+
+LaTeX Warning: Citation `Schweiger2001_exch' on page 36 undefined on input line
+ 62.
+
+<./operando_epr/figures/energy_diagram.pdf, id=236, 822.28464pt x 512.1496pt>
 File: ./operando_epr/figures/energy_diagram.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/energy_diagram.pdf>
 Package pdftex.def Info: ./operando_epr/figures/energy_diagram.pdf  used on inp
 ut line 76.
 (pdftex.def)             Requested size: 430.00462pt x 267.81975pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1119,7 +1149,7 @@ MPO-SALEN ELECTROCHEMICAL CELLS
  []
 
 [36]
-<../scripts/plots/Free_Electron_EPRcombo.pdf, id=237, 700.11563pt x 228.855pt>
+<../scripts/plots/Free_Electron_EPRcombo.pdf, id=240, 700.11563pt x 228.855pt>
 File: ../scripts/plots/Free_Electron_EPRcombo.pdf Graphic file (type pdf)
 <use ../scripts/plots/Free_Electron_EPRcombo.pdf>
 Package pdftex.def Info: ../scripts/plots/Free_Electron_EPRcombo.pdf  used on i
@@ -1130,7 +1160,7 @@ nput line 94.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [37 <./operando_epr/figures/energy_diagram.pdf>]
-<./operando_epr/figures/cwEPR_spectrometer_diagram.pdf, id=244, 368.19757pt x 2
+<./operando_epr/figures/cwEPR_spectrometer_diagram.pdf, id=247, 368.19757pt x 2
 11.42578pt>
 File: ./operando_epr/figures/cwEPR_spectrometer_diagram.pdf Graphic file (type 
 pdf)
@@ -1165,7 +1195,7 @@ LaTeX Warning: Reference `fig:TEMPO_dft' on page 40 undefined on input line 138
 LaTeX Warning: Reference `fig:cwEPR_monoTEMPO_diTEMPO' on page 40 undefined on 
 input line 141.
 
-<./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT.pdf, id=261, 725.71124pt
+<./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT.pdf, id=264, 725.71124pt
  x 228.855pt>
 File: ./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT.pdf Graphic file (t
 ype pdf)
@@ -1180,7 +1210,7 @@ MPO-SALEN ELECTROCHEMICAL CELLS
  []
 
 [40]
-<./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT_POWDER.pdf, id=265, 725.
+<./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT_POWDER.pdf, id=268, 725.
 71124pt x 228.855pt>
 File: ./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT_POWDER.pdf Graphic 
 file (type pdf)
@@ -1188,7 +1218,7 @@ file (type pdf)
 Package pdftex.def Info: ./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT_
 POWDER.pdf  used on input line 151.
 (pdftex.def)             Requested size: 430.00462pt x 135.60645pt.
-<./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_100mM_vs_p1mM_80K.pdf, id=266, 725.
+<./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_100mM_vs_p1mM_80K.pdf, id=269, 725.
 71124pt x 228.855pt>
 File: ./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_100mM_vs_p1mM_80K.pdf Graphic 
 file (type pdf)
@@ -1249,14 +1279,14 @@ LaTeX Warning: Citation `Vereshchagin_2020' on page 43 undefined on input line
 LaTeX Warning: Reference `fig:cwEPR_TEMPOL_High_Low_Concentrations, right' on p
 age 43 undefined on input line 195.
 
-<./operando_epr/figures/CRYO/S220104_CW.pdf, id=282, 812.03375pt x 537.00626pt>
+<./operando_epr/figures/CRYO/S220104_CW.pdf, id=285, 812.03375pt x 537.00626pt>
 
 File: ./operando_epr/figures/CRYO/S220104_CW.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/CRYO/S220104_CW.pdf>
 Package pdftex.def Info: ./operando_epr/figures/CRYO/S220104_CW.pdf  used on in
 put line 199.
 (pdftex.def)             Requested size: 430.00462pt x 284.36613pt.
-<./operando_epr/figures/CRYO/cw_sim_pDiTS_210318_700mV_2comp.pdf, id=283, 481.8
+<./operando_epr/figures/CRYO/cw_sim_pDiTS_210318_700mV_2comp.pdf, id=286, 481.8
 pt x 316.18124pt>
 File: ./operando_epr/figures/CRYO/cw_sim_pDiTS_210318_700mV_2comp.pdf Graphic f
 ile (type pdf)
@@ -1267,7 +1297,7 @@ Package pdftex.def Info: ./operando_epr/figures/CRYO/cw_sim_pDiTS_210318_700mV_
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./operando_epr/figures/CRYO/S220106_p-DiTS_OX_80K_CW_SIM.pdf, id=284, 909.3975
+<./operando_epr/figures/CRYO/S220106_p-DiTS_OX_80K_CW_SIM.pdf, id=287, 909.3975
 pt x 450.68375pt>
 File: ./operando_epr/figures/CRYO/S220106_p-DiTS_OX_80K_CW_SIM.pdf Graphic file
  (type pdf)
@@ -1278,7 +1308,7 @@ IM.pdf  used on input line 214.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./operando_epr/figures/CRYO/Figure_S7_new.pdf, id=285, 646.415pt x 827.09pt>
+<./operando_epr/figures/CRYO/Figure_S7_new.pdf, id=288, 646.415pt x 827.09pt>
 File: ./operando_epr/figures/CRYO/Figure_S7_new.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/CRYO/Figure_S7_new.pdf>
 Package pdftex.def Info: ./operando_epr/figures/CRYO/Figure_S7_new.pdf  used on
@@ -1296,7 +1326,7 @@ LaTeX Warning: Float too large for page by 129.38734pt on input line 226.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./operando_epr/figures/CRYO/Figure_S8.pdf, id=286, 525.965pt x 793.96625pt>
+<./operando_epr/figures/CRYO/Figure_S8.pdf, id=289, 525.965pt x 793.96625pt>
 File: ./operando_epr/figures/CRYO/Figure_S8.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/CRYO/Figure_S8.pdf>
 Package pdftex.def Info: ./operando_epr/figures/CRYO/Figure_S8.pdf  used on inp
@@ -1308,7 +1338,7 @@ LaTeX Warning: Float too large for page by 126.82036pt on input line 236.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./operando_epr/figures/backbone/NiMeOS_lyra_overnight_RT.png, id=287, 460.3599
+<./operando_epr/figures/backbone/NiMeOS_lyra_overnight_RT.png, id=290, 460.3599
 pt x 352.6776pt>
 File: ./operando_epr/figures/backbone/NiMeOS_lyra_overnight_RT.png Graphic file
  (type png)
@@ -1332,7 +1362,7 @@ MPO-SALEN ELECTROCHEMICAL CELLS
  []
 
 [44 <./operando_epr/figures/CRYO/S220104_CW.pdf>]
-<./operando_epr/figures/Flat_tube_setup.pdf, id=301, 2817.02437pt x 3237.09375p
+<./operando_epr/figures/Flat_tube_setup.pdf, id=303, 2817.02437pt x 3237.09375p
 t>
 File: ./operando_epr/figures/Flat_tube_setup.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/Flat_tube_setup.pdf>
@@ -1400,7 +1430,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 277--278
  []
 
 [47]
-<./operando_epr/figures/spins_at_work/Figure_S1.pdf, id=317, 2747.76563pt x 106
+<./operando_epr/figures/spins_at_work/Figure_S1.pdf, id=319, 2747.76563pt x 106
 8.99374pt>
 File: ./operando_epr/figures/spins_at_work/Figure_S1.pdf Graphic file (type pdf
 )
@@ -1417,7 +1447,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
-<./operando_epr/figures/Q_factors_mod_tube.pdf, id=318, 502.87875pt x 601.24625
+<./operando_epr/figures/Q_factors_mod_tube.pdf, id=320, 502.87875pt x 601.24625
 pt>
 File: ./operando_epr/figures/Q_factors_mod_tube.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/Q_factors_mod_tube.pdf>
@@ -1434,7 +1464,7 @@ MPO-SALEN ELECTROCHEMICAL CELLS
  []
 
 [48]
-<./operando_epr/figures/spins_at_work/Figure_S2.pdf, id=322, 1264.725pt x 676.5
+<./operando_epr/figures/spins_at_work/Figure_S2.pdf, id=324, 1264.725pt x 676.5
 275pt>
 File: ./operando_epr/figures/spins_at_work/Figure_S2.pdf Graphic file (type pdf
 )
@@ -1446,7 +1476,7 @@ ed on input line 316.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./operando_epr/figures/Cartoon_ALL.pdf, id=323, 822.28464pt x 512.1496pt>
+<./operando_epr/figures/Cartoon_ALL.pdf, id=325, 822.28464pt x 512.1496pt>
 File: ./operando_epr/figures/Cartoon_ALL.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/Cartoon_ALL.pdf>
 Package pdftex.def Info: ./operando_epr/figures/Cartoon_ALL.pdf  used on input 
@@ -1475,7 +1505,7 @@ MPO-SALEN ELECTROCHEMICAL CELLS
  []
 
 [50]
-<./operando_epr/figures/Main_2D_redox_map_full.pdf, id=331, 913.4125pt x 602.25
+<./operando_epr/figures/Main_2D_redox_map_full.pdf, id=333, 913.4125pt x 602.25
 pt>
 File: ./operando_epr/figures/Main_2D_redox_map_full.pdf Graphic file (type pdf)
 
@@ -1500,7 +1530,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 369--370
 
  []
 
-<./pulse/figures/Figure_S6.pdf, id=332, 780.53717pt x 768.36021pt>
+<./pulse/figures/Figure_S6.pdf, id=334, 780.53717pt x 768.36021pt>
 File: ./pulse/figures/Figure_S6.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S6.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S6.pdf  used on input line 376.
@@ -1533,7 +1563,7 @@ MPO-SALEN ELECTROCHEMICAL CELLS
 
 [52]
 <./operando_epr/figures/degradation/overnight_dits_201211_full_redox_contour_XY
-.pdf, id=340, 462.52798pt x 346.89601pt>
+.pdf, id=342, 462.52798pt x 346.89601pt>
 File: ./operando_epr/figures/degradation/overnight_dits_201211_full_redox_conto
 ur_XY.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/degradation/overnight_dits_201211_full_redox_contou
@@ -1546,7 +1576,7 @@ Package pdftex.def Info: ./operando_epr/figures/degradation/overnight_dits_2012
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <./operando_epr/figures/degradation/pDiTS_slow_charge_MS5000_forslides.png, id=
-341, 647.5392pt x 316.0608pt>
+343, 647.5392pt x 316.0608pt>
 File: ./operando_epr/figures/degradation/pDiTS_slow_charge_MS5000_forslides.png
  Graphic file (type png)
 <use ./operando_epr/figures/degradation/pDiTS_slow_charge_MS5000_forslides.png>
@@ -1557,7 +1587,7 @@ S5000_forslides.png  used on input line 485.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./operando_epr/figures/degradation/operando_degradation_dits.pdf, id=342, 700.
+<./operando_epr/figures/degradation/operando_degradation_dits.pdf, id=344, 700.
 6175pt x 834.11626pt>
 File: ./operando_epr/figures/degradation/operando_degradation_dits.pdf Graphic 
 file (type pdf)
@@ -1569,7 +1599,7 @@ n_dits.pdf  used on input line 493.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <./operando_epr/figures/degradation/repeated_cycling_degradation_dits.pdf, id=3
-43, 827.09pt x 823.075pt>
+45, 827.09pt x 823.075pt>
 File: ./operando_epr/figures/degradation/repeated_cycling_degradation_dits.pdf 
 Graphic file (type pdf)
 <use ./operando_epr/figures/degradation/repeated_cycling_degradation_dits.pdf>
@@ -1579,7 +1609,7 @@ gradation_dits.pdf  used on input line 500.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./operando_epr/figures/self_discharge/DOM_DITS_SELF_DISCHARGE.pdf, id=344, 451
+<./operando_epr/figures/self_discharge/DOM_DITS_SELF_DISCHARGE.pdf, id=346, 451
 .6875pt x 180.675pt>
 File: ./operando_epr/figures/self_discharge/DOM_DITS_SELF_DISCHARGE.pdf Graphic
  file (type pdf)
@@ -1590,7 +1620,7 @@ SCHARGE.pdf  used on input line 514.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./operando_epr/figures/slowcharge_231117_liquid_250K.pdf, id=345, 752.8125pt x
+<./operando_epr/figures/slowcharge_231117_liquid_250K.pdf, id=347, 752.8125pt x
  602.25pt>
 File: ./operando_epr/figures/slowcharge_231117_liquid_250K.pdf Graphic file (ty
 pe pdf)
@@ -1676,7 +1706,7 @@ MPO-SALEN ELECTROCHEMICAL CELLS
 
 ]
 Chapter 4.
-<./pulse/figures/pEPR_spectrometer_diagram.pdf, id=7145, 368.19757pt x 196.7437
+<./pulse/figures/pEPR_spectrometer_diagram.pdf, id=7147, 368.19757pt x 196.7437
 7pt>
 File: ./pulse/figures/pEPR_spectrometer_diagram.pdf Graphic file (type pdf)
 <use ./pulse/figures/pEPR_spectrometer_diagram.pdf>
@@ -1695,7 +1725,7 @@ O-CONTAINING BATTERY CATHODES
  []
 
 [72 <./pulse/figures/pEPR_spectrometer_diagram.pdf>]
-<./pulse/figures/FGMR/ID/ID_vs_ISO.pdf, id=7154, 903.375pt x 526.96875pt>
+<./pulse/figures/FGMR/ID/ID_vs_ISO.pdf, id=7156, 903.375pt x 526.96875pt>
 File: ./pulse/figures/FGMR/ID/ID_vs_ISO.pdf Graphic file (type pdf)
 <use ./pulse/figures/FGMR/ID/ID_vs_ISO.pdf>
 Package pdftex.def Info: ./pulse/figures/FGMR/ID/ID_vs_ISO.pdf  used on input l
@@ -1710,7 +1740,7 @@ Overfull \hbox (6.7449pt too wide) in paragraph at lines 57--57
 []\OT1/txr/bx/n/17.28 Pulsed EPR Spec-troscopy of a charged pDiT-BuS Cath-
  []
 
-<./pulse/figures/SAW_Figure_8.pdf, id=7155, 713.66624pt x 390.45876pt>
+<./pulse/figures/SAW_Figure_8.pdf, id=7157, 713.66624pt x 390.45876pt>
 File: ./pulse/figures/SAW_Figure_8.pdf Graphic file (type pdf)
 <use ./pulse/figures/SAW_Figure_8.pdf>
 Package pdftex.def Info: ./pulse/figures/SAW_Figure_8.pdf  used on input line 6
@@ -1723,7 +1753,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./pulse/figures/Figure_3_INTS.pdf, id=7160, 965.13289pt x 323.70938pt>
+<./pulse/figures/Figure_3_INTS.pdf, id=7162, 965.13289pt x 323.70938pt>
 File: ./pulse/figures/Figure_3_INTS.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_3_INTS.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_3_INTS.pdf  used on input line 
@@ -1732,7 +1762,7 @@ Package pdftex.def Info: ./pulse/figures/Figure_3_INTS.pdf  used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./pulse/figures/Figure_6_maintext_col_MOD.pdf, id=7161, 647.41875pt x 324.2112
+<./pulse/figures/Figure_6_maintext_col_MOD.pdf, id=7163, 647.41875pt x 324.2112
 4pt>
 File: ./pulse/figures/Figure_6_maintext_col_MOD.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_6_maintext_col_MOD.pdf>
@@ -1742,7 +1772,7 @@ Package pdftex.def Info: ./pulse/figures/Figure_6_maintext_col_MOD.pdf  used on
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf, id=7162, 1415.2875pt x 677.53125p
+<./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf, id=7164, 1415.2875pt x 677.53125p
 t>
 File: ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf Graphic file (type pdf)
 <use ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf>
@@ -1764,7 +1794,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--122
  []
 
 [75 <./pulse/figures/SAW_Figure_8.pdf>]
-<./pulse/figures/Figure_4.pdf, id=7197, 435.6275pt x 445.665pt>
+<./pulse/figures/Figure_4.pdf, id=7199, 435.6275pt x 445.665pt>
 File: ./pulse/figures/Figure_4.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_4.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_4.pdf  used on input line 125.
@@ -1793,7 +1823,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
-<./pulse/figures/Figure_S26.pdf, id=7206, 647.41875pt x 324.21124pt>
+<./pulse/figures/Figure_S26.pdf, id=7208, 647.41875pt x 324.21124pt>
 File: ./pulse/figures/Figure_S26.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S26.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S26.pdf  used on input line 151
@@ -1815,7 +1845,7 @@ O-CONTAINING BATTERY CATHODES
  []
 
 [78 <./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf>]
-<./pulse/figures/Figure_S23.pdf, id=7240, 422.57875pt x 444.66125pt>
+<./pulse/figures/Figure_S23.pdf, id=7242, 422.57875pt x 444.66125pt>
 File: ./pulse/figures/Figure_S23.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S23.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S23.pdf  used on input line 189
@@ -1832,7 +1862,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 200--201
 
  []
 
-<./pulse/figures/Figure_S24.pdf, id=7248, 428.60126pt x 445.665pt>
+<./pulse/figures/Figure_S24.pdf, id=7250, 428.60126pt x 445.665pt>
 File: ./pulse/figures/Figure_S24.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S24.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S24.pdf  used on input line 204
@@ -1845,7 +1875,7 @@ O-CONTAINING BATTERY CATHODES
  []
 
 [80 <./pulse/figures/Figure_S26.pdf>]
-<./pulse/figures/Figure_S25.pdf, id=7256, 336.25626pt x 299.1175pt>
+<./pulse/figures/Figure_S25.pdf, id=7258, 336.25626pt x 299.1175pt>
 File: ./pulse/figures/Figure_S25.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S25.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S25.pdf  used on input line 219
@@ -1874,7 +1904,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--235
 
  []
 
-<./pulse/figures/Figure_5.pdf, id=7263, 1415.2875pt x 677.53125pt>
+<./pulse/figures/Figure_5.pdf, id=7265, 1415.2875pt x 677.53125pt>
 File: ./pulse/figures/Figure_5.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_5.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_5.pdf  used on input line 237.
@@ -1931,7 +1961,7 @@ ESOC 95% (a) and []to[] ESOC 85%
  []
 
 [85]
-<./pulse/figures/Figure_6.pdf, id=7332, 655.44875pt x 318.18875pt>
+<./pulse/figures/Figure_6.pdf, id=7334, 655.44875pt x 318.18875pt>
 File: ./pulse/figures/Figure_6.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_6.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_6.pdf  used on input line 261.
@@ -1993,7 +2023,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 335--336
 
  []
 
-<./pulse/figures/Figure_S7.pdf, id=7343, 1204.5pt x 814.04124pt>
+<./pulse/figures/Figure_S7.pdf, id=7345, 1204.5pt x 814.04124pt>
 File: ./pulse/figures/Figure_S7.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S7.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S7.pdf  used on input line 341.
@@ -2012,13 +2042,13 @@ GNALS \OT1/txr/m/n/12 89
  []
 
 [89 <./pulse/figures/Figure_S7.pdf>]
-<./pulse/figures/Figure_S8.png, id=7396, 1043.5788pt x 472.6458pt>
+<./pulse/figures/Figure_S8.png, id=7398, 1043.5788pt x 472.6458pt>
 File: ./pulse/figures/Figure_S8.png Graphic file (type png)
 <use ./pulse/figures/Figure_S8.png>
 Package pdftex.def Info: ./pulse/figures/Figure_S8.png  used on input line 356.
 
 (pdftex.def)             Requested size: 430.00462pt x 194.75243pt.
-<./pulse/figures/Figure_S9.pdf, id=7397, 903.375pt x 501.875pt>
+<./pulse/figures/Figure_S9.pdf, id=7399, 903.375pt x 501.875pt>
 File: ./pulse/figures/Figure_S9.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S9.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S9.pdf  used on input line 363.
@@ -2031,13 +2061,13 @@ O-CONTAINING BATTERY CATHODES
  []
 
 [90 <./pulse/figures/Figure_S8.png (PNG copy)> <./pulse/figures/Figure_S9.pdf>]
-<./pulse/figures/Figure_S10.pdf, id=7501, 1212.53pt x 495.8525pt>
+<./pulse/figures/Figure_S10.pdf, id=7503, 1212.53pt x 495.8525pt>
 File: ./pulse/figures/Figure_S10.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S10.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S10.pdf  used on input line 373
 .
 (pdftex.def)             Requested size: 215.0023pt x 87.91795pt.
-<./pulse/figures/Figure_S11.pdf, id=7502, 903.375pt x 501.875pt>
+<./pulse/figures/Figure_S11.pdf, id=7504, 903.375pt x 501.875pt>
 File: ./pulse/figures/Figure_S11.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S11.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S11.pdf  used on input line 381
@@ -2054,13 +2084,13 @@ GNALS \OT1/txr/m/n/12 91
 pdfTeX warning: /usr/bin/pdflatex (file ./pulse/figures/Figure_S11.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >]
-<./pulse/figures/Figure_S12.png, id=7534, 1043.5788pt x 464.4552pt>
+<./pulse/figures/Figure_S12.png, id=7536, 1043.5788pt x 464.4552pt>
 File: ./pulse/figures/Figure_S12.png Graphic file (type png)
 <use ./pulse/figures/Figure_S12.png>
 Package pdftex.def Info: ./pulse/figures/Figure_S12.png  used on input line 392
 .
 (pdftex.def)             Requested size: 215.0023pt x 95.68875pt.
-<./pulse/figures/Figure_S13.pdf, id=7535, 903.375pt x 501.875pt>
+<./pulse/figures/Figure_S13.pdf, id=7537, 903.375pt x 501.875pt>
 File: ./pulse/figures/Figure_S13.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S13.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S13.pdf  used on input line 399
@@ -2074,13 +2104,13 @@ O-CONTAINING BATTERY CATHODES
 
 [92 <./pulse/figures/Figure_S12.png (PNG copy)> <./pulse/figures/Figure_S13.pdf
 >]
-<./pulse/figures/Figure_S14.png, id=7544, 1204.5pt x 501.5538pt>
+<./pulse/figures/Figure_S14.png, id=7546, 1204.5pt x 501.5538pt>
 File: ./pulse/figures/Figure_S14.png Graphic file (type png)
 <use ./pulse/figures/Figure_S14.png>
 Package pdftex.def Info: ./pulse/figures/Figure_S14.png  used on input line 411
 .
 (pdftex.def)             Requested size: 215.0023pt x 89.52579pt.
-<./pulse/figures/Figure_S15.pdf, id=7545, 903.375pt x 501.875pt>
+<./pulse/figures/Figure_S15.pdf, id=7547, 903.375pt x 501.875pt>
 File: ./pulse/figures/Figure_S15.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S15.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S15.pdf  used on input line 419
@@ -2094,13 +2124,13 @@ GNALS \OT1/txr/m/n/12 93
 
 [93 <./pulse/figures/Figure_S14.png (PNG copy)> <./pulse/figures/Figure_S15.pdf
 >]
-<./pulse/figures/Figure_S16.pdf, id=7554, 1204.5pt x 501.875pt>
+<./pulse/figures/Figure_S16.pdf, id=7556, 1204.5pt x 501.875pt>
 File: ./pulse/figures/Figure_S16.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S16.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S16.pdf  used on input line 430
 .
 (pdftex.def)             Requested size: 215.0023pt x 89.58311pt.
-<./pulse/figures/Figure_S17.pdf, id=7555, 903.375pt x 501.875pt>
+<./pulse/figures/Figure_S17.pdf, id=7557, 903.375pt x 501.875pt>
 File: ./pulse/figures/Figure_S17.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S17.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S17.pdf  used on input line 437
@@ -2113,13 +2143,13 @@ O-CONTAINING BATTERY CATHODES
  []
 
 [94 <./pulse/figures/Figure_S16.pdf> <./pulse/figures/Figure_S17.pdf>]
-<./pulse/figures/Figure_S18.pdf, id=7585, 1212.53pt x 495.8525pt>
+<./pulse/figures/Figure_S18.pdf, id=7587, 1212.53pt x 495.8525pt>
 File: ./pulse/figures/Figure_S18.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S18.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S18.pdf  used on input line 447
 .
 (pdftex.def)             Requested size: 215.0023pt x 87.91795pt.
-<./pulse/figures/Figure_S19.pdf, id=7586, 903.375pt x 501.875pt>
+<./pulse/figures/Figure_S19.pdf, id=7588, 903.375pt x 501.875pt>
 File: ./pulse/figures/Figure_S19.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S19.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S19.pdf  used on input line 455
@@ -2205,13 +2235,13 @@ us, Hans Kungl,
  []
 
 [107] [108] [109]
-Underfull \hbox (badness 1163) in paragraph at lines 580--585
+Underfull \hbox (badness 1163) in paragraph at lines 575--580
 []\OT1/txr/m/n/12 Anatoliy A. Vereshcha-gin, Ar-seniy Y. Kalnin, Alexey I. Volk
 ov, Daniil A.
  []
 
 [110]
-Underfull \hbox (badness 1286) in paragraph at lines 668--673
+Underfull \hbox (badness 1286) in paragraph at lines 663--668
 []\OT1/txr/m/n/12 Yiren Zhang, Al-bert M. Park, Stephen R. McMil-lan, Nicholas 
 J. Har-mon,
  []
@@ -2241,10 +2271,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14643 strings out of 478287
- 326377 string characters out of 5849289
- 655366 words of memory out of 5000000
- 32498 multiletter control sequences out of 15000+600000
+ 14649 strings out of 478287
+ 326694 string characters out of 5849289
+ 655362 words of memory out of 5000000
+ 32503 multiletter control sequences out of 15000+600000
  525583 words of font info for 154 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,14n,117p,2067b,1121s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2264,10 +2294,10 @@ share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/font
 s/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
 es/utmri8a.pfb>
-Output written on my_thisis.pdf (113 pages, 33289471 bytes).
+Output written on my_thisis.pdf (113 pages, 37788392 bytes).
 PDF statistics:
- 7752 PDF objects out of 8907 (max. 8388607)
+ 7754 PDF objects out of 8907 (max. 8388607)
  5270 compressed objects within 53 object streams
  0 named destinations out of 1000 (max. 500000)
- 306 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 311 words of extra memory for PDF output out of 10000 (max. 10000000)
 

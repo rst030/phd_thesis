@@ -16,8 +16,8 @@
 \contentsline {subsection}{\numberline {2.5.3}NiSalen}{22}{}%
 \contentsline {subsection}{\numberline {2.5.4}Poly-Di-TEMPO-Salens}{22}{}%
 \contentsline {subsection}{\numberline {2.5.5}Electro-polymerization of TEMPO-Salens}{23}{}%
-\contentsline {subsection}{\numberline {2.5.6}Ag/AgCl reference electrode}{25}{}%
-\contentsline {section}{\numberline {2.6}Ex Situ Electrochemistry}{25}{}%
+\contentsline {subsection}{\numberline {2.5.6}Ag/AgCl reference electrode}{26}{}%
+\contentsline {section}{\numberline {2.6}Ex Situ Electrochemistry}{26}{}%
 \contentsline {chapter}{\numberline {3}Operando EPR Spectroscopy of TEMPO-Salen Electrochemical Cells}{33}{}%
 \contentsline {section}{\numberline {3.1}Electron Paramagnetic Resonance}{33}{}%
 \contentsline {subsection}{\numberline {3.1.1}The Spin Hamiltonian}{33}{}%
