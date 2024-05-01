@@ -77,13 +77,6 @@ Davis~Thomas Daniel, Steffen Oevermann, Souvik Mitra, Katharina Rudolf, Andreas
   impact on organic radical battery performance.
 \newblock {\em Scientific Reports}, 13, 12 2023.
 
-\bibitem{Daniel2023}
-Davis~Thomas Daniel, Conrad Szczuka, Peter Jakes, Rüdiger-A. Eichel, and Josef
-  Granwehr.
-\newblock Laplace inverted pulsed epr relaxation to study contact between
-  active material and carbon black in li–organic battery cathodes.
-\newblock {\em Physical Chemistry Chemical Physics}, 25:12767--12776, 2023.
-
 \bibitem{Degen2022}
 Florian Degen and Marius Schütte.
 \newblock Life cycle assessment of the energy consumption and ghg emissions of
@@ -198,12 +191,6 @@ Xiyue He and Xuelai Zhang.
 \newblock A comprehensive review of supercapacitors: Properties, electrodes,
   electrolytes and thermal management systems based on phase change materials,
   12 2022.
-
-\bibitem{Hellen2005}
-Edward~H. Hellen.
-\newblock Padé–laplace analysis of signal averaged voltage decays obtained
-  from a simple circuit.
-\newblock {\em American Journal of Physics}, 73:871--875, 2005.
 
 \bibitem{Hellen_2005}
 Edward~H. Hellen.
@@ -513,7 +500,11 @@ Pierre~Olivier Schwartz, Marijana Pejic, Mario Wachtler, and Peter Bäuerle.
   as potential cathode materials in rechargeable batteries.
 \newblock {\em Synthetic Metals}, 243:51--57, 9 2018.
 
+<<<<<<< HEAD
 \bibitem{Schweiger2001}
+=======
+\bibitem{Schweiger2001_exch}
+>>>>>>> parent of 71f6e68 (major changes ESI SAW+FSEDTBS pulse section)
 A~Schweiger and G~Jeschke.
 \newblock {\em Principles of Pulse Electron Paramagnetic Resonance}.
 \newblock Oxford University Press, 2001.

@@ -65,6 +65,7 @@ Warning--I didn't find a database entry for "SI:Matlab"
 Warning--I didn't find a database entry for "Kulikov2022_SI"
 Warning--can't use both author and editor fields in Casado_2021_book
 Warning--empty booktitle in nishide_2009
+<<<<<<< HEAD
 You've used 111 entries,
             2118 wiz_defined-function locations,
             1238 strings with 27010 characters,
@@ -106,4 +107,47 @@ warning$ -- 2
 while$ -- 308
 width$ -- 114
 write$ -- 1182
+=======
+You've used 109 entries,
+            2118 wiz_defined-function locations,
+            1222 strings with 26608 characters,
+and the built_in function-call counts, 40417 in all, are:
+= -- 3702
+> -- 2632
+< -- 4
++ -- 1054
+- -- 928
+* -- 3233
+:= -- 7051
+add.period$ -- 315
+call.type$ -- 109
+change.case$ -- 786
+chr.to.int$ -- 0
+cite$ -- 111
+duplicate$ -- 1174
+empty$ -- 2700
+format.name$ -- 928
+if$ -- 8111
+int.to.chr$ -- 0
+int.to.str$ -- 109
+missing$ -- 105
+newline$ -- 536
+num.names$ -- 218
+pop$ -- 709
+preamble$ -- 1
+purify$ -- 682
+quote$ -- 0
+skip$ -- 823
+stack$ -- 0
+substring$ -- 2264
+swap$ -- 132
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 420
+warning$ -- 2
+while$ -- 302
+width$ -- 112
+write$ -- 1160
+>>>>>>> parent of 71f6e68 (major changes ESI SAW+FSEDTBS pulse section)
 (There were 2 error messages)

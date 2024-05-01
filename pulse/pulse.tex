@@ -55,8 +55,6 @@ A short microwave pulse may have a spectral width comparable to the width of the
 
 
 \section{Pulsed EPR Spectroscopy of a charged pDiTBuS Cathode film}
-\subsection{Ex Situ Charging of the Cathode Films}
-
 
 
 \begin{figure}[h]
@@ -68,18 +66,24 @@ A short microwave pulse may have a spectral width comparable to the width of the
 
 \begin{figure}[h]
 \center
-	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_3_INTS.pdf}
-	\caption{a): cwEPR spectra for pDiTBuS charged to 95\% and 85\%, and for a frozen 0.1~\si{\milli\Molar}  solution of TEMPOL. Normalized intensities. Temperature 80~K. b): Corresponding \rs{pEPR} spectra measured at 5~K. Intensities scaled by the $m_I=0$ central peak. c): Integrated cwEPR intensities show similar spectral shapes. Temperature: 80~K, microwave frequency: 9.6~GHz, field modulation: 5~G at 100~kHz. ER~4118 X-MD5 dielectric ring resonator.}
-	\label{fig:FSE_vs_CW_vs_INTS_DiTBuS}
+	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_3.pdf}
+	\caption{X}
+	\label{fig:FSE_vs_CW_DiTBuS}
 \end{figure}
-
-
 
 \begin{figure}[h]
 \center
 	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_6_maintext_col_MOD.pdf}
 	\caption{X}
 	\label{fig:FSE_reconstruction_with_T2}
+\end{figure}
+
+
+\begin{figure}[h]
+\center
+	\includegraphics[width=0.45\textwidth]{./pulse/figures/Figure_4.pdf}
+	\caption{X}
+	\label{fig:FSE_with_ID_DiTBuS}
 \end{figure}
 
 
@@ -92,181 +96,9 @@ A short microwave pulse may have a spectral width comparable to the width of the
 	\label{fig:Figure_FSE2}
 \end{figure}
 
-\subsection{Instantaneous Diffusion in Charged pDiTBuS}
-\label{S:ID}
-
-
-We have seen that \rs{the} ESOC has a strong influence on the shape of the EDFS spectra. Furthermore, the EDFS spectra of pDiTBuS are quite different from the reference spectrum of TEMPOL in a \rs{dilute} frozen solution. 
-
-High spin concentration in a pDiTBuS \rs{electrode suggests strong inter-spin dipolar couplings which cause instantaneous diffusion when probed with short (broad-band) microwave pulses~\cite{Toropov1998}, as it was observed in a PTMA/carbon mixture~\cite{Daniel2023}. Instantaneous diffusion caused by a broad-band microwave pulse shown in Figure~\ref{fig:Figure_4}, dashed-red, manifests itself in an additional field-dependent spin relaxation} \ik{factor} $V(B_0)$, \ik{that alters the relative peak intensities in the \ik{echo-detected} spectrum. For spins uniformly distributed in space, $V(B_0)$} is described~\cite{Toropov1998} by Equation~\ref{eq:inst_diff}:
-
-\begin{equation*}
-V(B_0, 2\tau, C) =
-\end{equation*}
-\begin{equation}
-\label{eq:inst_diff}
- V_0(2\tau)\exp\left(-2\tau\frac{4\pi^2}{9\sqrt{3}}\gamma^2\hbar C \langle\sin^2(\theta/2)\rangle\right)
-\end{equation}
-
-
-with
-\begin{equation*}
-\langle\sin^2(\theta/2)\rangle=
-\end{equation*}
-\begin{equation}
-\label{eq:inst_diff2}
-\frac{\int{\frac{B_1^2}{(B-B_0)^2+B_1^2}\sin^2\left(\frac{\gamma t_p}{2}\sqrt{(B-B_0)^2 +B_1^2}\right)    g(B)\mathrm{d}B}}   {\int{g(B)\mathrm{d}B}}
-\end{equation}
-
-where $B_0$ is the static magnetic field, $C$ is the concentration of spins, $\tau$ is the time between the first and second pulses in the microwave pulse sequence, $\gamma$ is the gyromagnetic ratio of the electrons at resonance, $t_p$ is the duration of the second microwave pulse, $B_1$ is the amplitude of the second microwave pulse, $g(B)$ is the EDFS spectrum at $\tau=0$ that is not affected by the instantaneous diffusion. As the resulting spectral shape depends on the spin concentration, comparing spectra simulated according to Equation~\ref{eq:inst_diff} and measured spectra thus allows us to \ik{provide information about the} local spin concentrations. \ik{Since the spin echo of the most densely packed and thus quickly relaxing spins is not detectable with the given $t_d$, the regions of the highest spin concentration do not contribute to the EDFS spectrum. Thus, $C$ is lower than the \rs{true concentration of spins in the densely packed domains and can also be lower than the }average spin concentration $\langle n\rangle$ measured with cwEPR that is most sensitive to the quickly relaxing spins}.\\
-
-\begin{figure}[ht]
-\center
-	\includegraphics[width=0.47\textwidth]{./pulse/figures/Figure_4.pdf}
-	\caption{EDFS spectrum of p-DiTBuS at ESOC 85\% (solid-green) affected by instantaneous diffusion with $t_p=40$~ns. Simulation of the spectrum with spin concentration $C=3.1\times10^{19}$~cm$^{-3}$ = 52~\si{\milli\Molar}  as a fit parameter (dashed-purple). Simulated spectrum of non-interacting TEMPO with g=[2.0099, 2.0055, 2.0026], A=[21.99, 21.43, 96.27]~MHz and 0.812~mT (lwpp) \ik{Gaussian} line shape as the starting values for the simulation (dashed-black). \ik{Excitation profile of the 40~ns pulse at $B_0=340$~mT is shown in dashed red.}}
-	\label{fig:Figure_4}
-\end{figure}
-
-\ik{We have used a 50~\si{\milli\Molar} solution of TEMPOL as a model system to explore how the excitation bandwidth affects instantaneous diffusion for nitroxides (see Section~\ref{si:TEMPOL_ID}, ESI). The EDFS spectrum recorded with $t_p=40$~ns and $\tau=120$~ns shows a distortion that corresponds to $C=9$~\si{\milli\Molar} , while for $t_p=1000$~ns no effect of instantaneous diffusion is observed.}
-We simulated the \ik{undistorted} EDFS spectrum of TEMPOL using the Easyspin toolbox~\cite{Stoll2006} for Matlab and obtained the \q{$g$} \ik{matrix} and the hyperfine coupling tensor $A$ (for simulation details see Section~\ref{esi:fse_sims}, ESI). Then we simulated the EDFS spectr\ik{um} for pDiTBuS, ESOC~85\%, using the obtained parameters and Equation \ref{eq:inst_diff} with \ik{$t_p=40$~ns and} the concentration $C$ as a fit parameter. The result of the simulation with $C=3.1\times10^{19}$~cm$^{-3}$ = 50~\si{\milli\Molar}  is shown in Figure~\ref{fig:Figure_4}. At the same time, quantitative cwEPR yields a higher spin concentration for ESOC~85\%: $\langle n\rangle = (8\pm4)\times10^{19}$~cm$^{-3}$ = 130$\pm$70~\si{\milli\Molar}.\\
-
-The ESOC~95\% spectrum cannot be simulated with Equation~\ref{eq:inst_diff} because of the increased intensity of the low-field peak. \ik{The ratio of the two remaining} peaks \ik{at ESOC~95\%} corresponds to $C=1.2\times10^{19}$~cm$^{-3}$ = 20~\si{\milli\Molar}  (see ESI, Section~\ref{esi:fse_sims_ID_full})\ik{, while cwEPR again yields a higher $\langle n\rangle=3\pm2\times10^{19}$~cm$^{-3}=50\pm30$~\si{\milli\Molar} }.
-
-
-\section{Simulations of the EDFS Spectra Considering Instantaneous Diffusion}
-\label{esi:fse_sims_ID}
-
-We used Equation~\ref{eq:inst_diff} from the main text with varying $C$ to fit the EDFS spectra affected by ID.\\
-
-
-% SELECTIVE PULSES 50 mM TEMPOL = normal nitroxide
-
-
-\subsection{\ik{EDFS in 50~\si{\milli\Molar}  TEMPOL Measured with Narrow-Band Pulses}}
-\label{si:TEMPOL_ID}
-\ik{The EDFS spectrum of a 50~\si{\milli\Molar}  frozen solution of TEMPOL measured with long (selective, narrow band) microwave pulses shows no asymmtery with $t_P=1000$~ns and $\tau=1000$~ns. The spectrum was deconvoluted into the broad ('packed') and the narrow ('dilute') components. The narrow component is an Easyspin simulation with the typical g and A tensors for a nitroxide radical (see Figure caption for parameters). The broad spectral component might correspond to densely packed agglomerates in the not perfect glass. The fit is shown in Figure~\ref{fig:Figure_S_SIM_FSE_TEMPOL}~a.}
-
-\begin{figure}[ht!]
-  \centering
-	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_S26.pdf}
-	\caption{\ik{a): EDFS of 50~\si{\milli\Molar}  TEMPOL in Acetonitrile/Dichloromethane glass measured with long (selective, narrow-band) microwave pulses. $t_{P}=1000$~ns, $\tau=1000$~ns, microwave frequency: 9.6~GHz, microwave power attenuation: 36~dB. Temperature: 5~K. 2-component spectral simulation. Dilute component: \textit{\textbf{g}}=[2.0099 2.0055 2.0026] and \textit{\textbf{A}}=[21.9850 21.4260 96.2707]~MHz. Broad component: \textit{\textbf{g}}=2.0082, lwpp=8.08~mT (Lorentzian). No effect of instantaneous diffusion is detectable with the long pulses.  b): Same, measured with short (non-selective, broad-band) microwave pulses. $t_{P}=40$~ns, $\tau=120$~ns, microwave frequency: 9.6~GHz, microwave power attenuation: 11~dB. Temperature: 5~K. 2-component spectral simulation. Dilute component: same as in (a), but affected by the instantaneous diffusion with $C=5.6\times10^{18}$~cm$^{-3}$. Broad component: integrated cwEPR spectrum.}}
-	\label{fig:Figure_S_SIM_FSE_TEMPOL}
-\end{figure}
-%
-%
-%
-%% BROAD-BAND PULSES 50 mM TEMPOL = crooked nitroxide
-%\newpage
-%
-%
-\subsection{\ik{EDFS in 50~\si{\milli\Molar}  TEMPOL Measured with Broad-Band Pulses}}
-\ik{The EDFS spectrum of a 50~mM solution of TEMPOL in Figure~\ref{fig:Figure_S_SIM_FSE_TEMPOL}~b shows asymmetry when measured with shorter, $t_P=40$ and $\tau=120$~ns pulses with a microwave power attenuation $11$~dB. The spectrum has a stronger contribution of the broad component which in this case was calculated as the weighted integral of the cwEPR spectrum. The asymmetric dilute component was simulated considering the anisotropic relaxation of the 'standard' TEMPOL spectrum which was caused by instantaneous diffusion using Equation \ref{eq:inst_diff} in the main text. The fit of the EDFS spectrum of 50~mM TEMPOL was done with a concentration $C=5.6\times10^{18}$~cm$^{-3}$ or 9.3~mM as a fit parameter, $t_P=40$~ns, $\tau=120$~ns and $\gamma=-1.76\times10^{11}$~rad/T (for $g=g_e$). The spin concentration determined from the instantaneous diffusion simulation is only 19\% of the molecular concentration that was used to prepare the TEMPOL solution. The presence of the broad component in the EDFS spectrum suggests that the concentration of TEMPOL was not homogeneous within the sample.}
-%
-%
-%\begin{figure}[ht!]
-%  \centering
-%	\includegraphics[width=0.5\textwidth]{./figures/supplementary/FSE_DTBS_ID_SIMS_TEMPOL50_hard.pdf}
-%	\caption{EDFS spectrum of 50~mM TEMPOL in Acetonitrile/Dichloromethane glass measured with short (not selective, broadband) microwave pulses (solid-black). Spectral simulation with \textit{\textbf{g}}=[2.0104, 2.0060, 2.0023], \textbf{A}=[23.2, 22.5, 101.0]~MHz, 0.47~mT (lwpp) lorentzian line shape and anisotropic relaxation caused by instantaneous diffusion (dashed-green). Relative peak intensities correspond to\\ C$=1.3\times10^{19}$~cm$^{-3}$ or 22~mM.\\ Microwave frequency 9.6~GHz, $\pi/2=20$~ns, $\tau$=120~ns. Temperature 5K.}
-%	\label{fig:Figure_S_SIM_FSE_TEMPOL_ID_short}
-%\end{figure}
-
-
-%\newpage
-%%\texttt{\begin{figure}[ht!]
-%%  \centering
-%%	\includegraphics[width=0.75\textwidth]{./figures/supplementary/FSE_DTBS_ID_SIMS_DTBS80_40ns.pdf}
-%%	\caption{EDFS spectrum of pDiTBuS at 85\%~SOC (solid-black). Spectral simulation with \textit{\textbf{g}}=[2.0104, 2.0060, 2.0023], \textbf{A}=[23.2, 22.5, 101.0]~MHz, 0.24~mT (lwpp) lorentzian line shape and anisotropic relaxation caused by instantaneous diffusion (dashed-green). Relative peak intensities correspond to \\C=6.6e19 cm$^{-3}$ or 110~mM.\\ Microwave frequency 9.6~GHz, $\pi/2=20$~ns, $\tau$=120~ns. Temperature 5K.}
-%%	\label{fig:Figure_S_SIM_FSE_SOC80_ID}
-%%\end{figure}}
-
-
-\newpage
-\subsection{EDFS in PDiTBuS at ESOC~85\% Affected by Instantaneous Diffusion}
-The quick echo decay in pDiTBuS necessitates the usage of short microwave pulses that lead to ID. The asymmetric EDFS spectrum of pDiTBuS at 85\% ESOC was simulated considering the distortion of the standard TEMPO spectrum caused by the ID. The anisotropic relaxation of the spectral components is given by the equation \ref{eq:inst_diff} in the main text. The fit of the EDFS spectrum of pDiTBuS at 85\% ESOC was done with a concentration C=$3.1\times10^{19}$~cm$^{-3}$ = 50~\si{\milli\Molar} as a fit parameter, $t_P=40$~ns, $\tau=120$~ns and $\gamma=-1.76\times10^{11}$~rad/T. The fit was done with \textit{\textbf{g}}=[2.00987, 2.0055, 2.0026], \textit{\textbf{A}}=[22.0 21.5 96.3]~MHz, 0.81~mT (lwpp) Gaussian line shape, Figure~\ref{fig:Figure_S23}.
-
-\begin{figure}[ht!]
-  \centering
-	\includegraphics[width=0.5\textwidth]{./pulse/figures/Figure_S23.pdf}
-	\caption{EDFS spectrum of pDiTBuS at 85\%~ESOC (solid-black). Spectral simulation with \textit{\textbf{g}}=[2.00987, 2.0055, 2.0026],\textit{\textbf{A}}=[22.0 21.5 96.3], 0.81~mT (lwpp) \ik{Gaussian} line shape and anisotropic relaxation caused by instantaneous diffusion (dashed-green). Relative peak intensities correspond to C=3.1e19 cm$^{-3}$ or 52~\si{\milli\Molar}. Microwave frequency: 9.6~GHz, $\pi/2=20$~ns, $\tau$=120~ns. Temperature: 5~K.}
-	\label{fig:Figure_S23}
-\end{figure}
-
-
-\newpage
-
-
-\subsection{EDFS in PDiTBuS at ESOC~95\% Affected by Instantaneous Diffusion}
-\label{esi:fse_sims_ID_full}
-The asymmetric EDFS spectrum of pDiTBuS at 95\% ESOC could not be simulated considering the distortion of the standard TEMPO spectrum caused by the ID given by Eq. \ref{eq:inst_diff} in the main text. The spectrum and the attempted fit are shown in Figure~\ref{fig:Figure_S_SIM_FSE_SOC95_ID}. The low-field peak has a much higher relative intensitiy than expected from the ID model. The observed spectrum may be a superposition of a dilute species that do not experience instantaneous diffusion and the densely packed species that is affected by ID.\\
-
-\begin{figure}[ht!]
-  \centering
-	\includegraphics[width=0.5\textwidth]{./pulse/figures/Figure_S24.pdf}
-	\caption{EDFS spectrum of pDiTBuS at ESOC~95\% (solid-green). Spectral simulation with \textit{\textbf{g}}=[2.0099, 2.0055, 2.0026], \textit{\textbf{A}}=[21.9850 21.4260 96.2707]~MHz, 0.24~mT (lwpp) \ik{Lorentzian} line shape and anisotropic relaxation caused by instantaneous diffusion (dashed-blue). Relative peak intensities correspond to C$=1.2\times10^{19}$~cm$^{-3}$ or 22~\si{\milli\Molar}. Microwave frequency: 9.6~GHz, $\pi/2=20$~ns, $\tau$=120~ns. Temperature: 5~K.}
-	\label{fig:Figure_S_SIM_FSE_SOC95_ID}
-\end{figure}
-
-\newpage
-
-
-\subsection{\ik{Limitation on Shortest Detectable $T_m$ by the Spectrometer Dead Time}}
-\label{esi:dead_time}
-
-\ik{If a system exhibits multiple phase memory times $T_m$, the spin echo from the species with short memory times may decay below the noise level at a given pulse separation $\tau$. Figure~\ref{fig:Figure_S25} illustrates the spin echo intensity in a two-component system with $T_m^1=100$~ns and $T_m^2=25$~ns in dependence on the pulse separation $\tau$. The fast relaxing component with $T_m^2=25$~ns decays below the noise level after the dead time of $t_d=100$~ns.}
-
-\begin{figure}[h]
-\center
-	\includegraphics[width=0.4\textwidth]{./pulse/figures/Figure_S25}
-	\caption{\ik{Simulated echo decay transient of a spin ensemble exhibiting two distinct phase memory times $T_m^1=100$~ns and $T_m^2=25$~ns. The 100~ns dead time, during which the spin echo detection is not possible, is marked in red. After the dead time, the sum of the two components is indistinguishable from the slowly relaxing component within the 2\% noise.}}
-	\label{fig:Figure_S25}
-\end{figure}
-
 
 \subsection{Estimation of Local Spin Concentrations with Instantaneous Diffusion}
-
-
-
-\section{Spin Relaxation in a charged pDiTBuS Cathode Film}
-\label{S:RELAX_TIMES}
-
-As we have shown in Section~\ref{S:ID}, the reason for the distorted spectral shape in pDiTBuS at ESOC~85\% is instantaneous diffusion that manifests itself in anisotropic spin relaxation which alters the \rs{relative} peak intensities. However, the spectrum \rs{for} ESOC~95\% cannot be simulated assuming just instantaneous diffusion (cf. Figure~\ref{fig:Figure_S_SIM_FSE_SOC95_ID}, ESI). In order to gain additional information about the processes that may influence the shape of the EDFS spectra, we \ik{performed field-dependent measurements of \rs{the} spin relaxation times.}\\
-
-Figure~\ref{fig:Figure_5}a shows the EDFS spectra of pDiTBuS for 85\% and 95\% ESOC as well as a reference sample (50 mM solution of TEMPOL in Dichloromethane:Acetonitrile (3:1) glass) measured at $T=5$~K. The spectra reveal markedly different intensities of the three hyperfine components.\\
-
-\begin{figure*}[ht]
-	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_5.pdf}%FSE_DTBS_Figure_5nl.pdf}
-	\caption{Field-swept echo (a), echo decay transients (b), phase memory times $T_m$ (c), inversion recovery (d) and spin-lattice relaxation times $T_1$ (e) measured in 50~\si{\milli\Molar}  frozen electrolyte solution of TEMPOL~(left) and in dry pDiTBuS film charged to ESOC~95\%~(center) and to ESOC~85\%~(right). Temperature 5~K. \q{Grayscale} represents the intensity in b)$-$e).}
-	\label{fig:Figure_5}
-\end{figure*}
-
-
-\rs{The changed relative peak intensities in pDiTBuS may be the result of a magnetic field-dependent spin relaxation mechanism that manifests itself in a field-dependent phase memory time $T_m$~\cite{Schweiger2001}. The $T_m$ for pDiTBuS and for TEMPOL was probed in a field-swept echo decay experiment}. The echo decay transients for the three samples are shown in Figure~\ref{fig:Figure_5}b. A \q{Hahn echo} pulse sequence was used with a $\pi/2$ pulse length of 20~ns and variable pulse separation time $\tau\geq120$~ns. Spin echo was detected at 2$\tau$ after the $\pi/2$ pulse. Periodic oscillations in the echo decay transients correspond to the ESEEM effect from protons~\cite{Schweiger2001} with $\Delta\omega_L\approx15$~MHz, which are particularly pronounced for TEMPOL.\\ 
-
-If the sample contains several different species (i.e. nitroxide radicals in different environments and/or different local concentration) with distinct spin-spin relaxation times, the echo decay transients may contain multiple decay components, so more than one $T_m$ can correspond to each field point. This effect is not considered when simulating the effect of instantaneous diffusion using Equation~\ref{eq:inst_diff}. To determine the number of decay components in the echo decay transients, we studied the poles of the Pad{\'e} approximation of the Taylor expansion of the Laplace transforms \ik{of the transients that is} known as the Pad{\'e}-Laplace method~\cite{Hellen2005} (see ESI, Section~\ref{pade_laplace_T2} for details). This analysis revealed only monoexponential spin echo decays for both 95\%~ESOC and 85\%~ESOC. We therefore assumed a monoexponential spin echo decay for pDiTBuS\ik{, though some faster relaxing components with \rs{$T_m<t_d$} might have decayed by the earliest achievable $\tau$}\rs{, as shown in Section~\ref{esi:dead_time}, ESI.} The detected decay times $T_m(B_0)$, extracted from fits of the background-corrected echo-decay curves, are shown in Figure~\ref{fig:Figure_5}c as filled squares with \q{the grayscale} representing the amplitude of the corresponding fit component. \q{As expected, $T_m$ is significantly larger for 95\% than for 85\% ESOC, consistent with the weaker spin-spin couplings in the fully charged film. Further, we note that the field-dependence of $T_m$ is more pronounced for 95\% ESOC, with $T_m\geq200$~ns for the $m_I=+1$ hyperfine component. This anisotropy in $T_m$ results in an increased intensity of the low-field peak, which is in line with the observation that we cannot describe the 95\% ESOC spectrum assuming only instantaneous diffusion (see Section~\ref{S:ID}).} The transient fits and the residuals are shown in Section~\ref{pade_laplace_T2}, ESI.\\
-
-We attempted to reproduce the pDiTBuS spectra from a standard nitroxide spectrum by considering anisotropic transient decay of the spectral intensity at \ik{$t=\tau=120$~ns for each $B_0$} with the measured $T_m(B_0)$. However, this approach did not allow us to reconstruct the pDiTBuS spectra for neither 85\%, nor 95\%~ESOC.\\
-
-% The measured $T_m$ is more anisotropic for the 95\%~SOC.\\ 
-
-
-It was recently shown, that densely packed TEMPO radicals in a TEMPO-containing, non-conductive polymer PTMA, intermixed into \q{an} amorphous carbon mesh, show multi\ik{ple} spin-lattice relaxation times $T_1$ because of different types of contact between the TEMPO radicals and the conductive additive in the TEMPO/carbon composite~\cite{Daniel2023}. In order to find out whether such behavior can also be observed for \ik{the porous} pDiTBuS film, we measured spin-lattice relaxation times $T_1$ with an inversion-recovery pulse sequence ($\pi-\tau-\pi/2-\tau_{fix}-\pi-\tau_{fix}-echo$) with variable $\tau$ (Figure~\ref{fig:Figure_5}d). The Pad{\'e}-Laplace analysis yielded one decay component for TEMPOL and two decay components for pDiTBuS both at 85\%~ESOC and 95\%~ESOC (see ESI, Section~\ref{esi:pade_laplace_T1} for details). The $T_1$ for charged pDiTBuS is \w{on the same order as for }TEMPOL and splits in two rather broad distributions with \w{similar} intensities (Figure~\ref{fig:Figure_5}e). \q{Similar as in the case of $T_m$, also $T_1$ is larger for 95\% than for 85\% ESOC. Irrespective of the ESOC there is no significant field dependence of $T_1$, in contrast to what is observed for the TEMPOL reference sample.\\} 
-
-Daniel et al.\q{~\cite{Daniel2023}} concluded that separate distributions of $T_1$ correspond to different \ik{binding between TEMPO and the carbon mesh, representing the} quality of electrical contact between TEMPO and the conductive additive. With the observed distribution of $T_1$ and considering the two-component cwEPR spectral contributions for charged pDiTBuS \ik{(``broad'' and ``dilute'' components, cf. Section~\ref{esi:cw_sims}, ESI)}, we suggest \rs{that two types of domains could exist} in a \ik{partially} charged pDiTBuS film \rs{as well. These two} \ik{morphologies \rs{may correspond to} \q{``conductive''} domains with shorter $T_1$, where TEMPO$^{\bullet}$ are close to the conductive pNiSalen backbone, and \q{``non-conductive''} domains with longer $T_1$, where TEMPO$^{\bullet}$ are separated from pNiSalen}. \rs{We note, however, that based on the experimental data presented here, this interpretation is rather speculative.} \ik{The detected $T_1$ values for pDiTBuS may also correspond to one distribution, as the separation between the $T_1$ values is comparable to \rs{the widths of their distributions}}.\\%NiSalen backbone.\\
-
-\subsection{Temperature Dependen\q{ce} of Pulse Spectra of Charged pDiTBuS}
-Spin relaxation times usually depend on temperature\ik{\cite{Schweiger2001}}. We measured EDFS of charged pDiTBuS at \rs{5~K} and at \rs{80~K} to see how faster spin relaxation affects the spectral shape. Figure~\ref{fig:Figure_6} shows EDFS spectra for pDiTBuS \ik{ charged to} ESOC~95\% (a) and \ik{to} ESOC~85\% (b) \ik{at 80~K (solid) and at 5~K (dashed)}. At 80~K an overnight scan was required to obtain a satisfactory signal-to-noise ratio, \rs{whereas} at 5~K the spectrum was recorded in a few minutes. The spectral intensities at different temperatures were \ik{scaled} \rs{such that} the high-field $m_I=-1$ peak \rs{has the same intensity}. Figure~\ref{fig:Figure_6} clearly shows that the relative intensities of the peaks change with temperature for both ESOC. At higher temperatures the EDFS spectrum of pDiTBuS has a peak ratio closer to that of dilute TEMPOL that corresponds to \ik{a} lower spin concentration\ik{,} according to Equation~\ref{eq:inst_diff}. The influence of the temperature \ik{increase} on the spectral shape is stronger for the \ik{lower,} 85\% ESOC.
-
-\begin{figure}[ht]
-\center
-	\includegraphics[width=0.9\textwidth]{./pulse/figures/Figure_6.pdf}
-	\caption{EDFS spectra for pDiTBuS charged to 95\%\ik{~ESOC} (a) and to 85\%\ik{~ESOC} (b) measured at 5K and at 80K.}
-	\label{fig:Figure_6}
-\end{figure}
-
-
-The overall relaxation times in the film decrease with \ik{increasing} temperature, but the dead time of the spectrometer ($t_d=120$~ns) does not change. Therefore, at a given temperature, only \ik{spins with $T_m>t_d$} contribute to the signal. At higher temperature only the weakly coupled spins \ik{(with the longest $T_m$)} are detectable, which results in a spectral shape that is \q{less affected by instantaneous diffusion and thus }closer to a dilute nitroxide solution.\\
-
-
+\subsection{Spin Relaxation in a charged pDiTBuS Cathode Film}
 
 \section{Pad{\'e}-Laplace Deconvolution of Polyexponential Decay Signals}
 \label{sec:pade-laplace}
@@ -360,7 +192,7 @@ We used the Pad{\'e}-Laplace method to determine the number of the decay constan
 
 \begin{figure}[ht!]
 \center
-	\includegraphics[width=0.5\textwidth]{./pulse/figures/Figure_S9.pdf}
+	\includegraphics[width=0.9\textwidth]{./pulse/figures/Figure_S9.pdf}
 	\caption{Fits of the echo decay transient in the frozen 50~\si{\milli\Molar}  TEMPOL solution at the central spectral peak ($m_I=0$, 342~mT). Pad{\'e}-Laplace deconvolution the transient vs. free monoexponential fit vs biexponential fit. Temperature 5K. Data was fit in the 'fit area' region. ESEEM oscillations were excluded from the data for fit and Pade-Laplace analysis.}
 	\label{fig:Figure_S9}
 \end{figure}
@@ -370,7 +202,7 @@ We used the Pad{\'e}-Laplace method to determine the number of the decay constan
 \subsubsection{Echo Decay in DiTBuS 95\% ESOC}
 \begin{figure}[h]
 \center
-	\includegraphics[width=0.5\textwidth]{./pulse/figures/Figure_S10.pdf}
+	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_S10.pdf}
 	\caption{Pad{\'e}-Laplace deconvolution of the field-swept spin echo decay in the pDiTBuS film at 95\%~ESOC. Temperature 5K.}
 	\label{fig:Figure_S10}
 \end{figure}
@@ -378,7 +210,7 @@ We used the Pad{\'e}-Laplace method to determine the number of the decay constan
 
 \begin{figure}[ht!]
 \center
-	\includegraphics[width=0.5\textwidth]{./pulse/figures/Figure_S11.pdf}
+	\includegraphics[width=0.9\textwidth]{./pulse/figures/Figure_S11.pdf}
 	\caption{Fits of the echo decay transient in the pDiTBuS film at 95\%~SoC at the central spectral peak ($m_I=0$, 342~mT). Pad{\'e}-Laplace deconvolution the transient vs. free monoexponential fit vs biexponential fit. Temperature 5K. Data was fit in the 'fit area' region. ESEEM oscillations were excluded from the data for fit and Pade-Laplace analysis.}
 	\label{fig:Figure_S11}
 \end{figure}
@@ -389,14 +221,14 @@ We used the Pad{\'e}-Laplace method to determine the number of the decay constan
 
 \begin{figure}[h]
 \center
-	\includegraphics[width=0.5\textwidth]{./pulse/figures/Figure_S12.png}
+	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_S12.png}
 	\caption{Pad{\'e}-Laplace deconvolution of the field-swept spin echo decay in a pDiTBuS film at 85\%~ESOC. Temperature 5K.}
 	\label{fig:Figure_S12}
 \end{figure}
 
 \begin{figure}[ht!]
 \center
-	\includegraphics[width=0.5\textwidth]{./pulse/figures/Figure_S13.pdf}
+	\includegraphics[width=0.9\textwidth]{./pulse/figures/Figure_S13.pdf}
 	\caption{Pad{\'e}-Laplace deconvolution, biexponential and monoexponential fits of the spin echo decay in a pDiTBuS film at 85\%~SoC at the $m_I=0$ spectral position. Temperature 5K. Data was fit in the 'fit area' region. ESEEM oscillations were excluded from the data for fit and Pade-Laplace analysis.}
 	\label{fig:Figure_S13}
 \end{figure}
@@ -408,7 +240,7 @@ We used the Pad{\'e}-Laplace method to determine the number of the decay constan
 \label{esi:pade_laplace_T1}
 \begin{figure}[h]
 \center
-	\includegraphics[width=0.5\textwidth]{./pulse/figures/Figure_S14.png}
+	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_S14.png}
 	\caption{Pad{\'e}-Laplace deconvolution of the field-swept inversion recovery in a frozen 50~\si{\milli\Molar}  solution of TEMPOL in the Dichloromethane:Acetonitrile glass (3:1). Two decay components detected with Pade-Laplace (separated poles in the Pad{\'e}-Laplace approximation, third panel). Biexponential fit (circles for faster component, squares for slower component, right panel). Temperature 5K.}
 	\label{fig:Figure_S14}
 \end{figure}
@@ -416,7 +248,7 @@ We used the Pad{\'e}-Laplace method to determine the number of the decay constan
 
 \begin{figure}[ht!]
 \center
-	\includegraphics[width=0.5\textwidth]{./pulse/figures/Figure_S15.pdf}
+	\includegraphics[width=0.9\textwidth]{./pulse/figures/Figure_S15.pdf}
 	\caption{Fits of the inversion recovery transient in the frozen 50~\si{\milli\Molar}  TEMPOL solution at the central spectral peak ($m_I=0$, 342~mT). Pad{\'e}-Laplace deconvolution the transient and a biexponential fit. Temperature 5K.}
 	\label{fig:Figure_S15}
 \end{figure}
@@ -427,14 +259,14 @@ We used the Pad{\'e}-Laplace method to determine the number of the decay constan
 \subsubsection{Inversion Recovery in DiTBuS 95\% ESOC}
 \begin{figure}[h]
 \center
-	\includegraphics[width=0.5\textwidth]{./pulse/figures/Figure_S16.pdf}
+	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_S16.pdf}
 	\caption{Pade-Laplace deconvolution of the field-swept inversion recovery in a pDiTBuS film at 95\%~ESOC. Temperature 5K.}
 	\label{fig:Figure_S16}
 \end{figure}
 
 \begin{figure}[ht!]
 \center
-	\includegraphics[width=0.5\textwidth]{./pulse/figures/Figure_S17.pdf}
+	\includegraphics[width=0.9\textwidth]{./pulse/figures/Figure_S17.pdf}
 	\caption{Fits of the inversion recovery transient in the 95\% ESOC pDiTBuS film at the central spectral peak ($m_I=0$, 342~mT). Pad{\'e}-Laplace deconvolution the transient and a biexponential fit. Temperature 5K.}
 	\label{fig:Figure_S17}
 \end{figure}
@@ -444,7 +276,7 @@ We used the Pad{\'e}-Laplace method to determine the number of the decay constan
 \subsubsection{Inversion Recovery in DiTBuS 85\% ESOC}
 \begin{figure}[h]
 \center
-	\includegraphics[width=0.5\textwidth]{./pulse/figures/Figure_S18.pdf}
+	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_S18.pdf}
 	\caption{Pade-Laplace deconvolution of the field-swept inversion recovery in a pDiTBuS film at 85\%~ESOC. Temperature 5K.}
 	\label{fig:Figure_S18}
 \end{figure}
@@ -452,26 +284,10 @@ We used the Pad{\'e}-Laplace method to determine the number of the decay constan
 
 \begin{figure}[ht!]
 \center
-	\includegraphics[width=0.5\textwidth]{./pulse/figures/Figure_S19.pdf}
+	\includegraphics[width=0.9\textwidth]{./pulse/figures/Figure_S19.pdf}
 	\caption{Pade-Laplace deconvolution and biexponential fit of the inversion recovery in a pDiTBuS film at 85\%~ESOC at the $m_I=0$ spectral position. Temperature 5K. Data is inverted and scaled before fitting.}
 	\label{fig:Figure_S19}
 \end{figure}
-
-
-
-\subsection{\ik{Limitation on Shortest Detectable $T_m$ by the Spectrometer Dead Time}}
-\label{esi:dead_time}
-
-\ik{If a system exhibits multiple phase memory times $T_m$, the spin echo from the species with short memory times may decay below the noise level at a given pulse separation $\tau$. Figure~\ref{fig:Figure_S25} illustrates the spin echo intensity in a two-component system with $T_m^1=100$~ns and $T_m^2=25$~ns in dependence on the pulse separation $\tau$. The fast relaxing component with $T_m^2=25$~ns decays below the noise level after the dead time of $t_d=100$~ns.}
-
-\begin{figure}[h]
-\center
-	\includegraphics[width=0.4\textwidth]{./pulse/figures/Figure_S25}
-	\caption{\ik{Simulated echo decay transient of a spin ensemble exhibiting two distinct phase memory times $T_m^1=100$~ns and $T_m^2=25$~ns. The 100~ns dead time, during which the spin echo detection is not possible, is marked in red. After the dead time, the sum of the two components is indistinguishable from the slowly relaxing component within the 2\% noise.}}
-	\label{fig:Figure_S25}
-\end{figure}
-
-
 
 
 
