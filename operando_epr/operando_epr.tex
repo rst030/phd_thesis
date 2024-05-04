@@ -59,7 +59,7 @@ In a system of closely placed electrons, such as in a film of densely packed rad
 %The dipole-dipole interaction between the two neighboring electron spins contributes one more term to the spin Hamiltonian: $H_{dd} = \vec{\hat{S_1}}\textbf{D}\vec{\hat{S_2}}$ that depends on the distance between the spins. 
 
 \paragraph*{Nuclear Quadrupole Moment}
-The nitrogen nucleus has a spin greater than 1/2 which alters the charge distribution within the nucleus which gives rise to a non-vanishing nuclear electrical quadrupole moment $Q$~\cite{Schweiger2001_exch}. The interaction between the asymmetrically distributed charge and the gradient of the electric field at the nucleus is given by the nuclear quadrupole Hamiltonian $H_{NQ}=\vec{\hat{I}}\textbf{P}\vec{\hat{I}}$ with the nuclear quadrupole tensor $\textbf{P}$ that describes the coupling of the nuclear quadrupole moment to the electric field gradient.
+The nitrogen nucleus has a spin greater than 1/2 which alters the charge distribution within the nucleus which gives rise to a non-vanishing nuclear electrical quadrupole moment $Q$~\cite{Schweiger2001}. The interaction between the asymmetrically distributed charge and the gradient of the electric field at the nucleus is given by the nuclear quadrupole Hamiltonian $H_{NQ}=\vec{\hat{I}}\textbf{P}\vec{\hat{I}}$ with the nuclear quadrupole tensor $\textbf{P}$ that describes the coupling of the nuclear quadrupole moment to the electric field gradient.
 
 \paragraph*{The Spin Hamiltonian}
 For the interactions considered in this thesis, the following Hamiltonian will be applied to describe the interactions of unpaired electron spins with their local environments, ranging by their magnitude:
@@ -136,6 +136,16 @@ and the resonance lineshape is lorentzian. $H_p$ is the mean square dipolar fiel
 % todo: the reader knows about TEMPO, dits and ditbus. Show how they behave in cwEPR spectrometer.
 % picture of molecule - spectrum - diagram
 The stable TEMPO$^\bullet$ radical is widely used in the EPR spectroscopy as a spin probe and particularly in the EPR studies of TEMPO containing ORB materials~\cite{nakahara2002_cpl, nishide2004_electact, bahaceci2013_jpowersources, aydin2015_jsoistatelect, khodeir2019_softmatter, Zhang2018}. The spin density at the TEMPO$^\bullet$ radical is localized within the N-O bond~\cite{Owenius2001} and partially resides on the $I=1$ $^{14}$N nucleus, so to describe the EPR spectrum of an isolated TEMPO$^\bullet$ one has to take into consideration the electron Zeeman term $H_{EZ}$, the nuclear Zeeman term $H_{NZ}$ and the hyperfine coupling term $H_{HF}$. The unpaired electron spin on TEMPO$^\bullet$ has anisotropic g value, because of the asymmetry of its molecular orbital, so the $\textbf{g}$ matrix and the $\textbf{A}$ hyperfine coupling tensor are both anisotropic. $\textbf{g}$ is diagonal in the molecular frame of reference shown in Figure~\ref{fig:TEMPO_dft}. Its principal values are $\left[g_{xx}=2.009,g_{yy}=2.006,g_{zz}=2.002\right]$~\cite{Liu_2008,Bordignon2017}. The principal values of $\textbf{A}$ in the same frame are $\left[A_{xx}=20,A_{yy}=20,A_{zz}=100\right]$~MHz~\cite{Liu_2008,Bordignon2017}.
+
+
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./operando_epr/figures/DITS_DFT.pdf}
+	\caption{DFT on DiTS showing spin density on two neighboring TEMPO groups. The spin density is localized around the Nitrogen nucleus that gives rise to the hyperfine coupling. Calculation by Marcel Gauglitz.}
+	\label{fig:TEMPO_dft}
+\end{figure}
+
+
 
 \subsection{Room Temperature Spectra of TEMPO$^{\bullet}$ Solutions}
 Solution spectra of radicals are showing averaged values of $g$ and $A$ because of the fast molecular tumbling~\cite{Liu_2008,Carrington_solution_epr}. The observed $g$ value for a tumbling TEMPO$^{\bullet}$ is the average of the principal values of the $\textbf{g}$ matrix: $g = 1/3\left(g_{xx}+g_{yy}+g_{zz}\right)$. The anisotropic part of the hyperfine coupling tensor for the tumbling TEMPO$^{\bullet}$ also averages to zero, so only the isotropic hyperfine constant $a_{iso}$ determines the observed hyperfine coupling. CwEPR spectra of a 0.1~mM solution of TEMPOL measured at room temperature are shown in Figure~\ref{fig:cwEPR_monoTEMPO_diTEMPO}. The spectral simulation performed with EasySpin~\cite{Stoll2006} yields $g=2.0055$ and $a_{iso}=43.8$~MHz.
@@ -228,7 +238,9 @@ The oxidized film in Figure~\ref{fig:cwEPR_TEMPOL_High_Low_Concentrations}, righ
 
 
 \subsection{Spectra of NiSalen Films}
-\begin{figure}[h]
+The molecular backbone of pDiTS and pDiTBuS is the pNiSalen, a conjugated polymer that exhibits redox behavior~\cite{Dmitrieva2018,Verechchagin_2020,Apraksin2021}. The observations of electrochromicity of pNiSalen films with UV-VIS spectroscopy~\cite{Dmitrieva2018} have revealed the formation of polarons and antiferromagnetically coupled (with total spin S=0) bipolarons in the oxidized state of pNiSalen. A series of cwEPR spectra recorded for a pNiSalen film in various redox states is shown in Figure~\ref{fig:cwEPR_CRYO_NiSalen_REDOX_SIM}. Operando cwEPR spectra of a cell containing a pNiSalen cathode is shown in Figure~\ref{fig:cwEPR_RT_NiSalen_OPERANDO}.
+
+\begin{figure}[!h]
 \center
 	\includegraphics[width=1\textwidth]{./operando_epr/figures/CRYO/Figure_S8.pdf}
 	\caption{Potential-dependent cwEPR spectra of a NiMeOSalen film measured at 150~K. Simulation of the spectra with three components reported by the Timonov group.}
@@ -520,12 +532,33 @@ Organic Radical Batteries have a tendency to self-discharge, as the organic elec
 
 
 \subsection{Electrochemical Cells with Solid Electrolyte}
-The use of ionic liquids and the suitable polymer matrix allows for fabrication organic electrochemical transistors and can be used for making an all-polymer organic radical battery.
+The use of ionic liquids and the suitable polymer matrix allows for fabrication organic electrochemical transistors and can be used for making an all-polymer organic radical battery. PVDF was used as a polymer matrix.
 
-
-
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./operando_epr/figures/solid/FET231114_5uA_RT.pdf}
+	\caption{Operando cwEPR on an all-polymer organic radical battery made on a 5~$\muup$m grid with a PVDF/TFSI gel electrolyte.}
+	\label{fig:operando_solid_battery}
+\end{figure}
 
 \subsection{Low Temperature Measurements}
+
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./operando_epr/figures/CRYO/SANDWICH_FREEZING.pdf}
+	\caption{Freezing a pDiTBuS cell}
+	\label{fig:operando_cold_battery}
+\end{figure}
+
+
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./operando_epr/figures/CRYO/freezing_sandwich_230K_200K.pdf}
+	\caption{Freezing a pDiTBuS cell}
+	\label{fig:freezing_of_pditbus_battery_1D}
+\end{figure}
+
+
 \begin{figure}[h]
 \center
 	\includegraphics[width=1\textwidth]{./operando_epr/figures/slowcharge_231117_liquid_250K.pdf}

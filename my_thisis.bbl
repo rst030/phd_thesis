@@ -7,6 +7,13 @@ Kaltum Abdiaziz, Enrico Salvadori, Katarzyna~P Sokol, Erwin Reisner, and
   investigate redox reactions in biomolecules †.
 \newblock {\em Chem. Commun}, 55:8840, 2019.
 
+\bibitem{Apraksin2021}
+R.~V. Apraksin, Y.~A. Volosatova, A.~I. Volkov, P.~S. Vlasov, D.~A. Lukyanov,
+  I.~R. Kulikov, S.~N. Eliseeva, and O.~V. Levin.
+\newblock Electrochemical synthesis and characterization of poly
+  [ni(ch3osalen)] with immobilized poly(styrenesulfonate) anion dopants.
+\newblock {\em Electrochimica Acta}, 368:137637, 2021.
+
 \bibitem{aydin2015_jsoistatelect}
 Muhammed Aydin and Burak Esat.
 \newblock A polythiophene derivative bearing two electroactive groups per
@@ -193,11 +200,25 @@ Karin Halbmair, Jan Seikowski, Igor Tkach, Claudia Höbartner, Deniz Sezer, and
   spectroscopy with tempo-labeled nucleotides.
 \newblock {\em Chemical Science}, 7:3172--3180, 2016.
 
+\bibitem{Harikesh2022}
+Padinhare~Cholakkal Harikesh, Chi-Yuan Yang, Deyu Tu, Jennifer~Y. Gerasimov,
+  Abdul~Manan Dar, Adam Armada-Moreira, Matteo Massetti, Renee Kroon, David
+  Bliman, Roger Olsson, Eleni Stavrinidou, Magnus Berggren, and Simone Fabiano.
+\newblock Organic electrochemical neurons and synapses with ion mediated
+  spiking.
+\newblock {\em Nature Communications}, 13:901, 12 2022.
+
 \bibitem{He_2022}
 Xiyue He and Xuelai Zhang.
 \newblock A comprehensive review of supercapacitors: Properties, electrodes,
   electrolytes and thermal management systems based on phase change materials,
   12 2022.
+
+\bibitem{heeger_polymers}
+Alan~J Heeger.
+\newblock Semiconducting and metallic polymers: The fourth generation of
+  polymeric materials.
+\newblock {\em The Journal of Physical Chemistry B}, 105:8475--8491, 9 2001.
 
 \bibitem{Hellen2005}
 Edward~H. Hellen.
@@ -216,6 +237,11 @@ Takuma Hirasawa, Mika Yoshida, and Shin'ya Obara.
 \newblock Battery control for leveling the amount of electricity purchase in
   smart-energy houses.
 \newblock {\em International Journal of Energy Research}, 45:807--823, 2021.
+
+\bibitem{Hu2021}
+Peng Hu, Xuexia He, and Hui Jiang.
+\newblock Greater than 10 cm2 v-1 s-1: A breakthrough of organic
+  semiconductors for field-effect transistors, 6 2021.
 
 \bibitem{huang2016_jpowersources}
 Q~Huang, E~D Walter, L~Cosimbescu, D~Choi, and J~P Lemmon.
@@ -311,6 +337,10 @@ Yury Kutin, Nicholas Cox, Wolfgang Lubitz, Alexander Schnegg, and Olaf
 \newblock In situ epr characterization of a cobalt oxide water oxidation
   catalyst at neutral ph.
 \newblock {\em Catalysts}, 9, 11 2019.
+
+\bibitem{Koehler_book}
+Anna Köhler and Heinz Bässler.
+\newblock Electronic processes in organic semiconductors, 2015.
 
 \bibitem{Larsson2017}
 Fredrik Larsson, Petra Andersson, Per Blomqvist, and Bengt~Erik Mellander.
@@ -431,6 +461,10 @@ M.~V. Novozhilova, E.~A. Smirnova, M.~P. Karushev, A.~M. Timonov, V.~V. Malev,
 \newblock Synthesis and study of catalysts of electrochemical oxygen reduction
   reaction based on polymer complexes of nickel and cobalt with schiff bases.
 \newblock {\em Russian Journal of Electrochemistry}, 52:1183--1190, 12 2016.
+
+\bibitem{cambridge}
+Cavendish Laboratory~University of~Cambridge.
+\newblock Organic semiconductors, 2018.
 
 \bibitem{Oreilly_1971}
 D~E O'reilly.
@@ -557,6 +591,12 @@ Hiroyuki Takeo~Nishide and Suga.
 \newblock {\em Journal of the Society of Mechanical Engineers}, 110:194--195,
   2007.
 
+\bibitem{Tessler2009}
+Nir Tessler, Yevgeni Preezant, Noam Rappaport, and Yohai Roichman.
+\newblock Charge transport in disordered organic materials and its relevance to
+  thin-film devices: A tutorial review.
+\newblock {\em Advanced Materials}, 21:2741--2761, 2009.
+
 \bibitem{Toropov1998}
 Yu.~V. Toropov, S.~A. Dzuba, Yu.~D. Tsvetkov, V~Monaco, F~Formaggio, M~Crisma,
   C~Toniolo, and J.~Raap.
@@ -622,6 +662,18 @@ Lihuan Xu, Fang Yang, Chang Su, Lvlv Ji, and Cheng Zhang.
   derivatives as the cathode material of organic radical battery.
 \newblock {\em Electrochimica Acta}, 130:148--155, 6 2014.
 
+\bibitem{Yan2009}
+He~Yan, Zhihua Chen, Yan Zheng, Christopher Newman, Jordan~R. Quinn, Florian
+  Dötz, Marcel Kastler, and Antonio Facchetti.
+\newblock A high-mobility electron-transporting polymer for printed
+  transistors.
+\newblock {\em Nature}, 457:679--686, 2 2009.
+
+\bibitem{Yi2016}
+H~T Yi, Y~N Gartstein, and V~Podzorov.
+\newblock Charge carrier coherence and hall effect in organic semiconductors.
+\newblock {\em Scientific Reports}, 6:1--11, 2016.
+
 \bibitem{Yoo2014}
 Hyun~Deog Yoo, Elena Markevich, Gregory Salitra, Daniel Sharon, and Doron
   Aurbach.
@@ -665,5 +717,13 @@ Yiren Zhang, Albert~M. Park, Stephen~R. McMillan, Nicholas~J. Harmon,
 \newblock Charge transport in conjugated polymers with pendent stable radical
   groups.
 \newblock {\em Chemistry of Materials}, 30:4799--4807, 7 2018.
+
+\bibitem{Zhu2012}
+Lingyun Zhu, Yuanping Yi, Yuan Li, Eung~Gun Kim, Veaceslav Coropceanu, and
+  Jean~Luc Brédas.
+\newblock Prediction of remarkable ambipolar charge-transport characteristics
+  in organic mixed-stack charge-transfer crystals.
+\newblock {\em Journal of the American Chemical Society}, 134:2340--2347, 2
+  2012.
 
 \end{thebibliography}

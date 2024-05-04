@@ -42,6 +42,16 @@ Warning--entry type for "Fang_2021" isn't style-file defined
 --line 1719 of file Bibliography.bib
 Warning--entry type for "NIST" isn't style-file defined
 --line 1762 of file Bibliography.bib
+Warning--entry type for "Hu2021" isn't style-file defined
+--line 1809 of file Bibliography.bib
+Repeated entry---line 1823 of file Bibliography.bib
+ : @article{abdiaziz2019_chemcomm
+ :                               ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "Koehler_book" isn't style-file defined
+--line 1888 of file Bibliography.bib
+Warning--entry type for "cambridge" isn't style-file defined
+--line 1921 of file Bibliography.bib
 Warning--I didn't find a database entry for "energy_consumption_review"
 Warning--I didn't find a database entry for "energy_sources_review"
 Warning--I didn't find a database entry for "energy_from_sound"
@@ -51,6 +61,7 @@ Warning--I didn't find a database entry for "Schweiger2001_exch"
 Warning--I didn't find a database entry for "Siavash"
 Warning--I didn't find a database entry for "Vereshchagin_2020"
 Warning--I didn't find a database entry for "Stoll_2006"
+Warning--I didn't find a database entry for "Verechchagin_2020"
 Warning--I didn't find a database entry for "neukermans2020_chemelectrochem"
 Warning--I didn't find a database entry for "bonke2021_natrev"
 Warning--I didn't find a database entry for "priebe2013_angewandte"
@@ -65,45 +76,45 @@ Warning--I didn't find a database entry for "SI:Matlab"
 Warning--I didn't find a database entry for "Kulikov2022_SI"
 Warning--can't use both author and editor fields in Casado_2021_book
 Warning--empty booktitle in nishide_2009
-You've used 111 entries,
+You've used 121 entries,
             2118 wiz_defined-function locations,
-            1238 strings with 27010 characters,
-and the built_in function-call counts, 41146 in all, are:
-= -- 3773
-> -- 2667
+            1296 strings with 29100 characters,
+and the built_in function-call counts, 44948 in all, are:
+= -- 4109
+> -- 2940
 < -- 4
-+ -- 1068
-- -- 940
-* -- 3290
-:= -- 7175
-add.period$ -- 321
-call.type$ -- 111
-change.case$ -- 798
++ -- 1177
+- -- 1038
+* -- 3605
+:= -- 7839
+add.period$ -- 348
+call.type$ -- 121
+change.case$ -- 877
 chr.to.int$ -- 0
-cite$ -- 113
-duplicate$ -- 1196
-empty$ -- 2756
-format.name$ -- 940
-if$ -- 8261
+cite$ -- 123
+duplicate$ -- 1294
+empty$ -- 3002
+format.name$ -- 1038
+if$ -- 9013
 int.to.chr$ -- 0
-int.to.str$ -- 111
-missing$ -- 107
-newline$ -- 546
-num.names$ -- 222
-pop$ -- 717
+int.to.str$ -- 121
+missing$ -- 114
+newline$ -- 593
+num.names$ -- 242
+pop$ -- 797
 preamble$ -- 1
-purify$ -- 692
+purify$ -- 761
 quote$ -- 0
-skip$ -- 837
+skip$ -- 911
 stack$ -- 0
-substring$ -- 2328
-swap$ -- 134
+substring$ -- 2520
+swap$ -- 144
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 428
+type$ -- 468
 warning$ -- 2
-while$ -- 308
-width$ -- 114
-write$ -- 1182
-(There were 2 error messages)
+while$ -- 335
+width$ -- 124
+write$ -- 1283
+(There were 3 error messages)
