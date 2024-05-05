@@ -22,9 +22,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="pt"
      showgrid="false"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="504.06612"
-     inkscape:cy="421.23361"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="508.61181"
+     inkscape:cy="338.90618"
      inkscape:window-width="1882"
      inkscape:window-height="1016"
      inkscape:window-x="0"
@@ -5404,35 +5404,35 @@
   </g>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:18.0635px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.451587"
-     x="389.60916"
-     y="329.08688"
+     style="font-style:normal;font-weight:normal;font-size:15.2352px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.380879"
+     x="389.07889"
+     y="328.51944"
      id="text10892"><tspan
        sodipodi:role="line"
        id="tspan10890"
-       style="text-align:center;text-anchor:middle;stroke-width:0.451587"
-       x="389.60916"
-       y="329.08688">monomer</tspan><tspan
+       style="text-align:center;text-anchor:middle;stroke-width:0.380879"
+       x="389.07889"
+       y="328.51944">monomer</tspan><tspan
        sodipodi:role="line"
-       style="text-align:center;text-anchor:middle;stroke-width:0.451587"
-       x="389.60916"
-       y="351.66626"
+       style="text-align:center;text-anchor:middle;stroke-width:0.380879"
+       x="389.07889"
+       y="347.56345"
        id="tspan10894">solution</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:18.0635px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.451587"
-     x="388.91641"
-     y="392.26276"
+     style="font-style:normal;font-weight:normal;font-size:15.2352px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.380879"
+     x="384.64197"
+     y="385.67987"
      id="text15460"><tspan
        sodipodi:role="line"
        id="tspan15456"
-       style="text-align:center;text-anchor:middle;stroke-width:0.451587"
-       x="388.91641"
-       y="392.26276">polymer</tspan><tspan
+       style="text-align:center;text-anchor:middle;stroke-width:0.380879"
+       x="384.64197"
+       y="385.67987">polymer</tspan><tspan
        sodipodi:role="line"
-       style="text-align:center;text-anchor:middle;stroke-width:0.451587"
-       x="388.91641"
-       y="414.84213"
+       style="text-align:center;text-anchor:middle;stroke-width:0.380879"
+       x="384.64197"
+       y="404.72388"
        id="tspan15458">film</tspan></text>
   <path
      style="fill:none;stroke:#000000;stroke-width:1.45;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#Arrow1Mend)"
