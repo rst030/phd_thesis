@@ -59,7 +59,6 @@ Warning--I didn't find a database entry for "tokamak_updates"
 Warning--I didn't find a database entry for "ORCA"
 Warning--I didn't find a database entry for "Schweiger2001_exch"
 Warning--I didn't find a database entry for "Siavash"
-Warning--I didn't find a database entry for "Vereshchagin_2020"
 Warning--I didn't find a database entry for "Stoll_2006"
 Warning--I didn't find a database entry for "Verechchagin_2020"
 Warning--I didn't find a database entry for "neukermans2020_chemelectrochem"
@@ -78,7 +77,7 @@ Warning--can't use both author and editor fields in Casado_2021_book
 Warning--empty booktitle in nishide_2009
 You've used 121 entries,
             2118 wiz_defined-function locations,
-            1296 strings with 29100 characters,
+            1294 strings with 29066 characters,
 and the built_in function-call counts, 44948 in all, are:
 = -- 4109
 > -- 2940

@@ -33,7 +33,18 @@
 \DeclareSIUnit{\Molar}{M}
 %\bibliographystyle{abbrvnat}
 %\biboptions{compress,semicolon}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setlength{\footskip}{2cm}
 
+\renewcommand{\sectionmark}[1]{\markright{\thesection~~#1}}
+\renewcommand{\chaptermark}[1]{\markboth{\if@mainmatter\chaptername\ \thechapter~~\fi#1}{}}
+\makeatother
+
+\fancyhead[LE]{}
+\fancyhead[RE]{\nouppercase  \leftmark}
+\fancyhead[LO]{\nouppercase  \rightmark}
+\fancyhead[RO]{}
 % from master thesis
 \usepackage{subfig} %for subfigures
 \usepackage{float} %for PLACING FIGURES IN EXACT PLACE IN THE TEXT
