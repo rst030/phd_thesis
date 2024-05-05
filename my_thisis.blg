@@ -76,7 +76,9 @@ Warning--I didn't find a database entry for "SI:Matlab"
 Warning--I didn't find a database entry for "Kulikov2022_SI"
 Warning--can't use both author and editor fields in Casado_2021_book
 Warning--empty booktitle in nishide_2009
+
 You've used 121 entries,
+
             2118 wiz_defined-function locations,
             1296 strings with 29100 characters,
 and the built_in function-call counts, 44948 in all, are:
@@ -114,7 +116,10 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 468
 warning$ -- 2
+
 while$ -- 335
 width$ -- 124
 write$ -- 1283
 (There were 3 error messages)
+(There were 2 error messages)
+
