@@ -14,3 +14,6 @@ Victory implies war.
 Glory implies war.
 Foundation implies war.
 Alas! for the Kingdom wherein all these are at war.
+
+Jewgen Mravic,
+Beginning of 2020s
