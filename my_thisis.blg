@@ -34,24 +34,26 @@ Warning--entry type for "He_2022" isn't style-file defined
 --line 1563 of file Bibliography.bib
 Warning--entry type for "Wu_2023" isn't style-file defined
 --line 1628 of file Bibliography.bib
-Repeated entry---line 1706 of file Bibliography.bib
+Repeated entry---line 1694 of file Bibliography.bib
  : @article{Ouyang2020
  :                    ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "Fang_2021" isn't style-file defined
---line 1719 of file Bibliography.bib
+--line 1707 of file Bibliography.bib
 Warning--entry type for "NIST" isn't style-file defined
---line 1762 of file Bibliography.bib
+--line 1750 of file Bibliography.bib
 Warning--entry type for "Hu2021" isn't style-file defined
---line 1809 of file Bibliography.bib
-Repeated entry---line 1823 of file Bibliography.bib
+--line 1797 of file Bibliography.bib
+Repeated entry---line 1811 of file Bibliography.bib
  : @article{abdiaziz2019_chemcomm
  :                               ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "Koehler_book" isn't style-file defined
---line 1888 of file Bibliography.bib
+--line 1876 of file Bibliography.bib
 Warning--entry type for "cambridge" isn't style-file defined
---line 1921 of file Bibliography.bib
+--line 1909 of file Bibliography.bib
+Warning--entry type for "Neueder2014" isn't style-file defined
+--line 1915 of file Bibliography.bib
 Warning--I didn't find a database entry for "energy_consumption_review"
 Warning--I didn't find a database entry for "energy_sources_review"
 Warning--I didn't find a database entry for "energy_from_sound"
@@ -75,45 +77,45 @@ Warning--I didn't find a database entry for "SI:Matlab"
 Warning--I didn't find a database entry for "Kulikov2022_SI"
 Warning--can't use both author and editor fields in Casado_2021_book
 Warning--empty booktitle in nishide_2009
-You've used 121 entries,
+You've used 122 entries,
             2118 wiz_defined-function locations,
-            1294 strings with 29066 characters,
-and the built_in function-call counts, 44948 in all, are:
-= -- 4109
-> -- 2940
+            1302 strings with 29237 characters,
+and the built_in function-call counts, 45145 in all, are:
+= -- 4126
+> -- 2947
 < -- 4
-+ -- 1177
-- -- 1038
-* -- 3605
-:= -- 7839
-add.period$ -- 348
-call.type$ -- 121
-change.case$ -- 877
++ -- 1180
+- -- 1040
+* -- 3611
+:= -- 7871
+add.period$ -- 350
+call.type$ -- 122
+change.case$ -- 881
 chr.to.int$ -- 0
-cite$ -- 123
-duplicate$ -- 1294
-empty$ -- 3002
-format.name$ -- 1038
-if$ -- 9013
+cite$ -- 124
+duplicate$ -- 1301
+empty$ -- 3024
+format.name$ -- 1040
+if$ -- 9056
 int.to.chr$ -- 0
-int.to.str$ -- 121
+int.to.str$ -- 122
 missing$ -- 114
-newline$ -- 593
-num.names$ -- 242
-pop$ -- 797
+newline$ -- 597
+num.names$ -- 244
+pop$ -- 806
 preamble$ -- 1
-purify$ -- 761
+purify$ -- 764
 quote$ -- 0
-skip$ -- 911
+skip$ -- 919
 stack$ -- 0
-substring$ -- 2520
-swap$ -- 144
+substring$ -- 2525
+swap$ -- 145
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 468
+type$ -- 472
 warning$ -- 2
-while$ -- 335
-width$ -- 124
-write$ -- 1283
+while$ -- 337
+width$ -- 125
+write$ -- 1291
 (There were 3 error messages)
