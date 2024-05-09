@@ -77,45 +77,45 @@ Warning--I didn't find a database entry for "SI:Matlab"
 Warning--I didn't find a database entry for "Kulikov2022_SI"
 Warning--can't use both author and editor fields in Casado_2021_book
 Warning--empty booktitle in nishide_2009
-You've used 122 entries,
+You've used 123 entries,
             2118 wiz_defined-function locations,
-            1302 strings with 29237 characters,
-and the built_in function-call counts, 45145 in all, are:
-= -- 4126
-> -- 2947
+            1309 strings with 29413 characters,
+and the built_in function-call counts, 45463 in all, are:
+= -- 4158
+> -- 2960
 < -- 4
-+ -- 1180
-- -- 1040
-* -- 3611
-:= -- 7871
-add.period$ -- 350
-call.type$ -- 122
-change.case$ -- 881
++ -- 1185
+- -- 1044
+* -- 3633
+:= -- 7925
+add.period$ -- 353
+call.type$ -- 123
+change.case$ -- 886
 chr.to.int$ -- 0
-cite$ -- 124
-duplicate$ -- 1301
-empty$ -- 3024
-format.name$ -- 1040
-if$ -- 9056
+cite$ -- 125
+duplicate$ -- 1312
+empty$ -- 3050
+format.name$ -- 1044
+if$ -- 9123
 int.to.chr$ -- 0
-int.to.str$ -- 122
-missing$ -- 114
-newline$ -- 597
-num.names$ -- 244
-pop$ -- 806
+int.to.str$ -- 123
+missing$ -- 115
+newline$ -- 602
+num.names$ -- 246
+pop$ -- 809
 preamble$ -- 1
-purify$ -- 764
+purify$ -- 768
 quote$ -- 0
-skip$ -- 919
+skip$ -- 927
 stack$ -- 0
-substring$ -- 2525
-swap$ -- 145
+substring$ -- 2551
+swap$ -- 146
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 472
+type$ -- 476
 warning$ -- 2
-while$ -- 337
-width$ -- 125
-write$ -- 1291
+while$ -- 340
+width$ -- 126
+write$ -- 1302
 (There were 3 error messages)
