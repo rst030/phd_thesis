@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  9 MAY 2024 02:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  11 MAY 2024 00:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -928,6 +928,10 @@ LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 17.
 
 
+LaTeX Warning: Citation `Sworakowski2018' on page 12 undefined on input line 18
+.
+
+
 LaTeX Warning: Reference `fig:oxidation_of_WE_molecule' on page 12 undefined on
  input line 18.
 
@@ -1364,7 +1368,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 233--238
 
  []
 
-
+)
 Underfull \vbox (badness 6332) has occurred while \output is active []
 
 
@@ -1377,39 +1381,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [30]
-<./operando_epr/figures/sandwich/sandwich.pdf, id=230, 3244.021pt x 1585.3224pt
->
-File: ./operando_epr/figures/sandwich/sandwich.pdf Graphic file (type pdf)
-<use ./operando_epr/figures/sandwich/sandwich.pdf>
-Package pdftex.def Info: ./operando_epr/figures/sandwich/sandwich.pdf  used on 
-input line 254.
-(pdftex.def)             Requested size: 430.00462pt x 210.13889pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./operando_epr/figures/solid/solid_cell.pdf, id=231, 3248.81136pt x 1585.32216
-pt>
-File: ./operando_epr/figures/solid/solid_cell.pdf Graphic file (type pdf)
-<use ./operando_epr/figures/solid/solid_cell.pdf>
-Package pdftex.def Info: ./operando_epr/figures/solid/solid_cell.pdf  used on i
-nput line 263.
-(pdftex.def)             Requested size: 430.00462pt x 209.82439pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./pulse/figures/Figure_S3.pdf, id=232, 602.25pt x 481.8pt>
-File: ./pulse/figures/Figure_S3.pdf Graphic file (type pdf)
-<use ./pulse/figures/Figure_S3.pdf>
-Package pdftex.def Info: ./pulse/figures/Figure_S3.pdf  used on input line 279.
-
-(pdftex.def)             Requested size: 365.50655pt x 292.41252pt.
-<./pulse/figures/Figure_S27.pdf, id=233, 890.32625pt x 431.6125pt>
-File: ./pulse/figures/Figure_S27.pdf Graphic file (type pdf)
-<use ./pulse/figures/Figure_S27.pdf>
-Package pdftex.def Info: ./pulse/figures/Figure_S27.pdf  used on input line 286
-.
-(pdftex.def)             Requested size: 430.00462pt x 208.45589pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1418,7 +1389,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[31])
+[31]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1427,7 +1398,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[32]
+[32 <./electrochemistry/figures/DFT_DITS.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1436,54 +1407,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[33 <./electrochemistry/figures/DFT_DITS.pdf>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[34 <./electrochemistry/figures/DITBUS_DEPO.pdf> <./electrochemistry/figures/el
+[33 <./electrochemistry/figures/DITBUS_DEPO.pdf> <./electrochemistry/figures/el
 ectropolymerization_reaction.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./electrochemistry/figures/electropolym
 erization_reaction.pdf): PDF inclusion: multiple pdfs with page group included 
 in a single page
 >]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[35 <./operando_epr/figures/sandwich/sandwich.pdf> <./operando_epr/figures/soli
-d/solid_cell.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./operando_epr/figures/solid/solid_cell
-.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[36 <./pulse/figures/Figure_S3.pdf>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[37 <./pulse/figures/Figure_S27.pdf>]
 \openout2 = `operando_epr/operando_epr.aux'.
 
  (./operando_epr/operando_epr.tex
@@ -1495,14 +1425,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[38
+[34
 
 
 
 
 ]
 Chapter 3.
-[39]
+[35]
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <8> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <6> not available
@@ -1516,9 +1446,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[40]
+[36]
 
-LaTeX Warning: Citation `Schweiger2001_exch' on page 41 undefined on input line
+LaTeX Warning: Citation `Schweiger2001_exch' on page 37 undefined on input line
  53.
 
 LaTeX Font Info:    Trying to load font information for U+dsrom on input line 5
@@ -1527,11 +1457,11 @@ LaTeX Font Info:    Trying to load font information for U+dsrom on input line 5
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
 )
 
-LaTeX Warning: Citation `Schweiger2001_exch' on page 41 undefined on input line
+LaTeX Warning: Citation `Schweiger2001_exch' on page 37 undefined on input line
  56.
 
 
-LaTeX Warning: Citation `Schweiger2001_exch' on page 41 undefined on input line
+LaTeX Warning: Citation `Schweiger2001_exch' on page 37 undefined on input line
  56.
 
 
@@ -1547,8 +1477,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[41]
-<./operando_epr/figures/energy_diagram.pdf, id=328, 1101.64847pt x 492.90564pt>
+[37]
+<./operando_epr/figures/energy_diagram.pdf, id=276, 1101.64847pt x 492.90564pt>
 
 File: ./operando_epr/figures/energy_diagram.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/energy_diagram.pdf>
@@ -1567,8 +1497,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[42]
-<../scripts/plots/Free_Electron_EPRcombo.pdf, id=332, 700.11563pt x 228.855pt>
+[38]
+<../scripts/plots/Free_Electron_EPRcombo.pdf, id=280, 700.11563pt x 228.855pt>
 File: ../scripts/plots/Free_Electron_EPRcombo.pdf Graphic file (type pdf)
 <use ../scripts/plots/Free_Electron_EPRcombo.pdf>
 Package pdftex.def Info: ../scripts/plots/Free_Electron_EPRcombo.pdf  used on i
@@ -1586,8 +1516,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[43 <./operando_epr/figures/energy_diagram.pdf>]
-<./operando_epr/figures/cwEPR_spectrometer_diagram.pdf, id=352, 368.19757pt x 2
+[39 <./operando_epr/figures/energy_diagram.pdf>]
+<./operando_epr/figures/cwEPR_spectrometer_diagram.pdf, id=298, 368.19757pt x 2
 11.42578pt>
 File: ./operando_epr/figures/cwEPR_spectrometer_diagram.pdf Graphic file (type 
 pdf)
@@ -1607,7 +1537,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[44 <../scripts/plots/Free_Electron_EPRcombo.pdf>]
+[40 <../scripts/plots/Free_Electron_EPRcombo.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
@@ -1620,11 +1550,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[45 <./operando_epr/figures/cwEPR_spectrometer_diagram.pdf>]
+[41 <./operando_epr/figures/cwEPR_spectrometer_diagram.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./operando_epr/figures/DITS_DFT.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./operando_epr/figures/DITS_DFT.pdf, id=369, 945.5325pt x 616.3025pt>
+<./operando_epr/figures/DITS_DFT.pdf, id=315, 945.5325pt x 616.3025pt>
 File: ./operando_epr/figures/DITS_DFT.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/DITS_DFT.pdf>
 Package pdftex.def Info: ./operando_epr/figures/DITS_DFT.pdf  used on input lin
@@ -1634,10 +1564,10 @@ e 143.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `fig:cwEPR_monoTEMPO_diTEMPO' on page 46 undefined on 
+LaTeX Warning: Reference `fig:cwEPR_monoTEMPO_diTEMPO' on page 42 undefined on 
 input line 151.
 
-<./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT.pdf, id=370, 725.71124pt
+<./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT.pdf, id=316, 725.71124pt
  x 228.855pt>
 File: ./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT.pdf Graphic file (t
 ype pdf)
@@ -1648,7 +1578,7 @@ pdf  used on input line 155.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT_POWDER.pdf, id=371, 725.
+<./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT_POWDER.pdf, id=317, 725.
 71124pt x 228.855pt>
 File: ./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT_POWDER.pdf Graphic 
 file (type pdf)
@@ -1659,7 +1589,7 @@ POWDER.pdf  used on input line 161.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_100mM_vs_p1mM_80K.pdf, id=372, 725.
+<./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_100mM_vs_p1mM_80K.pdf, id=318, 725.
 71124pt x 228.855pt>
 File: ./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_100mM_vs_p1mM_80K.pdf Graphic 
 file (type pdf)
@@ -1678,7 +1608,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[46]
+[42]
 Underfull \vbox (badness 1281) has occurred while \output is active []
 
 
@@ -1690,7 +1620,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[47 <./operando_epr/figures/DITS_DFT.pdf>]
+[43 <./operando_epr/figures/DITS_DFT.pdf>]
 Underfull \vbox (badness 3780) has occurred while \output is active []
 
 
@@ -1702,26 +1632,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[48 <./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT.pdf> <./operando_epr
+[44 <./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT.pdf> <./operando_epr
 /figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT_POWDER.pdf>]
 
-LaTeX Warning: Reference `fig:cwEPR_monoTEMPO_diTEMPO_POWDER, left' on page 49 
+LaTeX Warning: Reference `fig:cwEPR_monoTEMPO_diTEMPO_POWDER, left' on page 45 
 undefined on input line 203.
 
 
-LaTeX Warning: Reference `fig:cwEPR_monoTEMPO_diTEMPO_POWDER, right' on page 49
+LaTeX Warning: Reference `fig:cwEPR_monoTEMPO_diTEMPO_POWDER, right' on page 45
  undefined on input line 203.
 
 
 LaTeX Warning: Reference `fig:cwEPR_TEMPOL_High_Low_Concentrations, left' on pa
-ge 49 undefined on input line 203.
+ge 45 undefined on input line 203.
 
 
-LaTeX Warning: Citation `Siavash' on page 49 undefined on input line 203.
+LaTeX Warning: Citation `Siavash' on page 45 undefined on input line 203.
 
 
 LaTeX Warning: Reference `fig:cwEPR_TEMPOL_High_Low_Concentrations, right' on p
-age 49 undefined on input line 203.
+age 45 undefined on input line 203.
 
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
 04.
@@ -1730,7 +1660,7 @@ File: ts1txr.fd 2000/12/15 v3.1
 )
 
 LaTeX Warning: Reference `fig:cwEPR_TEMPOL_High_Low_Concentrations, right' on p
-age 49 undefined on input line 205.
+age 45 undefined on input line 205.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1740,15 +1670,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[49 <./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_100mM_vs_p1mM_80K.pdf>]
-<./operando_epr/figures/CRYO/S220104_CW.pdf, id=769, 812.03375pt x 537.00626pt>
+[45 <./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_100mM_vs_p1mM_80K.pdf>]
+<./operando_epr/figures/CRYO/S220104_CW.pdf, id=716, 812.03375pt x 537.00626pt>
 
 File: ./operando_epr/figures/CRYO/S220104_CW.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/CRYO/S220104_CW.pdf>
 Package pdftex.def Info: ./operando_epr/figures/CRYO/S220104_CW.pdf  used on in
 put line 209.
 (pdftex.def)             Requested size: 430.00462pt x 284.36613pt.
-<./operando_epr/figures/CRYO/cw_sim_pDiTS_210318_700mV_2comp.pdf, id=770, 481.8
+<./operando_epr/figures/CRYO/cw_sim_pDiTS_210318_700mV_2comp.pdf, id=717, 481.8
 pt x 316.18124pt>
 File: ./operando_epr/figures/CRYO/cw_sim_pDiTS_210318_700mV_2comp.pdf Graphic f
 ile (type pdf)
@@ -1760,7 +1690,7 @@ Package pdftex.def Info: ./operando_epr/figures/CRYO/cw_sim_pDiTS_210318_700mV_
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./operando_epr/figures/CRYO/S220106_p-DiTS_OX_80K_CW_SIM.pdf, id=771, 909.3975
+<./operando_epr/figures/CRYO/S220106_p-DiTS_OX_80K_CW_SIM.pdf, id=718, 909.3975
 pt x 450.68375pt>
 File: ./operando_epr/figures/CRYO/S220106_p-DiTS_OX_80K_CW_SIM.pdf Graphic file
  (type pdf)
@@ -1771,27 +1701,23 @@ IM.pdf  used on input line 224.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./operando_epr/figures/CRYO/Figure_S7_new.pdf, id=772, 646.415pt x 827.09pt>
+<./operando_epr/figures/CRYO/Figure_S7_new.pdf, id=719, 646.415pt x 827.09pt>
 File: ./operando_epr/figures/CRYO/Figure_S7_new.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/CRYO/Figure_S7_new.pdf>
 Package pdftex.def Info: ./operando_epr/figures/CRYO/Figure_S7_new.pdf  used on
  input line 233.
 (pdftex.def)             Requested size: 430.00462pt x 550.19725pt.
 
-LaTeX Warning: Citation `Stoll_2006' on page 50 undefined on input line 234.
+LaTeX Warning: Citation `Stoll_2006' on page 46 undefined on input line 234.
 
 
-LaTeX Warning: Citation `Stoll_2006' on page 50 undefined on input line 234.
+LaTeX Warning: Citation `Stoll_2006' on page 46 undefined on input line 234.
 
 
 LaTeX Warning: Float too large for page by 129.38734pt on input line 236.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Citation `Verechchagin_2020' on page 50 undefined on input line 
-241.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1801,8 +1727,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[50 <./operando_epr/figures/CRYO/S220104_CW.pdf>]
-<./operando_epr/figures/CRYO/Figure_S8.pdf, id=781, 525.965pt x 793.96625pt>
+[46 <./operando_epr/figures/CRYO/S220104_CW.pdf>]
+<./operando_epr/figures/CRYO/Figure_S8.pdf, id=728, 525.965pt x 793.96625pt>
 File: ./operando_epr/figures/CRYO/Figure_S8.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/CRYO/Figure_S8.pdf>
 Package pdftex.def Info: ./operando_epr/figures/CRYO/Figure_S8.pdf  used on inp
@@ -1815,7 +1741,7 @@ LaTeX Warning: Float too large for page by 126.82036pt on input line 248.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./operando_epr/figures/backbone/NiMeOS_lyra_overnight_RT.png, id=782, 460.3599
+<./operando_epr/figures/backbone/NiMeOS_lyra_overnight_RT.png, id=729, 460.3599
 pt x 352.6776pt>
 File: ./operando_epr/figures/backbone/NiMeOS_lyra_overnight_RT.png Graphic file
  (type png)
@@ -1835,9 +1761,48 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[51 <./operando_epr/figures/CRYO/cw_sim_pDiTS_210318_700mV_2comp.pdf>]
-Underfull \vbox (badness 1838) has occurred while \output is active []
+[47 <./operando_epr/figures/CRYO/cw_sim_pDiTS_210318_700mV_2comp.pdf>]
+<./operando_epr/figures/sandwich/sandwich.pdf, id=736, 1680.23082pt x 464.89731
+pt>
+File: ./operando_epr/figures/sandwich/sandwich.pdf Graphic file (type pdf)
+<use ./operando_epr/figures/sandwich/sandwich.pdf>
+Package pdftex.def Info: ./operando_epr/figures/sandwich/sandwich.pdf  used on 
+input line 269.
+(pdftex.def)             Requested size: 430.00462pt x 118.97641pt.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./operando_epr/figures/solid/solid_cell.pdf, id=737, 3248.81136pt x 1585.32216
+pt>
+File: ./operando_epr/figures/solid/solid_cell.pdf Graphic file (type pdf)
+<use ./operando_epr/figures/solid/solid_cell.pdf>
+Package pdftex.def Info: ./operando_epr/figures/solid/solid_cell.pdf  used on i
+nput line 278.
+(pdftex.def)             Requested size: 430.00462pt x 209.82439pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./operando_epr/figures/solid/separate_deposition.pdf, id=738, 6738.97214pt x 2
+388.6177pt>
+File: ./operando_epr/figures/solid/separate_deposition.pdf Graphic file (type p
+df)
+<use ./operando_epr/figures/solid/separate_deposition.pdf>
+Package pdftex.def Info: ./operando_epr/figures/solid/separate_deposition.pdf  
+used on input line 286.
+(pdftex.def)             Requested size: 430.00462pt x 152.38626pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./operando_epr/figures/solid/current_density.pdf, id=739, 1375.62871pt x 481.8
+pt>
+File: ./operando_epr/figures/solid/current_density.pdf Graphic file (type pdf)
+<use ./operando_epr/figures/solid/current_density.pdf>
+Package pdftex.def Info: ./operando_epr/figures/solid/current_density.pdf  used
+ on input line 293.
+(pdftex.def)             Requested size: 430.00462pt x 150.59888pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1847,85 +1812,116 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[52 <./operando_epr/figures/CRYO/S220106_p-DiTS_OX_80K_CW_SIM.pdf>]
-<./operando_epr/figures/Flat_tube_setup.pdf, id=795, 2817.02437pt x 3237.09375p
+[48 <./operando_epr/figures/CRYO/S220106_p-DiTS_OX_80K_CW_SIM.pdf>]
+<./pulse/figures/Figure_S3.pdf, id=746, 602.25pt x 481.8pt>
+File: ./pulse/figures/Figure_S3.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S3.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S3.pdf  used on input line 307.
+
+(pdftex.def)             Requested size: 365.50655pt x 292.41252pt.
+<./pulse/figures/Figure_S27.pdf, id=747, 890.32625pt x 431.6125pt>
+File: ./pulse/figures/Figure_S27.pdf Graphic file (type pdf)
+<use ./pulse/figures/Figure_S27.pdf>
+Package pdftex.def Info: ./pulse/figures/Figure_S27.pdf  used on input line 314
+.
+(pdftex.def)             Requested size: 430.00462pt x 208.45589pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[49]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[50]
+<./operando_epr/figures/Flat_tube_setup.pdf, id=755, 2817.02437pt x 3237.09375p
 t>
 File: ./operando_epr/figures/Flat_tube_setup.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/Flat_tube_setup.pdf>
 Package pdftex.def Info: ./operando_epr/figures/Flat_tube_setup.pdf  used on in
-put line 268.
+put line 348.
 (pdftex.def)             Requested size: 425.70692pt x 489.14888pt.
 
 
-LaTeX Warning: Float too large for page by 97.33897pt on input line 271.
+LaTeX Warning: Float too large for page by 97.33897pt on input line 351.
 
 
-LaTeX Warning: Citation `neukermans2020_chemelectrochem' on page 53 undefined o
-n input line 275.
+LaTeX Warning: Citation `neukermans2020_chemelectrochem' on page 51 undefined o
+n input line 355.
 
 
-LaTeX Warning: Citation `bonke2021_natrev' on page 53 undefined on input line 2
-75.
+LaTeX Warning: Citation `bonke2021_natrev' on page 51 undefined on input line 3
+55.
 
 
-LaTeX Warning: Citation `priebe2013_angewandte' on page 53 undefined on input l
-ine 275.
+LaTeX Warning: Citation `priebe2013_angewandte' on page 51 undefined on input l
+ine 355.
 
 
-LaTeX Warning: Citation `rabeah2015_angewandte' on page 53 undefined on input l
-ine 275.
+LaTeX Warning: Citation `rabeah2015_angewandte' on page 51 undefined on input l
+ine 355.
 
 
-LaTeX Warning: Citation `zhao2021_jacs' on page 53 undefined on input line 275.
+LaTeX Warning: Citation `zhao2021_jacs' on page 51 undefined on input line 355.
 
 
 
-LaTeX Warning: Citation `kanzaki2018_acsappmat' on page 53 undefined on input l
-ine 275.
+LaTeX Warning: Citation `kanzaki2018_acsappmat' on page 51 undefined on input l
+ine 355.
 
 
-LaTeX Warning: Citation `wadhawan2007_encofelectrochem' on page 53 undefined on
- input line 275.
+LaTeX Warning: Citation `wadhawan2007_encofelectrochem' on page 51 undefined on
+ input line 355.
 
 
-LaTeX Warning: Citation `Safari2011' on page 53 undefined on input line 278.
+LaTeX Warning: Citation `Safari2011' on page 51 undefined on input line 358.
 
 
-LaTeX Warning: Reference `Experimental_Section' on page 53 undefined on input l
-ine 278.
+LaTeX Warning: Reference `Experimental_Section' on page 51 undefined on input l
+ine 358.
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[53]
-Overfull \hbox (3.28821pt too wide) in paragraph at lines 282--283
+Overfull \hbox (3.28821pt too wide) in paragraph at lines 362--363
 []\OT1/txr/m/n/12 The on-substrate elec-trodes re-duce mi-crowave damp-ing. How
 -ever, a sub-stan-tial amount
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[51]
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
 
  []
 
-<./operando_epr/figures/spins_at_work/Figure_S1.pdf, id=799, 2747.76563pt x 106
+<./operando_epr/figures/spins_at_work/Figure_S1.pdf, id=759, 2747.76563pt x 106
 8.99374pt>
 File: ./operando_epr/figures/spins_at_work/Figure_S1.pdf Graphic file (type pdf
 )
 <use ./operando_epr/figures/spins_at_work/Figure_S1.pdf>
 Package pdftex.def Info: ./operando_epr/figures/spins_at_work/Figure_S1.pdf  us
-ed on input line 293.
+ed on input line 373.
 (pdftex.def)             Requested size: 430.00462pt x 167.27454pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--299
+Underfull \hbox (badness 10000) in paragraph at lines 378--379
 
  []
 
@@ -1937,13 +1933,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[54]
-<./operando_epr/figures/Q_factors_mod_tube.pdf, id=803, 502.87875pt x 601.24625
+[52]
+<./operando_epr/figures/Q_factors_mod_tube.pdf, id=763, 502.87875pt x 601.24625
 pt>
 File: ./operando_epr/figures/Q_factors_mod_tube.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/Q_factors_mod_tube.pdf>
 Package pdftex.def Info: ./operando_epr/figures/Q_factors_mod_tube.pdf  used on
- input line 305.
+ input line 385.
 (pdftex.def)             Requested size: 215.0023pt x 257.05379pt.
 
 
@@ -1957,30 +1953,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[55]
-<./operando_epr/figures/spins_at_work/Figure_S2.pdf, id=808, 1264.725pt x 676.5
+[53]
+<./operando_epr/figures/spins_at_work/Figure_S2.pdf, id=767, 1264.725pt x 676.5
 275pt>
 File: ./operando_epr/figures/spins_at_work/Figure_S2.pdf Graphic file (type pdf
 )
 <use ./operando_epr/figures/spins_at_work/Figure_S2.pdf>
 Package pdftex.def Info: ./operando_epr/figures/spins_at_work/Figure_S2.pdf  us
-ed on input line 328.
+ed on input line 408.
 (pdftex.def)             Requested size: 430.00462pt x 230.0163pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./operando_epr/figures/Cartoon_ALL.pdf, id=809, 822.28464pt x 512.1496pt>
+<./operando_epr/figures/Cartoon_ALL.pdf, id=768, 822.28464pt x 512.1496pt>
 File: ./operando_epr/figures/Cartoon_ALL.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/Cartoon_ALL.pdf>
 Package pdftex.def Info: ./operando_epr/figures/Cartoon_ALL.pdf  used on input 
-line 349.
+line 429.
 (pdftex.def)             Requested size: 430.00462pt x 267.81975pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `Anderson1953' on page 56 undefined on input line 358.
+LaTeX Warning: Citation `Anderson1953' on page 54 undefined on input line 438.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1990,33 +1986,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[56]
-Overfull \hbox (17.69066pt too wide) in paragraph at lines 367--369
-\OT1/txr/m/n/12 EPR sig-na-ture, which is not shown in Fig. 3.18[], is clearly 
+[54]
+Overfull \hbox (17.69066pt too wide) in paragraph at lines 447--449
+\OT1/txr/m/n/12 EPR sig-na-ture, which is not shown in Fig. 3.24[], is clearly 
 dif-fer-ent from the nitroxide/TEMPO-
  []
 
-<./operando_epr/figures/Main_2D_redox_map_full.pdf, id=813, 913.4125pt x 602.25
+<./operando_epr/figures/Main_2D_redox_map_full.pdf, id=772, 913.4125pt x 602.25
 pt>
 File: ./operando_epr/figures/Main_2D_redox_map_full.pdf Graphic file (type pdf)
 
 <use ./operando_epr/figures/Main_2D_redox_map_full.pdf>
 Package pdftex.def Info: ./operando_epr/figures/Main_2D_redox_map_full.pdf  use
-d on input line 377.
+d on input line 457.
 (pdftex.def)             Requested size: 430.00462pt x 283.51701pt.
 
-LaTeX Warning: Citation `spin_counting_tb' on page 57 undefined on input line 3
-81.
+LaTeX Warning: Citation `spin_counting_tb' on page 55 undefined on input line 4
+61.
 
 
-LaTeX Warning: Citation `SI:Matlab' on page 57 undefined on input line 381.
+LaTeX Warning: Citation `SI:Matlab' on page 55 undefined on input line 461.
 
 
-LaTeX Warning: Citation `Kulikov2022_SI' on page 57 undefined on input line 381
+LaTeX Warning: Citation `Kulikov2022_SI' on page 55 undefined on input line 461
 .
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--382
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
 
  []
 
@@ -2028,11 +2024,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[57]
-<./pulse/figures/Figure_S6.pdf, id=817, 780.53717pt x 768.36021pt>
+[55]
+<./pulse/figures/Figure_S6.pdf, id=777, 780.53717pt x 768.36021pt>
 File: ./pulse/figures/Figure_S6.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S6.pdf>
-Package pdftex.def Info: ./pulse/figures/Figure_S6.pdf  used on input line 388.
+Package pdftex.def Info: ./pulse/figures/Figure_S6.pdf  used on input line 468.
 
 (pdftex.def)             Requested size: 365.50655pt x 359.80452pt.
 
@@ -2040,7 +2036,7 @@ Package pdftex.def Info: ./pulse/figures/Figure_S6.pdf  used on input line 388.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `si:ESOC' on page 58 undefined on input line 399.
+LaTeX Warning: Reference `si:ESOC' on page 56 undefined on input line 479.
 
 > Step: init table outer spec.
 > Step: parse table options.
@@ -2065,50 +2061,50 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[58]
+[56]
 <./operando_epr/figures/degradation/overnight_dits_201211_full_redox_contour_XY
-.pdf, id=821, 462.52798pt x 346.89601pt>
+.pdf, id=781, 462.52798pt x 346.89601pt>
 File: ./operando_epr/figures/degradation/overnight_dits_201211_full_redox_conto
 ur_XY.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/degradation/overnight_dits_201211_full_redox_contou
 r_XY.pdf>
 Package pdftex.def Info: ./operando_epr/figures/degradation/overnight_dits_2012
-11_full_redox_contour_XY.pdf  used on input line 489.
+11_full_redox_contour_XY.pdf  used on input line 569.
 (pdftex.def)             Requested size: 430.00462pt x 322.51996pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <./operando_epr/figures/degradation/pDiTS_slow_charge_MS5000_forslides.png, id=
-822, 647.5392pt x 316.0608pt>
+782, 647.5392pt x 316.0608pt>
 File: ./operando_epr/figures/degradation/pDiTS_slow_charge_MS5000_forslides.png
  Graphic file (type png)
 <use ./operando_epr/figures/degradation/pDiTS_slow_charge_MS5000_forslides.png>
 
 Package pdftex.def Info: ./operando_epr/figures/degradation/pDiTS_slow_charge_M
-S5000_forslides.png  used on input line 497.
+S5000_forslides.png  used on input line 577.
 (pdftex.def)             Requested size: 430.00462pt x 209.8836pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./operando_epr/figures/degradation/operando_degradation_dits.pdf, id=823, 700.
+<./operando_epr/figures/degradation/operando_degradation_dits.pdf, id=783, 700.
 6175pt x 834.11626pt>
 File: ./operando_epr/figures/degradation/operando_degradation_dits.pdf Graphic 
 file (type pdf)
 <use ./operando_epr/figures/degradation/operando_degradation_dits.pdf>
 Package pdftex.def Info: ./operando_epr/figures/degradation/operando_degradatio
-n_dits.pdf  used on input line 505.
+n_dits.pdf  used on input line 585.
 (pdftex.def)             Requested size: 430.00462pt x 511.95389pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./operando_epr/figures/degradation/repeated_cycling_degradation_dits.pdf, id=8
-24, 827.09pt x 823.075pt>
+<./operando_epr/figures/degradation/repeated_cycling_degradation_dits.pdf, id=7
+84, 827.09pt x 823.075pt>
 File: ./operando_epr/figures/degradation/repeated_cycling_degradation_dits.pdf 
 Graphic file (type pdf)
 <use ./operando_epr/figures/degradation/repeated_cycling_degradation_dits.pdf>
 Package pdftex.def Info: ./operando_epr/figures/degradation/repeated_cycling_de
-gradation_dits.pdf  used on input line 512.
+gradation_dits.pdf  used on input line 592.
 (pdftex.def)             Requested size: 430.00462pt x 427.9261pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2121,59 +2117,59 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[59]
-<./operando_epr/figures/self_discharge/DOM_DITS_SELF_DISCHARGE.pdf, id=828, 451
+[57]
+<./operando_epr/figures/self_discharge/DOM_DITS_SELF_DISCHARGE.pdf, id=788, 451
 .6875pt x 180.675pt>
 File: ./operando_epr/figures/self_discharge/DOM_DITS_SELF_DISCHARGE.pdf Graphic
  file (type pdf)
 <use ./operando_epr/figures/self_discharge/DOM_DITS_SELF_DISCHARGE.pdf>
 Package pdftex.def Info: ./operando_epr/figures/self_discharge/DOM_DITS_SELF_DI
-SCHARGE.pdf  used on input line 526.
+SCHARGE.pdf  used on input line 606.
 (pdftex.def)             Requested size: 430.00462pt x 172.01244pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./operando_epr/figures/solid/FET231114_5uA_RT.pdf, id=829, 752.8125pt x 472.76
+<./operando_epr/figures/solid/FET231114_5uA_RT.pdf, id=789, 752.8125pt x 472.76
 625pt>
 File: ./operando_epr/figures/solid/FET231114_5uA_RT.pdf Graphic file (type pdf)
 
 <use ./operando_epr/figures/solid/FET231114_5uA_RT.pdf>
 Package pdftex.def Info: ./operando_epr/figures/solid/FET231114_5uA_RT.pdf  use
-d on input line 537.
+d on input line 617.
 (pdftex.def)             Requested size: 430.00462pt x 270.04945pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./operando_epr/figures/CRYO/SANDWICH_FREEZING.pdf, id=830, 752.8125pt x 472.76
+<./operando_epr/figures/CRYO/SANDWICH_FREEZING.pdf, id=790, 752.8125pt x 472.76
 625pt>
 File: ./operando_epr/figures/CRYO/SANDWICH_FREEZING.pdf Graphic file (type pdf)
 
 <use ./operando_epr/figures/CRYO/SANDWICH_FREEZING.pdf>
 Package pdftex.def Info: ./operando_epr/figures/CRYO/SANDWICH_FREEZING.pdf  use
-d on input line 546.
+d on input line 626.
 (pdftex.def)             Requested size: 430.00462pt x 270.04945pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./operando_epr/figures/CRYO/freezing_sandwich_230K_200K.pdf, id=831, 609.27625
+<./operando_epr/figures/CRYO/freezing_sandwich_230K_200K.pdf, id=791, 609.27625
 pt x 445.665pt>
 File: ./operando_epr/figures/CRYO/freezing_sandwich_230K_200K.pdf Graphic file 
 (type pdf)
 <use ./operando_epr/figures/CRYO/freezing_sandwich_230K_200K.pdf>
 Package pdftex.def Info: ./operando_epr/figures/CRYO/freezing_sandwich_230K_200
-K.pdf  used on input line 554.
+K.pdf  used on input line 634.
 (pdftex.def)             Requested size: 430.00462pt x 314.54068pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./operando_epr/figures/slowcharge_231117_liquid_250K.pdf, id=832, 752.8125pt x
+<./operando_epr/figures/slowcharge_231117_liquid_250K.pdf, id=792, 752.8125pt x
  602.25pt>
 File: ./operando_epr/figures/slowcharge_231117_liquid_250K.pdf Graphic file (ty
 pe pdf)
 <use ./operando_epr/figures/slowcharge_231117_liquid_250K.pdf>
 Package pdftex.def Info: ./operando_epr/figures/slowcharge_231117_liquid_250K.p
-df  used on input line 562.
+df  used on input line 642.
 (pdftex.def)             Requested size: 430.00462pt x 344.01204pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2187,7 +2183,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[60]
+[58]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2196,7 +2192,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[61 <./operando_epr/figures/CRYO/Figure_S7_new.pdf>]
+[59 <./operando_epr/figures/CRYO/Figure_S7_new.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2205,7 +2201,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[62 <./operando_epr/figures/CRYO/Figure_S8.pdf>]
+[60 <./operando_epr/figures/CRYO/Figure_S8.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2214,7 +2210,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[63 <./operando_epr/figures/backbone/NiMeOS_lyra_overnight_RT.png>]
+[61 <./operando_epr/figures/backbone/NiMeOS_lyra_overnight_RT.png> <./operando_
+epr/figures/sandwich/sandwich.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2223,7 +2220,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[64 <./operando_epr/figures/Flat_tube_setup.pdf>]
+[62 <./operando_epr/figures/solid/solid_cell.pdf> <./operando_epr/figures/solid
+/separate_deposition.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./operando_epr/figures/solid/separate_d
+eposition.pdf): PDF inclusion: multiple pdfs with page group included in a sing
+le page
+>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2232,7 +2235,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[65 <./operando_epr/figures/spins_at_work/Figure_S1.pdf>]
+[63 <./operando_epr/figures/solid/current_density.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2241,7 +2244,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[66 <./operando_epr/figures/Q_factors_mod_tube.pdf>]
+[64 <./pulse/figures/Figure_S3.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2250,7 +2253,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[67 <./operando_epr/figures/spins_at_work/Figure_S2.pdf>]
+[65 <./pulse/figures/Figure_S27.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2259,7 +2262,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[68 <./operando_epr/figures/Cartoon_ALL.pdf>]
+[66 <./operando_epr/figures/Flat_tube_setup.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2268,7 +2271,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[69 <./operando_epr/figures/Main_2D_redox_map_full.pdf>]
+[67 <./operando_epr/figures/spins_at_work/Figure_S1.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2277,7 +2280,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[70 <./pulse/figures/Figure_S6.pdf>]
+[68 <./operando_epr/figures/Q_factors_mod_tube.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2286,7 +2289,43 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[71 <./operando_epr/figures/degradation/overnight_dits_201211_full_redox_contou
+[69 <./operando_epr/figures/spins_at_work/Figure_S2.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[70 <./operando_epr/figures/Cartoon_ALL.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[71 <./operando_epr/figures/Main_2D_redox_map_full.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[72 <./pulse/figures/Figure_S6.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[73 <./operando_epr/figures/degradation/overnight_dits_201211_full_redox_contou
 r_XY.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2296,7 +2335,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[72 <./operando_epr/figures/degradation/pDiTS_slow_charge_MS5000_forslides.png 
+[74 <./operando_epr/figures/degradation/pDiTS_slow_charge_MS5000_forslides.png 
 (PNG copy)>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2306,7 +2345,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[73 <./operando_epr/figures/degradation/operando_degradation_dits.pdf>]
+[75 <./operando_epr/figures/degradation/operando_degradation_dits.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2315,7 +2354,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[74 <./operando_epr/figures/degradation/repeated_cycling_degradation_dits.pdf>]
+[76 <./operando_epr/figures/degradation/repeated_cycling_degradation_dits.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2324,7 +2363,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[75 <./operando_epr/figures/self_discharge/DOM_DITS_SELF_DISCHARGE.pdf> <./oper
+[77 <./operando_epr/figures/self_discharge/DOM_DITS_SELF_DISCHARGE.pdf> <./oper
 ando_epr/figures/solid/FET231114_5uA_RT.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2334,7 +2373,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[76 <./operando_epr/figures/CRYO/SANDWICH_FREEZING.pdf>]
+[78 <./operando_epr/figures/CRYO/SANDWICH_FREEZING.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2343,7 +2382,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[77 <./operando_epr/figures/CRYO/freezing_sandwich_230K_200K.pdf>]
+[79 <./operando_epr/figures/CRYO/freezing_sandwich_230K_200K.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2352,20 +2391,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[78 <./operando_epr/figures/slowcharge_231117_liquid_250K.pdf>]
+[80 <./operando_epr/figures/slowcharge_231117_liquid_250K.pdf>]
 \openout2 = `pulse/pulse.aux'.
 
 
 (./pulse/pulse.tex
 Chapter 4.
-<./pulse/figures/pEPR_spectrometer_diagram.pdf, id=7681, 368.19757pt x 196.7437
+<./pulse/figures/pEPR_spectrometer_diagram.pdf, id=7726, 368.19757pt x 196.7437
 7pt>
 File: ./pulse/figures/pEPR_spectrometer_diagram.pdf Graphic file (type pdf)
 <use ./pulse/figures/pEPR_spectrometer_diagram.pdf>
 Package pdftex.def Info: ./pulse/figures/pEPR_spectrometer_diagram.pdf  used on
  input line 31.
 (pdftex.def)             Requested size: 430.00462pt x 229.77498pt.
-[79
+[81
 
 
 
@@ -2383,8 +2422,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[80 <./pulse/figures/pEPR_spectrometer_diagram.pdf>]
-<./pulse/figures/FGMR/ID/ID_vs_ISO.pdf, id=7691, 903.375pt x 526.96875pt>
+[82 <./pulse/figures/pEPR_spectrometer_diagram.pdf>]
+<./pulse/figures/FGMR/ID/ID_vs_ISO.pdf, id=7735, 903.375pt x 526.96875pt>
 File: ./pulse/figures/FGMR/ID/ID_vs_ISO.pdf Graphic file (type pdf)
 <use ./pulse/figures/FGMR/ID/ID_vs_ISO.pdf>
 Package pdftex.def Info: ./pulse/figures/FGMR/ID/ID_vs_ISO.pdf  used on input l
@@ -2399,7 +2438,7 @@ Overfull \hbox (6.7449pt too wide) in paragraph at lines 57--57
 []\OT1/txr/bx/n/17.28 Pulsed EPR Spec-troscopy of a charged pDiT-BuS Cath-
  []
 
-<./pulse/figures/SAW_Figure_8.pdf, id=7692, 713.66624pt x 390.45876pt>
+<./pulse/figures/SAW_Figure_8.pdf, id=7736, 713.66624pt x 390.45876pt>
 File: ./pulse/figures/SAW_Figure_8.pdf Graphic file (type pdf)
 <use ./pulse/figures/SAW_Figure_8.pdf>
 Package pdftex.def Info: ./pulse/figures/SAW_Figure_8.pdf  used on input line 6
@@ -2417,11 +2456,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[81]
+[83]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./pulse/figures/Figure_3_INTS.pdf, id=7696, 965.13289pt x 323.70938pt>
+<./pulse/figures/Figure_3_INTS.pdf, id=7740, 965.13289pt x 323.70938pt>
 File: ./pulse/figures/Figure_3_INTS.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_3_INTS.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_3_INTS.pdf  used on input line 
@@ -2430,7 +2469,7 @@ Package pdftex.def Info: ./pulse/figures/Figure_3_INTS.pdf  used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./pulse/figures/Figure_6_maintext_col_MOD.pdf, id=7697, 647.41875pt x 324.2112
+<./pulse/figures/Figure_6_maintext_col_MOD.pdf, id=7741, 647.41875pt x 324.2112
 4pt>
 File: ./pulse/figures/Figure_6_maintext_col_MOD.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_6_maintext_col_MOD.pdf>
@@ -2440,7 +2479,7 @@ Package pdftex.def Info: ./pulse/figures/Figure_6_maintext_col_MOD.pdf  used on
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf, id=7698, 1415.2875pt x 677.53125p
+<./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf, id=7742, 1415.2875pt x 677.53125p
 t>
 File: ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf Graphic file (type pdf)
 <use ./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf>
@@ -2458,7 +2497,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[82 <./pulse/figures/FGMR/ID/ID_vs_ISO.pdf>]
+[84 <./pulse/figures/FGMR/ID/ID_vs_ISO.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
@@ -2471,15 +2510,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[83 <./pulse/figures/SAW_Figure_8.pdf>]
-<./pulse/figures/Figure_4.pdf, id=7733, 435.6275pt x 445.665pt>
+[85 <./pulse/figures/SAW_Figure_8.pdf>]
+<./pulse/figures/Figure_4.pdf, id=7778, 435.6275pt x 445.665pt>
 File: ./pulse/figures/Figure_4.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_4.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_4.pdf  used on input line 125.
 (pdftex.def)             Requested size: 202.10269pt x 206.75606pt.
 
 
-LaTeX Warning: Reference `esi:fse_sims' on page 84 undefined on input line 131.
+LaTeX Warning: Reference `esi:fse_sims' on page 86 undefined on input line 131.
 
 
 
@@ -2499,12 +2538,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[84 <./pulse/figures/Figure_3_INTS.pdf>]
+[86 <./pulse/figures/Figure_3_INTS.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
-<./pulse/figures/Figure_S26.pdf, id=7742, 647.41875pt x 324.21124pt>
+<./pulse/figures/Figure_S26.pdf, id=7787, 647.41875pt x 324.21124pt>
 File: ./pulse/figures/Figure_S26.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S26.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S26.pdf  used on input line 151
@@ -2521,7 +2560,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[85 <./pulse/figures/Figure_6_maintext_col_MOD.pdf>]
+[87 <./pulse/figures/Figure_6_maintext_col_MOD.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2530,8 +2569,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[86 <./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf>]
-<./pulse/figures/Figure_S23.pdf, id=7777, 422.57875pt x 444.66125pt>
+[88 <./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf>]
+<./pulse/figures/Figure_S23.pdf, id=7822, 422.57875pt x 444.66125pt>
 File: ./pulse/figures/Figure_S23.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S23.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S23.pdf  used on input line 189
@@ -2546,12 +2585,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[87 <./pulse/figures/Figure_4.pdf>]
+[89 <./pulse/figures/Figure_4.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 200--201
 
  []
 
-<./pulse/figures/Figure_S24.pdf, id=7784, 428.60126pt x 445.665pt>
+<./pulse/figures/Figure_S24.pdf, id=7829, 428.60126pt x 445.665pt>
 File: ./pulse/figures/Figure_S24.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S24.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S24.pdf  used on input line 204
@@ -2565,8 +2604,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[88 <./pulse/figures/Figure_S26.pdf>]
-<./pulse/figures/Figure_S25.pdf, id=7792, 336.25626pt x 299.1175pt>
+[90 <./pulse/figures/Figure_S26.pdf>]
+<./pulse/figures/Figure_S25.pdf, id=7837, 336.25626pt x 299.1175pt>
 File: ./pulse/figures/Figure_S25.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S25.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S25.pdf  used on input line 219
@@ -2593,12 +2632,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[89 <./pulse/figures/Figure_S23.pdf>]
+[91 <./pulse/figures/Figure_S23.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 234--235
 
  []
 
-<./pulse/figures/Figure_5.pdf, id=7799, 1415.2875pt x 677.53125pt>
+<./pulse/figures/Figure_5.pdf, id=7845, 1415.2875pt x 677.53125pt>
 File: ./pulse/figures/Figure_5.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_5.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_5.pdf  used on input line 237.
@@ -2611,7 +2650,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[90 <./pulse/figures/Figure_S24.pdf>]
+[92 <./pulse/figures/Figure_S24.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 243--244
 
  []
@@ -2629,7 +2668,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[91 <./pulse/figures/Figure_S25.pdf>]
+[93 <./pulse/figures/Figure_S25.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 247--248
 
  []
@@ -2652,9 +2691,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[92 <./pulse/figures/Figure_5.pdf>]
+[94 <./pulse/figures/Figure_5.pdf>]
 
-LaTeX Warning: Reference `esi:cw_sims' on page 93 undefined on input line 254.
+LaTeX Warning: Reference `esi:cw_sims' on page 95 undefined on input line 254.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 254--255
@@ -2675,8 +2714,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[93]
-<./pulse/figures/Figure_6.pdf, id=7868, 655.44875pt x 318.18875pt>
+[95]
+<./pulse/figures/Figure_6.pdf, id=7912, 655.44875pt x 318.18875pt>
 File: ./pulse/figures/Figure_6.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_6.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_6.pdf  used on input line 261.
@@ -2699,7 +2738,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[94 <./pulse/figures/Figure_6.pdf>]
+[96 <./pulse/figures/Figure_6.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 276--277
 
  []
@@ -2732,7 +2771,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[95]
+[97]
 Underfull \hbox (badness 10000) in paragraph at lines 304--305
 
  []
@@ -2742,7 +2781,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 335--336
 
  []
 
-<./pulse/figures/Figure_S7.pdf, id=7879, 1204.5pt x 814.04124pt>
+<./pulse/figures/Figure_S7.pdf, id=7924, 1204.5pt x 814.04124pt>
 File: ./pulse/figures/Figure_S7.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S7.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S7.pdf  used on input line 341.
@@ -2756,7 +2795,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[96]
+[98]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2765,14 +2804,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[97 <./pulse/figures/Figure_S7.pdf>]
-<./pulse/figures/Figure_S8.png, id=7933, 1043.5788pt x 472.6458pt>
+[99 <./pulse/figures/Figure_S7.pdf>]
+<./pulse/figures/Figure_S8.png, id=7978, 1043.5788pt x 472.6458pt>
 File: ./pulse/figures/Figure_S8.png Graphic file (type png)
 <use ./pulse/figures/Figure_S8.png>
 Package pdftex.def Info: ./pulse/figures/Figure_S8.png  used on input line 356.
 
 (pdftex.def)             Requested size: 430.00462pt x 194.75243pt.
-<./pulse/figures/Figure_S9.pdf, id=7934, 903.375pt x 501.875pt>
+<./pulse/figures/Figure_S9.pdf, id=7979, 903.375pt x 501.875pt>
 File: ./pulse/figures/Figure_S9.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S9.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S9.pdf  used on input line 363.
@@ -2787,19 +2826,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[98 <./pulse/figures/Figure_S8.png (PNG copy)> <./pulse/figures/Figure_S9.pdf>]
-<./pulse/figures/Figure_S10.pdf, id=8038, 1212.53pt x 495.8525pt>
+[100 <./pulse/figures/Figure_S8.png (PNG copy)> <./pulse/figures/Figure_S9.pdf>
+]
+<./pulse/figures/Figure_S10.pdf, id=8083, 1212.53pt x 495.8525pt>
 File: ./pulse/figures/Figure_S10.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S10.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S10.pdf  used on input line 373
 .
 (pdftex.def)             Requested size: 215.0023pt x 87.91795pt.
-<./pulse/figures/Figure_S11.pdf, id=8039, 903.375pt x 501.875pt>
+<./pulse/figures/Figure_S11.pdf, id=8084, 903.375pt x 501.875pt>
 File: ./pulse/figures/Figure_S11.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S11.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S11.pdf  used on input line 381
 .
 (pdftex.def)             Requested size: 215.0023pt x 119.4416pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2808,18 +2849,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[99 <./pulse/figures/Figure_S10.pdf> <./pulse/figures/Figure_S11.pdf
+[101 <./pulse/figures/Figure_S10.pdf> <./pulse/figures/Figure_S11.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./pulse/figures/Figure_S11.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >]
-<./pulse/figures/Figure_S12.png, id=8070, 1043.5788pt x 464.4552pt>
+<./pulse/figures/Figure_S12.png, id=8114, 1043.5788pt x 464.4552pt>
 File: ./pulse/figures/Figure_S12.png Graphic file (type png)
 <use ./pulse/figures/Figure_S12.png>
 Package pdftex.def Info: ./pulse/figures/Figure_S12.png  used on input line 392
 .
 (pdftex.def)             Requested size: 215.0023pt x 95.68875pt.
-<./pulse/figures/Figure_S13.pdf, id=8071, 903.375pt x 501.875pt>
+<./pulse/figures/Figure_S13.pdf, id=8115, 903.375pt x 501.875pt>
 File: ./pulse/figures/Figure_S13.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S13.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S13.pdf  used on input line 399
@@ -2834,15 +2875,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[100 <./pulse/figures/Figure_S12.png (PNG copy)> <./pulse/figures/Figure_S13.pd
+[102 <./pulse/figures/Figure_S12.png (PNG copy)> <./pulse/figures/Figure_S13.pd
 f>]
-<./pulse/figures/Figure_S14.png, id=8080, 1204.5pt x 501.5538pt>
+<./pulse/figures/Figure_S14.png, id=8124, 1204.5pt x 501.5538pt>
 File: ./pulse/figures/Figure_S14.png Graphic file (type png)
 <use ./pulse/figures/Figure_S14.png>
 Package pdftex.def Info: ./pulse/figures/Figure_S14.png  used on input line 411
 .
 (pdftex.def)             Requested size: 215.0023pt x 89.52579pt.
-<./pulse/figures/Figure_S15.pdf, id=8081, 903.375pt x 501.875pt>
+<./pulse/figures/Figure_S15.pdf, id=8125, 903.375pt x 501.875pt>
 File: ./pulse/figures/Figure_S15.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S15.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S15.pdf  used on input line 419
@@ -2857,15 +2898,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[101 <./pulse/figures/Figure_S14.png (PNG copy)> <./pulse/figures/Figure_S15.pd
+[103 <./pulse/figures/Figure_S14.png (PNG copy)> <./pulse/figures/Figure_S15.pd
 f>]
-<./pulse/figures/Figure_S16.pdf, id=8090, 1204.5pt x 501.875pt>
+<./pulse/figures/Figure_S16.pdf, id=8135, 1204.5pt x 501.875pt>
 File: ./pulse/figures/Figure_S16.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S16.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S16.pdf  used on input line 430
 .
 (pdftex.def)             Requested size: 215.0023pt x 89.58311pt.
-<./pulse/figures/Figure_S17.pdf, id=8091, 903.375pt x 501.875pt>
+<./pulse/figures/Figure_S17.pdf, id=8136, 903.375pt x 501.875pt>
 File: ./pulse/figures/Figure_S17.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S17.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S17.pdf  used on input line 437
@@ -2880,14 +2921,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[102 <./pulse/figures/Figure_S16.pdf> <./pulse/figures/Figure_S17.pdf>]
-<./pulse/figures/Figure_S18.pdf, id=8121, 1212.53pt x 495.8525pt>
+[104 <./pulse/figures/Figure_S16.pdf> <./pulse/figures/Figure_S17.pdf>]
+<./pulse/figures/Figure_S18.pdf, id=8166, 1212.53pt x 495.8525pt>
 File: ./pulse/figures/Figure_S18.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S18.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S18.pdf  used on input line 447
 .
 (pdftex.def)             Requested size: 215.0023pt x 87.91795pt.
-<./pulse/figures/Figure_S19.pdf, id=8122, 903.375pt x 501.875pt>
+<./pulse/figures/Figure_S19.pdf, id=8167, 903.375pt x 501.875pt>
 File: ./pulse/figures/Figure_S19.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S19.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S19.pdf  used on input line 455
@@ -2914,7 +2955,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[103 <./pulse/figures/Figure_S18.pdf> <./pulse/figures/Figure_S19.pdf>]
+[105 <./pulse/figures/Figure_S18.pdf> <./pulse/figures/Figure_S19.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2923,7 +2964,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[104])
+[106])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2932,7 +2973,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[105]
+[107]
 \openout2 = `outlook/outlook.aux'.
 
  (./outlook/outlook.tex
@@ -2944,7 +2985,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[106
+[108
 
 
 
@@ -2956,7 +2997,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-) [107] (./my_thisis.bbl
+) [109] (./my_thisis.bbl
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2965,7 +3006,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[108
+[110
 
 
 
@@ -2981,30 +3022,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--40
 []at berlin.
  []
 
-[109]
+[111]
 Underfull \hbox (badness 2653) in paragraph at lines 76--79
 []\OT1/txr/m/n/12 Nerea Casado and David Mecer-reyes.  \OT1/txr/m/it/12 Re-dox 
 Poly-mers for En-ergy and
  []
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[110]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[111]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3041,11 +3064,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [115]
-Underfull \hbox (badness 1946) in paragraph at lines 446--451
-[]\OT1/txr/m/n/12 Arvid Niem[]oller, Pe-ter Jakes, Svit-lana Eu-rich, Anja Paul
-us, Hans Kungl,
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -3064,9 +3082,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [117]
-Underfull \hbox (badness 1163) in paragraph at lines 625--630
-[]\OT1/txr/m/n/12 Anatoliy A. Vereshcha-gin, Ar-seniy Y. Kalnin, Alexey I. Volk
-ov, Daniil A.
+Underfull \hbox (badness 1946) in paragraph at lines 446--451
+[]\OT1/txr/m/n/12 Arvid Niem[]oller, Pe-ter Jakes, Svit-lana Eu-rich, Anja Paul
+us, Hans Kungl,
  []
 
 
@@ -3087,6 +3105,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [119]
+Underfull \hbox (badness 1163) in paragraph at lines 625--630
+[]\OT1/txr/m/n/12 Anatoliy A. Vereshcha-gin, Ar-seniy Y. Kalnin, Alexey I. Volk
+ov, Daniil A.
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[120]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[121]
 Underfull \hbox (badness 1286) in paragraph at lines 725--730
 []\OT1/txr/m/n/12 Yiren Zhang, Al-bert M. Park, Stephen R. McMil-lan, Nicholas 
 J. Har-mon,
@@ -3101,7 +3142,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[120]
+[122]
 \openout2 = `appendix/A-EMRE.aux'.
 
  (./appendix/A-EMRE.tex
@@ -3110,7 +3151,7 @@ LaTeX Font Info:    Trying to load font information for OT1+txtt on input line
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
-)) [121
+)) [123
 
 
 ]
@@ -3126,10 +3167,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15175 strings out of 478287
- 338132 string characters out of 5849289
- 670205 words of memory out of 5000000
- 33004 multiletter control sequences out of 15000+600000
+ 15192 strings out of 478287
+ 338979 string characters out of 5849289
+ 673245 words of memory out of 5000000
+ 33019 multiletter control sequences out of 15000+600000
  528265 words of font info for 163 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,14n,117p,2267b,1157s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3148,10 +3189,10 @@ txtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/font
 s/type1/urw/times/utmri8a.pfb>
-Output written on my_thisis.pdf (121 pages, 50175331 bytes).
+Output written on my_thisis.pdf (123 pages, 51501756 bytes).
 PDF statistics:
- 8285 PDF objects out of 8907 (max. 8388607)
- 5363 compressed objects within 54 object streams
+ 8329 PDF objects out of 8907 (max. 8388607)
+ 5390 compressed objects within 54 object streams
  0 named destinations out of 1000 (max. 500000)
- 371 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 381 words of extra memory for PDF output out of 10000 (max. 10000000)
 

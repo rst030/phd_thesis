@@ -4,6 +4,7 @@ The top-level auxiliary file: my_thisis.aux
 A level-1 auxiliary file: summary/list_of_abbreviations.aux
 A level-1 auxiliary file: introduction/introduction.aux
 A level-1 auxiliary file: electrochemistry/electrochemistry.aux
+A level-1 auxiliary file: fab/fab.aux
 A level-1 auxiliary file: operando_epr/operando_epr.aux
 A level-1 auxiliary file: pulse/pulse.aux
 A level-1 auxiliary file: outlook/outlook.aux
@@ -58,6 +59,7 @@ Warning--I didn't find a database entry for "energy_consumption_review"
 Warning--I didn't find a database entry for "energy_sources_review"
 Warning--I didn't find a database entry for "energy_from_sound"
 Warning--I didn't find a database entry for "tokamak_updates"
+Warning--I didn't find a database entry for "Sworakowski2018"
 Warning--I didn't find a database entry for "ORCA"
 Warning--I didn't find a database entry for "Schweiger2001_exch"
 Warning--I didn't find a database entry for "Siavash"
@@ -79,7 +81,7 @@ Warning--can't use both author and editor fields in Casado_2021_book
 Warning--empty booktitle in nishide_2009
 You've used 123 entries,
             2118 wiz_defined-function locations,
-            1309 strings with 29413 characters,
+            1312 strings with 29454 characters,
 and the built_in function-call counts, 45463 in all, are:
 = -- 4158
 > -- 2960
