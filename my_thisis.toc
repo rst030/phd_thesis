@@ -4,7 +4,7 @@
 \contentsline {subsection}{\numberline {2.1.1}Cell Electrodes}{12}{}%
 \contentsline {subsection}{\numberline {2.1.2}Reference Electrode}{14}{}%
 \contentsline {subsection}{\numberline {2.1.3}Electrolyte}{14}{}%
-\contentsline {subsubsection}{Polymer Electrolyte}{15}{}%
+\contentsline {subsubsection}{Polymer-based Gel Electrolyte}{15}{}%
 \contentsline {subsection}{\numberline {2.1.4}Characteristics of Rechargeable Batteries}{16}{}%
 \contentsline {paragraph}{Energy and power density, C-rate and State Of Charge}{16}{}%
 \contentsline {paragraph}{State Of Health}{16}{}%
@@ -20,7 +20,7 @@
 \contentsline {subsection}{\numberline {2.4.3}PTMA}{26}{}%
 \contentsline {subsection}{\numberline {2.4.4}NiSalen}{27}{}%
 \contentsline {subsection}{\numberline {2.4.5}Poly-Di-TEMPO-Salens}{27}{}%
-\contentsline {subsection}{\numberline {2.4.6}Electro-polymerization of TEMPO-Salens}{27}{}%
+\contentsline {subsection}{\numberline {2.4.6}Electro-polymerization of TEMPO-Salens}{29}{}%
 \contentsline {chapter}{\numberline {3}Operando EPR Spectroscopy of TEMPO-Salen Electrochemical Cells}{35}{}%
 \contentsline {section}{\numberline {3.1}Electron Paramagnetic Resonance}{35}{}%
 \contentsline {subsection}{\numberline {3.1.1}The Spin Hamiltonian}{35}{}%

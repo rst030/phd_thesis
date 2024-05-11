@@ -595,11 +595,22 @@ Stefan Stoll and Arthur Schweiger.
   and analysis in epr.
 \newblock {\em Journal of Magnetic Resonance}, 178:42--55, 1 2006.
 
+\bibitem{Sworakowski2018}
+Juliusz Sworakowski.
+\newblock How accurate are energies of homo and lumo levels in small-molecule
+  organic semiconductors determined from cyclic voltammetry or optical
+  spectrosco.
+\newblock {\em Synthetic Metals}, 235:125--130, 1 2018.
+
 \bibitem{IWASA2007}
 Hiroyuki Takeo~Nishide and Suga.
 \newblock Organic radical battery.
 \newblock {\em Journal of the Society of Mechanical Engineers}, 110:194--195,
   2007.
+
+\bibitem{Tarascon2001}
+J.-M Tarascon and M~Armand.
+\newblock Issues and challenges facing rechargeable lithium batteries, 2001.
 
 \bibitem{Tessler2009}
 Nir Tessler, Yevgeni Preezant, Noam Rappaport, and Yohai Roichman.
@@ -635,6 +646,12 @@ Anatoly~A. Vereshchagin, Petr~S. Vlasov, Alexander~S. Konev, Peixia Yang,
   organic framework and polymerized nickel complex for electrochemical energy
   storage devices.
 \newblock {\em Electrochimica Acta}, 295:1075--1084, 2 2019.
+
+\bibitem{Wang2019}
+Shaoyang Wang, Fei Li, Alexandra~D. Easley, and Jodie~L. Lutkenhaus.
+\newblock Real-time insight into the doping mechanism of redox-active organic
+  radical polymers.
+\newblock {\em Nature Materials}, 18:69--75, 1 2019.
 
 \bibitem{Weil_Bolton}
 John~A. Weil and James~R. Bolton.
