@@ -209,17 +209,6 @@ The asymmetric EDFS spectrum of pDiTBuS at 95\% ESOC could not be simulated cons
 \newpage
 
 
-\subsection{\ik{Limitation on Shortest Detectable $T_m$ by the Spectrometer Dead Time}}
-\label{esi:dead_time}
-
-\ik{If a system exhibits multiple phase memory times $T_m$, the spin echo from the species with short memory times may decay below the noise level at a given pulse separation $\tau$. Figure~\ref{fig:Figure_S25} illustrates the spin echo intensity in a two-component system with $T_m^1=100$~ns and $T_m^2=25$~ns in dependence on the pulse separation $\tau$. The fast relaxing component with $T_m^2=25$~ns decays below the noise level after the dead time of $t_d=100$~ns.}
-
-\begin{figure}[h]
-\center
-	\includegraphics[width=0.4\textwidth]{./pulse/figures/Figure_S25}
-	\caption{\ik{Simulated echo decay transient of a spin ensemble exhibiting two distinct phase memory times $T_m^1=100$~ns and $T_m^2=25$~ns. The 100~ns dead time, during which the spin echo detection is not possible, is marked in red. After the dead time, the sum of the two components is indistinguishable from the slowly relaxing component within the 2\% noise.}}
-	\label{fig:Figure_S25}
-\end{figure}
 
 
 \subsection{Estimation of Local Spin Concentrations with Instantaneous Diffusion}
@@ -253,7 +242,7 @@ It was recently shown, that densely packed TEMPO radicals in a TEMPO-containing,
 
 Daniel et al.\q{~\cite{Daniel2023}} concluded that separate distributions of $T_1$ correspond to different \ik{binding between TEMPO and the carbon mesh, representing the} quality of electrical contact between TEMPO and the conductive additive. With the observed distribution of $T_1$ and considering the two-component cwEPR spectral contributions for charged pDiTBuS \ik{(``broad'' and ``dilute'' components, cf. Section~\ref{esi:cw_sims}, ESI)}, we suggest \rs{that two types of domains could exist} in a \ik{partially} charged pDiTBuS film \rs{as well. These two} \ik{morphologies \rs{may correspond to} \q{``conductive''} domains with shorter $T_1$, where TEMPO$^{\bullet}$ are close to the conductive pNiSalen backbone, and \q{``non-conductive''} domains with longer $T_1$, where TEMPO$^{\bullet}$ are separated from pNiSalen}. \rs{We note, however, that based on the experimental data presented here, this interpretation is rather speculative.} \ik{The detected $T_1$ values for pDiTBuS may also correspond to one distribution, as the separation between the $T_1$ values is comparable to \rs{the widths of their distributions}}.\\%NiSalen backbone.\\
 
-\subsection{Temperature Dependen\q{ce} of Pulse Spectra of Charged pDiTBuS}
+\subsection{Temperature Dependence of Pulse Spectra of Charged pDiTBuS}
 Spin relaxation times usually depend on temperature\ik{\cite{Schweiger2001}}. We measured EDFS of charged pDiTBuS at \rs{5~K} and at \rs{80~K} to see how faster spin relaxation affects the spectral shape. Figure~\ref{fig:Figure_6} shows EDFS spectra for pDiTBuS \ik{ charged to} ESOC~95\% (a) and \ik{to} ESOC~85\% (b) \ik{at 80~K (solid) and at 5~K (dashed)}. At 80~K an overnight scan was required to obtain a satisfactory signal-to-noise ratio, \rs{whereas} at 5~K the spectrum was recorded in a few minutes. The spectral intensities at different temperatures were \ik{scaled} \rs{such that} the high-field $m_I=-1$ peak \rs{has the same intensity}. Figure~\ref{fig:Figure_6} clearly shows that the relative intensities of the peaks change with temperature for both ESOC. At higher temperatures the EDFS spectrum of pDiTBuS has a peak ratio closer to that of dilute TEMPOL that corresponds to \ik{a} lower spin concentration\ik{,} according to Equation~\ref{eq:inst_diff}. The influence of the temperature \ik{increase} on the spectral shape is stronger for the \ik{lower,} 85\% ESOC.
 
 \begin{figure}[ht]
@@ -266,6 +255,17 @@ Spin relaxation times usually depend on temperature\ik{\cite{Schweiger2001}}. We
 
 The overall relaxation times in the film decrease with \ik{increasing} temperature, but the dead time of the spectrometer ($t_d=120$~ns) does not change. Therefore, at a given temperature, only \ik{spins with $T_m>t_d$} contribute to the signal. At higher temperature only the weakly coupled spins \ik{(with the longest $T_m$)} are detectable, which results in a spectral shape that is \q{less affected by instantaneous diffusion and thus }closer to a dilute nitroxide solution.\\
 
+\subsection{\ik{Limitation on Shortest Detectable $T_m$ by the Spectrometer Dead Time}}
+\label{esi:dead_time}
+
+\ik{If a system exhibits multiple phase memory times $T_m$, the spin echo from the species with short memory times may decay below the noise level at a given pulse separation $\tau$. Figure~\ref{fig:Figure_S25} illustrates the spin echo intensity in a two-component system with $T_m^1=100$~ns and $T_m^2=25$~ns in dependence on the pulse separation $\tau$. The fast relaxing component with $T_m^2=25$~ns decays below the noise level after the dead time of $t_d=100$~ns.}
+
+\begin{figure}[h]
+\center
+	\includegraphics[width=0.4\textwidth]{./pulse/figures/Figure_S25}
+	\caption{\ik{Simulated echo decay transient of a spin ensemble exhibiting two distinct phase memory times $T_m^1=100$~ns and $T_m^2=25$~ns. The 100~ns dead time, during which the spin echo detection is not possible, is marked in red. After the dead time, the sum of the two components is indistinguishable from the slowly relaxing component within the 2\% noise.}}
+	\label{fig:Figure_S25}
+\end{figure}
 
 
 \section{Pad{\'e}-Laplace Deconvolution of Polyexponential Decay Signals}
@@ -456,23 +456,6 @@ We used the Pad{\'e}-Laplace method to determine the number of the decay constan
 	\caption{Pade-Laplace deconvolution and biexponential fit of the inversion recovery in a pDiTBuS film at 85\%~ESOC at the $m_I=0$ spectral position. Temperature 5K. Data is inverted and scaled before fitting.}
 	\label{fig:Figure_S19}
 \end{figure}
-
-
-
-\subsection{\ik{Limitation on Shortest Detectable $T_m$ by the Spectrometer Dead Time}}
-\label{esi:dead_time}
-
-\ik{If a system exhibits multiple phase memory times $T_m$, the spin echo from the species with short memory times may decay below the noise level at a given pulse separation $\tau$. Figure~\ref{fig:Figure_S25} illustrates the spin echo intensity in a two-component system with $T_m^1=100$~ns and $T_m^2=25$~ns in dependence on the pulse separation $\tau$. The fast relaxing component with $T_m^2=25$~ns decays below the noise level after the dead time of $t_d=100$~ns.}
-
-\begin{figure}[h]
-\center
-	\includegraphics[width=0.6\textwidth]{./pulse/figures/Figure_S25}
-	\caption{\ik{Simulated echo decay transient of a spin ensemble exhibiting two distinct phase memory times $T_m^1=100$~ns and $T_m^2=25$~ns. The 100~ns dead time, during which the spin echo detection is not possible, is marked in red. After the dead time, the sum of the two components is indistinguishable from the slowly relaxing component within the 2\% noise.}}
-	\label{fig:Figure_S25}
-\end{figure}
-
-
-
 
 
 

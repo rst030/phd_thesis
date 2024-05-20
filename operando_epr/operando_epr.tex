@@ -50,7 +50,7 @@ The measurement of the magnetic moment of an electron can be done by measuring i
 A proton has a half-integer spin $S=1/2$ that results in a magnetic moment $\mu_p = \mu_e\frac{m_e}{m_p}$, that is $\frac{m_p}{m_e}\approx1836$ times smaller than the electron's magnetic moment. A neutron bears no charge but also has a half-integer spin $S=1/2$. An atomic nucleus that consists of protons and neutrons has a magnetic moment which is a vector sum of the aligned spins of its protons and neutrons. The spin of a nucleus is defined by the arrangement of its nucleons and by the nuclear charge. A nitrogen nucleus has 7 protons and 7 neutrons that total in a nuclear spin $I=1$ which, with the g factor for the nitrogen nucleus $g_N$, results in the nuclear magnetic moment of $\mu_N=\mu_B\frac{m_e}{m_N}g_NI$ that splits each of the electron Zeeman level into three nuclear Zeeman energy sublevels corresponding to the three possible projections of the nuclear spin on the magnetic field axis, $m_I=-1,0,+1$, analogously to the electron with $m_S=1/2,-1/2$. The two splittings are shown in the energy diagram in Figure~\ref{fig:energy_diagram}. The nuclear Zeeman splitting is more than two orders of magnitude weaker than the electron Zeeman splitting because of the difference in the masses of the particles.
 
 \paragraph*{Hyperfine Interaction}
-The magnetic moments of an electron and a magnetic nucleus, such as nitrogen, couple in the hyperfine interaction: $H_{HF}=\vec{\hat{s}}\textbf{A}\vec{\hat{I}}=H_F+H_{DD}$ with the hyperfine coupling tensor $\textbf{A}$. The isotropic part $H_F=a_{iso}\vec{\hat{s}}\vec{\hat{I}}$, or the Fermi contact interaction, scales with the probability density of the electron at the position of the nucleus $a_{iso}=\frac{2}{3}\frac{\mu_0}{\hbar}g_e\mu_eg_n\mu_n\vert\psi(0)\vert^2$~\cite{Schweiger2001_exch}. The anisotropic part $H_{DD}=\vec{\hat{s}}\textbf{T}\vec{\hat{I}}$ with the dipolar coupling tensor $\textbf{T}$ takes into account the anisotropic magnetic dipole coupling between the magnetic moments of the electron and the nucleus. $\textbf{T}$ depends on the shape of the electron orbital, its $3\times3$ Cartesian matrix representation depends on the molecular frame of reference and can be diagonalized by rotating the coordinate system. The matrix representation of the hyperfine coupling tensor $\textbf{A}$ can be written in as the sum of its isotropic and anisotropic parts: $\textbf{A}=a_{iso}\mathds{1}_3 + \textbf{T}$~\cite{Weil_Bolton}. In its diagonal matrix representation $\textbf{A}$ reduces to its three principal components $[A_{xx}, A_{yy}, A_{zz}]$. The values of $\textbf{A}$ are typically given in MHz.
+The magnetic moments of an electron and a magnetic nucleus, such as nitrogen, couple in the hyperfine interaction: $H_{HF}=\vec{\hat{s}}\textbf{A}\vec{\hat{I}}=H_F+H_{DD}$ with the hyperfine coupling tensor $\textbf{A}$. The isotropic part $H_F=a_{iso}\vec{\hat{s}}\vec{\hat{I}}$, or the Fermi contact interaction, scales with the probability density of the electron at the position of the nucleus $a_{iso}=\frac{2}{3}\frac{\mu_0}{\hbar}g_e\mu_eg_n\mu_n\vert\psi(0)\vert^2$~\cite{Schweiger2001}. The anisotropic part $H_{DD}=\vec{\hat{s}}\textbf{T}\vec{\hat{I}}$ with the dipolar coupling tensor $\textbf{T}$ takes into account the anisotropic magnetic dipole coupling between the magnetic moments of the electron and the nucleus. $\textbf{T}$ depends on the shape of the electron orbital, its $3\times3$ Cartesian matrix representation depends on the molecular frame of reference and can be diagonalized by rotating the coordinate system. The matrix representation of the hyperfine coupling tensor $\textbf{A}$ can be written in as the sum of its isotropic and anisotropic parts: $\textbf{A}=a_{iso}\mathds{1}_3 + \textbf{T}$~\cite{Weil_Bolton}. In its diagonal matrix representation $\textbf{A}$ reduces to its three principal components $[A_{xx}, A_{yy}, A_{zz}]$. The values of $\textbf{A}$ are typically given in MHz.
 
 \paragraph*{Exchange Interaction}
 In a system of closely placed electrons, such as in a film of densely packed radicals, the electron orbitals may overlap significantly and the radicals may exchange electrons. The energy required to exchange the electrons is called the exchange coupling $H_{exch} = \vec{\hat{s_1}}\textbf{J}\vec{\hat{s_2}}$, that becomes considerably large at inter-spin distances below $r<1.5$~nm or with a large spin delocalisation~\cite{Schweiger2001_exch}. The positive $\textbf{J}$ corresponds to a weak coupling between $s_1$ and $s_2$ which leads to an antiferromagnetic or antiparallel alignment of spins with a total $S=0$, whereas the negative $\textbf{J}$ causes the strong inter-spin coupling which leads to a ferromagnetic alignment with $S=1$~\cite{Schweiger2001_exch}.\\
@@ -259,98 +259,17 @@ The molecular backbone of pDiTS and pDiTBuS is the pNiSalen, a conjugated polyme
 \label{sec:operando_cell_fab}
 
 \subsection{Cells Based on a Modified EPR Sample Tube}
+\label{sec:tube_cell}
 An electrochemical cell was constructed inside an X band EPR sample tube.
-
-\subsection{Electrochemical Cells with Solid Electrolyte}
-The electrolyte based on an ionic liquid incorporated in a gel-like polymer matrix has sufficient ionic mobility and diffusion to penetrate the pDiTBuS and pNiSalen surface and allow for partial charging and discharging of the battery electrodes.
-
-\begin{figure}[h]
-\center
-	\includegraphics[width=1\textwidth]{./operando_epr/figures/sandwich/sandwich.pdf}
-	\caption{All-polymer solid state organic radical battery produced between two Au-plated substrates.}
-	\label{fig:sandwich_assembly}
-\end{figure}
-
-
-
-\begin{figure}[h]
-\center
-	\includegraphics[width=1\textwidth]{./operando_epr/figures/solid/solid_cell.pdf}
-	\caption{All-polymer solid state organic radical battery produced on a 5~$\muup$m interdigitated grid.}
-	\label{fig:transistor_battery_assewmbly}
-\end{figure}
-
-
-\begin{figure}[h]
-\center
-	\includegraphics[width=1\textwidth]{./operando_epr/figures/solid/separate_deposition.pdf}
-	\caption{Deactivation of the on-substrate CE during the electrodeposition of a pDiTBuS film on the on-substrate WE of a 5~$\muup$m interdigitated grid.}
-	\label{fig:transistor_battery_deposition}
-\end{figure}
-
-\begin{figure}[h]
-\center
-	\includegraphics[width=1\textwidth]{./operando_epr/figures/solid/current_density.pdf}
-	\caption{Extremely inhomogeneous current density in a closely spaced electrodes of the interdigitated grid. Numerical simulation in Comsol Multiphysics.}
-	\label{fig:grid_current_density_sumulation}
-\end{figure}
-
-
-
-\section{Ex Situ Electrochemistry}
-\label{sample_fab_2}
-The pDiTBuS film was brought to the desired oxidation state by galvanostatic discharging with a current of 10~$\muup$A in a three-electrode electrochemical cell in a 5~ml beaker with the electrodes and the electrolyte described above.
-Each potential of the film was reached by first fully charging the cell to 700~mV and then discharging it to the desired potential (labeled points in Figure~\ref{fig:Figure_S3}). When the desired potential was \ik{reached}, the output relay of the potentiostat was opened so that no current went through the cell after charging. The substrate with the WE and the pDiTBuS film was removed from the charging cell, placed in a 5~mm OD quartz EPR tube, evacuated down to $<5\times10^{-3}$~mbar, filled with He up to a pressure of 500-600 mbar, then flame sealed with a H$_2$/O$_2$ burner.
-
-\begin{figure}[!ht]
-\center
-	\includegraphics[width=0.85\textwidth]{./pulse/figures/Figure_S3}
-	\caption{Initial galvanostatic discharge curve for the pDiTBuS film with the redox potentials described in the main text. Since the film has lost 12\% of its capacity during the temperature cycling, the SoC determined from the potentials mapped to the initial curve are lower than the SoC determined from the individual discharge curves (given in brackets). The SoC values corresponding to the initial (individual) discharge curve are a): SoC~98~(98)\%, b): SoC~\ik{94~(96)}\%, c): SoC~57(65)\%, d): SoC~0(0)\%. (Dis-)charging current: 10~$\muup$A, charging rate: 6.25~C. After this initial discharging, the pDiTBuS film has undergone 10 charge-discharge cycles and 4 temperature cycles.}
-	\label{fig:Figure_S3}
-\end{figure}
-
-\begin{figure}[!ht]
-\center
-	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_S27}
-	\caption{\ik{Calculation of the number of withdrawn electrons from a pDiTBuS film for the four states of charge. At negative times the pDiTBuS film is charged, corresponding to the withdrawal of electrons from the film. At positive times the film is discharged. The number of transferred electrons during discharging is determined from the four overlaid galvanostatic discharge curves (a-d).}}
-	\label{fig:Figure_S27}
-\end{figure}
-
-\ik{
-After reaching the fully charged state with 10~$\muup$A (by $t=0$ in Figure~\ref{fig:Figure_S27}), a 10~$\muup$A discharge current was applied to reach the four states of charge considered in this study (a-d in Figure~\ref{fig:Figure_S27} and in Figure~\ref{fig:Figure_S3}). Initially, the full charging capacity of the film was 1.48~$\muup$Ah~$=5.11$~\ik{m}C (3.29e+16 electrons withdrawn upon the full charging). The charging capacity has decreased by 0.06~$\muup$Ah ($4\%$) after the four temperature cycles between 300~K and 5~K during the cryogenic EPR measurements.\\
-}
-\newpage
-\ik{
-From the quantitative analysis of the GCD for each SoC, we calculate the number of elementary charges that are transferred to the film (withdrawn from the film) upon charging (discharging). The GCD and the calculated values of the transferred charge are shown in Figure~\ref{fig:Figure_S27}. During the full discharge from +700~mV down to -200~mV the pDiTBuS film has gained a total charge of 1.355~$\muup$Ah=4.88~\ik{m}C (d), corresponding to 3.01e+16 electrons that had been transferred to the film.)
-}
-\ik{ 
-The considered SoC correspond to discharging by $0.020\pm0.005~\muup$Ah (Figure~\ref{fig:Figure_S27}~a, $(5\pm1)\times10^{14}$ electrons injected), $0.060\pm0.005~\muup$Ah (Figure~\ref{fig:Figure_S27}~b, $(1.4\pm0.1)\times10^{15}$ electrons injected), $0.480\pm0.005~\muup$Ah (Figure~\ref{fig:Figure_S27}~c, $(1.07\pm0.01)\times10^{16}$ electrons injected) and $1.360\pm0.005~\muup$Ah (Figure~\ref{fig:Figure_S27}~d, $(3.05\pm0.01)\times10^{16}$~electrons injected). The SoC values determined from the respective potentials are different when mapped to the initial discharge curve in Fig.~\ref{fig:Figure_S3} and when considering the individual discharge curves in Fig.~\ref{fig:Figure_S27}, as the film was gradually losing its capacity during the temperature cycling, so the discharge curves were reaching the considered potentials at shorter times, leading to a lower Coulomb counting, lower discharge capacity and therefore a lower SoC.}
-
-
-
-
-
-
-
-
-
-
-
-
-
-\section{cwEPR Spectroscopy of a Charging Electrochemical Cell}
-There is a number of difficulties when it comes to an EPR experiment on a working electrochemical cell. The cell must contain mobile ions between its electrodes - cations and anions. The ions are normally produced as products of dissociating salts. To overcome the ionic bond in a salt and to break it into the ions, a solvent with large dipole moment is needed. Solvents with large dipole moments, as acetonitrile (CH\textsubscript{3}CN, $\epsilon\approx 37.5$) or water ($\epsilon\approx78.4$), have large dielectric constants which results in a non-resonant absorption of microwaves. A cell containing liquid electrolyte absorbs microwaves and lowers the sensitivity of the EPR experiment. Furthermore, due to a finite dimension of cell, not only the magnetic component of the microwave is interacting with the electrolyte, but also the electric one - this results in heating of the electrolyte in a similar fashion as in a microwave oven. The heating of the electrolyte leads to a faster degradation of the cell and does not allow for long systematic measurements.\\
-Another general issue with the operando EPR and EDMR experiments is that the device under testing (DUT) has to have metal electrodes that deliver current to it. Metals, placed in a microwave cavity, change the distribution of the electromagnetic field in it - that weakens the magnetic component at the device and at the same time strengthens the electric component. It is the magnetic dipole transition that is causing the magnetic resonance, so the weakening of the magnetic component by introducing the metal electrodes further decreases the magnetic resonance response. The increased electric component causes heating to temperatures that can be critical for the DUT operation.
-
-\section{Fabrication of EPR-compatible Electrochemical Cells}
-\begin{figure*}[!ht]
+\begin{figure*}[ht]
  \centering
  \includegraphics[width=0.99\textwidth]{./operando_epr/figures/Flat_tube_setup.pdf}
  \caption{Schematic diagram of the electrode design and assembly of the electrochemical cell based on a modified X-band EPR quartz tube. a): Molecular structure of p-DiTS, with the redox reaction of its charge-bearing TEMPO groups; highlighted is the backbone, p-NiMeOSalen. b): Photograph of the modified tube with a flattened bottom section, with the on-substrate electrochemical setup assembled inside, and the process of forming the modified tube. c): Electrochemical setup for deposition and cleaning of polymer films. d): Tube-based electrochemical setup. e): Cyclic voltammograms of a growing p-DiTS film during 100 electropolymerization cycles (solid-brown), during the cleaning process (crossed-black) and in the tube-based setup (dotted-blue). Peaks A/A', B/B' correspond to the oxidation and reduction of the TEMPO fragments and of the p-NiSalen backbone, respectively. All CV were recorded at 50~mV\,s\textsuperscript{-1}.}
  \label{fig:flat_tube}
 \end{figure*}
 
-\subsection{Versatile electrode setup for ex-situ and in-situ spectroelectrochemical EPR}\label{electrode_setup}
+\subsection{Versatile electrode setup for ex-situ and in-situ spectroelectrochemical EPR}
+\label{electrode_setup}
 %
 There is increasing interest in both ex-situ and in-situ spectroelectrochemical (SEC) EPR measurements in research fields ranging from biology to materials science, from redox active systems such as proteins~\cite{abdiaziz2019_chemcomm} and hydrogenase to catalysis,\cite{kutin2019_catalysis, neukermans2020_chemelectrochem, bonke2021_natrev, priebe2013_angewandte, rabeah2015_angewandte} redox-flow batteries~\cite{zhao2021_jacs} and of course ORBs.\cite{huang2016_jpowersources, kanzaki2018_acsappmat} One significant drawback with SEC EPR is the fact that microwave resonators suffer from substantial microwave damping as a result of introducing metal electrodes, polar solvents and ionic salts (i.e., the electrolyte) needed for successful electrochemistry.\cite{wadhawan2007_encofelectrochem} Microwave damping can be significantly reduced by our novel on-substrate electrode design (see Fig.~\ref{fig:flat_tube}) as this limits the amount of metal that is introduced into the resonator, while still allowing us to have electrode surface areas large enough to deposit sufficient material of interest to observe EPR signals.
 
@@ -422,7 +341,90 @@ Using the modified tube we see three major benefits. Firstly, it results in much
 
 
 
-\section{cwEPR Spectra During a Charge-Discharge Cycle}
+\subsection{Electrochemical Cells with Solid Electrolyte}
+The electrolyte based on an ionic liquid incorporated in a gel-like polymer matrix has sufficient ionic mobility and diffusion to penetrate the pDiTBuS and pNiSalen surface and allow for partial charging and discharging of the battery electrodes. TEMPO radicals were shown to undergo a redox reaction in ionic liquids with a slightly changed redox potential of the TEMPO$^{\bullet}$-TEMPO$^+$ reaction~\cite{Golovisnina2023}.
+
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./operando_epr/figures/sandwich/sandwich.pdf}
+	\caption{All-polymer solid state organic radical battery produced between two Au-plated substrates.}
+	\label{fig:sandwich_assembly}
+\end{figure}
+
+
+
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./operando_epr/figures/solid/solid_cell.pdf}
+	\caption{All-polymer solid state organic radical battery produced on a 5~$\muup$m interdigitated grid.}
+	\label{fig:transistor_battery_assewmbly}
+\end{figure}
+
+
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./operando_epr/figures/solid/separate_deposition.pdf}
+	\caption{Deactivation of the on-substrate CE during the electrodeposition of a pDiTBuS film on the on-substrate WE of a 5~$\muup$m interdigitated grid.}
+	\label{fig:transistor_battery_deposition}
+\end{figure}
+
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./operando_epr/figures/solid/current_density.pdf}
+	\caption{Extremely inhomogeneous current density in a closely spaced electrodes of the interdigitated grid. Numerical simulation in Comsol Multiphysics.}
+	\label{fig:grid_current_density_sumulation}
+\end{figure}
+
+
+
+\subsection{Ex Situ Electrochemistry}
+\label{sample_fab_2}
+The pDiTBuS film was brought to the desired oxidation state by galvanostatic discharging with a current of 10~$\muup$A in a three-electrode electrochemical cell in a 5~ml beaker with the electrodes and the electrolyte described above.
+Each potential of the film was reached by first fully charging the cell to 700~mV and then discharging it to the desired potential (labeled points in Figure~\ref{fig:Figure_S3}). When the desired potential was \ik{reached}, the output relay of the potentiostat was opened so that no current went through the cell after charging. The substrate with the WE and the pDiTBuS film was removed from the charging cell, placed in a 5~mm OD quartz EPR tube, evacuated down to $<5\times10^{-3}$~mbar, filled with He up to a pressure of 500-600 mbar, then flame sealed with a H$_2$/O$_2$ burner.
+
+\begin{figure}[!ht]
+\center
+	\includegraphics[width=0.85\textwidth]{./pulse/figures/Figure_S3}
+	\caption{Initial galvanostatic discharge curve for the pDiTBuS film with the redox potentials described in the main text. Since the film has lost 12\% of its capacity during the temperature cycling, the SoC determined from the potentials mapped to the initial curve are lower than the SoC determined from the individual discharge curves (given in brackets). The SoC values corresponding to the initial (individual) discharge curve are a): SoC~98~(98)\%, b): SoC~\ik{94~(96)}\%, c): SoC~57(65)\%, d): SoC~0(0)\%. (Dis-)charging current: 10~$\muup$A, charging rate: 6.25~C. After this initial discharging, the pDiTBuS film has undergone 10 charge-discharge cycles and 4 temperature cycles.}
+	\label{fig:Figure_S3}
+\end{figure}
+
+\begin{figure}[!ht]
+\center
+	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_S27}
+	\caption{\ik{Calculation of the number of withdrawn electrons from a pDiTBuS film for the four states of charge. At negative times the pDiTBuS film is charged, corresponding to the withdrawal of electrons from the film. At positive times the film is discharged. The number of transferred electrons during discharging is determined from the four overlaid galvanostatic discharge curves (a-d).}}
+	\label{fig:Figure_S27}
+\end{figure}
+
+\ik{
+After reaching the fully charged state with 10~$\muup$A (by $t=0$ in Figure~\ref{fig:Figure_S27}), a 10~$\muup$A discharge current was applied to reach the four states of charge considered in this study (a-d in Figure~\ref{fig:Figure_S27} and in Figure~\ref{fig:Figure_S3}). Initially, the full charging capacity of the film was 1.48~$\muup$Ah~$=5.11$~\ik{m}C (3.29e+16 electrons withdrawn upon the full charging). The charging capacity has decreased by 0.06~$\muup$Ah ($4\%$) after the four temperature cycles between 300~K and 5~K during the cryogenic EPR measurements.\\
+}
+\newpage
+\ik{
+From the quantitative analysis of the GCD for each SoC, we calculate the number of elementary charges that are transferred to the film (withdrawn from the film) upon charging (discharging). The GCD and the calculated values of the transferred charge are shown in Figure~\ref{fig:Figure_S27}. During the full discharge from +700~mV down to -200~mV the pDiTBuS film has gained a total charge of 1.355~$\muup$Ah=4.88~\ik{m}C (d), corresponding to 3.01e+16 electrons that had been transferred to the film.)
+}
+\ik{ 
+The considered SoC correspond to discharging by $0.020\pm0.005~\muup$Ah (Figure~\ref{fig:Figure_S27}~a, $(5\pm1)\times10^{14}$ electrons injected), $0.060\pm0.005~\muup$Ah (Figure~\ref{fig:Figure_S27}~b, $(1.4\pm0.1)\times10^{15}$ electrons injected), $0.480\pm0.005~\muup$Ah (Figure~\ref{fig:Figure_S27}~c, $(1.07\pm0.01)\times10^{16}$ electrons injected) and $1.360\pm0.005~\muup$Ah (Figure~\ref{fig:Figure_S27}~d, $(3.05\pm0.01)\times10^{16}$~electrons injected). The SoC values determined from the respective potentials are different when mapped to the initial discharge curve in Fig.~\ref{fig:Figure_S3} and when considering the individual discharge curves in Fig.~\ref{fig:Figure_S27}, as the film was gradually losing its capacity during the temperature cycling, so the discharge curves were reaching the considered potentials at shorter times, leading to a lower Coulomb counting, lower discharge capacity and therefore a lower SoC.}
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{cwEPR Spectroscopy of a Charging Electrochemical Cell}
+There is a number of difficulties when it comes to an EPR experiment on a working electrochemical cell. The cell must contain mobile ions between its electrodes - cations and anions. The ions are normally produced as products of dissociating salts. To overcome the ionic bond in a salt and to break it into the ions, a solvent with large dipole moment is needed. Solvents with large dipole moments, as acetonitrile (CH\textsubscript{3}CN, $\epsilon\approx 37.5$) or water ($\epsilon\approx78.4$), have large dielectric constants which results in a non-resonant absorption of microwaves. A cell containing liquid electrolyte absorbs microwaves and lowers the sensitivity of the EPR experiment. Furthermore, due to a finite dimension of cell, not only the magnetic component of the microwave is interacting with the electrolyte, but also the electric one - this results in heating of the electrolyte in a similar fashion as in a microwave oven. The heating of the electrolyte leads to a faster degradation of the cell and does not allow for long systematic measurements.\\
+Another general issue with the operando EPR and EDMR experiments is that the device under testing (DUT) has to have metal electrodes that deliver current to it. Metals, placed in a microwave cavity, change the distribution of the electromagnetic field in it - that weakens the magnetic component at the device and at the same time strengthens the electric component. It is the magnetic dipole transition that is causing the magnetic resonance, so the weakening of the magnetic component by introducing the metal electrodes further decreases the magnetic resonance response. The increased electric component causes heating to temperatures that can be critical for the DUT operation.
+
+
+
+\subsection{cwEPR Spectra During a Charge-Discharge Cycle}
 There are four characteristic cwEPR signatures of an electrochemical cell containing di-TEMPO-Salen polymer cathode. The well known signature of a freely tumbling TEMPO$^{\bullet}$ exhibits three narrow lines corresponding to the three nuclear sublevels of nitrogen: $m_I=-1,0,+1$.
 \begin{figure}[h]
 \center
@@ -619,7 +621,7 @@ Organic Radical Batteries have a tendency to self-discharge, as the organic elec
 	\label{fig:operando_solid_battery}
 \end{figure}
 
-\subsection{Low Temperature Measurements}
+\section{Low Temperature Measurements}
 
 \begin{figure}[h]
 \center

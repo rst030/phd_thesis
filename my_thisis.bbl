@@ -61,12 +61,6 @@ A~Carrington and A.~D. McLachlan.
   Chemistry and Chemical Physics}.
 \newblock John Weatherhill, inc, 1969.
 
-\bibitem{Carrington_solution_epr}
-A~Carrington and A.~D. McLachlan.
-\newblock {\em Introduction to Magnetic Resonance with Applications to
-  Chemistry and Chemical Physics}.
-\newblock John Weatherhill, inc, 1969.
-
 \bibitem{Casado2021}
 Nerea Casado and David Mecerreyes.
 \newblock Chapter 1: Introduction to redox polymers: Classification,
@@ -81,6 +75,12 @@ Nerea Casado and David Mecerreyes.
 Harold Cassidy.
 \newblock Electron exchange-polymers.
 \newblock {\em J. Am. Chem. Soc.}, 71:402--406, 1949.
+
+\bibitem{Chatgilialoglu2012}
+C~Chatgilialoglu and A~Studer.
+\newblock {\em Encyclopedia of Radicals in Chemistry, Biology and Materials
+  Series}.
+\newblock 2012.
 
 \bibitem{Daniel2023_Multimodal}
 Davis~Thomas Daniel, Steffen Oevermann, Souvik Mitra, Katharina Rudolf, Andreas
@@ -124,7 +124,7 @@ Sandra~S Eaton, Lukas~B Woodcock, and Gareth~R Eaton.
 
 \bibitem{einstein_s_rel}
 A.~Einstein.
-\newblock Relativity the special and general theory, 1921.
+\newblock Relativity - the special and general theory, 1921.
 
 \bibitem{Fan2023_PRL}
 X.~Fan, T.~G. Myers, B.~A.D. Sukra, and G.~Gabrielse.
@@ -255,6 +255,15 @@ Q~Huang, E~D Walter, L~Cosimbescu, D~Choi, and J~P Lemmon.
   multi-electron redox reaction for organic radical cathodes.
 \newblock {\em Journal of Power Sources}, 306:812--816, 2016.
 
+\bibitem{Jacobs2022}
+Ian~E. Jacobs, Yue Lin, Yuxuan Huang, Xinglong Ren, Dimitrios Simatos, Chen
+  Chen, Dion Tjhe, Martin Statz, Lianglun Lai, Peter~A. Finn, William~G. Neal,
+  Gabriele D'Avino, Vincent Lemaur, Simone Fratini, David Beljonne, Joseph
+  Strzalka, Christian~B. Nielsen, Stephen Barlow, Seth~R. Marder, Iain
+  McCulloch, and Henning Sirringhaus.
+\newblock High-efficiency ion-exchange doping of conducting polymers.
+\newblock {\em Advanced Materials}, 34, 6 2022.
+
 \bibitem{janoschka2012_advmater}
 T~Janoschka, M~D Hager, and U~S Schubert.
 \newblock Powering up the future: Radical polymers for battery applications.
@@ -377,6 +386,11 @@ Jiahao Liang, Thomas~M. Fuchs, Rolf Schäfer, and Vitaly~V. Kresin.
 \newblock Strong permanent magnet gradient deflector for stern-gerlach-type
   experiments on molecular beams.
 \newblock {\em Review of Scientific Instruments}, 91, 5 2020.
+
+\bibitem{Liu2016}
+Chaofeng Liu, Zachary~G. Neale, and Guozhong Cao.
+\newblock Understanding electrochemical potentials of cathode materials in
+  rechargeable batteries, 3 2016.
 
 \bibitem{Liu_2008}
 Xiangli Liu, Yougang Mao, Errol~V. Mathias, Collin Ma, Osmundo Franco, Yong Ba,
@@ -506,6 +520,11 @@ Dirac P.~A.~M.
 \newblock {\em Proceedings of the Royal Society of London. Series A, Containing
   Papers of a Mathematical and Physical Character}, 117:610--624, 1928.
 
+\bibitem{Pang2021}
+Yuepeng Pang, Jinyu Pan, Junhe Yang, Shiyou Zheng, and Chunsheng Wang.
+\newblock Electrolyte/electrode interfaces in all-solid-state lithium
+  batteries: A review, 6 2021.
+
 \bibitem{Peters2017}
 Jens~F. Peters, Manuel Baumann, Benedikt Zimmermann, Jessica Braun, and Marcel
   Weil.
@@ -550,6 +569,14 @@ K.~M. Salikhov, S.~A. Dzuba, and A.~M. Raitsimring.
 \bibitem{salikhov_2015}
 K~M Salikhov and N~E Zavoiskaya.
 \newblock Zavoisky and the discovery of epr, 2015.
+
+\bibitem{Sato2018}
+Kan Sato, Rieka Ichinoi, Ryusuke Mizukami, Takuma Serikawa, Yusuke Sasaki,
+  Jodie Lutkenhaus, Hiroyuki Nishide, and Kenichi Oyaizu.
+\newblock Diffusion-cooperative model for charge transport by redox-active
+  nonconjugated polymers.
+\newblock {\em Journal of the American Chemical Society}, 140:1049--1056, 1
+  2018.
 
 \bibitem{schwartz2018_synthmet}
 Pierre~Olivier Schwartz, Marijana Pejic, Mario Wachtler, and Peter Bäuerle.
@@ -599,7 +626,7 @@ Stefan Stoll and Arthur Schweiger.
 Juliusz Sworakowski.
 \newblock How accurate are energies of homo and lumo levels in small-molecule
   organic semiconductors determined from cyclic voltammetry or optical
-  spectrosco.
+  spectroscopy.
 \newblock {\em Synthetic Metals}, 235:125--130, 1 2018.
 
 \bibitem{IWASA2007}
@@ -744,6 +771,14 @@ Yiren Zhang, Albert~M. Park, Stephen~R. McMillan, Nicholas~J. Harmon,
 \newblock Charge transport in conjugated polymers with pendent stable radical
   groups.
 \newblock {\em Chemistry of Materials}, 30:4799--4807, 7 2018.
+
+\bibitem{Zhou2020}
+Wenbo Zhou, Wenjie Liu, Meng Qin, Zhidong Chen, Juan Xu, Jianyu Cao, and Jun
+  Li.
+\newblock Fundamental properties of tempo-based catholytes for aqueous redox
+  flow batteries: effects of substituent groups and electrolytes on
+  electrochemical properties, solubilities and battery performance.
+\newblock {\em RSC Advances}, 10:21839--21844, 6 2020.
 
 \bibitem{Zhu2012}
 Lingyun Zhu, Yuanping Yi, Yuan Li, Eung~Gun Kim, Veaceslav Coropceanu, and

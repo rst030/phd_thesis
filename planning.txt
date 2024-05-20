@@ -1,0 +1,63 @@
+quick and efficient work needs planning
+skeleton has to be reshoveled
+
+Storage of Charge in Redox Conductive Polymers
+Probed with Electron Spin Resonance Spectroscopy
+
+Chapter 1. Introduction
+	Storage of charge is needed to store electrical energy.
+	Batteries store electrical energy.
+	They have certain characteristics like capacity, charging rate and cycling stability.
+	Rechargeable batteries have redox active materials on their electrodes.
+	Performance of a battery depends on the performance of its electrode materials.
+	The electrode materials can be toxic.
+	There are organic alternatives to the conventional metallic materials.
+	Redox conductive polymers with nitroxyl radicals suit for the charge storage applications.
+	Rechargeable batteries are characterized with electrochemical techniques.
+	Charge transport and storage in redox conductive polymers is poorly understood.
+	Electron paramagnetic resonance (EPR) spectroscopy can detect radicals and can be used for studying charge storage materials.
+	The application of cw and pulsed EPR spectroscopy to energy storage devices under operating conditions is challenging.
+	 
+Chapter 2. Materials and Methods
+	Molecules have to be introduced
+	Electrochemical characterization techniques have to be explained
+	Principle of cwEPR spectroscopy has to be explained
+	Principle of pulsed EPR spectroscopy has to be explained
+	Typical spectra of the molecules have to be shown
+	Fabrication of EPR compatible devices has to be explained
+
+
+Chapter 3. Experimental Results
+	Electrochemical performance of devices has to be shown
+	cwEPR spectroscopy of the organic electrode materials
+
+	Operando cwEPR spectroscopy on a working half-cell
+		Quantitative cwEPE during a charge-discharge cycle
+		Spectral simulations
+		Study of the material degradation
+		Study of self-discharge
+		Low temperature measurements
+		Solid state battery
+		pNiSalen half-cell
+		EPR-Detected State Of Charge
+		Formation of electrochemically inactive domains
+		
+		
+	Pulsed EPR spectroscopy of a pDiTBuS cathode film
+		Electron spin echo in densely packed nitroxide radicals		
+		Field-swept electron spin echo in the cathode film
+		Spin relaxation times in the cathode film
+		Estimating Local Spin Concentrationws with Instantaneous Diffusion
+		Pade-Laplace Deconvolution of Polyexponential Echo Decays
+		Identification of electrochemically inactive domains 
+	
+Chapter 4 Conclusions and Perspectives
+	Longitudinally Detected EPR
+	Electron Resonance Imaging of spin concentrations in the battery electrodes
+	Electrically Detected Magnetic Resonance Spectroscopy	
+		
+		
+		
+		
+		
+		
