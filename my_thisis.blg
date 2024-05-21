@@ -10,66 +10,69 @@ A level-1 auxiliary file: outlook/outlook.aux
 The style file: plain.bst
 A level-1 auxiliary file: appendix/A-EMRE.aux
 Database file #1: Bibliography.bib
-Warning--entry type for "Luca2015" isn't style-file defined
+Warning--entry type for "Eastman1970" isn't style-file defined
 --line 1 of file Bibliography.bib
+Warning--entry type for "Luca2015" isn't style-file defined
+--line 8 of file Bibliography.bib
 Warning--entry type for "Bhojane2022" isn't style-file defined
---line 15 of file Bibliography.bib
+--line 22 of file Bibliography.bib
 Warning--entry type for "Pang2021" isn't style-file defined
---line 28 of file Bibliography.bib
+--line 35 of file Bibliography.bib
 Warning--entry type for "Liu2016" isn't style-file defined
---line 71 of file Bibliography.bib
+--line 78 of file Bibliography.bib
 Warning--entry type for "Tarascon2001" isn't style-file defined
---line 108 of file Bibliography.bib
+--line 115 of file Bibliography.bib
 Warning--entry type for "Neueder2014" isn't style-file defined
---line 156 of file Bibliography.bib
+--line 163 of file Bibliography.bib
 Warning--entry type for "cambridge" isn't style-file defined
---line 171 of file Bibliography.bib
+--line 178 of file Bibliography.bib
 Warning--entry type for "Koehler_book" isn't style-file defined
---line 205 of file Bibliography.bib
+--line 212 of file Bibliography.bib
 Warning--entry type for "Hu2021" isn't style-file defined
---line 275 of file Bibliography.bib
+--line 282 of file Bibliography.bib
 Warning--entry type for "NIST" isn't style-file defined
---line 326 of file Bibliography.bib
-Repeated entry---line 350 of file Bibliography.bib
+--line 333 of file Bibliography.bib
+Repeated entry---line 357 of file Bibliography.bib
  : @article{abdiaziz2019_chemcomm
  :                               ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "Fang_2021" isn't style-file defined
---line 366 of file Bibliography.bib
+--line 373 of file Bibliography.bib
 Warning--entry type for "Wu_2023" isn't style-file defined
---line 443 of file Bibliography.bib
+--line 450 of file Bibliography.bib
 Warning--entry type for "He_2022" isn't style-file defined
---line 510 of file Bibliography.bib
+--line 517 of file Bibliography.bib
 Warning--entry type for "DOM" isn't style-file defined
---line 533 of file Bibliography.bib
+--line 540 of file Bibliography.bib
 Warning--entry type for "einstein_s_rel" isn't style-file defined
---line 583 of file Bibliography.bib
+--line 590 of file Bibliography.bib
 Warning--entry type for "Rohland_2021" isn't style-file defined
---line 628 of file Bibliography.bib
-Repeated entry---line 687 of file Bibliography.bib
+--line 635 of file Bibliography.bib
+Repeated entry---line 694 of file Bibliography.bib
  : @generic{Rohland_2021
  :                      ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "Lee_1993" isn't style-file defined
---line 700 of file Bibliography.bib
+--line 707 of file Bibliography.bib
 Warning--entry type for "Koezuka_1987" isn't style-file defined
---line 710 of file Bibliography.bib
+--line 717 of file Bibliography.bib
 Warning--entry type for "Shirakawa_1977" isn't style-file defined
---line 771 of file Bibliography.bib
+--line 778 of file Bibliography.bib
 Warning--entry type for "salikhov_2015" isn't style-file defined
---line 899 of file Bibliography.bib
-Repeated entry---line 1392 of file Bibliography.bib
+--line 906 of file Bibliography.bib
+Repeated entry---line 1399 of file Bibliography.bib
  : @article{Ouyang2020
  :                    ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "Casado2021" isn't style-file defined
---line 2000 of file Bibliography.bib
+--line 2007 of file Bibliography.bib
 Warning--I didn't find a database entry for "energy_consumption_review"
 Warning--I didn't find a database entry for "energy_sources_review"
 Warning--I didn't find a database entry for "energy_from_sound"
 Warning--I didn't find a database entry for "tokamak_updates"
 Warning--I didn't find a database entry for "C_rates_of_lipos"
 Warning--I didn't find a database entry for "ORCA"
+Warning--I didn't find a database entry for "Novozhilova_2009Vereshchagin2020"
 Warning--I didn't find a database entry for "Schweiger2001_exch"
 Warning--I didn't find a database entry for "Carrington_solution_epr"
 Warning--I didn't find a database entry for "Siavash"
@@ -90,45 +93,45 @@ Warning--I didn't find a database entry for "Kulikov2022_SI"
 Warning--can't use both author and editor fields in Casado_2021_book
 Warning--empty publisher in Chatgilialoglu2012
 Warning--empty booktitle in nishide_2009
-You've used 133 entries,
+You've used 132 entries,
             2118 wiz_defined-function locations,
-            1369 strings with 31913 characters,
-and the built_in function-call counts, 49336 in all, are:
-= -- 4485
-> -- 3273
+            1362 strings with 31394 characters,
+and the built_in function-call counts, 48609 in all, are:
+= -- 4418
+> -- 3214
 < -- 4
-+ -- 1309
-- -- 1158
-* -- 3963
-:= -- 8602
-add.period$ -- 378
-call.type$ -- 133
-change.case$ -- 973
++ -- 1286
+- -- 1136
+* -- 3883
+:= -- 8474
+add.period$ -- 374
+call.type$ -- 132
+change.case$ -- 959
 chr.to.int$ -- 0
-cite$ -- 136
-duplicate$ -- 1401
-empty$ -- 3285
-format.name$ -- 1158
-if$ -- 9878
+cite$ -- 135
+duplicate$ -- 1386
+empty$ -- 3251
+format.name$ -- 1136
+if$ -- 9739
 int.to.chr$ -- 0
-int.to.str$ -- 133
-missing$ -- 120
-newline$ -- 647
-num.names$ -- 266
-pop$ -- 912
+int.to.str$ -- 132
+missing$ -- 118
+newline$ -- 641
+num.names$ -- 264
+pop$ -- 907
 preamble$ -- 1
-purify$ -- 845
+purify$ -- 832
 quote$ -- 0
-skip$ -- 1004
+skip$ -- 998
 stack$ -- 0
-substring$ -- 2697
-swap$ -- 156
+substring$ -- 2638
+swap$ -- 155
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 516
+type$ -- 512
 warning$ -- 3
-while$ -- 364
-width$ -- 136
-write$ -- 1396
+while$ -- 360
+width$ -- 135
+write$ -- 1382
 (There were 3 error messages)
