@@ -251,23 +251,28 @@ The Fermi energy of a cathode changes with the SoC of the cell.
 The redox potential of TEMPO is 0.812~V vs. SHE~\cite{Zhou2020}.
 The absolute potential of the SHE is 4.44~V vs the vacuum level.
 The workfunction of Au is 5.1 eV.
-The electrochemical window of Acetonitrile is between -3.45~V and +2.35~V vs. SCE (+0.268 V vs SHE).
+The electrochemical window of Acetonitrile is between -3.45~V and +2.35~V vs. SCE (+0.268 V vs SHE)~\cite{Luca2015}.
 
 Electrochemical doping of a semicouducting polymer~\cite{Jacobs2022}:
 Charge transfer, ion insertion.
-The oxidation and reduction potentials of the ions are separated from the redox potentials of the polymer by several volts, so no charge transfer occurs between the polymer and the electrolyte. The positive charge injected to the polymer from the metal is compensated by the intercalated negative ion. The ionization efficiency in electrochemically doped films is close to 100\%~\cite{Jacobs2022}.
-Duting the charging of a pDiTS half-cell, its electrochemically active cathode film is being oxidized: positive charges are being injected into it. 
-When the Fermi energy of the metal approaches the oxidation potential of pDiTS, a positive charge charge is injected to its backbone. A negative BF4${^-}$ ion is attracted from the electrolyte solution to the positively charged backbone.\\
+The oxidation and reduction potentials of the ions are separated from the redox potentials of the polymer by several volts, so no charge transfer occurs between the polymer and the electrolyte. The positive charge injected to the polymer from the metal is compensated by the intercalated negative ion. The ionization efficiency in electrochemically doped films is close to 100\%~\cite{Jacobs2022}.\\
+\par
+During the charging of a poly-TEMPO-Salen half-cell, its electrochemically active cathode film is being oxidized: positive charges are being injected into it. If the bias potential of the cathode $E$ is higher than the oxidation potential of the polymer (see Figure~\ref{fig:band_diagram}~a)), a positive charge charge is injected to the pNiSalen backbone. The oxidation potential of pNiSalen was adjusted during the molecular synthesis to be close to the oxidation potential of TEMPO$^{\bullet}$, so that the oxidation of the backbone would lead to a simultaneous oxidation of the charge bearing groups~\cite{Vereshchagin2020}. If $E$ increases above the oxidation potential of TEMPO$^{\bullet}$ and the polymer backbone connecting the metal and the TEMPO$^{\bullet}$ fragment is oxidized, the injected hole reaches the TEMPO$^{\bullet}$ fragment and oxidizes it to TEMPO$^+$. The charge transfer process during the charging of the half-cell is shown in Figure~\ref{fig:band_diagram}~a). The oxidation TEMPO$^{\bullet}$ leads to a creation of an electric double layer next to the cathode~\cite{Bhojane2022} of A negative BF4${^-}$ ion is attracted from the electrolyte solution to the positively charged backbone.\\
 
 The hole injected into the polymer backbone propagates in the direction of the Fermi energy gradient within the biased polymer until it encounters the unpaired electron on a TEMPO$^{\bullet}$ group and recombines with it. During the recombination, the hole disappears from the backbone and the electron disappears from the TEMPO$^{\bullet}$. The charge bearing group oxidizes to TEMPO$^+$. This process can be seen as the hole hopping from the backbone to the TEMPO radical. The TEMPO radicals therefore serve as hole traps.
 
 \begin{figure}[!ht]
 \center
 	\includegraphics[width=1\textwidth]{./electrochemistry/figures/band_diagram.pdf}
-	\caption{}
-	\label{fig:vabd)diagram}
+	\caption{Band diagram of a rechargeable electrochemical half-cell with a TEMPO-containing polymer cathode during charging (a) and discharging (b).}
+	\label{fig:band_diagram}
 \end{figure}
 
+The consequent oxidation of the redox active groups during the biasing of the polymer cathode is shown in Figure~\ref{fig:biasing_charging}.
 
-
-
+\begin{figure}[!ht]
+\center
+	\includegraphics[width=0.6\textwidth]{./electrochemistry/figures/transport_in_film.pdf}
+	\caption{Charging of a poly-TEMPO-Salen film by injecting positive charge carriers at different biasing conditions. a) $E>E_{ox}^{bb}$ - the biasing potential is above the oxidation potential of the backbone and below the oxidation potential of TEMPO$^{\bullet}$. b): $E$ in the range of the oxidation potentials of TEMPO observed in a cyclic voltammogram. The lowering of the Fermi energy for holes in the redox conductive polymer during its electrochemical p-doping. c): $E$ above the oxidation potential of all TEMPO groups in the film. Bending of the Fermi energy at the metal-semiconductor interface due to the Coulomb shielding by the dopants (TEMPO$^+$ fragments).}
+	\label{fig:biasing_charging}
+\end{figure}
