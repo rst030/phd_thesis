@@ -1,0 +1,143 @@
+\documentclass[12pt, twoside, a4paper]{book}
+%\documentclass[openright,twoside,10pt]{book}
+% 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
+%\pdfpagewidth 6in
+%\pdfpageheight 9in
+%hi
+\usepackage{geometry}
+\geometry{%
+  %margin=7mm,
+  %textwidth  = 120mm ,
+  %textheight = 180mm ,
+  %b5paper            ,
+  %includehead        ,
+  %hcentering         ,
+  %vcentering
+}
+
+%\marginparwidth = 3cm
+\marginparsep = 0.2cm
+\hoffset = 0mm
+\voffset = 0mm
+\usepackage{amsmath}
+
+\usepackage{tabularray}
+\usepackage{adjustbox}
+\usepackage[skip=1ex]{caption} % for better control over caption
+\usepackage{amssymb}
+\usepackage{txfonts} % for \muup
+\usepackage{dsfont} % for maths matrices
+\UseTblrLibrary{booktabs}
+\usepackage{array} % flr denser tables
+\usepackage{siunitx}
+\DeclareSIUnit{\Molar}{M}
+%\bibliographystyle{abbrvnat}
+%\biboptions{compress,semicolon}
+\usepackage{fancyhdr}\setlength{\headheight}{14.5 pt}
+\pagestyle{fancy}
+\setlength{\footskip}{2cm}
+
+\renewcommand{\sectionmark}[1]{\markright{\thesection~~#1}}
+\renewcommand{\chaptermark}[1]{\markboth{\if@mainmatter\chaptername\ \thechapter~~\fi#1}{}}
+\makeatother
+
+\fancyhead[LE]{}
+\fancyhead[RE]{\nouppercase  \leftmark}
+\fancyhead[LO]{\nouppercase  \rightmark}
+\fancyhead[RO]{}
+% from master thesis
+\usepackage{subfig} %for subfigures
+\usepackage{float} %for PLACING FIGURES IN EXACT PLACE IN THE TEXT
+
+
+
+% -- cockery --
+
+\usepackage{epigraph}
+
+\setlength\epigraphwidth{.8\textwidth}
+\setlength\epigraphrule{0pt}
+
+% ------ TEMP --------------
+\usepackage[dvipsnames]{xcolor}
+\newcommand{\ik}[1]{\textcolor{black}{#1}} % TEMP
+\newcommand{\rs}[1]{\textcolor{black}{#1}} % TEMP
+\newcommand{\q}[1]{\textcolor{black}{#1}} % TEMP
+\newcommand{\w}[1]{\textcolor{black}{#1}} % TEMP
+\newcommand{\raw}[1]{\textcolor{red}{#1}} % TEMP
+
+%\newcommand{\jb}[1]{\textcolor{blue}{#1}} % TEMP
+\usepackage[normalem]{ulem}
+
+\usepackage{booktabs}
+\usepackage{lineno}
+%\linenumbers
+
+
+
+\begin{document}
+
+
+
+\thispagestyle{empty}
+\begin{center}
+\begin{huge}
+Storage of Charge in\\
+Redox Conductive Polymers\\
+Probed with\\
+Electron Spin Resonance Spectroscopy\\
+\end{huge}
+\vspace{7\baselineskip}
+\textbf{Ilia Romanovich Kulikov}\\
+\vspace{7\baselineskip}
+Im Fachbereich Physik der Freien Universit\"{a}t Berlin eingereichte\\
+Dissertation zur Erlangung des Grades eines\\
+Doktors der Naturwissenschaften\\
+\vspace{5\baselineskip}
+Berlin\\
+August 2023\\
+
+
+
+
+\end{center}
+\newpage
+\vspace{36\baselineskip}
+
+\hspace*{\fill} Erster Gutachter: Prof. Dr. Jan Behrends\\
+\hspace*{\fill} Zweiter Gutachter: Prof. Dr. Kirill Bolotin\\
+\hspace*{\fill} Tag der Disputation: \\
+
+\newpage
+\tableofcontents
+\newpage
+
+%\include{summary/summary}
+\include{summary/list_of_abbreviations}
+%\vspace*{\fill}
+%\epigraph{\itshape All during the ride on the bus I thought to myself how upside-down \\the
+%situation had become.}{---Daniel Keyes, \textit{Flowers for Algernon}}
+
+\include{introduction/introduction}
+%\include{electrochemistry/electrochemistry}
+\include{materials/materials}
+\include{epr_basics/epr_basics}
+%\include{fab/fab}
+\include{operando_epr/operando_epr}
+\include{pulse/pulse}
+%\include{lod/lod}
+%\include{edmr/edmr}
+%\include{model/model}
+\include{outlook/outlook}
+
+
+
+
+%%%REFERENCES%%%
+\bibliographystyle{plain} %the RSC's .bst file
+\bibliography{Bibliography} %You need to replace "rsc" on this line with the name of your .bib file
+
+\include{appendix/A-EMRE}
+\include{appendix/B-DFT}
+
+\end{document}

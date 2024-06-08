@@ -1,0 +1,126 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: diss_kulikov.aux
+A level-1 auxiliary file: summary/list_of_abbreviations.aux
+A level-1 auxiliary file: introduction/introduction.aux
+A level-1 auxiliary file: materials/materials.aux
+A level-1 auxiliary file: epr_basics/epr_basics.aux
+A level-1 auxiliary file: operando_epr/operando_epr.aux
+A level-1 auxiliary file: pulse/pulse.aux
+A level-1 auxiliary file: outlook/outlook.aux
+The style file: plain.bst
+A level-1 auxiliary file: appendix/A-EMRE.aux
+A level-1 auxiliary file: appendix/B-DFT.aux
+Database file #1: Bibliography.bib
+Warning--entry type for "Casado2021" isn't style-file defined
+--line 65 of file Bibliography.bib
+Warning--entry type for "salikhov_2015" isn't style-file defined
+--line 1173 of file Bibliography.bib
+Warning--entry type for "Shirakawa_1977" isn't style-file defined
+--line 1300 of file Bibliography.bib
+Warning--entry type for "Koezuka_1987" isn't style-file defined
+--line 1361 of file Bibliography.bib
+Warning--entry type for "Lee_1993" isn't style-file defined
+--line 1368 of file Bibliography.bib
+Warning--entry type for "Rohland_2021" isn't style-file defined
+--line 1378 of file Bibliography.bib
+Repeated entry---line 1437 of file Bibliography.bib
+ : @generic{Rohland_2021
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "einstein_s_rel" isn't style-file defined
+--line 1489 of file Bibliography.bib
+Warning--entry type for "DOM" isn't style-file defined
+--line 1536 of file Bibliography.bib
+Warning--entry type for "He_2022" isn't style-file defined
+--line 1555 of file Bibliography.bib
+Warning--entry type for "Wu_2023" isn't style-file defined
+--line 1620 of file Bibliography.bib
+Repeated entry---line 1686 of file Bibliography.bib
+ : @article{Ouyang2020
+ :                    ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "Fang_2021" isn't style-file defined
+--line 1699 of file Bibliography.bib
+Warning--entry type for "NIST" isn't style-file defined
+--line 1742 of file Bibliography.bib
+Warning--entry type for "Hu2021" isn't style-file defined
+--line 1789 of file Bibliography.bib
+Warning--entry type for "Koehler_book" isn't style-file defined
+--line 1868 of file Bibliography.bib
+Warning--entry type for "cambridge" isn't style-file defined
+--line 1901 of file Bibliography.bib
+Warning--entry type for "Neueder2014" isn't style-file defined
+--line 1907 of file Bibliography.bib
+Warning--entry type for "Tarascon2001" isn't style-file defined
+--line 1963 of file Bibliography.bib
+Warning--entry type for "Liu2016" isn't style-file defined
+--line 1993 of file Bibliography.bib
+Warning--entry type for "Pang2021" isn't style-file defined
+--line 2036 of file Bibliography.bib
+Warning--entry type for "Bhojane2022" isn't style-file defined
+--line 2050 of file Bibliography.bib
+Warning--entry type for "Luca2015" isn't style-file defined
+--line 2063 of file Bibliography.bib
+Warning--entry type for "Eastman1970" isn't style-file defined
+--line 2077 of file Bibliography.bib
+Warning--I didn't find a database entry for "zhao2021_jacs"
+Warning--I didn't find a database entry for "kanzaki2018_acsappmat"
+Warning--I didn't find a database entry for "Novozhilova_2009Vereshchagin2020"
+Warning--I didn't find a database entry for "Golovisnina2023"
+Warning--I didn't find a database entry for "Schweiger2001_exch"
+Warning--I didn't find a database entry for "Carrington_solution_epr"
+Warning--I didn't find a database entry for "Siavash"
+Warning--I didn't find a database entry for "Stoll_2006"
+Warning--I didn't find a database entry for "wadhawan2007_encofelectrochem"
+Warning--I didn't find a database entry for "Safari2011"
+Warning--I didn't find a database entry for "Anderson1953"
+Warning--I didn't find a database entry for "spin_counting_tb"
+Warning--I didn't find a database entry for "SI:Matlab"
+Warning--I didn't find a database entry for "Kulikov2022_SI"
+Warning--I didn't find a database entry for "ORCA"
+Warning--can't use both author and editor fields in Casado_2021_book
+Warning--empty publisher in Chatgilialoglu2012
+Warning--empty booktitle in nishide_2009
+You've used 131 entries,
+            2118 wiz_defined-function locations,
+            1349 strings with 30901 characters,
+and the built_in function-call counts, 48123 in all, are:
+= -- 4376
+> -- 3165
+< -- 5
++ -- 1267
+- -- 1118
+* -- 3836
+:= -- 8381
+add.period$ -- 371
+call.type$ -- 131
+change.case$ -- 947
+chr.to.int$ -- 0
+cite$ -- 134
+duplicate$ -- 1377
+empty$ -- 3233
+format.name$ -- 1118
+if$ -- 9651
+int.to.chr$ -- 0
+int.to.str$ -- 131
+missing$ -- 118
+newline$ -- 636
+num.names$ -- 262
+pop$ -- 901
+preamble$ -- 1
+purify$ -- 821
+quote$ -- 0
+skip$ -- 990
+stack$ -- 0
+substring$ -- 2621
+swap$ -- 155
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 506
+warning$ -- 3
+while$ -- 357
+width$ -- 134
+write$ -- 1372
+(There were 2 error messages)

@@ -1,136 +1,6 @@
-\chapter{Operando EPR Spectroscopy of TEMPO-Salen Electrochemical Cells}
-
-\section{Electron Paramagnetic Resonance}
-In this section, the phenomenon of electron paramagnetic resonance is briefly described with details that are required to interpret the spectra of a charging electrochemical cell containing nitroxide radicals attached to a conjugated polymer backbone. After the introduction of the spin Hamiltonian, an experimental procedure to observe the corresponding spin transitions with continuous microwaves is described. The characteristic spectra of nitroxide radicals in various environments are described. That information is used to decompose the complex spectra of a charging cell to identify the state of charge of the cell and the by-products that are being released during the cell operation.
-
-\subsection{The Spin Hamiltonian}
-\label{sec:spin}
-\paragraph*{Electron Spin}
-In the Poincaré group of special relativity~\cite{poincare_1905}, when rotations are considered together with the relativistic boosts~\cite{einstein_s_rel}, there emerges an additional quantity that is associated with rotation and is preserved together with the orbital angular momentum, yet this quantity is retained for point objects - it is called spin~\cite{kuprov_2023}. Spin is quantized~\cite{SternGerlach1922}; it can take values in integer- or half-integer multiples of the Planck's quantum of action $\hbar$ up to a certain magnitude $S$. The electron, as a fundamental particle and a fermion, bears a half-integer spin with a magnitude of $S=1/2$. 
-
-\par
-An isolated electron has two degenerate spin states - spin-up $\vert{\uparrow}\rangle$ and spin-down $\vert{\downarrow}\rangle$ - that are eigenfunctions of the square of the spin operator $\hat{s}^2$ with the same (degenerate) eigenvalue $\hat{s}^2\vert{\uparrow}\rangle=\hat{s}^2\vert{\downarrow}\rangle=\frac{3}{4}\hbar^2$. The states $\vert{\uparrow}\rangle$ and $\vert{\downarrow}\rangle$ are also eigenfunctions of the $z$ component of the spin operator, but correspond to different (non-degenerate) eigenvalues $m_s=\pm\hbar/2$~\cite{Sakurai}: 
-
-\begin{equation}
-\label{eq:sz_states}
-\hat{s}_Z\vert{\uparrow}\rangle = +\frac{\hbar}{2}\vert{\uparrow\rangle}
-\end{equation}
-\begin{equation*}
-\hat{s}_Z\vert{\downarrow\rangle}=-\frac{\hbar}{2}\vert{\downarrow\rangle}
-\end{equation*}
-
-
-\paragraph*{$\textbf{g}$ factor}
-
-Spin combines with the charge of the electron to endow the electron with a magnetic moment $\mu_{spin} = \gamma S$, where $\gamma=\frac{g_e\mu_B}{\hbar}\approx 28$~GHz/T is the gyromagnetic ratio of the electron, $\mu_B=\hbar e/m_e$ is the Bohr magneton and $g_e \approx 2$ is the electron $g$ factor~\cite{Carrington_g_factor}. The $g$ factor connects the spin of a particle with a magnetic moment that the particle expresses through interactions with external fields~\cite{Schwinger1948}. The Dirac quantum theory of the electron predicts $g_e=2$~\cite{dirac1928}. However, up to date, $g_e = 2.00231930436256(35)$ has been measured to the unprecedented accuracy of 0.13~ppt~\cite{Fan2023_PRL}. This measurement lies at the frontier of modern particle physics and the accordance of the measured $g_e$ with the value obtained with quantum electrodynamics~\cite{Schwinger1948,Fan2023_PRL} is the triumph of the quantum field theory~\cite{Feynman_1949}. 
-\par
-Depending on the local environment of an electron, its $g$ factor can change from $g_e$ due to the spin-orbit coupling that changes the observed magnetic moment of the electron~\cite{Carrington_g_factor}. The magnetic moment of an electron can therefore be used as an extremely sensitive probe of the electron's local environment. The $g$ factor of an electron localized in a molecular orbital can be anisotropic, depending on the shape of the orbital. Anisotropic $g$ factor is represented by a $3\times3$ $\textbf{g}$ matrix that can almost always be diagonalized~\cite{Carrington_g_factor} by an appropriate rotation of the molecular coordinate system.
-
-
-
-\paragraph*{Zeeman Splitting}
-
-When an electron is placed in a static magnetic field $\vec{B_0}=B_0 \vec{e_z}$, its magnetic moment experiences a torque and precesses in the $xy$ plane about the field axis with the Larmor frequency $\omega_L = \gamma B_0$. The magnetic moment of the electron has two possible projections on the magnetic field axis, according to \ref{eq:sz_states}. The two corresponding eigenvalues $\pm\frac{\hbar}{2}$ define the energy difference between the states $\vert{\uparrow\rangle}$ and $\vert{\downarrow\rangle}$ when the spin couples to the external magnetic field, that is known as the Zeeman splitting. The energy difference between $\vert{\downarrow}\rangle$ and $\vert{\uparrow}\rangle$ in a magnetic field is the Zeeman energy. 
-
-\par
-
-The energy of an isolated electron placed in the external magnetic field $\vec{B_0}$ is the energy of the electron's magnetic moment in that field, that is given by the eigenvalue of the spin Zeeman Hamiltonian: $\hat{H}_{EZ} = \frac{\mu_B}{\hbar} \vec{B}_0g_e\vec{\hat{s}}$. In the laboratory frame of reference $\vec{B_0}\parallel\vec{e_z}$, $\left[\hat{H}_{EZ},\hat{s}_z\right]=0$, so $\hat{H}_{EZ}$ and $\hat{s}_Z$ share the two eigenfunctions $\vert{\uparrow\rangle}$ and $\vert{\downarrow\rangle}$. The energies of the corresponding states are $E_{EZ}^{\pm} = \pm \frac{1}{2}\mu_B g B_0$ (see Figure~\ref{fig:cwerp_free_electron}), and their difference is the Zeeman splitting:
-
-\begin{equation}
-%\label{eq:epr_resonance_condition}
-\label{eq:electron_zeeman}
-\Delta E_{EZ} = \mu_B g_e B_0
-\end{equation}
-
-The measurement of the magnetic moment of an electron can be done by measuring its Zeeman energy. The local molecular environment affects the electron's magnetic moment through spin-orbit coupling which can be seen as a deviation in the electron's $g$ factor~\cite{Carrington_g_factor}.
-
-
-
-\paragraph*{Nuclear Spin and Nuclear Zeeman Splitting}
-A proton has a half-integer spin $S=1/2$ that results in a magnetic moment $\mu_p = \mu_e\frac{m_e}{m_p}$, that is $\frac{m_p}{m_e}\approx1836$ times smaller than the electron's magnetic moment. A neutron bears no charge but also has a half-integer spin $S=1/2$. An atomic nucleus that consists of protons and neutrons has a magnetic moment which is a vector sum of the aligned spins of its protons and neutrons. The spin of a nucleus is defined by the arrangement of its nucleons and by the nuclear charge. A nitrogen nucleus has 7 protons and 7 neutrons that total in a nuclear spin $I=1$ which, with the g factor for the nitrogen nucleus $g_N$, results in the nuclear magnetic moment of $\mu_N=\mu_B\frac{m_e}{m_N}g_NI$ that splits each of the electron Zeeman level into three nuclear Zeeman energy sublevels corresponding to the three possible projections of the nuclear spin on the magnetic field axis, $m_I=-1,0,+1$, analogously to the electron with $m_S=1/2,-1/2$. The two splittings are shown in the energy diagram in Figure~\ref{fig:energy_diagram}. The nuclear Zeeman splitting is more than two orders of magnitude weaker than the electron Zeeman splitting because of the difference in the masses of the particles.
-
-\paragraph*{Hyperfine Interaction}
-The magnetic moments of an electron and a magnetic nucleus, such as nitrogen, couple in the hyperfine interaction: $H_{HF}=\vec{\hat{s}}\textbf{A}\vec{\hat{I}}=H_F+H_{DD}$ with the hyperfine coupling tensor $\textbf{A}$. The isotropic part $H_F=a_{iso}\vec{\hat{s}}\vec{\hat{I}}$, or the Fermi contact interaction, scales with the probability density of the electron at the position of the nucleus $a_{iso}=\frac{2}{3}\frac{\mu_0}{\hbar}g_e\mu_eg_n\mu_n\vert\psi(0)\vert^2$~\cite{Schweiger2001}. The anisotropic part $H_{DD}=\vec{\hat{s}}\textbf{T}\vec{\hat{I}}$ with the dipolar coupling tensor $\textbf{T}$ takes into account the anisotropic magnetic dipole coupling between the magnetic moments of the electron and the nucleus. $\textbf{T}$ depends on the shape of the electron orbital, its $3\times3$ Cartesian matrix representation depends on the molecular frame of reference and can be diagonalized by rotating the coordinate system. The matrix representation of the hyperfine coupling tensor $\textbf{A}$ can be written in as the sum of its isotropic and anisotropic parts: $\textbf{A}=a_{iso}\mathds{1}_3 + \textbf{T}$~\cite{Weil_Bolton}. In its diagonal matrix representation $\textbf{A}$ reduces to its three principal components $[A_{xx}, A_{yy}, A_{zz}]$. The values of $\textbf{A}$ are typically given in MHz.
-
-\paragraph*{Exchange Interaction}
-In a system of closely placed electrons, such as in a film of densely packed radicals, the electron orbitals may overlap significantly and the radicals may exchange electrons. The energy required to exchange the electrons is called the exchange coupling $H_{exch} = \vec{\hat{s_1}}\textbf{J}\vec{\hat{s_2}}$, that becomes considerably large at inter-spin distances below $r<1.5$~nm or with a large spin delocalisation~\cite{Schweiger2001_exch}. The positive $\textbf{J}$ corresponds to a weak coupling between $s_1$ and $s_2$ which leads to an antiferromagnetic or antiparallel alignment of spins with a total $S=0$, whereas the negative $\textbf{J}$ causes the strong inter-spin coupling which leads to a ferromagnetic alignment with $S=1$~\cite{Schweiger2001_exch}.\\
-
-%\paragraph*{Magnetic Dipole-Dipole Interaction}
-%The dipole-dipole interaction between the two neighboring electron spins contributes one more term to the spin Hamiltonian: $H_{dd} = \vec{\hat{S_1}}\textbf{D}\vec{\hat{S_2}}$ that depends on the distance between the spins. 
-
-\paragraph*{Nuclear Quadrupole Moment}
-The nitrogen nucleus has a spin greater than 1/2 which alters the charge distribution within the nucleus which gives rise to a non-vanishing nuclear electrical quadrupole moment $Q$~\cite{Schweiger2001}. The interaction between the asymmetrically distributed charge and the gradient of the electric field at the nucleus is given by the nuclear quadrupole Hamiltonian $H_{NQ}=\vec{\hat{I}}\textbf{P}\vec{\hat{I}}$ with the nuclear quadrupole tensor $\textbf{P}$ that describes the coupling of the nuclear quadrupole moment to the electric field gradient.
-
-\paragraph*{The Spin Hamiltonian}
-For the interactions considered in this thesis, the following Hamiltonian will be applied to describe the interactions of unpaired electron spins with their local environments, ranging by their magnitude:
-\begin{equation}
-H = H_{EZ} + H_{HF} + H_{J} + H_{NZ} + H_{NQ}
-\end{equation}
-
-The electron Zeeman term $H_{EZ}$ defines the requirements on the hardware and sets the range of the magnetic fields used in the spectroscopic experiments. The hyperfine interaction term $H_{HF}$ allows for reconstruction of the hyperfine coupling tensor from the recorded spectra which is used as a marker to identify the molecular structure and dynamics of the mobile molecular fragments that are released during the operation of an electrochemical cell. The exchange interaction term $H_{J}$ scales with the concentration of the electrons, so the information about $\textbf{J}$ can be used to characterize the packing of the molecular fragments in the electrode. The nuclear quadrupole interaction term may lead to spectral distortions in a highly charged cathode where electric fields may be sufficiently strong to introduce noticeable nuclear quadrupole couplings to the nitrogen nuclei.
-
-\paragraph{Energy Diagram of the Spin Hamiltonian}
-
-\begin{figure}[h]
-\center
-	\includegraphics[width=1.0\textwidth]{./operando_epr/figures/energy_diagram.pdf}
-	\caption{Energy diagram of the spin Hamiltonian showing the contributions of the individual terms.}
-	\label{fig:energy_diagram}
-\end{figure}
-
-
-
-\subsection{cwEPR Instrumentation}
-\label{subs:cwEPR_spectroscopy}
-First observed in 1944~\cite{Zavoisky_1945_JP,zavoisky_1945,salikhov_2015}, the phenomenon of electron paramagnetic resonance had quickly become a tool for probing local molecular environments in species that contain unpaired electron spins. A free electron, that does not interact with its environment and has $g=g_e$, experiences a Zeeman splitting of $\Delta E = g \mu_B B_0$, that corresponds to the energy of a photon with a frequency of $\nu=\Delta E / h$. A microwave photon can drive a magnetic dipole transition between the Zeeman-split spin states - this is called electron paramagnetic resonance (EPR). An X band microwave photon (IEEE X band, $\nu=8-12$~GHz, $\lambda=2.5-3.8$~cm, Figure~\ref{fig:cwerp_free_electron}, left) can drive the magnetic dipole transition between $\vert{\uparrow\rangle}$ and $\vert{\downarrow\rangle}$ at $B_0\approx0.3$~T. In a continuous-wave electron paramagnetic resonance (cwEPR) experiment, the microwave frequency and power is kept constant while $B_0$ is scanned and the microwave absorption is observed. EPR happens around the $B_0$ values given by the spin resonance condition:
-
-\begin{equation}
-\label{eq:epr_resonance_condition}
-\mu_B g_e B_0 = h\nu
-\end{equation}
-
-\begin{figure}[h]
-\center
-	\includegraphics[width=1.0\textwidth]{../scripts/plots/Free_Electron_EPRcombo.pdf}
-	\caption{Left: Zeeman splitting for the energies of the two states of an isolated electron spin in a static magnetic field computed with EasySpin~\cite{Stoll2006}. Vertical line is the magnetic dipole transition driven by a $9.4$~GHz microwave photon. Right: Microwave absorption and its derivative as a function of the static magnetic field for an unpaired electron spin with a 5~mT Gaussian broadening.}
-	\label{fig:cwerp_free_electron}
-\end{figure}
-
-
-\par
-When $B_0$ reaches the value that satisfies Eq.~\ref{eq:epr_resonance_condition}, the sample starts absorbing microwaves. The absorbed microwave power recorded as a function of $B_0$ is the cwEPR spectrum (Figure~\ref{fig:cwerp_free_electron}, right, dashed). By construction, cwEPR spectrometers typically record the derivative of the microwave absorption vs. $B_0$ (Figure~\ref{fig:cwerp_free_electron}, right, solid). Advanced spin resonance techniques methods that involve coherent spin dynamics and pulsed microwave fields are discussed in Chapter~\ref{ch:pulsed_epr}.
-
-\paragraph{cwEPR spectrometer}
-
-A basic cwEPR spectrometer consists of a magnet, a microwave source, a resonator and a microwave detector. Figure~\ref{fig:cwerp_spectrometer} depicts those elements with more details, including the sample - an electrochemical cell that is placed inside the microwave resonator and its SoC controlled with an external potentiostat.
-
-\begin{figure}[h]
-\center
-	\includegraphics[width=0.9\textwidth]{./operando_epr/figures/cwEPR_spectrometer_diagram.pdf}
-	\caption{Diagram of a cwEPR spectrometer}
-	\label{fig:cwerp_spectrometer}
-\end{figure}
-
-\par
-Continuous microwaves are generated with a klystron (MW source in Figure~\ref{fig:cwerp_spectrometer}) and directed towards the resonator (resonating cavity) through the signal arm that contains a variable attenuator and a circulator. The circulator directs the microwaves from the source to the cavity and passes the microwaves reflected from the cavity further to the microwave detector. The adjustable coupling iris between the circulator and the resonating cavity allows one to match the impedance of the cavity to the impedance of the signal arm so that minimal microwave power is reflected back from the cavity at a non-resonant field $B_0$. That impedance matching is called critical coupling. At the microwave detector, the microwaves reflected from the cavity are compensated by the microwaves with fixed microwave power and an adjustable phase, that pass through the reference arm. The signals from the two arms interfere destructively at the detector, so that there is no signal at the detector for non-resonant $B_0$.
-
-\par
-When the resonance condition (Eq.~\ref{eq:epr_resonance_condition}) is met, the incident microwaves are being absorbed by the sample and the resonator's $Q$ factor slightly changes. The change in the $Q$ factor decouples the resonator from the signal arm, that causes additional reflections in the signal arm. The microwaves in the signal arm that are not compensated by the reference arm become detected by the microwave detector - a biased semiconductor diode that has a linearly changing conductivity in the range corresponding to the incident microwave power. A phase sensitive detection with shallow modulation of $B_0$ increases the signal-to-noise ratio (SNR) and yields the derivative of the microwave absorption profile vs. $B_0$. The typically high $Q\gg1$ factor of the resonator further increases the SNR, as the decoupling of a resonator with higher $Q$ leads to a larger reflected microwave power.
-
-\par
-To ensure that only the magnetic component of the microwave is interacting with the sample, a standing microwave is formed in the resonating cavity. In the center of the cavity, the magnetic component of the microwave is maximized and the electric component is quenched. When a small sample is inserted in the center of the cavity, it is mostly the magnetic component of the microwave that is interacting with it. That allows one to drive magnetic dipole transitions without heating up the sample by the electric component. For larger samples as, for example, working electrochemical cells, the separation between the electric and magnetic microwave components does not hold within the full sample volume. Furthermore, the insertion of a cell containing metal electrodes and polar electrolyte into a resonator changes the distribution of the microwave field in it and lead to a non-resonant microwave absorption.
-
-
-\paragraph{Line Broadening}
-The lines in the EPR spectra have finite widths. The lines of the liquid samples are broadened mostly by the dynamic effects (relaxation, tumbling, chemical exchange), while the lines of solid state samples are broadened by static effects (orientational disorder, unresolved hyperfine splittings, distributions in $\textbf{g}$, $\textbf{A}$, and $\textbf{D}$ values)~\cite{Stoll2006}.\\
-
-According to the stochastic, gaussian random modulation theory of exchange narrowing, the width of a strongly exchange narrowed EPR line (HWHM) is given by
-\begin{equation}
-\label{eq:exch_narrowing}
-\Delta B_0 \approx\frac{10}{3}\left(\frac{H_p^2}{H_e}\right)
-\end{equation}
-and the resonance lineshape is lorentzian. $H_p$ is the mean square dipolar field and $H_e$ is an effective exchange field which is proportional to the mean exchange integral $J$~\cite{Oreilly_1971}
-
+\chapter{EPR Spectroscopy of TEMPO-Salen Electrochemical Cells}
+Here the EPR spectra of TEMPO-Salen electrochemical cells are shown under operating conditions and ex situ, for various states of charge, as well as the spectra of the materials that were used to construct the cells.
+That information is used to decompose the complex spectra of a charging cell and to perform its quantitative analysis to identify the state of charge of the cell and the by-products that are being released during the cell operation.
 
 \section{cwEPR Spectroscopy of TEMPO Containing Molecular Fragments}
 % todo: the reader knows about TEMPO, dits and ditbus. Show how they behave in cwEPR spectrometer.
@@ -271,7 +141,7 @@ An electrochemical cell was constructed inside an X band EPR sample tube.
 \subsection{Versatile electrode setup for ex-situ and in-situ spectroelectrochemical EPR}
 \label{electrode_setup}
 %
-There is increasing interest in both ex-situ and in-situ spectroelectrochemical (SEC) EPR measurements in research fields ranging from biology to materials science, from redox active systems such as proteins~\cite{abdiaziz2019_chemcomm} and hydrogenase to catalysis,\cite{kutin2019_catalysis, neukermans2020_chemelectrochem, bonke2021_natrev, priebe2013_angewandte, rabeah2015_angewandte} redox-flow batteries~\cite{zhao2021_jacs} and of course ORBs.\cite{huang2016_jpowersources, kanzaki2018_acsappmat} One significant drawback with SEC EPR is the fact that microwave resonators suffer from substantial microwave damping as a result of introducing metal electrodes, polar solvents and ionic salts (i.e., the electrolyte) needed for successful electrochemistry.\cite{wadhawan2007_encofelectrochem} Microwave damping can be significantly reduced by our novel on-substrate electrode design (see Fig.~\ref{fig:flat_tube}) as this limits the amount of metal that is introduced into the resonator, while still allowing us to have electrode surface areas large enough to deposit sufficient material of interest to observe EPR signals.
+One significant drawback with SEC EPR is the fact that microwave resonators suffer from substantial microwave damping as a result of introducing metal electrodes, polar solvents and ionic salts (i.e., the electrolyte) needed for successful electrochemistry.\cite{wadhawan2007_encofelectrochem} Microwave damping can be significantly reduced by our novel on-substrate electrode design (see Fig.~\ref{fig:flat_tube}) as this limits the amount of metal that is introduced into the resonator, while still allowing us to have electrode surface areas large enough to deposit sufficient material of interest to observe EPR signals.
 
 \par
 The on-substrate electrodes are produced as follows. Cleaned quartz substrates are placed inside a holder and covered with shadow masks. The assembly is transferred into a vacuum chamber equipped with a thermal evaporator (MBraun ProVap 5G PVD System). At a pressure of $7\times10^{-7}$~mbar, 10~nm of Chromium (Cr) adhesion layer is evaporated, followed by 180~nm of Gold (Au). In this way the on-substrate working and counter electrodes are formed (WE and CE respectively). The reference electrode (RE) is not evaporated on substrate for electrochemical stability reasons. Instead, a \SI{250}{\micro\meter} Ag wire is used, either as is or, for additional stability, coated galvanically with a AgCl layer.\cite{Safari2011} See Section \ref{Experimental_Section} in the ESI$\dag$ for details of the sample preparation.
@@ -322,7 +192,7 @@ The electrochemical cells based on the modified tube allow for higher EPR signal
 
 The modified tube could be inserted 7 mm deeper into the microwave resonator (see Fig.~\ref{fig:S2_Qfactor}). The EPR signal in the modified tube is increased as compared to the normal tube at the same height.
 
-\begin{figure*}[h!]
+\begin{figure*}[h]
 \centering
 \includegraphics[width=1\textwidth]{./operando_epr/figures/spins_at_work/Figure_S2.pdf}
 \caption{cwEPR signal intensity and Q factors for the standard 5~mm OD quartz EPR sample tube and for the modified tube at different heights from the center of the Bruker ER~4122-SHQE resonator. $\nu=$~9.4~GHz. Simulations of the cwEPR spectra with adjusted microwave phase. Noise analysis.}
@@ -333,86 +203,6 @@ The modified tube could be inserted 7 mm deeper into the microwave resonator (se
 The modified tube also allows for larger cwEPR signal intensities as it can be inserted closer to the resonator center. The signal-to-noise ratio (S/N) for the modified tube is increased by a factor of $\approx$6 as compared to the standard tube, both inserted at $H=$18~mm. At the maximum sample insertion, the S/N is improved by a factor of $\approx$8 for the modified tube.
 \par
 Using the modified tube we see three major benefits. Firstly, it results in much higher Q-factors and therefore sensitivity when comparing Q-factors for the same sample height. Secondly, the modified tube allows for insertion of the tube closer to the resonator center, allowing for a larger S/N and therefore requiring less averaging time for each cwEPR measurement. This is especially useful for samples where holding the potential for long periods causes unwanted effects or degradation. Thirdly, cwEPR measurements with the modified tube give symmetric cwEPR lineshapes (using the conventional procedure for critically coupling the microwave cavity, the standard tube gives an asymmetric lineshape) which allows for more straightforward quantitative analysis (spin counting), especially useful for in-situ cwEPR with varying redox potentials.
-
-
-
-
-
-
-
-
-\subsection{Electrochemical Cells with Solid Electrolyte}
-The electrolyte based on an ionic liquid incorporated in a gel-like polymer matrix has sufficient ionic mobility and diffusion to penetrate the pDiTBuS and pNiSalen surface and allow for partial charging and discharging of the battery electrodes. TEMPO radicals were shown to undergo a redox reaction in ionic liquids with a slightly changed redox potential of the TEMPO$^{\bullet}$-TEMPO$^+$ reaction~\cite{Golovisnina2023}.
-
-\begin{figure}[h]
-\center
-	\includegraphics[width=1\textwidth]{./operando_epr/figures/sandwich/sandwich.pdf}
-	\caption{Organic radical battery made with two parallel Au-plated substrates and a polypropylene separator soaked in liquid electrolyte.}
-	\label{fig:sandwich_assembly}
-\end{figure}
-
-
-
-\begin{figure}[h]
-\center
-	\includegraphics[width=1\textwidth]{./operando_epr/figures/solid/solid_cell.pdf}
-	\caption{All-polymer solid state organic radical battery produced on a 5~$\muup$m interdigitated grid.}
-	\label{fig:transistor_battery_assewmbly}
-\end{figure}
-
-
-\begin{figure}[h]
-\center
-	\includegraphics[width=1\textwidth]{./operando_epr/figures/solid/separate_deposition.pdf}
-	\caption{Deactivation of the on-substrate CE during the electrodeposition of a pDiTBuS film on the on-substrate WE of a 5~$\muup$m interdigitated grid.}
-	\label{fig:transistor_battery_deposition}
-\end{figure}
-
-\begin{figure}[h]
-\center
-	\includegraphics[width=1\textwidth]{./operando_epr/figures/solid/current_density.pdf}
-	\caption{Extremely inhomogeneous current density in a closely spaced electrodes of the interdigitated grid. Numerical simulation in Comsol Multiphysics.}
-	\label{fig:grid_current_density_sumulation}
-\end{figure}
-
-
-
-\subsection{Ex Situ Electrochemistry}
-\label{sample_fab_2}
-The pDiTBuS film was brought to the desired oxidation state by galvanostatic discharging with a current of 10~$\muup$A in a three-electrode electrochemical cell in a 5~ml beaker with the electrodes and the electrolyte described above.
-Each potential of the film was reached by first fully charging the cell to 700~mV and then discharging it to the desired potential (labeled points in Figure~\ref{fig:Figure_S3}). When the desired potential was \ik{reached}, the output relay of the potentiostat was opened so that no current went through the cell after charging. The substrate with the WE and the pDiTBuS film was removed from the charging cell, placed in a 5~mm OD quartz EPR tube, evacuated down to $<5\times10^{-3}$~mbar, filled with He up to a pressure of 500-600 mbar, then flame sealed with a H$_2$/O$_2$ burner.
-
-\begin{figure}[!ht]
-\center
-	\includegraphics[width=0.85\textwidth]{./pulse/figures/Figure_S3}
-	\caption{Initial galvanostatic discharge curve for the pDiTBuS film with the redox potentials described in the main text. Since the film has lost 12\% of its capacity during the temperature cycling, the SoC determined from the potentials mapped to the initial curve are lower than the SoC determined from the individual discharge curves (given in brackets). The SoC values corresponding to the initial (individual) discharge curve are a): SoC~98~(98)\%, b): SoC~\ik{94~(96)}\%, c): SoC~57(65)\%, d): SoC~0(0)\%. (Dis-)charging current: 10~$\muup$A, charging rate: 6.25~C. After this initial discharging, the pDiTBuS film has undergone 10 charge-discharge cycles and 4 temperature cycles.}
-	\label{fig:Figure_S3}
-\end{figure}
-
-\begin{figure}[!ht]
-\center
-	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_S27}
-	\caption{\ik{Calculation of the number of withdrawn electrons from a pDiTBuS film for the four states of charge. At negative times the pDiTBuS film is charged, corresponding to the withdrawal of electrons from the film. At positive times the film is discharged. The number of transferred electrons during discharging is determined from the four overlaid galvanostatic discharge curves (a-d).}}
-	\label{fig:Figure_S27}
-\end{figure}
-
-\ik{
-After reaching the fully charged state with 10~$\muup$A (by $t=0$ in Figure~\ref{fig:Figure_S27}), a 10~$\muup$A discharge current was applied to reach the four states of charge considered in this study (a-d in Figure~\ref{fig:Figure_S27} and in Figure~\ref{fig:Figure_S3}). Initially, the full charging capacity of the film was 1.48~$\muup$Ah~$=5.11$~\ik{m}C (3.29e+16 electrons withdrawn upon the full charging). The charging capacity has decreased by 0.06~$\muup$Ah ($4\%$) after the four temperature cycles between 300~K and 5~K during the cryogenic EPR measurements.\\
-}
-\newpage
-\ik{
-From the quantitative analysis of the GCD for each SoC, we calculate the number of elementary charges that are transferred to the film (withdrawn from the film) upon charging (discharging). The GCD and the calculated values of the transferred charge are shown in Figure~\ref{fig:Figure_S27}. During the full discharge from +700~mV down to -200~mV the pDiTBuS film has gained a total charge of 1.355~$\muup$Ah=4.88~\ik{m}C (d), corresponding to 3.01e+16 electrons that had been transferred to the film.)
-}
-\ik{ 
-The considered SoC correspond to discharging by $0.020\pm0.005~\muup$Ah (Figure~\ref{fig:Figure_S27}~a, $(5\pm1)\times10^{14}$ electrons injected), $0.060\pm0.005~\muup$Ah (Figure~\ref{fig:Figure_S27}~b, $(1.4\pm0.1)\times10^{15}$ electrons injected), $0.480\pm0.005~\muup$Ah (Figure~\ref{fig:Figure_S27}~c, $(1.07\pm0.01)\times10^{16}$ electrons injected) and $1.360\pm0.005~\muup$Ah (Figure~\ref{fig:Figure_S27}~d, $(3.05\pm0.01)\times10^{16}$~electrons injected). The SoC values determined from the respective potentials are different when mapped to the initial discharge curve in Fig.~\ref{fig:Figure_S3} and when considering the individual discharge curves in Fig.~\ref{fig:Figure_S27}, as the film was gradually losing its capacity during the temperature cycling, so the discharge curves were reaching the considered potentials at shorter times, leading to a lower Coulomb counting, lower discharge capacity and therefore a lower SoC.}
-
-
-
-
-
-
-
-
 
 
 
@@ -567,7 +357,7 @@ The operando monitoring of EPR spectra in pDiTS cells has revealed that the amou
 \begin{figure}[!h]
 \center
 	\includegraphics[width=1\textwidth]{./operando_epr/figures/degradation/overnight_dits_201211_full_redox_contour_XY.pdf}
-	\caption{Operando cwEPR spectra of a pDiTS electrochemical cell showing irreversible release of charge-bearing fragments and decomposition of the device upon the extreme charging currents.}
+	\caption{Operando cwEPR spectra of a pDiTS electrochemical cell showing irreversible release of charge-bearing fragments and decomposition of the device upon potentiostatic charging with currents up to $I<0.2$~mA~$\approx125$~C.}
 	\label{fig:operando_degradation_device}
 \end{figure}
 
@@ -590,7 +380,7 @@ The operando monitoring of EPR spectra in pDiTS cells has revealed that the amou
 \begin{figure}[!h]
 \center
 	\includegraphics[width=1\textwidth]{./operando_epr/figures/degradation/repeated_cycling_degradation_dits.pdf}
-	\caption{ZZZ}
+	\caption{a): Evolution and component decomposition of cwEPR spectra for a tube-based, 150~CV p-DiTS ORB upon 36 charge-discharge cycles. b): Quantitative analysis of the separated spectral components. $\nu$ = 9.4$\,$GHz, Mod.~Amp:~0.5$\,$mT. Quantitative analysis of the CV curves. c): Cyclic voltammograms of the cell, recorded with respect to Ag/AgCl RE at a rate of 5~mV\,s\textsuperscript{-1} in between the EPR scans, in the modified tube inside the microwave resonator. The CV were taken at 5~mV\,s\textsuperscript{-1}, which is 10 times slower than the CV curves taken in the larger beaker, because limited amount of the electrolyte in the modified tube was found to strongly affect the shape and positions of the CV peaks at higher speeds of cycling.}
 	\label{fig:repeated_cycling_degradation}
 \end{figure}
 
@@ -643,4 +433,79 @@ Organic Radical Batteries have a tendency to self-discharge, as the organic elec
 	\caption{XXX}
 	\label{fig:operando_cold_cycle}
 \end{figure}
+
+
+
+\section{Pulsed EPR spectroscopy of a pDiTBuS Cathode Film}
+\subsection{Pulsed EPR Spectra of TEMPOL solutions}
+In a glassy, frozen solutions of TEMPOL, the distance between the TEMPO radicals is controlled by the concentration. With the increasing concentration, the relaxation times shorten significantly, as the distance between the radicals decreases, which intensifies the inter-spin interactions and leads to a faster in-plane dephasing of the excited spins.
+
+\section{Pulsed EPR Spectroscopy of a charged pDiTBuS Cathode film}
+
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./pulse/figures/SAW_Figure_8.pdf}
+	\caption{X}
+	\label{fig:FSE_vs_CW_DiTS_rel_times}
+\end{figure}
+
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_3_INTS.pdf}
+	\caption{a): cwEPR spectra for pDiTBuS charged to 95\% and 85\%, and for a frozen 0.1~\si{\milli\Molar}  solution of TEMPOL. Normalized intensities. Temperature 80~K. b): Corresponding \rs{pEPR} spectra measured at 5~K. Intensities scaled by the $m_I=0$ central peak. c): Integrated cwEPR intensities show similar spectral shapes. Temperature: 80~K, microwave frequency: 9.6~GHz, field modulation: 5~G at 100~kHz. ER~4118 X-MD5 dielectric ring resonator.}
+	\label{fig:FSE_vs_CW_vs_INTS_DiTBuS}
+\end{figure}
+
+
+
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_6_maintext_col_MOD.pdf}
+	\caption{X}
+	\label{fig:FSE_reconstruction_with_T2}
+\end{figure}
+
+
+
+\subsection{Field Swept Echo of a charged pDiTBuS Cathode film}
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./pulse/figures/FSE_DTBS_FSE_RELAX_T1Tm.pdf}
+	\caption{XXX}
+	\label{fig:Figure_FSE2}
+\end{figure}
+
+\subsection{Instantaneous Diffusion in Charged pDiTBuS}
+\label{S:ID}
+
+We have seen that \rs{the} ESOC has a strong influence on the shape of the EDFS spectra. Furthermore, the EDFS spectra of pDiTBuS are quite different from the reference spectrum of TEMPOL in a \rs{dilute} frozen solution.\\
+
+
+In Section /// it is shown that in a densely packed radical system, as in a TEMPO-Salen cathode film, the phase memory time can be shorter than $T_m\leq100$~ns. That is, the spin echo is decaying by $e\approx3$ times at $t=100$~ns. The short phase memory time limits the duration of the pulse sequence at which the echo is detectable. For a $\pi/2-\tau-\pi-\tau-echo$ sequence, with a hardware limitation on $\tau\geq t_d\approx100$~ns, the shortest realizable pulse sequence becomes longer than $t>200$~ns. By this time, the spin echo decreases by $e^2\approx7$ times and may be comparable to noise. The limitations imposed by the finite $T_m$ and $t_d$ force one to use shorter microwave pulses. 
+\par
+A short microwave pulse may have a spectral width comparable to the width of the observed spectrum. According to the Fourier theorem, the spectral width of a pulse is inversely proportional to the pulse length: $\Delta\omega\sim 1/t_p$. A spectrum of a 100~ns long rectangular pulse shown in Figure /// is ///MHz wide (FWHM). 
+
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./pulse/figures/FGMR/ID/ID_vs_ISO.pdf}
+	\caption{Distortions of a nitroxide FSE spectrum caused by isotropic spin relaxation (left) and instantaneous diffusion (right).}
+	\label{fig:iso_vs_id}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
