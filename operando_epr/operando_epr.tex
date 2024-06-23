@@ -499,18 +499,36 @@ Based on the p-DiTS and p-NiMeOSalen ex-situ studies it is clear that both the T
 
 
 
-\section{Pulsed EPR spectroscopy of a Cathode Film}
+\section{Pulsed EPR spectroscopy of TEMPO-Salens}
 \subsection{Pulsed EPR Spectra of TEMPOL solutions}
 In a glassy, frozen solution of TEMPOL, the distance between the TEMPO radicals is controlled by the concentration of the solution. With the increasing concentration, the relaxation times shorten significantly, as the distance between the radicals decreases, which intensifies the inter-spin interactions and leads to a faster in-plane dephasing of the excited spins.
 
-\section{Pulsed EPR Spectroscopy of a charged pDiTBuS Cathode film}
+\subsection{Pulsed EPR Spectroscopy of a charged pDiTBuS Cathode film}
 
-\begin{figure}[h]
-\center
-	\includegraphics[width=1\textwidth]{./pulse/figures/SAW_Figure_8.pdf}
-	\caption{X}
-	\label{fig:FSE_vs_CW_DiTS_rel_times}
-\end{figure}
+While it is highly desirable to perform in-situ cwEPR experiments on electrochemical cells and fully processed batteries under ambient conditions at room temperature, most pulse EPR measurements performed on battery-relevant materials require low temperatures, primarily to increase spin-relaxation times. The necessity for low-temperature measurements already precludes the use of conventional flat cells in combination with cylindrical resonators.\cite{wadhawan2007_encofelectrochem, toybenshlak2019_isrjchem}
+
+\par
+Recently, successful pEPR measurements performed on batteries based on inorganic, lithium-containing electrode materials in an X-band dielectric ring resonator were reported,\cite{szczuka2021_commmat} clearly showing that pEPR experiments are indeed feasible and can provide insights into the kinetics of processes occurring on the electrodes upon fast charging. However, the cell geometry used in Ref.~\cite{szczuka2021_commmat}  only allows for room-temperature measurements. We believe that the possibility of performing low-temperature pEPR measurements is the key to a widespread use of pEPR techniques for polymer battery research, providing access to the full arsenal of advanced echo-detected pEPR experiments. Our versatile on-substrate electrode setup (see Section \ref{electrode_setup}) readily allows for low-temperature pEPR experiments.
+
+\par
+As a first step, we sought to perform pEPR measurements on an oxidized p-DiTS film in order to detect electrochemically inactive nitroxide radicals. For this purpose, a p-DiTS cell was brought into its fully charged state at 900~mV vs.\ Ag/AgNO\textsubscript{3} and kept at this potential while the electrolyte was removed and the sample was thoroughly dried. The substrate was subsequently flame-sealed in a helium-filled quartz tube. The cwEPR spectrum measured at $T = 80~\textrm{K}$ (Fig.~\ref{fig:Figure_8}a) is indicative of immobilized, isolated nitroxides\cite{bordignon2017_emagres} and clearly deviates from the broad and unstructured single-line spectrum observed for a reduced p-DiTS film at room temperature (Fig.~\ref{fig:Figure_4}c) and at $T = 150~\textrm{K}$ (Fig.~\ref{fig:Figure_7}a). This confirms that the charge state of the of the p-DiTS film is indeed preserved in the electrically disconnected sample without electrolyte.
+%
+\begin{figure*}[ht!]
+	\centering
+		\includegraphics[width=1\textwidth]{./pulse/figures/SAW_Figure_8.pdf}
+	\caption{a): Pulse EPR echo-detected field-sweep spectrum (solid line) and cwEPR spectrum (dashed line) of a $\approx$500~nm thick p-DiTS film charged to +900~mV vs.\ Ag/AgNO\textsubscript{3} measured at $T = 80~\textrm{K}$ ($\nu = 9.6$~GHz). b): Results of echo-decay measurements performed at the peak positions indicated by the dotted vertical lines in a) along with single exponential fits to determine the spin-spin relaxation times $T_2$.}
+	\label{fig:Figure_8}
+\end{figure*}
+%
+\par
+Next, we performed low-temperature pEPR measurements using the standard Hahn Echo sequence ($\frac{\pi}{2} - \tau - \pi - \tau - \textrm{echo}$). The resulting echo-detected field-sweep spectrum is shown in Fig.~\ref{fig:Figure_8}a along with the cwEPR spectrum measured under identical conditions. Based on the overall shape and width of the spectrum, which is given by $2A\textsubscript{zz}$ with $A\textsubscript{zz}$ being the $z$ component of the hyperfine tensor, we can unambiguously attribute the resonant signal to immobilized nitroxides. However, the pEPR spectrum differs from the usual TEMPO powder spectrum. Most notably, the relative intensity of the central ($m_I=0$) peak is significantly lower than expected. Echo-decay measurements reveal that the spin-spin relaxation times $T_2$ (Fig.~\ref{fig:Figure_8}b) are comparable for all three $m_I$ components, suggesting that anisotropic relaxation is not the main reason for the reduced intensity of the central peak. On the other hand, $T_2$ is at least one order of magnitude shorter than for isolated nitroxides, indicating that spin-spin coupling significantly influences $T_2$ for the paramagnetic centers in the oxidized p-DiTS film.
+
+\par
+Further measurements will help identifying the main factors responsible for the peculiar shape of the pEPR spectrum, among them possible partial ordering of the TEMPO groups in the p-DiTS film, (restricted) motion of the nitroxides even at low temperatures and/or the existence of redox-inactive sites in different microscopic environments associated with dissimilar relaxation properties. 
+%
+\par
+The pEPR spectrum in Fig.~\ref{fig:Figure_8}a is likely a result of the same electrochemically inactive dilute spins observed in the ex-situ p-DiTS redox series (Fig.~\ref{fig:Figure_7}). Potential dependent SEC pEPR measurements are ongoing to confirm this hypothesis, and ELDOR and hyperfine spectroscopy could lead to critical information about the local environment which causes these spins to be electrochemically inactive. These advanced pEPR methods could further give insight into degradation mechanisms in p-DiTS and other ORB materials. Realization of SEC pEPR, particularly on film electrodes, makes these techniques available for other research field such as the study of hydrogenases and enzymes or metal catalysis.
+
 
 \begin{figure}[h]
 \center

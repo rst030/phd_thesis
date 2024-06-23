@@ -10,15 +10,14 @@
 \contentsline {section}{\numberline {2.2}Continuous-Wave Electron Paramagnetic Resonance}{16}{}%
 \contentsline {subsection}{\numberline {2.2.1}cwEPR spectrometer}{17}{}%
 \contentsline {paragraph}{Line Broadening}{19}{}%
-\contentsline {section}{\numberline {2.3}Fundamentals of Pulsed EPR Spectroscopy }{20}{}%
-\contentsline {section}{\numberline {2.4}Pulsed EPR Spectroscopy}{20}{}%
-\contentsline {subsection}{\numberline {2.4.1}Bloch Equations}{20}{}%
-\contentsline {subsection}{\numberline {2.4.2}Refocused Spin Echo}{21}{}%
-\contentsline {subsection}{\numberline {2.4.3}Spin Relaxation Times}{21}{}%
-\contentsline {subsection}{\numberline {2.4.4}Spin Packets}{21}{}%
-\contentsline {subsection}{\numberline {2.4.5}Pulsed EPR Instrumentation}{21}{}%
-\contentsline {subsection}{\numberline {2.4.6}Pulse Sequences and Measurement Techniques}{21}{}%
-\contentsline {subsubsection}{The Hahn Echo Sequence}{21}{}%
+\contentsline {section}{\numberline {2.3}Fundamentals of Pulsed EPR Spectroscopy}{20}{}%
+\contentsline {subsection}{\numberline {2.3.1}Bloch Equations}{20}{}%
+\contentsline {subsection}{\numberline {2.3.2}Refocused Spin Echo}{20}{}%
+\contentsline {subsection}{\numberline {2.3.3}Spin Relaxation Times}{20}{}%
+\contentsline {subsection}{\numberline {2.3.4}Spin Packets}{20}{}%
+\contentsline {subsection}{\numberline {2.3.5}Pulsed EPR Instrumentation}{20}{}%
+\contentsline {subsection}{\numberline {2.3.6}Pulse Sequences and Measurement Techniques}{20}{}%
+\contentsline {subsubsection}{The Hahn Echo Sequence}{20}{}%
 \contentsline {subsubsection}{Spin Echo Decay and Phase Memory Time}{22}{}%
 \contentsline {subsubsection}{Inversion Recovery and Spin-Lattice Relaxation Time}{22}{}%
 \contentsline {chapter}{\numberline {3}Materials and Devices}{23}{}%
@@ -42,61 +41,61 @@
 \contentsline {subsection}{\numberline {3.3.4}NiSalen}{35}{}%
 \contentsline {subsection}{\numberline {3.3.5}Poly-Di-TEMPO-Salens}{35}{}%
 \contentsline {subsection}{\numberline {3.3.6}Electro-polymerization of TEMPO-Salens}{37}{}%
-\contentsline {section}{\numberline {3.4}Ex Situ Electrochemistry}{38}{}%
-\contentsline {subsection}{\numberline {3.4.1}TEMPO-Salen Films for EPR Spectroscopic Measurements}{41}{}%
-\contentsline {section}{\numberline {3.5}Electrochemical Cells for EPR spectroscopy}{41}{}%
+\contentsline {section}{\numberline {3.4}TEMPO-Salen Films for EPR Spectroscopic Measurements}{38}{}%
+\contentsline {paragraph}{JMRO}{40}{}%
+\contentsline {section}{\numberline {3.5}Electrochemical Cells for EPR spectroscopy}{42}{}%
 \contentsline {subsection}{\numberline {3.5.1}Cells Based on a Modified EPR Sample Tube}{42}{}%
-\contentsline {subsection}{\numberline {3.5.2}Fabrication of the modified tube}{43}{}%
-\contentsline {subsection}{\numberline {3.5.3}Q-factors and cwEPR spectra for p-DiTS in standard and modified tube}{44}{}%
-\contentsline {subsection}{\numberline {3.5.4}Reference Electrode}{45}{}%
+\contentsline {subsection}{\numberline {3.5.2}Fabrication of the modified tube}{44}{}%
+\contentsline {subsection}{\numberline {3.5.3}Q-factors and cwEPR spectra for p-DiTS in standard and modified tube}{45}{}%
+\contentsline {subsection}{\numberline {3.5.4}Reference Electrode}{46}{}%
 \contentsline {subsection}{\numberline {3.5.5}Electrochemical Cells with a Separator}{46}{}%
-\contentsline {subsection}{\numberline {3.5.6}Electrochemical Cells with Solid Electrolyte}{46}{}%
-\contentsline {subsection}{\numberline {3.5.7}Energy Diagram of an Electrochemical Half-Cell}{46}{}%
-\contentsline {chapter}{\numberline {4}EPR Spectroscopy of TEMPO-Salen Electrochemical Cells}{53}{}%
-\contentsline {section}{\numberline {4.1}cwEPR Spectroscopy of TEMPO Containing Molecular Fragments}{53}{}%
-\contentsline {subsection}{\numberline {4.1.1}Room Temperature Spectra of TEMPO$^{\bullet }$ Solutions}{54}{}%
-\contentsline {subsection}{\numberline {4.1.2}Spectra of TEMPO$^{\bullet }$/TEMPO$^{+}$ Films}{56}{}%
-\contentsline {subsection}{\numberline {4.1.3}Spectra of NiSalen Films}{57}{}%
-\contentsline {section}{\numberline {4.2}cwEPR Spectroscopy of a Charging Electrochemical Cell}{58}{}%
-\contentsline {subsection}{\numberline {4.2.1}cwEPR Spectra During a Charge-Discharge Cycle}{59}{}%
-\contentsline {section}{\numberline {4.3}p-DiTS in-operando redox series}{61}{}%
-\contentsline {subsection}{\numberline {4.3.1}Spectral Simulations}{64}{}%
-\contentsline {subsection}{\numberline {4.3.2}Quantitative Analysis of Potential-Dependent EPR Spectra}{64}{}%
-\contentsline {section}{\numberline {4.4}EPR-Detected State Of Charge}{65}{}%
-\contentsline {subsection}{\numberline {4.4.1}Formation of Singlet Spin States in a Reduced Cathode Film}{65}{}%
-\contentsline {section}{\numberline {4.5}Monitoring of Degradation Processes}{66}{}%
-\contentsline {section}{\numberline {4.6}Monitoring of Self Discharge}{69}{}%
-\contentsline {section}{\numberline {4.7}Low Temperature Measurements}{69}{}%
-\contentsline {subsection}{\numberline {4.7.1}p-DiTS}{69}{}%
-\contentsline {subsection}{\numberline {4.7.2}p-NiMeOSalen}{70}{}%
-\contentsline {subsection}{\numberline {4.7.3}Tube Based Cells}{71}{}%
-\contentsline {section}{\numberline {4.8}Pulsed EPR spectroscopy of a Cathode Film}{71}{}%
-\contentsline {subsection}{\numberline {4.8.1}Pulsed EPR Spectra of TEMPOL solutions}{71}{}%
-\contentsline {section}{\numberline {4.9}Pulsed EPR Spectroscopy of a charged pDiTBuS Cathode film}{71}{}%
-\contentsline {subsection}{\numberline {4.9.1}Field Swept Echo of a charged pDiTBuS Cathode film}{71}{}%
-\contentsline {subsection}{\numberline {4.9.2}Instantaneous Diffusion in Charged pDiTBuS}{71}{}%
-\contentsline {chapter}{\numberline {5}Results and Discussion}{93}{}%
-\contentsline {section}{\numberline {5.1}Instantaneous Diffusion in pDiTS}{93}{}%
-\contentsline {section}{\numberline {5.2}Simulations of the EDFS Spectra Considering Instantaneous Diffusion}{95}{}%
-\contentsline {subsection}{\numberline {5.2.1}\leavevmode {\color {black}EDFS in 50\nobreakspace {}\si {\milli \Molar } TEMPOL Measured with Narrow-Band Pulses}}{95}{}%
-\contentsline {subsection}{\numberline {5.2.2}\leavevmode {\color {black}EDFS in 50\nobreakspace {}\si {\milli \Molar } TEMPOL Measured with Broad-Band Pulses}}{95}{}%
-\contentsline {subsection}{\numberline {5.2.3}EDFS in PDiTBuS at ESOC\nobreakspace {}85\% Affected by Instantaneous Diffusion}{96}{}%
-\contentsline {subsection}{\numberline {5.2.4}EDFS in PDiTBuS at ESOC\nobreakspace {}95\% Affected by Instantaneous Diffusion}{97}{}%
-\contentsline {subsection}{\numberline {5.2.5}Estimation of Local Spin Concentrations with Instantaneous Diffusion}{98}{}%
-\contentsline {section}{\numberline {5.3}Spin Relaxation in a charged pDiTBuS Cathode Film}{98}{}%
-\contentsline {subsection}{\numberline {5.3.1}Temperature Dependence of Pulse Spectra of Charged pDiTBuS}{101}{}%
-\contentsline {subsection}{\numberline {5.3.2}\leavevmode {\color {black}Limitation on Shortest Detectable $T_m$ by the Spectrometer Dead Time}}{102}{}%
-\contentsline {section}{\numberline {5.4}Pad{\'e}-Laplace Deconvolution of Polyexponential Decay Signals}{102}{}%
-\contentsline {subsection}{\numberline {5.4.1}Pad{\'e}-Laplace Deconvolution of the Echo-Decay and Inversion-Recovery Transients}{105}{}%
-\contentsline {subsubsection}{Echo Decay in 50 mM TEMPOL}{106}{}%
-\contentsline {subsubsection}{Echo Decay in DiTBuS 95\% ESOC}{107}{}%
-\contentsline {subsubsection}{Echo Decay in DiTBuS 85\% ESOC}{108}{}%
-\contentsline {subsubsection}{Inversion Recovery in 50 mM TEMPOL}{109}{}%
-\contentsline {subsubsection}{Inversion Recovery in DiTBuS 95\% ESOC}{110}{}%
-\contentsline {subsubsection}{Inversion Recovery in DiTBuS 85\% ESOC}{111}{}%
-\contentsline {subsection}{\numberline {5.4.2}Detection of Domains with Poor Conductivity}{111}{}%
-\contentsline {subsection}{\numberline {5.4.3}Towards Electron Resonance Imaging of Spin Concentrations in Battery Electrodes}{111}{}%
-\contentsline {chapter}{\numberline {6}Conclusions and Outlook}{113}{}%
-\contentsline {paragraph}{EES}{113}{}%
-\contentsline {paragraph}{JMRO}{114}{}%
-\contentsline {paragraph}{ME}{115}{}%
+\contentsline {subsection}{\numberline {3.5.6}Electrochemical Cells with Solid Electrolyte}{47}{}%
+\contentsline {subsection}{\numberline {3.5.7}Energy Diagram of an Electrochemical Half-Cell}{47}{}%
+\contentsline {chapter}{\numberline {4}EPR Spectroscopy of TEMPO-Salen Electrochemical Cells}{55}{}%
+\contentsline {section}{\numberline {4.1}cwEPR Spectroscopy of TEMPO Containing Molecular Fragments}{55}{}%
+\contentsline {subsection}{\numberline {4.1.1}Room Temperature Spectra of TEMPO$^{\bullet }$ Solutions}{56}{}%
+\contentsline {subsection}{\numberline {4.1.2}Spectra of TEMPO$^{\bullet }$/TEMPO$^{+}$ Films}{58}{}%
+\contentsline {subsection}{\numberline {4.1.3}Spectra of NiSalen Films}{59}{}%
+\contentsline {section}{\numberline {4.2}cwEPR Spectroscopy of a Charging Electrochemical Cell}{60}{}%
+\contentsline {subsection}{\numberline {4.2.1}cwEPR Spectra During a Charge-Discharge Cycle}{61}{}%
+\contentsline {section}{\numberline {4.3}p-DiTS in-operando redox series}{63}{}%
+\contentsline {subsection}{\numberline {4.3.1}Spectral Simulations}{66}{}%
+\contentsline {subsection}{\numberline {4.3.2}Quantitative Analysis of Potential-Dependent EPR Spectra}{66}{}%
+\contentsline {section}{\numberline {4.4}EPR-Detected State Of Charge}{67}{}%
+\contentsline {subsection}{\numberline {4.4.1}Formation of Singlet Spin States in a Reduced Cathode Film}{67}{}%
+\contentsline {section}{\numberline {4.5}Monitoring of Degradation Processes}{68}{}%
+\contentsline {section}{\numberline {4.6}Monitoring of Self Discharge}{71}{}%
+\contentsline {section}{\numberline {4.7}Low Temperature Measurements}{71}{}%
+\contentsline {subsection}{\numberline {4.7.1}p-DiTS}{71}{}%
+\contentsline {subsection}{\numberline {4.7.2}p-NiMeOSalen}{72}{}%
+\contentsline {subsection}{\numberline {4.7.3}Tube Based Cells}{73}{}%
+\contentsline {section}{\numberline {4.8}Pulsed EPR spectroscopy of TEMPO-Salens}{73}{}%
+\contentsline {subsection}{\numberline {4.8.1}Pulsed EPR Spectra of TEMPOL solutions}{73}{}%
+\contentsline {subsection}{\numberline {4.8.2}Pulsed EPR Spectroscopy of a charged pDiTBuS Cathode film}{73}{}%
+\contentsline {subsection}{\numberline {4.8.3}Field Swept Echo of a charged pDiTBuS Cathode film}{75}{}%
+\contentsline {subsection}{\numberline {4.8.4}Instantaneous Diffusion in Charged pDiTBuS}{75}{}%
+\contentsline {chapter}{\numberline {5}Results and Discussion}{95}{}%
+\contentsline {section}{\numberline {5.1}Instantaneous Diffusion in pDiTS}{95}{}%
+\contentsline {section}{\numberline {5.2}Simulations of the EDFS Spectra Considering Instantaneous Diffusion}{97}{}%
+\contentsline {subsection}{\numberline {5.2.1}\leavevmode {\color {black}EDFS in 50\nobreakspace {}\si {\milli \Molar } TEMPOL Measured with Narrow-Band Pulses}}{97}{}%
+\contentsline {subsection}{\numberline {5.2.2}\leavevmode {\color {black}EDFS in 50\nobreakspace {}\si {\milli \Molar } TEMPOL Measured with Broad-Band Pulses}}{97}{}%
+\contentsline {subsection}{\numberline {5.2.3}EDFS in PDiTBuS at ESOC\nobreakspace {}85\% Affected by Instantaneous Diffusion}{98}{}%
+\contentsline {subsection}{\numberline {5.2.4}EDFS in PDiTBuS at ESOC\nobreakspace {}95\% Affected by Instantaneous Diffusion}{99}{}%
+\contentsline {subsection}{\numberline {5.2.5}Estimation of Local Spin Concentrations with Instantaneous Diffusion}{100}{}%
+\contentsline {section}{\numberline {5.3}Spin Relaxation in a charged pDiTBuS Cathode Film}{100}{}%
+\contentsline {subsection}{\numberline {5.3.1}Temperature Dependence of Pulse Spectra of Charged pDiTBuS}{103}{}%
+\contentsline {subsection}{\numberline {5.3.2}\leavevmode {\color {black}Limitation on Shortest Detectable $T_m$ by the Spectrometer Dead Time}}{104}{}%
+\contentsline {section}{\numberline {5.4}Pad{\'e}-Laplace Deconvolution of Polyexponential Decay Signals}{104}{}%
+\contentsline {subsection}{\numberline {5.4.1}Pad{\'e}-Laplace Deconvolution of the Echo-Decay and Inversion-Recovery Transients}{107}{}%
+\contentsline {subsubsection}{Echo Decay in 50 mM TEMPOL}{108}{}%
+\contentsline {subsubsection}{Echo Decay in DiTBuS 95\% ESOC}{109}{}%
+\contentsline {subsubsection}{Echo Decay in DiTBuS 85\% ESOC}{110}{}%
+\contentsline {subsubsection}{Inversion Recovery in 50 mM TEMPOL}{111}{}%
+\contentsline {subsubsection}{Inversion Recovery in DiTBuS 95\% ESOC}{112}{}%
+\contentsline {subsubsection}{Inversion Recovery in DiTBuS 85\% ESOC}{113}{}%
+\contentsline {subsection}{\numberline {5.4.2}Detection of Domains with Poor Conductivity}{113}{}%
+\contentsline {subsection}{\numberline {5.4.3}Towards Electron Resonance Imaging of Spin Concentrations in Battery Electrodes}{113}{}%
+\contentsline {chapter}{\numberline {6}Conclusions and Outlook}{115}{}%
+\contentsline {paragraph}{EES}{115}{}%
+\contentsline {paragraph}{JMRO}{116}{}%
+\contentsline {paragraph}{ME}{117}{}%
