@@ -303,6 +303,12 @@ Josef Kadlec, Radoslav Cipin, Dalibor Cervinka, Pavel Vorel, and Bohumil Klima.
   051 ray.
 \newblock {\em Journal of Solid State Electrochemistry}, 18:2307--2313, 2014.
 
+\bibitem{kanzaki2018_acsappmat}
+Y~Kanzaki, S~Mitani, D~Shiomi, Y~Morita, T~Takui, and K~Sato.
+\newblock Microscopic behavior of active materials inside a tcnq-based
+  lithium-ion rechargeable battery by in situ 2d esr measurements.
+\newblock {\em Acs Applied Materials \& Interfaces}, 10:43631--43640, 2018.
+
 \bibitem{katsumata2006_mrc}
 T~Katsumata, M~Satoh, J~Wada, M~Shiotsuki, F~Sanda, and T~Masuda.
 \newblock Polyacetylene and polynorbornene derivatives carrying tempo.
@@ -653,6 +659,11 @@ Yu.~V. Toropov, S.~A. Dzuba, Yu.~D. Tsvetkov, V~Monaco, F~Formaggio, M~Crisma,
   peptaibols studied in glassy liquid by echo-detected epr spectroscopy.
 \newblock {\em Applied Magnetic Resonance}, 15:237--246, 1998.
 
+\bibitem{Tung_book}
+Wu-Ki. Tung.
+\newblock {\em Group theory in physics}.
+\newblock World Scientific, 1985.
+
 \bibitem{Vereshchagin2020}
 Anatolii.~A. Vereshchagin, Daniil~A. Lukyanov, Ilia~R. Kulikov, Naitik~A.
   Panjwani, Elena~A. Alekseeva, Jan Behrends, and Oleg~V. Levin.
@@ -764,6 +775,14 @@ Yiren Zhang, Albert~M. Park, Stephen~R. McMillan, Nicholas~J. Harmon,
 \newblock Charge transport in conjugated polymers with pendent stable radical
   groups.
 \newblock {\em Chemistry of Materials}, 30:4799--4807, 7 2018.
+
+\bibitem{zhao2021_jacs}
+Evan~Wenbo Zhao, Erlendur Jónsson, Rajesh~B. Jethwa, Dominic Hey, Dongxun Lyu,
+  Adam Brookfield, Peter~A.A. Klusener, David Collison, and Clare~P. Grey.
+\newblock Coupled in situ nmr and epr studies reveal the electron transfer rate
+  and electrolyte decomposition in redox flow batteries.
+\newblock {\em Journal of the American Chemical Society}, 143:1885--1895, 2
+  2021.
 
 \bibitem{Zhou2020}
 Wenbo Zhou, Wenjie Liu, Meng Qin, Zhidong Chen, Juan Xu, Jianyu Cao, and Jun
