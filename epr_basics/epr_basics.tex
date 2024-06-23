@@ -78,7 +78,7 @@ The electron Zeeman term $H_{EZ}$ defines the requirements on the hardware and s
 
 
 
-\subsection{Continuous-Wave Electron Paramagnetic Resonance}
+\section{Continuous-Wave Electron Paramagnetic Resonance}
 \label{subs:cwEPR_spectroscopy}
 First observed in 1945~\cite{Zavoisky_1945_JP,zavoisky_1945,salikhov_2015}, the phenomenon of electron paramagnetic resonance had quickly become a tool for probing local molecular environments in species that contain unpaired electron spins. A free electron, that does not interact with its environment and has $g=g_e$, experiences a Zeeman splitting of $\Delta E = g \mu_B B_0$, that corresponds to the energy of a photon with a frequency of $\nu=\Delta E / h$. A microwave photon can drive a magnetic dipole transition between the Zeeman-split spin states - this is called electron paramagnetic resonance (EPR). An X band microwave photon (IEEE X band, $\nu=8-12$~GHz, $\lambda=2.5-3.8$~cm, Figure~\ref{fig:cwerp_free_electron}, left) can drive the magnetic dipole transition between $\vert{\uparrow\rangle}$ and $\vert{\downarrow\rangle}$ at $B_0\approx0.3$~T. In a continuous-wave electron paramagnetic resonance (cwEPR) experiment, the microwave frequency and power is kept constant while $B_0$ is scanned and the microwave absorption is observed. EPR happens around the $B_0$ values given by the spin resonance condition:
 
@@ -98,7 +98,7 @@ First observed in 1945~\cite{Zavoisky_1945_JP,zavoisky_1945,salikhov_2015}, the 
 \par
 When $B_0$ reaches the value that satisfies Eq.~\ref{eq:epr_resonance_condition}, the sample starts absorbing microwaves. The absorbed microwave power recorded as a function of $B_0$ is the cwEPR spectrum (Figure~\ref{fig:cwerp_free_electron}, right, dashed). By construction, cwEPR spectrometers typically record the derivative of the microwave absorption vs. $B_0$ (Figure~\ref{fig:cwerp_free_electron}, right, solid). Advanced spin resonance techniques methods that involve coherent spin dynamics and pulsed microwave fields are discussed in Section~\ref{ch:pulsed_epr}.
 
-\paragraph{cwEPR spectrometer}
+\subsection{cwEPR spectrometer}
 
 A basic cwEPR spectrometer consists of a magnet, a microwave source, a resonator and a microwave detector. Figure~\ref{fig:cwerp_spectrometer} depicts those elements with more details, including the sample - an electrochemical cell that is placed inside the microwave resonator and its SoC controlled with an external potentiostat.
 
@@ -132,7 +132,7 @@ and the resonance lineshape is lorentzian. $H_p$ is the mean square dipolar fiel
 
 \section{Fundamentals of Pulsed EPR Spectroscopy
 }
-\subsection{Coherent Spin Motion under Pulsed Microwave Field}
+\section{Pulsed EPR Spectroscopy}
 \label{ch:pulsed_epr}
 
 The motion of the magnetization vector $\vec{M}(t,\vec{r})$ precessing in a static magnetic field $B_0$ is convenient to consider in the rotating frame of reference that has its $\vec{z^{\prime}}$ axis fixed to the magnetization vector ${\vec{z}}~^{\prime}\parallel\vec{M}$ so that the $x^{\prime} y^{\prime}$ plane rotates around $\vec{M}$ at the Larmor frequency $\omega_L=\gamma B_0$ when viewed from the laboratory frame $\vec{x},\vec{y},\vec{z}$, where $\gamma$ is the gyromagnetic ratio for electrons described in Section~\ref{sec:spin}. In the rotating frame, the macroscopic magnetization stays constant as long as the spin system interacts only with the static field $B_0$. When the spin system is excited with a linearly polarized microwave field $\vec{B_1}(t,\vec{r})\perp\vec{B_0}$, its evolution is described with the set of equations that is known as the Bloch equations (Eq.~\ref{eq:Bloch}). A microwave field of frequency $\omega_1$ and amplitude $B_1$ propagates along $\vec{z}$ and it is polarized in the $xz$ plane: $\vec{B_1}(t,\vec{r})=B_1\vec{x}\cos\left(\omega_1t\right)$. The total magnetic field $\vec{B}=\vec{B_0}+\vec{B_1}$ then causes a time-dependent torque on the $\vec{M}$ which leads to its precession - this time in the rotating frame of reference.
@@ -155,7 +155,7 @@ The motion of the magnetization vector $\vec{M}(t,\vec{r})$ precessing in a stat
 \subsection{Spin Relaxation Times}
 \subsection{Spin Packets}
 
-\section{Pulsed EPR Instrumentation}
+\subsection{Pulsed EPR Instrumentation}
 
 \begin{figure}[h]
 \center
@@ -168,9 +168,9 @@ The motion of the magnetization vector $\vec{M}(t,\vec{r})$ precessing in a stat
 \subsubsection{The Hahn Echo Sequence}
 The Hahn Echo sequence consists of two pulses, the $\pi/2$ pulse and the $\pi$ pulse, separated in time by $\tau$: $\pi/2 - \tau - \pi - \tau - echo$. Initially, the macroscopic magnetization of the spin system is aligned along $\vec{B_0}$: $\vec{M}_0=M_Z~\vec{e_Z}$. The $\pi/2$ microwave pulse has such length $t_{\pi/2}$ and amplitude $B_1$ that, during the pulse, $\vec{M}$ nutates to the $xy$ plane, where it keeps precessing about $\vec{e_Z}$ after the end of the pulse. The difference in local environments for each individual spins in the spin packet, as well as the interactions between the spins, that make up $\vec{M}$, leads to slightly different precession frequencies $\omega_L^i$ of the spins. After some time $\tau$, the difference in the precession frequencies translates into the differences in phases so that the vector sum of the excited spins averages down to $\vec{0}$ for sufficiently long $\tau$. In other words, the excited spin packet dephases with time. The dephasing due to different local spin environments can be reversible if the deviations of the precession frequencies do not depend on time, as is the case for separated electrons in an inhomogeneous solid. In such case, a $\pi$ pulse can be applied to the spin system to flip every single spin in the dephased spin packet by 180$\deg$ in a plane containing $\vec{e}_Z$, so that the spins keep precessing in the $xy$ plane, but the direction of precession is inverted for them, leading to the effect that is opposite to the initial dephasing. So a $\tau$ after the $\pi$ pulse excites the spin packet, the accumulated phase differences become the smallest and the packet recovers its macroscopic magnetization $\vec{M}$ that oscillates in the $xy$ plane with $\langle\omega_L^i\rangle$ and can be detected. The recovered $\vec{M}$ at $t=\tau$ after the $\pi$ pulse is called the refocused spin echo. The difference in $\omega_L^i$ leads to a further dephasing of the considered spin packet and to the vanishing of $\vec{M}$.\\
 \subsubsection{Spin Echo Decay and Phase Memory Time}
-
+$T_2$
 
 \subsubsection{Inversion Recovery and Spin-Lattice Relaxation Time}
-
+$T_1$
 
 

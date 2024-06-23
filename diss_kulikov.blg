@@ -11,6 +11,7 @@ A level-1 auxiliary file: outlook/outlook.aux
 The style file: plain.bst
 A level-1 auxiliary file: appendix/A-EMRE.aux
 A level-1 auxiliary file: appendix/B-DFT.aux
+A level-1 auxiliary file: appendix/C-Samples.aux
 Database file #1: Bibliography.bib
 Warning--entry type for "Eastman1970" isn't style-file defined
 --line 44 of file Bibliography.bib
@@ -83,7 +84,7 @@ Warning--empty publisher in Chatgilialoglu2012
 Warning--empty booktitle in nishide_2009
 You've used 134 entries,
             2118 wiz_defined-function locations,
-            1364 strings with 31560 characters,
+            1365 strings with 31582 characters,
 and the built_in function-call counts, 49371 in all, are:
 = -- 4487
 > -- 3253

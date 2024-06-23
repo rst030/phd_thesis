@@ -7,18 +7,18 @@
 \contentsline {section}{\numberline {1.4}Thesis Structure}{12}{}%
 \contentsline {chapter}{\numberline {2}Fundamentals of EPR}{13}{}%
 \contentsline {section}{\numberline {2.1}The Spin Hamiltonian}{13}{}%
-\contentsline {subsection}{\numberline {2.1.1}Continuous-Wave Electron Paramagnetic Resonance}{16}{}%
-\contentsline {paragraph}{cwEPR spectrometer}{17}{}%
+\contentsline {section}{\numberline {2.2}Continuous-Wave Electron Paramagnetic Resonance}{16}{}%
+\contentsline {subsection}{\numberline {2.2.1}cwEPR spectrometer}{17}{}%
 \contentsline {paragraph}{Line Broadening}{19}{}%
-\contentsline {section}{\numberline {2.2}Fundamentals of Pulsed EPR Spectroscopy }{20}{}%
-\contentsline {subsection}{\numberline {2.2.1}Coherent Spin Motion under Pulsed Microwave Field}{20}{}%
-\contentsline {subsection}{\numberline {2.2.2}Bloch Equations}{20}{}%
-\contentsline {subsection}{\numberline {2.2.3}Refocused Spin Echo}{20}{}%
-\contentsline {subsection}{\numberline {2.2.4}Spin Relaxation Times}{20}{}%
-\contentsline {subsection}{\numberline {2.2.5}Spin Packets}{20}{}%
-\contentsline {section}{\numberline {2.3}Pulsed EPR Instrumentation}{20}{}%
-\contentsline {subsection}{\numberline {2.3.1}Pulse Sequences and Measurement Techniques}{20}{}%
-\contentsline {subsubsection}{The Hahn Echo Sequence}{20}{}%
+\contentsline {section}{\numberline {2.3}Fundamentals of Pulsed EPR Spectroscopy }{20}{}%
+\contentsline {section}{\numberline {2.4}Pulsed EPR Spectroscopy}{20}{}%
+\contentsline {subsection}{\numberline {2.4.1}Bloch Equations}{20}{}%
+\contentsline {subsection}{\numberline {2.4.2}Refocused Spin Echo}{21}{}%
+\contentsline {subsection}{\numberline {2.4.3}Spin Relaxation Times}{21}{}%
+\contentsline {subsection}{\numberline {2.4.4}Spin Packets}{21}{}%
+\contentsline {subsection}{\numberline {2.4.5}Pulsed EPR Instrumentation}{21}{}%
+\contentsline {subsection}{\numberline {2.4.6}Pulse Sequences and Measurement Techniques}{21}{}%
+\contentsline {subsubsection}{The Hahn Echo Sequence}{21}{}%
 \contentsline {subsubsection}{Spin Echo Decay and Phase Memory Time}{22}{}%
 \contentsline {subsubsection}{Inversion Recovery and Spin-Lattice Relaxation Time}{22}{}%
 \contentsline {chapter}{\numberline {3}Materials and Devices}{23}{}%
@@ -27,32 +27,31 @@
 \contentsline {subsection}{\numberline {3.1.2}Three-Electrode Cell}{24}{}%
 \contentsline {subsection}{\numberline {3.1.3}Reference Electrode}{25}{}%
 \contentsline {subsection}{\numberline {3.1.4}Electrolyte}{25}{}%
-\contentsline {subsection}{\numberline {3.1.5}Characteristics of Rechargeable Batteries}{25}{}%
-\contentsline {paragraph}{Energy and power density, C-rate and State Of Charge}{25}{}%
-\contentsline {paragraph}{State Of Health}{26}{}%
-\contentsline {section}{\numberline {3.2}Electrochemical Instrumentation}{27}{}%
-\contentsline {subsection}{\numberline {3.2.1}Cyclic Voltammogram}{27}{}%
-\contentsline {subsection}{\numberline {3.2.2}Charge-Discharge Cycling}{28}{}%
-\contentsline {section}{\numberline {3.3}Electrolytes}{30}{}%
-\contentsline {subsubsection}{Liquid Electrolyte}{30}{}%
-\contentsline {subsubsection}{Polymer-based Gel Electrolyte}{31}{}%
-\contentsline {section}{\numberline {3.4}Organic Electrode Materials}{31}{}%
-\contentsline {subsection}{\numberline {3.4.1}Semiconducting Polymers}{31}{}%
-\contentsline {subsection}{\numberline {3.4.2}TEMPO}{33}{}%
-\contentsline {subsection}{\numberline {3.4.3}PTMA}{35}{}%
-\contentsline {subsection}{\numberline {3.4.4}NiSalen}{35}{}%
-\contentsline {subsection}{\numberline {3.4.5}Poly-Di-TEMPO-Salens}{36}{}%
-\contentsline {subsection}{\numberline {3.4.6}Electro-polymerization of TEMPO-Salens}{36}{}%
-\contentsline {section}{\numberline {3.5}Ex Situ Electrochemistry}{39}{}%
-\contentsline {subsection}{\numberline {3.5.1}TEMPO-Salen Films for EPR Spectroscopic Measurements}{41}{}%
-\contentsline {section}{\numberline {3.6}Electrochemical Cells for EPR spectroscopy}{41}{}%
-\contentsline {subsection}{\numberline {3.6.1}Cells Based on a Modified EPR Sample Tube}{42}{}%
-\contentsline {subsection}{\numberline {3.6.2}Fabrication of the modified tube}{43}{}%
-\contentsline {subsection}{\numberline {3.6.3}Q-factors and cwEPR spectra for p-DiTS in standard and modified tube}{44}{}%
-\contentsline {subsection}{\numberline {3.6.4}Reference Electrode}{45}{}%
-\contentsline {subsection}{\numberline {3.6.5}Electrochemical Cells with a Separator}{46}{}%
-\contentsline {subsection}{\numberline {3.6.6}Electrochemical Cells with Solid Electrolyte}{46}{}%
-\contentsline {subsection}{\numberline {3.6.7}Energy Diagram of an Electrochemical Half-Cell}{46}{}%
+\contentsline {subsubsection}{Liquid Electrolyte}{25}{}%
+\contentsline {subsubsection}{Polymer-based Gel Electrolyte}{26}{}%
+\contentsline {subsection}{\numberline {3.1.5}Characteristics of Rechargeable Batteries}{26}{}%
+\contentsline {paragraph}{Energy and power density, C-rate and State Of Charge}{26}{}%
+\contentsline {paragraph}{State Of Health}{27}{}%
+\contentsline {section}{\numberline {3.2}Electrochemical Instrumentation}{28}{}%
+\contentsline {subsection}{\numberline {3.2.1}Cyclic Voltammogram}{28}{}%
+\contentsline {subsection}{\numberline {3.2.2}Charge-Discharge Cycling}{29}{}%
+\contentsline {section}{\numberline {3.3}Organic Electrode Materials}{31}{}%
+\contentsline {subsection}{\numberline {3.3.1}Semiconducting Polymers}{31}{}%
+\contentsline {subsection}{\numberline {3.3.2}TEMPO}{33}{}%
+\contentsline {subsection}{\numberline {3.3.3}PTMA}{35}{}%
+\contentsline {subsection}{\numberline {3.3.4}NiSalen}{35}{}%
+\contentsline {subsection}{\numberline {3.3.5}Poly-Di-TEMPO-Salens}{35}{}%
+\contentsline {subsection}{\numberline {3.3.6}Electro-polymerization of TEMPO-Salens}{37}{}%
+\contentsline {section}{\numberline {3.4}Ex Situ Electrochemistry}{38}{}%
+\contentsline {subsection}{\numberline {3.4.1}TEMPO-Salen Films for EPR Spectroscopic Measurements}{41}{}%
+\contentsline {section}{\numberline {3.5}Electrochemical Cells for EPR spectroscopy}{41}{}%
+\contentsline {subsection}{\numberline {3.5.1}Cells Based on a Modified EPR Sample Tube}{42}{}%
+\contentsline {subsection}{\numberline {3.5.2}Fabrication of the modified tube}{43}{}%
+\contentsline {subsection}{\numberline {3.5.3}Q-factors and cwEPR spectra for p-DiTS in standard and modified tube}{44}{}%
+\contentsline {subsection}{\numberline {3.5.4}Reference Electrode}{45}{}%
+\contentsline {subsection}{\numberline {3.5.5}Electrochemical Cells with a Separator}{46}{}%
+\contentsline {subsection}{\numberline {3.5.6}Electrochemical Cells with Solid Electrolyte}{46}{}%
+\contentsline {subsection}{\numberline {3.5.7}Energy Diagram of an Electrochemical Half-Cell}{46}{}%
 \contentsline {chapter}{\numberline {4}EPR Spectroscopy of TEMPO-Salen Electrochemical Cells}{53}{}%
 \contentsline {section}{\numberline {4.1}cwEPR Spectroscopy of TEMPO Containing Molecular Fragments}{53}{}%
 \contentsline {subsection}{\numberline {4.1.1}Room Temperature Spectra of TEMPO$^{\bullet }$ Solutions}{54}{}%
@@ -98,3 +97,6 @@
 \contentsline {subsection}{\numberline {5.4.2}Detection of Domains with Poor Conductivity}{111}{}%
 \contentsline {subsection}{\numberline {5.4.3}Towards Electron Resonance Imaging of Spin Concentrations in Battery Electrodes}{111}{}%
 \contentsline {chapter}{\numberline {6}Conclusions and Outlook}{113}{}%
+\contentsline {paragraph}{EES}{113}{}%
+\contentsline {paragraph}{JMRO}{114}{}%
+\contentsline {paragraph}{ME}{115}{}%
