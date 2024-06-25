@@ -1,7 +1,140 @@
-\chapter{Results and Discussion}
-\label{ch:results}
+\chapter{Electron Spin Echo and Relaxometry in TEMPO-Salen Cathode Films}
+\label{ch:JMRO}
 
-\
+%\epigraph{\itshape On a horse, on a horse, I go soar,\\
+%loud and fierce, I am roaring my song.\\
+%Yet no echo back, no feedback intact,\\
+%In the hush only smiling a soul.}{---Tujh Ktnjd, \textit{Rnj-nj Lheujq}}
+%\par
+
+This chapter details the observation of the electron spin echo in a nitroxide-containing pDiTBuS cathode film. The spin echo is observed at cryogenic temperatures, for various \ik{states of charge} of the cathode film. The EPR-detected state of charge (ESOC), as inferred from the number of paramagnetic centres in the film, is compared to the results of Coulomb counting based on galvanostatic charging. Spin concentration, longitudinal relaxation times $T_1$ and phase memory times $T_m$ strongly correlate with the ESOC. \ik{In the discharged film,} \q{the} spin concentration reaches $\left(5\pm3\right)\times10^{20}$~cm$^{-3}$\ik{, causing a phase memory time} $T_m\ll$100~ns (shorter than the resonator ring-down time) \ik{that hinders} the detection of the spin echo. \ik{In the charged film}, the decreased spin concentration \ik{results in a longer} \q{$T_m$ between 100~ns and 300~ns} \ik{that} enables spin-echo detection, \ik{yet} limits the length of the microwave pulse sequence. The \ik{short, broad-band} pulses \ik{cause instantaneous diffusion in the unoxidized domains across} the oxidized film, affecting the relative peak intensities \ik{in} the \ik{pulsed EPR} spectrum. By simulating the \ik{spectral distortion caused by} instantaneous diffusion, \ik{we obtain information on the} local spin concentration\q{,} which complements the information on the 'bulk' spin concentration determined by \ik{electrochemistry} and continuous-wave EPR spectroscopy.\\
+
+\par
+At \ik{low SoC}, \rs{the concentration of paramagnetic centres is high, the spin relaxation time is short and the spin echo cannot be detected}. For higher \ik{SoC}, the spin echo is detectable, \ik{yet} the echo-detected field sweep (EDFS) spectrum sho\rs{w}s relative peak intensities unusual for a nitroxide radical, as it is affected by \rs{instantaneous diffusion caused by strong interspin interactions.} These results pave the way for studying the local molecular environment of electrochemically inactive sites in organic energy-storage materials using advanced \rs{p}EPR techniques.
+
+\section{Experimental Conditions}
+A pDiTBuS film was prepared and brought to a defined SoC as described in Section~\ref{fab:ex_situ_charging}. EPR measurements for each SoC were performed at X-band (9.6~GHz) using a Bruker Elexsys E~580 spectrometer equipped with a 1~kW TWT microwave amplifier and an ER~4118 X-MD5 dielectric ring resonator cooled with a controlled flow of liquid He. EPR spectra were recorded at 80~K using a 200~mW cw microwave source at various attenuations and 0.5~mT modulation of the magnetic field at 100~kHz. Pulse\ik{d} EPR was measured at 80~K and at 5~K using a 2-pulse sequence ($\pi/2-\tau-\pi-\tau-echo$) with a 20~ns long $\pi/2$ pulse and 11~dB high power attenuation. Quantitative cwEPR measurements for determining ESOC 0\% were carried out at 80~K. Further experimental details are given in the ESI, Section~\ref{Experimental_Section}.
+
+\begin{figure}[ht]
+\center
+	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_2.pdf}
+	\caption{a): cwEPR spectra for reduced (fully discharged, ESOC~0$\%$, dashed black) and oxidized (charged, ESOC~95$\%$, solid red) pDiTBuS cathode film at 80K. \ik{Inset: zoomed\rs{-}in cwEPR spectrum for ESOC~95$\%$.} b): EDFS spectra for the respective ESOC.}
+	\label{fig:Figure_2}
+\end{figure}
+
+
+\section{CWEPR vs. \q{p}EPR Signals in pDiTBuS}
+\label{subs:cw_vs_pulse}
+\ik{A} pDiTBuS film exhibits different cw and pulse\ik{d} EPR signals depending on the ESOC. Figure~\ref{fig:Figure_2}a shows cwEPR spectr\ik{a} of a pDiTBuS film in the charged (ESOC~95\%) and in the discharged (ESOC~0\%) states, measured at 80K. The \ik{quantitative analysis of the} cwEPR spectra reveal\ik{s} \w{t}hat the total number of spins and the average spin concentration in the film is decreasing from 5.3$\times$10$^{20}$~cm$^{-3}$ (880~\si{\milli\Molar} ) at ESOC~0\% \ik{down to} 3.0$\times$10$^{19}$~cm$^{-3}$ (50~\si{\milli\Molar} ), as listed in Table~\ref{tab:Table1} and ESI, Section~\ref{si:ESOC}. The \ik{intermediate} cwEPR spectra are shown in the ESI, Section~\ref{si:cwepr_dtbs}. For the discharged state (ESOC~0\%), due to the very high spin concentration, dipolar and exchange interactions broaden the cw line and average out the hyperfine components leaving only a \rs{Lorentzian} central line at $g=2.007$ with a peak-to-peak width of 1.4~mT (black-dashed in Figure~\ref{fig:Figure_2}a). \ik{While for high SoC, the number of charges injected into the film (Table~\ref{tab:Table1}, ``charges injected'') is comparable to the number of spins detected with cwEPR (``spins detected''), there are only 22\% of the injected charges that are detectable with cwEPR for low SoC. The discharge curve for low SoC ends after the plateau associated with the charging of TEMPO and implies the charging of the backbone (cf. Figure~\ref{fig:Figure_1}, Figure~\ref{fig:Figure_S27} \rs{in the ESI}). The fact that 78\% of charges for SoC~0\% are not detectable by EPR suggests that most of the charges injected into the film at low SoC~0\% couple into a diamagnetic ($S=0$) EPR-silent state \rs{on the polymer backbone}. The contribution of the backbone to the electrochemical capacity of pDiTBuS is less than 30\%, so the diamagnetic states are formed both in the backbone and\q{, possibly, also} between neighboring TEMPO groups.} \rs{We note that the significant discrepancy between $n_C$ and $\langle n\rangle$ for 0~\% SoC was not observed in a previous study on a similar material (pDiTS)~\cite{Kulikov2022}. As the pDiTBuS film studied here was much thicker than the pDiTS film used in Ref.~\cite{Kulikov2022}, we speculate that the film thickness has an influence on the formation of diamagnetic species and thus the difference between the number of charges determined by Coulomb counting and the number of paramagnetic centers extracted from quantitative EPR.}
+
+
+%At SoC~0\% the concentration of charge carriers in the film is $n_C=(0.2\pm0.1)\times10^{22}$~cm$^{-3}$ (see Table~\ref{tab:Table1}) which corresponds to the average inter-spin distance of $d=0.8$~nm, at which the dipolar coupling between the spins might be sufficiently strong, which is seen in the broadening~\cite{Vleck1948} of the cwEPR line in Figure~\ref{fig:Figure_2}a and, indirectly, in the absence of the spin echo for SoC(ESOC)~0\% (black-dashed line in Figure~\ref{fig:Figure_2}b).}
+
+In contrast to the discharged film, the spectrum for the highly charged film (ESOC~95\%, red-solid line in Figure~\ref{fig:Figure_2}a) has a much lower cwEPR intensity that corresponds to a much lower number of spins (see Table~\ref{tab:Table1}, ``spins detected''). With the decreased spin concentration at ESOC~95\%\rs{,} the exchange and dipolar \ik{interactions} in the film become weaker and the hyperfine structure becomes resolved, leaving a typical signature of an isolated, immobilized nitroxide radical~\cite{Bordignon2017} that is also shown in the inset of Figure~\ref{fig:Figure_2}a. Spectral simulations with the extracted hyperfine and  $g$ values are given in the ESI, Section~\ref{esi:cw_sims}. The EDFS signal for ESOC~95\% is well detectable (Figure~\ref{fig:Figure_2}b) and shows three peaks at the expected field positions for a nitroxide radical, albeit with a reduced intensity of the central peak as compared to a usual nitroxide spectrum\cite{Bordignon2017} and to a 0.1~\si{\milli\Molar} solution of non-interacting TEMPOL (4-hydroxy-2,2,6,6-tetramethylpiperidin-1-oxyl, Figure~\ref{fig:Figure_3}b, dotted-black).
+
+We now discuss the apparent suppression of the signal intensity for the central hyperfine component in the \q{p}EPR spectrum at 95\% ESOC. This effect was previously observed in a similar, fully charged poly-di-TEMPO-Salen film and was attributed to isolated, electrochemically inactive domains~\cite{Kulikov2022} of paramagnetic nitroxide radicals. Therefore, the local spin concentration in the oxidized pDiTBuS film may be much higher than the average value (determined by quantitative cwEPR), which can induce instantaneous diffusion\cite{Salikhov1981,Toropov1998,Schweiger2001}, as it was observed in highly concentrated solutions of SO$_4^{-}$ radicals~\cite{Salikhov1981}, in concentrated nitroxide spin labels~\cite{Toropov1998} and in the PTMA/carbon mixture~\cite{Daniel2023}. Instantaneous diffusion causes an additional anisotropic relaxation mechanism that distorts the relative spectral intensities in the echo-detected EPR spectra when short, broad-band microwave pulses are used to excite a densely packed spin system~\cite{Salikhov1981}. Instantaneous diffusion in a densely packed nitroxide system leads to the suppression of the central peak in the EDFS spectrum, as it was predicted~\cite{Salikhov1981} and observed~\cite{Toropov1998,Daniel2023}. \ik{Taking} into account the similarity between the spectrum shown in Figure~\ref{fig:Figure_2}b and the spectra presented in \q{Ref.}~\cite{Daniel2023}, we attribute the peculiar spectral shape observed for pDiTBuS to instantaneous diffusion.
+
+
+\begin{figure}[ht]
+\center
+	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_3.pdf}
+	\caption{a): cwEPR spectra for pDiTBuS charged to 95\% and 85\%, and for a frozen 0.1~\si{\milli\Molar}  solution of TEMPOL. Normalized intensities. Temperature 80~K. b): Corresponding \rs{pEPR} spectra measured at 5~K. Intensities scaled by the $m_I=0$ central peak.}
+	\label{fig:Figure_3}
+\end{figure}
+
+
+While the spin echo is \ik{clearly} detectable \ik{for} the charged states, it cannot be detected in the discharged state. For the discharged state, the strong interspin coupling is causing a fast spin relaxation and a quick echo decay. The dead time of the spectrometer is \ik{$t_d=$}120~ns (Bruker Elexsys E~580 with overcoupled ER~4118 X-MD5 dielectric ring resonator, Q$\approx$300), so the detection of the spin echo is challenging in \ik{densely packed spin} systems with \ik{$T_m \leq t_d$}. The EDFS signals for pDiTBuS at ESOC~$\leq49$\% were indistinguishable from the resonator background even after an overnight scan at 5~K.%(see ESI, Figure\ref{fig:Figure_S3}, 3b).\\
+
+We now describe the influence of the ESOC on the \q{p}EPR spectra. The EDFS spectra of the charged film at ESOC~85\% and ESOC~95\% are shown in Figure~\ref{fig:Figure_3}b. The spectra were recorded at 5~K to increase the signal intensity. The length of the $\pi/2$ pulse was 20~ns. The EDFS spectrum of a 0.1~\si{\milli\Molar}  solution of TEMPOL is shown in Figure~\ref{fig:Figure_3}b (dotted-black) for comparison.
+
+The EDFS spectrum for 85\%~ESOC (dashed-green in Figure~\ref{fig:Figure_3}b) has a suppressed central peak when compared to \ik{a \rs{dilute} solution of} TEMPOL. The EDFS spectrum for 95\% ESOC (solid-red in Figure~\ref{fig:Figure_3}b) is closer to the TEMPOL spectrum than ESOC~85, but has an increased intensity of the low-field peak. At the same time, the cw\ik{EPR spectral shapes} are similar for ESOC~85\%, ESOC~95\% and \ik{TEMPOL}, measured with similar parameters (Figure~\ref{fig:Figure_3}a). The integrated cwEPR spectra \ik{have similar peak ratios} (Figure~\ref{fig:Figure_S5} \rs{in the ESI).} \q{W}hile the cwEPR spectra \ik{for pDiTBuS at high ESOC} show \ik{a typical signature of isolated nitroxide\rs{s}} (Figure~\ref{fig:Figure_3}a), the \ik{corresponding} \rs{pEPR} spectra \rs{deviate from the nitroxide spectrum and strongly depend on the ESOC.}
+
+
+
+
+
+
+
+
+
+
+\section{Pulsed EPR Spectra of TEMPOL solutions}
+In a glassy, frozen solution of TEMPOL, the distance between the TEMPO radicals is controlled by the concentration of the solution. With the increasing concentration, the relaxation times shorten significantly, as the distance between the radicals decreases, which intensifies the inter-spin interactions and leads to a faster in-plane dephasing of the excited spins. 
+
+\section{Pulsed EPR Spectroscopy of a charged pDiTBuS Cathode film}
+
+While it is highly desirable to perform in-situ cwEPR experiments on electrochemical cells and fully processed batteries under ambient conditions at room temperature, most pulse EPR measurements performed on battery-relevant materials require low temperatures, primarily to increase spin-relaxation times. The necessity for low-temperature measurements already precludes the use of conventional flat cells in combination with cylindrical resonators.\cite{wadhawan2007_encofelectrochem, toybenshlak2019_isrjchem}
+
+\par
+Recently, successful pEPR measurements performed on batteries based on inorganic, lithium-containing electrode materials in an X-band dielectric ring resonator were reported,\cite{szczuka2021_commmat} clearly showing that pEPR experiments are indeed feasible and can provide insights into the kinetics of processes occurring on the electrodes upon fast charging. However, the cell geometry used in Ref.~\cite{szczuka2021_commmat}  only allows for room-temperature measurements. We believe that the possibility of performing low-temperature pEPR measurements is the key to a widespread use of pEPR techniques for polymer battery research, providing access to the full arsenal of advanced echo-detected pEPR experiments. Our versatile on-substrate electrode setup (see Section \ref{electrode_setup}) readily allows for low-temperature pEPR experiments.
+
+\par
+As a first step, we sought to perform pEPR measurements on an oxidized p-DiTS film in order to detect electrochemically inactive nitroxide radicals. For this purpose, a p-DiTS cell was brought into its fully charged state at 900~mV vs.\ Ag/AgNO\textsubscript{3} and kept at this potential while the electrolyte was removed and the sample was thoroughly dried. The substrate was subsequently flame-sealed in a helium-filled quartz tube. The cwEPR spectrum measured at $T = 80~\textrm{K}$ (Fig.~\ref{fig:Figure_8}a) is indicative of immobilized, isolated nitroxides\cite{bordignon2017_emagres} and clearly deviates from the broad and unstructured single-line spectrum observed for a reduced p-DiTS film at room temperature (Fig.~\ref{fig:Figure_4}c) and at $T = 150~\textrm{K}$ (Fig.~\ref{fig:Figure_7}a). This confirms that the charge state of the of the p-DiTS film is indeed preserved in the electrically disconnected sample without electrolyte.
+%
+\begin{figure*}[ht!]
+	\centering
+		\includegraphics[width=1\textwidth]{./pulse/figures/SAW_Figure_8.pdf}
+	\caption{a): Pulse EPR echo-detected field-sweep spectrum (solid line) and cwEPR spectrum (dashed line) of a $\approx$500~nm thick p-DiTS film charged to +900~mV vs.\ Ag/AgNO\textsubscript{3} measured at $T = 80~\textrm{K}$ ($\nu = 9.6$~GHz). b): Results of echo-decay measurements performed at the peak positions indicated by the dotted vertical lines in a) along with single exponential fits to determine the spin-spin relaxation times $T_2$.}
+	\label{fig:Figure_8}
+\end{figure*}
+%
+\par
+Next, we performed low-temperature pEPR measurements using the standard Hahn Echo sequence ($\frac{\pi}{2} - \tau - \pi - \tau - \textrm{echo}$). The resulting echo-detected field-sweep spectrum is shown in Fig.~\ref{fig:Figure_8}a along with the cwEPR spectrum measured under identical conditions. Based on the overall shape and width of the spectrum, which is given by $2A\textsubscript{zz}$ with $A\textsubscript{zz}$ being the $z$ component of the hyperfine tensor, we can unambiguously attribute the resonant signal to immobilized nitroxides. However, the pEPR spectrum differs from the usual TEMPO powder spectrum. Most notably, the relative intensity of the central ($m_I=0$) peak is significantly lower than expected. Echo-decay measurements reveal that the spin-spin relaxation times $T_2$ (Fig.~\ref{fig:Figure_8}b) are comparable for all three $m_I$ components, suggesting that anisotropic relaxation is not the main reason for the reduced intensity of the central peak. On the other hand, $T_2$ is at least one order of magnitude shorter than for isolated nitroxides, indicating that spin-spin coupling significantly influences $T_2$ for the paramagnetic centers in the oxidized p-DiTS film.
+
+\par
+Further measurements will help identifying the main factors responsible for the peculiar shape of the pEPR spectrum, among them possible partial ordering of the TEMPO groups in the p-DiTS film, (restricted) motion of the nitroxides even at low temperatures and/or the existence of redox-inactive sites in different microscopic environments associated with dissimilar relaxation properties. 
+%
+\par
+The pEPR spectrum in Fig.~\ref{fig:Figure_8}a is likely a result of the same electrochemically inactive dilute spins observed in the ex-situ p-DiTS redox series (Fig.~\ref{fig:Figure_7}). Potential dependent SEC pEPR measurements are ongoing to confirm this hypothesis, and ELDOR and hyperfine spectroscopy could lead to critical information about the local environment which causes these spins to be electrochemically inactive. These advanced pEPR methods could further give insight into degradation mechanisms in p-DiTS and other ORB materials. Realization of SEC pEPR, particularly on film electrodes, makes these techniques available for other research field such as the study of hydrogenases and enzymes or metal catalysis.
+
+
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_3_INTS.pdf}
+	\caption{a): cwEPR spectra for pDiTBuS charged to 95\% and 85\%, and for a frozen 0.1~\si{\milli\Molar}  solution of TEMPOL. Normalized intensities. Temperature 80~K. b): Corresponding \rs{pEPR} spectra measured at 5~K. Intensities scaled by the $m_I=0$ central peak. c): Integrated cwEPR intensities show similar spectral shapes. Temperature: 80~K, microwave frequency: 9.6~GHz, field modulation: 5~G at 100~kHz. ER~4118 X-MD5 dielectric ring resonator.}
+	\label{fig:FSE_vs_CW_vs_INTS_DiTBuS}
+\end{figure}
+
+
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./pulse/figures/Figure_6_maintext_col_MOD.pdf}
+	\caption{X}
+	\label{fig:FSE_reconstruction_with_T2}
+\end{figure}
+
+
+
+\subsection{Field Swept Echo of a charged pDiTBuS Cathode film}
+
+
+\subsection{Instantaneous Diffusion in Charged pDiTBuS}
+\label{S:ID}
+
+We have seen that \rs{the} ESOC has a strong influence on the shape of the EDFS spectra. Furthermore, the EDFS spectra of pDiTBuS are quite different from the reference spectrum of TEMPOL in a \rs{dilute} frozen solution.\\
+
+
+In Section /// it is shown that in a densely packed radical system, as in a TEMPO-Salen cathode film, the phase memory time can be shorter than $T_m\leq100$~ns. That is, the spin echo is decaying by $e\approx3$ times at $t=100$~ns. The short phase memory time limits the duration of the pulse sequence at which the echo is detectable. For a $\pi/2-\tau-\pi-\tau-echo$ sequence, with a hardware limitation on $\tau\geq t_d\approx100$~ns, the shortest realizable pulse sequence becomes longer than $t>200$~ns. By this time, the spin echo decreases by $e^2\approx7$ times and may be comparable to noise. The limitations imposed by the finite $T_m$ and $t_d$ force one to use shorter microwave pulses. 
+\par
+A short microwave pulse may have a spectral width comparable to the width of the observed spectrum. According to the Fourier theorem, the spectral width of a pulse is inversely proportional to the pulse length: $\Delta\omega\sim 1/t_p$. A spectrum of a 100~ns long rectangular pulse shown in Figure /// is ///MHz wide (FWHM). 
+
+\begin{figure}[h]
+\center
+	\includegraphics[width=1\textwidth]{./pulse/figures/FGMR/ID/ID_vs_ISO.pdf}
+	\caption{Distortions of a nitroxide FSE spectrum caused by isotropic spin relaxation (left) and instantaneous diffusion (right).}
+	\label{fig:iso_vs_id}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
 \section{Instantaneous Diffusion in pDiTS}
 High spin concentration in a pDiTBuS \rs{electrode suggests strong inter-spin dipolar couplings which cause instantaneous diffusion when probed with short (broad-band) microwave pulses~\cite{Toropov1998}, as it was observed in a PTMA/carbon mixture~\cite{Daniel2023}. Instantaneous diffusion caused by a broad-band microwave pulse shown in Figure~\ref{fig:Figure_4}, dashed-red, manifests itself in an additional field-dependent spin relaxation} \ik{factor} $V(B_0)$, \ik{that alters the relative peak intensities in the \ik{echo-detected} spectrum. For spins uniformly distributed in space, $V(B_0)$} is described~\cite{Toropov1998} by Equation~\ref{eq:inst_diff}:
 

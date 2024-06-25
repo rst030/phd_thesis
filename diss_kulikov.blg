@@ -1,7 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: diss_kulikov.aux
-A level-1 auxiliary file: summary/list_of_abbreviations.aux
 A level-1 auxiliary file: introduction/introduction.aux
 A level-1 auxiliary file: epr_basics/epr_basics.aux
 A level-1 auxiliary file: materials/materials.aux
@@ -12,6 +11,7 @@ The style file: plain.bst
 A level-1 auxiliary file: appendix/A-EMRE.aux
 A level-1 auxiliary file: appendix/B-DFT.aux
 A level-1 auxiliary file: appendix/C-Samples.aux
+A level-1 auxiliary file: appendix/D-Experimental.aux
 Database file #1: Bibliography.bib
 Warning--entry type for "Eastman1970" isn't style-file defined
 --line 44 of file Bibliography.bib
@@ -66,6 +66,7 @@ I'm skipping whatever remains of this entry
 Warning--entry type for "Casado2021" isn't style-file defined
 --line 2050 of file Bibliography.bib
 Warning--I didn't find a database entry for "Novozhilova_2009Vereshchagin2020"
+Warning--I didn't find a database entry for "vereshchagin2020_battandsupercaps"
 Warning--I didn't find a database entry for "wadhawan2007_encofelectrochem"
 Warning--I didn't find a database entry for "Safari2011"
 Warning--I didn't find a database entry for "Golovisnina2023"
@@ -77,50 +78,59 @@ Warning--I didn't find a database entry for "Anderson1953"
 Warning--I didn't find a database entry for "spin_counting_tb"
 Warning--I didn't find a database entry for "SI:Matlab"
 Warning--I didn't find a database entry for "Kulikov2022_SI"
-Warning--I didn't find a database entry for "vereshchagin2020_battandsupercaps"
 Warning--I didn't find a database entry for "si_vereshchagin2020_battandsupercaps"
+Warning--I didn't find a database entry for "toybenshlak2019_isrjchem"
+Warning--I didn't find a database entry for "szczuka2021_commmat"
+Warning--I didn't find a database entry for "bordignon2017_emagres"
+Warning--I didn't find a database entry for "muench2021_jps"
+Warning--I didn't find a database entry for "mccamey2006_apl"
+Warning--I didn't find a database entry for "sathiya2015_natcomm"
+Warning--I didn't find a database entry for "dutoit2021_natcomm"
+Warning--I didn't find a database entry for "geng2021_chemofmat"
+Warning--I didn't find a database entry for "ilott2016_pnas"
+Warning--I didn't find a database entry for "si_Wittmann2018_JMagnReson"
 Warning--can't use both author and editor fields in Casado_2021_book
 Warning--empty publisher in Chatgilialoglu2012
 Warning--empty booktitle in nishide_2009
-You've used 134 entries,
+You've used 145 entries,
             2118 wiz_defined-function locations,
-            1365 strings with 31582 characters,
-and the built_in function-call counts, 49371 in all, are:
-= -- 4487
-> -- 3253
+            1441 strings with 34322 characters,
+and the built_in function-call counts, 53963 in all, are:
+= -- 4907
+> -- 3576
 < -- 5
-+ -- 1302
-- -- 1150
-* -- 3942
-:= -- 8599
-add.period$ -- 380
-call.type$ -- 134
-change.case$ -- 971
++ -- 1432
+- -- 1266
+* -- 4341
+:= -- 9405
+add.period$ -- 413
+call.type$ -- 145
+change.case$ -- 1062
 chr.to.int$ -- 0
-cite$ -- 137
-duplicate$ -- 1411
-empty$ -- 3313
-format.name$ -- 1150
-if$ -- 9898
+cite$ -- 148
+duplicate$ -- 1532
+empty$ -- 3595
+format.name$ -- 1266
+if$ -- 10807
 int.to.chr$ -- 0
-int.to.str$ -- 134
-missing$ -- 122
-newline$ -- 651
-num.names$ -- 268
-pop$ -- 926
+int.to.str$ -- 145
+missing$ -- 133
+newline$ -- 706
+num.names$ -- 290
+pop$ -- 995
 preamble$ -- 1
-purify$ -- 843
+purify$ -- 923
 quote$ -- 0
-skip$ -- 1010
+skip$ -- 1089
 stack$ -- 0
-substring$ -- 2696
-swap$ -- 158
+substring$ -- 2973
+swap$ -- 169
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 516
+type$ -- 560
 warning$ -- 3
-while$ -- 365
-width$ -- 137
-write$ -- 1404
+while$ -- 398
+width$ -- 148
+write$ -- 1525
 (There were 2 error messages)

@@ -1,2 +1,14 @@
 \chapter*{Appendix A:\\Electron Magnetic Resonance Environment}
-A python-based interactive program EMRE (Electron Magnetic Resonance Environment) was developed to interconnect and control the EPR spectrometer and to simultaneously operate the electrochemical device under testing. The program allows one to perform electrochemical measurements such as cyclic voltammetry and galvanostatic charge-discharge cycling and to simultaneously record cwEPR spectra with customizable, lab-built and commercial EPR spectrometers. Most of the redox conductive films considered in this thesis were manufactured using EMRE. Some of the potential-dependent spectra and degradation studies were carried out using EMRE. The source code of the program and the documentation is available at the remote repository:\\ \texttt{https://github.com/rst030/EMRE}.\\
+A python-based interactive program EMRE (Electron Magnetic Resonance Environment) was developed to interconnect and control a cwEPR spectrometer and to simultaneously operate the electrochemical device under testing. The program allows one to control a potentiostat and perform electrochemical measurements such as cyclic voltammetry, potentiostatic and galvanostatic charge-discharge cycling, while recording cwEPR spectra with customizable, lab-built and commercial EPR spectrometers. The multi-threading architecture of EMRE allows for simultaneous visualization of data. Most of the redox conductive films considered in this thesis were manufactured using EMRE (Fig.~\ref{fig:Figure_1}). EMRE was used to control the SoC of the pDiTBUS films for the cryogenic pulsed EPR measurements (Fig.~\ref{fig:Figure_1},Fig.~\ref{fig:Figure_S27}). Some of the potential-dependent (Fig.~\ref{fig:cwEPR_RT_NiSalen_OPERANDO}) and degradation spectroelectrochemical series (Fig.~\ref{fig:operando_degradation_3_lines_release}) were carried out using EMRE installed on a lab-built X-band cwEPR spectrometer ``Lyra''.  EMRE was installed on a commercial table-top cwEPR spectrometer ``Magnettech'' for recording a series of cryogenic cwEPR measurements interlaced with charge-discharge cycling at room temperature.\\ 
+
+\par
+EMRE is free to redistribute and modify. The source code of the program and the documentation are available at the remote repository:\\ 
+
+\par
+\texttt{https://github.com/rst030/EMRE}\\
+ 
+\par
+The multiprocessing capability and the visualizing toolbox of EMRE was further developed in the framework of the open-source magnetic resonance imaging initiative at the Physikalisch-Technische Bundesanstalt:\\
+
+\par
+\texttt{https://github.com/rst030/cosi-measure/Software}

@@ -7,6 +7,20 @@ R.~V. Apraksin, Y.~A. Volosatova, A.~I. Volkov, P.~S. Vlasov, D.~A. Lukyanov,
   [ni(ch3osalen)] with immobilized poly(styrenesulfonate) anion dopants.
 \newblock {\em Electrochimica Acta}, 368:137637, 2021.
 
+\bibitem{arvind2020_jpcb}
+M~Arvind, C~Tait, M~Guerrini, J~Krumland, A~M Valencia, C~Cocchi, A~E Mansour,
+  N~Koch, S~Barlow, S~R Marder, J~Behrends, and D~Neher.
+\newblock Quantitative analysis of doping-induced polarons and charge-transfer
+  complexes of poly(3-hexylthiophene) in solution.
+\newblock {\em The Journal of Physical Chemistry B}, 124:7694--7708, 2020.
+
+\bibitem{Assumma2020}
+L.~Assumma, Y.~Kervella, J.~M. Mouesca, M.~Mendez, V.~Maurel, L.~Dubois,
+  T.~Gutel, and S.~Sadki.
+\newblock A new conducting copolymer bearing electro-active nitroxide groups as
+  organic electrode materials for batteries.
+\newblock {\em ChemSusChem}, 13:2419--2427, 2020.
+
 \bibitem{aydin2015_jsoistatelect}
 Muhammed Aydin and Burak Esat.
 \newblock A polythiophene derivative bearing two electroactive groups per
@@ -24,6 +38,13 @@ Allen~J. Bard, Larry~R. Faulkner, and Henry~S. White.
 \newblock {\em Electrochemical Methods. Funcamentals and Applications},
   volume~1.
 \newblock Wiley, 2 edition, 2022.
+
+\bibitem{Behrends2010}
+J.~Behrends, A.~Schnegg, K.~Lips, E.~A. Thomsen, A.~K. Pandey, I.~D.W. Samuel,
+  and D.~J. Keeble.
+\newblock Bipolaron formation in organic solar cells observed by pulsed
+  electrically detected magnetic resonance.
+\newblock {\em Physical Review Letters}, 105:1--4, 10 2010.
 
 \bibitem{Curta}
 Loris Bennett, Bernd Melchers, and Boris Proppe.
@@ -52,6 +73,11 @@ C.~Boiziau and G.~Lecayon.
 Enrica Bordignon.
 \newblock Epr spectroscopy of nitroxide spin probes.
 \newblock {\em eMagRes}, 6:235--254, 2017.
+
+\bibitem{Bowman2021}
+Michael~K. Bowman and Alexander~G. Maryasov.
+\newblock The direct dimension in pulse epr.
+\newblock {\em Applied Magnetic Resonance}, 52:1041--1062, 8 2021.
 
 \bibitem{Carrington_g_factor}
 A~Carrington and A.~D. McLachlan.
@@ -195,6 +221,12 @@ Nicolas Goujon, Nerea Casado, Nagaraj Patil, Rebeca Marcilla, and David
 \newblock Organic batteries based on just redox polymers: Abstract.
 \newblock {\em Progress in Polymer Science}, 122:101449, 2021.
 
+\bibitem{Granwehr2001}
+Josef Granwehr, Jörg Forrer, and Arthur Schweiger.
+\newblock Longitudinally detected epr: Improved instrumentation and new pulse
+  schemes.
+\newblock {\em Journal of Magnetic Resonance}, 151:78--84, 2001.
+
 \bibitem{Grosu2023a}
 Cristina Grosu, Chiara Panosetti, Steffen Merz, Peter Jakes, Stefan Seidlmayer,
   Sebastian Matera, Rüdiger a~Eichel, Josef Granwehr, and Christoph Scheurer.
@@ -337,6 +369,14 @@ Kenichiroh Koshika, Naoki Sano, Kenichi Oyaizu, and Hiroyuki Nishide.
   hydrophilic radical polymer-cathode.
 \newblock {\em Macromolecular Chemistry and Physics}, 210:1989--1995, 11 2009.
 
+\bibitem{Kraffert2017}
+Felix Kraffert, Daniel Bahro, Christoph Meier, Maximilian Denne, Alexander
+  Colsmann, and Jan Behrends.
+\newblock Transport-related triplet states and hyperfine couplings in organic
+  tandem solar cells probed by pulsed electrically detected magnetic resonance
+  spectroscopy.
+\newblock {\em Journal of Magnetic Resonance}, 282:10--17, 9 2017.
+
 \bibitem{Kulikov2022}
 Ilia Kulikov, Naitik~A. Panjwani, Anatoliy~A. Vereshchagin, Domenik Spallek,
   Daniil~A. Lukianov, Elena~V. Alekseeva, Oleg~V. Levin, and Jan Behrends.
@@ -447,6 +487,12 @@ Alice~J. Merryweather, Quentin Jacquet, Steffen~P. Emge, Christoph
   heterogeneities and cracking in high-rate li-ion anodes.
 \newblock {\em Nature Materials}, 21:1306--1313, 2022.
 
+\bibitem{Movassagh2021}
+Kiarash Movassagh, Arif Raihan, Balakumar Balasingam, and Krishna Pattipati.
+\newblock A critical look at coulomb counting approach for state of charge
+  estimation in batteries.
+\newblock {\em Energies}, 14:1--33, 2021.
+
 \bibitem{muench2016_chemrev}
 S~Muench, A~Wild, C~Friebe, B~Haupler, T~Janoschka, and U~S Schubert.
 \newblock Polymer-based organic batteries.
@@ -456,6 +502,12 @@ S~Muench, A~Wild, C~Friebe, B~Haupler, T~Janoschka, and U~S Schubert.
 K~Nakahara, S~Iwasa, M~Satoh, Y~Morioka, J~Iriyama, M~Suguro, and E~Hasegawa.
 \newblock Rechargeable batteries with organic radical cathodes.
 \newblock {\em Chem. Phys. Lett.}, 359:351--354, 2002.
+
+\bibitem{Nasibulov2017}
+Egor~A. Nasibulov, Jan Behrends, Leonid~V. Kulik, and Konstantin~L. Ivanov.
+\newblock Theoretical description of pulsed rydmr: Refocusing zero-quantum and
+  single quantum coherences.
+\newblock {\em Zeitschrift fur Physikalische Chemie}, 231:269--291, 2 2017.
 
 \bibitem{Neueder2014}
 Roland Neueder.
@@ -591,6 +643,11 @@ Pierre~Olivier Schwartz, Marijana Pejic, Mario Wachtler, and Peter Bäuerle.
   as potential cathode materials in rechargeable batteries.
 \newblock {\em Synthetic Metals}, 243:51--57, 9 2018.
 
+\bibitem{Schweiger1988}
+A.~Schweiger and R.~R. Ernst.
+\newblock Pulsed esr with longitudinal detection. a novel recording technique.
+\newblock {\em Journal of Magnetic Resonance}, 77:512--523, 1988.
+
 \bibitem{Schweiger2001}
 A~Schweiger and G~Jeschke.
 \newblock {\em Principles of Pulse Electron Paramagnetic Resonance}.
@@ -635,6 +692,20 @@ Juliusz Sworakowski.
   organic semiconductors determined from cyclic voltammetry or optical
   spectroscopy.
 \newblock {\em Synthetic Metals}, 235:125--130, 1 2018.
+
+\bibitem{Szczuka2021}
+Conrad Szczuka, Peter Jakes, Rüdiger-A. Eichel, and Josef Granwehr.
+\newblock Identification of lipf 6 decomposition products in li‐ion batteries
+  with endogenous vanadyl sensors using pulse electron paramagnetic resonance
+  and density functional theory.
+\newblock {\em Advanced Energy and Sustainability Research}, 2:1--10, 2021.
+
+\bibitem{Tait2021}
+Claudia~E. Tait, Anna Reckwitz, Malavika Arvind, Dieter Neher, Robert Bittl,
+  and Jan Behrends.
+\newblock Spin-spin interactions and spin delocalisation in a doped organic
+  semiconductor probed by epr spectroscopy.
+\newblock {\em Physical Chemistry Chemical Physics}, 23:13827--13841, 2021.
 
 \bibitem{IWASA2007}
 Hiroyuki Takeo~Nishide and Suga.

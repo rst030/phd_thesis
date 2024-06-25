@@ -6,31 +6,43 @@ In this chapter, the phenomenon of electron paramagnetic resonance is briefly de
 \section{The Spin Hamiltonian}
 \label{sec:spin}
 \paragraph*{Electron Spin}
-In the Poincaré group of special relativity~\cite{poincare_1905}, rotations are considered together with the relativistic boosts~\cite{einstein_s_rel} and there emerges an additional quantity that is associated with rotation and is preserved together with the orbital angular momentum. This additional quantity is retained for point objects and it is called spin~\cite{kuprov_2023}. A particle is said to have a spin if the quantum mechanical states of the particle in its own rest frame are eigenstates of the square of the angular momentum operator~\cite{Tung_book}. Spin is quantized~\cite{SternGerlach1922}; it can take values in integer- or half-integer multiples of the Planck's quantum of action $\hbar$ up to a certain magnitude $S$. The electron, as a fundamental particle and a fermion, bears a half-integer spin with a magnitude of $S=1/2$~\cite{SternGerlach1922,Sakurai}. 
+In the Poincaré group of special relativity~\cite{poincare_1905}, rotations are considered together with the relativistic boosts~\cite{einstein_s_rel} and there emerges an additional quantity that is associated with rotation and is preserved together with the orbital angular momentum. This additional quantity is an integral of motion for point objects rotating around themselves. It is called spin~\cite{kuprov_2023}. A particle is said to have a spin if the quantum mechanical states of the particle in its own rest frame are eigenstates of the square of the angular momentum operator~\cite{Tung_book}. Spin is quantized~\cite{SternGerlach1922}; it can take values in integer- or half-integer multiples of the Planck's quantum of action $\hbar$ up to a certain magnitude $S$. The electron, as a fundamental particle and a fermion, bears a half-integer spin with a magnitude of $S=1/2$~\cite{SternGerlach1922,Sakurai}. 
 
 \par
 An isolated electron has two degenerate spin states - spin-up $\vert{\uparrow}\rangle$ and spin-down $\vert{\downarrow}\rangle$ - that are eigenfunctions of the square of the spin operator $\hat{s}^2$ with the same (degenerate) eigenvalue $\hat{s}^2\vert{\uparrow}\rangle=\hat{s}^2\vert{\downarrow}\rangle=\frac{3}{4}\hbar^2\vert{\uparrow}\rangle=\frac{3}{4}\hbar^2\vert{\downarrow}\rangle$. The states $\vert{\uparrow}\rangle$ and $\vert{\downarrow}\rangle$ are also eigenfunctions of the $z$ component of the spin operator, but correspond to different (non-degenerate) eigenvalues $m_s=\pm\hbar/2$~\cite{Sakurai}: 
 
 \begin{equation}
 \label{eq:sz_states}
-\hat{s}_Z\vert{\uparrow}\rangle = +\frac{\hbar}{2}\vert{\uparrow\rangle}
+\hat{s}_Z\vert{\uparrow}\rangle = +\frac{\hbar}{2}\vert{\uparrow\rangle}\,\,\,\,\,\,\,\,\,\,\,\,\,\,\hat{s}_Z\vert{\downarrow\rangle}=-\frac{\hbar}{2}\vert{\downarrow\rangle}
 \end{equation}
-\begin{equation*}
-\hat{s}_Z\vert{\downarrow\rangle}=-\frac{\hbar}{2}\vert{\downarrow\rangle}
-\end{equation*}
 
 
 \paragraph*{$\textbf{g}$ factor}
 
 Spin combines with the charge of the electron to endow the electron with a magnetic moment $\mu_{spin} = \gamma S$, where $\gamma=\frac{g_e\mu_B}{\hbar}\approx 28$~GHz/T is the gyromagnetic ratio of the electron, $\mu_B=\hbar e/m_e$ is the Bohr magneton and $g_e \approx 2$ is the electron $g$ factor~\cite{Carrington_g_factor}. The $g$ factor connects the spin of a particle with a magnetic moment that the particle expresses through interactions with external fields~\cite{Schwinger1948}. The Dirac quantum theory of the electron predicts $g_e=2$~\cite{dirac1928}. However, up to date, $g_e = 2.00231930436256(35)$ has been measured to the unprecedented accuracy of 0.13~ppt~\cite{Fan2023_PRL}. This measurement lies at the frontier of modern particle physics and the accordance of the measured $g_e$ with the value obtained with quantum electrodynamics~\cite{Schwinger1948,Fan2023_PRL} is the triumph of the quantum field theory~\cite{Feynman_1949}. 
 \par
-Depending on the local environment of an electron, its $g$ factor can change from $g_e$ due to the spin-orbit coupling that changes the observed magnetic moment of the electron~\cite{Carrington_g_factor}. The magnetic moment of an electron can therefore be used as an extremely sensitive probe of the electron's local environment. The $g$ factor of an electron localized in a molecular orbital can be anisotropic, depending on the shape of the orbital. Anisotropic $g$ factor is represented by a $3\times3$ $\textbf{g}$ matrix that can almost always be diagonalized~\cite{Carrington_g_factor} by an appropriate rotation of the molecular coordinate system.
+Depending on the local environment of an electron, its observed $g$ factor can deviate from $g_e$ due to the spin-orbit coupling that changes the observed magnetic moment of the electron~\cite{Carrington_g_factor}. The magnetic moment of an electron can therefore be used as an extremely sensitive probe of the electron's local environment. The $g$ factor of an electron localized in a molecular orbital can be anisotropic, depending on the shape of the orbital. Anisotropic $g$ factor is represented by a $3\times3$ $\textbf{g}$ matrix that can almost always be diagonalized~\cite{Carrington_g_factor} by an appropriate rotation of the molecular coordinate system.
 
+\paragraph*{The Spin Hamiltonian}
+For the interactions considered in this thesis, the following Hamiltonian will be applied to describe the interactions of unpaired electron spins with their local environments, ranging by their magnitude:
+\begin{equation}
+\label{spin_hamiltonian}
+H = H_{EZ} + H_{NZ} + H_{J} + H_{HF} + H_{NQ}
+\end{equation}
+
+The electron Zeeman term $H_{EZ}$ defines the largest energy splitting observed in an EPR experiment. It sets the requirements on the hardware and sets the range of the applied magnetic fields. The electron Zeeman splitting reveals the electron's $\textbf{g}$ matrix. If the electron situates next to a $I>0$ nucleus, its local magnetic field has offsets, depending on the orientation of the nuclear spin with respect to the external magnetic field. Those offsets or splittings are described by the nuclear Zeeman term $H_{NZ}$. The hyperfine interaction term $H_{HF}$ describes the hyperfine interaction of the electron spin to the spins of its neighboring nuclei. The measurement of $H_{HF}$ allows for a reconstruction of the hyperfine coupling tensor. The hyperfine coupling tensor and the $\textbf{g}$ matrix are used as fingerprints to identify the molecular structure and dynamics of the mobile molecular fragments that are released during the operation of an electrochemical cell. The exchange interaction term $H_{J}$ defines the energy that neighboring electron spins need to have in order to exchange their orbitals. $H_{J}$ scales with the concentration of the electrons, and it is used to characterize the packing of the molecular fragments in the electrode. The nuclear quadrupole interaction term $H_{NQ}$ describes the interaction of the electron spin to the gradient of the electric field in a $I>1/2$ nucleus with an asymmetric distribution of the positive charge. $H_{NQ}$ may lead to noticeable spectral distortions in a highly charged cathode film, where electric field gradients may be comparable to the electric field gradient in the nitrogen nuclei. The terms of Eq.~\ref{spin_hamiltonian} are considered in details in the following five paragraphs.
+
+\begin{figure}[h]
+\center
+	\includegraphics[width=1.0\textwidth]{./operando_epr/figures/energy_diagram.pdf}
+	\caption{Energy diagram of the spin Hamiltonian showing the contributions to the energy level of an unpaired electron in a molecular orbital in the presence of Nitrogen. The energy of the unpaired electron at the molecular orbital (MO) splits into two electron Zeeman spin levels $\vert{\uparrow\rangle}$ and $\vert{\downarrow\rangle}$ in the magnetic field. The electron Zeeman spin levels further split into three nuclear Zeeman sublevels, due to the nuclear Zeeman interaction of the Nitrogen nucleus with three projections of the nuclear spin ($m_I=-1,0,+1$). The hyperfine interaction between the electron spin and the nuclear spin depend on the relative orientations of the spins of the particles. The parallel alignment adds $a_{iso}m_Im_s = a_{iso}/2$ to the energy level and the anti-parallel alignment subtracts $a_{iso}m_I(-1)m_s = -a_{iso}/2$ from it. The energy scale for a typical X-band EPR spectrometer is shown on the right. The allowed electron spin transitions corresponding to $\Delta m_s=\pm 1$, $\Delta m_I=0$ are shown in red vertical lines on the right.}
+	\label{fig:energy_diagram}
+\end{figure}
 
 
 \paragraph*{Zeeman Splitting}
 
-When an electron is placed in a static magnetic field $\vec{B_0}=B_0 \vec{e_z}$, its magnetic moment experiences a torque and precesses in the $xy$ plane about the field axis with the Larmor frequency $\omega_L = \gamma B_0$. The magnetic moment of the electron has two possible projections on the magnetic field axis, according to \ref{eq:sz_states}. The two corresponding eigenvalues $\pm\frac{\hbar}{2}$ define the energy difference between the states $\vert{\uparrow\rangle}$ and $\vert{\downarrow\rangle}$ when the spin couples to the external magnetic field, that is known as the Zeeman splitting. The energy difference between $\vert{\downarrow}\rangle$ and $\vert{\uparrow}\rangle$ in a magnetic field is the Zeeman energy. 
+When an electron is placed in a static magnetic field $\vec{B_0}=B_0 \vec{e_z}$, its magnetic moment experiences a torque and precesses in the $xy$ plane about the field axis with the Larmor frequency $\omega_L = \gamma B_0$. The magnetic moment of the electron has two possible projections on the magnetic field axis, according to Eq.~\ref{eq:sz_states}. The two corresponding eigenvalues $\pm\frac{\hbar}{2}$ define the energy difference between the states $\vert{\uparrow\rangle}$ and $\vert{\downarrow\rangle}$ when the spin couples to the external magnetic field, that is known as the Zeeman splitting. The energy difference between $\vert{\downarrow}\rangle$ and $\vert{\uparrow}\rangle$ in a magnetic field is the Zeeman energy. 
 
 \par
 
@@ -61,20 +73,6 @@ In a system of closely placed electrons, such as in a film of densely packed rad
 \paragraph*{Nuclear Quadrupole Moment}
 The nitrogen nucleus has a spin greater than 1/2 which alters the charge distribution within the nucleus which gives rise to a non-vanishing nuclear electrical quadrupole moment $Q$~\cite{Schweiger2001}. The interaction between the asymmetrically distributed charge and the gradient of the electric field at the nucleus is given by the nuclear quadrupole Hamiltonian $H_{NQ}=\vec{\hat{I}}\textbf{P}\vec{\hat{I}}$ with the nuclear quadrupole tensor $\textbf{P}$ that describes the coupling of the nuclear quadrupole moment to the electric field gradient.
 
-\paragraph*{The Spin Hamiltonian}
-For the interactions considered in this thesis, the following Hamiltonian will be applied to describe the interactions of unpaired electron spins with their local environments, ranging by their magnitude:
-\begin{equation}
-H = H_{EZ} + H_{HF} + H_{J} + H_{NZ} + H_{NQ}
-\end{equation}
-
-The electron Zeeman term $H_{EZ}$ defines the requirements on the hardware and sets the range of the magnetic fields used in the spectroscopic experiments. The hyperfine interaction term $H_{HF}$ allows for reconstruction of the hyperfine coupling tensor from the recorded spectra which is used as a marker to identify the molecular structure and dynamics of the mobile molecular fragments that are released during the operation of an electrochemical cell. The exchange interaction term $H_{J}$ scales with the concentration of the electrons, so the information about $\textbf{J}$ can be used to characterize the packing of the molecular fragments in the electrode. The nuclear quadrupole interaction term may lead to spectral distortions in a highly charged cathode where electric fields may be sufficiently strong to introduce noticeable nuclear quadrupole couplings to the nitrogen nuclei.
-
-\begin{figure}[h]
-\center
-	\includegraphics[width=1.0\textwidth]{./operando_epr/figures/energy_diagram.pdf}
-	\caption{Energy diagram of the spin Hamiltonian showing the contributions to the energy level of an unpaired electron in a molecular orbital in the presence of Nitrogen. The energy of the unpaired electron at the molecular orbital ($MO$) splits into two electron Zeeman spin levels $\vert\uparrow\rangle$ and $\vert\downarrow\rangle$ in the magnetic field. The electron Zeeman spin levels further split into three nuclear Zeeman sublevels, due to the nuclear Zeeman interaction of the Nitrogen nucleus with three projections of the nuclear spin ($m_I=-1,0,+1$). The hyperfine interaction between the electron spin and the nuclear spin depend on the relative orientations of the spins of the particles. The parallel alignment adds $a_{iso}$ to the energy level and the anti-parallel alignment subtracts $a_{iso}$ from it. The energy scale for a typical X-band EPR spectrometer is shown on the right. The allowed electron spin transitions corresponding to $\Delta m_s=\pm 1$, $\Delta m_I=0$ are shown in red vertical lines on the right.}
-	\label{fig:energy_diagram}
-\end{figure}
 
 
 
@@ -99,9 +97,6 @@ First observed in 1945~\cite{Zavoisky_1945_JP,zavoisky_1945,salikhov_2015}, the 
 When $B_0$ reaches the value that satisfies Eq.~\ref{eq:epr_resonance_condition}, the sample starts absorbing microwaves. The absorbed microwave power recorded as a function of $B_0$ is the cwEPR spectrum (Figure~\ref{fig:cwerp_free_electron}, right, dashed). By construction, cwEPR spectrometers typically record the derivative of the microwave absorption vs. $B_0$ (Figure~\ref{fig:cwerp_free_electron}, right, solid). Advanced spin resonance techniques methods that involve coherent spin dynamics and pulsed microwave fields are discussed in Section~\ref{ch:pulsed_epr}.
 
 \subsection{cwEPR spectrometer}
-
-A basic cwEPR spectrometer consists of a magnet, a microwave source, a resonator and a microwave detector. Figure~\ref{fig:cwerp_spectrometer} depicts those elements with more details, including the sample - an electrochemical cell that is placed inside the microwave resonator and its SoC controlled with an external potentiostat.
-
 \begin{figure}[h]
 \center
 	\includegraphics[width=0.9\textwidth]{./operando_epr/figures/cwEPR_spectrometer_diagram.pdf}
@@ -109,25 +104,32 @@ A basic cwEPR spectrometer consists of a magnet, a microwave source, a resonator
 	\label{fig:cwerp_spectrometer}
 \end{figure}
 
+A basic cwEPR spectrometer consists of a magnet, a microwave source, a microwave resonator and a microwave detector. Figure~\ref{fig:cwerp_spectrometer} depicts those elements with more details, including the sample - an electrochemical cell that is placed inside the microwave resonator and its SoC controlled with an external potentiostat.
+
 \par
 Continuous microwaves are generated with a klystron (MW source in Figure~\ref{fig:cwerp_spectrometer}) and directed towards the resonator (resonating cavity) through the signal arm that contains a variable attenuator and a circulator. The circulator directs the microwaves from the source to the cavity and passes the microwaves reflected from the cavity further to the microwave detector. The adjustable coupling iris between the circulator and the resonating cavity allows one to match the impedance of the cavity to the impedance of the signal arm so that minimal microwave power is reflected back from the cavity at a non-resonant field $B_0$. That impedance matching is called critical coupling. At the microwave detector, the microwaves reflected from the cavity are compensated by the microwaves with fixed microwave power and an adjustable phase, that pass through the reference arm. The signals from the two arms interfere destructively at the detector, so that there is no signal at the detector for non-resonant $B_0$.
 
 \par
-When the resonance condition (Eq.~\ref{eq:epr_resonance_condition}) is met, the incident microwaves are being absorbed by the sample and the resonator's $Q$ factor slightly changes. The change in the $Q$ factor decouples the resonator from the signal arm, that causes additional reflections in the signal arm. The microwaves in the signal arm that are not compensated by the reference arm become detected by the microwave detector - a biased semiconductor diode that has a linearly changing conductivity in the range corresponding to the incident microwave power. A phase sensitive detection with shallow modulation of $B_0$ increases the signal-to-noise ratio (SNR) and yields the derivative of the microwave absorption profile vs. $B_0$. The typically high $Q\gg1$ factor of the resonator further increases the SNR, as the decoupling of a resonator with higher $Q$ leads to a larger reflected microwave power.
+When the resonance condition (Eq.~\ref{eq:epr_resonance_condition}) is met, the incident microwaves are being absorbed by the sample and the resonator's $Q$ factor slightly changes. A $Q$ factor of a system defines the dissipation of energy of the system per oscillation. $Q$ can be measured as the width of the resonance profile $\delta\nu$ with respect to the resonance frequency $nu_0$: $Q=\frac{\delta\nu}{nu_0}$. The change in the $Q$ factor due to the resonance absorption of microwaves by the sample decouples the resonator from the signal arm, that causes additional reflections in the signal arm. These additional reflected microwaves in the signal arm are not compensated by the reference arm. The uncompensated microwaves excite the microwave detector - a biased semiconductor diode that has a linearly changing conductivity in the range corresponding to the incident microwave power. The typically high $Q\gg1$ factor of the resonator further increases the SNR, as decoupling of a resonator with higher $Q$ leads to a larger reflected microwave power.
 
 \par
 To ensure that only the magnetic component of the microwave is interacting with the sample, a standing microwave is formed in the resonating cavity. In the center of the cavity, the magnetic component of the microwave is maximized and the electric component is quenched. When a small sample is inserted in the center of the cavity, it is mostly the magnetic component of the microwave that is interacting with it. That allows one to drive magnetic dipole transitions without heating up the sample by the electric component. For larger samples as, for example, working electrochemical cells, the separation between the electric and magnetic microwave components does not hold within the full sample volume. Furthermore, the insertion of a cell containing metal electrodes and polar electrolyte into a resonator changes the distribution of the microwave field in it and lead to a non-resonant microwave absorption.
 
+\paragraph{cwEPR spectrum}
+A cwEPR spectrum shown in Figure~\ref{fig:cwerp_free_electron} is microwave absorption of a sample recorded with respect to the magnetic field $B_0$. A phase sensitive detection with shallow, low-frequency modulation of $B_0$ increases the signal-to-noise ratio (SNR) of the cwEPR signal and yields the derivative of the microwave absorption profile $dA/dB_0$.
+
+
 
 \paragraph{Line Broadening}
-The lines in the EPR spectra have finite widths. The lines of the liquid samples are broadened mostly by the dynamic effects (relaxation, tumbling, chemical exchange), while the lines of solid state samples are broadened by static effects (orientational disorder, unresolved hyperfine splittings, distributions in $\textbf{g}$, $\textbf{A}$, and $\textbf{D}$ values)~\cite{Stoll2006}.\\
+The microwave absorption profiles in the EPR spectra have finite widths. The spectral lines of liquid samples are broadened mostly by the dynamic effects (relaxation, tumbling, chemical exchange), while the lines of solid state samples are broadened by static effects (orientational disorder, unresolved hyperfine splittings, distributions in $\textbf{g}$, $\textbf{A}$, and $\textbf{D}$ values)~\cite{Stoll2006}.\\
 
 According to the stochastic, gaussian random modulation theory of exchange narrowing, the width of a strongly exchange narrowed EPR line (HWHM) is given by
 \begin{equation}
 \label{eq:exch_narrowing}
 \Delta B_0 \approx\frac{10}{3}\left(\frac{H_p^2}{H_e}\right)
 \end{equation}
-and the resonance lineshape is lorentzian. $H_p$ is the mean square dipolar field and $H_e$ is an effective exchange field which is proportional to the mean exchange integral $J$~\cite{Oreilly_1971}
+and the resonance lineshape is lorentzian. $H_p$ is the mean square dipolar field and $H_e$ is an effective exchange field which is proportional to the mean exchange integral $J$~\cite{Oreilly_1971}. Therefore at high spin concentrations the spectral line shape depends on both exchange and dipolar couplings between the spins.\\
+
 
 
 \section{Fundamentals of Pulsed EPR Spectroscopy}
