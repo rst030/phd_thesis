@@ -1,4 +1,4 @@
-\chapter{Fundamentals of EPR}
+\chapter{Fundamentals of Electron Spin Resonance Spectroscopy}
 \label{ch:epr}
 
 In this chapter, the phenomenon of electron paramagnetic resonance is briefly described with details that are required to interpret the spectra of a charging electrochemical cell containing nitroxide radicals attached to a conjugated polymer backbone. After the introduction of the spin Hamiltonian, an experimental procedure to observe the corresponding spin transitions with continuous microwaves is described. The characteristic spectra of nitroxide radicals in various environments are described. Finally, the fundamentals and the experimental techniques of the pulsed EPR spectroscopy are introduced.
@@ -9,7 +9,12 @@ In this chapter, the phenomenon of electron paramagnetic resonance is briefly de
 In the Poincaré group of special relativity~\cite{poincare_1905}, rotations are considered together with the relativistic boosts~\cite{einstein_s_rel} and there emerges an additional quantity that is associated with rotation and is preserved together with the orbital angular momentum. This additional quantity is an integral of motion for point objects rotating around themselves. It is called spin~\cite{kuprov_2023}. A particle is said to have a spin if the quantum mechanical states of the particle in its own rest frame are eigenstates of the square of the angular momentum operator~\cite{Tung_book}. Spin is quantized~\cite{SternGerlach1922}; it can take values in integer- or half-integer multiples of the Planck's quantum of action $\hbar$ up to a certain magnitude $S$. The electron, as a fundamental particle and a fermion, bears a half-integer spin with a magnitude of $S=1/2$~\cite{SternGerlach1922,Sakurai}. 
 
 \par
-An isolated electron has two degenerate spin states - spin-up $\vert{\uparrow}\rangle$ and spin-down $\vert{\downarrow}\rangle$ - that are eigenfunctions of the square of the spin operator $\hat{s}^2$ with the same (degenerate) eigenvalue $\hat{s}^2\vert{\uparrow}\rangle=\hat{s}^2\vert{\downarrow}\rangle=\frac{3}{4}\hbar^2\vert{\uparrow}\rangle=\frac{3}{4}\hbar^2\vert{\downarrow}\rangle$. The states $\vert{\uparrow}\rangle$ and $\vert{\downarrow}\rangle$ are also eigenfunctions of the $z$ component of the spin operator, but correspond to different (non-degenerate) eigenvalues $m_s=\pm\hbar/2$~\cite{Sakurai}: 
+An isolated electron has two degenerate spin states - spin-up $\vert{\uparrow}\rangle$ and spin-down $\vert{\downarrow}\rangle$ - that are eigenfunctions of the square of the spin operator $\hat{s}^2$ with the same (degenerate) eigenvalue: 
+\begin{equation}
+\hat{s}^2\vert{\uparrow}\rangle=\frac{3}{4}\hbar^2\vert{\uparrow}\rangle\,\,\,\,\,\,\,\,\,\,\,\,\,\,\
+\hat{s}^2\vert{\downarrow}\rangle=\frac{3}{4}\hbar^2\vert{\downarrow}\rangle
+\end{equation}
+The states $\vert{\uparrow}\rangle$ and $\vert{\downarrow}\rangle$ are also eigenfunctions of the $z$ component of the spin operator, but correspond to different (non-degenerate) eigenvalues $m_s=\pm\hbar/2$~\cite{Sakurai}: 
 
 \begin{equation}
 \label{eq:sz_states}
@@ -76,7 +81,7 @@ The nitrogen nucleus has a spin greater than 1/2 which alters the charge distrib
 
 
 
-\section{Continuous-Wave Electron Paramagnetic Resonance}
+\section{Electron Paramagnetic Resonance}
 \label{subs:cwEPR_spectroscopy}
 First observed in 1945~\cite{Zavoisky_1945_JP,zavoisky_1945,salikhov_2015}, the phenomenon of electron paramagnetic resonance had quickly become a tool for probing local molecular environments in species that contain unpaired electron spins. A free electron, that does not interact with its environment and has $g=g_e$, experiences a Zeeman splitting of $\Delta E = g \mu_B B_0$, that corresponds to the energy of a photon with a frequency of $\nu=\Delta E / h$. A microwave photon can drive a magnetic dipole transition between the Zeeman-split spin states - this is called electron paramagnetic resonance (EPR). An X band microwave photon (IEEE X band, $\nu=8-12$~GHz, $\lambda=2.5-3.8$~cm, Figure~\ref{fig:cwerp_free_electron}, left) can drive the magnetic dipole transition between $\vert{\uparrow\rangle}$ and $\vert{\downarrow\rangle}$ at $B_0\approx0.3$~T. In a continuous-wave electron paramagnetic resonance (cwEPR) experiment, the microwave frequency and power is kept constant while $B_0$ is scanned and the microwave absorption is observed. EPR happens around the $B_0$ values given by the spin resonance condition:
 
@@ -135,6 +140,9 @@ and the resonance lineshape is lorentzian. $H_p$ is the mean square dipolar fiel
 \section{Fundamentals of Pulsed EPR Spectroscopy}
 \label{ch:pulsed_epr}
 
+
+
+
 The motion of the magnetization vector $\vec{M}(t,\vec{r})$ precessing in a static magnetic field $B_0$ is convenient to consider in the rotating frame of reference that has its $\vec{z^{\prime}}$ axis fixed to the magnetization vector ${\vec{z}}~^{\prime}\parallel\vec{M}$ so that the $x^{\prime} y^{\prime}$ plane rotates around $\vec{M}$ at the Larmor frequency $\omega_L=\gamma B_0$ when viewed from the laboratory frame $\vec{x},\vec{y},\vec{z}$, where $\gamma$ is the gyromagnetic ratio for electrons described in Section~\ref{sec:spin}. In the rotating frame, the macroscopic magnetization stays constant as long as the spin system interacts only with the static field $B_0$. When the spin system is excited with a linearly polarized microwave field $\vec{B_1}(t,\vec{r})\perp\vec{B_0}$, its evolution is described with the set of equations that is known as the Bloch equations (Eq.~\ref{eq:Bloch}). A microwave field of frequency $\omega_1$ and amplitude $B_1$ propagates along $\vec{z}$ and it is polarized in the $xz$ plane: $\vec{B_1}(t,\vec{r})=B_1\vec{x}\cos\left(\omega_1t\right)$. The total magnetic field $\vec{B}=\vec{B_0}+\vec{B_1}$ then causes a time-dependent torque on the $\vec{M}$ which leads to its precession - this time in the rotating frame of reference.
 
 \subsection{Bloch Equations}
@@ -152,8 +160,10 @@ The motion of the magnetization vector $\vec{M}(t,\vec{r})$ precessing in a stat
 \end{equation}
 
 \subsection{Refocused Spin Echo}
+
+
 \subsection{Spin Relaxation Times}
-\subsection{Spin Packets}
+
 
 \subsection{Pulsed EPR Instrumentation}
 

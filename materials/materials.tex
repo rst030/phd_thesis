@@ -134,7 +134,7 @@ Redox conductive polymers (RCP), besides being conductive, are able to store a c
 
 
 \par
-\subsection{TEMPO}
+\subsection{TEMPO$^{\bullet}$}
 TEMPO (2,2,6,6-tetramethylpiperidine-1-oxyl) shown in Figure~\ref{fig:molecules}~a) is a small molecule and a stable radical that can undergo a fast and reversible redox reaction between TEMPO$^\bullet$ and TEMPO$^+$~\cite{Wang2019}, with an electron self-exchange rate constant of $k_{ex}\approx10^{6-8}$ M$^{-1}$~s$^{-1}$~\cite{Chatgilialoglu2012}. TEMPO is an inexpensive organic compound~\cite{Vereshchagin2022} produced from acetone with liquid ammonia, hydrazine and peroxide~\cite{Casado_2021_book}. TEMPO radicals are widely used as spin labels in the studies of biological systems with electron spin resonance~\cite{Bordignon2017}, because the unpaired electron of TEMPO$^\bullet$ has a well defined spectral signature that changes when the local environment of a TEMPO fragment changes. TEMPOL is a TEMPO with an OH group. It is soluble in many organic solvents and forms crystals. Solutions of TEMPOL with various concentrations can be used for the reference spectroscopic measurements, as by varying the concentration the strength of inter-spin interactions between the neighboring radicals can be adjusted.
 
 \begin{figure}[h]
@@ -254,21 +254,18 @@ The considered SoC correspond to discharging by $0.020\pm0.005~\muup$Ah (Figure~
 
 
 
-\section{Electrochemical Cells for Operando cwEPR spectroscopy}
+\section{Electrochemical Cells for Operando EPR spectroscopy}
 \label{sec:operando_cell_fab}
 One significant drawback with spectroelectrochemical EPR spectroscopy is the fact that microwave resonators suffer from substantial microwave damping as a result of introducing metal electrodes, polar solvents and ionic salts (i.e., the electrolyte) needed for successful electrochemistry.\cite{wadhawan2007_encofelectrochem}. Microwave damping can be significantly reduced by using an on-substrate electrode design (see Fig.~\ref{fig:flat_tube}) as this limits the amount of metal that is introduced into the resonator, while still allowing for electrode surface areas large enough to deposit sufficient material of interest to observe EPR signals.
 
-\begin{figure}[H]
- \centering
- \includegraphics[width=0.99\textwidth]{./operando_epr/figures/Flat_tube_setup.pdf}
- \caption{Schematic diagram of the electrode design and assembly of the electrochemical cell based on a modified X-band EPR quartz tube. a): Molecular structure of p-DiTS, with the redox reaction of its charge-bearing TEMPO groups; highlighted is the backbone, p-NiMeOSalen. b): Photograph of the modified tube with a flattened bottom section, with the on-substrate electrochemical setup assembled inside, and the process of forming the modified tube. c): Electrochemical setup for deposition and cleaning of polymer films. d): Tube-based electrochemical setup. e): Cyclic voltammograms of a growing p-DiTS film during 100 electropolymerization cycles (solid-brown), during the cleaning process (crossed-black) and in the tube-based setup (dotted-blue). Peaks A/A', B/B' correspond to the oxidation and reduction of the TEMPO fragments and of the p-NiSalen backbone, respectively. All CV were recorded at 50~mV\,s\textsuperscript{-1}.}
- \label{fig:flat_tube}
-\end{figure}
 
 
 \subsection{Cells Based on a Modified EPR Sample Tube}
 \label{sec:tube_cell}
 \label{electrode_setup}
+
+
+
 
 An electrochemical half-cell was constructed inside an X band EPR sample tube. The WE of the cell was electrochemically polymerized on a flat Au electrode formed on a 3.5~mm wide quartz substrate. The second on-substrate Au electrode was used as the CE. The substrate was inserted inside the EPR sample tube. The tip of the tube was flattened to reduce the amount of electrolyte in the half-cell.\\
 
@@ -278,13 +275,25 @@ An electrochemical half-cell was constructed inside an X band EPR sample tube. T
 The on-substrate electrodes are produced as follows. Cleaned quartz substrates are placed inside a holder and covered with shadow masks. The assembly is transferred into a vacuum chamber equipped with a thermal evaporator (MBraun ProVap 5G PVD System). At a pressure of $7\times10^{-7}$~mbar, 10~nm of Chromium (Cr) adhesion layer is evaporated, followed by 180~nm of Gold (Au). In this way the on-substrate working and counter electrodes are formed (WE and CE respectively). The reference electrode (RE) is not evaporated on substrate for electrochemical stability reasons. Instead, a \SI{250}{\micro\meter} Ag wire is used, either as is or, for additional stability, coated galvanically with a AgCl layer.\cite{Safari2011} See Section \ref{Experimental_Section} in the ESI$\dag$ for details of the sample preparation.
 \par
 The above procedure provides a WE active area of 12.0~mm$^2$ which allows one to deposit an electrochemically active film that is large enough to yield a clear EPR signal. The flat electrode design provides the possibility to increase the WE area for samples with particularly small EPR signals while still maintaining certain film thicknesses. This also allows for studying EPR properties as a function of film thickness. In cases where the electrochemical process is thought to deposit material on both the WE and CE, the distance between the on-substrate electrodes can be adjusted such that only one of the electrodes is positioned in the active volume of the microwave resonator, allowing for selective EPR probing of either of the electrodes.
+
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=0.99\textwidth]{./operando_epr/figures/Flat_tube_setup.pdf}
+ \caption{Schematic diagram of the electrode design and assembly of the electrochemical cell based on a modified X-band EPR quartz tube. a): Molecular structure of p-DiTS, with the redox reaction of its charge-bearing TEMPO groups; highlighted is the backbone, p-NiMeOSalen. b): Photograph of the modified tube with a flattened bottom section, with the on-substrate electrochemical setup assembled inside, and the process of forming the modified tube. c): Electrochemical setup for deposition and cleaning of polymer films. d): Tube-based electrochemical setup. e): Cyclic voltammograms of a growing p-DiTS film during 100 electropolymerization cycles (solid-brown), during the cleaning process (crossed-black) and in the tube-based setup (dotted-blue). Peaks A/A', B/B' correspond to the oxidation and reduction of the TEMPO fragments and of the p-NiSalen backbone, respectively. All CV were recorded at 50~mV\,s\textsuperscript{-1}.}
+ \label{fig:flat_tube}
+\end{figure}
+
 \par
+
+
+
 The on-substrate electrodes reduce microwave damping. However, a substantial amount of microwave damping occurs due to the electrolyte, made of polar solvent and ionic salts. Therefore, we further optimize our setup by modifying conventional 5~mm outer diameter (OD) quartz EPR tubes by flattening the bottom 1.3$-$1.6~cm (cf.\ Fig.~\ref{fig:flat_tube}b and Section \ref{fig:S1_modified_tube} in the ESI$\dag$), thereby reducing the active electrolyte volume needed to submerge both the WE and CE on the substrate as well as the RE wire, from $\sim$120~$\mu^{\bullet}$L to $\sim$60$-$70~$\mu^{\bullet}$L.
 \par
 The flattened tube and the thin-film electrode setup have an additional benefit in that the sample is moved away from the maximum of the electric field distribution in the Bruker ER~4122-SHQE resonator (TE\textsubscript{011} mode cavity for cwEPR), thereby further increasing the resonator quality factor (Q-factor, given by $Q = \frac{\nu_{res}}{\Delta \nu}$, $\nu_{res} =$ resonance frequency, $\Delta \nu =$ FWHM of the resonance dip) and hence sensitivity. Further improvements can be made using the flat electrode setup in a TM\textsubscript{110} mode cwEPR cylindrical cavity such as a Bruker ER~4103-TM (developed for studying samples exhibiting high dielectric constants), where the flattened cell can be aligned to further reduce coupling to the microwave electric field. The modified tube is compatible with commercial Bruker ER~4118X-MD5 resonators, most commonly used for advanced pulse EPR measurements at X-band frequencies ($\nu = 9-10$~GHz).
 
 
-\subsection{Fabrication of the modified tube}
+\subsection{Modification of the Sample Tube}
 The volume of the cell used in this study had to be minimized, as the high dielectric constant of the electrolyte does not allow for the critical coupling of the resonator. The volume of the electrolyte was minimized by flattening the tip of the quartz (melting point $T_m=1660-1710\,^{\circ}$C) tube accommodating the cell. For that, a tungsten (W, $T_m=3420\,^{\circ}$C) rod of a 3.70$\times$1.35$\,$mm rectangular cross section, narrowing to the bottom of the tube at a wedge angle of $\alpha \approx 5 ^{\circ}$, was inserted into the tube (Fig.~\ref{fig:S1_modified_tube}). The tube was evacuated and filled with He to a pressure of 100~mbar. The tip of the evacuated tube was molten around the thermally expanded rod with a Hydrogen-Oxygen burner ($T_f = 3080\,^{\circ}$C). The modified tube was then connected to atmosphere and the cooled, contracted rod was removed and later reused for modifying other tubes. The tungsten rod was fabricated from an electrode of a flash lamp of a pulsed Nd:YAG laser.\\
 
 \begin{figure}[h]
@@ -299,16 +308,17 @@ The modification of the tip of the tube provided a decrease in the volume of the
 
 To establish the extent to which the modified tube improves the resonator Q-factor (Q) and therefore sensitivity of the cwEPR experiment, cwEPR spectra and associated Q-factors were recorded for a flat-electrode p-DiTS cell assembled in two different sample tubes. For both cell setups we used enough electrolyte to submerge all three electrodes. This required 100~$\mu^{\bullet}$L for the standard tube and 70~$\mu^{\bullet}$L for the modified tube. The effect of the two tubes on the cwEPR spectrum and on the Q-factor was studied for a range of heights ($H$) measured from the center of the microwave resonator to the middle of the WE.
 
-\begin{figure}[h]
-	\includegraphics[width=0.5\textwidth]{./operando_epr/figures/Q_factors_mod_tube.pdf}
-	\caption
-	{Signal-to-noise ratio of the cwEPR spectrum of p-DiTS and the Q-factor of the Bruker ER4122-SHQE microwave resonator measured for an electrochemical cell based on a standard X-band EPR sample tube and for an electrochemical cell based on the modified tube. Data for various heights $H$ from the center of the resonator. Insets: Representative cwEPR spectra at $H=18$~mm, where the signal for the standard tube is the strongest.}
-	%{Changes in the microwave resonator Q-factor when loaded with a p-DiTS sample with electrolyte in a standard and modified tube as a function of $H$.}
-	\label{fig:Q_factors_mod_tube}
-\end{figure}
+
+\begin{SCfigure}
+    \includegraphics[width=0.65\textwidth]{./operando_epr/figures/Q_factors_mod_tube.pdf}
+  \caption{Signal-to-noise ratio of the cwEPR spectrum of p-DiTS and the Q-factor of the Bruker ER4122-SHQE microwave resonator measured for an electrochemical cell based on a standard X-band EPR sample tube and for an electrochemical cell based on the modified tube. Data for various heights $H$ from the center of the resonator. Insets: Representative cwEPR spectra at $H=18$~mm, where the signal for the standard tube is the strongest.}
+\label{fig:Q_factors_mod_tube}
+\end{SCfigure}
 
 
-\subsection{Q-factors and cwEPR spectra for p-DiTS in standard and modified tube}\label{Q-factor_SNR}
+
+%\subsection{Q-factors and cwEPR spectra for p-DiTS in standard and modified tube}\label{Q-factor_SNR}
+\subsection{Enhanced Performance of the Modified Sample Tube}\label{Q-factor_SNR}
 
 We determine Q~$\approx$~7800 for the empty resonator. Inserting the tube-based cells initially at $H=$~24~mm reduces the Q-factor for both cases, but more significantly for the standard tube (Q\textsubscript{standard tube}~$\approx$~4200, Q\textsubscript{modified tube}~$\approx$~5400, see Fig.~\ref{fig:Q_factors_mod_tube}). At $H=$~18~mm the Q-factor drops for both, again more significantly for the standard tube to Q\textsubscript{standard tube}~$\approx$~300 while for the modified tube it is still Q\textsubscript{modified tube}~$\approx$~1200, a factor of 4 difference. This difference between the two tubes shows the benefit of using the modified tube and flat electrode geometries for SEC EPR. When the modified tube is inserted as deep as $H=$~14~mm, the Q\textsubscript{modified tube} is around 400, which still allows for EPR measurements. Coupling the resonator not possible for $H<18$~mm (standard tube) and $H<14$~mm (modified tube).
 
@@ -380,8 +390,11 @@ The electrolyte based on an ionic liquid incorporated in a gel-like polymer matr
 
 
 
-\subsection{PDiTBuS Electrochemical Cell for Ex Situ EPR Spectroscopy}
+\subsection{Demountable Electrochemical Cell for Pulsed EPR Spectroscopy}
 \label{fab:ex_situ_charging}
+
+
+
 PDiTBuS was grown as a thin film on an on-substrate flat 3$\times$4~mm$^2$ Au working electrode (WE) of a three-electrode cell as depicted in Figure~\ref{fig:Figure_1}d, by means of electrochemical polymerization. The on-substrate WE was a 180~nm layer of Au deposited on a 3.5~mm wide quartz substrate using metal \ik{evaporation} through a shadow mask, with a 7~nm Cr adhesion layer. For the electrochemical polymerization, the electrochemical cell was filled with DiTBuS monomers dissolved in the electrolyte (0.1~\si{\Molar} Acetonitrile solution of Tetraethylammonium Tetrafluoroborate)\q{,} and the voltage between the WE and the Pt counter electrode (CE) was repeatedly cycled between -200~mV and 800~mV with respect to the calibrated, Ag/10~\si{\milli\Molar}  AgNO$_3$ (Acetonitrile) reference electrode (RE) at a rate of 50~mV~s$^{-1}$ (for the cyclic voltammograms recorded during electrodeposition \ik{see ESI, Figure~\ref{fig:Figure_S1}}). After 50 electropolymerization cycles the pDiTBuS film had a capacity of 1.6~$\muup$Ah with an estimated mass of 20$-$30~$\muup$g and thickness of 800$-$1000~nm \ik{(see ESI, Section~\ref{si:ESOC} for calculations)}\\
 
 The pDiTBuS film was brought to a desired charge state with the electrochemical setup shown in Figure~\ref{fig:Figure_1}d. The container was filled with pure electrolyte (without DiTBuS monomers) and a static current of \q{$\pm10$}~$\muup$A was applied between WE and CE for lifting or lowering the electric potential of the film. The potential of the film during charging and discharging was recorded with respect to the RE as the Galvanostatic Charge-Discharge (GCD) curve (Figure~\ref{fig:Figure_1} and Figure~\ref{fig:Figure_S3} in the ESI). When the GCD reached a desired potential, the WE was disconnected from the current source and the substrate with the pDiTBuS film was removed from the cell. The substrate was dried in pre-vacuum and flame sealed in a 5~mm OD quartz tube under 500~mbar of He. The tube was then  frozen in liquid N$_2$ (77~K) and transported to the pre-cooled EPR spectrometer. In order to alter the \ik{SoC} of the film between the EPR measurements, the tube was gradually warmed up to room temperature and opened, then the substrate \ik{with the charged film} was removed from the tube and placed to the electrochemical setup where it was fully \ik{charged from the preserved SoC} to 700~mV, and discharged to the \ik{next} desired SoC galvanostatically (ESI, Figure~\ref{fig:Figure_S27}). After charging, the substrate was dried and encapsulated as described. SoC corresponding to -200~mV, 430~mV, 500~mV and 590~mV vs. the RE were considered. The potentials correspond to 0\%, 65\%, 95\% and 98\% of the full \ik{1.4}~$\muup$Ah \ik{discharging} capacity of the film, determined with Coulomb counting~\cite{Movassagh2021}. (\ik{The charging capacity of the film has decreased by 12\% upon repeated charging and temperature cycling,} cf. ESI, Figure~\ref{fig:Figure_S2} and Section~\ref{sample_fab_2}).\\

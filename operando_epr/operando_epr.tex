@@ -2,7 +2,12 @@
 Here the cwEPR spectra of TEMPO-Salen electrochemical cells are shown under operating conditions and ex situ, for various states of charge, as well as the spectra of the materials that were used to construct the cells.
 That information is used to decompose the complex spectra of a charging cell and to perform its quantitative analysis to identify the state of charge of the cell and the by-products that are being released during the cell operation.
 
-\section{cwEPR Spectroscopy of TEMPO Containing Molecular Fragments}
+
+\section{cwEPR Spectroscopy of Working TEMPO-Salen Electrochemical Cells}
+There is a number of difficulties when it comes to an EPR experiment on a working electrochemical cell. The cell must contain mobile ions between its electrodes - cations and anions. The ions are normally produced as products of dissociating salts. To overcome the ionic bond in a salt and to break it into the ions, a solvent with large dipole moment is needed. Solvents with large dipole moments, as acetonitrile (CH\textsubscript{3}CN, $\epsilon\approx 37.5$) or water ($\epsilon\approx78.4$), have large dielectric constants which results in a non-resonant absorption of microwaves. A cell containing liquid electrolyte absorbs microwaves and lowers the sensitivity of the EPR experiment. Furthermore, due to a finite dimension of cell, not only the magnetic component of the microwave is interacting with the electrolyte, but also the electric one - this results in heating of the electrolyte in a similar fashion as in a microwave oven. The heating of the electrolyte leads to a faster degradation of the cell and does not allow for long systematic measurements.\\
+Another general issue with the operando EPR and EDMR experiments is that the device under testing (DUT) has to have metal electrodes that deliver current to it. Metals, placed in a microwave cavity, change the distribution of the electromagnetic field in it - that weakens the magnetic component at the device and at the same time strengthens the electric component. It is the magnetic dipole transition that is causing the magnetic resonance, so the weakening of the magnetic component by introducing the metal electrodes further decreases the magnetic resonance response. The increased electric component causes heating to temperatures that can be critical for the DUT operation.
+
+\subsection{Spectra of TEMPO--Containing Molecular Fragments}
 % todo: the reader knows about TEMPO, dits and ditbus. Show how they behave in cwEPR spectrometer.
 % picture of molecule - spectrum - diagram
 The stable TEMPO$^\bullet$ radical is widely used in the EPR spectroscopy as a spin probe and particularly in the EPR studies of TEMPO containing ORB materials~\cite{nakahara2002_cpl, nishide2004_electact, bahaceci2013_jpowersources, aydin2015_jsoistatelect, khodeir2019_softmatter, Zhang2018}. The spin density at the TEMPO$^\bullet$ radical is localized within the N-O bond~\cite{Owenius2001} and partially resides on the $I=1$ $^{14}$N nucleus, so to describe the EPR spectrum of an isolated TEMPO$^\bullet$ one has to take into consideration the electron Zeeman term $H_{EZ}$, the nuclear Zeeman term $H_{NZ}$ and the hyperfine coupling term $H_{HF}$. The unpaired electron spin on TEMPO$^\bullet$ has anisotropic g value, because of the asymmetry of its molecular orbital, so the $\textbf{g}$ matrix and the $\textbf{A}$ hyperfine coupling tensor are both anisotropic. $\textbf{g}$ is diagonal in the molecular frame of reference shown in Figure~\ref{fig:TEMPO_dft}. Its principal values are $\left[g_{xx}=2.009,g_{yy}=2.006,g_{zz}=2.002\right]$~\cite{Liu_2008,Bordignon2017}. The principal values of $\textbf{A}$ in the same frame are $\left[A_{xx}=20,A_{yy}=20,A_{zz}=100\right]$~MHz~\cite{Liu_2008,Bordignon2017}.
@@ -107,36 +112,7 @@ The oxidized film in Figure~\ref{fig:cwEPR_TEMPOL_High_Low_Concentrations}, righ
 \end{figure}
 
 
-
-\subsection{Spectra of NiSalen Films}
-The molecular backbone of pDiTS and pDiTBuS is the pNiSalen, a conjugated polymer that exhibits redox behavior~\cite{Dmitrieva2018,Vereshchagin2020,Apraksin2021}. The observations of electrochromicity of pNiSalen films with UV-VIS spectroscopy~\cite{Dmitrieva2018} have revealed the formation of polarons and antiferromagnetically coupled (with total spin S=0) bipolarons in the oxidized state of pNiSalen. A series of cwEPR spectra recorded for a pNiSalen film in various redox states is shown in Figure~\ref{fig:cwEPR_CRYO_NiSalen_REDOX_SIM}. Operando cwEPR spectra of a cell containing a pNiSalen cathode is shown in Figure~\ref{fig:cwEPR_RT_NiSalen_OPERANDO}.
-
-\begin{figure}[!h]
-\center
-	\includegraphics[width=0.9\textwidth]{./operando_epr/figures/CRYO/Figure_S8.pdf}
-	\caption{Potential-dependent cwEPR spectra of a NiMeOSalen film measured at 150~K. Simulation of the spectra with three components reported by the Timonov group.}
-	\label{fig:cwEPR_CRYO_NiSalen_REDOX_SIM}
-\end{figure}
-
-\begin{figure}[!ht]
-\center
-	\includegraphics[width=0.8\textwidth]{./operando_epr/figures/backbone/NiMeOS_lyra_overnight_RT.png}
-	\caption{Potential-dependent operando cwEPR spectra of a NiMeOSalen cathode film measured at room temperature.}
-	\label{fig:cwEPR_RT_NiSalen_OPERANDO}
-\end{figure}
-
-
-
-
-
-
-\section{cwEPR Spectroscopy of a Charging Electrochemical Cell}
-There is a number of difficulties when it comes to an EPR experiment on a working electrochemical cell. The cell must contain mobile ions between its electrodes - cations and anions. The ions are normally produced as products of dissociating salts. To overcome the ionic bond in a salt and to break it into the ions, a solvent with large dipole moment is needed. Solvents with large dipole moments, as acetonitrile (CH\textsubscript{3}CN, $\epsilon\approx 37.5$) or water ($\epsilon\approx78.4$), have large dielectric constants which results in a non-resonant absorption of microwaves. A cell containing liquid electrolyte absorbs microwaves and lowers the sensitivity of the EPR experiment. Furthermore, due to a finite dimension of cell, not only the magnetic component of the microwave is interacting with the electrolyte, but also the electric one - this results in heating of the electrolyte in a similar fashion as in a microwave oven. The heating of the electrolyte leads to a faster degradation of the cell and does not allow for long systematic measurements.\\
-Another general issue with the operando EPR and EDMR experiments is that the device under testing (DUT) has to have metal electrodes that deliver current to it. Metals, placed in a microwave cavity, change the distribution of the electromagnetic field in it - that weakens the magnetic component at the device and at the same time strengthens the electric component. It is the magnetic dipole transition that is causing the magnetic resonance, so the weakening of the magnetic component by introducing the metal electrodes further decreases the magnetic resonance response. The increased electric component causes heating to temperatures that can be critical for the DUT operation.
-
-
-
-\subsection{Characteristic cwEPR Spectra of a Charging TEMPO-Salen Cell}
+\subsection{Characteristic cwEPR Spectra of a TEMPO-Salen Cell}
 
 \begin{figure}[H]
 \center
@@ -162,7 +138,8 @@ Yet, there is some remaining line broadening that does not allow one to distingu
 We note that the oxidized NiSalen backbone can contribute to the spectrum as well. Its EPR signature, which is not shown in Fig.~\ref{fig:cartoon_spectra_dts}, is clearly different from the nitroxide/TEMPO-related spectra discussed above.
 %
 
-\section{p-DiTS in-operando redox series}
+\subsection{cwEPR Spectra During a Charge--Discharge Cycle}
+\label{sec:operando_dits}
 
 \begin{figure}[H]
 \center
@@ -184,12 +161,15 @@ Here we present the cwEPR spectra at each measured potential during the in-opera
 
 Fig.~\ref{fig:S5} shows the in-operando study on a 150-deposition-cycle $t =$~400~nm film, that has not undergone the cleaning procedure. Here we see that non-polymerized monomeric DiTS is released into electrolyte, confirmed by measuring the in-operando and used electrolyte cwEPR spectra, along with comparison to a 100~$\muup$\textsc{m} sample of monomeric DiTS in solution.
 
-\begin{figure*}[h!]
+
+
+
+\begin{SCfigure}
 \centering
-\includegraphics[width=0.3\textwidth]{./operando_epr/figures/Figure_S5}
+\includegraphics[width=0.42\textwidth]{./operando_epr/figures/Figure_S5}
 \caption{Top: Room temperature SEC cwEPR on 150-CV p-DiTS film. $\nu=$~9.4~GHz. This film has not undergone the cleaning/rinsing procedure and therefore as expected we see spectral signatures of the DiTS monomer which is released into the electrolyte and exhibits a five-line structure characteristic of di-tempo systems with changes in the exchange coupling associated with changes in the nitroxide -- nitroxide distance. This figure shows the primary release of monomeric DiTS from a raw p-DiTS film into electrolyte (Modulation amplitude 0.1~mT -- overmodulated). Bottom: cwEPR of DiTS monomer in electrolyte 100~$\muup$\textsc{m} concentration at room temperature for comparison (Modulation amplitude 0.02~mT).}
 \label{fig:S5}
-\end{figure*}
+\end{SCfigure}
 
 
 Fig.~\ref{fig:S6} shows more steps in the in-operando study shown in the main text Fig.~\ref{fig:Figure_5}
@@ -232,6 +212,8 @@ In addition, Coulomb repulsion between the positively charged TEMPO$^+$ groups i
 
 
 \subsection{Spectral Simulations}
+The cwEPR spectra for a pDiTS film in Figure~\ref{fig:operando_carpet} consist of a combination of the characteristic signals specified in Figure~\ref{fig:cartoon_spectra_dts}. In order to separate the spectral contribution and to perform a quantitative analysis of the separated components, a numerical simulation of the spectra was performed.
+
 
 \subsection{Quantitative Analysis of Potential-Dependent EPR Spectra}
 \label{sec:quantitative_EPR}
@@ -250,92 +232,22 @@ The doubly integrated cwEPR spectral intensities for the pDiTBuS film in the fou
 \end{figure}
 
 
+\subsection{Spectra of NiSalen Films}
+The molecular backbone of pDiTS and pDiTBuS is the pNiSalen, a conjugated polymer that exhibits redox behavior~\cite{Dmitrieva2018,Vereshchagin2020,Apraksin2021}. The observations of electrochromicity of pNiSalen films with UV-VIS spectroscopy~\cite{Dmitrieva2018} have revealed the formation of polarons and antiferromagnetically coupled (with total spin S=0) bipolarons in the oxidized state of pNiSalen. A series of cwEPR spectra recorded for a pNiSalen film in various redox states is shown in Figure~\ref{fig:cwEPR_CRYO_NiSalen_REDOX_SIM}. Operando cwEPR spectra of a cell containing a pNiSalen cathode is shown in Figure~\ref{fig:cwEPR_RT_NiSalen_OPERANDO}. Remarkably, there was no signature of pNiSalen observed in TEMPO-Salen cells shown in Section~\ref{sec:operando_dits}.
 
+\begin{figure}[!h]
+\center
+	\includegraphics[width=0.9\textwidth]{./operando_epr/figures/CRYO/Figure_S8.pdf}
+	\caption{Potential-dependent cwEPR spectra of a NiMeOSalen film measured at 150~K. Simulation of the spectra with three components reported by the Timonov group.}
+	\label{fig:cwEPR_CRYO_NiSalen_REDOX_SIM}
+\end{figure}
 
-\section{EPR-Detected State Of Charge}
-\label{sec:ESOC}
-
-The SoC of the film determined with Coulomb counting were compared to quantitative cwEPR to directly relate the \ik{number of charges, injected into the film upon charging}\rs{,} to the number of paramagnetic centres in it. We refer to the \ik{fraction} of spins removed from the \ik{fully discharged} film \ik{to reach} a given SoC as the EPR-detected state of charge, or ESOC. The fully discharged film has the maximum number of spins and its ESOC is 0\%. ESOC at other SoC are determined as the fraction of the missing spins with respect to ESOC 0\%. ESOC of 95\% \rs{thus} corresponds to the oxidation state where only 5\% of the \ik{initially present} spins are left in the film. The cwEPR spectra were recorded for the listed SoC\rs{,} and the corresponding numbers of spins were calculated from the double integrals of the spectra. The integrated spectra and the experimental details are shown in the ESI, Section~\ref{si:ESOC}. \ik{The injected charges, detected spins and} ESOC values are counted for each SoC in Table~\ref{tab:Table1}. The average spin concentration in the film \rs{$\langle n\rangle$} at each ESOC was calculated from the corresponding number of spins and the estimated volume of the film of $\left(1.3\pm0.6\right)\times10^{-5}$cm$^{3}$.
-
-
-\begin{table*}[!ht]
-
-	\begin{adjustbox}{max width=\textwidth}
-	 
-    \begin{tblr}{ |r|c|c|c|c|c|c|c|c|}
-        \toprule
-E [mV] & 
-SoC & 
-ESOC &
-capacity drawn [$\muup$Ah]& 
-\ik{charges injected}&
-spins \ik{detected}&
-$n_{C}$~[cm$^{-3}$]&
-$\langle n \rangle$~[cm$^{-3}$]&
-$C$~[cm$^{-3}$] \\
-		
-\midrule
-
-$ 590 \pm 5$&
-$98\%$&
-$(95\pm1)\%$&
-\ik{$0.020\pm0.005$}&
-\q{$(5\pm1)\times10^{14}$}&
-\q{$(4\pm1)\times10^{14}$}&
-\q{$(3\pm2)\times10^{19}$}&
-\q{$(3\pm2)\times10^{19}$}&
-\q{$>1\times10^{19}$}\\
-
-\addlinespace[-0.5ex]
-    
-$ 500 \pm 5$&
-$96\%$&
-$(85\pm2)\%$&
-\ik{$0.060\pm0.005$}&
-\ik{$(1.4\pm0.1)\times10^{15}$}&
-$(1.1\pm0.1)\times10^{15}$&
-\ik{$(1.0\pm0.5)\times10^{20}$}&
-\q{$(8\pm4)\times10^{19}$}&
-\q{$>3\times10^{19}$}\\
-
-\addlinespace[-0.5ex]
-
-$ 430 \pm 5$&
-$65\%$&
-$(49\pm3)\%$& 
-\ik{$0.480\pm0.005$}&
-\ik{$(1.07\pm0.01)\times10^{16}$}&
-$(3.5\pm0.2)\times10^{15}$&
-\q{$(8\pm4)\times10^{20}$}&
-\q{$(3\pm2)\times10^{20}$}&
-$-$\\
-
-\addlinespace[-0.5ex]
-
-$ -200\pm 5$&
-$0\%$&
-$(0\pm5)\%$& 
-\ik{$1.360\pm0.005$}&
-\ik{$(3.05\pm0.01)\times10^{16}$}&
-$(6.9\pm0.4)\times10^{15}$&
-\q{$(2\pm1)\times10^{21}$}& %0.0346    0.1037    0.8297    2.3509
-\q{$(5\pm3)\times10^{20}$}&
-$-$\\    
-
-        \bottomrule
-    \end{tblr}
-	\end{adjustbox}
-	
-	
-\caption{EPR-detected state of charge, \ik{Coulomb counting} and the corresponding spin concentrations in a \ik{galvanostatically discharging} pDiTBuS film \ik{with $I=-10~\muup A$}. The electric potential of the film $E$ was measured with respect to the Ag/AgNO$_3$ RE. \ik{The number of injected (negative) elementary charges \rs{and the corresponding concentration of charges $n_C$ were} determined from the drawn capacity}. The average spin concentration $\langle n \rangle$ is the ratio between the number of spins measured with quantitative cwEPR and the volume of the film determined by integrating the cyclic voltammogram. $C$ is the local spin concentration in the film \ik{estimated} with \q{p}EPR as described in text.}
-	
-	\label{tab:Table1}	
-	
-	
-\end{table*}
-
-\subsection{Formation of Singlet Spin States in a Reduced Cathode Film}
-The number of electrons left in the film were determined with the Coulomb counting from the galvanostatic discharge curves shown in Figure~\ref{fig:Figure_S27}. The number of electron spins detected with cwEPR is close to the Coulomb counting for high SoC, that corresponds to lower spin concentrations. However, for low SoC, the difference in the number of electrons measured with the Coulomb counting and with quantitative cwEPR is dramatic: up to 70\% of the electrons in the discharged film are EPR silent. The absence of cwEPR signal from the majority of the electrons indicates that their spins pair up in singlet (S=0) EPR silent states. The singlet spin pairs follow Bose statistics and can occupy the same quantum state which is favorable for the charge transport. The formation of singlet states was detected only in low SoC.
+\begin{figure}[!ht]
+\center
+	\includegraphics[width=0.8\textwidth]{./operando_epr/figures/backbone/NiMeOS_lyra_overnight_RT.png}
+	\caption{Potential-dependent operando cwEPR spectra of a NiMeOSalen cathode film measured at room temperature.}
+	\label{fig:cwEPR_RT_NiSalen_OPERANDO}
+\end{figure}
 
 \section{Monitoring of Degradation Processes}
 The operando monitoring of EPR spectra in pDiTS cells has revealed that the amount of paramagnetic species reduces upon the cycling. The cwEPR spectra during one charge-discharge cycle of two different pDiTS cells are shown in Figure~\ref{fig:operando_degradation}. Both datasets show a significant amount of the three-line structure in the oxidised (fully charged) state, that corresponds to the the release of dilute nitroxide radicals from the polymer film to the electrolyte. The fact that the released species exhibit a 3-line structure and not a 5-line structure excludes the release of the di-TEMPO (DiTS) monomers and suggests that individual TEMPO$^{\bullet}$ fragments are being detached from the film. Therefore, it was found that it is the molecular degradation of DiTS that is responsible for the loss of cell's capacity and not the decomposition of the polymer film into the monomer fragments. The overall EPR signal intensity decreases for both samples after the charge-discharge cycle. The spectral deconvolution with quantitative analysis of the individual components has revealed that the released fragments do not explain the overall loss of the signal intensity after the cycle.\\
@@ -475,7 +387,7 @@ The cwEPR spectra recorded at 150~K are shown in Fig.~\ref{fig:Figure_7}b for a 
 Based on the p-DiTS and p-NiMeOSalen ex-situ studies it is clear that both the TEMPO and NiSalen backbone are redox active, as expected. However, we neither see backbone-related EPR signals in the room-temperature in-operando measurement (Section \ref{sec:in_operando}) nor in the low-temperature ex-situ experiment (Fig.~\ref{fig:Figure_7}a) performed on p-DiTS films. The reason for the absence of a clear NiSalen signal in p-DiTS is possibly related to the formation of diamagnetic species or the depletion of polarons on the backbone due to Coulomb repulsion as mentioned before.
 
 
-\subsection{Tube Based Cells}
+\subsection{Tube-Based Electrochemical Cells}
 
 \begin{figure}[h]
 \center
@@ -501,7 +413,90 @@ Based on the p-DiTS and p-NiMeOSalen ex-situ studies it is clear that both the T
 \end{figure}
 
 
+\section{EPR-Detected State Of Charge}
+\label{sec:ESOC}
 
+The SoC of the film determined with Coulomb counting were compared to quantitative cwEPR to directly relate the \ik{number of charges, injected into the film upon charging}\rs{,} to the number of paramagnetic centres in it. We refer to the \ik{fraction} of spins removed from the \ik{fully discharged} film \ik{to reach} a given SoC as the EPR-detected state of charge, or ESOC. The fully discharged film has the maximum number of spins and its ESOC is 0\%. ESOC at other SoC are determined as the fraction of the missing spins with respect to ESOC 0\%. ESOC of 95\% \rs{thus} corresponds to the oxidation state where only 5\% of the \ik{initially present} spins are left in the film. The cwEPR spectra were recorded for the listed SoC\rs{,} and the corresponding numbers of spins were calculated from the double integrals of the spectra. The integrated spectra and the experimental details are shown in the ESI, Section~\ref{si:ESOC}. \ik{The injected charges, detected spins and} ESOC values are counted for each SoC in Table~\ref{tab:Table1}. The average spin concentration in the film \rs{$\langle n\rangle$} at each ESOC was calculated from the corresponding number of spins and the estimated volume of the film of $\left(1.3\pm0.6\right)\times10^{-5}$cm$^{3}$.
+
+
+\begin{table*}[!ht]
+
+	\begin{adjustbox}{max width=\textwidth}
+	 
+    \begin{tblr}{ |r|c|c|c|c|c|c|c|c|}
+        \toprule
+E [mV] & 
+SoC & 
+ESOC &
+capacity drawn [$\muup$Ah]& 
+\ik{charges injected}&
+spins \ik{detected}&
+$n_{C}$~[cm$^{-3}$]&
+$\langle n \rangle$~[cm$^{-3}$]&
+$C$~[cm$^{-3}$] \\
+		
+\midrule
+
+$ 590 \pm 5$&
+$98\%$&
+$(95\pm1)\%$&
+\ik{$0.020\pm0.005$}&
+\q{$(5\pm1)\times10^{14}$}&
+\q{$(4\pm1)\times10^{14}$}&
+\q{$(3\pm2)\times10^{19}$}&
+\q{$(3\pm2)\times10^{19}$}&
+\q{$>1\times10^{19}$}\\
+
+\addlinespace[-0.5ex]
+    
+$ 500 \pm 5$&
+$96\%$&
+$(85\pm2)\%$&
+\ik{$0.060\pm0.005$}&
+\ik{$(1.4\pm0.1)\times10^{15}$}&
+$(1.1\pm0.1)\times10^{15}$&
+\ik{$(1.0\pm0.5)\times10^{20}$}&
+\q{$(8\pm4)\times10^{19}$}&
+\q{$>3\times10^{19}$}\\
+
+\addlinespace[-0.5ex]
+
+$ 430 \pm 5$&
+$65\%$&
+$(49\pm3)\%$& 
+\ik{$0.480\pm0.005$}&
+\ik{$(1.07\pm0.01)\times10^{16}$}&
+$(3.5\pm0.2)\times10^{15}$&
+\q{$(8\pm4)\times10^{20}$}&
+\q{$(3\pm2)\times10^{20}$}&
+$-$\\
+
+\addlinespace[-0.5ex]
+
+$ -200\pm 5$&
+$0\%$&
+$(0\pm5)\%$& 
+\ik{$1.360\pm0.005$}&
+\ik{$(3.05\pm0.01)\times10^{16}$}&
+$(6.9\pm0.4)\times10^{15}$&
+\q{$(2\pm1)\times10^{21}$}& %0.0346    0.1037    0.8297    2.3509
+\q{$(5\pm3)\times10^{20}$}&
+$-$\\    
+
+        \bottomrule
+    \end{tblr}
+	\end{adjustbox}
+	
+	
+\caption{EPR-detected state of charge, \ik{Coulomb counting} and the corresponding spin concentrations in a \ik{galvanostatically discharging} pDiTBuS film \ik{with $I=-10~\muup A$}. The electric potential of the film $E$ was measured with respect to the Ag/AgNO$_3$ RE. \ik{The number of injected (negative) elementary charges \rs{and the corresponding concentration of charges $n_C$ were} determined from the drawn capacity}. The average spin concentration $\langle n \rangle$ is the ratio between the number of spins measured with quantitative cwEPR and the volume of the film determined by integrating the cyclic voltammogram. $C$ is the local spin concentration in the film \ik{estimated} with \q{p}EPR as described in text.}
+	
+	\label{tab:Table1}	
+	
+	
+\end{table*}
+
+\subsection{Formation of Singlet Spin States in a Discharged Cathode}
+The number of electrons left in the film were determined with the Coulomb counting from the galvanostatic discharge curves shown in Figure~\ref{fig:Figure_S27}. The number of electron spins detected with cwEPR is close to the Coulomb counting for high SoC, that corresponds to lower spin concentrations. However, for low SoC, the difference in the number of electrons measured with the Coulomb counting and with quantitative cwEPR is dramatic: up to 70\% of the electrons in the discharged film are EPR silent. The absence of cwEPR signal from the majority of the electrons indicates that their spins pair up in singlet (S=0) EPR silent states. The singlet spin pairs follow Bose statistics and can occupy the same quantum state which is favorable for the charge transport. The formation of singlet states was detected only in low SoC.
 
 
 
