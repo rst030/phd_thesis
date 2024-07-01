@@ -63,6 +63,11 @@ Robert Bittl and Stefan Weber.
 \newblock {\em Biochimica et Biophysica Acta - Bioenergetics}, 1707:117--126,
   2005.
 
+\bibitem{Bloch_1946}
+F~Bloch.
+\newblock Nuclear induction.
+\newblock {\em Physical Review}, 70:460--474, 1946.
+
 \bibitem{Boiziau1988}
 C.~Boiziau and G.~Lecayon.
 \newblock Adhesion of polymers to metals: A review of the results obtained
@@ -296,6 +301,14 @@ Q~Huang, E~D Walter, L~Cosimbescu, D~Choi, and J~P Lemmon.
   multi-electron redox reaction for organic radical cathodes.
 \newblock {\em Journal of Power Sources}, 306:812--816, 2016.
 
+\bibitem{ilott2016_pnas}
+Andrew~J. Ilott, Mohaddese Mohammadi, Hee~Jung Chang, Clare~P. Grey, and Alexej
+  Jerschow.
+\newblock Real-time 3d imaging of microstructure growth in battery cells using
+  indirect mri.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 113:10779--10784, 9 2016.
+
 \bibitem{Jacobs2022}
 Ian~E. Jacobs, Yue Lin, Yuxuan Huang, Xinglong Ren, Dimitrios Simatos, Chen
   Chen, Dion Tjhe, Martin Statz, Lianglun Lai, Peter~A. Finn, William~G. Neal,
@@ -472,6 +485,13 @@ Praveen Kumar~Reddy Maddikunta, Gautam Srivastava, Thippa~Reddy Gadekallu,
   Natarajan Deepa, and Prabadevi Boopathy.
 \newblock Predictive model for battery life in iot networks.
 \newblock {\em IET Intelligent Transport Systems}, 14:1388--1395, 2020.
+
+\bibitem{mccamey2006_apl}
+D.~R. McCamey, H.~Huebl, M.~S. Brandt, W.~D. Hutchison, J.~C. McCallum, R.~G.
+  Clark, and A.~R. Hamilton.
+\newblock Electrically detected magnetic resonance in ion-implanted si:p
+  nanostructures.
+\newblock {\em Applied Physics Letters}, 89, 2006.
 
 \bibitem{Meier2013}
 Christoph Meier, Jan Behrends, Christian Teutloff, Oleksandr Astakhov,

@@ -1,10 +1,21 @@
 This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: diss_kulikov.aux
+A level-1 auxiliary file: summary/list_of_abbreviations.aux
 A level-1 auxiliary file: introduction/introduction.aux
 A level-1 auxiliary file: epr_basics/epr_basics.aux
 A level-1 auxiliary file: materials/materials.aux
 A level-1 auxiliary file: operando_epr/operando_epr.aux
+Case mismatch error between cite keys vereshchagin2020 and Vereshchagin2020
+---line 74 of file operando_epr/operando_epr.aux
+ : \citation{vereshchagin2020
+ :                           }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys vereshchagin2020 and Vereshchagin2020
+---line 75 of file operando_epr/operando_epr.aux
+ : \citation{vereshchagin2020
+ :                           }
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: pulse/pulse.aux
 A level-1 auxiliary file: outlook/outlook.aux
 The style file: plain.bst
@@ -14,57 +25,57 @@ A level-1 auxiliary file: appendix/C-Samples.aux
 A level-1 auxiliary file: appendix/D-Experimental.aux
 Database file #1: Bibliography.bib
 Warning--entry type for "Eastman1970" isn't style-file defined
---line 44 of file Bibliography.bib
+--line 79 of file Bibliography.bib
 Warning--entry type for "Luca2015" isn't style-file defined
---line 51 of file Bibliography.bib
+--line 86 of file Bibliography.bib
 Warning--entry type for "Bhojane2022" isn't style-file defined
---line 65 of file Bibliography.bib
+--line 100 of file Bibliography.bib
 Warning--entry type for "Pang2021" isn't style-file defined
---line 78 of file Bibliography.bib
+--line 113 of file Bibliography.bib
 Warning--entry type for "Liu2016" isn't style-file defined
---line 121 of file Bibliography.bib
+--line 156 of file Bibliography.bib
 Warning--entry type for "Tarascon2001" isn't style-file defined
---line 158 of file Bibliography.bib
+--line 193 of file Bibliography.bib
 Warning--entry type for "Neueder2014" isn't style-file defined
---line 206 of file Bibliography.bib
+--line 241 of file Bibliography.bib
 Warning--entry type for "cambridge" isn't style-file defined
---line 221 of file Bibliography.bib
+--line 256 of file Bibliography.bib
 Warning--entry type for "Koehler_book" isn't style-file defined
---line 255 of file Bibliography.bib
+--line 290 of file Bibliography.bib
 Warning--entry type for "Hu2021" isn't style-file defined
---line 325 of file Bibliography.bib
+--line 360 of file Bibliography.bib
 Warning--entry type for "NIST" isn't style-file defined
---line 376 of file Bibliography.bib
+--line 411 of file Bibliography.bib
 Warning--entry type for "Fang_2021" isn't style-file defined
---line 416 of file Bibliography.bib
+--line 451 of file Bibliography.bib
 Warning--entry type for "Wu_2023" isn't style-file defined
---line 493 of file Bibliography.bib
+--line 528 of file Bibliography.bib
 Warning--entry type for "He_2022" isn't style-file defined
---line 560 of file Bibliography.bib
+--line 595 of file Bibliography.bib
 Warning--entry type for "DOM" isn't style-file defined
---line 583 of file Bibliography.bib
+--line 618 of file Bibliography.bib
 Warning--entry type for "einstein_s_rel" isn't style-file defined
---line 633 of file Bibliography.bib
+--line 668 of file Bibliography.bib
 Warning--entry type for "Rohland_2021" isn't style-file defined
---line 678 of file Bibliography.bib
-Repeated entry---line 737 of file Bibliography.bib
+--line 713 of file Bibliography.bib
+Repeated entry---line 772 of file Bibliography.bib
  : @generic{Rohland_2021
  :                      ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "Lee_1993" isn't style-file defined
---line 750 of file Bibliography.bib
+--line 785 of file Bibliography.bib
 Warning--entry type for "Koezuka_1987" isn't style-file defined
---line 760 of file Bibliography.bib
+--line 795 of file Bibliography.bib
 Warning--entry type for "Shirakawa_1977" isn't style-file defined
---line 821 of file Bibliography.bib
+--line 856 of file Bibliography.bib
 Warning--entry type for "salikhov_2015" isn't style-file defined
---line 949 of file Bibliography.bib
-Repeated entry---line 1442 of file Bibliography.bib
+--line 984 of file Bibliography.bib
+Repeated entry---line 1477 of file Bibliography.bib
  : @article{Ouyang2020
  :                    ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "Casado2021" isn't style-file defined
---line 2050 of file Bibliography.bib
+--line 2085 of file Bibliography.bib
 Warning--I didn't find a database entry for "Novozhilova_2009Vereshchagin2020"
 Warning--I didn't find a database entry for "vereshchagin2020_battandsupercaps"
 Warning--I didn't find a database entry for "wadhawan2007_encofelectrochem"
@@ -77,60 +88,57 @@ Warning--I didn't find a database entry for "Stoll_2006"
 Warning--I didn't find a database entry for "Anderson1953"
 Warning--I didn't find a database entry for "spin_counting_tb"
 Warning--I didn't find a database entry for "SI:Matlab"
-Warning--I didn't find a database entry for "Kulikov2022_SI"
-Warning--I didn't find a database entry for "si_vereshchagin2020_battandsupercaps"
+Warning--I didn't find a database entry for "si_vereshchagin2020"
 Warning--I didn't find a database entry for "toybenshlak2019_isrjchem"
 Warning--I didn't find a database entry for "szczuka2021_commmat"
 Warning--I didn't find a database entry for "bordignon2017_emagres"
 Warning--I didn't find a database entry for "muench2021_jps"
-Warning--I didn't find a database entry for "mccamey2006_apl"
 Warning--I didn't find a database entry for "sathiya2015_natcomm"
 Warning--I didn't find a database entry for "dutoit2021_natcomm"
 Warning--I didn't find a database entry for "geng2021_chemofmat"
-Warning--I didn't find a database entry for "ilott2016_pnas"
 Warning--I didn't find a database entry for "si_Wittmann2018_JMagnReson"
 Warning--can't use both author and editor fields in Casado_2021_book
 Warning--empty publisher in Chatgilialoglu2012
 Warning--empty booktitle in nishide_2009
-You've used 145 entries,
+You've used 148 entries,
             2118 wiz_defined-function locations,
-            1441 strings with 34322 characters,
-and the built_in function-call counts, 53963 in all, are:
-= -- 4907
-> -- 3576
+            1457 strings with 34884 characters,
+and the built_in function-call counts, 55093 in all, are:
+= -- 5012
+> -- 3649
 < -- 5
-+ -- 1432
-- -- 1266
-* -- 4341
-:= -- 9405
-add.period$ -- 413
-call.type$ -- 145
-change.case$ -- 1062
++ -- 1461
+- -- 1292
+* -- 4434
+:= -- 9605
+add.period$ -- 422
+call.type$ -- 148
+change.case$ -- 1084
 chr.to.int$ -- 0
-cite$ -- 148
-duplicate$ -- 1532
-empty$ -- 3595
-format.name$ -- 1266
-if$ -- 10807
+cite$ -- 151
+duplicate$ -- 1564
+empty$ -- 3668
+format.name$ -- 1292
+if$ -- 11031
 int.to.chr$ -- 0
-int.to.str$ -- 145
-missing$ -- 133
-newline$ -- 706
-num.names$ -- 290
-pop$ -- 995
+int.to.str$ -- 148
+missing$ -- 136
+newline$ -- 721
+num.names$ -- 296
+pop$ -- 1011
 preamble$ -- 1
-purify$ -- 923
+purify$ -- 942
 quote$ -- 0
-skip$ -- 1089
+skip$ -- 1111
 stack$ -- 0
-substring$ -- 2973
-swap$ -- 169
+substring$ -- 3042
+swap$ -- 172
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 560
+type$ -- 572
 warning$ -- 3
-while$ -- 398
-width$ -- 148
-write$ -- 1525
-(There were 2 error messages)
+while$ -- 406
+width$ -- 151
+write$ -- 1558
+(There were 4 error messages)
