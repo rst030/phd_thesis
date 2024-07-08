@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  1 JUL 2024 05:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.15)  9 JUL 2024 01:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1016,35 +1016,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--209
 
  []
 
-[24 <./epr_basics/fse.pdf>]
-<./pulse/figures/pEPR_spectrometer_diagram.pdf, id=142, 368.19757pt x 196.74377
+[24 <./epr_basics/fse.pdf>] [25]
+<./pulse/figures/pEPR_spectrometer_diagram.pdf, id=146, 368.19757pt x 196.74377
 pt>
 File: ./pulse/figures/pEPR_spectrometer_diagram.pdf Graphic file (type pdf)
 <use ./pulse/figures/pEPR_spectrometer_diagram.pdf>
 Package pdftex.def Info: ./pulse/figures/pEPR_spectrometer_diagram.pdf  used on
- input line 223.
+ input line 225.
 (pdftex.def)             Requested size: 418.25368pt x 223.49466pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [25] [26 <./pulse/figures/pEPR_spectrometer_diagram.pdf>]
+ [26 <./pulse/figures/pEPR_spectrometer_diagram.pdf>]) [27]
 \openout2 = `materials/materials.aux'.
 
+ (./materials/materials.tex
+[28
 
-(./materials/materials.tex
+
+
+
+]
 Chapter 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
 
-[27
-
-
-
-
-]
+[29]
 Underfull \hbox (badness 10000) in paragraph at lines 14--16
 
  []
@@ -1062,12 +1061,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
 Underfull \vbox (badness 2680) has occurred while \output is active []
 
- [28]
+ [30]
 Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-<./electrochemistry/figures/materials/electrolytes.pdf, id=158, 3432.10405pt x 
+<./electrochemistry/figures/materials/electrolytes.pdf, id=164, 3432.10405pt x 
 1799.95251pt>
 File: ./electrochemistry/figures/materials/electrolytes.pdf Graphic file (type 
 pdf)
@@ -1078,12 +1077,12 @@ Package pdftex.def Info: ./electrochemistry/figures/materials/electrolytes.pdf
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[29]
+[31]
 Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
-[30 <./electrochemistry/figures/materials/electrolytes.pdf>]
+[32 <./electrochemistry/figures/materials/electrolytes.pdf>]
 Overfull \hbox (8.25038pt too wide) in paragraph at lines 54--55
  \OT1/txr/bx/n/12 State Of Health[] \OT1/txr/m/n/12 The ca-pac-ity of a bat-ter
 y may de-crease upon re-peated charge-discharge
@@ -1097,8 +1096,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31]
-<./electrochemistry/figures/CV_pDiTBuS.pdf, id=186, 864.10083pt x 481.8pt>
+ [33]
+<./electrochemistry/figures/CV_pDiTBuS.pdf, id=192, 864.10083pt x 481.8pt>
 File: ./electrochemistry/figures/CV_pDiTBuS.pdf Graphic file (type pdf)
 <use ./electrochemistry/figures/CV_pDiTBuS.pdf>
 Package pdftex.def Info: ./electrochemistry/figures/CV_pDiTBuS.pdf  used on inp
@@ -1109,8 +1108,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-[32 <./electrochemistry/figures/CV_pDiTBuS.pdf>]
-<./electrochemistry/figures/GCD_principle_pDiTBuS.pdf, id=200, 864.10083pt x 48
+[34 <./electrochemistry/figures/CV_pDiTBuS.pdf>]
+<./electrochemistry/figures/GCD_principle_pDiTBuS.pdf, id=206, 864.10083pt x 48
 1.8pt>
 File: ./electrochemistry/figures/GCD_principle_pDiTBuS.pdf Graphic file (type p
 df)
@@ -1127,24 +1126,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
-[33] [34 <./electrochemistry/figures/GCD_principle_pDiTBuS.pdf>]
+[35] [36 <./electrochemistry/figures/GCD_principle_pDiTBuS.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
-<./electrochemistry/figures/ethylene.png, id=228, 1149.5447pt x 230.36063pt>
+<./electrochemistry/figures/ethylene.png, id=234, 1149.5447pt x 230.36063pt>
 File: ./electrochemistry/figures/ethylene.png Graphic file (type png)
 <use ./electrochemistry/figures/ethylene.png>
 Package pdftex.def Info: ./electrochemistry/figures/ethylene.png  used on input
  line 104.
 (pdftex.def)             Requested size: 355.51817pt x 71.24232pt.
-<./electrochemistry/figures/conjugation.pdf, id=229, 491.5879pt x 443.78177pt>
+<./electrochemistry/figures/conjugation.pdf, id=235, 491.5879pt x 443.78177pt>
 File: ./electrochemistry/figures/conjugation.pdf Graphic file (type pdf)
 <use ./electrochemistry/figures/conjugation.pdf>
 Package pdftex.def Info: ./electrochemistry/figures/conjugation.pdf  used on in
 put line 112.
 (pdftex.def)             Requested size: 188.21288pt x 169.91187pt.
-<./electrochemistry/figures/bandgap.pdf, id=230, 698.94904pt x 582.27199pt>
+<./electrochemistry/figures/bandgap.pdf, id=236, 698.94904pt x 582.27199pt>
 File: ./electrochemistry/figures/bandgap.pdf Graphic file (type pdf)
 <use ./electrochemistry/figures/bandgap.pdf>
 Package pdftex.def Info: ./electrochemistry/figures/bandgap.pdf  used on input 
@@ -1163,7 +1162,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
-[35 <./electrochemistry/figures/ethylene.png>]
+[37 <./electrochemistry/figures/ethylene.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
@@ -1173,13 +1172,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
-[36 <./electrochemistry/figures/conjugation.pdf> <./electrochemistry/figures/ba
+[38 <./electrochemistry/figures/conjugation.pdf> <./electrochemistry/figures/ba
 ndgap.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./electrochemistry/figures/bandgap.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<./electrochemistry/figures/hopping.png, id=245, 653.3208pt x 211.7511pt>
+<./electrochemistry/figures/hopping.png, id=252, 653.3208pt x 211.7511pt>
 File: ./electrochemistry/figures/hopping.png Graphic file (type png)
 <use ./electrochemistry/figures/hopping.png>
 Package pdftex.def Info: ./electrochemistry/figures/hopping.png  used on input 
@@ -1191,8 +1190,8 @@ Overfull \hbox (8.1416pt too wide) in paragraph at lines 139--140
 .7[] a) is a small molecule
  []
 
-[37 <./electrochemistry/figures/hopping.png>]
-<./electrochemistry/figures/materials/molecules.pdf, id=252, 363.88467pt x 161.
+[39 <./electrochemistry/figures/hopping.png>]
+<./electrochemistry/figures/materials/molecules.pdf, id=258, 363.88467pt x 161.
 81473pt>
 File: ./electrochemistry/figures/materials/molecules.pdf Graphic file (type pdf
 )
@@ -1206,20 +1205,20 @@ Overfull \hbox (10.46962pt too wide) in paragraph at lines 150--151
 trate par-tic-u-larly promis-
  []
 
-[38 <./electrochemistry/figures/materials/molecules.pdf>]
+[40 <./electrochemistry/figures/materials/molecules.pdf>]
 Overfull \hbox (15.77359pt too wide) in paragraph at lines 163--165
 \OT1/txr/m/n/12 Redox con-duc-tive con-ju-gated poly-mers con-tain-ing TEMPO (2
 ,2,6,6-tetramethylpiperidine-
  []
 
-[39]
-<./introduction/figures/Figure_1.pdf, id=270, 586.62135pt x 422.31458pt>
+[41]
+<./introduction/figures/Figure_1.pdf, id=276, 586.62135pt x 422.31458pt>
 File: ./introduction/figures/Figure_1.pdf Graphic file (type pdf)
 <use ./introduction/figures/Figure_1.pdf>
 Package pdftex.def Info: ./introduction/figures/Figure_1.pdf  used on input lin
 e 168.
 (pdftex.def)             Requested size: 292.77629pt x 210.77657pt.
-<./electrochemistry/figures/materials/DiTS_SEM.png, id=271, 466.8642pt x 320.15
+<./electrochemistry/figures/materials/DiTS_SEM.png, id=277, 466.8642pt x 320.15
 61pt>
 File: ./electrochemistry/figures/materials/DiTS_SEM.png Graphic file (type png)
 
@@ -1231,7 +1230,7 @@ d on input line 177.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./electrochemistry/figures/DITBUS_DEPO.pdf, id=272, 780.83829pt x 929.91324pt>
+<./electrochemistry/figures/DITBUS_DEPO.pdf, id=278, 780.83829pt x 929.91324pt>
 
 File: ./electrochemistry/figures/DITBUS_DEPO.pdf Graphic file (type pdf)
 <use ./electrochemistry/figures/DITBUS_DEPO.pdf>
@@ -1242,7 +1241,7 @@ put line 186.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Citation `Novozhilova_2009Vereshchagin2020' on page 40 undefined
+LaTeX Warning: Citation `Novozhilova_2009Vereshchagin2020' on page 42 undefined
  on input line 191.
 
 
@@ -1253,7 +1252,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 191--192
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40 <./introduction/figures/Figure_1.pdf>]
+ [42 <./introduction/figures/Figure_1.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 193--194
 
  []
@@ -1261,8 +1260,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 193--194
 
 Underfull \vbox (badness 1308) has occurred while \output is active []
 
- [41 <./electrochemistry/figures/materials/DiTS_SEM.png>]
-<./electrochemistry/figures/electropolymerization_reaction.pdf, id=311, 1783.67
+ [43 <./electrochemistry/figures/materials/DiTS_SEM.png>]
+<./electrochemistry/figures/electropolymerization_reaction.pdf, id=318, 1783.67
 159pt x 432.67795pt>
 File: ./electrochemistry/figures/electropolymerization_reaction.pdf Graphic fil
 e (type pdf)
@@ -1272,50 +1271,50 @@ ion.pdf  used on input line 197.
 (pdftex.def)             Requested size: 418.25368pt x 101.45485pt.
 
 
-LaTeX Warning: Citation `vereshchagin2020_battandsupercaps' on page 42 undefine
+LaTeX Warning: Citation `vereshchagin2020_battandsupercaps' on page 44 undefine
 d on input line 209.
 
-[42 <./electrochemistry/figures/DITBUS_DEPO.pdf>]
+[44 <./electrochemistry/figures/DITBUS_DEPO.pdf>]
 
-LaTeX Warning: Reference `Release' on page 43 undefined on input line 213.
+LaTeX Warning: Reference `Release' on page 45 undefined on input line 213.
 
 
-LaTeX Warning: Reference `Degradation_study' on page 43 undefined on input line
+LaTeX Warning: Reference `Degradation_study' on page 45 undefined on input line
  217.
 
-[43 <./electrochemistry/figures/electropolymerization_reaction.pdf>]
-<./electrochemistry/figures/GCD_pDiTBuS.pdf, id=337, 610.28pt x 476.78125pt>
+[45 <./electrochemistry/figures/electropolymerization_reaction.pdf>]
+<./electrochemistry/figures/GCD_pDiTBuS.pdf, id=344, 610.28pt x 476.78125pt>
 File: ./electrochemistry/figures/GCD_pDiTBuS.pdf Graphic file (type pdf)
 <use ./electrochemistry/figures/GCD_pDiTBuS.pdf>
 Package pdftex.def Info: ./electrochemistry/figures/GCD_pDiTBuS.pdf  used on in
 put line 222.
 (pdftex.def)             Requested size: 313.69025pt x 245.07584pt.
- [44 <./electrochemistry/figures/GCD_pDiTBuS.pdf>]
-<./pulse/figures/Figure_S3.pdf, id=346, 602.25pt x 481.8pt>
+ [46 <./electrochemistry/figures/GCD_pDiTBuS.pdf>]
+<./pulse/figures/Figure_S3.pdf, id=352, 602.25pt x 481.8pt>
 File: ./pulse/figures/Figure_S3.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S3.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S3.pdf  used on input line 233.
 
 (pdftex.def)             Requested size: 355.51817pt x 284.42126pt.
-<./pulse/figures/Figure_S27.pdf, id=347, 890.32625pt x 431.6125pt>
+<./pulse/figures/Figure_S27.pdf, id=353, 890.32625pt x 431.6125pt>
 File: ./pulse/figures/Figure_S27.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S27.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S27.pdf  used on input line 240
 .
 (pdftex.def)             Requested size: 418.25368pt x 202.75911pt.
- [45 <./pulse/figures/Figure_S3.pdf>]
+ [47 <./pulse/figures/Figure_S3.pdf>]
 Overfull \hbox (18.01312pt too wide) in paragraph at lines 258--258
 []\OT1/txr/bx/n/17.28 Electrochemical Cells for Operando EPR spec-troscopy 
  []
 
 
-LaTeX Warning: Citation `wadhawan2007_encofelectrochem' on page 46 undefined on
+LaTeX Warning: Citation `wadhawan2007_encofelectrochem' on page 48 undefined on
  input line 260.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46 <./pulse/figures/Figure_S27.pdf>]
+ [48 <./pulse/figures/Figure_S27.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 271--272
 
  []
@@ -1326,9 +1325,9 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
 File: ts1txr.fd 2000/12/15 v3.1
 )
 
-LaTeX Warning: Citation `Safari2011' on page 47 undefined on input line 276.
+LaTeX Warning: Citation `Safari2011' on page 49 undefined on input line 276.
 
-<./operando_epr/figures/Flat_tube_setup.pdf, id=358, 2817.02437pt x 3237.09375p
+<./operando_epr/figures/Flat_tube_setup.pdf, id=364, 2817.02437pt x 3237.09375p
 t>
 File: ./operando_epr/figures/Flat_tube_setup.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/Flat_tube_setup.pdf>
@@ -1338,16 +1337,16 @@ put line 283.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47]
+ [49]
 Overfull \vbox (48.94896pt too high) has occurred while \output is active []
 
 
-[48 <./operando_epr/figures/Flat_tube_setup.pdf>]
+[50 <./operando_epr/figures/Flat_tube_setup.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 298--299
 
  []
 
-<./operando_epr/figures/spins_at_work/Figure_S1.pdf, id=6048, 2747.76563pt x 10
+<./operando_epr/figures/spins_at_work/Figure_S1.pdf, id=6055, 2747.76563pt x 10
 68.99374pt>
 File: ./operando_epr/figures/spins_at_work/Figure_S1.pdf Graphic file (type pdf
 )
@@ -1363,8 +1362,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 307--308
 
  []
 
-[49]
-<./operando_epr/figures/Q_factors_mod_tube.pdf, id=6053, 502.87875pt x 601.2462
+[51]
+<./operando_epr/figures/Q_factors_mod_tube.pdf, id=6059, 502.87875pt x 601.2462
 5pt>
 File: ./operando_epr/figures/Q_factors_mod_tube.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/Q_factors_mod_tube.pdf>
@@ -1386,9 +1385,9 @@ Underfull \hbox (badness 2495) in paragraph at lines 317--317
 \OT1/txr/m/n/12 18$ mm, where the sig-nal
  []
 
-[50 <./operando_epr/figures/spins_at_work/Figure_S1.pdf>] [51 <./operando_epr/f
+[52 <./operando_epr/figures/spins_at_work/Figure_S1.pdf>] [53 <./operando_epr/f
 igures/Q_factors_mod_tube.pdf>]
-<./operando_epr/figures/spins_at_work/Figure_S2.pdf, id=6126, 1264.725pt x 676.
+<./operando_epr/figures/spins_at_work/Figure_S2.pdf, id=6132, 1264.725pt x 676.
 5275pt>
 File: ./operando_epr/figures/spins_at_work/Figure_S2.pdf Graphic file (type pdf
 )
@@ -1396,31 +1395,31 @@ File: ./operando_epr/figures/spins_at_work/Figure_S2.pdf Graphic file (type pdf
 Package pdftex.def Info: ./operando_epr/figures/spins_at_work/Figure_S2.pdf  us
 ed on input line 337.
 (pdftex.def)             Requested size: 418.25368pt x 223.72961pt.
- [52 <./operando_epr/figures/spins_at_work/Figure_S2.pdf>]
+ [54 <./operando_epr/figures/spins_at_work/Figure_S2.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 353--354
 
  []
 
 
-LaTeX Warning: Citation `Golovisnina2023' on page 53 undefined on input line 35
+LaTeX Warning: Citation `Golovisnina2023' on page 55 undefined on input line 35
 9.
 
-<./operando_epr/figures/sandwich/sandwich.pdf, id=6159, 1680.23082pt x 464.8973
+<./operando_epr/figures/sandwich/sandwich.pdf, id=6165, 1680.23082pt x 464.8973
 1pt>
 File: ./operando_epr/figures/sandwich/sandwich.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/sandwich/sandwich.pdf>
 Package pdftex.def Info: ./operando_epr/figures/sandwich/sandwich.pdf  used on 
 input line 363.
 (pdftex.def)             Requested size: 418.25368pt x 115.72038pt.
-[53]
-<./operando_epr/figures/solid/solid_cell.pdf, id=6163, 3248.81136pt x 1585.3221
+[55]
+<./operando_epr/figures/solid/solid_cell.pdf, id=6170, 3248.81136pt x 1585.3221
 6pt>
 File: ./operando_epr/figures/solid/solid_cell.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/solid/solid_cell.pdf>
 Package pdftex.def Info: ./operando_epr/figures/solid/solid_cell.pdf  used on i
 nput line 372.
 (pdftex.def)             Requested size: 418.25368pt x 204.09134pt.
-<./operando_epr/figures/solid/separate_deposition.pdf, id=6164, 6738.97214pt x 
+<./operando_epr/figures/solid/separate_deposition.pdf, id=6171, 6738.97214pt x 
 2388.6177pt>
 File: ./operando_epr/figures/solid/separate_deposition.pdf Graphic file (type p
 df)
@@ -1432,7 +1431,7 @@ used on input line 380.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./operando_epr/figures/solid/current_density.pdf, id=6165, 1375.62871pt x 481.
+<./operando_epr/figures/solid/current_density.pdf, id=6172, 1375.62871pt x 481.
 8pt>
 File: ./operando_epr/figures/solid/current_density.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/solid/current_density.pdf>
@@ -1443,25 +1442,25 @@ Package pdftex.def Info: ./operando_epr/figures/solid/current_density.pdf  used
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `fig:Figure_S1' on page 54 undefined on input line 399
+LaTeX Warning: Reference `fig:Figure_S1' on page 56 undefined on input line 399
 .
 
 
-LaTeX Warning: Reference `si:ESOC' on page 54 undefined on input line 399.
+LaTeX Warning: Reference `si:ESOC' on page 56 undefined on input line 399.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 399--400
 
  []
 
-[54 <./operando_epr/figures/sandwich/sandwich.pdf> <./operando_epr/figures/soli
+[56 <./operando_epr/figures/sandwich/sandwich.pdf> <./operando_epr/figures/soli
 d/solid_cell.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./operando_epr/figures/solid/solid_cell
 .pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: Reference `fig:Figure_S2' on page 55 undefined on input line 401
+LaTeX Warning: Reference `fig:Figure_S2' on page 57 undefined on input line 401
 .
 
 
@@ -1469,7 +1468,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 401--402
 
  []
 
-[55 <./operando_epr/figures/solid/separate_deposition.pdf> <./operando_epr/figu
+[57 <./operando_epr/figures/solid/separate_deposition.pdf> <./operando_epr/figu
 res/solid/current_density.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./operando_epr/figures/solid/current_de
@@ -1480,7 +1479,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 413--416
 
  []
 
-<./electrochemistry/figures/band_diagram.pdf, id=6241, 901.39923pt x 412.65744p
+<./electrochemistry/figures/band_diagram.pdf, id=6247, 901.39923pt x 412.65744p
 t>
 File: ./electrochemistry/figures/band_diagram.pdf Graphic file (type pdf)
 <use ./electrochemistry/figures/band_diagram.pdf>
@@ -1495,12 +1494,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 425--426
 
  []
 
-[56]
+[58]
 Underfull \hbox (badness 10000) in paragraph at lines 427--428
 
  []
 
-<./electrochemistry/figures/transport_in_film.pdf, id=6245, 915.85313pt x 425.0
+<./electrochemistry/figures/transport_in_film.pdf, id=6251, 915.85313pt x 425.0
 3448pt>
 File: ./electrochemistry/figures/transport_in_film.pdf Graphic file (type pdf)
 <use ./electrochemistry/figures/transport_in_film.pdf>
@@ -1510,7 +1509,7 @@ Package pdftex.def Info: ./electrochemistry/figures/transport_in_film.pdf  used
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [57 <./electrochemistry/figures/band_diagram.pdf>] [58 <./electrochemistry/fi
+) [59 <./electrochemistry/figures/band_diagram.pdf>] [60 <./electrochemistry/fi
 gures/transport_in_film.pdf>]
 \openout2 = `operando_epr/operando_epr.aux'.
 
@@ -1521,7 +1520,7 @@ Overfull \hbox (15.57663pt too wide) in paragraph at lines 7--7
 []\OT1/txr/bx/n/17.28 cwEPR Spec-troscopy of Work-ing TEMPO-Salen Elec-
  []
 
-[59
+[61
 
 
 
@@ -1530,26 +1529,26 @@ Overfull \hbox (15.57663pt too wide) in paragraph at lines 7--7
 
 pdfTeX warning: /usr/bin/pdflatex (file ./operando_epr/figures/DITS_DFT.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./operando_epr/figures/DITS_DFT.pdf, id=6266, 945.5325pt x 616.3025pt>
+<./operando_epr/figures/DITS_DFT.pdf, id=6273, 945.5325pt x 616.3025pt>
 File: ./operando_epr/figures/DITS_DFT.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/DITS_DFT.pdf>
 Package pdftex.def Info: ./operando_epr/figures/DITS_DFT.pdf  used on input lin
 e 19.
 (pdftex.def)             Requested size: 418.25368pt x 272.62215pt.
 
-LaTeX Warning: Citation `ORCA' on page 60 undefined on input line 20.
+LaTeX Warning: Citation `ORCA' on page 62 undefined on input line 20.
 
 
-LaTeX Warning: Citation `ORCA' on page 60 undefined on input line 20.
+LaTeX Warning: Citation `ORCA' on page 62 undefined on input line 20.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `Carrington_solution_epr' on page 60 undefined on input
+LaTeX Warning: Citation `Carrington_solution_epr' on page 62 undefined on input
  line 27.
 
-<./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT.pdf, id=6267, 725.71124p
+<./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT.pdf, id=6274, 725.71124p
 t x 228.855pt>
 File: ./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT.pdf Graphic file (t
 ype pdf)
@@ -1560,7 +1559,7 @@ pdf  used on input line 31.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT_POWDER.pdf, id=6268, 725
+<./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT_POWDER.pdf, id=6275, 725
 .71124pt x 228.855pt>
 File: ./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT_POWDER.pdf Graphic 
 file (type pdf)
@@ -1571,7 +1570,7 @@ POWDER.pdf  used on input line 37.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_100mM_vs_p1mM_80K.pdf, id=6269, 725
+<./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_100mM_vs_p1mM_80K.pdf, id=6276, 725
 .71124pt x 228.855pt>
 File: ./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_100mM_vs_p1mM_80K.pdf Graphic 
 file (type pdf)
@@ -1582,15 +1581,15 @@ mM_80K.pdf  used on input line 44.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[60]
+[62]
 Underfull \vbox (badness 3029) has occurred while \output is active []
 
- [61 <./operando_epr/figures/DITS_DFT.pdf>]
+ [63 <./operando_epr/figures/DITS_DFT.pdf>]
 Underfull \vbox (badness 2970) has occurred while \output is active []
 
- [62 <./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT.pdf> <./operando_ep
+ [64 <./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT.pdf> <./operando_ep
 r/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT_POWDER.pdf>]
-<./operando_epr/figures/CRYO/S220104_CW.pdf, id=6659, 812.03375pt x 537.00626pt
+<./operando_epr/figures/CRYO/S220104_CW.pdf, id=6665, 812.03375pt x 537.00626pt
 >
 File: ./operando_epr/figures/CRYO/S220104_CW.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/CRYO/S220104_CW.pdf>
@@ -1602,34 +1601,34 @@ put line 81.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `fig:cwEPR_monoTEMPO_diTEMPO_POWDER, left' on page 63 
+LaTeX Warning: Reference `fig:cwEPR_monoTEMPO_diTEMPO_POWDER, left' on page 65 
 undefined on input line 85.
 
 
-LaTeX Warning: Reference `fig:cwEPR_monoTEMPO_diTEMPO_POWDER, right' on page 63
+LaTeX Warning: Reference `fig:cwEPR_monoTEMPO_diTEMPO_POWDER, right' on page 65
  undefined on input line 85.
 
 
 LaTeX Warning: Reference `fig:cwEPR_TEMPOL_High_Low_Concentrations, left' on pa
-ge 63 undefined on input line 85.
+ge 65 undefined on input line 85.
 
 
-LaTeX Warning: Citation `Siavash' on page 63 undefined on input line 85.
-
-
-LaTeX Warning: Reference `fig:cwEPR_TEMPOL_High_Low_Concentrations, right' on p
-age 63 undefined on input line 85.
+LaTeX Warning: Citation `Siavash' on page 65 undefined on input line 85.
 
 
 LaTeX Warning: Reference `fig:cwEPR_TEMPOL_High_Low_Concentrations, right' on p
-age 63 undefined on input line 87.
+age 65 undefined on input line 85.
 
-[63 <./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_100mM_vs_p1mM_80K.pdf>]
+
+LaTeX Warning: Reference `fig:cwEPR_TEMPOL_High_Low_Concentrations, right' on p
+age 65 undefined on input line 87.
+
+[65 <./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_100mM_vs_p1mM_80K.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 91.
 
-<./operando_epr/figures/CRYO/cw_sim_pDiTS_210318_700mV_2comp.pdf, id=6667, 481.
+<./operando_epr/figures/CRYO/cw_sim_pDiTS_210318_700mV_2comp.pdf, id=6673, 481.
 8pt x 316.18124pt>
 File: ./operando_epr/figures/CRYO/cw_sim_pDiTS_210318_700mV_2comp.pdf Graphic f
 ile (type pdf)
@@ -1641,7 +1640,7 @@ Package pdftex.def Info: ./operando_epr/figures/CRYO/cw_sim_pDiTS_210318_700mV_
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 99.
 
-<./operando_epr/figures/CRYO/S220106_p-DiTS_OX_80K_CW_SIM.pdf, id=6668, 909.397
+<./operando_epr/figures/CRYO/S220106_p-DiTS_OX_80K_CW_SIM.pdf, id=6674, 909.397
 5pt x 450.68375pt>
 File: ./operando_epr/figures/CRYO/S220106_p-DiTS_OX_80K_CW_SIM.pdf Graphic file
  (type pdf)
@@ -1649,17 +1648,17 @@ File: ./operando_epr/figures/CRYO/S220106_p-DiTS_OX_80K_CW_SIM.pdf Graphic file
 Package pdftex.def Info: ./operando_epr/figures/CRYO/S220106_p-DiTS_OX_80K_CW_S
 IM.pdf  used on input line 101.
 (pdftex.def)             Requested size: 418.25368pt x 207.28264pt.
-<./operando_epr/figures/CRYO/Figure_S7_new.pdf, id=6669, 646.415pt x 827.09pt>
+<./operando_epr/figures/CRYO/Figure_S7_new.pdf, id=6675, 646.415pt x 827.09pt>
 File: ./operando_epr/figures/CRYO/Figure_S7_new.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/CRYO/Figure_S7_new.pdf>
 Package pdftex.def Info: ./operando_epr/figures/CRYO/Figure_S7_new.pdf  used on
  input line 110.
 (pdftex.def)             Requested size: 418.25368pt x 535.15378pt.
 
-LaTeX Warning: Citation `Stoll_2006' on page 64 undefined on input line 111.
+LaTeX Warning: Citation `Stoll_2006' on page 66 undefined on input line 111.
 
 
-LaTeX Warning: Citation `Stoll_2006' on page 64 undefined on input line 111.
+LaTeX Warning: Citation `Stoll_2006' on page 66 undefined on input line 111.
 
 
 LaTeX Warning: Float too large for page by 79.29024pt on input line 113.
@@ -1667,7 +1666,7 @@ LaTeX Warning: Float too large for page by 79.29024pt on input line 113.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./operando_epr/figures/Cartoon_ALL.pdf, id=6670, 822.28464pt x 512.1496pt>
+<./operando_epr/figures/Cartoon_ALL.pdf, id=6676, 822.28464pt x 512.1496pt>
 File: ./operando_epr/figures/Cartoon_ALL.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/Cartoon_ALL.pdf>
 Package pdftex.def Info: ./operando_epr/figures/Cartoon_ALL.pdf  used on input 
@@ -1676,19 +1675,19 @@ line 120.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [64 <./operando_epr/figures/CRYO/S220104_CW.pdf>] [65 <./operando_epr/figures/
+ [66 <./operando_epr/figures/CRYO/S220104_CW.pdf>] [67 <./operando_epr/figures/
 CRYO/cw_sim_pDiTS_210318_700mV_2comp.pdf>]
 Overfull \vbox (125.13506pt too high) has occurred while \output is active []
 
 
-[66 <./operando_epr/figures/CRYO/S220106_p-DiTS_OX_80K_CW_SIM.pdf> <./operando_
+[68 <./operando_epr/figures/CRYO/S220106_p-DiTS_OX_80K_CW_SIM.pdf> <./operando_
 epr/figures/Cartoon_ALL.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
 
-LaTeX Warning: Citation `Anderson1953' on page 67 undefined on input line 130.
+LaTeX Warning: Citation `Anderson1953' on page 69 undefined on input line 130.
 
 
 Overfull \hbox (7.33835pt too wide) in paragraph at lines 130--131
@@ -1696,7 +1695,7 @@ Overfull \hbox (7.33835pt too wide) in paragraph at lines 130--131
  the strength of the interaction,[[]]
  []
 
-<./operando_epr/figures/Main_2D_redox_map_full.pdf, id=7103, 913.4125pt x 602.2
+<./operando_epr/figures/Main_2D_redox_map_full.pdf, id=7110, 913.4125pt x 602.2
 5pt>
 File: ./operando_epr/figures/Main_2D_redox_map_full.pdf Graphic file (type pdf)
 
@@ -1707,8 +1706,8 @@ d on input line 147.
 
 Underfull \vbox (badness 1275) has occurred while \output is active []
 
- [67]
-<./operando_epr/figures/Figure_S4.pdf, id=7108, 597.23125pt x 845.1575pt>
+ [69]
+<./operando_epr/figures/Figure_S4.pdf, id=7114, 597.23125pt x 845.1575pt>
 File: ./operando_epr/figures/Figure_S4.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/Figure_S4.pdf>
 Package pdftex.def Info: ./operando_epr/figures/Figure_S4.pdf  used on input li
@@ -1721,8 +1720,8 @@ LaTeX Warning: Float too large for page by 78.0264pt on input line 160.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[68 <./operando_epr/figures/Main_2D_redox_map_full.pdf>]
-<./operando_epr/figures/Figure_S5.pdf, id=7137, 270.00874pt x 582.175pt>
+[70 <./operando_epr/figures/Main_2D_redox_map_full.pdf>]
+<./operando_epr/figures/Figure_S5.pdf, id=7143, 270.00874pt x 582.175pt>
 File: ./operando_epr/figures/Figure_S5.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/Figure_S5.pdf>
 Package pdftex.def Info: ./operando_epr/figures/Figure_S5.pdf  used on input li
@@ -1733,7 +1732,7 @@ Underfull \hbox (badness 1789) in paragraph at lines 173--173
 \OT1/txr/m/n/12 monomeric DiTS from a raw p-
  []
 
-<./operando_epr/figures/degradation/operando_degradation_dits.pdf, id=7138, 700
+<./operando_epr/figures/degradation/operando_degradation_dits.pdf, id=7144, 700
 .6175pt x 834.11626pt>
 File: ./operando_epr/figures/degradation/operando_degradation_dits.pdf Graphic 
 file (type pdf)
@@ -1750,32 +1749,32 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 2205) has occurred while \output is active []
 
- [69]
+ [71]
 
-LaTeX Warning: Reference `Classification' on page 70 undefined on input line 20
+LaTeX Warning: Reference `Classification' on page 72 undefined on input line 20
 1.
 
 
-LaTeX Warning: Reference `CVTube' on page 70 undefined on input line 201.
+LaTeX Warning: Reference `CVTube' on page 72 undefined on input line 201.
 
 
 Underfull \vbox (badness 4303) has occurred while \output is active []
 
- [70]
+ [72]
 
-LaTeX Warning: Citation `spin_counting_tb' on page 71 undefined on input line 2
+LaTeX Warning: Citation `spin_counting_tb' on page 73 undefined on input line 2
 23.
 
 
-LaTeX Warning: Citation `SI:Matlab' on page 71 undefined on input line 223.
+LaTeX Warning: Citation `SI:Matlab' on page 73 undefined on input line 223.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 223--224
 
  []
 
-[71]
-<./pulse/figures/Figure_S6.pdf, id=7148, 780.53717pt x 768.36021pt>
+[73]
+<./pulse/figures/Figure_S6.pdf, id=7155, 780.53717pt x 768.36021pt>
 File: ./pulse/figures/Figure_S6.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S6.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S6.pdf  used on input line 230.
@@ -1785,7 +1784,7 @@ Package pdftex.def Info: ./pulse/figures/Figure_S6.pdf  used on input line 230.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./operando_epr/figures/CRYO/Figure_S8.pdf, id=7149, 525.965pt x 793.96625pt>
+<./operando_epr/figures/CRYO/Figure_S8.pdf, id=7156, 525.965pt x 793.96625pt>
 File: ./operando_epr/figures/CRYO/Figure_S8.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/CRYO/Figure_S8.pdf>
 Package pdftex.def Info: ./operando_epr/figures/CRYO/Figure_S8.pdf  used on inp
@@ -1797,7 +1796,7 @@ LaTeX Warning: Float too large for page by 10.88742pt on input line 244.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./operando_epr/figures/backbone/NiMeOS_lyra_overnight_RT.png, id=7150, 460.359
+<./operando_epr/figures/backbone/NiMeOS_lyra_overnight_RT.png, id=7157, 460.359
 9pt x 352.6776pt>
 File: ./operando_epr/figures/backbone/NiMeOS_lyra_overnight_RT.png Graphic file
  (type png)
@@ -1806,7 +1805,7 @@ Package pdftex.def Info: ./operando_epr/figures/backbone/NiMeOS_lyra_overnight_
 RT.png  used on input line 248.
 (pdftex.def)             Requested size: 334.60422pt x 256.34392pt.
 
-LaTeX Warning: Reference `fig:operando_degradation' on page 72 undefined on inp
+LaTeX Warning: Reference `fig:operando_degradation' on page 74 undefined on inp
 ut line 254.
 
 
@@ -1814,9 +1813,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 254--255
 
  []
 
-[72]
+[74]
 <./operando_epr/figures/degradation/overnight_dits_201211_full_redox_contour_XY
-.pdf, id=7154, 818.6056pt x 346.89757pt>
+.pdf, id=7161, 818.6056pt x 346.89757pt>
 File: ./operando_epr/figures/degradation/overnight_dits_201211_full_redox_conto
 ur_XY.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/degradation/overnight_dits_201211_full_redox_contou
@@ -1829,7 +1828,7 @@ Package pdftex.def Info: ./operando_epr/figures/degradation/overnight_dits_2012
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <./operando_epr/figures/degradation/pDiTS_slow_charge_MS5000_forslides.png, id=
-7155, 647.5392pt x 316.0608pt>
+7162, 647.5392pt x 316.0608pt>
 File: ./operando_epr/figures/degradation/pDiTS_slow_charge_MS5000_forslides.png
  Graphic file (type png)
 <use ./operando_epr/figures/degradation/pDiTS_slow_charge_MS5000_forslides.png>
@@ -1841,22 +1840,22 @@ S5000_forslides.png  used on input line 267.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Citation `vereshchagin2020' on page 73 undefined on input line 2
+LaTeX Warning: Citation `vereshchagin2020' on page 75 undefined on input line 2
 75.
 
 
-LaTeX Warning: Reference `fig:S9' on page 73 undefined on input line 281.
+LaTeX Warning: Reference `fig:S9' on page 75 undefined on input line 281.
 
 
 Underfull \vbox (badness 1275) has occurred while \output is active []
 
- [73]
+ [75]
 
-LaTeX Warning: Citation `vereshchagin2020' on page 74 undefined on input line 2
+LaTeX Warning: Citation `vereshchagin2020' on page 76 undefined on input line 2
 97.
 
 <./operando_epr/figures/degradation/repeated_cycling_degradation_dits.pdf, id=7
-160, 827.09pt x 823.075pt>
+166, 827.09pt x 823.075pt>
 File: ./operando_epr/figures/degradation/repeated_cycling_degradation_dits.pdf 
 Graphic file (type pdf)
 <use ./operando_epr/figures/degradation/repeated_cycling_degradation_dits.pdf>
@@ -1866,7 +1865,7 @@ gradation_dits.pdf  used on input line 307.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./operando_epr/figures/degradation/Figure_S10.pdf, id=7161, 903.375pt x 666.49
+<./operando_epr/figures/degradation/Figure_S10.pdf, id=7167, 903.375pt x 666.49
 pt>
 File: ./operando_epr/figures/degradation/Figure_S10.pdf Graphic file (type pdf)
 
@@ -1875,15 +1874,15 @@ Package pdftex.def Info: ./operando_epr/figures/degradation/Figure_S10.pdf  use
 d on input line 314.
 (pdftex.def)             Requested size: 376.42575pt x 277.7272pt.
 
-LaTeX Warning: Citation `spin_counting_tb' on page 74 undefined on input line 3
+LaTeX Warning: Citation `spin_counting_tb' on page 76 undefined on input line 3
 20.
 
 
-LaTeX Warning: Citation `si_vereshchagin2020' on page 74 undefined on input lin
+LaTeX Warning: Citation `si_vereshchagin2020' on page 76 undefined on input lin
 e 324.
 
-[74] [75]
-<./operando_epr/figures/self_discharge/DOM_DITS_SELF_DISCHARGE.pdf, id=7168, 45
+[76] [77]
+<./operando_epr/figures/self_discharge/DOM_DITS_SELF_DISCHARGE.pdf, id=7174, 45
 1.6875pt x 180.675pt>
 File: ./operando_epr/figures/self_discharge/DOM_DITS_SELF_DISCHARGE.pdf Graphic
  file (type pdf)
@@ -1895,7 +1894,7 @@ SCHARGE.pdf  used on input line 341.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./operando_epr/figures/solid/FET231114_5uA_RT.pdf, id=7169, 752.8125pt x 472.7
+<./operando_epr/figures/solid/FET231114_5uA_RT.pdf, id=7175, 752.8125pt x 472.7
 6625pt>
 File: ./operando_epr/figures/solid/FET231114_5uA_RT.pdf Graphic file (type pdf)
 
@@ -1906,25 +1905,25 @@ d on input line 352.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./operando_epr/figures/CRYO/Figure_7.pdf, id=7170, 713.66624pt x 390.45876pt>
+<./operando_epr/figures/CRYO/Figure_7.pdf, id=7176, 713.66624pt x 390.45876pt>
 File: ./operando_epr/figures/CRYO/Figure_7.pdf Graphic file (type pdf)
 <use ./operando_epr/figures/CRYO/Figure_7.pdf>
 Package pdftex.def Info: ./operando_epr/figures/CRYO/Figure_7.pdf  used on inpu
 t line 364.
 (pdftex.def)             Requested size: 418.25368pt x 228.83151pt.
-[76]
+[78]
 
-LaTeX Warning: Reference `fig:S8' on page 77 undefined on input line 383.
+LaTeX Warning: Reference `fig:S8' on page 79 undefined on input line 383.
 
 
-LaTeX Warning: Reference `backbone_ex_situ' on page 77 undefined on input line 
+LaTeX Warning: Reference `backbone_ex_situ' on page 79 undefined on input line 
 383.
 
 
-LaTeX Warning: Reference `sec:in_operando' on page 77 undefined on input line 3
+LaTeX Warning: Reference `sec:in_operando' on page 79 undefined on input line 3
 88.
 
-<./operando_epr/figures/CRYO/SANDWICH_FREEZING.pdf, id=7174, 752.8125pt x 472.7
+<./operando_epr/figures/CRYO/SANDWICH_FREEZING.pdf, id=7180, 752.8125pt x 472.7
 6625pt>
 File: ./operando_epr/figures/CRYO/SANDWICH_FREEZING.pdf Graphic file (type pdf)
 
@@ -1932,11 +1931,11 @@ File: ./operando_epr/figures/CRYO/SANDWICH_FREEZING.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./operando_epr/figures/CRYO/SANDWICH_FREEZING.pdf  use
 d on input line 395.
 (pdftex.def)             Requested size: 418.25368pt x 262.66971pt.
-[77]
+[79]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./operando_epr/figures/CRYO/freezing_sandwich_230K_200K.pdf, id=7178, 609.2762
+<./operando_epr/figures/CRYO/freezing_sandwich_230K_200K.pdf, id=7185, 609.2762
 5pt x 445.665pt>
 File: ./operando_epr/figures/CRYO/freezing_sandwich_230K_200K.pdf Graphic file 
 (type pdf)
@@ -1947,7 +1946,7 @@ K.pdf  used on input line 403.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./operando_epr/figures/slowcharge_231117_liquid_250K.pdf, id=7179, 752.8125pt 
+<./operando_epr/figures/slowcharge_231117_liquid_250K.pdf, id=7186, 752.8125pt 
 x 602.25pt>
 File: ./operando_epr/figures/slowcharge_231117_liquid_250K.pdf Graphic file (ty
 pe pdf)
@@ -1959,7 +1958,7 @@ df  used on input line 411.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `si:ESOC' on page 78 undefined on input line 420.
+LaTeX Warning: Reference `si:ESOC' on page 80 undefined on input line 420.
 
 > Step: init table outer spec.
 > Step: parse table options.
@@ -1972,19 +1971,19 @@ LaTeX Warning: Reference `si:ESOC' on page 78 undefined on input line 420.
 Package tabularray Warning: Table width is too small, need 296.26921pt more!
 
 > Step: build the whole table.
-[78]) [79] [80 <./operando_epr/figures/CRYO/Figure_S7_new.pdf>] [81 <./operando
-_epr/figures/Figure_S4.pdf>] [82 <./operando_epr/figures/Figure_S5.pdf>]
-[83 <./operando_epr/figures/degradation/operando_degradation_dits.pdf>]
-[84 <./pulse/figures/Figure_S6.pdf>] [85 <./operando_epr/figures/CRYO/Figure_S8
-.pdf>] [86 <./operando_epr/figures/backbone/NiMeOS_lyra_overnight_RT.png> <./op
+[80]) [81] [82 <./operando_epr/figures/CRYO/Figure_S7_new.pdf>] [83 <./operando
+_epr/figures/Figure_S4.pdf>] [84 <./operando_epr/figures/Figure_S5.pdf>]
+[85 <./operando_epr/figures/degradation/operando_degradation_dits.pdf>]
+[86 <./pulse/figures/Figure_S6.pdf>] [87 <./operando_epr/figures/CRYO/Figure_S8
+.pdf>] [88 <./operando_epr/figures/backbone/NiMeOS_lyra_overnight_RT.png> <./op
 erando_epr/figures/degradation/overnight_dits_201211_full_redox_contour_XY.pdf>
-] [87 <./operando_epr/figures/degradation/pDiTS_slow_charge_MS5000_forslides.pn
-g (PNG copy)>] [88 <./operando_epr/figures/degradation/repeated_cycling_degrada
-tion_dits.pdf>] [89 <./operando_epr/figures/degradation/Figure_S10.pdf> <./oper
-ando_epr/figures/self_discharge/DOM_DITS_SELF_DISCHARGE.pdf>] [90 <./operando_e
-pr/figures/solid/FET231114_5uA_RT.pdf>] [91 <./operando_epr/figures/CRYO/Figure
-_7.pdf>] [92 <./operando_epr/figures/CRYO/SANDWICH_FREEZING.pdf>] [93 <./operan
-do_epr/figures/CRYO/freezing_sandwich_230K_200K.pdf>] [94 <./operando_epr/figur
+] [89 <./operando_epr/figures/degradation/pDiTS_slow_charge_MS5000_forslides.pn
+g (PNG copy)>] [90 <./operando_epr/figures/degradation/repeated_cycling_degrada
+tion_dits.pdf>] [91 <./operando_epr/figures/degradation/Figure_S10.pdf> <./oper
+ando_epr/figures/self_discharge/DOM_DITS_SELF_DISCHARGE.pdf>] [92 <./operando_e
+pr/figures/solid/FET231114_5uA_RT.pdf>] [93 <./operando_epr/figures/CRYO/Figure
+_7.pdf>] [94 <./operando_epr/figures/CRYO/SANDWICH_FREEZING.pdf>] [95 <./operan
+do_epr/figures/CRYO/freezing_sandwich_230K_200K.pdf>] [96 <./operando_epr/figur
 es/slowcharge_231117_liquid_250K.pdf>]
 \openout2 = `pulse/pulse.aux'.
 
@@ -1998,28 +1997,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [95
+ [97
 
 
 
 
 ]
-<./pulse/figures/Figure_2.pdf, id=8124, 655.44875pt x 318.18875pt>
+<./pulse/figures/Figure_2.pdf, id=8131, 655.44875pt x 318.18875pt>
 File: ./pulse/figures/Figure_2.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_2.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_2.pdf  used on input line 20.
 (pdftex.def)             Requested size: 418.25368pt x 203.04291pt.
 
 
-LaTeX Warning: Reference `si:ESOC' on page 96 undefined on input line 28.
+LaTeX Warning: Reference `si:ESOC' on page 98 undefined on input line 28.
 
 
-LaTeX Warning: Reference `si:cwepr_dtbs' on page 96 undefined on input line 28.
+LaTeX Warning: Reference `si:cwepr_dtbs' on page 98 undefined on input line 28.
 
 
-[96 <./pulse/figures/Figure_2.pdf>]
+[98 <./pulse/figures/Figure_2.pdf>]
 
-LaTeX Warning: Reference `esi:cw_sims' on page 97 undefined on input line 33.
+LaTeX Warning: Reference `esi:cw_sims' on page 99 undefined on input line 33.
 
 
 Overfull \hbox (12.29115pt too wide) in paragraph at lines 33--34
@@ -2030,56 +2029,56 @@ ighly charged film (ESOC 95%,
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [97]
-<./pulse/figures/Figure_3.pdf, id=8136, 647.41875pt x 324.21124pt>
+ [99]
+<./pulse/figures/Figure_3.pdf, id=8142, 647.41875pt x 324.21124pt>
 File: ./pulse/figures/Figure_3.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_3.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_3.pdf  used on input line 40.
 (pdftex.def)             Requested size: 418.25368pt x 209.45352pt.
 
 
-LaTeX Warning: Reference `fig:Figure_S5' on page 98 undefined on input line 50.
+LaTeX Warning: Reference `fig:Figure_S5' on page 100 undefined on input line 50
+.
 
-
-[98 <./pulse/figures/Figure_3.pdf>]
+[100 <./pulse/figures/Figure_3.pdf>]
 Overfull \hbox (9.02751pt too wide) in paragraph at lines 61--61
 []\OT1/txr/bx/n/17.28 pEPR Spec-troscopy of Charged TEMPO-Salen Cath-
  []
 
 
-LaTeX Warning: Citation `wadhawan2007_encofelectrochem' on page 99 undefined on
- input line 63.
+LaTeX Warning: Citation `wadhawan2007_encofelectrochem' on page 101 undefined o
+n input line 63.
 
 
-LaTeX Warning: Citation `toybenshlak2019_isrjchem' on page 99 undefined on inpu
-t line 63.
+LaTeX Warning: Citation `toybenshlak2019_isrjchem' on page 101 undefined on inp
+ut line 63.
 
 
-LaTeX Warning: Citation `szczuka2021_commmat' on page 99 undefined on input lin
-e 66.
+LaTeX Warning: Citation `szczuka2021_commmat' on page 101 undefined on input li
+ne 66.
 
 
-LaTeX Warning: Citation `szczuka2021_commmat' on page 99 undefined on input lin
-e 66.
+LaTeX Warning: Citation `szczuka2021_commmat' on page 101 undefined on input li
+ne 66.
 
 
-LaTeX Warning: Citation `bordignon2017_emagres' on page 99 undefined on input l
-ine 69.
+LaTeX Warning: Citation `bordignon2017_emagres' on page 101 undefined on input 
+line 69.
 
-<./pulse/figures/SAW_Figure_8.pdf, id=8144, 713.66624pt x 390.45876pt>
+<./pulse/figures/SAW_Figure_8.pdf, id=8150, 713.66624pt x 390.45876pt>
 File: ./pulse/figures/SAW_Figure_8.pdf Graphic file (type pdf)
 <use ./pulse/figures/SAW_Figure_8.pdf>
 Package pdftex.def Info: ./pulse/figures/SAW_Figure_8.pdf  used on input line 7
 3.
 (pdftex.def)             Requested size: 418.25368pt x 228.83151pt.
-[99] [100 <./pulse/figures/SAW_Figure_8.pdf>]
-<./pulse/figures/Figure_3_INTS.pdf, id=8171, 965.13289pt x 323.70938pt>
+[101] [102 <./pulse/figures/SAW_Figure_8.pdf>]
+<./pulse/figures/Figure_3_INTS.pdf, id=8178, 965.13289pt x 323.70938pt>
 File: ./pulse/figures/Figure_3_INTS.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_3_INTS.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_3_INTS.pdf  used on input line 
 90.
 (pdftex.def)             Requested size: 418.25368pt x 140.28392pt.
-<./pulse/figures/Figure_6_maintext_col_MOD.pdf, id=8172, 647.41875pt x 324.2112
+<./pulse/figures/Figure_6_maintext_col_MOD.pdf, id=8179, 647.41875pt x 324.2112
 4pt>
 File: ./pulse/figures/Figure_6_maintext_col_MOD.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_6_maintext_col_MOD.pdf>
@@ -2098,8 +2097,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [101 <./pulse/figures/Figure_3_INTS.pdf>]
-<./pulse/figures/FGMR/ID/ID_vs_ISO.pdf, id=8182, 903.375pt x 526.96875pt>
+ [103 <./pulse/figures/Figure_3_INTS.pdf>]
+<./pulse/figures/FGMR/ID/ID_vs_ISO.pdf, id=8189, 903.375pt x 526.96875pt>
 File: ./pulse/figures/FGMR/ID/ID_vs_ISO.pdf Graphic file (type pdf)
 <use ./pulse/figures/FGMR/ID/ID_vs_ISO.pdf>
 Package pdftex.def Info: ./pulse/figures/FGMR/ID/ID_vs_ISO.pdf  used on input l
@@ -2110,22 +2109,22 @@ ine 120.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 8019) has occurred while \output is active []
 
- [102 <./pulse/figures/Figure_6_maintext_col_MOD.pdf>]
+ [104 <./pulse/figures/Figure_6_maintext_col_MOD.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
-[103 <./pulse/figures/FGMR/ID/ID_vs_ISO.pdf>]
-<./pulse/figures/Figure_4.pdf, id=8206, 435.6275pt x 445.665pt>
+[105 <./pulse/figures/FGMR/ID/ID_vs_ISO.pdf>]
+<./pulse/figures/Figure_4.pdf, id=8212, 435.6275pt x 445.665pt>
 File: ./pulse/figures/Figure_4.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_4.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_4.pdf  used on input line 160.
 (pdftex.def)             Requested size: 271.86234pt x 278.12512pt.
 
 
-LaTeX Warning: Reference `esi:fse_sims' on page 104 undefined on input line 166
+LaTeX Warning: Reference `esi:fse_sims' on page 106 undefined on input line 166
 .
 
 
@@ -2133,12 +2132,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--167
 
  []
 
-[104 <./pulse/figures/Figure_4.pdf>]
+[106 <./pulse/figures/Figure_4.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
 
-<./pulse/figures/Figure_S26.pdf, id=8212, 647.41875pt x 324.21124pt>
+<./pulse/figures/Figure_S26.pdf, id=8218, 647.41875pt x 324.21124pt>
 File: ./pulse/figures/Figure_S26.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S26.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S26.pdf  used on input line 186
@@ -2147,25 +2146,25 @@ Package pdftex.def Info: ./pulse/figures/Figure_S26.pdf  used on input line 186
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <12> not available
 (Font)              Font shape `OT1/txr/bx/it' tried instead on input line 187.
 
-[105] [106 <./pulse/figures/Figure_S26.pdf>]
-<./pulse/figures/Figure_S23.pdf, id=8224, 422.57875pt x 444.66125pt>
+[107] [108 <./pulse/figures/Figure_S26.pdf>]
+<./pulse/figures/Figure_S23.pdf, id=8230, 422.57875pt x 444.66125pt>
 File: ./pulse/figures/Figure_S23.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S23.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S23.pdf  used on input line 224
 .
 (pdftex.def)             Requested size: 209.12683pt x 220.0571pt.
- [107 <./pulse/figures/Figure_S23.pdf>]
+ [109 <./pulse/figures/Figure_S23.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 235--236
 
  []
 
-<./pulse/figures/Figure_S24.pdf, id=8231, 428.60126pt x 445.665pt>
+<./pulse/figures/Figure_S24.pdf, id=8238, 428.60126pt x 445.665pt>
 File: ./pulse/figures/Figure_S24.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S24.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S24.pdf  used on input line 239
 .
 (pdftex.def)             Requested size: 271.86234pt x 282.68811pt.
-[108 <./pulse/figures/Figure_S24.pdf>]
+[110 <./pulse/figures/Figure_S24.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 256--257
 
  []
@@ -2175,7 +2174,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
 
-<./pulse/figures/Figure_5.pdf, id=8237, 1415.2875pt x 677.53125pt>
+<./pulse/figures/Figure_5.pdf, id=8244, 1415.2875pt x 677.53125pt>
 File: ./pulse/figures/Figure_5.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_5.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_5.pdf  used on input line 261.
@@ -2185,7 +2184,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 267--268
 
  []
 
-[109 <./pulse/figures/Figure_5.pdf>]
+[111 <./pulse/figures/Figure_5.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 269--270
 
  []
@@ -2204,9 +2203,9 @@ in a TEMPO-containing,
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [110]
+ [112]
 
-LaTeX Warning: Reference `esi:cw_sims' on page 111 undefined on input line 278.
+LaTeX Warning: Reference `esi:cw_sims' on page 113 undefined on input line 278.
 
 
 
@@ -2214,7 +2213,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 278--279
 
  []
 
-<./pulse/figures/Figure_6.pdf, id=8264, 655.44875pt x 318.18875pt>
+<./pulse/figures/Figure_6.pdf, id=8270, 655.44875pt x 318.18875pt>
 File: ./pulse/figures/Figure_6.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_6.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_6.pdf  used on input line 285.
@@ -2224,18 +2223,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 291--292
 
  []
 
-[111]
+[113]
 Overfull \hbox (9.22585pt too wide) in paragraph at lines 293--293
 [][]\OT1/txr/bx/n/14.4 Limitation on Short-est De-tectable $\OML/txmi/m/it/14.4
  T[]$ \OT1/txr/bx/n/14.4 by the Spec-trom-e-ter Dead
  []
 
-<./pulse/figures/Figure_S25.pdf, id=8268, 336.25626pt x 299.1175pt>
+<./pulse/figures/Figure_S25.pdf, id=8274, 336.25626pt x 299.1175pt>
 File: ./pulse/figures/Figure_S25.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S25.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S25.pdf  used on input line 300
 .
-(pdftex.def)             Requested size: 167.2989pt x 148.81898pt.
+(pdftex.def)             Requested size: 230.04079pt x 204.63408pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2244,7 +2243,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 308--309
 
  []
 
-[112 <./pulse/figures/Figure_6.pdf>]
+[114 <./pulse/figures/Figure_6.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 311--312
 
  []
@@ -2264,10 +2263,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 317--318
 
  []
 
-
-Underfull \vbox (badness 1281) has occurred while \output is active []
-
- [113 <./pulse/figures/Figure_S25.pdf>]
+[115 <./pulse/figures/Figure_S25.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 332--333
 
  []
@@ -2282,98 +2278,98 @@ Underfull \hbox (badness 10000) in paragraph at lines 370--371
 
  []
 
-<./pulse/figures/Figure_S7.pdf, id=8312, 1204.5pt x 814.04124pt>
+<./pulse/figures/Figure_S7.pdf, id=8320, 1204.5pt x 814.04124pt>
 File: ./pulse/figures/Figure_S7.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S7.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S7.pdf  used on input line 376.
 
 (pdftex.def)             Requested size: 418.25368pt x 282.67046pt.
-[114]
+[116]
 Overfull \hbox (3.76657pt too wide) in paragraph at lines 383--383
 []\OT1/txr/bx/n/14.4 Pad[]e-Laplace De-con-vo-lu-tion of the Echo-Decay and Inv
 ersion-
  []
 
-[115 <./pulse/figures/Figure_S7.pdf>]
-<./pulse/figures/Figure_S8.png, id=8367, 1043.5788pt x 472.6458pt>
+[117 <./pulse/figures/Figure_S7.pdf>]
+<./pulse/figures/Figure_S8.png, id=8373, 1043.5788pt x 472.6458pt>
 File: ./pulse/figures/Figure_S8.png Graphic file (type png)
 <use ./pulse/figures/Figure_S8.png>
 Package pdftex.def Info: ./pulse/figures/Figure_S8.png  used on input line 391.
 
 (pdftex.def)             Requested size: 418.25368pt x 189.43pt.
-<./pulse/figures/Figure_S9.pdf, id=8368, 903.375pt x 501.875pt>
+<./pulse/figures/Figure_S9.pdf, id=8374, 903.375pt x 501.875pt>
 File: ./pulse/figures/Figure_S9.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S9.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S9.pdf  used on input line 398.
 
 (pdftex.def)             Requested size: 209.12683pt x 116.17929pt.
- [116 <./pulse/figures/Figure_S8.png (PNG copy)> <./pulse/figures/Figure_S9.pdf
+ [118 <./pulse/figures/Figure_S8.png (PNG copy)> <./pulse/figures/Figure_S9.pdf
 >]
-<./pulse/figures/Figure_S10.pdf, id=8472, 1212.53pt x 495.8525pt>
+<./pulse/figures/Figure_S10.pdf, id=8478, 1212.53pt x 495.8525pt>
 File: ./pulse/figures/Figure_S10.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S10.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S10.pdf  used on input line 408
 .
 (pdftex.def)             Requested size: 209.12683pt x 85.51952pt.
-<./pulse/figures/Figure_S11.pdf, id=8473, 903.375pt x 501.875pt>
+<./pulse/figures/Figure_S11.pdf, id=8479, 903.375pt x 501.875pt>
 File: ./pulse/figures/Figure_S11.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S11.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S11.pdf  used on input line 416
 .
 (pdftex.def)             Requested size: 209.12683pt x 116.17929pt.
- [117 <./pulse/figures/Figure_S10.pdf> <./pulse/figures/Figure_S11.pdf
+ [119 <./pulse/figures/Figure_S10.pdf> <./pulse/figures/Figure_S11.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./pulse/figures/Figure_S11.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >]
-<./pulse/figures/Figure_S12.png, id=8503, 1043.5788pt x 464.4552pt>
+<./pulse/figures/Figure_S12.png, id=8509, 1043.5788pt x 464.4552pt>
 File: ./pulse/figures/Figure_S12.png Graphic file (type png)
 <use ./pulse/figures/Figure_S12.png>
 Package pdftex.def Info: ./pulse/figures/Figure_S12.png  used on input line 427
 .
 (pdftex.def)             Requested size: 209.12683pt x 93.07365pt.
-<./pulse/figures/Figure_S13.pdf, id=8504, 903.375pt x 501.875pt>
+<./pulse/figures/Figure_S13.pdf, id=8510, 903.375pt x 501.875pt>
 File: ./pulse/figures/Figure_S13.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S13.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S13.pdf  used on input line 434
 .
 (pdftex.def)             Requested size: 209.12683pt x 116.17929pt.
- [118 <./pulse/figures/Figure_S12.png (PNG copy)> <./pulse/figures/Figure_S13.p
+ [120 <./pulse/figures/Figure_S12.png (PNG copy)> <./pulse/figures/Figure_S13.p
 df>]
-<./pulse/figures/Figure_S14.png, id=8513, 1204.5pt x 501.5538pt>
+<./pulse/figures/Figure_S14.png, id=8519, 1204.5pt x 501.5538pt>
 File: ./pulse/figures/Figure_S14.png Graphic file (type png)
 <use ./pulse/figures/Figure_S14.png>
 Package pdftex.def Info: ./pulse/figures/Figure_S14.png  used on input line 446
 .
 (pdftex.def)             Requested size: 209.12683pt x 87.0768pt.
-<./pulse/figures/Figure_S15.pdf, id=8514, 903.375pt x 501.875pt>
+<./pulse/figures/Figure_S15.pdf, id=8520, 903.375pt x 501.875pt>
 File: ./pulse/figures/Figure_S15.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S15.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S15.pdf  used on input line 454
 .
 (pdftex.def)             Requested size: 209.12683pt x 116.17929pt.
- [119 <./pulse/figures/Figure_S14.png (PNG copy)> <./pulse/figures/Figure_S15.p
+ [121 <./pulse/figures/Figure_S14.png (PNG copy)> <./pulse/figures/Figure_S15.p
 df>]
-<./pulse/figures/Figure_S16.pdf, id=8523, 1204.5pt x 501.875pt>
+<./pulse/figures/Figure_S16.pdf, id=8530, 1204.5pt x 501.875pt>
 File: ./pulse/figures/Figure_S16.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S16.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S16.pdf  used on input line 465
 .
 (pdftex.def)             Requested size: 209.12683pt x 87.13255pt.
-<./pulse/figures/Figure_S17.pdf, id=8524, 903.375pt x 501.875pt>
+<./pulse/figures/Figure_S17.pdf, id=8531, 903.375pt x 501.875pt>
 File: ./pulse/figures/Figure_S17.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S17.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S17.pdf  used on input line 472
 .
 (pdftex.def)             Requested size: 209.12683pt x 116.17929pt.
- [120 <./pulse/figures/Figure_S16.pdf> <./pulse/figures/Figure_S17.pdf>]
-<./pulse/figures/Figure_S18.pdf, id=8554, 1212.53pt x 495.8525pt>
+ [122 <./pulse/figures/Figure_S16.pdf> <./pulse/figures/Figure_S17.pdf>]
+<./pulse/figures/Figure_S18.pdf, id=8561, 1212.53pt x 495.8525pt>
 File: ./pulse/figures/Figure_S18.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S18.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S18.pdf  used on input line 482
 .
 (pdftex.def)             Requested size: 209.12683pt x 85.51952pt.
-<./pulse/figures/Figure_S19.pdf, id=8555, 903.375pt x 501.875pt>
+<./pulse/figures/Figure_S19.pdf, id=8562, 903.375pt x 501.875pt>
 File: ./pulse/figures/Figure_S19.pdf Graphic file (type pdf)
 <use ./pulse/figures/Figure_S19.pdf>
 Package pdftex.def Info: ./pulse/figures/Figure_S19.pdf  used on input line 490
@@ -2385,40 +2381,40 @@ Overfull \hbox (5.56657pt too wide) in paragraph at lines 500--500
 c-trodes 
  []
 
-[121 <./pulse/figures/Figure_S18.pdf> <./pulse/figures/Figure_S19.pdf>])
-[122]
+[123 <./pulse/figures/Figure_S18.pdf> <./pulse/figures/Figure_S19.pdf>])
+[124]
 \openout2 = `outlook/outlook.aux'.
 
  (./outlook/outlook.tex
 Chapter 6.
-[123
+[125
 
 
 
 
 ]
 
-LaTeX Warning: Citation `muench2021_jps' on page 124 undefined on input line 14
+LaTeX Warning: Citation `muench2021_jps' on page 126 undefined on input line 14
 .
 
 
-LaTeX Warning: Citation `sathiya2015_natcomm' on page 124 undefined on input li
+LaTeX Warning: Citation `sathiya2015_natcomm' on page 126 undefined on input li
 ne 17.
 
 
-LaTeX Warning: Citation `dutoit2021_natcomm' on page 124 undefined on input lin
+LaTeX Warning: Citation `dutoit2021_natcomm' on page 126 undefined on input lin
 e 17.
 
 
-LaTeX Warning: Citation `geng2021_chemofmat' on page 124 undefined on input lin
+LaTeX Warning: Citation `geng2021_chemofmat' on page 126 undefined on input lin
 e 17.
 
-[124]
+[126]
 Underfull \hbox (badness 10000) in paragraph at lines 72--74
 
  []
 
-[125]
+[127]
 Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
@@ -2451,12 +2447,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
 Underfull \vbox (badness 1275) has occurred while \output is active []
 
- [126]
+ [128]
 Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
-) [127] (./diss_kulikov.bbl [128
+) [129] (./diss_kulikov.bbl [130
 
 
 
@@ -2472,19 +2468,19 @@ Underfull \hbox (badness 7869) in paragraph at lines 50--54
 []at berlin.
  []
 
-[129]
+[131]
 Underfull \hbox (badness 1383) in paragraph at lines 99--102
 []\OT1/txr/m/n/12 Nerea Casado and David Mecer-reyes.  \OT1/txr/m/it/12 Re-dox 
 Poly-mers for En-ergy and
  []
 
-[130] [131] [132] [133] [134] [135]
-Underfull \hbox (badness 4084) in paragraph at lines 484--488
+[132] [133] [134] [135] [136] [137]
+Underfull \hbox (badness 4084) in paragraph at lines 496--500
 []\OT1/txr/m/n/12 Praveen Ku-mar Reddy Mad-dikunta, Gau-tam Sri-vas-tava, Thipp
 a Reddy
  []
 
-[136] [137] [138] [139] [140] [141]) [142]
+[138] [139] [140] [141] [142] [143]) [144]
 \openout2 = `appendix/A-EMRE.aux'.
 
  (./appendix/A-EMRE.tex
@@ -2511,19 +2507,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-) [143
+) [145
 
 
 ]
 \openout2 = `appendix/B-DFT.aux'.
 
- (./appendix/B-DFT.tex [144
+ (./appendix/B-DFT.tex [146
 
 
 
 
 ]
-<./electrochemistry/figures/DFT_DITS.pdf, id=8661, 1741.91328pt x 1369.2972pt>
+<./electrochemistry/figures/DFT_DITS.pdf, id=8668, 1741.91328pt x 1369.2972pt>
 File: ./electrochemistry/figures/DFT_DITS.pdf Graphic file (type pdf)
 <use ./electrochemistry/figures/DFT_DITS.pdf>
 Package pdftex.def Info: ./electrochemistry/figures/DFT_DITS.pdf  used on input
@@ -2531,15 +2527,15 @@ Package pdftex.def Info: ./electrochemistry/figures/DFT_DITS.pdf  used on input
 (pdftex.def)             Requested size: 418.25368pt x 328.7843pt.
 
 
-LaTeX Warning: Citation `ORCA' on page 145 undefined on input line 5.
+LaTeX Warning: Citation `ORCA' on page 147 undefined on input line 5.
 
 
-LaTeX Warning: Citation `ORCA' on page 145 undefined on input line 5.
+LaTeX Warning: Citation `ORCA' on page 147 undefined on input line 5.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [145] [146 <./electrochemistry/figures/DFT_DITS.pdf>]
+) [147] [148 <./electrochemistry/figures/DFT_DITS.pdf>]
 \openout2 = `appendix/C-Samples.aux'.
 
 
@@ -2548,35 +2544,35 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 4.
 
-<./electrochemistry/figures/Figure_S3a.pdf, id=8683, 610.77208pt x 849.77596pt>
+<./electrochemistry/figures/Figure_S3a.pdf, id=8689, 610.77208pt x 849.77596pt>
 
 File: ./electrochemistry/figures/Figure_S3a.pdf Graphic file (type pdf)
 <use ./electrochemistry/figures/Figure_S3a.pdf>
 Package pdftex.def Info: ./electrochemistry/figures/Figure_S3a.pdf  used on inp
 ut line 6.
 (pdftex.def)             Requested size: 388.97285pt x 541.19662pt.
-[147
+[149
 
 
 
 
-] [148 <./electrochemistry/figures/Figure_S3a.pdf>]
+] [150 <./electrochemistry/figures/Figure_S3a.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 12.
 
-<./electrochemistry/figures/Figure_S3b.pdf, id=8807, 610.77208pt x 848.39948pt>
+<./electrochemistry/figures/Figure_S3b.pdf, id=8813, 610.77208pt x 848.39948pt>
 
 File: ./electrochemistry/figures/Figure_S3b.pdf Graphic file (type pdf)
 <use ./electrochemistry/figures/Figure_S3b.pdf>
 Package pdftex.def Info: ./electrochemistry/figures/Figure_S3b.pdf  used on inp
 ut line 14.
 (pdftex.def)             Requested size: 388.97285pt x 540.31999pt.
-) [149 <./electrochemistry/figures/Figure_S3b.pdf>]
+) [151 <./electrochemistry/figures/Figure_S3b.pdf>]
 \openout2 = `appendix/D-Experimental.aux'.
 
 
-(./appendix/D-Experimental.tex [150
+(./appendix/D-Experimental.tex [152
 
 
 
@@ -2585,10 +2581,10 @@ ut line 14.
 
 LaTeX Warning: Reference `fig:operando_cold_cycle,fig:freezing_of_pditbus_batte
 ry_1D,fig:operando_cold_battery, fig:Figure_7,fig:operando_solid_battery,fig:re
-peated_cycling_degradation,' on page 151 undefined on input line 13.
+peated_cycling_degradation,' on page 153 undefined on input line 13.
 
 
-LaTeX Warning: Citation `si_Wittmann2018_JMagnReson' on page 151 undefined on i
+LaTeX Warning: Citation `si_Wittmann2018_JMagnReson' on page 153 undefined on i
 nput line 13.
 
 
@@ -2596,7 +2592,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
 
-[151]
+[153]
 Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
@@ -2606,7 +2602,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
-[152]) [153] (./diss_kulikov.aux (./summary/list_of_abbreviations.aux)
+[154]) [155] (./diss_kulikov.aux (./summary/list_of_abbreviations.aux)
 (./introduction/introduction.aux) (./epr_basics/epr_basics.aux)
 (./materials/materials.aux) (./operando_epr/operando_epr.aux)
 (./pulse/pulse.aux) (./outlook/outlook.aux) (./appendix/A-EMRE.aux)
@@ -2620,10 +2616,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15746 strings out of 478287
- 352898 string characters out of 5849289
- 683136 words of memory out of 5000000
- 33515 multiletter control sequences out of 15000+600000
+ 15749 strings out of 478287
+ 352929 string characters out of 5849289
+ 683159 words of memory out of 5000000
+ 33518 multiletter control sequences out of 15000+600000
  528335 words of font info for 169 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,14n,117p,2558b,1205s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2643,10 +2639,10 @@ r/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmri8a.pfb>
-Output written on diss_kulikov.pdf (153 pages, 52699496 bytes).
+Output written on diss_kulikov.pdf (155 pages, 52705335 bytes).
 PDF statistics:
- 8910 PDF objects out of 10688 (max. 8388607)
- 5840 compressed objects within 59 object streams
+ 8916 PDF objects out of 10688 (max. 8388607)
+ 5844 compressed objects within 59 object streams
  0 named destinations out of 1000 (max. 500000)
  431 words of extra memory for PDF output out of 10000 (max. 10000000)
 
