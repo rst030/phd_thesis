@@ -5,14 +5,19 @@ A level-1 auxiliary file: summary/list_of_abbreviations.aux
 A level-1 auxiliary file: introduction/introduction.aux
 A level-1 auxiliary file: epr_basics/epr_basics.aux
 A level-1 auxiliary file: materials/materials.aux
+Case mismatch error between cite keys vereshchagin2020 and Vereshchagin2020
+---line 167 of file materials/materials.aux
+ : \citation{vereshchagin2020
+ :                           }
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: operando_epr/operando_epr.aux
 Case mismatch error between cite keys vereshchagin2020 and Vereshchagin2020
----line 74 of file operando_epr/operando_epr.aux
+---line 75 of file operando_epr/operando_epr.aux
  : \citation{vereshchagin2020
  :                           }
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys vereshchagin2020 and Vereshchagin2020
----line 75 of file operando_epr/operando_epr.aux
+---line 76 of file operando_epr/operando_epr.aux
  : \citation{vereshchagin2020
  :                           }
 I'm skipping whatever remains of this command
@@ -77,10 +82,6 @@ Warning--entry type for "Luca2015" isn't style-file defined
 Warning--entry type for "Eastman1970" isn't style-file defined
 --line 2077 of file Bibliography.bib
 Warning--I didn't find a database entry for "Novozhilova_2009Vereshchagin2020"
-Warning--I didn't find a database entry for "vereshchagin2020_battandsupercaps"
-Warning--I didn't find a database entry for "wadhawan2007_encofelectrochem"
-Warning--I didn't find a database entry for "Safari2011"
-Warning--I didn't find a database entry for "Golovisnina2023"
 Warning--I didn't find a database entry for "ORCA"
 Warning--I didn't find a database entry for "Carrington_solution_epr"
 Warning--I didn't find a database entry for "Siavash"
@@ -89,6 +90,7 @@ Warning--I didn't find a database entry for "Anderson1953"
 Warning--I didn't find a database entry for "spin_counting_tb"
 Warning--I didn't find a database entry for "SI:Matlab"
 Warning--I didn't find a database entry for "si_vereshchagin2020"
+Warning--I didn't find a database entry for "wadhawan2007_encofelectrochem"
 Warning--I didn't find a database entry for "toybenshlak2019_isrjchem"
 Warning--I didn't find a database entry for "szczuka2021_commmat"
 Warning--I didn't find a database entry for "bordignon2017_emagres"
@@ -101,45 +103,45 @@ Warning--can't use both author and editor fields in Casado_2021_book
 Warning--empty publisher in Chatgilialoglu2012
 Warning--empty journal in Lunghi2019
 Warning--empty booktitle in nishide_2009
-You've used 150 entries,
+You've used 152 entries,
             2118 wiz_defined-function locations,
-            1466 strings with 35231 characters,
-and the built_in function-call counts, 55605 in all, are:
-= -- 5059
-> -- 3680
+            1473 strings with 35593 characters,
+and the built_in function-call counts, 56233 in all, are:
+= -- 5119
+> -- 3716
 < -- 5
-+ -- 1473
-- -- 1302
-* -- 4465
-:= -- 9700
-add.period$ -- 428
-call.type$ -- 150
-change.case$ -- 1095
++ -- 1487
+- -- 1314
+* -- 4513
+:= -- 9812
+add.period$ -- 434
+call.type$ -- 152
+change.case$ -- 1107
 chr.to.int$ -- 0
-cite$ -- 154
-duplicate$ -- 1584
-empty$ -- 3702
-format.name$ -- 1302
-if$ -- 11131
+cite$ -- 156
+duplicate$ -- 1605
+empty$ -- 3745
+format.name$ -- 1314
+if$ -- 11257
 int.to.chr$ -- 0
-int.to.str$ -- 150
-missing$ -- 138
-newline$ -- 731
-num.names$ -- 300
-pop$ -- 1024
+int.to.str$ -- 152
+missing$ -- 140
+newline$ -- 741
+num.names$ -- 304
+pop$ -- 1032
 preamble$ -- 1
-purify$ -- 951
+purify$ -- 961
 quote$ -- 0
-skip$ -- 1126
+skip$ -- 1142
 stack$ -- 0
-substring$ -- 3052
-swap$ -- 173
+substring$ -- 3083
+swap$ -- 175
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 580
+type$ -- 588
 warning$ -- 4
-while$ -- 410
-width$ -- 153
-write$ -- 1577
-(There were 4 error messages)
+while$ -- 415
+width$ -- 155
+write$ -- 1599
+(There were 5 error messages)

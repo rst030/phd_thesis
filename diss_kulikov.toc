@@ -42,17 +42,18 @@
 \contentsline {subsection}{\numberline {3.3.5}Poly-Di-TEMPO-Salens}{41}{}%
 \contentsline {subsection}{\numberline {3.3.6}Electro-polymerization of TEMPO-Salens}{43}{}%
 \contentsline {section}{\numberline {3.4}TEMPO-Salen Films for EPR Spectroscopy}{44}{}%
-\contentsline {paragraph}{JMRO}{46}{}%
-\contentsline {section}{\numberline {3.5}Electrochemical Cells for Operando EPR spectroscopy}{49}{}%
-\contentsline {subsection}{\numberline {3.5.1}Cells Based on a Modified EPR Sample Tube}{49}{}%
+\contentsline {subsection}{\numberline {3.4.1}pDiTS}{44}{}%
+\contentsline {subsection}{\numberline {3.4.2}pDiTBuS}{45}{}%
+\contentsline {section}{\numberline {3.5}Electrochemical Cells for Operando EPR spectroscopy}{48}{}%
+\contentsline {subsection}{\numberline {3.5.1}Cells Based on a Modified EPR Sample Tube}{48}{}%
 \contentsline {subsection}{\numberline {3.5.2}Modification of the Sample Tube}{51}{}%
-\contentsline {subsection}{\numberline {3.5.3}Enhanced Performance of the Modified Sample Tube}{52}{}%
+\contentsline {subsection}{\numberline {3.5.3}Enhanced Performance of the Modified Sample Tube}{53}{}%
 \contentsline {subsection}{\numberline {3.5.4}Reference Electrode}{55}{}%
 \contentsline {subsection}{\numberline {3.5.5}Electrochemical Cells with a Separator}{55}{}%
 \contentsline {subsection}{\numberline {3.5.6}Electrochemical Cells with Solid Electrolyte}{55}{}%
 \contentsline {subsection}{\numberline {3.5.7}Demountable Electrochemical Cell for pEPR Spectroscopy}{56}{}%
 \contentsline {section}{\numberline {3.6}Energy Diagram of an Electrochemical Half-Cell}{58}{}%
-\contentsline {chapter}{\numberline {4}EPR Spectroscopy of TEMPO-Salen Electrochemical Cells}{61}{}%
+\contentsline {chapter}{\numberline {4}EPR Spectroscopy of TEMPO--Salen Electrochemical Cells}{61}{}%
 \contentsline {section}{\numberline {4.1}cwEPR Spectroscopy of Working TEMPO-Salen Electrochemical Cells}{61}{}%
 \contentsline {subsection}{\numberline {4.1.1}Spectra of TEMPO--Containing Molecular Fragments}{62}{}%
 \contentsline {subsection}{\numberline {4.1.2}Room Temperature Spectra of TEMPO$^{\bullet }$ Solutions}{62}{}%
