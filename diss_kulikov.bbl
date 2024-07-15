@@ -90,6 +90,12 @@ A~Carrington and A.~D. McLachlan.
   Chemistry and Chemical Physics}.
 \newblock John Weatherhill, inc, 1969.
 
+\bibitem{Carrington_solution_epr}
+A~Carrington and A.~D. McLachlan.
+\newblock {\em Introduction to Magnetic Resonance with Applications to
+  Chemistry and Chemical Physics}.
+\newblock John Weatherhill, inc, 1969.
+
 \bibitem{Casado2021}
 Nerea Casado and David Mecerreyes.
 \newblock Chapter 1: Introduction to redox polymers: Classification,
@@ -161,6 +167,11 @@ D~E Eastman.
 \newblock Photoelectric work functions of transition, rare-earth, and noble
   metals, 1970.
 
+\bibitem{Eaton_book}
+Gareth~R Eaton, Sandra~S Eaton, David~P Barr, and Ralph~T Weber.
+\newblock {\em Quantitative EPR}.
+\newblock Springer, 2010.
+
 \bibitem{Eaton2018}
 Sandra~S Eaton, Lukas~B Woodcock, and Gareth~R Eaton.
 \newblock Continuous wave electron paramagnetic resonance of nitroxide
@@ -171,6 +182,14 @@ Sandra~S Eaton, Lukas~B Woodcock, and Gareth~R Eaton.
 \bibitem{einstein_s_rel}
 A.~Einstein.
 \newblock Relativity - the special and general theory, 1921.
+
+\bibitem{Siavash}
+Anja Elpelt, Daniela Ivanov, Anna Nováčková, Andrej Kováčik, Michaela
+  Sochorová, Siavash Saeidpour, Christian Teutloff, Silke~B. Lohan, Jürgen
+  Lademann, Kateřina Vávrová, Sarah Hedtrich, and Martina~C. Meinke.
+\newblock Investigation of tempo partitioning in different skin models as
+  measured by epr spectroscopy – insight into the stratum corneum.
+\newblock {\em Journal of Magnetic Resonance}, 310, 1 2020.
 
 \bibitem{Fan2023_PRL}
 X.~Fan, T.~G. Myers, B.~A.D. Sukra, and G.~Gabrielse.
@@ -547,9 +566,15 @@ Egor~A. Nasibulov, Jan Behrends, Leonid~V. Kulik, and Konstantin~L. Ivanov.
   single quantum coherences.
 \newblock {\em Zeitschrift fur Physikalische Chemie}, 231:269--291, 2 2017.
 
+\bibitem{Orca}
+Frank Neese, Frank Wennmohs, Ute Becker, and Christoph Riplinger.
+\newblock The orca quantum chemistry program package.
+\newblock {\em Journal of Chemical Physics}, 152, 6 2020.
+
 \bibitem{Neueder2014}
 Roland Neueder.
-\newblock Ion mobilities, 2014.
+\newblock {\em Ion Mobilities}.
+\newblock Springer New York, 2014.
 
 \bibitem{NIST}
 David~B Newell and Eite Tiesinga.
@@ -582,6 +607,13 @@ Hiroyuki Nishide, Kenichiroh Koshika, and Kenichi Oyaizu.
 Naoki Nitta, Feixiang Wu, Jung~Tae Lee, and Gleb Yushin.
 \newblock Li-ion battery materials: Present and future.
 \newblock {\em Materials Today}, 18:252--264, 2015.
+
+\bibitem{Novozhilova_2009}
+M.~V. Novozhilova, E.~A. Smirnova, M.~P. Karushev, A.~M. Timonov, V.~V. Malev,
+  and O.~V. Levin.
+\newblock Synthesis and study of catalysts of electrochemical oxygen reduction
+  reaction based on polymer complexes of nickel and cobalt with schiff bases.
+\newblock {\em Russian Journal of Electrochemistry}, 52:1183--1190, 12 2016.
 
 \bibitem{cambridge}
 Cavendish Laboratory~University of~Cambridge.
