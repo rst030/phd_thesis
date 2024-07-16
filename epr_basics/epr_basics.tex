@@ -126,15 +126,17 @@ A cwEPR spectrum shown in Figure~\ref{fig:cwerp_free_electron} is microwave abso
 
 
 \paragraph{Line Broadening}
-The microwave absorption profiles in the EPR spectra have finite widths. The spectral lines of liquid samples are broadened mostly by the dynamic effects (relaxation, tumbling, chemical exchange), while the lines of solid state samples are broadened by static effects (orientational disorder, unresolved hyperfine splittings, distributions in $\textbf{g}$, $\textbf{A}$, and $\textbf{D}$ values)~\cite{Stoll2006}.\\
-
-According to the stochastic, gaussian random modulation theory of exchange narrowing, the width of a strongly exchange narrowed EPR line (HWHM) is given by
+The microwave absorption profiles in the EPR spectra have finite widths. The spectral lines of liquid solutions of free radicals are broadened mostly by the unresolved hyperfine interactions and dynamic effects (molecular tumbling, chemical exchange), while the lines of solid state samples are broadened by static effects (orientational disorder, distributions in $\textbf{g}$, $\textbf{A}$, and $\textbf{D}$ values) - those effects lead to a Gaussian line shape~\cite{Stoll2006},\cite{Eaton_book}. In other cases the EPR line width is determined by the spin relaxation times and has a Lorentzian shape with a peak-to-peak width of~\cite{Eaton_book}\\
+\begin{equation}
+\Delta B_{PP}^2=\left(\frac{1}{\gamma^2T_2^2}+B_1^2\frac{T_1}{T_2}\right)
+\end{equation}
+where $T_1$ and $T_2$ are longitudinal and transverse relaxation times considered later in Section~\ref{sec:relaxation_times} and $B_1$ is the amplitude of the magnetic component of the microwave field.
+In the case of sufficiently strong exchange interactions between the closely packed electron spins, rapid exchange of electrons from one host atom to another leads to averaging of the anisotropic magnetic dipolar interaction between the spins and narrows the EPR line. According to the stochastic, gaussian random modulation theory of exchange narrowing~\cite{Oreilly_1971}, the width of a strongly exchange narrowed EPR line (HWHM) is given by
 \begin{equation}
 \label{eq:exch_narrowing}
 \Delta B_0 \approx\frac{10}{3}\left(\frac{H_p^2}{H_e}\right)
 \end{equation}
-and the resonance lineshape is lorentzian. $H_p$ is the mean square dipolar field and $H_e$ is an effective exchange field which is proportional to the mean exchange integral $J$~\cite{Oreilly_1971}. Therefore at high spin concentrations the spectral line shape depends on both exchange and dipolar couplings between the spins.\\
-
+and the resonance lineshape is lorentzian. $H_p$ is the mean square dipolar field and $H_e$ is an effective exchange field which is proportional to the mean exchange integral $J$~\cite{Oreilly_1971}. Therefore at high spin concentrations the spectral line shape depends on both exchange and dipolar couplings between the spins. The position of the line, however, is still determined by the local molecular environment.\\
 
 
 \section{Fundamentals of Pulsed EPR Spectroscopy}
@@ -190,13 +192,13 @@ is the matrix of relaxation times, $\omega_0$ is the Larmor frequency and $\gamm
 
 
 Bloch showed that a microwave field $\vec{B}_1(t)$ at right angles to $\vec{B_0}$ causes a forced precession of $\vec{M}$ around the $\vec{B_0}$ with decreasing latitude (nutation), as the Larmor frequency
-approaches the frequency of the microwave field. Thus, resonant $\vec{B_1}$ results a component of $\vec{M}$ at right angles to both $\vec{B}_0$ and $\vec{B}_1$ that lies in the $xy$ plane and can induce observable voltages~\cite{Bloch_1946}. A microwave pulse of amplitude $B_1^0$ and length $\tau$, $B_1(t,\tau) = B_1^0\cos(\omega t)$rect$(t,\tau)$, inclines the $\vec{M}$ towards the $xy$ plane by angle $\theta \sim B_1^0\tau$. A pulse that inclines $\vec{M}$ by $\pi/2$ and lays it into the $xy$ plane, is called a $\pi/2$ pulse. A $\pi$ pulse is defined in a similar way. The angle $\theta$ at which the pulse of a duration $t$ and intensity of $B_1$ is turning the mganetization vector is determined by the Rabi frequency $\Omega=\gamma B_1$: $\theta=\Omega t = \gamma B_1 t$. The duration of a pulse depends on the used microwave power reciprocally.
+approaches the frequency of the microwave field. Thus, resonant $\vec{B_1}$ results a component of $\vec{M}$ at right angles to both $\vec{B}_0$ and $\vec{B}_1$ that lies in the $xy$ plane and can induce observable voltages~\cite{Bloch_1946}. A microwave pulse of amplitude $B_1^0$ and length $\tau$, $B_1(t,\tau) = B_1^0\cos(\omega t)~$rect$(t,\tau)$, inclines the $\vec{M}$ towards the $xy$ plane by angle $\theta \sim B_1^0\tau$. A pulse that inclines $\vec{M}$ by $\pi/2$ and lays it into the $xy$ plane, is called a $\pi/2$ pulse. A $\pi$ pulse is defined in a similar way. The angle $\theta$ at which the pulse of a duration $t$ and intensity of $B_1$ is turning the mganetization vector is determined by the Rabi frequency $\Omega=\gamma B_1$: $\theta=\Omega t = \gamma B_1 t$. The duration of a pulse depends on the used microwave power reciprocally.\\
+\newpage
 
 
 \subsection{Refocused Spin Echo}
 \label{subs:spin_echo}
-
-\begin{figure}[h]
+\begin{figure}[H]
 \center
 	\includegraphics[width=1\textwidth]{./epr_basics/fse.pdf}
 	\caption{Top: two-pulse sequence for observing a spin echo. Bottom: time evolution of the macroscopic magnetization in the rotating frame of reference. a): magnetization at equilibrium, b): rotation of magnetization to the $xy$ plane after a $\pi/2$ pulse, c): vanishing of transverse magnetization due to spin dephasing, d): inversion of the precessing direction of spins in the $xy$ plane after the $\pi$ pulse, e): refocusing of transverse magnetization.}
@@ -209,6 +211,7 @@ The dephasing of the individual magnetic moments due to different local spin env
 
 
 \subsection{Spin Relaxation Times}
+\label{sec:relaxation_times}
 There are two decay constants in Eq.~\ref{eq:Bloch}, $T_1$ and $T_2$. $T_1$ is the longitudinal relaxation time that defines the decay of the $M_Z$ component back to the equilibrium state along the $B_0$ axis ($M_Z = +M_0$). The longitudinal spin relaxation in solids in the presence of magnetic fields happens through scattering to the lattice phonons~\cite{Lunghi2019}, so $T_1$ is traditionally called the spin-lattice relaxation time. The transverse relaxation time $T_2\leq T_1$ is the decay constant of the transverse components $M_Y$ and $M_Z$ due to the inter-spin interactions that cause irreversible spin dephasing that cannot be reverted with a $\pi$ pulse described in the subsection above (\ref{subs:spin_echo}). $T_2$ is, therefore, a measure of spin concentration. Instead of $T_2$, an important experimentally observable value is the phase memory time $T_m$, which is the decay constant of the transverse magnetization caused by the combination of spin dephasing and other irreversible effects such as instantaneous diffusion~\cite{Schweiger2001,Daniel2022} caused by the broad-band microwave pulses ($T_{ID}$):
 
 \begin{equation}
@@ -222,7 +225,7 @@ The most simple pulsed EPR experiment is the detection of the refocused spin ech
 
 \begin{figure}[h]
 \center
-	\includegraphics[width=1\textwidth]{./pulse/figures/pEPR_spectrometer_diagram.pdf}
+	\includegraphics[width=0.9\textwidth]{./pulse/figures/pEPR_spectrometer_diagram.pdf}
 	\caption{Diagram of a pulsed EPR spectrometer. Microwaves generated by the 9.6~GHz are modulated by the output of the pulse generator that is controlled by a PC. The modulated microwave pulses are amplified by the traveling wave tube amplifier (TWT) and directed to the resonator through a variable attenuator. The blanking unit protects the microwave detector by suppressing the high-intensity signal caused by the ring-down of the resonator. The blanking unit is controlled by the receiver protection circuit that is triggered by the pulse sequence.}
 	\label{fig:pepr_spectrometer_diagram}
 \end{figure}
@@ -244,11 +247,11 @@ The measurement of transverse spin relaxation time $T_2$ can be done follows: Th
 \end{figure}
 
 \subsubsection{Inversion Recovery and Spin-Lattice Relaxation Time}
-The longitudinal spin relaxation time $T_1$ can be measured in an inversion recovery experiment. The three-pulse sequence shown in Figure~\ref{fig:T1_diagram}~a) is the inversion recovery sequence. In the inversion recovery experiment, three microwave pulses with various spacing between the first and the second pulse are used to measure the time that the longitudinal ($M_Z$) component of the magnetization vector takes to recover from $(0,0,-M_Z)$ (Figure~\ref{fig:T1_diagram})~d) to the equilibrium state $(0,0,M_Z)$ (Figure~\ref{fig:T1_diagram})~c). The magnetization vector is first flipped from $(0,0,M_Z)$ to $(0,0,-M_Z)$ by a $\pi$ pulse (Figure~\ref{fig:T1_diagram}~c-d). After a time $\tau$, some of the spins recover to $(0,0,1)$ state, reducing the magnitude of the $M_Z$ component due to the spin-lattice relaxation as shown in Figure~\ref{fig:T1_diagram}~d-e). Then a two-pulse echo sequence (Figure~\ref{fig:T1_diagram}~e-g) is applied to detect the magnitude of the remaining longitudinal magnetization. As $\tau$ is varied and the decreasing amplitude of the spin echo is recorded, one observes the longitudinal spin relaxation, or the spin-lattice relaxation time $T_1$. For short delay times $\tau$, the detected echo intensity is negative, as most of the spins remain inverted. With longer $\tau$ less spins remain in the inverted state and eventually the detected echo intensity becomes positive. The dependence of the echo intensity on $\tau$ is the inversion recovery transient that is shown in Figure~\ref{fig:T1_diagram}~b). From an exponential fit to the inversion recovery transient one obtains the spin-lattice relaxation time $T_1$.
-
 \begin{figure}[h]
 \center
 	\includegraphics[width=1\textwidth]{./epr_basics/inversion_recovery.pdf}
 	\caption{a): Three-pulse sequence with variable delay between the first and the second pulse for observing inversion recovery. b): typical inversion recovery transient. The longitudinal relaxation time $T_1$ is the fit parameter. c): inversion of the magnetization by the initial $\pi$ pulse. b): recovery of the magnetization after time $\tau$ due to the spin-lattice relaxation. e): rotation of the remaining magnetization to the $xy$ plane with a $\pi/2$ pulse. f),g) - refocusing the magnetization in the $xy$ plane to detect the remaining magnetization with a spin echo.}
 	\label{fig:T1_diagram}
 \end{figure}
+
+The longitudinal spin relaxation time $T_1$ can be measured in an inversion recovery experiment. The three-pulse sequence shown in Figure~\ref{fig:T1_diagram}~a) is the inversion recovery sequence. In the inversion recovery experiment, three microwave pulses with various spacing between the first and the second pulse are used to measure the time that the longitudinal ($M_Z$) component of the magnetization vector takes to recover from $(0,0,-M_Z)$ (Figure~\ref{fig:T1_diagram})~d) to the equilibrium state $(0,0,M_Z)$ (Figure~\ref{fig:T1_diagram})~c). The magnetization vector is first flipped from $(0,0,M_Z)$ to $(0,0,-M_Z)$ by a $\pi$ pulse (Figure~\ref{fig:T1_diagram}~c-d). After a time $\tau$, some of the spins recover to $(0,0,1)$ state, reducing the magnitude of the $M_Z$ component due to the spin-lattice relaxation as shown in Figure~\ref{fig:T1_diagram}~d-e). Then a two-pulse echo sequence (Figure~\ref{fig:T1_diagram}~e-g) is applied to detect the magnitude of the remaining longitudinal magnetization. As $\tau$ is varied and the decreasing amplitude of the spin echo is recorded, one observes the longitudinal spin relaxation, or the spin-lattice relaxation time $T_1$. For short delay times $\tau$, the detected echo intensity is negative, as most of the spins remain inverted. With longer $\tau$ less spins remain in the inverted state and eventually the detected echo intensity becomes positive. The dependence of the echo intensity on $\tau$ is the inversion recovery transient that is shown in Figure~\ref{fig:T1_diagram}~b). From an exponential fit to the inversion recovery transient one obtains the spin-lattice relaxation time $T_1$.\\

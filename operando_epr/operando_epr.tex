@@ -5,7 +5,7 @@ That information is used to decompose the complex spectra of a charging cell and
 
 
 \section{cwEPR Spectroscopy of Working\\TEMPO-Salen Electrochemical Cells}
-There is a number of difficulties when it comes to an EPR experiment on a working electrochemical cell. The cell must contain mobile ions between its electrodes - cations and anions. The ions are normally produced as products of dissociating salts. To overcome the ionic bond in a salt and to break it into the ions, a solvent with a large dipole moment is needed. Solvents with large dipole moments, such as acetonitrile (CH\textsubscript{3}CN, $\varepsilon\approx 37.5$) or water ($\varepsilon\approx78.4$), have large dielectric constants ($\varepsilon$) which results in a non-resonant absorption of microwaves~\footnote{The rotational energy levels of small polar molecules spread over the microwave domain. The electrical component of the microwaves couples to the electric dipole moment of the molecule and increases its energy by exciting the rotational degrees of freedom. While this property is fundamental for microwave heating, in the EPR experiments it is undesired. Therefore, in an EPR experiment, one separates the electric and magnetic components of the microwave in a resonator. For an EPR experiment on a working battery, the liquid electrolytes and metals change the distribution of the electric field in the resonator, so measures have to be taken to avoid the heating of the sample.}. A cell containing liquid electrolyte absorbs microwaves and lowers the sensitivity of the EPR experiment. Furthermore, due to a finite dimension of cell, not only the magnetic component of the microwave is interacting with the electrolyte, but also the electric one - this results in heating of the electrolyte in a similar fashion as in a microwave oven. The heating of the electrolyte leads to a faster degradation of the cell and does not allow for long systematic measurements.\\
+There is a number of difficulties when it comes to an EPR experiment on a working electrochemical cell. The cell must contain mobile ions between its electrodes - cations and anions. The ions are normally produced as products of dissociating salts. To overcome the ionic bond in a salt and to break it into the ions, a solvent with a large dipole moment is needed. Solvents with large dipole moments, such as acetonitrile (CH\textsubscript{3}CN, $\varepsilon\approx 37.5$) or water ($\varepsilon\approx78.4$), have large dielectric constants ($\varepsilon$) which results in a non-resonant absorption of microwaves~\footnote{The rotational energy levels of small polar molecules spread over the microwave domain~\cite{Dermtroeder}. The electrical component of the microwaves couples to the electric dipole moment of the molecule and increases its energy by exciting the rotational degrees of freedom. While this property is fundamental for microwave heating, in the EPR experiments it is undesired. Therefore, in an EPR experiment, one separates the electric and magnetic components of the microwave in a resonator. For an EPR experiment on a working battery, the liquid electrolytes and metals change the distribution of the electric field in the resonator, so measures have to be taken to avoid the heating of the sample.}. A cell containing liquid electrolyte absorbs microwaves and lowers the sensitivity of the EPR experiment. Furthermore, due to a finite dimension of cell, not only the magnetic component of the microwave is interacting with the electrolyte, but also the electric one - this results in heating of the electrolyte in a similar fashion as in a microwave oven. The heating of the electrolyte leads to a faster degradation of the cell and does not allow for long systematic measurements.\\
 Another general issue with the operando EPR and EDMR experiments is that the device under testing (DUT) has to have metal electrodes that deliver current to it. Metals, placed in a microwave cavity, change the distribution of the electromagnetic field in it - that weakens the magnetic component at the device and at the same time strengthens the electric component. It is the magnetic dipole transition that is causing the magnetic resonance, so the weakening of the magnetic component by introducing the metal electrodes further decreases the magnetic resonance response. The increased electric component causes heating to temperatures that can be critical for the DUT operation.
 
 \subsection{Spectra of TEMPO--Containing Molecular Fragments}
@@ -29,29 +29,30 @@ Solution spectra of radicals are showing averaged values of $\textbf{g}$ and $\t
 \begin{figure}[h]
 \center
 	\includegraphics[width=1\textwidth]{./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT.pdf}
-	\caption{Room temperature cwEPR spectra of a low-concentration solutions containing mono- and di-TEMPO molecular fragments. Left: TEMPOL, Right: Di-Tempo-Salen.}
+	\caption{Room temperature cwEPR spectra of a low-concentration solutions containing mono- and di-TEMPO molecular fragments. Left: TEMPOL, three resolved spectral lines that correspond to the three hyperfine sublevels of $^{14}$N, equally separated by the isotropic hyperfine constant $a_iso$ Numerical simulations of the spectrum by varying $g$ and $a_iso$ parameters of the spin Hamiltonian and assuming fast molecular tumbling that averages $\textbf{g}$ and $\textbf{A}$ anisotropy. Lorentzian spectral profile due to the unresolved hyperfine couplings. Right: Di-Tempo-Salen. Three lines correspond to a mono-nitroxide spectrum, two additional broader lines appear due to the chemical exchange between the radicals at a rate comparable to the tumbling frequency.}
 	\label{fig:cwEPR_monoTEMPO_diTEMPO_SOLUTION}
 \end{figure}
 \begin{figure}[h]
 \center
 	\includegraphics[width=1\textwidth]{./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_vs_DiTS_RT_POWDER.pdf}
-	\caption{Room temperature cwEPR spectra of pure TEMPO-containing powders. Left: TEMPO, Right: Di-Tempo-Salen.}
+	\caption{Room temperature cwEPR spectra of pure TEMPO-containing powders. Left: TEMPO, Right: Di-Tempo-Salen. The strongly broadened lines represent significant dipolar couplings. Numerical simulations of the spectra by varying the isotropic $g$ value and the line width.}
 	\label{fig:cwEPR_monoTEMPO_diTEMPO_POWDER}
 \end{figure}
 
 \begin{figure}[h]
 \center
 	\includegraphics[width=1\textwidth]{./operando_epr/figures/TEMPOL/cwEPR_TEMPOL_100mM_vs_p1mM_80K.pdf}
-	\caption{Cryogenic cwEPR spectra of TEMPOL at high and low concentration in a Dichloroethane/Acetonitrile glass. Left: 100~mM, Right: 0.1~mM.}
+	\caption{Cryogenic cwEPR spectra of TEMPOL at high and low concentration in a Dichloroethane/Acetonitrile glass. Left: 100~mM, Right: 0.1~mM. Numerical simulations of the spectra by varying $g$ and $A$ parameters of the spin Hamiltonian, as well as the line width.}
 	\label{fig:cwEPR_TEMPOL_High_Low_Concentrations}
 \end{figure}
 
 
 
 \par
-A biradical molecule like Di-Tempo-Salen (Figure~\ref{fig:molecules} e) and f) has two paramagnetic species that are close to each other and therefore exchange electrons. When the exchange coupling between the radicals $J$ is comparable to the hyperfine coupling $A$ of each radical to its 'host' nucleus, the superhyperfine interaction~\cite{Carrington_solution_epr} takes place, by which the radical is interacting to the nucleus of the neighboring radical~\cite{Eaton2018}. Solutions of biradical molecules with magnetic nuclei show more features in cwEPR spectra when the electron-electron exchange coupling $J$ between the two radicals within the molecule becomes comparable to the hyperfine coupling between the radical and its ``host'' $^{14}$N nucleus. tumbling of the molecule and the restricted motions of each radical within the molecule cause a complex molecular motion that affects the dipolar and exchange couplings between the radicals and causes ``spectra with alternating linewidths''~\cite{Eaton2018,Carrington_g_factor}. A solution of Di-TEMPO-Salen shows a five-line cwEPR spectrum with alternating linewidhts (Figure~\ref{fig:cwEPR_monoTEMPO_diTEMPO_SOLUTION}, right) with the three most intense lines corresponding to the three hyperfine sublevels of TEMPO$^{\bullet}$. The five-line structure in the cwEPR spectrum indicates the presence of a di-TEMPO biradical in the solution.
-
-
+A biradical molecule like Di-Tempo-Salen (Figure~\ref{fig:molecules} e) and f) has two paramagnetic species that are close to each other and therefore exchange electrons. When the exchange coupling between the radicals $J$ is comparable to the hyperfine coupling $A$ of each radical to its 'host' nucleus, the superhyperfine interaction~\cite{Carrington_solution_epr} takes place, by which the radical is interacting to the nucleus of the neighboring radical~\cite{Eaton2018}. Solutions of biradical molecules with magnetic nuclei show more features in cwEPR spectra when the electron-electron exchange coupling $J$ between the two radicals within the molecule becomes comparable to the hyperfine coupling between the radical and its ``host'' $^{14}$N nucleus. tumbling of the molecule and the restricted motions of each radical within the molecule cause a complex molecular motion that affects the dipolar and exchange couplings between the radicals and causes ``spectra with alternating linewidths''~\cite{Eaton2018,Carrington_g_factor}. A solution of Di-TEMPO-Salen shows a five-line cwEPR spectrum with alternating linewidhts (Figure~\ref{fig:cwEPR_monoTEMPO_diTEMPO_SOLUTION}, right) with the three most intense lines corresponding to the three hyperfine sublevels of TEMPO$^{\bullet}$. The five-line structure in the cwEPR spectrum indicates the presence of a di-TEMPO biradical in the solution.\\
+\newpage
+.
+\newpage
 \subsection{Spectra of TEMPO$^{\bullet}$/TEMPO$^{+}$ Films}
 \begin{figure}[H]
 \center
@@ -61,15 +62,13 @@ A biradical molecule like Di-Tempo-Salen (Figure~\ref{fig:molecules} e) and f) h
 \end{figure}
 A film made of a TEMPO-containing polymer can be brought to a certain oxidation state, depending on how many of the TEMPO groups are in the radical (TEMPO$^{\bullet}$) state and how many are in the oxidized (TEMPO$^{+}$) state. The densely packed TEMPO$^{\bullet}$ fragments in the cathode film cannot be considered as isolated molecules anymore, and the interactions between the radicals become significant. Microcrystals of TEMPOL are densely packed TEMPO$^{\bullet}$ with a concentration of $4\times10^{21}~$cm$^{-3}=6900~$mM. The cwEPR spectrum of TEMPOL microcrystals in Figure~\ref{fig:cwEPR_monoTEMPO_diTEMPO_POWDER}, left is one broad line centered at $g=2.0055$. A powder of DiTS monomers is showing a similar cwEPR spectrum in Figure~\ref{fig:cwEPR_monoTEMPO_diTEMPO_POWDER}, right. It is the concentration of the peramagnetic TEMPO fragments that changes the cwEPR spectral shape. In Figure~\ref{fig:cwEPR_TEMPOL_High_Low_Concentrations}, left cryogenic (80~K) cwEPR spectrum of a 100~mM solution of TEMPOL in Dichloroethane/Acetonitrile is presented. With a slight shift in $g$ factor due to the polar molecular environment of the frozen solvent~\cite{Siavash} and a broader lineshape due to a weaker exchange narrowing, the spectrum consists on one dipolar-broadened Lorentzian line. In contrast, when the concentration of the solution is lowered to 0.1~mM (Figure~\ref{fig:cwEPR_TEMPOL_High_Low_Concentrations}, right) - the inter-molecular interactions become weak enough to resolve the $A$ and $g$ anisotropy of the nitroxide radical, so the spectrum consists of three lines that can be simulated with the known $\textbf{A}$ and $\textbf{g}$ parameters.\\
 A redox-active film containing TEMPO radicals, like the TEMPO-Salen cathode film, shows different cwEPR signatures depending on its redox state. Figure~\ref{fig:cwEPR_CRYO_DiTBuS_DCG_vs_CHG} represents two crypogenic cwEPR spectra of a $d\approx2$~\SI{2}{\micro\meter} DiTBuS cathode film that was discharged to $E=-50$~mV and charged to $E=+900$~mV vs. the Ag/AgNO$_3$ RE as described in Section~\ref{sec:echem_charging}. The spectral intensities were normalized to represent the signal shape not the magnitude. The discharged film shows one broad cwEPR line in Figure~\ref{fig:cwEPR_CRYO_DiTBuS_DCG_vs_CHG}, left, that reflects on the strong interactions between the non-oxidized TEMPO$^{\bullet}$ in the discharged cathode. The linewidth of the discharged film spectrum is smaller than the linewidth of the DiTS monomer spectrum, suggesting a smaller exchange interaction between the TEMPO fragments in the film~\cite{Vereshchagin2020}.\\
-The oxidized film in Figure~\ref{fig:cwEPR_TEMPOL_High_Low_Concentrations}, right, shows a well resolved spectrum of an isolated nitroxide, similar to the low-concentrated solution of TEMPOL (Figure~\ref{fig:cwEPR_TEMPOL_High_Low_Concentrations}, right). A series of powers was recorded for both redox states of the film to observe possible microwave saturation effects that are crucial for the pulsed EPR experiments discussed in Chapter~\ref{ch:pulsed_epr}. The microwave saturation happens when the (cw) microwave power is sufficiently high to excite the $\vert{\downarrow}\rangle-\vert{\uparrow}\rangle$ transitions in the sample at a rate that is faster than the spin relaxation times. Microwave saturation leads to a weaker absorption, hence a weaker cwEPR signal at a certain microwave power level. In the range of microwave powers where no saturation takes place, the cwEPR intensity is proportional to the amplitude of $B_1$, that is, without saturation, the cwEPR intensity increases linearly as a function of the square root of the microwave power~\cite{Eaton_book}. For both SoC, the cwEPR intensity of the pDiTBuS film doubles when the microwave power is increased by 6~dB, so no saturation is seen for both states of charge in the used range of the microwave power. This indicates that the relaxation times in the cathode film are rather short, both for charged and uncharged states. The 0-dB power of the used cwEPR microwave bridge was 200~mW.\\
-
+The oxidized film in Figure~\ref{fig:cwEPR_TEMPOL_High_Low_Concentrations}, right, shows a well resolved spectrum of an isolated nitroxide, similar to the low-concentrated solution of TEMPOL (Figure~\ref{fig:cwEPR_TEMPOL_High_Low_Concentrations}, right). A series of powers was recorded for both redox states of the film to observe possible microwave saturation effects that are crucial for the pulsed EPR experiments discussed in Chapter~\ref{ch:pulsed_epr}. The microwave saturation happens when the (cw) microwave power is sufficiently high to excite the $\vert{\downarrow}\rangle-\vert{\uparrow}\rangle$ transitions in the sample at a rate that is faster than the spin relaxation times. Microwave saturation leads to a weaker absorption, hence a weaker cwEPR signal at a certain microwave power level. In the range of microwave powers where no saturation takes place, the cwEPR intensity is proportional to the amplitude of $B_1$, that is, without saturation, the cwEPR intensity increases linearly as a function of the square root of the microwave power~\cite{Eaton_book}. For both SoC, the cwEPR intensity of the pDiTBuS film doubles when the microwave power is increased by 6~dB, so no saturation is seen for both states of charge in the used range of the microwave power. This indicates that the relaxation times in the cathode film are rather short, both for charged and uncharged states. The 0-dB power of the used cwEPR microwave bridge was 200~mW.
 \begin{figure}[]
 \center
 	\includegraphics[width=0.8\textwidth]{./operando_epr/figures/CRYO/cw_sim_pDiTS_210318_700mV_2comp.pdf}
 	\caption{A pDiTS film in the intermediate state of charge (700~mV vs. Ag/AgNO$_3$) showing a composition of two spectral signatures. The single-line signal from the densely packed nitroxide radicals coexists with the signal of the isolated nitroxide radicals. Two-component simulation.}
 	\label{fig:cwEPR_CRYO_DiTS_2_COMP_SIM}
 \end{figure}
-
 \begin{figure}[h]
 \center
 	\includegraphics[width=0.9\textwidth]{./operando_epr/figures/CRYO/S220106_p-DiTS_OX_80K_CW_SIM.pdf}
@@ -88,6 +87,10 @@ The oxidized film in Figure~\ref{fig:cwEPR_TEMPOL_High_Low_Concentrations}, righ
 
 \newpage
 .
+\newpage
+.
+\newpage
+
 \subsection{Characteristic cwEPR Spectra of a TEMPO-Salen Cell}
 
 \begin{figure}[H]
@@ -135,29 +138,7 @@ In this section the cwEPR spectra are presented at each measured potential durin
 \label{fig:S4}
 \end{figure}
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.40\textwidth]{./operando_epr/figures/Figure_S5}
-\caption{Top: Room temperature SEC cwEPR on 150-CV p-DiTS film. $\nu=$~9.4~GHz. This film has not undergone the cleaning/rinsing procedure and therefore as expected we see spectral signatures of the DiTS monomer which is released into the electrolyte and exhibits a five-line structure characteristic of di-tempo systems with changes in the exchange coupling associated with changes in the nitroxide -- nitroxide distance. This figure shows the primary release of monomeric DiTS from a raw p-DiTS film into electrolyte (Modulation amplitude 0.1~mT -- overmodulated). Bottom: cwEPR of DiTS monomer in electrolyte 100~$\muup$\textsc{m} concentration at room temperature for comparison (Modulation amplitude 0.02~mT).}
-\label{fig:S5}
-\end{figure}
-\paragraph{Release of Nitroxide Fragments to the Electrolyte}
-Fig.~\ref{fig:S5} shows the in-operando study on a 150-deposition-cycle $t =$~400~nm film, that has not undergone the cleaning procedure. Here the non-polymerized monomeric DiTS is released into electrolyte, confirmed by measuring the in-operando and used electrolyte cwEPR spectra, along with comparison to a 100~$\muup$\textsc{m} sample of monomeric DiTS in solution.
-\newpage
-\begin{figure}[H]
-\center
-	\includegraphics[width=1\textwidth]{./operando_epr/figures/degradation/operando_degradation_dits.pdf}
-\caption{Room-temperature in-operando cwEPR measurements for two p-DiTS electrochemical cells. $\nu=$9.4~GHz. Two-component spectral deconvolution to identify dilute and packed nitroxide fragments. Spectrum of the rest electrolyte. a): Cell with a p-DiTS film grown by 150 deposition cycles ($t\approx 400$~nm) that was left untreated and underwent one charge-discharge cycle before the measurement. The dilute component is released during the oxidation and remains detectable in the rest electrolyte. b): Cell with a p-DiTS film grown by 200 deposition cycles ($t\approx 500$~nm) that was rinsed in solvents and cycled in the electrolyte to remove the not polymerized nitroxide fragments. The initially released dilute component is electrochemically active and does not appear in the rest electrolyte.}
-\label{fig:S6}
-\end{figure}
-
-
-Fig.~\ref{fig:S6} shows more steps in the in-operando study shown in Fig.~\ref{fig:Figure_5}
-
-
-
-
-Potential dependent in-operando SEC cwEPR was measured on a 40$\pm$5~nm thick (8 deposition cycles) p-DiTS film inside the modified EPR tube at room temperature (see Fig.~\ref{fig:Figure_4}). At 0.3~V (vs. Ag) the TEMPO fragments are in the reduced/discharged state. The discharged film exhibits a single Lorentzian derivative lineshape with a peak-to-peak line width of 1.4~mT. The single-line derivative lineshape results from the collapse of the hyperfine structure due to strong exchange coupling in the films with high spin concentration, whereas the broader line width is due to a combination of dipolar and exchange coupling between the nitroxide spins within the film. In this reduced, neutral radical state the number of unpaired electrons in the film was calculated to be $6\times10^{14}$ (with up to 20\% error in quantitative cwEPR). This is comparable to the number of electrochemically active TEMPO charges at $8\times10^{14}$, determined by integration of the reduction branch of the CV of the cell vs.\ time.
+Potential dependent in-operando SEC cwEPR was measured on a 40$\pm$5~nm thick (8 deposition cycles) p-DiTS film inside the modified EPR tube at room temperature (see Fig.~\ref{fig:operando_carpet}). At 0.3~V (vs. Ag) the TEMPO fragments are in the reduced/discharged state. The discharged film exhibits a single Lorentzian derivative lineshape with a peak-to-peak line width of 1.4~mT. The single-line derivative lineshape results from the collapse of the hyperfine structure due to strong exchange coupling in the films with high spin concentration, whereas the broader line width is due to a combination of dipolar and exchange coupling between the nitroxide spins within the film. In this reduced, neutral radical state the number of unpaired electrons in the film was calculated to be $6\times10^{14}$ (with up to 20\% error in quantitative cwEPR). This is comparable to the number of electrochemically active TEMPO charges at $8\times10^{14}$, determined by integration of the reduction branch of the CV of the cell vs.\ time.
 \par
 Upon increasing the oxidation potential, there is no significant change in the cwEPR spectra in the oxidation potential range between 0.3~V and $\sim$0.8~V (region~I). A representative cwEPR spectrum from region~I, taken at an oxidation potential of 0.6~V, is shown in Fig.~\ref{fig:Figure_4}c, where the peak-to-peak line width is 1.4~mT. There is no significant change in the number of spins (spin count) contributing to the cwEPR spectra at all potentials in region~I, as shown in Fig.~\ref{fig:Figure_4}b. The cwEPR signal intensity starts to decrease at 0.8~V, and from 0.85~V to 0.94~V (the maximum potential applied to this cell), the signal intensity drops sharply. The lowest spin count is observed at an oxidation potential of 0.94~V giving $5\times10^{13}$ spins. This is an order of magnitude decrease in the number of unpaired electrons in the oxidized film as compared to its initial, reduced state.
 
@@ -182,8 +163,34 @@ Looking at the oxidation series from 0.3~V to 0.94~V and the reduction series fr
 
 \par
 While the EPR signatures of different polymeric NiSalen complexes have been reported by Dmitrieva \textit{et al.},\cite{Dmitrieva2018} we do not observe the EPR signature of the NiSalen backbone in our in-operando study of p-DiTS. Dmitrieva \textit{et al.}\ noted that upon increased doping of the polymer (still one electron per monomer unit), the charges could aggregate to form diamagnetic states, and under high oxidation potentials the polymer could be doped with two electrons per monomer, thus also forming diamagnetic dications. Another plausible explanation for the absence of a p-NiSalen EPR signal could be related to low-intensity signals which are masked by the much more intense nitroxide signals. However, our quantitative EPR analysis of the number of spins per monomer unit in this film gave 2.0$\pm$0.2, suggesting only signals corresponding to nitroxide radicals, as there are two unpared nitroxides per DiTS monomer unit: in its charge-bearing groups.
-In addition, Coulomb repulsion between the positively charged TEMPO$^+$ groups in the oxidized state and the positive polarons on the backbone could lead to a depletion of mobile positive charge carriers and thus provide a credible explanation for the absence of a corresponding polaron EPR signal.
-%
+In addition, Coulomb repulsion between the positively charged TEMPO$^+$ groups in the oxidized state and the positive polarons on the backbone could lead to a depletion of mobile positive charge carriers and thus provide a credible explanation for the absence of a corresponding polaron EPR signal.\\
+\newpage
+
+
+
+
+\paragraph{Release of Nitroxide Fragments to the Electrolyte}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.40\textwidth]{./operando_epr/figures/Figure_S5}
+\caption{Top: Room temperature SEC cwEPR on 150-CV p-DiTS film. $\nu=$~9.4~GHz. This film has not undergone the cleaning/rinsing procedure and therefore as expected we see spectral signatures of the DiTS monomer which is released into the electrolyte and exhibits a five-line structure characteristic of di-TEMPO systems with changes in the exchange coupling associated with changes in the nitroxide -- nitroxide distance. This figure shows the primary release of monomeric DiTS from a raw p-DiTS film into electrolyte (Modulation amplitude 0.1~mT -- overmodulated). Bottom: cwEPR of DiTS monomer in electrolyte 100~$\muup$\textsc{m} concentration at room temperature for comparison (Modulation amplitude 0.02~mT).}
+\label{fig:S5}
+\end{figure}
+Fig.~\ref{fig:S5} shows the in-operando study on a 150-deposition-cycle $t =$~400~nm film, that has not undergone the cleaning procedure. Here the non-polymerized monomeric DiTS is released into electrolyte, confirmed by measuring the in-operando and used electrolyte cwEPR spectra, along with comparison to a 100~$\muup$\textsc{m} sample of monomeric DiTS in solution.
+\newpage
+\begin{figure}[H]
+\center
+	\includegraphics[width=1\textwidth]{./operando_epr/figures/degradation/operando_degradation_dits.pdf}
+\caption{Room-temperature in-operando cwEPR measurements for two p-DiTS electrochemical cells. $\nu=$9.4~GHz. Two-component spectral deconvolution to identify dilute and packed nitroxide fragments. Spectrum of the rest electrolyte. a): Cell with a p-DiTS film grown by 150 deposition cycles ($t\approx 400$~nm) that was left untreated and underwent one charge-discharge cycle before the measurement. The dilute component is released during the oxidation and remains detectable in the rest electrolyte. b): Cell with a p-DiTS film grown by 200 deposition cycles ($t\approx 500$~nm) that was rinsed in solvents and cycled in the electrolyte to remove the not polymerized nitroxide fragments. The initially released dilute component is electrochemically active and does not appear in the rest electrolyte.}
+\label{fig:S6}
+\end{figure}
+
+
+Fig.~\ref{fig:S6} shows more steps in the in-operando study shown in Fig.~\ref{fig:Figure_5}
+
+
+
+
 
 
 \subsection{Spectral Simulations}
@@ -192,19 +199,19 @@ The cwEPR spectra for a pDiTS film in Figure~\ref{fig:operando_carpet} consist o
 
 \subsection{Quantitative Analysis of Potential-Dependent EPR Spectra}
 \label{sec:quantitative_EPR}
-
-
-The number of spins at each SoC was determined with quantitative cwEPR from the double integral of the cwEPR intensity calculated with the Spincounting Toolbox~\cite{spin_counting_tb} for Matlab~\cite{SI:Matlab}. The cwEPR spectra in Figure~\ref{fig:Figure_S6} were measured in a Bruker Elexsys E580 spectrometer equipped with an ER 4118 X-MD5 dielectric ring resonator with an unknown Q factor. To calibrate the intensity of the measured cwEPR signals and to determine the absolute number of spins in the film, we measured the cwEPR spectrum of the fully discharged film (SoC 0\%) with a calibrated spectrometer. The calibrated spectrometer is a lab-built X-band cwEPR spectrometer equipped with a 9.4~GHz, 200~mW microwave source and a 4122-SHQE resonator. With Q~$=6095$, the absolute number of spins in the pDiTBuS film at SoC~0\% was measured to be $N=(6.9\pm0.4)\times10^{15}$. We used $N$ to get the number of spins for other SoC from the spectra measured with the uncalibrated spectrometer. We assumed that the Q factor of the resonator remains the same for different SoC~\cite{Kulikov2022} and computed the corresponding numbers of spins from the doubly integrated spectral intensities.\\
-
-The doubly integrated cwEPR spectral intensities for the pDiTBuS film in the four considered SoC relate to each other as 100:51:15:6 with the absolute number of spins of $(6.9\pm0.4)\times10^{15}$, $(3.5\pm0.2)\times10^{15}$, $(1.1\pm0.1)\times10^{15}$ and $(3.8\pm0.4)\times10^{14}$, respectively. The respective ESOC are therefore $(0\pm5)$\%, $(49\pm3)$\%, $(85\pm2)$\% and $(95\pm1)$\%. Spin \rs{concentrations} in the film are $(5.3\pm2.7)\times10^{20}$, $(2.7\pm1.4)\times10^{20}$, $(0.8\pm0.4)\times10^{20}$ and $(0.3\pm0.2)\times10^{20}$ cm$^{-3}$, respectively. Integration of the cyclic voltammogram yields $(2.3\pm0.8)\times10^{16}$ electrons in the reduced state.\\
-%The relative intensities of the CWEPR signals correspond to ESOC 0\%, 49\%, 85\% and 95\%.
-%\newpage
 \begin{figure}[h]
 \center
 	\includegraphics[width=0.85\textwidth]{./pulse/figures/Figure_S6}
 	\caption{cwEPR spectra for a pDiTBuS film in four charge states. Single and double integrals of the signal. Spin count is proportional to the end value of the double integral. Temperature: 80~K, $\nu\approx$~9.6~GHz, field modulation: 5~G at 100~kHz. ER~4118 X-MD5 dielectric ring resonator.}
 	\label{fig:Figure_S6}
 \end{figure}
+
+The number of spins at each SoC was determined with quantitative cwEPR from the double integral of the cwEPR intensity calculated with the Spincounting Toolbox~\cite{spin_counting_tb} for Matlab~\cite{SI:Matlab}. The cwEPR spectra in Figure~\ref{fig:Figure_S6} were measured in a Bruker Elexsys E580 spectrometer equipped with an ER 4118 X-MD5 dielectric ring resonator with an unknown Q factor. To calibrate the intensity of the measured cwEPR signals and to determine the absolute number of spins in the film, we measured the cwEPR spectrum of the fully discharged film (SoC 0\%) with a calibrated spectrometer. The calibrated spectrometer is a lab-built X-band cwEPR spectrometer equipped with a 9.4~GHz, 200~mW microwave source and a 4122-SHQE resonator. With Q~$=6095$, the absolute number of spins in the pDiTBuS film at SoC~0\% was measured to be $N=(6.9\pm0.4)\times10^{15}$. We used $N$ to get the number of spins for other SoC from the spectra measured with the uncalibrated spectrometer. We assumed that the Q factor of the resonator remains the same for different SoC~\cite{Kulikov2022} and computed the corresponding numbers of spins from the doubly integrated spectral intensities.\\
+
+The doubly integrated cwEPR spectral intensities for the pDiTBuS film in the four considered SoC relate to each other as 100:51:15:6 with the absolute number of spins of $(6.9\pm0.4)\times10^{15}$, $(3.5\pm0.2)\times10^{15}$, $(1.1\pm0.1)\times10^{15}$ and $(3.8\pm0.4)\times10^{14}$, respectively. The respective ESOC are therefore $(0\pm5)$\%, $(49\pm3)$\%, $(85\pm2)$\% and $(95\pm1)$\%. Spin \rs{concentrations} in the film are $(5.3\pm2.7)\times10^{20}$, $(2.7\pm1.4)\times10^{20}$, $(0.8\pm0.4)\times10^{20}$ and $(0.3\pm0.2)\times10^{20}$ cm$^{-3}$, respectively. Integration of the cyclic voltammogram yields $(2.3\pm0.8)\times10^{16}$ electrons in the reduced state.\\
+%The relative intensities of the CWEPR signals correspond to ESOC 0\%, 49\%, 85\% and 95\%.
+%\newpage
+
 
 
 \subsection{Spectra of NiSalen Films}
@@ -378,16 +385,8 @@ The two-substrate batteries with a separator (Section~\ref{sec:sandwich_battery}
 
 \begin{figure}[h]
 \center
-	\includegraphics[width=1\textwidth]{./operando_epr/figures/CRYO/freezing_sandwich_230K_200K.pdf}
-	\caption{Freezing a pDiTBuS cell}
-	\label{fig:freezing_of_pditbus_battery_1D}
-\end{figure}
-
-
-\begin{figure}[h]
-\center
 	\includegraphics[width=1\textwidth]{./operando_epr/figures/slowcharge_231117_liquid_250K.pdf}
-	\caption{XXX}
+	\caption{Operando cwEPR during a charge-discharge cycle of a 2-electrode pDiTBuS electrochemical half-cell with a separator. The re-appearance of the broad spectral component indicates the reversible oxidation of the densely packed domains in the film. The three narrow lines correspond to the electrochemically inactive radicals released to the separator. Temperature decreased to 250~K to achieve a larger signal.}
 	\label{fig:operando_cold_cycle}
 \end{figure}
 
