@@ -57,6 +57,11 @@ Loris Bennett, Bernd Melchers, and Boris Proppe.
   universität berlin.
 \newblock {\em http://dx.doi.org/10.17169/refubium-26754}, 2020.
 
+\bibitem{ragone}
+Inga Beyers, Astrid Bensmann, and Richard Hanke-Rauschenbach.
+\newblock Ragone plots revisited: A review of methodology and application
+  across energy storage technologies, 12 2023.
+
 \bibitem{Bhojane2022}
 Prateek Bhojane.
 \newblock Recent advances and fundamentals of pseudocapacitors: Materials,
@@ -213,6 +218,12 @@ M.~Fehr, J.~Behrends, S.~Haas, B.~Rech, K.~Lips, and A.~Schnegg.
 \newblock {\em Physical Review B - Condensed Matter and Materials Physics},
   84:1--5, 11 2011.
 
+\bibitem{Feng_2010}
+Guang Feng, Rui Qiao, Jingsong Huang, Bobby~G. Sumpter, and Vincent Meunier.
+\newblock Computational modeling of carbon nanostructures for energy storage
+  applications.
+\newblock pages 100--104, 2010.
+
 \bibitem{Feynman_1949}
 R~P Feynman.
 \newblock Space-time appxoach to quantum electxotiynamics.
@@ -249,6 +260,11 @@ Yangyang Fu, Song Lu, Kaiyuan Li, Changchen Liu, Xudong Cheng, and Heping
 Walther Gerlach and Otto Stern.
 \newblock Der experimentelle nachweis der richtungsquantelung im magnetfeld.
 \newblock {\em Zeitschrift für Physik}, 9:348--352, 1922.
+
+\bibitem{Ghoniem_2011}
+Ahmed~F. Ghoniem.
+\newblock Needs, resources and climate change: Clean and efficient conversion
+  technologies, 2 2011.
 
 \bibitem{Golovisnina2023}
 Kateryna Goloviznina and Mathieu Salanne.
@@ -549,6 +565,13 @@ Alice~J. Merryweather, Quentin Jacquet, Steffen~P. Emge, Christoph
   heterogeneities and cracking in high-rate li-ion anodes.
 \newblock {\em Nature Materials}, 21:1306--1313, 2022.
 
+\bibitem{Moura_2010}
+Scott~J Moura, Jason~B Siegel, Donald~J Siegel, Hosam~K Fathy, and Anna~G
+  Stefanopoulou.
+\newblock Education on vehicle electrification: Battery systems, fuel cells,
+  and hydrogen (special session: New vehicle education programs).
+\newblock EEE Vehicle Power and Propulsion Conference, 2010.
+
 \bibitem{Movassagh2021}
 Kiarash Movassagh, Arif Raihan, Balakumar Balasingam, and Krishna Pattipati.
 \newblock A critical look at coulomb counting approach for state of charge
@@ -676,6 +699,10 @@ Anna Pražanová, Vaclav Knap, and Daniel~Ioan Stroe.
 \newblock Literature review, recycling of lithium-ion batteries from electric
   vehicles, part i: Recycling technology.
 \newblock {\em Energies}, 15:1--29, 2022.
+
+\bibitem{Reddy_book}
+Thomas~B Reddy.
+\newblock Linden's handbook of batteries, 2011.
 
 \bibitem{Rhodes2012}
 Kevin~J. Rhodes, Roberta Meisner, Melanie Kirkham, Nancy Dudney, and Claus
