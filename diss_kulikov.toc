@@ -1,7 +1,7 @@
 \contentsline {chapter}{\numberline {1}Introduction}{7}{}%
 \contentsline {section}{\numberline {1.1}Rechargeable Electrochemical Cells}{8}{}%
-\contentsline {subsection}{\numberline {1.1.1}State of The Art in Battery Technologies}{9}{}%
-\contentsline {subsection}{\numberline {1.1.2}Organic Radical Battery}{9}{}%
+\contentsline {subsection}{\numberline {1.1.1}State of the Art in Battery Technologies}{9}{}%
+\contentsline {subsection}{\numberline {1.1.2}Organic Radical Battery}{10}{}%
 \contentsline {section}{\numberline {1.2}Redox Conductive Polymers}{10}{}%
 \contentsline {subsection}{\numberline {1.2.1}Charge Transport in a Polymer Electrode}{11}{}%
 \contentsline {section}{\numberline {1.3}Experimental Techniques for Characterizing Battery Materials}{12}{}%

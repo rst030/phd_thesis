@@ -127,6 +127,11 @@ C~Chatgilialoglu and A~Studer.
   Series}.
 \newblock 2012.
 
+\bibitem{Chen2017}
+George~Z. Chen.
+\newblock Supercapacitor and supercapattery as emerging electrochemical energy
+  stores, 5 2017.
+
 \bibitem{Daniel2023_Multimodal}
 Davis~Thomas Daniel, Steffen Oevermann, Souvik Mitra, Katharina Rudolf, Andreas
   Heuer, Rüdiger~A. Eichel, Martin Winter, Diddo Diddens, Gunther Brunklaus,
@@ -406,6 +411,13 @@ Y~Kanzaki, S~Mitani, D~Shiomi, Y~Morita, T~Takui, and K~Sato.
   lithium-ion rechargeable battery by in situ 2d esr measurements.
 \newblock {\em Acs Applied Materials \& Interfaces}, 10:43631--43640, 2018.
 
+\bibitem{Kato2016}
+Yuki Kato, Satoshi Hori, Toshiya Saito, Kota Suzuki, Masaaki Hirayama, Akio
+  Mitsui, Masao Yonemura, Hideki Iba, and Ryoji Kanno.
+\newblock High-power all-solid-state batteries using sulfide superionic
+  conductors.
+\newblock {\em Nature Energy}, 1, 4 2016.
+
 \bibitem{katsumata2006_mrc}
 T~Katsumata, M~Satoh, J~Wada, M~Shiotsuki, F~Sanda, and T~Masuda.
 \newblock Polyacetylene and polynorbornene derivatives carrying tempo.
@@ -564,13 +576,6 @@ Alice~J. Merryweather, Quentin Jacquet, Steffen~P. Emge, Christoph
 \newblock Operando monitoring of single-particle kinetic state-of-charge
   heterogeneities and cracking in high-rate li-ion anodes.
 \newblock {\em Nature Materials}, 21:1306--1313, 2022.
-
-\bibitem{Moura_2010}
-Scott~J Moura, Jason~B Siegel, Donald~J Siegel, Hosam~K Fathy, and Anna~G
-  Stefanopoulou.
-\newblock Education on vehicle electrification: Battery systems, fuel cells,
-  and hydrogen (special session: New vehicle education programs).
-\newblock EEE Vehicle Power and Propulsion Conference, 2010.
 
 \bibitem{Movassagh2021}
 Kiarash Movassagh, Arif Raihan, Balakumar Balasingam, and Krishna Pattipati.
@@ -978,5 +983,10 @@ Lingyun Zhu, Yuanping Yi, Yuan Li, Eung~Gun Kim, Veaceslav Coropceanu, and
   in organic mixed-stack charge-transfer crystals.
 \newblock {\em Journal of the American Chemical Society}, 134:2340--2347, 2
   2012.
+
+\bibitem{Zuo2017}
+Wenhua Zuo, Ruizhi Li, Cheng Zhou, Yuanyuan Li, Jianlong Xia, and Jinping Liu.
+\newblock Battery-supercapacitor hybrid devices: Recent progress and future
+  prospects, 7 2017.
 
 \end{thebibliography}
