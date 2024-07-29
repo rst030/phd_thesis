@@ -7,12 +7,12 @@ A level-1 auxiliary file: epr_basics/epr_basics.aux
 A level-1 auxiliary file: materials/materials.aux
 A level-1 auxiliary file: operando_epr/operando_epr.aux
 Case mismatch error between cite keys vereshchagin2020 and Vereshchagin2020
----line 85 of file operando_epr/operando_epr.aux
+---line 96 of file operando_epr/operando_epr.aux
  : \citation{vereshchagin2020
  :                           }
 I'm skipping whatever remains of this command
 Case mismatch error between cite keys vereshchagin2020 and Vereshchagin2020
----line 88 of file operando_epr/operando_epr.aux
+---line 105 of file operando_epr/operando_epr.aux
  : \citation{vereshchagin2020
  :                           }
 I'm skipping whatever remains of this command
@@ -34,69 +34,69 @@ I'm skipping whatever remains of this command
 A level-1 auxiliary file: appendix/C-Samples.aux
 A level-1 auxiliary file: appendix/D-Experimental.aux
 Database file #1: Bibliography.bib
-Warning--entry type for "Chen2017" isn't style-file defined
---line 14 of file Bibliography.bib
-Warning--entry type for "Zuo2017" isn't style-file defined
---line 29 of file Bibliography.bib
-Warning--entry type for "Ghoniem_2011" isn't style-file defined
---line 60 of file Bibliography.bib
-Warning--entry type for "Reddy_book" isn't style-file defined
---line 74 of file Bibliography.bib
-Warning--entry type for "ragone" isn't style-file defined
---line 80 of file Bibliography.bib
-Warning--entry type for "Eastman1970" isn't style-file defined
---line 262 of file Bibliography.bib
-Warning--entry type for "Luca2015" isn't style-file defined
---line 269 of file Bibliography.bib
-Warning--entry type for "Bhojane2022" isn't style-file defined
---line 283 of file Bibliography.bib
-Warning--entry type for "Pang2021" isn't style-file defined
---line 296 of file Bibliography.bib
-Warning--entry type for "Liu2016" isn't style-file defined
---line 339 of file Bibliography.bib
-Warning--entry type for "Tarascon2001" isn't style-file defined
---line 376 of file Bibliography.bib
-Warning--entry type for "cambridge" isn't style-file defined
---line 439 of file Bibliography.bib
-Warning--entry type for "Koehler_book" isn't style-file defined
---line 473 of file Bibliography.bib
-Warning--entry type for "Hu2021" isn't style-file defined
---line 543 of file Bibliography.bib
-Warning--entry type for "NIST" isn't style-file defined
---line 594 of file Bibliography.bib
-Warning--entry type for "Fang_2021" isn't style-file defined
---line 634 of file Bibliography.bib
-Warning--entry type for "Wu_2023" isn't style-file defined
---line 711 of file Bibliography.bib
-Warning--entry type for "He_2022" isn't style-file defined
---line 778 of file Bibliography.bib
-Warning--entry type for "DOM" isn't style-file defined
---line 801 of file Bibliography.bib
-Warning--entry type for "einstein_s_rel" isn't style-file defined
---line 851 of file Bibliography.bib
+Warning--entry type for "Casado2021" isn't style-file defined
+--line 65 of file Bibliography.bib
+Warning--entry type for "salikhov_2015" isn't style-file defined
+--line 1173 of file Bibliography.bib
+Warning--entry type for "Shirakawa_1977" isn't style-file defined
+--line 1300 of file Bibliography.bib
+Warning--entry type for "Koezuka_1987" isn't style-file defined
+--line 1361 of file Bibliography.bib
+Warning--entry type for "Lee_1993" isn't style-file defined
+--line 1368 of file Bibliography.bib
 Warning--entry type for "Rohland_2021" isn't style-file defined
---line 896 of file Bibliography.bib
-Repeated entry---line 955 of file Bibliography.bib
+--line 1378 of file Bibliography.bib
+Repeated entry---line 1437 of file Bibliography.bib
  : @generic{Rohland_2021
  :                      ,
 I'm skipping whatever remains of this entry
-Warning--entry type for "Lee_1993" isn't style-file defined
---line 968 of file Bibliography.bib
-Warning--entry type for "Koezuka_1987" isn't style-file defined
---line 978 of file Bibliography.bib
-Warning--entry type for "Shirakawa_1977" isn't style-file defined
---line 1039 of file Bibliography.bib
-Warning--entry type for "salikhov_2015" isn't style-file defined
---line 1167 of file Bibliography.bib
-Repeated entry---line 1660 of file Bibliography.bib
+Warning--entry type for "einstein_s_rel" isn't style-file defined
+--line 1489 of file Bibliography.bib
+Warning--entry type for "DOM" isn't style-file defined
+--line 1536 of file Bibliography.bib
+Warning--entry type for "He_2022" isn't style-file defined
+--line 1555 of file Bibliography.bib
+Warning--entry type for "Wu_2023" isn't style-file defined
+--line 1620 of file Bibliography.bib
+Repeated entry---line 1686 of file Bibliography.bib
  : @article{Ouyang2020
  :                    ,
 I'm skipping whatever remains of this entry
-Warning--entry type for "Casado2021" isn't style-file defined
---line 2268 of file Bibliography.bib
-Warning--I didn't find a database entry for "Stoll_2006"
+Warning--entry type for "Fang_2021" isn't style-file defined
+--line 1699 of file Bibliography.bib
+Warning--entry type for "NIST" isn't style-file defined
+--line 1742 of file Bibliography.bib
+Warning--entry type for "Hu2021" isn't style-file defined
+--line 1789 of file Bibliography.bib
+Warning--entry type for "Koehler_book" isn't style-file defined
+--line 1868 of file Bibliography.bib
+Warning--entry type for "cambridge" isn't style-file defined
+--line 1901 of file Bibliography.bib
+Warning--entry type for "Tarascon2001" isn't style-file defined
+--line 1963 of file Bibliography.bib
+Warning--entry type for "Liu2016" isn't style-file defined
+--line 1993 of file Bibliography.bib
+Warning--entry type for "Pang2021" isn't style-file defined
+--line 2036 of file Bibliography.bib
+Warning--entry type for "Bhojane2022" isn't style-file defined
+--line 2050 of file Bibliography.bib
+Warning--entry type for "Luca2015" isn't style-file defined
+--line 2063 of file Bibliography.bib
+Warning--entry type for "Eastman1970" isn't style-file defined
+--line 2077 of file Bibliography.bib
+Warning--entry type for "ragone" isn't style-file defined
+--line 2253 of file Bibliography.bib
+Warning--entry type for "Reddy_book" isn't style-file defined
+--line 2266 of file Bibliography.bib
+Warning--entry type for "Ghoniem_2011" isn't style-file defined
+--line 2272 of file Bibliography.bib
+Warning--entry type for "Zuo2017" isn't style-file defined
+--line 2303 of file Bibliography.bib
+Warning--entry type for "Chen2017" isn't style-file defined
+--line 2317 of file Bibliography.bib
+Warning--entry type for "spincounting" isn't style-file defined
+--line 2345 of file Bibliography.bib
 Warning--I didn't find a database entry for "spin_counting_tb"
-Warning--I didn't find a database entry for "SI:Matlab"
 Warning--I didn't find a database entry for "si_vereshchagin2020"
 Warning--I didn't find a database entry for "wadhawan2007_encofelectrochem"
 Warning--I didn't find a database entry for "toybenshlak2019_isrjchem"
@@ -113,45 +113,45 @@ Warning--empty booktitle in Feng_2010
 Warning--empty journal in Lunghi2019
 Warning--can't use both author and editor fields in Neueder2014
 Warning--empty booktitle in nishide_2009
-You've used 165 entries,
+You've used 166 entries,
             2118 wiz_defined-function locations,
-            1535 strings with 37871 characters,
-and the built_in function-call counts, 60677 in all, are:
-= -- 5503
-> -- 4032
+            1534 strings with 37886 characters,
+and the built_in function-call counts, 60874 in all, are:
+= -- 5520
+> -- 4039
 < -- 6
-+ -- 1613
-- -- 1426
-* -- 4845
-:= -- 10583
-add.period$ -- 469
-call.type$ -- 165
-change.case$ -- 1199
++ -- 1616
+- -- 1428
+* -- 4851
+:= -- 10615
+add.period$ -- 471
+call.type$ -- 166
+change.case$ -- 1203
 chr.to.int$ -- 0
-cite$ -- 171
-duplicate$ -- 1743
-empty$ -- 4043
-format.name$ -- 1426
-if$ -- 12148
+cite$ -- 172
+duplicate$ -- 1750
+empty$ -- 4065
+format.name$ -- 1428
+if$ -- 12191
 int.to.chr$ -- 0
-int.to.str$ -- 165
+int.to.str$ -- 166
 missing$ -- 152
-newline$ -- 802
-num.names$ -- 330
-pop$ -- 1152
+newline$ -- 806
+num.names$ -- 332
+pop$ -- 1161
 preamble$ -- 1
-purify$ -- 1043
+purify$ -- 1046
 quote$ -- 0
-skip$ -- 1252
+skip$ -- 1260
 stack$ -- 0
-substring$ -- 3225
-swap$ -- 198
+substring$ -- 3230
+swap$ -- 199
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 634
+type$ -- 638
 warning$ -- 6
-while$ -- 445
-width$ -- 168
-write$ -- 1726
+while$ -- 447
+width$ -- 169
+write$ -- 1734
 (There were 6 error messages)

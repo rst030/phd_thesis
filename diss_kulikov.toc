@@ -59,20 +59,21 @@
 \contentsline {subsection}{\numberline {4.1.1}Spectra of TEMPO--Containing Molecular Fragments}{70}{}%
 \contentsline {subsection}{\numberline {4.1.2}Room Temperature Spectra of TEMPO$^{\bullet }$ Solutions}{70}{}%
 \contentsline {subsection}{\numberline {4.1.3}Spectra of TEMPO$^{\bullet }$/TEMPO$^{+}$ Films}{74}{}%
-\contentsline {subsection}{\numberline {4.1.4}Characteristic cwEPR Spectra of a TEMPO-Salen Cell}{78}{}%
-\contentsline {subsection}{\numberline {4.1.5}cwEPR Spectra During a Charge--Discharge Cycle}{80}{}%
-\contentsline {paragraph}{Release of Nitroxide Fragments to the Electrolyte}{85}{}%
-\contentsline {subsection}{\numberline {4.1.6}Spectral Simulations}{87}{}%
-\contentsline {subsection}{\numberline {4.1.7}Quantitative Analysis of Potential-Dependent EPR Spectra}{87}{}%
-\contentsline {subsection}{\numberline {4.1.8}Spectra of NiSalen Films}{87}{}%
-\contentsline {section}{\numberline {4.2}Monitoring of Degradation Processes}{88}{}%
-\contentsline {section}{\numberline {4.3}Monitoring of Self Discharge}{91}{}%
-\contentsline {section}{\numberline {4.4}Low Temperature Measurements}{91}{}%
-\contentsline {subsection}{\numberline {4.4.1}p-DiTS}{91}{}%
-\contentsline {subsection}{\numberline {4.4.2}p-NiMeOSalen}{92}{}%
-\contentsline {subsection}{\numberline {4.4.3}Operational Electrochemical Cells}{93}{}%
-\contentsline {section}{\numberline {4.5}EPR-Detected State Of Charge}{93}{}%
-\contentsline {subsection}{\numberline {4.5.1}Formation of Singlet Spin States in a Discharged Cathode}{94}{}%
+\contentsline {subsection}{\numberline {4.1.4}Characteristic cwEPR Spectra of a TEMPO-Salen Cell}{79}{}%
+\contentsline {subsection}{\numberline {4.1.5}cwEPR Spectra During a Charge--Discharge Cycle}{81}{}%
+\contentsline {subsection}{\numberline {4.1.6}Release of Nitroxide Fragments to the Electrolyte}{86}{}%
+\contentsline {subsubsection}{Re-polymerization and missing spins}{89}{}%
+\contentsline {subsection}{\numberline {4.1.7}Spectral Simulations}{90}{}%
+\contentsline {subsection}{\numberline {4.1.8}Quantitative Analysis of Potential-Dependent EPR Spectra}{91}{}%
+\contentsline {subsection}{\numberline {4.1.9}Spectra of NiSalen Films}{92}{}%
+\contentsline {section}{\numberline {4.2}Monitoring of Degradation Processes}{94}{}%
+\contentsline {section}{\numberline {4.3}Monitoring of Self Discharge}{99}{}%
+\contentsline {section}{\numberline {4.4}Low Temperature Measurements}{99}{}%
+\contentsline {subsection}{\numberline {4.4.1}p-DiTS}{100}{}%
+\contentsline {subsection}{\numberline {4.4.2}p-NiMeOSalen}{102}{}%
+\contentsline {subsection}{\numberline {4.4.3}Operational Electrochemical Cells}{103}{}%
+\contentsline {section}{\numberline {4.5}EPR-Detected State Of Charge}{104}{}%
+\contentsline {subsection}{\numberline {4.5.1}Formation of Singlet Spin States in a Discharged Cathode}{105}{}%
 \contentsline {chapter}{\numberline {5}Electron Spin Echo and Relaxometry in TEMPO-Salen Cathode Films}{107}{}%
 \contentsline {section}{\numberline {5.1}Experimental Conditions}{108}{}%
 \contentsline {section}{\numberline {5.2}CWEPR vs. \leavevmode {\color {black}p}EPR Signals in pDiTBuS}{108}{}%
